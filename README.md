@@ -1,5 +1,7 @@
 # healthstars replication package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23195076.svg)](https://doi.org/10.5281/zenodo.23195076)
+
 Replication package for *Stars Misaligned: Medicare Star Ratings And Exact
 Clustering* (Matthew D. Schwartz, 2026) and its online appendix. It holds the
 code, the verification records and the parsed public inputs behind every
@@ -83,6 +85,8 @@ keep their own terms; they are referenced by pin, not included.
 ## Citation
 
 Cite the article: M. D. Schwartz, "Stars Misaligned: Medicare Star Ratings
-And Exact Clustering" (2026). The archived copy of this package carries a
-Zenodo DOI, given on the paper's web page,
+And Exact Clustering" (2026). The archived copy of this package is
+M. D. Schwartz, healthstars replication package v1.0, Zenodo (2026),
+doi:10.5281/zenodo.23195076 (concept DOI for all versions:
+10.5281/zenodo.23195075). The paper's web page is
 https://bootloops.ai/summaries/health-stars.html.
