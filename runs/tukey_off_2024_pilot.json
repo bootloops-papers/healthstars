@@ -1,0 +1,21 @@
+{
+ "mode": "pilot",
+ "splits": [
+  [
+   "C01",
+   "ALL"
+  ],
+  [
+   "D08",
+   "MA-PD"
+  ]
+ ],
+ "n_rows": 32,
+ "n_errors": 0,
+ "integrity_tukey_on_vs_bank": {
+  "checked": 32,
+  "expected": 32,
+  "mismatches": [],
+  "pass": true
+ }
+}

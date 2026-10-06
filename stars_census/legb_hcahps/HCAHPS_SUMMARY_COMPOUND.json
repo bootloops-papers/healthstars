@@ -1,0 +1,76 @@
+{
+ "register": "HCAHPS Summary Star recomputed per hospital under the published and the exact-optimal per-measure stars (6-component simple average, normal rounding, Technical Notes pp. 4-5); the published-side recompute is checked against the published H_STAR_RATING column per refresh. Uses the five-refresh census in HCAHPS_CENSUS_ALLVINTAGES.json.",
+ "vintages": {
+  "2025-04-30": {
+   "n_hospitals_all8": 3174,
+   "published_side_recompute_matches_published_summary": "2917/3174",
+   "summary_star_changes": 288,
+   "migration": {
+    "2->1": 30,
+    "2->3": 6,
+    "3->2": 111,
+    "3->4": 49,
+    "4->3": 24,
+    "4->5": 65,
+    "5->4": 3
+   }
+  },
+  "2025-08-14": {
+   "n_hospitals_all8": 3176,
+   "published_side_recompute_matches_published_summary": "2945/3176",
+   "summary_star_changes": 368,
+   "migration": {
+    "1->2": 1,
+    "2->1": 35,
+    "2->3": 10,
+    "3->2": 168,
+    "3->4": 74,
+    "4->3": 17,
+    "4->5": 56,
+    "5->4": 7
+   }
+  },
+  "2025-11-26": {
+   "n_hospitals_all8": 3166,
+   "published_side_recompute_matches_published_summary": "2965/3166",
+   "summary_star_changes": 415,
+   "migration": {
+    "1->2": 4,
+    "2->1": 12,
+    "2->3": 58,
+    "3->2": 40,
+    "3->4": 165,
+    "4->3": 10,
+    "4->5": 126
+   }
+  },
+  "2026-02-25": {
+   "n_hospitals_all8": 3183,
+   "published_side_recompute_matches_published_summary": "3183/3183",
+   "summary_star_changes": 316,
+   "migration": {
+    "2->1": 18,
+    "2->3": 19,
+    "3->2": 60,
+    "3->4": 92,
+    "4->3": 16,
+    "4->5": 110,
+    "5->4": 1
+   }
+  },
+  "current-2026-05-13": {
+   "n_hospitals_all8": 3176,
+   "published_side_recompute_matches_published_summary": "3176/3176",
+   "summary_star_changes": 413,
+   "migration": {
+    "2->1": 41,
+    "2->3": 20,
+    "3->2": 100,
+    "3->4": 100,
+    "4->3": 16,
+    "4->5": 135,
+    "5->4": 1
+   }
+  }
+ }
+}

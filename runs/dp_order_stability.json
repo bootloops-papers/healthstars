@@ -1,0 +1,18 @@
+{
+ "register": "Order-stability of the two arms within the resampling groups across the 28 sampled input orderings (4 conventions + 24 uniform-random permutations, assumed mapping; splits erroring anywhere excluded, n=114). dp = exact optimizer within each of CMS's ten resampling groups, mean-averaged (the like-for-like construction); ward = the published-method replay. Finding: DP within the groups is about twice as order-stable as Ward within the groups (65 vs 20 of 114 splits fully invariant; 73.7% vs 41.4% of boundary cells) but not order-free; the withheld order still matters to the like-for-like construction, whose sampled answer is the ambiguity census (11 stable / 118 order-dependent). Derived entirely from stored records; no new computation.",
+ "generator": "src/dp_order_stability.py",
+ "inputs": [
+  "runs/enclosure_collapse_frontswap_refinal.json",
+  "runs/enclosure_collapse_frontswap_rperm_refinal.json"
+ ],
+ "results": {
+  "n_realizations": 28,
+  "n_splits": 114,
+  "dp_vector_invariant_splits": 65,
+  "dp_cells_invariant": 334,
+  "dp_cells_total": 456,
+  "ward_vector_invariant_splits": 20,
+  "ward_cells_invariant": 187,
+  "ward_cells_total": 456
+ }
+}

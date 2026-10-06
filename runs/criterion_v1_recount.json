@@ -1,0 +1,2389 @@
+{
+ "verdict": "CONFIRMED",
+ "produced_by": "independent recount (own delta + aggregation-application loops; rate_contract direct; criterion_census.py and enclosure_aggregate NOT used)",
+ "started_utc": "2026-08-24T14:00:49.522783+00:00",
+ "finished_utc": "2026-08-24T14:00:54.377525+00:00",
+ "mismatches": [],
+ "degenerate_splits": [
+  {
+   "key": [
+    "2026",
+    "D07",
+    "MA-PD"
+   ],
+   "name": "MPF Price Accuracy",
+   "n_dp_cutpoints": 0,
+   "higher": true,
+   "note": "empty/short dp boundary list; criterion star = 1 (higher-is-better) for every pool contract"
+  }
+ ],
+ "counts": {
+  "n_splits": 117,
+  "n_star_cells_moved": 7286,
+  "n_flips": 99,
+  "n_qbp_relevant": 91,
+  "n_up_qbp": 11,
+  "n_down_qbp": 80,
+  "n_up_all": 18,
+  "n_down_all": 81,
+  "total_enrollment": 5257591,
+  "gross_total_3yr_usd": {
+   "lo": 2103036400,
+   "mid": 2628795500,
+   "hi": 3154554600
+  },
+  "per_payment_year": {
+   "CY2025": {
+    "enrollment": 2640725,
+    "n_contracts": 24,
+    "gross_lo": 1056290000,
+    "gross_mid": 1320362500,
+    "gross_hi": 1584435000
+   },
+   "CY2026": {
+    "enrollment": 1262159,
+    "n_contracts": 36,
+    "gross_lo": 504863600,
+    "gross_mid": 631079500,
+    "gross_hi": 757295400
+   },
+   "CY2027": {
+    "enrollment": 1354707,
+    "n_contracts": 31,
+    "gross_lo": 541882800,
+    "gross_mid": 677353500,
+    "gross_hi": 812824200
+   }
+  },
+  "flips_by_year": {
+   "2024": {
+    "UP": 6,
+    "DOWN": 22
+   },
+   "2025": {
+    "DOWN": 31,
+    "UP": 8
+   },
+   "2026": {
+    "DOWN": 28,
+    "UP": 4
+   }
+  }
+ },
+ "top3_chains": {
+  "2024 H0524": {
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "baseline_rounded": "4",
+   "baseline_raw": "328866803/87000000",
+   "baseline_raw_float": 3.780078195402299,
+   "criterion_rounded": "7/2",
+   "criterion_raw": "348851493/97000000",
+   "criterion_raw_float": 3.596407144329897,
+   "flip": true,
+   "direction": "DOWN",
+   "n_measures_moved": 6,
+   "measures": [
+    {
+     "measure": "C10",
+     "name": "Diabetes Care \u2013 Blood Sugar Controlled",
+     "org_split": "ALL",
+     "higher_is_better": true,
+     "published_star": 5,
+     "criterion_star": 4,
+     "criterion_star_no_guardrail": 4,
+     "dp_raw_boundaries": [
+      "60",
+      "74",
+      "82",
+      "88"
+     ],
+     "guardrailed_boundaries": [
+      "44",
+      "67",
+      "80",
+      "88"
+     ],
+     "final_rounded_boundaries": [
+      "44",
+      "67",
+      "80",
+      "88"
+     ],
+     "published_boundaries": [
+      "58",
+      "72",
+      "80",
+      "87"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "measure": "C16",
+     "name": "Statin Therapy for Patients with Cardiovascular Disease",
+     "org_split": "ALL",
+     "higher_is_better": true,
+     "published_star": 5,
+     "criterion_star": 4,
+     "criterion_star_no_guardrail": 4,
+     "dp_raw_boundaries": [
+      "81",
+      "85",
+      "88",
+      "92"
+     ],
+     "guardrailed_boundaries": [
+      "80",
+      "85",
+      "88",
+      "92"
+     ],
+     "final_rounded_boundaries": [
+      "80",
+      "85",
+      "88",
+      "92"
+     ],
+     "published_boundaries": [
+      "79",
+      "84",
+      "86",
+      "90"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": [
+      0
+     ]
+    },
+    {
+     "measure": "C29",
+     "name": "Reviewing Appeals Decisions",
+     "org_split": "ALL",
+     "higher_is_better": true,
+     "published_star": 4,
+     "criterion_star": 5,
+     "criterion_star_no_guardrail": 5,
+     "dp_raw_boundaries": [
+      "85",
+      "90",
+      "95",
+      "98"
+     ],
+     "guardrailed_boundaries": [
+      "73",
+      "88",
+      "95",
+      "98"
+     ],
+     "final_rounded_boundaries": [
+      "73",
+      "88",
+      "95",
+      "98"
+     ],
+     "published_boundaries": [
+      "87",
+      "92",
+      "96",
+      "100"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": [
+      0,
+      1
+     ]
+    },
+    {
+     "measure": "D08",
+     "name": "Medication Adherence for Diabetes Medications",
+     "org_split": "MA-PD",
+     "higher_is_better": true,
+     "published_star": 5,
+     "criterion_star": 4,
+     "criterion_star_no_guardrail": 4,
+     "dp_raw_boundaries": [
+      "81",
+      "85",
+      "88",
+      "91"
+     ],
+     "guardrailed_boundaries": [
+      "81",
+      "85",
+      "88",
+      "91"
+     ],
+     "final_rounded_boundaries": [
+      "81",
+      "85",
+      "88",
+      "91"
+     ],
+     "published_boundaries": [
+      "80",
+      "84",
+      "88",
+      "90"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": []
+    },
+    {
+     "measure": "D10",
+     "name": "Medication Adherence for Cholesterol (Statins)",
+     "org_split": "MA-PD",
+     "higher_is_better": true,
+     "published_star": 5,
+     "criterion_star": 4,
+     "criterion_star_no_guardrail": 4,
+     "dp_raw_boundaries": [
+      "82",
+      "86",
+      "89",
+      "92"
+     ],
+     "guardrailed_boundaries": [
+      "82",
+      "86",
+      "89",
+      "92"
+     ],
+     "final_rounded_boundaries": [
+      "82",
+      "86",
+      "89",
+      "92"
+     ],
+     "published_boundaries": [
+      "82",
+      "86",
+      "88",
+      "91"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": []
+    },
+    {
+     "measure": "D11",
+     "name": "MTM Program Completion Rate for CMR",
+     "org_split": "MA-PD",
+     "higher_is_better": true,
+     "published_star": 4,
+     "criterion_star": 5,
+     "criterion_star_no_guardrail": 5,
+     "dp_raw_boundaries": [
+      "67",
+      "78",
+      "85",
+      "91"
+     ],
+     "guardrailed_boundaries": [
+      "52",
+      "72",
+      "85",
+      "91"
+     ],
+     "final_rounded_boundaries": [
+      "52",
+      "72",
+      "85",
+      "91"
+     ],
+     "published_boundaries": [
+      "67",
+      "77",
+      "85",
+      "92"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  "2024 H8768": {
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "baseline_rounded": "4",
+   "baseline_raw": "115755601/29000000",
+   "baseline_raw_float": 3.991572448275862,
+   "criterion_rounded": "7/2",
+   "criterion_raw": "106955601/29000000",
+   "criterion_raw_float": 3.688124172413793,
+   "flip": true,
+   "direction": "DOWN",
+   "n_measures_moved": 7,
+   "measures": [
+    {
+     "measure": "C12",
+     "name": "Reducing the Risk of Falling",
+     "org_split": "ALL",
+     "higher_is_better": true,
+     "published_star": 3,
+     "criterion_star": 2,
+     "criterion_star_no_guardrail": 2,
+     "dp_raw_boundaries": [
+      "50",
+      "55",
+      "61",
+      "70"
+     ],
+     "guardrailed_boundaries": [
+      "50",
+      "55",
+      "61",
+      "70"
+     ],
+     "final_rounded_boundaries": [
+      "50",
+      "55",
+      "61",
+      "70"
+     ],
+     "published_boundaries": [
+      "47",
+      "53",
+      "60",
+      "70"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": []
+    },
+    {
+     "measure": "C16",
+     "name": "Statin Therapy for Patients with Cardiovascular Disease",
+     "org_split": "ALL",
+     "higher_is_better": true,
+     "published_star": 4,
+     "criterion_star": 3,
+     "criterion_star_no_guardrail": 3,
+     "dp_raw_boundaries": [
+      "81",
+      "85",
+      "88",
+      "92"
+     ],
+     "guardrailed_boundaries": [
+      "80",
+      "85",
+      "88",
+      "92"
+     ],
+     "final_rounded_boundaries": [
+      "80",
+      "85",
+      "88",
+      "92"
+     ],
+     "published_boundaries": [
+      "79",
+      "84",
+      "86",
+      "90"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": [
+      0
+     ]
+    },
+    {
+     "measure": "C26",
+     "name": "Members Choosing to Leave the Plan",
+     "org_split": "ALL",
+     "higher_is_better": false,
+     "published_star": 4,
+     "criterion_star": 3,
+     "criterion_star_no_guardrail": 3,
+     "dp_raw_boundaries": [
+      "8",
+      "16",
+      "26",
+      "40"
+     ],
+     "guardrailed_boundaries": [
+      "8",
+      "16",
+      "26",
+      "40"
+     ],
+     "final_rounded_boundaries": [
+      "8",
+      "16",
+      "26",
+      "40"
+     ],
+     "published_boundaries": [
+      "10",
+      "18",
+      "29",
+      "41"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": []
+    },
+    {
+     "measure": "C29",
+     "name": "Reviewing Appeals Decisions",
+     "org_split": "ALL",
+     "higher_is_better": true,
+     "published_star": 4,
+     "criterion_star": 5,
+     "criterion_star_no_guardrail": 5,
+     "dp_raw_boundaries": [
+      "85",
+      "90",
+      "95",
+      "98"
+     ],
+     "guardrailed_boundaries": [
+      "73",
+      "88",
+      "95",
+      "98"
+     ],
+     "final_rounded_boundaries": [
+      "73",
+      "88",
+      "95",
+      "98"
+     ],
+     "published_boundaries": [
+      "87",
+      "92",
+      "96",
+      "100"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": [
+      0,
+      1
+     ]
+    },
+    {
+     "measure": "D01",
+     "name": "Call Center \u2013 Foreign Language Interpreter and TTY Availability",
+     "org_split": "MA-PD",
+     "higher_is_better": true,
+     "published_star": 5,
+     "criterion_star": 4,
+     "criterion_star_no_guardrail": 4,
+     "dp_raw_boundaries": [
+      "86",
+      "92",
+      "97",
+      "100"
+     ],
+     "guardrailed_boundaries": [
+      "41",
+      "64",
+      "88",
+      "99"
+     ],
+     "final_rounded_boundaries": [
+      "41",
+      "64",
+      "88",
+      "99"
+     ],
+     "published_boundaries": [
+      "73",
+      "86",
+      "96",
+      "99"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": [
+      0,
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "measure": "D03",
+     "name": "Members Choosing to Leave the Plan",
+     "org_split": "MA-PD",
+     "higher_is_better": false,
+     "published_star": 4,
+     "criterion_star": 3,
+     "criterion_star_no_guardrail": 3,
+     "dp_raw_boundaries": [
+      "8",
+      "16",
+      "26",
+      "40"
+     ],
+     "guardrailed_boundaries": [
+      "8",
+      "16",
+      "26",
+      "40"
+     ],
+     "final_rounded_boundaries": [
+      "8",
+      "16",
+      "26",
+      "40"
+     ],
+     "published_boundaries": [
+      "10",
+      "18",
+      "29",
+      "41"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": []
+    },
+    {
+     "measure": "D10",
+     "name": "Medication Adherence for Cholesterol (Statins)",
+     "org_split": "MA-PD",
+     "higher_is_better": true,
+     "published_star": 4,
+     "criterion_star": 3,
+     "criterion_star_no_guardrail": 3,
+     "dp_raw_boundaries": [
+      "82",
+      "86",
+      "89",
+      "92"
+     ],
+     "guardrailed_boundaries": [
+      "82",
+      "86",
+      "89",
+      "92"
+     ],
+     "final_rounded_boundaries": [
+      "82",
+      "86",
+      "89",
+      "92"
+     ],
+     "published_boundaries": [
+      "82",
+      "86",
+      "88",
+      "91"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": []
+    }
+   ]
+  },
+  "2026 H2406": {
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "baseline_rounded": "4",
+   "baseline_raw": "6455291/1625000",
+   "baseline_raw_float": 3.9724867692307693,
+   "criterion_rounded": "7/2",
+   "criterion_raw": "1326221/375000",
+   "criterion_raw_float": 3.536589333333333,
+   "flip": true,
+   "direction": "DOWN",
+   "n_measures_moved": 13,
+   "measures": [
+    {
+     "measure": "C06",
+     "name": "Monitoring Physical Activity",
+     "org_split": "ALL",
+     "higher_is_better": true,
+     "published_star": 4,
+     "criterion_star": 3,
+     "criterion_star_no_guardrail": 3,
+     "dp_raw_boundaries": [
+      "42",
+      "48",
+      "53",
+      "60"
+     ],
+     "guardrailed_boundaries": [
+      "42",
+      "48",
+      "53",
+      "60"
+     ],
+     "final_rounded_boundaries": [
+      "42",
+      "48",
+      "53",
+      "60"
+     ],
+     "published_boundaries": [
+      "41",
+      "47",
+      "53",
+      "59"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": []
+    },
+    {
+     "measure": "C09",
+     "name": "Care for Older Adults \u2013 Pain Assessment",
+     "org_split": "ALL",
+     "higher_is_better": true,
+     "published_star": 5,
+     "criterion_star": 4,
+     "criterion_star_no_guardrail": 4,
+     "dp_raw_boundaries": [
+      "80",
+      "88",
+      "94",
+      "98"
+     ],
+     "guardrailed_boundaries": [
+      "65",
+      "86",
+      "94",
+      "98"
+     ],
+     "final_rounded_boundaries": [
+      "65",
+      "86",
+      "94",
+      "98"
+     ],
+     "published_boundaries": [
+      "65",
+      "86",
+      "95",
+      "99"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": [
+      0,
+      1
+     ]
+    },
+    {
+     "measure": "C13",
+     "name": "Kidney Health Evaluation for Patients with Diabetes",
+     "org_split": "ALL",
+     "higher_is_better": true,
+     "published_star": 4,
+     "criterion_star": 3,
+     "criterion_star_no_guardrail": 3,
+     "dp_raw_boundaries": [
+      "37",
+      "54",
+      "65",
+      "76"
+     ],
+     "guardrailed_boundaries": [
+      "37",
+      "54",
+      "65",
+      "76"
+     ],
+     "final_rounded_boundaries": [
+      "37",
+      "54",
+      "65",
+      "76"
+     ],
+     "published_boundaries": [
+      "34",
+      "51",
+      "62",
+      "74"
+     ],
+     "guardrail": "exempt-new",
+     "boundary_cells_clamped": []
+    },
+    {
+     "measure": "C17",
+     "name": "Medication Reconciliation Post-Discharge",
+     "org_split": "ALL",
+     "higher_is_better": true,
+     "published_star": 3,
+     "criterion_star": 4,
+     "criterion_star_no_guardrail": 4,
+     "dp_raw_boundaries": [
+      "36",
+      "59",
+      "73",
+      "86"
+     ],
+     "guardrailed_boundaries": [
+      "37",
+      "59",
+      "73",
+      "86"
+     ],
+     "final_rounded_boundaries": [
+      "37",
+      "59",
+      "73",
+      "86"
+     ],
+     "published_boundaries": [
+      "40",
+      "60",
+      "74",
+      "87"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": [
+      0
+     ]
+    },
+    {
+     "measure": "C18",
+     "name": "Plan All-Cause Readmissions",
+     "org_split": "ALL",
+     "higher_is_better": false,
+     "published_star": 3,
+     "criterion_star": 2,
+     "criterion_star_no_guardrail": 2,
+     "dp_raw_boundaries": [
+      "7",
+      "9",
+      "10",
+      "12"
+     ],
+     "guardrailed_boundaries": [
+      "7",
+      "9",
+      "10",
+      "12"
+     ],
+     "final_rounded_boundaries": [
+      "7",
+      "9",
+      "10",
+      "12"
+     ],
+     "published_boundaries": [
+      "7",
+      "9",
+      "10",
+      "12"
+     ],
+     "guardrail": "exempt-new",
+     "boundary_cells_clamped": []
+    },
+    {
+     "measure": "C19",
+     "name": "Statin Therapy for Patients with Cardiovascular Disease",
+     "org_split": "ALL",
+     "higher_is_better": true,
+     "published_star": 3,
+     "criterion_star": 2,
+     "criterion_star_no_guardrail": 2,
+     "dp_raw_boundaries": [
+      "82",
+      "86",
+      "89",
+      "92"
+     ],
+     "guardrailed_boundaries": [
+      "82",
+      "86",
+      "89",
+      "92"
+     ],
+     "final_rounded_boundaries": [
+      "82",
+      "86",
+      "89",
+      "92"
+     ],
+     "published_boundaries": [
+      "81",
+      "85",
+      "88",
+      "91"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": []
+    },
+    {
+     "measure": "C29",
+     "name": "Members Choosing to Leave the Plan",
+     "org_split": "ALL",
+     "higher_is_better": false,
+     "published_star": 4,
+     "criterion_star": 3,
+     "criterion_star_no_guardrail": 3,
+     "dp_raw_boundaries": [
+      "7",
+      "14",
+      "23",
+      "36"
+     ],
+     "guardrailed_boundaries": [
+      "7",
+      "14",
+      "23",
+      "36"
+     ],
+     "final_rounded_boundaries": [
+      "7",
+      "14",
+      "23",
+      "36"
+     ],
+     "published_boundaries": [
+      "8",
+      "17",
+      "28",
+      "39"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": []
+    },
+    {
+     "measure": "C32",
+     "name": "Reviewing Appeals Decisions",
+     "org_split": "ALL",
+     "higher_is_better": true,
+     "published_star": 4,
+     "criterion_star": 5,
+     "criterion_star_no_guardrail": 5,
+     "dp_raw_boundaries": [
+      "90",
+      "94",
+      "97",
+      "99"
+     ],
+     "guardrailed_boundaries": [
+      "83",
+      "94",
+      "97",
+      "99"
+     ],
+     "final_rounded_boundaries": [
+      "83",
+      "94",
+      "97",
+      "99"
+     ],
+     "published_boundaries": [
+      "83",
+      "96",
+      "98",
+      "100"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": [
+      0
+     ]
+    },
+    {
+     "measure": "D03",
+     "name": "Members Choosing to Leave the Plan",
+     "org_split": "MA-PD",
+     "higher_is_better": false,
+     "published_star": 4,
+     "criterion_star": 3,
+     "criterion_star_no_guardrail": 3,
+     "dp_raw_boundaries": [
+      "7",
+      "14",
+      "23",
+      "36"
+     ],
+     "guardrailed_boundaries": [
+      "7",
+      "14",
+      "23",
+      "36"
+     ],
+     "final_rounded_boundaries": [
+      "7",
+      "14",
+      "23",
+      "36"
+     ],
+     "published_boundaries": [
+      "8",
+      "17",
+      "28",
+      "39"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": []
+    },
+    {
+     "measure": "D07",
+     "name": "MPF Price Accuracy",
+     "org_split": "MA-PD",
+     "higher_is_better": true,
+     "published_star": 5,
+     "criterion_star": 1,
+     "criterion_star_no_guardrail": 1,
+     "dp_raw_boundaries": [],
+     "guardrailed_boundaries": [],
+     "final_rounded_boundaries": [],
+     "published_boundaries": [
+      "92",
+      "93",
+      "94",
+      "99"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": []
+    },
+    {
+     "measure": "D10",
+     "name": "Medication Adherence for Cholesterol (Statins)",
+     "org_split": "MA-PD",
+     "higher_is_better": true,
+     "published_star": 4,
+     "criterion_star": 3,
+     "criterion_star_no_guardrail": 3,
+     "dp_raw_boundaries": [
+      "83",
+      "87",
+      "90",
+      "93"
+     ],
+     "guardrailed_boundaries": [
+      "83",
+      "87",
+      "90",
+      "93"
+     ],
+     "final_rounded_boundaries": [
+      "83",
+      "87",
+      "90",
+      "93"
+     ],
+     "published_boundaries": [
+      "84",
+      "88",
+      "90",
+      "93"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": []
+    },
+    {
+     "measure": "D11",
+     "name": "MTM Program Completion Rate for CMR",
+     "org_split": "MA-PD",
+     "higher_is_better": true,
+     "published_star": 4,
+     "criterion_star": 3,
+     "criterion_star_no_guardrail": 3,
+     "dp_raw_boundaries": [
+      "81",
+      "88",
+      "92",
+      "96"
+     ],
+     "guardrailed_boundaries": [
+      "62",
+      "82",
+      "92",
+      "96"
+     ],
+     "final_rounded_boundaries": [
+      "62",
+      "82",
+      "92",
+      "96"
+     ],
+     "published_boundaries": [
+      "62",
+      "82",
+      "91",
+      "96"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": [
+      0,
+      1
+     ]
+    },
+    {
+     "measure": "D12",
+     "name": "Statin Use in Persons with Diabetes (SUPD)",
+     "org_split": "MA-PD",
+     "higher_is_better": true,
+     "published_star": 3,
+     "criterion_star": 2,
+     "criterion_star_no_guardrail": 2,
+     "dp_raw_boundaries": [
+      "82",
+      "86",
+      "89",
+      "93"
+     ],
+     "guardrailed_boundaries": [
+      "82",
+      "86",
+      "89",
+      "93"
+     ],
+     "final_rounded_boundaries": [
+      "82",
+      "86",
+      "89",
+      "93"
+     ],
+     "published_boundaries": [
+      "81",
+      "85",
+      "89",
+      "93"
+     ],
+     "guardrail": "applied",
+     "boundary_cells_clamped": []
+    }
+   ],
+   "involves_degenerate_D07": true,
+   "survives_without_degenerate_D07_delta": true,
+   "rating_without_degenerate_D07": "7/2",
+   "raw_without_degenerate_D07": 3.589922666666667
+  }
+ },
+ "direction_mechanism": {
+  "boundary_cells_total": 464,
+  "criterion_harder_than_published": 104,
+  "criterion_easier_than_published": 187,
+  "criterion_equal_to_published": 173,
+  "by_year": {
+   "2024": {
+    "easier": 82,
+    "harder": 31,
+    "equal": 47
+   },
+   "2025": {
+    "easier": 53,
+    "equal": 64,
+    "harder": 31
+   },
+   "2026": {
+    "equal": 62,
+    "easier": 52,
+    "harder": 42
+   }
+  },
+  "by_family": {
+   "PartC": {
+    "easier": 111,
+    "harder": 61,
+    "equal": 104
+   },
+   "PartD": {
+    "easier": 76,
+    "equal": 69,
+    "harder": 43
+   }
+  },
+  "star_delta_cells_direction": {
+   "down": 4151,
+   "up": 3135
+  },
+  "star_delta_cells_direction_excl_degenerate_2026_D07": {
+   "down": 3588,
+   "up": 3135
+  },
+  "net_weighted_shock_by_rating_band": {
+   "2024/3.5": {
+    "n": 174,
+    "neg": 109,
+    "pos": 37,
+    "zero": 28
+   },
+   "2024/ge4": {
+    "n": 381,
+    "zero": 68,
+    "neg": 244,
+    "pos": 69
+   },
+   "2024/lt3.5": {
+    "n": 226,
+    "pos": 73,
+    "neg": 99,
+    "zero": 54
+   },
+   "2025/3.5": {
+    "n": 216,
+    "pos": 91,
+    "neg": 103,
+    "zero": 22
+   },
+   "2025/ge4": {
+    "n": 298,
+    "zero": 53,
+    "pos": 86,
+    "neg": 159
+   },
+   "2025/lt3.5": {
+    "n": 201,
+    "pos": 94,
+    "neg": 75,
+    "zero": 32
+   },
+   "2026/3.5": {
+    "n": 210,
+    "pos": 29,
+    "zero": 24,
+    "neg": 157
+   },
+   "2026/ge4": {
+    "n": 275,
+    "zero": 42,
+    "pos": 45,
+    "neg": 188
+   },
+   "2026/lt3.5": {
+    "n": 199,
+    "pos": 31,
+    "neg": 139,
+    "zero": 29
+   }
+  },
+  "reading": "Down-dominance does NOT come from systematically harder criterion thresholds: only 104/464 boundary cells are harder vs 187 easier (173 equal), and star-delta cells are near-balanced (4151 down vs 3135 up; 3588 vs 3135 excluding the degenerate 2026 D07 MA-PD split). The asymmetry is produced at aggregation: (1) net weighted per-contract shocks skew negative among >=4.0-rated contract-years in EVERY year (2024: 244 neg / 69 pos; 2025: 159/86; 2026: 188/45), i.e. the down-moves concentrate on the high-rated contracts' measure profiles while up-moves concentrate in pools of lower-rated contracts; (2) the degenerate 2026 D07 MA-PD split (empty boundary list -> every contract 5->1) supplies a large uniform negative shock in 2026; (3) an UP flip must traverse from a median raw of ~0.27-0.31 below the 3.75 line, while DOWN flips harvest the tail of 4.0-rated contracts sitting just above it."
+ },
+ "degenerate_D07_sensitivity_2026": {
+  "n_2026_flips": 32,
+  "n_involving_degenerate_D07": 29,
+  "n_surviving_without_D07_delta": 14,
+  "rows": [
+   {
+    "contract_id": "H0174",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": true,
+    "rating_without_D07": "7/2",
+    "raw_without_D07": 3.6527395945945944
+   },
+   {
+    "contract_id": "H0628",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.9322501641791043
+   },
+   {
+    "contract_id": "H0885",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.843361783783784
+   },
+   {
+    "contract_id": "H0978",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": true,
+    "rating_without_D07": "7/2",
+    "raw_without_D07": 3.705273923076923
+   },
+   {
+    "contract_id": "H1846",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.8758684347826087
+   },
+   {
+    "contract_id": "H1994",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": true,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.9207720298507462
+   },
+   {
+    "contract_id": "H1997",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.8639258260869567
+   },
+   {
+    "contract_id": "H2225",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.7506076493506493
+   },
+   {
+    "contract_id": "H2406",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": true,
+    "rating_without_D07": "7/2",
+    "raw_without_D07": 3.589922666666667
+   },
+   {
+    "contract_id": "H2416",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.7845903333333335
+   },
+   {
+    "contract_id": "H2425",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.7520506507936506
+   },
+   {
+    "contract_id": "H2462",
+    "involves_degenerate_D07": false,
+    "survives_without_D07_delta": true
+   },
+   {
+    "contract_id": "H2962",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": true,
+    "rating_without_D07": "7/2",
+    "raw_without_D07": 3.476228972972973
+   },
+   {
+    "contract_id": "H3041",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.8463762068965517
+   },
+   {
+    "contract_id": "H3794",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.8070534615384615
+   },
+   {
+    "contract_id": "H3800",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": true,
+    "rating_without_D07": "7/2",
+    "raw_without_D07": 3.6921660909090908
+   },
+   {
+    "contract_id": "H4152",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.7986149104477613
+   },
+   {
+    "contract_id": "H4514",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": true,
+    "rating_without_D07": "7/2",
+    "raw_without_D07": 3.5516514935064936
+   },
+   {
+    "contract_id": "H4808",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.7573543606557376
+   },
+   {
+    "contract_id": "H5262",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.7680812835820894
+   },
+   {
+    "contract_id": "H6378",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "9/2",
+    "raw_without_D07": 4.545515
+   },
+   {
+    "contract_id": "H7151",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.852123333333333
+   },
+   {
+    "contract_id": "H7326",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.830911212121212
+   },
+   {
+    "contract_id": "H7379",
+    "involves_degenerate_D07": false,
+    "survives_without_D07_delta": true
+   },
+   {
+    "contract_id": "H8010",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": true,
+    "rating_without_D07": "7/2",
+    "raw_without_D07": 3.7246723529411763
+   },
+   {
+    "contract_id": "H8095",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": true,
+    "rating_without_D07": "7/2",
+    "raw_without_D07": 3.559578
+   },
+   {
+    "contract_id": "H8166",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": true,
+    "rating_without_D07": "7/2",
+    "raw_without_D07": 3.5933808169014085
+   },
+   {
+    "contract_id": "H8902",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.878256
+   },
+   {
+    "contract_id": "H9001",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": true,
+    "rating_without_D07": "7/2",
+    "raw_without_D07": 3.6519046486486486
+   },
+   {
+    "contract_id": "H9808",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.880488
+   },
+   {
+    "contract_id": "R2604",
+    "involves_degenerate_D07": true,
+    "survives_without_D07_delta": false,
+    "rating_without_D07": "4",
+    "raw_without_D07": 3.7902185714285714
+   },
+   {
+    "contract_id": "S4802",
+    "involves_degenerate_D07": false,
+    "survives_without_D07_delta": true
+   }
+  ],
+  "note": "2026 D07 MA-PD (MPF Price Accuracy) stored k=1 with an EMPTY dp_cutpoints list (all 336 trimmed scores identical, ssq=0; dp_n_optima==1 vacuously). criterion_census.py's star rule then assigns 1 star (higher-is-better, zero boundaries) to every pool contract \u2014 a -4 shock vs published 5s, the receipt's largest split (563 delta cells). Flips that do not survive with this measure held at published stars depend entirely on that degenerate treatment."
+ },
+ "guardrail_dependent_flips": {
+  "n_flips_with_any_guardrail_clamped_measure": 73,
+  "n_flips_where_a_moved_star_differs_without_guardrail": 61,
+  "n_flips_not_surviving_without_guardrail": 8,
+  "flips_not_surviving_without_guardrail": [
+   {
+    "year": "2024",
+    "contract_id": "H0473",
+    "direction": "UP"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H1304",
+    "direction": "UP"
+   },
+   {
+    "year": "2024",
+    "contract_id": "S4802",
+    "direction": "UP"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H3347",
+    "direction": "UP"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H4227",
+    "direction": "UP"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H5273",
+    "direction": "UP"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H7379",
+    "direction": "UP"
+   },
+   {
+    "year": "2026",
+    "contract_id": "S4802",
+    "direction": "UP"
+   }
+  ],
+  "rows": [
+   {
+    "year": "2024",
+    "contract_id": "H0473",
+    "guardrail_touched_measures": [
+     "C09",
+     "C29",
+     "D07"
+    ],
+    "star_differs_without_guardrail": [
+     "C10",
+     "D07"
+    ]
+   },
+   {
+    "year": "2024",
+    "contract_id": "H0524",
+    "guardrail_touched_measures": [
+     "C10",
+     "C16",
+     "C29",
+     "D11"
+    ],
+    "star_differs_without_guardrail": [
+     "C30"
+    ]
+   },
+   {
+    "year": "2024",
+    "contract_id": "H0738",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "D01"
+    ]
+   },
+   {
+    "year": "2024",
+    "contract_id": "H1304",
+    "guardrail_touched_measures": [
+     "C01",
+     "D07",
+     "D11"
+    ],
+    "star_differs_without_guardrail": [
+     "D07",
+     "D11"
+    ]
+   },
+   {
+    "year": "2024",
+    "contract_id": "H1609",
+    "guardrail_touched_measures": [
+     "C01",
+     "C09",
+     "C16",
+     "C29",
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C08"
+    ]
+   },
+   {
+    "year": "2024",
+    "contract_id": "H1969",
+    "guardrail_touched_measures": [
+     "C16"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2024",
+    "contract_id": "H2185",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2024",
+    "contract_id": "H2816",
+    "guardrail_touched_measures": [
+     "C01"
+    ],
+    "star_differs_without_guardrail": [
+     "C10"
+    ]
+   },
+   {
+    "year": "2024",
+    "contract_id": "H3379",
+    "guardrail_touched_measures": [
+     "C01",
+     "C06",
+     "C16",
+     "C25",
+     "D01",
+     "D02"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2024",
+    "contract_id": "H3805",
+    "guardrail_touched_measures": [
+     "C10",
+     "C16"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2024",
+    "contract_id": "H3815",
+    "guardrail_touched_measures": [
+     "C16",
+     "D01"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2024",
+    "contract_id": "H3828",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C30"
+    ]
+   },
+   {
+    "year": "2024",
+    "contract_id": "H4739",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "D01"
+    ]
+   },
+   {
+    "year": "2024",
+    "contract_id": "H5900",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C10"
+    ]
+   },
+   {
+    "year": "2024",
+    "contract_id": "H6378",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "D01"
+    ]
+   },
+   {
+    "year": "2024",
+    "contract_id": "H6408",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C30"
+    ]
+   },
+   {
+    "year": "2024",
+    "contract_id": "H6502",
+    "guardrail_touched_measures": [
+     "C08",
+     "C16"
+    ],
+    "star_differs_without_guardrail": [
+     "C14",
+     "C29",
+     "C30",
+     "D01"
+    ]
+   },
+   {
+    "year": "2024",
+    "contract_id": "H6988",
+    "guardrail_touched_measures": [
+     "C10"
+    ],
+    "star_differs_without_guardrail": [
+     "C25",
+     "C29",
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "year": "2024",
+    "contract_id": "H8547",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C25",
+     "D02"
+    ]
+   },
+   {
+    "year": "2024",
+    "contract_id": "H8768",
+    "guardrail_touched_measures": [
+     "C16",
+     "C29",
+     "D01"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2024",
+    "contract_id": "H8998",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C30"
+    ]
+   },
+   {
+    "year": "2024",
+    "contract_id": "H9904",
+    "guardrail_touched_measures": [
+     "C09",
+     "D01"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2024",
+    "contract_id": "R0759",
+    "guardrail_touched_measures": [
+     "C06",
+     "C07",
+     "D01",
+     "D07"
+    ],
+    "star_differs_without_guardrail": [
+     "C09",
+     "C16"
+    ]
+   },
+   {
+    "year": "2024",
+    "contract_id": "S2468",
+    "guardrail_touched_measures": [
+     "D02"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2024",
+    "contract_id": "S4802",
+    "guardrail_touched_measures": [
+     "D02",
+     "D07"
+    ],
+    "star_differs_without_guardrail": [
+     "D02",
+     "D07"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H0169",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C10"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H1277",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C30"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H1278",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C14"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H1280",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2025",
+    "contract_id": "H2322",
+    "guardrail_touched_measures": [
+     "C09",
+     "D11"
+    ],
+    "star_differs_without_guardrail": [
+     "C30",
+     "D01"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H2422",
+    "guardrail_touched_measures": [
+     "C07",
+     "D11"
+    ],
+    "star_differs_without_guardrail": [
+     "C06",
+     "C30"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H2923",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C30"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H3041",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C30"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H3551",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2025",
+    "contract_id": "H3794",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2025",
+    "contract_id": "H3805",
+    "guardrail_touched_measures": [
+     "C09",
+     "D01"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2025",
+    "contract_id": "H3828",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C30"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H4004",
+    "guardrail_touched_measures": [
+     "C10",
+     "C29"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2025",
+    "contract_id": "H4620",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C30"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H5211",
+    "guardrail_touched_measures": [
+     "C09"
+    ],
+    "star_differs_without_guardrail": [
+     "C30"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H5262",
+    "guardrail_touched_measures": [
+     "C09"
+    ],
+    "star_differs_without_guardrail": [
+     "C30",
+     "D01",
+     "D11"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H5322",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C06"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H5591",
+    "guardrail_touched_measures": [
+     "C09",
+     "C10"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2025",
+    "contract_id": "H6018",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C30"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H6706",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2025",
+    "contract_id": "H6813",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C30"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H6847",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C30"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H6852",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C30"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H7605",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C25",
+     "C30",
+     "D02"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H8189",
+    "guardrail_touched_measures": [
+     "C10",
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C25",
+     "D02"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H9179",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C30"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H9589",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C30"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "H9909",
+    "guardrail_touched_measures": [
+     "C10"
+    ],
+    "star_differs_without_guardrail": [
+     "C30",
+     "D01"
+    ]
+   },
+   {
+    "year": "2025",
+    "contract_id": "S5660",
+    "guardrail_touched_measures": [
+     "D02"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2025",
+    "contract_id": "S5877",
+    "guardrail_touched_measures": [
+     "D11"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2026",
+    "contract_id": "H1994",
+    "guardrail_touched_measures": [
+     "C32"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2026",
+    "contract_id": "H2225",
+    "guardrail_touched_measures": [
+     "C09"
+    ],
+    "star_differs_without_guardrail": [
+     "D01"
+    ]
+   },
+   {
+    "year": "2026",
+    "contract_id": "H2406",
+    "guardrail_touched_measures": [
+     "C09",
+     "C17",
+     "C32",
+     "D11"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2026",
+    "contract_id": "H2416",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2026",
+    "contract_id": "H2425",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "D11"
+    ]
+   },
+   {
+    "year": "2026",
+    "contract_id": "H2462",
+    "guardrail_touched_measures": [
+     "C01"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2026",
+    "contract_id": "H2962",
+    "guardrail_touched_measures": [
+     "C32",
+     "D11"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2026",
+    "contract_id": "H3794",
+    "guardrail_touched_measures": [
+     "C09"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2026",
+    "contract_id": "H3800",
+    "guardrail_touched_measures": [
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C33"
+    ]
+   },
+   {
+    "year": "2026",
+    "contract_id": "H4152",
+    "guardrail_touched_measures": [
+     "D11"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2026",
+    "contract_id": "H4514",
+    "guardrail_touched_measures": [
+     "C31"
+    ],
+    "star_differs_without_guardrail": [
+     "C28",
+     "D02"
+    ]
+   },
+   {
+    "year": "2026",
+    "contract_id": "H5262",
+    "guardrail_touched_measures": [
+     "C01",
+     "C09"
+    ],
+    "star_differs_without_guardrail": [
+     "C08"
+    ]
+   },
+   {
+    "year": "2026",
+    "contract_id": "H7151",
+    "guardrail_touched_measures": [
+     "C32"
+    ],
+    "star_differs_without_guardrail": [
+     "C28",
+     "D02"
+    ]
+   },
+   {
+    "year": "2026",
+    "contract_id": "H7326",
+    "guardrail_touched_measures": [
+     "C28",
+     "D02"
+    ],
+    "star_differs_without_guardrail": []
+   },
+   {
+    "year": "2026",
+    "contract_id": "H7379",
+    "guardrail_touched_measures": [
+     "C01"
+    ],
+    "star_differs_without_guardrail": [
+     "C31"
+    ]
+   },
+   {
+    "year": "2026",
+    "contract_id": "H8166",
+    "guardrail_touched_measures": [
+     "C01",
+     "D01",
+     "D11"
+    ],
+    "star_differs_without_guardrail": [
+     "C33"
+    ]
+   },
+   {
+    "year": "2026",
+    "contract_id": "H9001",
+    "guardrail_touched_measures": [
+     "C01",
+     "D01"
+    ],
+    "star_differs_without_guardrail": [
+     "C12",
+     "C33"
+    ]
+   },
+   {
+    "year": "2026",
+    "contract_id": "R2604",
+    "guardrail_touched_measures": [
+     "C09",
+     "C12"
+    ],
+    "star_differs_without_guardrail": []
+   }
+  ]
+ },
+ "v2_verification": {
+  "verdict": "CONFIRMED",
+  "verified_utc": "2026-08-24T14:02:22.142956+00:00",
+  "started_utc": "2026-08-24T14:02:16.103609+00:00",
+  "produced_by": "same independent pipeline as the v1 recount; v2 law applied (splits with len(dp_cutpoints)!=4 held at published); both variants recomputed in one pass and diffed",
+  "mismatches": [],
+  "counts": {
+   "n_splits": 116,
+   "n_star_cells_moved": 6723,
+   "n_flips": 90,
+   "n_qbp_relevant": 82,
+   "n_up": 20,
+   "n_down": 62,
+   "total_enrollment": 5103820,
+   "lo": 2041528000,
+   "mid": 2551910000,
+   "hi": 3062292000,
+   "per_payment_year": {
+    "CY2025": {
+     "enrollment": 2640725,
+     "n_contracts": 24,
+     "gross_lo": 1056290000,
+     "gross_mid": 1320362500,
+     "gross_hi": 1584435000
+    },
+    "CY2026": {
+     "enrollment": 1262159,
+     "n_contracts": 36,
+     "gross_lo": 504863600,
+     "gross_mid": 631079500,
+     "gross_hi": 757295400
+    },
+    "CY2027": {
+     "enrollment": 1200936,
+     "n_contracts": 22,
+     "gross_lo": 480374400,
+     "gross_mid": 600468000,
+     "gross_hi": 720561600
+    }
+   }
+  },
+  "delta_vs_v1": {
+   "flips_died": [
+    {
+     "year": "2026",
+     "contract_id": "H0628",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "H0885",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "H1846",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "H1997",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "H2225",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "H2416",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "H2425",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "H3041",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "H3794",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "H4152",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "H4808",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "H5262",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "H6378",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "H7151",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "H7326",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "H8902",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "H9808",
+     "direction": "DOWN"
+    },
+    {
+     "year": "2026",
+     "contract_id": "R2604",
+     "direction": "DOWN"
+    }
+   ],
+   "flips_born": [
+    {
+     "year": "2026",
+     "contract_id": "H0354",
+     "direction": "UP",
+     "baseline": "7/2",
+     "criterion_rating": "4",
+     "enrollment": 75390
+    },
+    {
+     "year": "2026",
+     "contract_id": "H1608",
+     "direction": "UP",
+     "baseline": "7/2",
+     "criterion_rating": "4",
+     "enrollment": 118187
+    },
+    {
+     "year": "2026",
+     "contract_id": "H1619",
+     "direction": "UP",
+     "baseline": "7/2",
+     "criterion_rating": "4",
+     "enrollment": 4126
+    },
+    {
+     "year": "2026",
+     "contract_id": "H2422",
+     "direction": "UP",
+     "baseline": "7/2",
+     "criterion_rating": "4",
+     "enrollment": 5775
+    },
+    {
+     "year": "2026",
+     "contract_id": "H2461",
+     "direction": "UP",
+     "baseline": "7/2",
+     "criterion_rating": "4",
+     "enrollment": 47233
+    },
+    {
+     "year": "2026",
+     "contract_id": "H3080",
+     "direction": "UP",
+     "baseline": "7/2",
+     "criterion_rating": "4",
+     "enrollment": 9590
+    },
+    {
+     "year": "2026",
+     "contract_id": "H3777",
+     "direction": "UP",
+     "baseline": "7/2",
+     "criterion_rating": "4",
+     "enrollment": 1983
+    },
+    {
+     "year": "2026",
+     "contract_id": "H6202",
+     "direction": "UP",
+     "baseline": "7/2",
+     "criterion_rating": "4",
+     "enrollment": 6703
+    },
+    {
+     "year": "2026",
+     "contract_id": "H8845",
+     "direction": "UP",
+     "baseline": "7/2",
+     "criterion_rating": "4",
+     "enrollment": 1614
+    }
+   ],
+   "n_died": 18,
+   "n_born": 9,
+   "all_changes_in_star_year_2026": true,
+   "surviving_flips_unchanged": true
+  },
+  "degenerate_splits_held": [
+   [
+    "2026",
+    "D07",
+    "MA-PD"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,1217 @@
+{
+ "register": "Shuffle variance, two arms, pre-registered (preregistration text identified by sha256 prefix 436919d9941720a8; not included in this record, available on request; sealed before the dp arm was computed): arm A = the published Ward-within-groups procedure, arm B = the exact solver inside the same ten resampling groups, each replayed at the 28 sampled orderings and compared with itself across orderings. Interpretation-free; no optimality claim; dollar-estimate-eligible register; estimate-class dollars; sampled, so classes can only grow. Conditional on the assumed group-assignment rule of the paper's Appendix C (see README, 'Assumed readout').",
+ "generator": "src/ward_shuffle_variance.py",
+ "n_realizations": 28,
+ "arm_A_ward_within_groups": {
+  "n_lottery_priceable": 87,
+  "lottery_enrollment": 7124847,
+  "lottery_gross_envelope_usd": {
+   "lo": 2849938800,
+   "mid": 3562423500,
+   "hi": 4274908200
+  },
+  "expected_per_draw_deviation_usd": {
+   "formula": "E = sum over lottery rows of enrollment x price x min(k, N-k)/N; assumes the N sampled orderings are equiprobable; sampled (N=28), not a population quantity",
+   "lo": 629724457.1428572,
+   "mid": 787155571.4285715,
+   "hi": 944586685.7142857
+  },
+  "n_near_coinflip_inclusive_25_75": 35,
+  "n_near_coinflip_open_interval": 30,
+  "near_coinflip_convention": "headline count uses the inclusive [25%, 75%] convention; open-interval count carried beside it",
+  "zero_enrollment_lottery_rows": [
+   {
+    "year": "2024",
+    "contract_id": "H3749",
+    "bonus_in": "20/28"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H6502",
+    "bonus_in": "26/28"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H6750",
+    "bonus_in": "3/28"
+   },
+   {
+    "year": "2024",
+    "contract_id": "R3332",
+    "bonus_in": "3/28"
+   },
+   {
+    "year": "2024",
+    "contract_id": "R5495",
+    "bonus_in": "1/28"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H6898",
+    "bonus_in": "1/28"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H8783",
+    "bonus_in": "26/28"
+   }
+  ],
+  "flips_vs_published_per_ordering": {
+   "min": 38,
+   "max": 57
+  },
+  "lottery_contract_years": [
+   {
+    "year": "2024",
+    "contract_id": "H0524",
+    "enrollment": 1355332,
+    "published": "4",
+    "bonus_in": "12/28",
+    "k": 12,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H5253",
+    "enrollment": 1146089,
+    "published": "4",
+    "bonus_in": "27/28",
+    "k": 27,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H0028",
+    "enrollment": 330109,
+    "published": "3.5",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H0543",
+    "enrollment": 311429,
+    "published": "3.5",
+    "bonus_in": "18/28",
+    "k": 18,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H3805",
+    "enrollment": 286123,
+    "published": "4",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H1889",
+    "enrollment": 266390,
+    "published": "4",
+    "bonus_in": "24/28",
+    "k": 24,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H3815",
+    "enrollment": 221969,
+    "published": "4",
+    "bonus_in": "18/28",
+    "k": 18,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H3805",
+    "enrollment": 220404,
+    "published": "4",
+    "bonus_in": "18/28",
+    "k": 18,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H5322",
+    "enrollment": 217592,
+    "published": "4",
+    "bonus_in": "9/28",
+    "k": 9,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H5322",
+    "enrollment": 217592,
+    "published": "3.5",
+    "bonus_in": "4/28",
+    "k": 4,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H3387",
+    "enrollment": 170604,
+    "published": "3.5",
+    "bonus_in": "21/28",
+    "k": 21,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H4604",
+    "enrollment": 139660,
+    "published": "3.5",
+    "bonus_in": "5/28",
+    "k": 5,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H1278",
+    "enrollment": 136824,
+    "published": "4",
+    "bonus_in": "9/28",
+    "k": 9,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H1609",
+    "enrollment": 130230,
+    "published": "4",
+    "bonus_in": "27/28",
+    "k": 27,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H4141",
+    "enrollment": 125206,
+    "published": "3.5",
+    "bonus_in": "11/28",
+    "k": 11,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H2663",
+    "enrollment": 114526,
+    "published": "4",
+    "bonus_in": "25/28",
+    "k": 25,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H8889",
+    "enrollment": 112262,
+    "published": "3.5",
+    "bonus_in": "7/28",
+    "k": 7,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H0169",
+    "enrollment": 102046,
+    "published": "4",
+    "bonus_in": "24/28",
+    "k": 24,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H0755",
+    "enrollment": 94360,
+    "published": "4",
+    "bonus_in": "10/28",
+    "k": 10,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H3113",
+    "enrollment": 80191,
+    "published": "3.5",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H5211",
+    "enrollment": 79359,
+    "published": "4",
+    "bonus_in": "27/28",
+    "k": 27,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H0354",
+    "enrollment": 75390,
+    "published": "4",
+    "bonus_in": "25/28",
+    "k": 25,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H0321",
+    "enrollment": 71220,
+    "published": "3.5",
+    "bonus_in": "22/28",
+    "k": 22,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H0885",
+    "enrollment": 58435,
+    "published": "3.5",
+    "bonus_in": "27/28",
+    "k": 27,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H3219",
+    "enrollment": 56406,
+    "published": "4",
+    "bonus_in": "19/28",
+    "k": 19,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H2697",
+    "enrollment": 53774,
+    "published": "4",
+    "bonus_in": "24/28",
+    "k": 24,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H1993",
+    "enrollment": 50733,
+    "published": "3.5",
+    "bonus_in": "3/28",
+    "k": 3,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H0885",
+    "enrollment": 50057,
+    "published": "4",
+    "bonus_in": "16/28",
+    "k": 16,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H5900",
+    "enrollment": 47487,
+    "published": "4",
+    "bonus_in": "12/28",
+    "k": 12,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H3794",
+    "enrollment": 47034,
+    "published": "4",
+    "bonus_in": "7/28",
+    "k": 7,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H3794",
+    "enrollment": 47034,
+    "published": "4",
+    "bonus_in": "24/28",
+    "k": 24,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H7379",
+    "enrollment": 46701,
+    "published": "3.5",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H9615",
+    "enrollment": 44892,
+    "published": "3.5",
+    "bonus_in": "5/28",
+    "k": 5,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H5900",
+    "enrollment": 43908,
+    "published": "3.5",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H2322",
+    "enrollment": 40309,
+    "published": "4",
+    "bonus_in": "7/28",
+    "k": 7,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H4523",
+    "enrollment": 37828,
+    "published": "4",
+    "bonus_in": "11/28",
+    "k": 11,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H9615",
+    "enrollment": 32118,
+    "published": "3.5",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H3152",
+    "enrollment": 30155,
+    "published": "4",
+    "bonus_in": "25/28",
+    "k": 25,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H6595",
+    "enrollment": 29144,
+    "published": "4",
+    "bonus_in": "19/28",
+    "k": 19,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H3305",
+    "enrollment": 27243,
+    "published": "4",
+    "bonus_in": "18/28",
+    "k": 18,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H3347",
+    "enrollment": 26840,
+    "published": "3.5",
+    "bonus_in": "12/28",
+    "k": 12,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H4227",
+    "enrollment": 22975,
+    "published": "3.5",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H0982",
+    "enrollment": 22433,
+    "published": "3.5",
+    "bonus_in": "5/28",
+    "k": 5,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H2960",
+    "enrollment": 19987,
+    "published": "3.5",
+    "bonus_in": "17/28",
+    "k": 17,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H5262",
+    "enrollment": 18984,
+    "published": "4",
+    "bonus_in": "22/28",
+    "k": 22,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H2225",
+    "enrollment": 18881,
+    "published": "4",
+    "bonus_in": "16/28",
+    "k": 16,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H9485",
+    "enrollment": 17915,
+    "published": "3.5",
+    "bonus_in": "17/28",
+    "k": 17,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H2225",
+    "enrollment": 17308,
+    "published": "4",
+    "bonus_in": "27/28",
+    "k": 27,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H0473",
+    "enrollment": 16927,
+    "published": "3.5",
+    "bonus_in": "12/28",
+    "k": 12,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H5843",
+    "enrollment": 13482,
+    "published": "3.5",
+    "bonus_in": "12/28",
+    "k": 12,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H2425",
+    "enrollment": 12331,
+    "published": "3.5",
+    "bonus_in": "12/28",
+    "k": 12,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H2425",
+    "enrollment": 12331,
+    "published": "4",
+    "bonus_in": "25/28",
+    "k": 25,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H4808",
+    "enrollment": 11724,
+    "published": "4",
+    "bonus_in": "18/28",
+    "k": 18,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H9096",
+    "enrollment": 11511,
+    "published": "3.5",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H5273",
+    "enrollment": 11065,
+    "published": "3.5",
+    "bonus_in": "22/28",
+    "k": 22,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H6200",
+    "enrollment": 10976,
+    "published": "4",
+    "bonus_in": "27/28",
+    "k": 27,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H4623",
+    "enrollment": 10953,
+    "published": "3.5",
+    "bonus_in": "26/28",
+    "k": 26,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H3080",
+    "enrollment": 9590,
+    "published": "3.5",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H2582",
+    "enrollment": 9554,
+    "published": "3.5",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H8379",
+    "enrollment": 8630,
+    "published": "4",
+    "bonus_in": "26/28",
+    "k": 26,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H7151",
+    "enrollment": 8110,
+    "published": "4",
+    "bonus_in": "24/28",
+    "k": 24,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H6988",
+    "enrollment": 8077,
+    "published": "3.5",
+    "bonus_in": "26/28",
+    "k": 26,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H1304",
+    "enrollment": 6775,
+    "published": "3.5",
+    "bonus_in": "27/28",
+    "k": 27,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H2422",
+    "enrollment": 5775,
+    "published": "4",
+    "bonus_in": "2/28",
+    "k": 2,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H0978",
+    "enrollment": 5652,
+    "published": "4",
+    "bonus_in": "22/28",
+    "k": 22,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H8649",
+    "enrollment": 5125,
+    "published": "3.5",
+    "bonus_in": "3/28",
+    "k": 3,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H0907",
+    "enrollment": 4254,
+    "published": "3.5",
+    "bonus_in": "8/28",
+    "k": 8,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H8166",
+    "enrollment": 4026,
+    "published": "4",
+    "bonus_in": "15/28",
+    "k": 15,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H8010",
+    "enrollment": 3804,
+    "published": "4",
+    "bonus_in": "17/28",
+    "k": 17,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H8176",
+    "enrollment": 3156,
+    "published": "3.5",
+    "bonus_in": "16/28",
+    "k": 16,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H6988",
+    "enrollment": 2904,
+    "published": "4",
+    "bonus_in": "4/28",
+    "k": 4,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H7605",
+    "enrollment": 2354,
+    "published": "3.5",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H3777",
+    "enrollment": 1983,
+    "published": "3.5",
+    "bonus_in": "27/28",
+    "k": 27,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H2816",
+    "enrollment": 1855,
+    "published": "4",
+    "bonus_in": "9/28",
+    "k": 9,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H2816",
+    "enrollment": 1829,
+    "published": "3.5",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H8547",
+    "enrollment": 1553,
+    "published": "3.5",
+    "bonus_in": "26/28",
+    "k": 26,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H7123",
+    "enrollment": 1472,
+    "published": "3.5",
+    "bonus_in": "15/28",
+    "k": 15,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H4172",
+    "enrollment": 1345,
+    "published": "4",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H3800",
+    "enrollment": 1143,
+    "published": "4",
+    "bonus_in": "19/28",
+    "k": 19,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H2400",
+    "enrollment": 1093,
+    "published": "3.5",
+    "bonus_in": "7/28",
+    "k": 7,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H3749",
+    "enrollment": 0,
+    "published": "3.5",
+    "bonus_in": "20/28",
+    "k": 20,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H6502",
+    "enrollment": 0,
+    "published": "4",
+    "bonus_in": "26/28",
+    "k": 26,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H6750",
+    "enrollment": 0,
+    "published": "3.5",
+    "bonus_in": "3/28",
+    "k": 3,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "R3332",
+    "enrollment": 0,
+    "published": "3.5",
+    "bonus_in": "3/28",
+    "k": 3,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "R5495",
+    "enrollment": 0,
+    "published": "4",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H6898",
+    "enrollment": 0,
+    "published": "3.5",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H8783",
+    "enrollment": 0,
+    "published": "4",
+    "bonus_in": "26/28",
+    "k": 26,
+    "N": 28,
+    "baseline": "4"
+   }
+  ]
+ },
+ "arm_B_exact_within_groups": {
+  "n_lottery_priceable": 23,
+  "lottery_enrollment": 1128005,
+  "lottery_gross_envelope_usd": {
+   "lo": 451202000,
+   "mid": 564002500,
+   "hi": 676803000
+  },
+  "expected_per_draw_deviation_usd": {
+   "formula": "E = sum over lottery rows of enrollment x price x min(k, N-k)/N; assumes the N sampled orderings are equiprobable; sampled (N=28), not a population quantity",
+   "lo": 78715271.42857143,
+   "mid": 98394089.28571428,
+   "hi": 118072907.14285715
+  },
+  "n_near_coinflip_inclusive_25_75": 8,
+  "n_near_coinflip_open_interval": 8,
+  "near_coinflip_convention": "headline count uses the inclusive [25%, 75%] convention; open-interval count carried beside it",
+  "zero_enrollment_lottery_rows": [
+   {
+    "year": "2024",
+    "contract_id": "H3749",
+    "bonus_in": "17/28"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H6502",
+    "bonus_in": "1/28"
+   },
+   {
+    "year": "2024",
+    "contract_id": "R3332",
+    "bonus_in": "16/28"
+   },
+   {
+    "year": "2024",
+    "contract_id": "R5495",
+    "bonus_in": "17/28"
+   }
+  ],
+  "flips_vs_published_per_ordering": {
+   "min": 59,
+   "max": 67
+  },
+  "lottery_contract_years": [
+   {
+    "year": "2025",
+    "contract_id": "H0028",
+    "enrollment": 330109,
+    "published": "3.5",
+    "bonus_in": "3/28",
+    "k": 3,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H1608",
+    "enrollment": 118187,
+    "published": "3.5",
+    "bonus_in": "4/28",
+    "k": 4,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H3379",
+    "enrollment": 115572,
+    "published": "4",
+    "bonus_in": "25/28",
+    "k": 25,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H0104",
+    "enrollment": 113903,
+    "published": "3.5",
+    "bonus_in": "14/28",
+    "k": 14,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H0755",
+    "enrollment": 94360,
+    "published": "4",
+    "bonus_in": "26/28",
+    "k": 26,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H0354",
+    "enrollment": 75390,
+    "published": "3.5",
+    "bonus_in": "23/28",
+    "k": 23,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H0321",
+    "enrollment": 71220,
+    "published": "3.5",
+    "bonus_in": "17/28",
+    "k": 17,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H0174",
+    "enrollment": 54139,
+    "published": "4",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H7379",
+    "enrollment": 46701,
+    "published": "3.5",
+    "bonus_in": "23/28",
+    "k": 23,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H3347",
+    "enrollment": 26840,
+    "published": "3.5",
+    "bonus_in": "26/28",
+    "k": 26,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H4227",
+    "enrollment": 22975,
+    "published": "3.5",
+    "bonus_in": "26/28",
+    "k": 26,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H9485",
+    "enrollment": 17915,
+    "published": "3.5",
+    "bonus_in": "2/28",
+    "k": 2,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H9888",
+    "enrollment": 15967,
+    "published": "3.5",
+    "bonus_in": "14/28",
+    "k": 14,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H8379",
+    "enrollment": 8630,
+    "published": "4",
+    "bonus_in": "27/28",
+    "k": 27,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H0978",
+    "enrollment": 5652,
+    "published": "4",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H8166",
+    "enrollment": 4026,
+    "published": "4",
+    "bonus_in": "23/28",
+    "k": 23,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H8010",
+    "enrollment": 3804,
+    "published": "4",
+    "bonus_in": "14/28",
+    "k": 14,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H7123",
+    "enrollment": 1472,
+    "published": "3.5",
+    "bonus_in": "12/28",
+    "k": 12,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H3800",
+    "enrollment": 1143,
+    "published": "4",
+    "bonus_in": "24/28",
+    "k": 24,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H3749",
+    "enrollment": 0,
+    "published": "3.5",
+    "bonus_in": "17/28",
+    "k": 17,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H6502",
+    "enrollment": 0,
+    "published": "4",
+    "bonus_in": "1/28",
+    "k": 1,
+    "N": 28,
+    "baseline": "4"
+   },
+   {
+    "year": "2024",
+    "contract_id": "R3332",
+    "enrollment": 0,
+    "published": "3.5",
+    "bonus_in": "16/28",
+    "k": 16,
+    "N": 28,
+    "baseline": "7/2"
+   },
+   {
+    "year": "2024",
+    "contract_id": "R5495",
+    "enrollment": 0,
+    "published": "4",
+    "bonus_in": "17/28",
+    "k": 17,
+    "N": 28,
+    "baseline": "4"
+   }
+  ]
+ },
+ "pair_summary": {
+  "E_mid_ward": 787155571.4285715,
+  "E_mid_exact": 98394089.28571428,
+  "ratio_exact_over_ward": 0.1249995462868204
+ }
+}

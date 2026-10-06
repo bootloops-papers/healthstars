@@ -1,0 +1,786 @@
+{
+ "register": "Estimate-class dollar attachment to the collapsed exact flip set: the 23 contracts that cross the 3.5/4.0 overall-rating boundary under every realization of the residual envelope, the 4 input-order conventions x the assumed group-assignment rule (front-swap Fisher-Yates readout of the documented Mersenne-twister stream; runs/enclosure_collapse_frontswap.json, verifier 11/11; conditional on the assumed readout). The headline basis moves from the 8 flips exact at the 132-sampled family to the 23 flips exact at the collapsed envelope; the 8-flip record is kept as the prior-basis record. Everything dollar-denominated is an estimate, not exact: single-month enrollment snapshots joined by contract ID; $500/enrollee/yr midpoint with a $400-$600 band from public actuarial and policy commentary.",
+ "generator": "scripts/dollar_estimate_collapse23.py",
+ "inputs": {
+  "flip_set": "runs/enclosure_collapse_frontswap.json four_order_envelope, cls=exact-within-groups (23 contracts)",
+  "prior_basis": "runs/certified_dollar_estimate.json (the 8 flips exact at 132 realizations)",
+  "enrollment_files": [
+   {
+    "file": "data/raw/enrollment/Monthly_Report_By_Contract_2025_12/Monthly_Report_By_Contract_2025_12.csv",
+    "md5": "e6334460a402da1dbc58f70e33a61306",
+    "data_month": "2025-12"
+   },
+   {
+    "file": "data/raw/enrollment/Monthly_Report_By_Contract_2026_07/Monthly_Report_By_Contract_2026_07.csv",
+    "md5": "0b28c6c82a70aaf3130699e995a311aa",
+    "data_month": "2026-07"
+   }
+  ],
+  "enrollment_provenance": "data/raw/enrollment/SOURCES_enrollment.txt"
+ },
+ "estimate_basis": {
+  "per_enrollee_annual_qbp_value_usd": {
+   "mid": 500.0,
+   "lo": 400.0,
+   "hi": 600.0
+  },
+  "what_it_represents": "Approximate annual MA revenue difference per enrollee between QBP bonus status (>=4.0 stars: 5% benchmark bonus, 10% in double-bonus counties) and non-bonus status (<4.0), the boundary every contract in this set crosses.",
+  "public_reference_figures": [
+   {
+    "source": "KFF, 'Medicare Will Spend More Than $13 Billion on the Medicare Advantage Quality Bonus Program in 2026' (Biniek, Ochieng, Freed; July 1, 2026)",
+    "url": "https://www.kff.org/medicare/medicare-will-spend-more-than-13-billion-on-the-medicare-advantage-quality-bonus-program-in-2026/",
+    "figures": "QBP spending $13.4B in 2026 across ~24M bonus-plan enrollees (~$560/enrollee average); segment averages ~$318 (SNP) to ~$466 (employer/union), up to ~$577 for the highest parent org"
+   },
+   {
+    "source": "MedPAC, March 2025 Report to the Congress, Ch. 11 (MA status report)",
+    "url": "https://www.medpac.gov/wp-content/uploads/2025/03/Mar25_Ch11_MedPAC_Report_To_Congress_SEC.pdf",
+    "figures": "'quality bonuses will account for about 3 percent (an estimated $15 billion) of MA payments in 2025'; against ~26M bonus-plan enrollees in 2025 that is ~$575/enrollee"
+   }
+  ]
+ },
+ "framing": {
+  "unit": "the flip set is 23 CONTRACT-YEAR flips over 22 distinct contracts (H2422 flips DOWN in CY2026 and UP in CY2027; its net contribution is exactly $0); enrollment totals are ENROLLEE-PAYMENT-YEARS (H2422's 5,775 counted in both directions; distinct enrollees 869,536)",
+  "time_scope": "gross/net totals SUM THREE PAYMENT YEARS (CY2025+CY2026+CY2027); they are NOT an annual rate \u2014 no single year's mid exceeds $198.2M and no single year crosses $250M even at the band top (CY2027 hi $237.8M); print totals as 'across the three affected payment years' with the per-year split",
+  "direction_convention": "UP = would GAIN bonus status under the corrected clustering (denied money, positive sign); DOWN = would LOSE it (unearned payments, negative sign); net < 0 means unearned exceeds denied under a common per-enrollee value",
+  "temporal_blend": "CY2025 is a COMPLETED payment year (realized, essentially all unearned-DOWN); CY2027 is PROSPECTIVE (all denied-UP, estimated on the 2026-07 proxy month = 45.3% of gross mid)",
+  "full_set_split": "14 UP / 9 DOWN (R3332 is the 14th UP, entered in the dollar estimate at a determined $0); the dollar-estimate subset is 13 UP / 9 DOWN"
+ },
+ "aggregates_per_payment_year": {
+  "CY2025": {
+   "n_contracts": 4,
+   "total_enrollment": 351144,
+   "up_direction": {
+    "n_contracts": 1,
+    "enrollment": 0,
+    "gross_annual_usd": {
+     "mid": 0.0,
+     "lo": 0.0,
+     "hi": 0.0
+    }
+   },
+   "down_direction": {
+    "n_contracts": 3,
+    "enrollment": 351144,
+    "gross_annual_usd": {
+     "mid": 175572000.0,
+     "lo": 140457600.0,
+     "hi": 210686400.0
+    }
+   },
+   "gross_total_annual_usd": {
+    "note": "gross magnitude, both directions",
+    "mid": 175572000.0,
+    "lo": 140457600.0,
+    "hi": 210686400.0
+   },
+   "net_annual_usd_common_value": {
+    "note": "net = (up_enrollment - down_enrollment) x v, v swept over the band",
+    "mid": -175572000.0,
+    "lo": -210686400.0,
+    "hi": -140457600.0
+   },
+   "net_annual_usd_independent_values": {
+    "note": "worst/best case if up/down per-enrollee values vary independently",
+    "lo": -210686400.0,
+    "hi": -140457600.0
+   }
+  },
+  "CY2026": {
+   "n_contracts": 8,
+   "total_enrollment": 127786,
+   "up_direction": {
+    "n_contracts": 2,
+    "enrollment": 12506,
+    "gross_annual_usd": {
+     "mid": 6253000.0,
+     "lo": 5002400.0,
+     "hi": 7503600.0
+    }
+   },
+   "down_direction": {
+    "n_contracts": 6,
+    "enrollment": 115280,
+    "gross_annual_usd": {
+     "mid": 57640000.0,
+     "lo": 46112000.0,
+     "hi": 69168000.0
+    }
+   },
+   "gross_total_annual_usd": {
+    "note": "gross magnitude, both directions",
+    "mid": 63893000.0,
+    "lo": 51114400.0,
+    "hi": 76671600.0
+   },
+   "net_annual_usd_common_value": {
+    "note": "net = (up_enrollment - down_enrollment) x v, v swept over the band",
+    "mid": -51387000.0,
+    "lo": -61664400.0,
+    "hi": -41109600.0
+   },
+   "net_annual_usd_independent_values": {
+    "note": "worst/best case if up/down per-enrollee values vary independently",
+    "lo": -64165600.0,
+    "hi": -38608400.0
+   }
+  },
+  "CY2027": {
+   "n_contracts": 11,
+   "total_enrollment": 396381,
+   "up_direction": {
+    "n_contracts": 11,
+    "enrollment": 396381,
+    "gross_annual_usd": {
+     "mid": 198190500.0,
+     "lo": 158552400.0,
+     "hi": 237828600.0
+    }
+   },
+   "down_direction": {
+    "n_contracts": 0,
+    "enrollment": 0,
+    "gross_annual_usd": {
+     "mid": 0.0,
+     "lo": 0.0,
+     "hi": 0.0
+    }
+   },
+   "gross_total_annual_usd": {
+    "note": "gross magnitude, both directions",
+    "mid": 198190500.0,
+    "lo": 158552400.0,
+    "hi": 237828600.0
+   },
+   "net_annual_usd_common_value": {
+    "note": "net = (up_enrollment - down_enrollment) x v, v swept over the band",
+    "mid": 198190500.0,
+    "lo": 158552400.0,
+    "hi": 237828600.0
+   },
+   "net_annual_usd_independent_values": {
+    "note": "worst/best case if up/down per-enrollee values vary independently",
+    "lo": 158552400.0,
+    "hi": 237828600.0
+   }
+  }
+ },
+ "reference_figure_notes": [
+  "the ~$560 and ~$575 per-enrollee figures in estimate_basis are DERIVED ratios (neither source prints an overall per-enrollee average)",
+  "$600 is not a ceiling: MedPAC's $15B over its own 69%-of-MA bonus-enrollee count (~24M) implies ~$620/enrollee",
+  "KFF's segment averages ($318 SNP / $381 individual / $466 employer) are diluted over ALL enrollees of each plan type, not per-bonus-enrollee \u2014 conservative but not apples-to-apples",
+  "ACA benchmark growth caps can shrink the realized bonus below 5% (to $0) in capped counties \u2014 one more reason $400 is not a floor"
+ ],
+ "per_contract": [
+  {
+   "contract_id": "H1609",
+   "star_year": "2024",
+   "payment_year": "CY2025",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "DOWN",
+   "baseline_rating": "4",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "NEW-under-collapse",
+   "enrollment": 130230,
+   "enrollment_data_month": "2025-12",
+   "payment_year_mapping": "in-payment-year month",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": -65115000.0,
+    "lo": -78138000.0,
+    "hi": -52092000.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H2591",
+   "star_year": "2024",
+   "payment_year": "CY2025",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "DOWN",
+   "baseline_rating": "4",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "NEW-under-collapse",
+   "enrollment": 510,
+   "enrollment_data_month": "2025-12",
+   "payment_year_mapping": "in-payment-year month",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": -255000.0,
+    "lo": -306000.0,
+    "hi": -204000.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H3805",
+   "star_year": "2024",
+   "payment_year": "CY2025",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "DOWN",
+   "baseline_rating": "4",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "near-tier-127to131of132",
+   "enrollment": 220404,
+   "enrollment_data_month": "2025-12",
+   "payment_year_mapping": "in-payment-year month",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": -110202000.0,
+    "lo": -132242400.0,
+    "hi": -88161600.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "R3332",
+   "star_year": "2024",
+   "payment_year": "CY2025",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline_rating": "7/2",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "NEW-under-collapse",
+   "enrollment": 0,
+   "enrollment_data_month": "2025-12",
+   "payment_year_mapping": "in-payment-year month",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   "note": "Entered in the dollar estimate at $0: BCBS Florida Regional PPO, present in 2024-12 (18,119 enrollees) and absent from the 2025-01 and 2025-12 monthly files; non-renewed at the 2024->2025 boundary, so its star-2024 flip attaches to a payment year (CY2025) the contract never operated in; QBP revenue delta exactly zero"
+  },
+  {
+   "contract_id": "H2422",
+   "star_year": "2025",
+   "payment_year": "CY2026",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "DOWN",
+   "baseline_rating": "4",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "NEW-under-collapse",
+   "enrollment": 5775,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "in-payment-year month",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": -2887500.0,
+    "lo": -3465000.0,
+    "hi": -2310000.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H3041",
+   "star_year": "2025",
+   "payment_year": "CY2026",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "DOWN",
+   "baseline_rating": "4",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "exact-132of132",
+   "enrollment": 2267,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "in-payment-year month",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": -1133500.0,
+    "lo": -1360200.0,
+    "hi": -906800.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H4623",
+   "star_year": "2025",
+   "payment_year": "CY2026",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline_rating": "7/2",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "NEW-under-collapse",
+   "enrollment": 10953,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "in-payment-year month",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": 5476500.0,
+    "lo": 4381200.0,
+    "hi": 6571800.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H5211",
+   "star_year": "2025",
+   "payment_year": "CY2026",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "DOWN",
+   "baseline_rating": "4",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "near-tier-127to131of132",
+   "enrollment": 79359,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "in-payment-year month",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": -39679500.0,
+    "lo": -47615400.0,
+    "hi": -31743600.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H5262",
+   "star_year": "2025",
+   "payment_year": "CY2026",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "DOWN",
+   "baseline_rating": "4",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "exact-132of132",
+   "enrollment": 18984,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "in-payment-year month",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": -9492000.0,
+    "lo": -11390400.0,
+    "hi": -7593600.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H6852",
+   "star_year": "2025",
+   "payment_year": "CY2026",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "DOWN",
+   "baseline_rating": "4",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "NEW-under-collapse",
+   "enrollment": 8164,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "in-payment-year month",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": -4082000.0,
+    "lo": -4898400.0,
+    "hi": -3265600.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H8547",
+   "star_year": "2025",
+   "payment_year": "CY2026",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline_rating": "7/2",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "near-tier-127to131of132",
+   "enrollment": 1553,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "in-payment-year month",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": 776500.0,
+    "lo": 621200.0,
+    "hi": 931800.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H9909",
+   "star_year": "2025",
+   "payment_year": "CY2026",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "DOWN",
+   "baseline_rating": "4",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "exact-132of132",
+   "enrollment": 731,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "in-payment-year month",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": -365500.0,
+    "lo": -438600.0,
+    "hi": -292400.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H1607",
+   "star_year": "2026",
+   "payment_year": "CY2027",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline_rating": "7/2",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "exact-132of132",
+   "enrollment": 8153,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "PROXY: latest available month; CY2027 not yet observable",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": 4076500.0,
+    "lo": 3261200.0,
+    "hi": 4891800.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H1608",
+   "star_year": "2026",
+   "payment_year": "CY2027",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline_rating": "7/2",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "NEW-under-collapse",
+   "enrollment": 118187,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "PROXY: latest available month; CY2027 not yet observable",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": 59093500.0,
+    "lo": 47274800.0,
+    "hi": 70912200.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H1994",
+   "star_year": "2026",
+   "payment_year": "CY2027",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline_rating": "7/2",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "near-tier-127to131of132",
+   "enrollment": 66738,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "PROXY: latest available month; CY2027 not yet observable",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": 33369000.0,
+    "lo": 26695200.0,
+    "hi": 40042800.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H2422",
+   "star_year": "2026",
+   "payment_year": "CY2027",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline_rating": "7/2",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "near-tier-127to131of132",
+   "enrollment": 5775,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "PROXY: latest available month; CY2027 not yet observable",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": 2887500.0,
+    "lo": 2310000.0,
+    "hi": 3465000.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H2461",
+   "star_year": "2026",
+   "payment_year": "CY2027",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline_rating": "7/2",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "NEW-under-collapse",
+   "enrollment": 47233,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "PROXY: latest available month; CY2027 not yet observable",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": 23616500.0,
+    "lo": 18893200.0,
+    "hi": 28339800.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H4141",
+   "star_year": "2026",
+   "payment_year": "CY2027",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline_rating": "7/2",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "exact-132of132",
+   "enrollment": 125206,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "PROXY: latest available month; CY2027 not yet observable",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": 62603000.0,
+    "lo": 50082400.0,
+    "hi": 75123600.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H5232",
+   "star_year": "2026",
+   "payment_year": "CY2027",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline_rating": "7/2",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "exact-132of132",
+   "enrollment": 2124,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "PROXY: latest available month; CY2027 not yet observable",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": 1062000.0,
+    "lo": 849600.0,
+    "hi": 1274400.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H6202",
+   "star_year": "2026",
+   "payment_year": "CY2027",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline_rating": "7/2",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "exact-132of132",
+   "enrollment": 6703,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "PROXY: latest available month; CY2027 not yet observable",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": 3351500.0,
+    "lo": 2681200.0,
+    "hi": 4021800.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H6847",
+   "star_year": "2026",
+   "payment_year": "CY2027",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline_rating": "7/2",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "NEW-under-collapse",
+   "enrollment": 2076,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "PROXY: latest available month; CY2027 not yet observable",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": 1038000.0,
+    "lo": 830400.0,
+    "hi": 1245600.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H8845",
+   "star_year": "2026",
+   "payment_year": "CY2027",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline_rating": "7/2",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "exact-132of132",
+   "enrollment": 1614,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "PROXY: latest available month; CY2027 not yet observable",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": 807000.0,
+    "lo": 645600.0,
+    "hi": 968400.0
+   },
+   "note": null
+  },
+  {
+   "contract_id": "H8947",
+   "star_year": "2026",
+   "payment_year": "CY2027",
+   "org_class": "MA-PD",
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline_rating": "7/2",
+   "tier": "exact-4of4-orders-x-assumed-readout",
+   "provenance_vs_132_basis": "near-tier-127to131of132",
+   "enrollment": 12572,
+   "enrollment_data_month": "2026-07",
+   "payment_year_mapping": "PROXY: latest available month; CY2027 not yet observable",
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": 6286000.0,
+    "lo": 5028800.0,
+    "hi": 7543200.0
+   },
+   "note": null
+  }
+ ],
+ "pricing_completeness": "23/23 determined (22 with enrollment in the dollar estimate + 1 zero-by-termination R3332)",
+ "unpriced_contracts": [],
+ "aggregates": {
+  "certified_23": {
+   "n_contracts": 23,
+   "total_enrollment": 875311,
+   "up_direction": {
+    "n_contracts": 14,
+    "enrollment": 408887,
+    "gross_annual_usd": {
+     "mid": 204443500.0,
+     "lo": 163554800.0,
+     "hi": 245332200.0
+    }
+   },
+   "down_direction": {
+    "n_contracts": 9,
+    "enrollment": 466424,
+    "gross_annual_usd": {
+     "mid": 233212000.0,
+     "lo": 186569600.0,
+     "hi": 279854400.0
+    }
+   },
+   "gross_total_annual_usd": {
+    "note": "gross magnitude, both directions",
+    "mid": 437655500.0,
+    "lo": 350124400.0,
+    "hi": 525186600.0
+   },
+   "net_annual_usd_common_value": {
+    "note": "net = (up_enrollment - down_enrollment) x v, v swept over the band",
+    "mid": -28768500.0,
+    "lo": -34522200.0,
+    "hi": -23014800.0
+   },
+   "net_annual_usd_independent_values": {
+    "note": "worst/best case if up/down per-enrollee values vary independently",
+    "lo": -116299600.0,
+    "hi": 58762600.0
+   }
+  },
+  "survivors_8_from_132": {
+   "n_contracts": 8,
+   "total_enrollment": 165782,
+   "up_direction": {
+    "n_contracts": 5,
+    "enrollment": 143800,
+    "gross_annual_usd": {
+     "mid": 71900000.0,
+     "lo": 57520000.0,
+     "hi": 86280000.0
+    }
+   },
+   "down_direction": {
+    "n_contracts": 3,
+    "enrollment": 21982,
+    "gross_annual_usd": {
+     "mid": 10991000.0,
+     "lo": 8792800.0,
+     "hi": 13189200.0
+    }
+   },
+   "gross_total_annual_usd": {
+    "note": "gross magnitude, both directions",
+    "mid": 82891000.0,
+    "lo": 66312800.0,
+    "hi": 99469200.0
+   },
+   "net_annual_usd_common_value": {
+    "note": "net = (up_enrollment - down_enrollment) x v, v swept over the band",
+    "mid": 60909000.0,
+    "lo": 48727200.0,
+    "hi": 73090800.0
+   },
+   "net_annual_usd_independent_values": {
+    "note": "worst/best case if up/down per-enrollee values vary independently",
+    "lo": 44330800.0,
+    "hi": 77487200.0
+   }
+  },
+  "new_under_collapse_priced": {
+   "n_contracts": 15,
+   "total_enrollment": 709529,
+   "up_direction": {
+    "n_contracts": 9,
+    "enrollment": 265087,
+    "gross_annual_usd": {
+     "mid": 132543500.0,
+     "lo": 106034800.0,
+     "hi": 159052200.0
+    }
+   },
+   "down_direction": {
+    "n_contracts": 6,
+    "enrollment": 444442,
+    "gross_annual_usd": {
+     "mid": 222221000.0,
+     "lo": 177776800.0,
+     "hi": 266665200.0
+    }
+   },
+   "gross_total_annual_usd": {
+    "note": "gross magnitude, both directions",
+    "mid": 354764500.0,
+    "lo": 283811600.0,
+    "hi": 425717400.0
+   },
+   "net_annual_usd_common_value": {
+    "note": "net = (up_enrollment - down_enrollment) x v, v swept over the band",
+    "mid": -89677500.0,
+    "lo": -107613000.0,
+    "hi": -71742000.0
+   },
+   "net_annual_usd_independent_values": {
+    "note": "worst/best case if up/down per-enrollee values vary independently",
+    "lo": -160630400.0,
+    "hi": -18724600.0
+   }
+  },
+  "largest_single_contract_band": {
+   "contract_id": "H3805",
+   "provenance": "near-tier-127to131of132",
+   "enrollment": 220404,
+   "est_annual_qbp_revenue_delta_usd": {
+    "mid": -110202000.0,
+    "lo": -132242400.0,
+    "hi": -88161600.0
+   }
+  }
+ },
+ "prior_basis_bands_for_comparison": {
+  "certified_8_gross_total": {
+   "mid": 82891000.0,
+   "lo": 66312800.0,
+   "hi": 99469200.0
+  },
+  "all_15_gross_total": {
+   "mid": 276475500.0,
+   "lo": 221180400.0,
+   "hi": 331770600.0
+  }
+ },
+ "caveats": [
+  "Payment-year mapping is approximate: star year Y determines QBP status for payment year CY(Y+1); star-2026 contracts pay in CY2027, which has no enrollment data yet, so the July 2026 snapshot is a proxy. Star-2025 (CY2026 payment) and star-2024 (CY2025 payment) contracts use in-payment-year months (2026-07 and 2025-12).",
+  "Enrollment is a single monthly snapshot; enrollment moves over the payment year (and star-driven marketing effects themselves move it), so annualizing one month misstates member-months.",
+  "County double-bonus variation not modeled: the benchmark bonus is 5% in most counties, 10% in double-bonus counties; the mix varies by contract.",
+  "Rebate interactions not modeled: the 3.5->4.0 crossing mainly changes the benchmark bonus (rebate share is 65% on both sides of 4.0), but bonus-inflated benchmarks raise rebates for bidding plans, an effect included differently across the public reference figures.",
+  "Per-enrollee QBP value varies with plan mix (SNP vs individual vs employer), county benchmarks, and bids; the $400-$600 band brackets the public per-enrollee averages, not this specific set's plan mix.",
+  "Enrollment joined at contract level (all plans under the contract), matching the level at which the overall star rating and QBP status attach for MA-PD locals."
+ ]
+}

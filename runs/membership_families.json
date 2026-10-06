@@ -1,0 +1,1143 @@
+[
+ {
+  "year": "2024",
+  "mid": "C07",
+  "org": "ALL",
+  "n": 307,
+  "pub": [
+   "57",
+   "100"
+  ],
+  "n_profiles": 1,
+  "profiles": [
+   {
+    "k_add": 0,
+    "k_rem": 1,
+    "adds": [
+     0,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     1
+    ],
+    "constraints": "adds=[] rems=['98']"
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "mid": "C12",
+  "org": "ALL",
+  "n": 395,
+  "pub": [
+   "27",
+   "83"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2024",
+  "mid": "C25",
+  "org": "ALL",
+  "n": 535,
+  "pub": [
+   "0",
+   "1.41"
+  ],
+  "n_profiles": 4,
+  "profiles": [
+   {
+    "k_add": 1,
+    "k_rem": 1,
+    "adds": [
+     0,
+     0,
+     1
+    ],
+    "rems": [
+     0,
+     0,
+     1
+    ],
+    "constraints": "adds=['21/50'] rems=['2/5']"
+   },
+   {
+    "k_add": 1,
+    "k_rem": 1,
+    "adds": [
+     0,
+     0,
+     1
+    ],
+    "rems": [
+     0,
+     1,
+     0
+    ],
+    "constraints": "adds=['21/50'] rems=['17/100']"
+   },
+   {
+    "k_add": 1,
+    "k_rem": 1,
+    "adds": [
+     0,
+     0,
+     1
+    ],
+    "rems": [
+     1,
+     0,
+     0
+    ],
+    "constraints": "adds=['21/50'] rems=['9/100']"
+   },
+   {
+    "k_add": 2,
+    "k_rem": 0,
+    "adds": [
+     0,
+     0,
+     2
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['21/50', '21/50'] rems=[]"
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "mid": "C26",
+  "org": "ALL",
+  "n": 535,
+  "pub": [
+   "0",
+   "87.5"
+  ],
+  "n_profiles": 1,
+  "profiles": [
+   {
+    "k_add": 1,
+    "k_rem": 0,
+    "adds": [
+     1,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['0'] rems=[]"
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "mid": "C28",
+  "org": "ALL",
+  "n": 418,
+  "pub": [
+   "70",
+   "100"
+  ],
+  "n_profiles": 1,
+  "profiles": [
+   {
+    "k_add": 2,
+    "k_rem": 0,
+    "adds": [
+     2,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['47', '47'] rems=[]"
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "mid": "D01",
+  "org": "MA-PD",
+  "n": 694,
+  "pub": [
+   "74",
+   "100"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2024",
+  "mid": "D02",
+  "org": "MA-PD",
+  "n": 534,
+  "pub": [
+   "0",
+   "1.41"
+  ],
+  "n_profiles": 1,
+  "profiles": [
+   {
+    "k_add": 1,
+    "k_rem": 0,
+    "adds": [
+     0,
+     0,
+     1
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['21/50'] rems=[]"
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "mid": "D03",
+  "org": "MA-PD",
+  "n": 534,
+  "pub": [
+   "0",
+   "87.5"
+  ],
+  "n_profiles": 6,
+  "profiles": [
+   {
+    "k_add": 0,
+    "k_rem": 2,
+    "adds": [
+     0,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     2
+    ],
+    "constraints": "adds=[] rems=['27', '28']"
+   },
+   {
+    "k_add": 0,
+    "k_rem": 2,
+    "adds": [
+     0,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     1,
+     1
+    ],
+    "constraints": "adds=[] rems=['16', '28']"
+   },
+   {
+    "k_add": 0,
+    "k_rem": 2,
+    "adds": [
+     0,
+     0,
+     0
+    ],
+    "rems": [
+     1,
+     0,
+     1
+    ],
+    "constraints": "adds=[] rems=['8', '28']"
+   },
+   {
+    "k_add": 2,
+    "k_rem": 0,
+    "adds": [
+     1,
+     0,
+     1
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['0', '27'] rems=[]"
+   },
+   {
+    "k_add": 2,
+    "k_rem": 0,
+    "adds": [
+     1,
+     1,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['0', '8'] rems=[]"
+   },
+   {
+    "k_add": 2,
+    "k_rem": 0,
+    "adds": [
+     2,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['0', '8'] rems=[]"
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "mid": "D02",
+  "org": "PDP",
+  "n": 45,
+  "pub": [
+   "0",
+   "0.26"
+  ],
+  "n_profiles": 1,
+  "profiles": [
+   {
+    "k_add": 1,
+    "k_rem": 0,
+    "adds": [
+     0,
+     0,
+     1
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['2/25'] rems=[]"
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "mid": "D03",
+  "org": "PDP",
+  "n": 30,
+  "pub": [
+   "0",
+   "62"
+  ],
+  "n_profiles": 2,
+  "profiles": [
+   {
+    "k_add": 2,
+    "k_rem": 1,
+    "adds": [
+     0,
+     0,
+     2
+    ],
+    "rems": [
+     1,
+     0,
+     0
+    ],
+    "constraints": "adds=['20', '20'] rems=['5']"
+   },
+   {
+    "k_add": 3,
+    "k_rem": 0,
+    "adds": [
+     0,
+     0,
+     3
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['20', '20', '20'] rems=[]"
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "mid": "C01",
+  "org": "ALL",
+  "n": 491,
+  "pub": [
+   "31",
+   "100"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2025",
+  "mid": "C02",
+  "org": "ALL",
+  "n": 533,
+  "pub": [
+   "24",
+   "100"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2025",
+  "mid": "C04",
+  "org": "ALL",
+  "n": 494,
+  "pub": [
+   "21",
+   "77"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2025",
+  "mid": "C09",
+  "org": "ALL",
+  "n": 542,
+  "pub": [
+   "29",
+   "100"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2025",
+  "mid": "C10",
+  "org": "ALL",
+  "n": 549,
+  "pub": [
+   "52",
+   "100"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2025",
+  "mid": "C12",
+  "org": "ALL",
+  "n": 446,
+  "pub": [
+   "17",
+   "94"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2025",
+  "mid": "C13",
+  "org": "ALL",
+  "n": 389,
+  "pub": [
+   "24",
+   "66"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2025",
+  "mid": "C18",
+  "org": "ALL",
+  "n": 523,
+  "pub": [
+   "22",
+   "92"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2025",
+  "mid": "C25",
+  "org": "ALL",
+  "n": 518,
+  "pub": [
+   "0",
+   "1.08"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2025",
+  "mid": "C26",
+  "org": "ALL",
+  "n": 522,
+  "pub": [
+   "0",
+   "79"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2025",
+  "mid": "D01",
+  "org": "MA-PD",
+  "n": 647,
+  "pub": [
+   "74",
+   "100"
+  ],
+  "n_profiles": 1,
+  "profiles": [
+   {
+    "k_add": 3,
+    "k_rem": 0,
+    "adds": [
+     3,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['11', '11', '11'] rems=[]"
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "mid": "D02",
+  "org": "MA-PD",
+  "n": 517,
+  "pub": [
+   "0",
+   "1.08"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2025",
+  "mid": "D03",
+  "org": "MA-PD",
+  "n": 521,
+  "pub": [
+   "0",
+   "79"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2025",
+  "mid": "D02",
+  "org": "PDP",
+  "n": 40,
+  "pub": [
+   "0",
+   "0.22"
+  ],
+  "n_profiles": 1,
+  "profiles": [
+   {
+    "k_add": 3,
+    "k_rem": 0,
+    "adds": [
+     0,
+     0,
+     3
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['7/100', '7/100', '7/100'] rems=[]"
+   }
+  ]
+ },
+ {
+  "year": "2026",
+  "mid": "C02",
+  "org": "ALL",
+  "n": 538,
+  "pub": [
+   "26",
+   "100"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2026",
+  "mid": "C06",
+  "org": "ALL",
+  "n": 498,
+  "pub": [
+   "20.5",
+   "80"
+  ],
+  "n_profiles": 11,
+  "profiles": [
+   {
+    "k_add": 0,
+    "k_rem": 2,
+    "adds": [
+     0,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     2
+    ],
+    "constraints": "adds=[] rems=['54', '55']"
+   },
+   {
+    "k_add": 0,
+    "k_rem": 2,
+    "adds": [
+     0,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     1,
+     1
+    ],
+    "constraints": "adds=[] rems=['51', '55']"
+   },
+   {
+    "k_add": 0,
+    "k_rem": 2,
+    "adds": [
+     0,
+     0,
+     0
+    ],
+    "rems": [
+     1,
+     0,
+     1
+    ],
+    "constraints": "adds=[] rems=['46', '55']"
+   },
+   {
+    "k_add": 1,
+    "k_rem": 1,
+    "adds": [
+     0,
+     0,
+     1
+    ],
+    "rems": [
+     0,
+     0,
+     1
+    ],
+    "constraints": "adds=['109/2'] rems=['55']"
+   },
+   {
+    "k_add": 1,
+    "k_rem": 1,
+    "adds": [
+     0,
+     1,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     1
+    ],
+    "constraints": "adds=['109/2'] rems=['55']"
+   },
+   {
+    "k_add": 2,
+    "k_rem": 0,
+    "adds": [
+     0,
+     0,
+     2
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['54', '54'] rems=[]"
+   },
+   {
+    "k_add": 2,
+    "k_rem": 0,
+    "adds": [
+     0,
+     1,
+     1
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['46', '54'] rems=[]"
+   },
+   {
+    "k_add": 2,
+    "k_rem": 0,
+    "adds": [
+     0,
+     2,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['46', '46'] rems=[]"
+   },
+   {
+    "k_add": 2,
+    "k_rem": 0,
+    "adds": [
+     1,
+     0,
+     1
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['32', '54'] rems=[]"
+   },
+   {
+    "k_add": 2,
+    "k_rem": 0,
+    "adds": [
+     1,
+     1,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['32', '46'] rems=[]"
+   },
+   {
+    "k_add": 2,
+    "k_rem": 0,
+    "adds": [
+     2,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['32', '32'] rems=[]"
+   }
+  ]
+ },
+ {
+  "year": "2026",
+  "mid": "C08",
+  "org": "ALL",
+  "n": 331,
+  "pub": [
+   "68",
+   "100"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2026",
+  "mid": "C09",
+  "org": "ALL",
+  "n": 331,
+  "pub": [
+   "71",
+   "100"
+  ],
+  "n_profiles": 1,
+  "profiles": [
+   {
+    "k_add": 4,
+    "k_rem": 0,
+    "adds": [
+     4,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['1', '1', '1', '1'] rems=[]"
+   }
+  ]
+ },
+ {
+  "year": "2026",
+  "mid": "C11",
+  "org": "ALL",
+  "n": 543,
+  "pub": [
+   "36",
+   "100"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2026",
+  "mid": "C13",
+  "org": "ALL",
+  "n": 545,
+  "pub": [
+   "9",
+   "100"
+  ],
+  "n_profiles": 4,
+  "profiles": [
+   {
+    "k_add": 3,
+    "k_rem": 1,
+    "adds": [
+     3,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     1
+    ],
+    "constraints": "adds=['0', '0', '0'] rems=['69']"
+   },
+   {
+    "k_add": 3,
+    "k_rem": 1,
+    "adds": [
+     3,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     1,
+     0
+    ],
+    "constraints": "adds=['0', '0', '0'] rems=['61']"
+   },
+   {
+    "k_add": 3,
+    "k_rem": 1,
+    "adds": [
+     3,
+     0,
+     0
+    ],
+    "rems": [
+     1,
+     0,
+     0
+    ],
+    "constraints": "adds=['0', '0', '0'] rems=['55']"
+   },
+   {
+    "k_add": 4,
+    "k_rem": 0,
+    "adds": [
+     4,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['0', '0', '0', '0'] rems=[]"
+   }
+  ]
+ },
+ {
+  "year": "2026",
+  "mid": "C15",
+  "org": "ALL",
+  "n": 451,
+  "pub": [
+   "20.5",
+   "94"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2026",
+  "mid": "C17",
+  "org": "ALL",
+  "n": 526,
+  "pub": [
+   "1",
+   "100"
+  ],
+  "n_profiles": 1,
+  "profiles": [
+   {
+    "k_add": 4,
+    "k_rem": 0,
+    "adds": [
+     4,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['7', '7', '7', '7'] rems=[]"
+   }
+  ]
+ },
+ {
+  "year": "2026",
+  "mid": "C21",
+  "org": "ALL",
+  "n": 527,
+  "pub": [
+   "21",
+   "98"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2026",
+  "mid": "C28",
+  "org": "ALL",
+  "n": 525,
+  "pub": [
+   "0",
+   "1.04"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2026",
+  "mid": "C29",
+  "org": "ALL",
+  "n": 519,
+  "pub": [
+   "0",
+   "82"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2026",
+  "mid": "C33",
+  "org": "ALL",
+  "n": 627,
+  "pub": [
+   "80",
+   "100"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2026",
+  "mid": "D02",
+  "org": "MA-PD",
+  "n": 523,
+  "pub": [
+   "0",
+   "1.04"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2026",
+  "mid": "D03",
+  "org": "MA-PD",
+  "n": 517,
+  "pub": [
+   "0",
+   "82"
+  ],
+  "n_profiles": 0,
+  "profiles": []
+ },
+ {
+  "year": "2026",
+  "mid": "D02",
+  "org": "PDP",
+  "n": 39,
+  "pub": [
+   "0",
+   "0.19"
+  ],
+  "n_profiles": 3,
+  "profiles": [
+   {
+    "k_add": 1,
+    "k_rem": 0,
+    "adds": [
+     0,
+     0,
+     1
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['1/20'] rems=[]"
+   },
+   {
+    "k_add": 1,
+    "k_rem": 0,
+    "adds": [
+     0,
+     1,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['1/100'] rems=[]"
+   },
+   {
+    "k_add": 1,
+    "k_rem": 0,
+    "adds": [
+     1,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['0'] rems=[]"
+   }
+  ]
+ },
+ {
+  "year": "2026",
+  "mid": "D10",
+  "org": "PDP",
+  "n": 40,
+  "pub": [
+   "81",
+   "95"
+  ],
+  "n_profiles": 4,
+  "profiles": [
+   {
+    "k_add": 0,
+    "k_rem": 1,
+    "adds": [
+     0,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     1
+    ],
+    "constraints": "adds=[] rems=['90']"
+   },
+   {
+    "k_add": 1,
+    "k_rem": 0,
+    "adds": [
+     0,
+     0,
+     1
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['89'] rems=[]"
+   },
+   {
+    "k_add": 1,
+    "k_rem": 0,
+    "adds": [
+     0,
+     1,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['87'] rems=[]"
+   },
+   {
+    "k_add": 1,
+    "k_rem": 0,
+    "adds": [
+     1,
+     0,
+     0
+    ],
+    "rems": [
+     0,
+     0,
+     0
+    ],
+    "constraints": "adds=['85'] rems=[]"
+   }
+  ]
+ }
+]

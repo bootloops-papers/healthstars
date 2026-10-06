@@ -1,0 +1,102 @@
+{
+ "register": "Classed ambiguity census: the exact arm within the resampling groups versus the published ratings over the 28 sampled orderings, with classes as in the publication register. These counts print throughout the replication-gap section; sampled, so the sets can only grow or reclassify.",
+ "generator": "src/classed_ambiguity.py",
+ "inputs": [
+  "runs/enclosure_collapse_frontswap_refinal.json",
+  "runs/enclosure_collapse_frontswap_rperm_refinal.json",
+  "data/parsed/summary_*.csv"
+ ],
+ "touching_the_line": {
+  "n": 129,
+  "by_class": {
+   "clean": 98,
+   "no_published_overall": 17,
+   "pdp": 12,
+   "cost": 2
+  }
+ },
+ "ambiguous": {
+  "n": 118,
+  "by_class": {
+   "clean": 92,
+   "no_published_overall": 12,
+   "pdp": 12,
+   "cost": 2
+  }
+ },
+ "stable_all_28": {
+  "n": 11,
+  "by_class": {
+   "no_published_overall": 5,
+   "clean": 6
+  },
+  "rows": [
+   {
+    "year": "2024",
+    "contract_id": "H2591",
+    "direction": "DOWN",
+    "cls": "no_published_overall"
+   },
+   {
+    "year": "2024",
+    "contract_id": "H3805",
+    "direction": "DOWN",
+    "cls": "clean"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H3041",
+    "direction": "DOWN",
+    "cls": "no_published_overall"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H5262",
+    "direction": "DOWN",
+    "cls": "clean"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H8547",
+    "direction": "UP",
+    "cls": "clean"
+   },
+   {
+    "year": "2025",
+    "contract_id": "H9909",
+    "direction": "DOWN",
+    "cls": "no_published_overall"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H1607",
+    "direction": "UP",
+    "cls": "clean"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H4141",
+    "direction": "UP",
+    "cls": "clean"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H5232",
+    "direction": "UP",
+    "cls": "no_published_overall"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H6202",
+    "direction": "UP",
+    "cls": "clean"
+   },
+   {
+    "year": "2026",
+    "contract_id": "H8845",
+    "direction": "UP",
+    "cls": "no_published_overall"
+   }
+  ]
+ }
+}

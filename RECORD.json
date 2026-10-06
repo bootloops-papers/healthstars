@@ -1,0 +1,15 @@
+{
+ "name": "healthstars-replication",
+ "version": "1.0",
+ "title": "Replication package for 'Stars Misaligned: Medicare Star Ratings And Exact Clustering' and its online appendix",
+ "file_count": 274,
+ "manifest": {
+  "name": "MANIFEST.sha256",
+  "note": "sha256 of every file in the package; verify with `sha256sum -c MANIFEST.sha256` from the package root"
+ },
+ "raw_inputs": {
+  "file": "CMS_RAW_PINS.json",
+  "note": "raw public CMS downloads listed by package path, byte count, sha256 and source URL; the hospital program's inputs are included, the others are re-fetched from their URLs"
+ },
+ "license": "MIT (code), CC BY 4.0 (data, text, figures); see LICENSE and NOTICE"
+}

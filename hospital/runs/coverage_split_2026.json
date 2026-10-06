@@ -1,0 +1,1172 @@
+{
+ "run": "coverage_split_2026",
+ "register": "Display-coverage decomposition of the replay-rated universe against the published Care Compare snapshots; the 2026 replay side is the post-cap stars (the published register). Census interactions are quoted at both censuses: 213 at the pre-cap register and 208/3,203 = 6.5% at the published-visible post-cap register, still all-upward (runs/safety_cap_check_2026.json). Data provenance: the pipeline artifacts hosted on qualitynet (SAS packs 2021-2025, alldata sas7bdat inputs, R_Pack_2026Apr.zip, stars_alldata_2026apr.csv, methodology v5.1 PDF, pack docs) were obtained from two public GitHub mirrors (RUSH klocey/stars-data-builder f27704d4; KOS Kentucky-Open-Science/CMS-Star-Rankings ad0db1f6); the 2025 inputs are md5-identical across both mirrors (alldata_2025jul.sas7bdat d9bf0fbc9c27db46d7cd8cd5f32574e3) and the 2025 .sas programs are byte-identical up to CRLF/LF, while the 2021-2024 and 2026 pack artifacts are present on one mirror only (RUSH); Care Compare snapshot zips, Federal Register PDFs and eCFR text came directly from CMS, govinfo and eCFR (data/raw/SOURCES.txt, MANIFEST_MD5.txt).",
+ "notes": {
+  "precap": "pre-cap register; the published-visible post-cap census is 208/3,203 = 6.5%, still all-upward (runs/safety_cap_check_2026.json)",
+  "mirror_provenance": "the qualitynet-hosted pipeline artifacts were obtained from two public GitHub mirrors (RUSH klocey/stars-data-builder f27704d4; KOS Kentucky-Open-Science/CMS-Star-Rankings ad0db1f6); 2025 inputs md5-identical across both mirrors; 2021-2024 and 2026 pack artifacts on the RUSH mirror only; Care Compare snapshots, Federal Register PDFs and eCFR text directly from CMS, govinfo and eCFR (data/raw/SOURCES.txt, MANIFEST_MD5.txt)"
+ },
+ "year_2026": {
+  "replay_rated_total": 3203,
+  "published_snapshot": {
+   "zip": "data/raw/2026-05/care_compare_snapshots/hospitals_2026-05-13.zip"
+  },
+  "split": {
+   "replay_rated_total": 3203,
+   "rated_published_matched": 3182,
+   "rated_published_MISMATCHED": 0,
+   "mismatched_ids": [],
+   "suppressed_by_footnote": {
+    "11": 1,
+    "5": 13
+   },
+   "suppressed_footnote_text": {
+    "11": "There were discrepancies in the data collection process.",
+    "5": "Results are not available for this reporting period."
+   },
+   "suppressed_count": 14,
+   "suppressed_detail": [
+    {
+     "provider_id": "050438",
+     "replay_star": 4,
+     "footnote": "11"
+    },
+    {
+     "provider_id": "141327",
+     "replay_star": 1,
+     "footnote": "5"
+    },
+    {
+     "provider_id": "151307",
+     "replay_star": 2,
+     "footnote": "5"
+    },
+    {
+     "provider_id": "151329",
+     "replay_star": 1,
+     "footnote": "5"
+    },
+    {
+     "provider_id": "151330",
+     "replay_star": 2,
+     "footnote": "5"
+    },
+    {
+     "provider_id": "231318",
+     "replay_star": 3,
+     "footnote": "5"
+    },
+    {
+     "provider_id": "231319",
+     "replay_star": 1,
+     "footnote": "5"
+    },
+    {
+     "provider_id": "231333",
+     "replay_star": 1,
+     "footnote": "5"
+    },
+    {
+     "provider_id": "281345",
+     "replay_star": 2,
+     "footnote": "5"
+    },
+    {
+     "provider_id": "381325",
+     "replay_star": 1,
+     "footnote": "5"
+    },
+    {
+     "provider_id": "501333",
+     "replay_star": 2,
+     "footnote": "5"
+    },
+    {
+     "provider_id": "521300",
+     "replay_star": 2,
+     "footnote": "5"
+    },
+    {
+     "provider_id": "521339",
+     "replay_star": 2,
+     "footnote": "5"
+    },
+    {
+     "provider_id": "521350",
+     "replay_star": 3,
+     "footnote": "5"
+    }
+   ],
+   "absent_from_snapshot_count": 7,
+   "absent_provider_ids": [
+    "050589",
+    "100047",
+    "100092",
+    "110153",
+    "200052",
+    "330211",
+    "390326"
+   ],
+   "all_accounted": true,
+   "accounting": "3182 matched + 0 mismatched + 14 suppressed + 7 absent = 3203"
+  },
+  "stored_comparison_agrees": {
+   "stored_record": "runs/replay_2026_pilot.json",
+   "matched_agrees": true,
+   "suppressed_agrees": true,
+   "mismatched_agrees": true
+  },
+  "census_interaction": {
+   "note": "membership interaction of the display-side classes (suppressed/absent) with the census sets",
+   "census_213_precap": {
+    "in_suppressed_14": {
+     "count": 2,
+     "ids": [
+      "151307",
+      "521300"
+     ]
+    },
+    "in_absent_7": {
+     "count": 1,
+     "ids": [
+      "200052"
+     ]
+    }
+   },
+   "census_208_postcap": {
+    "in_suppressed_14": {
+     "count": 2,
+     "ids": [
+      "151307",
+      "521300"
+     ]
+    },
+    "in_absent_7": {
+     "count": 1,
+     "ids": [
+      "200052"
+     ]
+    }
+   },
+   "erased_5": {
+    "in_suppressed_14": {
+     "count": 0,
+     "ids": []
+    },
+    "in_absent_7": {
+     "count": 0,
+     "ids": []
+    }
+   },
+   "provider_200052": {
+    "in_213": true,
+    "in_208": true,
+    "in_erased_5": false,
+    "in_suppressed_14": false,
+    "in_absent_class": true
+   },
+   "total_interaction_count": 6,
+   "census_unaffected": false,
+   "display_visibility": {
+    "detail": "3 of the 213 pre-cap corrections (and the same 3 of the 208 post-cap survivors) attach to hospitals with no publicly displayed star in the 2026-05-13 snapshot: 2 footnote-5-suppressed and 1 absent from the snapshot. The census sets are unchanged (the DP-vs-CMS comparison runs on the 3,203 replay-rated universe and suppression or absence is display-side only), but the display-visible correction count is 205, not 208: 205/3,182 displayed ratings = 6.44%.",
+    "members": [
+     {
+      "provider_id": "151307",
+      "peer": "peer3",
+      "shipped": 2,
+      "dp_optimum": 3,
+      "class": "suppressed-footnote-5"
+     },
+     {
+      "provider_id": "200052",
+      "peer": "peer3",
+      "shipped": 3,
+      "dp_optimum": 4,
+      "class": "absent-from-snapshot"
+     },
+     {
+      "provider_id": "521300",
+      "peer": "peer3",
+      "shipped": 2,
+      "dp_optimum": 3,
+      "class": "suppressed-footnote-5"
+     }
+    ],
+    "display_visible_corrections_postcap": 205,
+    "displayed_ratings_denominator": 3182
+   }
+  }
+ },
+ "sas_years": {
+  "2021": {
+   "replay_rated_total": 3355,
+   "exact_census_total_rated_agrees": true,
+   "primary": {
+    "replay_rated_total": 3355,
+    "rated_published_matched": 3339,
+    "rated_published_MISMATCHED": 0,
+    "mismatched_ids": [],
+    "suppressed_by_footnote": {
+     "5": 6
+    },
+    "suppressed_footnote_text": {
+     "5": "Results are not available for this reporting period."
+    },
+    "suppressed_count": 6,
+    "suppressed_detail": [
+     {
+      "provider_id": "061314",
+      "replay_star": 1,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "331317",
+      "replay_star": 1,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "361316",
+      "replay_star": 1,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "361325",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "521351",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "531304",
+      "replay_star": 1,
+      "footnote": "5"
+     }
+    ],
+    "absent_from_snapshot_count": 10,
+    "absent_provider_ids": [
+     "050189",
+     "050296",
+     "101301",
+     "101310",
+     "190263",
+     "210045",
+     "330003",
+     "330088",
+     "390130",
+     "510077"
+    ],
+    "all_accounted": true,
+    "accounting": "3339 matched + 0 mismatched + 6 suppressed + 10 absent = 3355",
+    "snapshot": "hospitals_2021-04-28.zip",
+    "stored_comparison_agrees": {
+     "matched": true,
+     "suppressed": true,
+     "mismatched_zero": true
+    },
+    "census_interaction": {
+     "differ_set_in_suppressed": {
+      "count": 1,
+      "ids": [
+       "531304"
+      ]
+     },
+     "differ_set_in_absent": {
+      "count": 1,
+      "ids": [
+       "510077"
+      ]
+     }
+    }
+   },
+   "alternate": {
+    "replay_rated_total": 3355,
+    "rated_published_matched": 3330,
+    "rated_published_MISMATCHED": 0,
+    "mismatched_ids": [],
+    "suppressed_by_footnote": {
+     "5": 7
+    },
+    "suppressed_footnote_text": {
+     "5": "Results are not available for this reporting period."
+    },
+    "suppressed_count": 7,
+    "suppressed_detail": [
+     {
+      "provider_id": "061314",
+      "replay_star": 1,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "331317",
+      "replay_star": 1,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "361316",
+      "replay_star": 1,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "361325",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "381320",
+      "replay_star": 1,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "521351",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "531304",
+      "replay_star": 1,
+      "footnote": "5"
+     }
+    ],
+    "absent_from_snapshot_count": 18,
+    "absent_provider_ids": [
+     "050189",
+     "050296",
+     "100102",
+     "101301",
+     "101310",
+     "140307",
+     "190263",
+     "210045",
+     "260004",
+     "320016",
+     "330003",
+     "330088",
+     "390130",
+     "450299",
+     "450340",
+     "450558",
+     "510071",
+     "510077"
+    ],
+    "all_accounted": true,
+    "accounting": "3330 matched + 0 mismatched + 7 suppressed + 18 absent = 3355",
+    "snapshot": "hospitals_2021-07-21.zip",
+    "stored_comparison_agrees": {
+     "matched": true,
+     "suppressed": true,
+     "mismatched_zero": true
+    },
+    "census_interaction": {
+     "differ_set_in_suppressed": {
+      "count": 2,
+      "ids": [
+       "381320",
+       "531304"
+      ]
+     },
+     "differ_set_in_absent": {
+      "count": 1,
+      "ids": [
+       "510077"
+      ]
+     }
+    }
+   }
+  },
+  "2022": {
+   "replay_rated_total": 3121,
+   "exact_census_total_rated_agrees": true,
+   "primary": {
+    "replay_rated_total": 3121,
+    "rated_published_matched": 3094,
+    "rated_published_MISMATCHED": 0,
+    "mismatched_ids": [],
+    "suppressed_by_footnote": {
+     "19": 2,
+     "5": 8
+    },
+    "suppressed_footnote_text": {
+     "5": "Results are not available for this reporting period.",
+     "19": "Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs."
+    },
+    "suppressed_count": 10,
+    "suppressed_detail": [
+     {
+      "provider_id": "041323",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "131326",
+      "replay_star": 1,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "171354",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "361316",
+      "replay_star": 1,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "361325",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "381320",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "390076",
+      "replay_star": 2,
+      "footnote": "19"
+     },
+     {
+      "provider_id": "390220",
+      "replay_star": 3,
+      "footnote": "19"
+     },
+     {
+      "provider_id": "501332",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "521325",
+      "replay_star": 2,
+      "footnote": "5"
+     }
+    ],
+    "absent_from_snapshot_count": 17,
+    "absent_provider_ids": [
+     "050616",
+     "140250",
+     "160122",
+     "170133",
+     "230118",
+     "310081",
+     "330004",
+     "330201",
+     "330385",
+     "330397",
+     "370190",
+     "390084",
+     "390194",
+     "390236",
+     "490001",
+     "500001",
+     "510039"
+    ],
+    "all_accounted": true,
+    "accounting": "3094 matched + 0 mismatched + 10 suppressed + 17 absent = 3121",
+    "snapshot": "hospitals_2022-07-06.zip",
+    "stored_comparison_agrees": {
+     "matched": true,
+     "suppressed": true,
+     "mismatched_zero": true
+    },
+    "census_interaction": {
+     "differ_set_in_suppressed": {
+      "count": 1,
+      "ids": [
+       "041323"
+      ]
+     },
+     "differ_set_in_absent": {
+      "count": 0,
+      "ids": []
+     }
+    }
+   },
+   "alternate": {
+    "replay_rated_total": 3121,
+    "rated_published_matched": 3090,
+    "rated_published_MISMATCHED": 0,
+    "mismatched_ids": [],
+    "suppressed_by_footnote": {
+     "19": 1,
+     "5": 8
+    },
+    "suppressed_footnote_text": {
+     "5": "Results are not available for this reporting period.",
+     "19": "Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs."
+    },
+    "suppressed_count": 9,
+    "suppressed_detail": [
+     {
+      "provider_id": "041323",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "131326",
+      "replay_star": 1,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "171354",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "361316",
+      "replay_star": 1,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "361325",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "381320",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "390076",
+      "replay_star": 2,
+      "footnote": "19"
+     },
+     {
+      "provider_id": "501332",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "521325",
+      "replay_star": 2,
+      "footnote": "5"
+     }
+    ],
+    "absent_from_snapshot_count": 22,
+    "absent_provider_ids": [
+     "050616",
+     "140250",
+     "160122",
+     "170133",
+     "180036",
+     "230118",
+     "310081",
+     "330004",
+     "330201",
+     "330385",
+     "330397",
+     "340186",
+     "370190",
+     "390052",
+     "390084",
+     "390194",
+     "390220",
+     "390236",
+     "490001",
+     "500001",
+     "510039",
+     "510047"
+    ],
+    "all_accounted": true,
+    "accounting": "3090 matched + 0 mismatched + 9 suppressed + 22 absent = 3121",
+    "snapshot": "hospitals_2022-10-06.zip",
+    "stored_comparison_agrees": {
+     "matched": true,
+     "suppressed": true,
+     "mismatched_zero": true
+    },
+    "census_interaction": {
+     "differ_set_in_suppressed": {
+      "count": 1,
+      "ids": [
+       "041323"
+      ]
+     },
+     "differ_set_in_absent": {
+      "count": 0,
+      "ids": []
+     }
+    }
+   }
+  },
+  "2023": {
+   "replay_rated_total": 3076,
+   "exact_census_total_rated_agrees": true,
+   "primary": {
+    "replay_rated_total": 3076,
+    "rated_published_matched": 3061,
+    "rated_published_MISMATCHED": 0,
+    "mismatched_ids": [],
+    "suppressed_by_footnote": {
+     "19": 1,
+     "5": 6
+    },
+    "suppressed_footnote_text": {
+     "5": "Results are not available for this reporting period.",
+     "19": "Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs."
+    },
+    "suppressed_count": 7,
+    "suppressed_detail": [
+     {
+      "provider_id": "041323",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "110115",
+      "replay_star": 1,
+      "footnote": "19"
+     },
+     {
+      "provider_id": "131326",
+      "replay_star": 3,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "381320",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "501332",
+      "replay_star": 4,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "521325",
+      "replay_star": 3,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "531312",
+      "replay_star": 2,
+      "footnote": "5"
+     }
+    ],
+    "absent_from_snapshot_count": 8,
+    "absent_provider_ids": [
+     "010038",
+     "030137",
+     "360081",
+     "360192",
+     "360262",
+     "370029",
+     "380040",
+     "450803"
+    ],
+    "all_accounted": true,
+    "accounting": "3061 matched + 0 mismatched + 7 suppressed + 8 absent = 3076",
+    "snapshot": "hospitals_2023-07-06.zip",
+    "stored_comparison_agrees": {
+     "matched": true,
+     "suppressed": true,
+     "mismatched_zero": true
+    },
+    "census_interaction": {
+     "differ_set_in_suppressed": {
+      "count": 2,
+      "ids": [
+       "501332",
+       "521325"
+      ]
+     },
+     "differ_set_in_absent": {
+      "count": 3,
+      "ids": [
+       "030137",
+       "370029",
+       "450803"
+      ]
+     }
+    }
+   },
+   "alternate": {
+    "replay_rated_total": 3076,
+    "rated_published_matched": 3061,
+    "rated_published_MISMATCHED": 0,
+    "mismatched_ids": [],
+    "suppressed_by_footnote": {
+     "19": 1,
+     "5": 6
+    },
+    "suppressed_footnote_text": {
+     "5": "Results are not available for this reporting period.",
+     "19": "Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs."
+    },
+    "suppressed_count": 7,
+    "suppressed_detail": [
+     {
+      "provider_id": "041323",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "110115",
+      "replay_star": 1,
+      "footnote": "19"
+     },
+     {
+      "provider_id": "131326",
+      "replay_star": 3,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "381320",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "501332",
+      "replay_star": 4,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "521325",
+      "replay_star": 3,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "531312",
+      "replay_star": 2,
+      "footnote": "5"
+     }
+    ],
+    "absent_from_snapshot_count": 8,
+    "absent_provider_ids": [
+     "010038",
+     "030137",
+     "360081",
+     "360192",
+     "360262",
+     "370029",
+     "380040",
+     "450803"
+    ],
+    "all_accounted": true,
+    "accounting": "3061 matched + 0 mismatched + 7 suppressed + 8 absent = 3076",
+    "snapshot": "hospitals_2023-10-06.zip",
+    "stored_comparison_agrees": {
+     "matched": true,
+     "suppressed": true,
+     "mismatched_zero": true
+    },
+    "census_interaction": {
+     "differ_set_in_suppressed": {
+      "count": 2,
+      "ids": [
+       "501332",
+       "521325"
+      ]
+     },
+     "differ_set_in_absent": {
+      "count": 3,
+      "ids": [
+       "030137",
+       "370029",
+       "450803"
+      ]
+     }
+    }
+   }
+  },
+  "2024": {
+   "replay_rated_total": 2847,
+   "exact_census_total_rated_agrees": true,
+   "primary": {
+    "replay_rated_total": 2847,
+    "rated_published_matched": 2834,
+    "rated_published_MISMATCHED": 0,
+    "mismatched_ids": [],
+    "suppressed_by_footnote": {
+     "5": 1
+    },
+    "suppressed_footnote_text": {
+     "5": "Results are not available for this reporting period."
+    },
+    "suppressed_count": 1,
+    "suppressed_detail": [
+     {
+      "provider_id": "531312",
+      "replay_star": 2,
+      "footnote": "5"
+     }
+    ],
+    "absent_from_snapshot_count": 12,
+    "absent_provider_ids": [
+     "040047",
+     "110189",
+     "140143",
+     "190204",
+     "230096",
+     "310021",
+     "310091",
+     "330084",
+     "330163",
+     "340133",
+     "360090",
+     "670061"
+    ],
+    "all_accounted": true,
+    "accounting": "2834 matched + 0 mismatched + 1 suppressed + 12 absent = 2847",
+    "snapshot": "hospitals_2024-07-31.zip",
+    "stored_comparison_agrees": {
+     "matched": true,
+     "suppressed": true,
+     "mismatched_zero": true
+    },
+    "census_interaction": {
+     "differ_set_in_suppressed": {
+      "count": 0,
+      "ids": []
+     },
+     "differ_set_in_absent": {
+      "count": 1,
+      "ids": [
+       "110189"
+      ]
+     }
+    }
+   },
+   "alternate": {
+    "replay_rated_total": 2847,
+    "rated_published_matched": 2826,
+    "rated_published_MISMATCHED": 0,
+    "mismatched_ids": [],
+    "suppressed_by_footnote": {
+     "19": 2,
+     "5": 1
+    },
+    "suppressed_footnote_text": {
+     "19": "Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.",
+     "5": "Results are not available for this reporting period."
+    },
+    "suppressed_count": 3,
+    "suppressed_detail": [
+     {
+      "provider_id": "160005",
+      "replay_star": 3,
+      "footnote": "19"
+     },
+     {
+      "provider_id": "450271",
+      "replay_star": 2,
+      "footnote": "19"
+     },
+     {
+      "provider_id": "531312",
+      "replay_star": 2,
+      "footnote": "5"
+     }
+    ],
+    "absent_from_snapshot_count": 18,
+    "absent_provider_ids": [
+     "040047",
+     "110189",
+     "140143",
+     "140234",
+     "170145",
+     "190204",
+     "210006",
+     "230096",
+     "310021",
+     "310091",
+     "330084",
+     "330163",
+     "330223",
+     "340133",
+     "360090",
+     "390119",
+     "520013",
+     "670061"
+    ],
+    "all_accounted": true,
+    "accounting": "2826 matched + 0 mismatched + 3 suppressed + 18 absent = 2847",
+    "snapshot": "hospitals_2024-10-30.zip",
+    "stored_comparison_agrees": {
+     "matched": true,
+     "suppressed": true,
+     "mismatched_zero": true
+    },
+    "census_interaction": {
+     "differ_set_in_suppressed": {
+      "count": 0,
+      "ids": []
+     },
+     "differ_set_in_absent": {
+      "count": 1,
+      "ids": [
+       "110189"
+      ]
+     }
+    }
+   }
+  },
+  "2025": {
+   "replay_rated_total": 2891,
+   "exact_census_total_rated_agrees": true,
+   "primary": {
+    "replay_rated_total": 2891,
+    "rated_published_matched": 2872,
+    "rated_published_MISMATCHED": 0,
+    "mismatched_ids": [],
+    "suppressed_by_footnote": {
+     "19": 3,
+     "5": 7
+    },
+    "suppressed_footnote_text": {
+     "5": "Results are not available for this reporting period.",
+     "19": "Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs."
+    },
+    "suppressed_count": 10,
+    "suppressed_detail": [
+     {
+      "provider_id": "141327",
+      "replay_star": 1,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "151330",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "220017",
+      "replay_star": 2,
+      "footnote": "19"
+     },
+     {
+      "provider_id": "220098",
+      "replay_star": 4,
+      "footnote": "19"
+     },
+     {
+      "provider_id": "361325",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "381315",
+      "replay_star": 2,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "381325",
+      "replay_star": 1,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "440063",
+      "replay_star": 1,
+      "footnote": "5"
+     },
+     {
+      "provider_id": "450200",
+      "replay_star": 3,
+      "footnote": "19"
+     },
+     {
+      "provider_id": "531312",
+      "replay_star": 3,
+      "footnote": "5"
+     }
+    ],
+    "absent_from_snapshot_count": 9,
+    "absent_provider_ids": [
+     "050724",
+     "050757",
+     "140147",
+     "180139",
+     "200019",
+     "330008",
+     "330245",
+     "340073",
+     "360044"
+    ],
+    "all_accounted": true,
+    "accounting": "2872 matched + 0 mismatched + 10 suppressed + 9 absent = 2891",
+    "snapshot": "hospitals_2025-08-14.zip",
+    "stored_comparison_agrees": {
+     "matched": true,
+     "suppressed": true,
+     "mismatched_zero": true
+    },
+    "census_interaction": {
+     "differ_set_in_suppressed": {
+      "count": 0,
+      "ids": []
+     },
+     "differ_set_in_absent": {
+      "count": 0,
+      "ids": []
+     }
+    }
+   },
+   "alternate_note": "hospitals_2025-04-30.zip carries the previous release's stars (1,245 wholesale mismatches, a data-vintage contrast; runs/sas_replay_2025.json); no coverage split computed on it"
+  }
+ },
+ "era_uniform_table": [
+  {
+   "year": "2021",
+   "snapshot": "hospitals_2021-04-28.zip",
+   "replay_rated": 3355,
+   "matched": 3339,
+   "suppressed": 6,
+   "suppressed_by_footnote": {
+    "5": 6
+   },
+   "absent": 10,
+   "all_accounted": true
+  },
+  {
+   "year": "2022",
+   "snapshot": "hospitals_2022-07-06.zip",
+   "replay_rated": 3121,
+   "matched": 3094,
+   "suppressed": 10,
+   "suppressed_by_footnote": {
+    "19": 2,
+    "5": 8
+   },
+   "absent": 17,
+   "all_accounted": true
+  },
+  {
+   "year": "2023",
+   "snapshot": "hospitals_2023-07-06.zip",
+   "replay_rated": 3076,
+   "matched": 3061,
+   "suppressed": 7,
+   "suppressed_by_footnote": {
+    "19": 1,
+    "5": 6
+   },
+   "absent": 8,
+   "all_accounted": true
+  },
+  {
+   "year": "2024",
+   "snapshot": "hospitals_2024-07-31.zip",
+   "replay_rated": 2847,
+   "matched": 2834,
+   "suppressed": 1,
+   "suppressed_by_footnote": {
+    "5": 1
+   },
+   "absent": 12,
+   "all_accounted": true
+  },
+  {
+   "year": "2025",
+   "snapshot": "hospitals_2025-08-14.zip",
+   "replay_rated": 2891,
+   "matched": 2872,
+   "suppressed": 10,
+   "suppressed_by_footnote": {
+    "19": 3,
+    "5": 7
+   },
+   "absent": 9,
+   "all_accounted": true
+  },
+  {
+   "year": "2026",
+   "snapshot": "hospitals_2026-05-13.zip",
+   "replay_rated": 3203,
+   "matched": 3182,
+   "suppressed": 14,
+   "suppressed_by_footnote": {
+    "11": 1,
+    "5": 13
+   },
+   "absent": 7,
+   "all_accounted": true
+  }
+ ],
+ "FINDINGS": {
+  "1_interaction_not_zero": {
+   "detail": "3 of the 213 pre-cap corrections (and the same 3 of the 208 post-cap survivors) attach to hospitals with no publicly displayed star in the 2026-05-13 snapshot: 2 footnote-5-suppressed and 1 absent from the snapshot. The census sets are unchanged (the DP-vs-CMS comparison runs on the 3,203 replay-rated universe and suppression or absence is display-side only), but the display-visible correction count is 205, not 208: 205/3,182 displayed ratings = 6.44%.",
+   "members": [
+    {
+     "provider_id": "151307",
+     "peer": "peer3",
+     "shipped": 2,
+     "dp_optimum": 3,
+     "class": "suppressed-footnote-5"
+    },
+    {
+     "provider_id": "200052",
+     "peer": "peer3",
+     "shipped": 3,
+     "dp_optimum": 4,
+     "class": "absent-from-snapshot"
+    },
+    {
+     "provider_id": "521300",
+     "peer": "peer3",
+     "shipped": 2,
+     "dp_optimum": 3,
+     "class": "suppressed-footnote-5"
+    }
+   ],
+   "display_visible_corrections_postcap": 205,
+   "displayed_ratings_denominator": 3182
+  },
+  "2_six_year_display_visibility_rollup": {
+   "note": "corrections attached to hospitals with no publicly displayed star in the matching snapshot (suppressed or absent), per year; the census sets themselves are unchanged (display-side layer only)",
+   "per_year": [
+    {
+     "year": "2021",
+     "differ_set_not_displayed": 2,
+     "ids": [
+      "531304",
+      "510077"
+     ]
+    },
+    {
+     "year": "2022",
+     "differ_set_not_displayed": 1,
+     "ids": [
+      "041323"
+     ]
+    },
+    {
+     "year": "2023",
+     "differ_set_not_displayed": 5,
+     "ids": [
+      "501332",
+      "521325",
+      "030137",
+      "370029",
+      "450803"
+     ]
+    },
+    {
+     "year": "2024",
+     "differ_set_not_displayed": 1,
+     "ids": [
+      "110189"
+     ]
+    },
+    {
+     "year": "2025",
+     "differ_set_not_displayed": 0,
+     "ids": []
+    },
+    {
+     "year": "2026",
+     "differ_set_not_displayed": 3,
+     "ids": [
+      "151307",
+      "200052",
+      "521300"
+     ]
+    }
+   ],
+   "total_of_1146": 12
+  }
+ }
+}

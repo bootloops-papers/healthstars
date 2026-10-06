@@ -1,0 +1,3510 @@
+{
+ "star_year": "2025",
+ "source_pdf": "data/raw/sy2025/2025-star-ratings-technical-notes.pdf (Updated 10/03/2024)",
+ "cross_checked_against": null,
+ "precision_law": "all numbers are verbatim decimal strings from the published tables; no float round-trips",
+ "tukey_cutoffs": {
+  "titles": [
+   "Table K-5: 2025 Star Ratings Part C non-CAHPS Measure Tukey Outlier Cutoffs",
+   "Table K-6: 2025 Star Ratings Part D non-CAHPS Measure Tukey Outlier Cutoffs"
+  ],
+  "pdf_pages_1based": {
+   "K-5": [
+    158
+   ],
+   "K-6": [
+    159
+   ]
+  },
+  "note_verbatim": "Note: If the calculated lower or upper outer fence exceeds the minimum or maximum range of the measure, then the minimum or maximum measure score is shown in the table. This means that no outliers were identified at that end of the measure score range. For D04 (decline) group, the upper cut off is technically the lowest value below zero since zero is included in the D04 (improved) group.",
+  "rows": [
+   {
+    "measure_id": "C01",
+    "lower": "31",
+    "upper": "100",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C02",
+    "lower": "24",
+    "upper": "100",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C04",
+    "lower": "21",
+    "upper": "77",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C05",
+    "lower": "0",
+    "upper": "100",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C06",
+    "lower": "71",
+    "upper": "100",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C07",
+    "lower": "66",
+    "upper": "100",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C08",
+    "lower": "0",
+    "upper": "100",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C09",
+    "lower": "29",
+    "upper": "100",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C10",
+    "lower": "52",
+    "upper": "100",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C11",
+    "lower": "48",
+    "upper": "100",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C12",
+    "lower": "17",
+    "upper": "94",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C13",
+    "lower": "24",
+    "upper": "66",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C14",
+    "lower": "0",
+    "upper": "100",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C15",
+    "lower": "4",
+    "upper": "18",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C16",
+    "lower": "72",
+    "upper": "100",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C17",
+    "lower": "0",
+    "upper": "100",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C18",
+    "lower": "22",
+    "upper": "92",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C25",
+    "lower": "0",
+    "upper": "1.08",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C26",
+    "lower": "0",
+    "upper": "79",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C27",
+    "lower": "0",
+    "upper": "1",
+    "table": "K-5",
+    "improvement_group": "improve"
+   },
+   {
+    "measure_id": "C27",
+    "lower": "-0.582088",
+    "upper": "0",
+    "table": "K-5",
+    "improvement_group": "decline"
+   },
+   {
+    "measure_id": "C28",
+    "lower": "80",
+    "upper": "100",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C29",
+    "lower": "82",
+    "upper": "100",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "C30",
+    "lower": "82",
+    "upper": "100",
+    "table": "K-5"
+   },
+   {
+    "measure_id": "D01",
+    "lower": "74",
+    "upper": "100",
+    "table": "K-6",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D02",
+    "lower": "0",
+    "upper": "1.08",
+    "table": "K-6",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D03",
+    "lower": "0",
+    "upper": "79",
+    "table": "K-6",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D04",
+    "lower": "0",
+    "upper": "1",
+    "table": "K-6",
+    "org_type": "MA-PD",
+    "improvement_group": "improve"
+   },
+   {
+    "measure_id": "D04",
+    "lower": "-0.96875",
+    "upper": "0",
+    "table": "K-6",
+    "org_type": "MA-PD",
+    "improvement_group": "decline"
+   },
+   {
+    "measure_id": "D07",
+    "lower": "95",
+    "upper": "100",
+    "table": "K-6",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D08",
+    "lower": "72",
+    "upper": "100",
+    "table": "K-6",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D09",
+    "lower": "75",
+    "upper": "100",
+    "table": "K-6",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D10",
+    "lower": "74",
+    "upper": "100",
+    "table": "K-6",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D11",
+    "lower": "61",
+    "upper": "100",
+    "table": "K-6",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D12",
+    "lower": "68",
+    "upper": "100",
+    "table": "K-6",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D01",
+    "lower": "86",
+    "upper": "100",
+    "table": "K-6",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D02",
+    "lower": "0",
+    "upper": "0.22",
+    "table": "K-6",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D03",
+    "lower": "0",
+    "upper": "45",
+    "table": "K-6",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D04",
+    "lower": "0",
+    "upper": "1",
+    "table": "K-6",
+    "org_type": "PDP",
+    "improvement_group": "improve"
+   },
+   {
+    "measure_id": "D04",
+    "lower": "-1",
+    "upper": "0",
+    "table": "K-6",
+    "org_type": "PDP",
+    "improvement_group": "decline"
+   },
+   {
+    "measure_id": "D07",
+    "lower": "95",
+    "upper": "100",
+    "table": "K-6",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D08",
+    "lower": "76",
+    "upper": "97",
+    "table": "K-6",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D09",
+    "lower": "82",
+    "upper": "96",
+    "table": "K-6",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D10",
+    "lower": "81",
+    "upper": "95",
+    "table": "K-6",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D11",
+    "lower": "0",
+    "upper": "100",
+    "table": "K-6",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D12",
+    "lower": "76",
+    "upper": "90",
+    "table": "K-6",
+    "org_type": "PDP"
+   }
+  ]
+ },
+ "pre_guardrail_thresholds": {
+  "titles": [
+   "Table K-3: 2025 Star Ratings Part C non-CAHPS Measure Mean Resampling Estimated Thresholds",
+   "Table K-4: 2025 Star Ratings Part D non-CAHPS Measure Mean Resampling Estimated Thresholds"
+  ],
+  "pdf_pages_1based": {
+   "K-3": [
+    156
+   ],
+   "K-4": [
+    157
+   ]
+  },
+  "note_verbatim": "Notes: These are not the final thresholds for the 2025 Star Ratings. See the Measure Details section for final thresholds after guardrails have been applied.",
+  "semantics": "Mean resampling estimated thresholds AFTER Tukey outlier deletion, BEFORE guardrails. For higher-is-better rows the four cut points are the 'lo' of star levels 2-5; for lower-is-better rows they are the 'hi' of star levels 2-5.",
+  "rows": [
+   {
+    "measure_id": "C01",
+    "star_level": 1,
+    "lo": null,
+    "hi": "58",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 58 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C01",
+    "star_level": 2,
+    "lo": "58",
+    "hi": "67",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 58 % to < 67 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C01",
+    "star_level": 3,
+    "lo": "67",
+    "hi": "75",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 67 % to < 75 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C01",
+    "star_level": 4,
+    "lo": "75",
+    "hi": "82",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 75 % to < 82 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C01",
+    "star_level": 5,
+    "lo": "82",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 82 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C02",
+    "star_level": 1,
+    "lo": null,
+    "hi": "58",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 58 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C02",
+    "star_level": 2,
+    "lo": "58",
+    "hi": "67",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 58 % to < 67 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C02",
+    "star_level": 3,
+    "lo": "67",
+    "hi": "75",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 67 % to < 75 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C02",
+    "star_level": 4,
+    "lo": "75",
+    "hi": "83",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 75 % to < 83 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C02",
+    "star_level": 5,
+    "lo": "83",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 83 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C04",
+    "star_level": 1,
+    "lo": null,
+    "hi": "41",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 41 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C04",
+    "star_level": 2,
+    "lo": "41",
+    "hi": "47",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 41 % to < 47 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C04",
+    "star_level": 3,
+    "lo": "47",
+    "hi": "52",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 47 % to < 52 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C04",
+    "star_level": 4,
+    "lo": "52",
+    "hi": "60",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 52 % to < 60 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C04",
+    "star_level": 5,
+    "lo": "60",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 60 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C05",
+    "star_level": 1,
+    "lo": null,
+    "hi": "46",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 46 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C05",
+    "star_level": 2,
+    "lo": "46",
+    "hi": "63",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 46 % to < 63 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C05",
+    "star_level": 3,
+    "lo": "63",
+    "hi": "76",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 63 % to < 76 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C05",
+    "star_level": 4,
+    "lo": "76",
+    "hi": "89",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 76 % to < 89 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C05",
+    "star_level": 5,
+    "lo": "89",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 89 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C06",
+    "star_level": 1,
+    "lo": null,
+    "hi": "83",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 83 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C06",
+    "star_level": 2,
+    "lo": "83",
+    "hi": "90",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 83 % to < 90 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C06",
+    "star_level": 3,
+    "lo": "90",
+    "hi": "94",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 90 % to < 94 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C06",
+    "star_level": 4,
+    "lo": "94",
+    "hi": "98",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 94 % to < 98 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C06",
+    "star_level": 5,
+    "lo": "98",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 98 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C07",
+    "star_level": 1,
+    "lo": null,
+    "hi": "79",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 79 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C07",
+    "star_level": 2,
+    "lo": "79",
+    "hi": "86",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 79 % to < 86 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C07",
+    "star_level": 3,
+    "lo": "86",
+    "hi": "92",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 86 % to < 92 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C07",
+    "star_level": 4,
+    "lo": "92",
+    "hi": "96",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 92 % to < 96 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C07",
+    "star_level": 5,
+    "lo": "96",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 96 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C08",
+    "star_level": 1,
+    "lo": null,
+    "hi": "27",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 27 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C08",
+    "star_level": 2,
+    "lo": "27",
+    "hi": "39",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 27 % to < 39 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C08",
+    "star_level": 3,
+    "lo": "39",
+    "hi": "52",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 39 % to < 52 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C08",
+    "star_level": 4,
+    "lo": "52",
+    "hi": "71",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 52 % to < 71 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C08",
+    "star_level": 5,
+    "lo": "71",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 71 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C09",
+    "star_level": 1,
+    "lo": null,
+    "hi": "62",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 62 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C09",
+    "star_level": 2,
+    "lo": "62",
+    "hi": "70",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 62 % to < 70 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C09",
+    "star_level": 3,
+    "lo": "70",
+    "hi": "77",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 70 % to < 77 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C09",
+    "star_level": 4,
+    "lo": "77",
+    "hi": "83",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 77 % to < 83 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C09",
+    "star_level": 5,
+    "lo": "83",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 83 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C10",
+    "star_level": 1,
+    "lo": null,
+    "hi": "69",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 69 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C10",
+    "star_level": 2,
+    "lo": "69",
+    "hi": "78",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 69 % to < 78 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C10",
+    "star_level": 3,
+    "lo": "78",
+    "hi": "84",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 78 % to < 84 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C10",
+    "star_level": 4,
+    "lo": "84",
+    "hi": "90",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 84 % to < 90 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C10",
+    "star_level": 5,
+    "lo": "90",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 90 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C11",
+    "star_level": 1,
+    "lo": null,
+    "hi": "69",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 69 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C11",
+    "star_level": 2,
+    "lo": "69",
+    "hi": "74",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 69 % to < 74 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C11",
+    "star_level": 3,
+    "lo": "74",
+    "hi": "80",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 74 % to < 80 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C11",
+    "star_level": 4,
+    "lo": "80",
+    "hi": "85",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 80 % to < 85 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C11",
+    "star_level": 5,
+    "lo": "85",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 85 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C12",
+    "star_level": 1,
+    "lo": null,
+    "hi": "50",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 50 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C12",
+    "star_level": 2,
+    "lo": "50",
+    "hi": "56",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 50 % to < 56 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C12",
+    "star_level": 3,
+    "lo": "56",
+    "hi": "63",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 56 % to < 63 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C12",
+    "star_level": 4,
+    "lo": "63",
+    "hi": "73",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 63 % to < 73 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C12",
+    "star_level": 5,
+    "lo": "73",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 73 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C13",
+    "star_level": 1,
+    "lo": null,
+    "hi": "39",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 39 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C13",
+    "star_level": 2,
+    "lo": "39",
+    "hi": "44",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 39 % to < 44 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C13",
+    "star_level": 3,
+    "lo": "44",
+    "hi": "48",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 44 % to < 48 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C13",
+    "star_level": 4,
+    "lo": "48",
+    "hi": "52",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 48 % to < 52 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C13",
+    "star_level": 5,
+    "lo": "52",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 52 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C14",
+    "star_level": 1,
+    "lo": null,
+    "hi": "42",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 42 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C14",
+    "star_level": 2,
+    "lo": "42",
+    "hi": "59",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 42 % to < 59 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C14",
+    "star_level": 3,
+    "lo": "59",
+    "hi": "73",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 59 % to < 73 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C14",
+    "star_level": 4,
+    "lo": "73",
+    "hi": "87",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 73 % to < 87 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C14",
+    "star_level": 5,
+    "lo": "87",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 87 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C15",
+    "star_level": 1,
+    "lo": "14",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null,
+    "verbatim": "> 14 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C15",
+    "star_level": 2,
+    "lo": "12",
+    "hi": "14",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 12 % to <= 14 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C15",
+    "star_level": 3,
+    "lo": "10",
+    "hi": "12",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 10 % to <= 12 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C15",
+    "star_level": 4,
+    "lo": "8",
+    "hi": "10",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 8 % to <= 10 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C15",
+    "star_level": 5,
+    "lo": null,
+    "hi": "8",
+    "lo_inclusive": null,
+    "hi_inclusive": true,
+    "verbatim": "<= 8 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C16",
+    "star_level": 1,
+    "lo": null,
+    "hi": "81",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 81 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C16",
+    "star_level": 2,
+    "lo": "81",
+    "hi": "85",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 81 % to < 85 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C16",
+    "star_level": 3,
+    "lo": "85",
+    "hi": "88",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 85 % to < 88 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C16",
+    "star_level": 4,
+    "lo": "88",
+    "hi": "92",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 88 % to < 92 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C16",
+    "star_level": 5,
+    "lo": "92",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 92 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C17",
+    "star_level": 1,
+    "lo": null,
+    "hi": "44",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 44 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C17",
+    "star_level": 2,
+    "lo": "44",
+    "hi": "52",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 44 % to < 52 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C17",
+    "star_level": 3,
+    "lo": "52",
+    "hi": "63",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 52 % to < 63 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C17",
+    "star_level": 4,
+    "lo": "63",
+    "hi": "77",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 63 % to < 77 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C17",
+    "star_level": 5,
+    "lo": "77",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 77 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C18",
+    "star_level": 1,
+    "lo": null,
+    "hi": "39",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 39 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C18",
+    "star_level": 2,
+    "lo": "39",
+    "hi": "53",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 39 % to < 53 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C18",
+    "star_level": 3,
+    "lo": "53",
+    "hi": "60",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 53 % to < 60 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C18",
+    "star_level": 4,
+    "lo": "60",
+    "hi": "69",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 60 % to < 69 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C18",
+    "star_level": 5,
+    "lo": "69",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 69 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C25",
+    "star_level": 1,
+    "lo": "0.66",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null,
+    "verbatim": "> 0.66",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C25",
+    "star_level": 2,
+    "lo": "0.41",
+    "hi": "0.66",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 0.41 to <= 0.66",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C25",
+    "star_level": 3,
+    "lo": "0.24",
+    "hi": "0.41",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 0.24 to <= 0.41",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C25",
+    "star_level": 4,
+    "lo": "0.12",
+    "hi": "0.24",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 0.12 to <= 0.24",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C25",
+    "star_level": 5,
+    "lo": null,
+    "hi": "0.12",
+    "lo_inclusive": null,
+    "hi_inclusive": true,
+    "verbatim": "<= 0.12",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C26",
+    "star_level": 1,
+    "lo": "36",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null,
+    "verbatim": "> 36 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C26",
+    "star_level": 2,
+    "lo": "24",
+    "hi": "36",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 24 % to <= 36 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C26",
+    "star_level": 3,
+    "lo": "17",
+    "hi": "24",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 17 % to <= 24 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C26",
+    "star_level": 4,
+    "lo": "8",
+    "hi": "17",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 8 % to <= 17 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C26",
+    "star_level": 5,
+    "lo": null,
+    "hi": "8",
+    "lo_inclusive": null,
+    "hi_inclusive": true,
+    "verbatim": "<= 8 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C27",
+    "star_level": 1,
+    "lo": null,
+    "hi": "-0.179809",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< -0.179809",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C27",
+    "star_level": 2,
+    "lo": "-0.179809",
+    "hi": "0",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= -0.179809 to < 0",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C27",
+    "star_level": 3,
+    "lo": "0",
+    "hi": "0.174445",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 0 to < 0.174445",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C27",
+    "star_level": 4,
+    "lo": "0.174445",
+    "hi": "0.421057",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 0.174445 to < 0.421057",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C27",
+    "star_level": 5,
+    "lo": "0.421057",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 0.421057",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C28",
+    "star_level": 1,
+    "lo": null,
+    "hi": "87",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 87 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C28",
+    "star_level": 2,
+    "lo": "87",
+    "hi": "91",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 87 % to < 91 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C28",
+    "star_level": 3,
+    "lo": "91",
+    "hi": "95",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 91 % to < 95 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C28",
+    "star_level": 4,
+    "lo": "95",
+    "hi": "99",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 95 % to < 99 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C28",
+    "star_level": 5,
+    "lo": "99",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 99 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C29",
+    "star_level": 1,
+    "lo": null,
+    "hi": "88",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 88 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C29",
+    "star_level": 2,
+    "lo": "88",
+    "hi": "92",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 88 % to < 92 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C29",
+    "star_level": 3,
+    "lo": "92",
+    "hi": "96",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 92 % to < 96 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C29",
+    "star_level": 4,
+    "lo": "96",
+    "hi": "99",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 96 % to < 99 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C29",
+    "star_level": 5,
+    "lo": "99",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 99 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C30",
+    "star_level": 1,
+    "lo": null,
+    "hi": "89",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 89 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C30",
+    "star_level": 2,
+    "lo": "89",
+    "hi": "94",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 89 % to < 94 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C30",
+    "star_level": 3,
+    "lo": "94",
+    "hi": "97",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 94 % to < 97 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C30",
+    "star_level": 4,
+    "lo": "97",
+    "hi": "100",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 97 % to < 100 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "C30",
+    "star_level": 5,
+    "lo": "100",
+    "hi": "100",
+    "lo_inclusive": true,
+    "hi_inclusive": true,
+    "verbatim": "= 100 %",
+    "table": "K-3"
+   },
+   {
+    "measure_id": "D01",
+    "star_level": 1,
+    "lo": null,
+    "hi": "85",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 85 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D01",
+    "star_level": 2,
+    "lo": "85",
+    "hi": "92",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 85 % to < 92 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D01",
+    "star_level": 3,
+    "lo": "92",
+    "hi": "96",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 92 % to < 96 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D01",
+    "star_level": 4,
+    "lo": "96",
+    "hi": "100",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 96 % to < 100 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D01",
+    "star_level": 5,
+    "lo": "100",
+    "hi": "100",
+    "lo_inclusive": true,
+    "hi_inclusive": true,
+    "verbatim": "= 100 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D01",
+    "star_level": 1,
+    "lo": null,
+    "hi": "94",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 94 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D01",
+    "star_level": 2,
+    "lo": "94",
+    "hi": "97",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 94 % to < 97 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D01",
+    "star_level": 3,
+    "lo": "97",
+    "hi": "98",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 97 % to < 98 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D01",
+    "star_level": 4,
+    "lo": "98",
+    "hi": "100",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 98 % to < 100 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D01",
+    "star_level": 5,
+    "lo": "100",
+    "hi": "100",
+    "lo_inclusive": true,
+    "hi_inclusive": true,
+    "verbatim": "= 100 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D02",
+    "star_level": 1,
+    "lo": "0.66",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null,
+    "verbatim": "> 0.66",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D02",
+    "star_level": 2,
+    "lo": "0.41",
+    "hi": "0.66",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 0.41 to <= 0.66",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D02",
+    "star_level": 3,
+    "lo": "0.24",
+    "hi": "0.41",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 0.24 to <= 0.41",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D02",
+    "star_level": 4,
+    "lo": "0.12",
+    "hi": "0.24",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 0.12 to <= 0.24",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D02",
+    "star_level": 5,
+    "lo": null,
+    "hi": "0.12",
+    "lo_inclusive": null,
+    "hi_inclusive": true,
+    "verbatim": "<= 0.12",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D02",
+    "star_level": 1,
+    "lo": "0.1",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null,
+    "verbatim": "> 0.1",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D02",
+    "star_level": 2,
+    "lo": "0.06",
+    "hi": "0.1",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 0.06 to <= 0.1",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D02",
+    "star_level": 3,
+    "lo": "0.04",
+    "hi": "0.06",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 0.04 to <= 0.06",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D02",
+    "star_level": 4,
+    "lo": "0.02",
+    "hi": "0.04",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 0.02 to <= 0.04",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D02",
+    "star_level": 5,
+    "lo": null,
+    "hi": "0.02",
+    "lo_inclusive": null,
+    "hi_inclusive": true,
+    "verbatim": "<= 0.02",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D03",
+    "star_level": 1,
+    "lo": "36",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null,
+    "verbatim": "> 36 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D03",
+    "star_level": 2,
+    "lo": "24",
+    "hi": "36",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 24 % to <= 36 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D03",
+    "star_level": 3,
+    "lo": "17",
+    "hi": "24",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 17 % to <= 24 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D03",
+    "star_level": 4,
+    "lo": "8",
+    "hi": "17",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 8 % to <= 17 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D03",
+    "star_level": 5,
+    "lo": null,
+    "hi": "8",
+    "lo_inclusive": null,
+    "hi_inclusive": true,
+    "verbatim": "<= 8 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D03",
+    "star_level": 1,
+    "lo": "22",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null,
+    "verbatim": "> 22 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D03",
+    "star_level": 2,
+    "lo": "16",
+    "hi": "22",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 16 % to <= 22 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D03",
+    "star_level": 3,
+    "lo": "9",
+    "hi": "16",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 9 % to <= 16 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D03",
+    "star_level": 4,
+    "lo": "5",
+    "hi": "9",
+    "lo_inclusive": false,
+    "hi_inclusive": true,
+    "verbatim": "> 5 % to <= 9 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D03",
+    "star_level": 5,
+    "lo": null,
+    "hi": "5",
+    "lo_inclusive": null,
+    "hi_inclusive": true,
+    "verbatim": "<= 5 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D04",
+    "star_level": 1,
+    "lo": null,
+    "hi": "-0.218869",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< -0.218869",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D04",
+    "star_level": 2,
+    "lo": "-0.218869",
+    "hi": "0",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= -0.218869 to < 0",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D04",
+    "star_level": 3,
+    "lo": "0",
+    "hi": "0.242468",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 0 to < 0.242468",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D04",
+    "star_level": 4,
+    "lo": "0.242468",
+    "hi": "0.496603",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 0.242468 to < 0.496603",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D04",
+    "star_level": 5,
+    "lo": "0.496603",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 0.496603",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D04",
+    "star_level": 1,
+    "lo": null,
+    "hi": "-0.282500",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< -0.282500",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D04",
+    "star_level": 2,
+    "lo": "-0.282500",
+    "hi": "0",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= -0.282500 to < 0",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D04",
+    "star_level": 3,
+    "lo": "0",
+    "hi": "0.273334",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 0 to < 0.273334",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D04",
+    "star_level": 4,
+    "lo": "0.273334",
+    "hi": "0.576667",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 0.273334 to < 0.576667",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D04",
+    "star_level": 5,
+    "lo": "0.576667",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 0.576667",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D07",
+    "star_level": 1,
+    "lo": null,
+    "hi": "97",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 97",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D07",
+    "star_level": 2,
+    "lo": "97",
+    "hi": "98",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 97 to < 98",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D07",
+    "star_level": 3,
+    "lo": "98",
+    "hi": "99",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 98 to < 99",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D07",
+    "star_level": 4,
+    "lo": "99",
+    "hi": "100",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 99 to < 100",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D07",
+    "star_level": 5,
+    "lo": "100",
+    "hi": "100",
+    "lo_inclusive": true,
+    "hi_inclusive": true,
+    "verbatim": "= 100",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D07",
+    "star_level": 1,
+    "lo": null,
+    "hi": "97",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 97",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D07",
+    "star_level": 2,
+    "lo": "97",
+    "hi": "98",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 97 to < 98",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D07",
+    "star_level": 3,
+    "lo": "98",
+    "hi": "99",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 98 to < 99",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D07",
+    "star_level": 4,
+    "lo": "99",
+    "hi": "100",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 99 to < 100",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D07",
+    "star_level": 5,
+    "lo": "100",
+    "hi": "100",
+    "lo_inclusive": true,
+    "hi_inclusive": true,
+    "verbatim": "= 100",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D08",
+    "star_level": 1,
+    "lo": null,
+    "hi": "80",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 80 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D08",
+    "star_level": 2,
+    "lo": "80",
+    "hi": "85",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 80 % to < 85 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D08",
+    "star_level": 3,
+    "lo": "85",
+    "hi": "87",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 85 % to < 87 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D08",
+    "star_level": 4,
+    "lo": "87",
+    "hi": "91",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 87 % to < 91 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D08",
+    "star_level": 5,
+    "lo": "91",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 91 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D08",
+    "star_level": 1,
+    "lo": null,
+    "hi": "85",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 85 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D08",
+    "star_level": 2,
+    "lo": "85",
+    "hi": "87",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 85 % to < 87 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D08",
+    "star_level": 3,
+    "lo": "87",
+    "hi": "89",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 87 % to < 89 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D08",
+    "star_level": 4,
+    "lo": "89",
+    "hi": "93",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 89 % to < 93 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D08",
+    "star_level": 5,
+    "lo": "93",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 93 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D09",
+    "star_level": 1,
+    "lo": null,
+    "hi": "83",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 83 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D09",
+    "star_level": 2,
+    "lo": "83",
+    "hi": "87",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 83 % to < 87 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D09",
+    "star_level": 3,
+    "lo": "87",
+    "hi": "90",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 87 % to < 90 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D09",
+    "star_level": 4,
+    "lo": "90",
+    "hi": "92",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 90 % to < 92 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D09",
+    "star_level": 5,
+    "lo": "92",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 92 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D09",
+    "star_level": 1,
+    "lo": null,
+    "hi": "87",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 87 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D09",
+    "star_level": 2,
+    "lo": "87",
+    "hi": "89",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 87 % to < 89 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D09",
+    "star_level": 3,
+    "lo": "89",
+    "hi": "90",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 89 % to < 90 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D09",
+    "star_level": 4,
+    "lo": "90",
+    "hi": "92",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 90 % to < 92 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D09",
+    "star_level": 5,
+    "lo": "92",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 92 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D10",
+    "star_level": 1,
+    "lo": null,
+    "hi": "80",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 80 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D10",
+    "star_level": 2,
+    "lo": "80",
+    "hi": "85",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 80 % to < 85 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D10",
+    "star_level": 3,
+    "lo": "85",
+    "hi": "89",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 85 % to < 89 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D10",
+    "star_level": 4,
+    "lo": "89",
+    "hi": "93",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 89 % to < 93 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D10",
+    "star_level": 5,
+    "lo": "93",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 93 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D10",
+    "star_level": 1,
+    "lo": null,
+    "hi": "86",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 86 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D10",
+    "star_level": 2,
+    "lo": "86",
+    "hi": "88",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 86 % to < 88 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D10",
+    "star_level": 3,
+    "lo": "88",
+    "hi": "89",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 88 % to < 89 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D10",
+    "star_level": 4,
+    "lo": "89",
+    "hi": "92",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 89 % to < 92 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D10",
+    "star_level": 5,
+    "lo": "92",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 92 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D11",
+    "star_level": 1,
+    "lo": null,
+    "hi": "76",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 76 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D11",
+    "star_level": 2,
+    "lo": "76",
+    "hi": "84",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 76 % to < 84 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D11",
+    "star_level": 3,
+    "lo": "84",
+    "hi": "89",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 84 % to < 89 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D11",
+    "star_level": 4,
+    "lo": "89",
+    "hi": "93",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 89 % to < 93 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D11",
+    "star_level": 5,
+    "lo": "93",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 93 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D11",
+    "star_level": 1,
+    "lo": null,
+    "hi": "30",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 30 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D11",
+    "star_level": 2,
+    "lo": "30",
+    "hi": "55",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 30 % to < 55 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D11",
+    "star_level": 3,
+    "lo": "55",
+    "hi": "68",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 55 % to < 68 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D11",
+    "star_level": 4,
+    "lo": "68",
+    "hi": "80",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 68 % to < 80 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D11",
+    "star_level": 5,
+    "lo": "80",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 80 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D12",
+    "star_level": 1,
+    "lo": null,
+    "hi": "81",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 81 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D12",
+    "star_level": 2,
+    "lo": "81",
+    "hi": "86",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 81 % to < 86 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D12",
+    "star_level": 3,
+    "lo": "86",
+    "hi": "89",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 86 % to < 89 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D12",
+    "star_level": 4,
+    "lo": "89",
+    "hi": "93",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 89 % to < 93 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D12",
+    "star_level": 5,
+    "lo": "93",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 93 %",
+    "table": "K-4",
+    "org_type": "MA-PD"
+   },
+   {
+    "measure_id": "D12",
+    "star_level": 1,
+    "lo": null,
+    "hi": "80",
+    "lo_inclusive": null,
+    "hi_inclusive": false,
+    "verbatim": "< 80 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D12",
+    "star_level": 2,
+    "lo": "80",
+    "hi": "83",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 80 % to < 83 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D12",
+    "star_level": 3,
+    "lo": "83",
+    "hi": "85",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 83 % to < 85 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D12",
+    "star_level": 4,
+    "lo": "85",
+    "hi": "87",
+    "lo_inclusive": true,
+    "hi_inclusive": false,
+    "verbatim": ">= 85 % to < 87 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   },
+   {
+    "measure_id": "D12",
+    "star_level": 5,
+    "lo": "87",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null,
+    "verbatim": ">= 87 %",
+    "table": "K-4",
+    "org_type": "PDP"
+   }
+  ]
+ },
+ "final_thresholds_source": {
+  "statement": "Final (post-guardrail) per-measure cut points are stated in each measure's 'Cut Points:' table in the Measure Details section. Machine-readable source of record: Star Ratings Data Tables CSVs.",
+  "csv": [
+   "data/extracted/sy2025/current/2025 Star Ratings Data Table - Part C Cut Points (Dec 2 2024).csv",
+   "data/extracted/sy2025/current/2025 Star Ratings Data Table - Part D Cut Points (Dec 2 2024).csv"
+  ]
+ },
+ "final_vs_pre_guardrail_check": {
+  "method": "string-exact comparison of K-3/K-4 values against the published final Cut Points CSVs (with '>=100' == '=100' on 0-100 scales)",
+  "results": {
+   "('C01', None)": {
+    "pre_guardrail": [
+     [
+      null,
+      "58"
+     ],
+     [
+      "58",
+      "67"
+     ],
+     [
+      "67",
+      "75"
+     ],
+     [
+      "75",
+      "82"
+     ],
+     [
+      "82",
+      null
+     ]
+    ],
+    "final": [
+     [
+      null,
+      "53"
+     ],
+     [
+      "53",
+      "67"
+     ],
+     [
+      "67",
+      "75"
+     ],
+     [
+      "75",
+      "82"
+     ],
+     [
+      "82",
+      null
+     ]
+    ]
+   },
+   "('C02', None)": {
+    "pre_guardrail": [
+     [
+      null,
+      "58"
+     ],
+     [
+      "58",
+      "67"
+     ],
+     [
+      "67",
+      "75"
+     ],
+     [
+      "75",
+      "83"
+     ],
+     [
+      "83",
+      null
+     ]
+    ],
+    "final": [
+     [
+      null,
+      "53"
+     ],
+     [
+      "53",
+      "65"
+     ],
+     [
+      "65",
+      "75"
+     ],
+     [
+      "75",
+      "83"
+     ],
+     [
+      "83",
+      null
+     ]
+    ]
+   },
+   "('C04', None)": "EQUAL",
+   "('C05', None)": {
+    "pre_guardrail": [
+     [
+      null,
+      "46"
+     ],
+     [
+      "46",
+      "63"
+     ],
+     [
+      "63",
+      "76"
+     ],
+     [
+      "76",
+      "89"
+     ],
+     [
+      "89",
+      null
+     ]
+    ],
+    "final": [
+     [
+      null,
+      "46"
+     ],
+     [
+      "46",
+      "62"
+     ],
+     [
+      "62",
+      "76"
+     ],
+     [
+      "76",
+      "89"
+     ],
+     [
+      "89",
+      null
+     ]
+    ]
+   },
+   "('C06', None)": {
+    "pre_guardrail": [
+     [
+      null,
+      "83"
+     ],
+     [
+      "83",
+      "9E+1"
+     ],
+     [
+      "9E+1",
+      "94"
+     ],
+     [
+      "94",
+      "98"
+     ],
+     [
+      "98",
+      null
+     ]
+    ],
+    "final": [
+     [
+      null,
+      "53"
+     ],
+     [
+      "53",
+      "8E+1"
+     ],
+     [
+      "8E+1",
+      "92"
+     ],
+     [
+      "92",
+      "98"
+     ],
+     [
+      "98",
+      null
+     ]
+    ]
+   },
+   "('C07', None)": {
+    "pre_guardrail": [
+     [
+      null,
+      "79"
+     ],
+     [
+      "79",
+      "86"
+     ],
+     [
+      "86",
+      "92"
+     ],
+     [
+      "92",
+      "96"
+     ],
+     [
+      "96",
+      null
+     ]
+    ],
+    "final": [
+     [
+      null,
+      "6E+1"
+     ],
+     [
+      "6E+1",
+      "81"
+     ],
+     [
+      "81",
+      "92"
+     ],
+     [
+      "92",
+      "96"
+     ],
+     [
+      "96",
+      null
+     ]
+    ]
+   },
+   "('C08', None)": "EQUAL",
+   "('C09', None)": {
+    "pre_guardrail": [
+     [
+      null,
+      "62"
+     ],
+     [
+      "62",
+      "7E+1"
+     ],
+     [
+      "7E+1",
+      "77"
+     ],
+     [
+      "77",
+      "83"
+     ],
+     [
+      "83",
+      null
+     ]
+    ],
+    "final": [
+     [
+      null,
+      "57"
+     ],
+     [
+      "57",
+      "7E+1"
+     ],
+     [
+      "7E+1",
+      "77"
+     ],
+     [
+      "77",
+      "83"
+     ],
+     [
+      "83",
+      null
+     ]
+    ]
+   },
+   "('C10', None)": {
+    "pre_guardrail": [
+     [
+      null,
+      "69"
+     ],
+     [
+      "69",
+      "78"
+     ],
+     [
+      "78",
+      "84"
+     ],
+     [
+      "84",
+      "9E+1"
+     ],
+     [
+      "9E+1",
+      null
+     ]
+    ],
+    "final": [
+     [
+      null,
+      "49"
+     ],
+     [
+      "49",
+      "72"
+     ],
+     [
+      "72",
+      "84"
+     ],
+     [
+      "84",
+      "9E+1"
+     ],
+     [
+      "9E+1",
+      null
+     ]
+    ]
+   },
+   "('C11', None)": "EQUAL",
+   "('C12', None)": "EQUAL",
+   "('C13', None)": "EQUAL",
+   "('C14', None)": {
+    "pre_guardrail": [
+     [
+      null,
+      "42"
+     ],
+     [
+      "42",
+      "59"
+     ],
+     [
+      "59",
+      "73"
+     ],
+     [
+      "73",
+      "87"
+     ],
+     [
+      "87",
+      null
+     ]
+    ],
+    "final": [
+     [
+      null,
+      "42"
+     ],
+     [
+      "42",
+      "57"
+     ],
+     [
+      "57",
+      "73"
+     ],
+     [
+      "73",
+      "87"
+     ],
+     [
+      "87",
+      null
+     ]
+    ]
+   },
+   "('C15', None)": "EQUAL",
+   "('C16', None)": "EQUAL",
+   "('C17', None)": "EQUAL",
+   "('C18', None)": "EQUAL",
+   "('C25', None)": {
+    "pre_guardrail": [
+     [
+      "0.66",
+      null
+     ],
+     [
+      "0.41",
+      "0.66"
+     ],
+     [
+      "0.24",
+      "0.41"
+     ],
+     [
+      "0.12",
+      "0.24"
+     ],
+     [
+      null,
+      "0.12"
+     ]
+    ],
+    "final": [
+     [
+      "1.39",
+      null
+     ],
+     [
+      "0.76",
+      "1.39"
+     ],
+     [
+      "0.37",
+      "0.76"
+     ],
+     [
+      "0.12",
+      "0.37"
+     ],
+     [
+      null,
+      "0.12"
+     ]
+    ]
+   },
+   "('C26', None)": "EQUAL",
+   "('C27', None)": "EQUAL",
+   "('C28', None)": {
+    "pre_guardrail": [
+     [
+      null,
+      "87"
+     ],
+     [
+      "87",
+      "91"
+     ],
+     [
+      "91",
+      "95"
+     ],
+     [
+      "95",
+      "99"
+     ],
+     [
+      "99",
+      null
+     ]
+    ],
+    "final": [
+     [
+      null,
+      "69"
+     ],
+     [
+      "69",
+      "85"
+     ],
+     [
+      "85",
+      "95"
+     ],
+     [
+      "95",
+      "99"
+     ],
+     [
+      "99",
+      null
+     ]
+    ]
+   },
+   "('C29', None)": {
+    "pre_guardrail": [
+     [
+      null,
+      "88"
+     ],
+     [
+      "88",
+      "92"
+     ],
+     [
+      "92",
+      "96"
+     ],
+     [
+      "96",
+      "99"
+     ],
+     [
+      "99",
+      null
+     ]
+    ],
+    "final": [
+     [
+      null,
+      "78"
+     ],
+     [
+      "78",
+      "92"
+     ],
+     [
+      "92",
+      "96"
+     ],
+     [
+      "96",
+      "99"
+     ],
+     [
+      "99",
+      null
+     ]
+    ]
+   },
+   "('C30', None)": {
+    "pre_guardrail": [
+     [
+      null,
+      "89"
+     ],
+     [
+      "89",
+      "94"
+     ],
+     [
+      "94",
+      "97"
+     ],
+     [
+      "97",
+      "1E+2"
+     ],
+     [
+      "1E+2",
+      "1E+2"
+     ]
+    ],
+    "final": [
+     [
+      null,
+      "46"
+     ],
+     [
+      "46",
+      "69"
+     ],
+     [
+      "69",
+      "93"
+     ],
+     [
+      "93",
+      "1E+2"
+     ],
+     [
+      "1E+2",
+      "1E+2"
+     ]
+    ]
+   },
+   "('D01', 'MA-PD')": {
+    "pre_guardrail": [
+     [
+      null,
+      "85"
+     ],
+     [
+      "85",
+      "92"
+     ],
+     [
+      "92",
+      "96"
+     ],
+     [
+      "96",
+      "1E+2"
+     ],
+     [
+      "1E+2",
+      "1E+2"
+     ]
+    ],
+    "final": [
+     [
+      null,
+      "4E+1"
+     ],
+     [
+      "4E+1",
+      "74"
+     ],
+     [
+      "74",
+      "9E+1"
+     ],
+     [
+      "9E+1",
+      "1E+2"
+     ],
+     [
+      "1E+2",
+      "1E+2"
+     ]
+    ]
+   },
+   "('D01', 'PDP')": {
+    "pre_guardrail": [
+     [
+      null,
+      "94"
+     ],
+     [
+      "94",
+      "97"
+     ],
+     [
+      "97",
+      "98"
+     ],
+     [
+      "98",
+      "1E+2"
+     ],
+     [
+      "1E+2",
+      "1E+2"
+     ]
+    ],
+    "final": [
+     [
+      null,
+      "7E+1"
+     ],
+     [
+      "7E+1",
+      "85"
+     ],
+     [
+      "85",
+      "98"
+     ],
+     [
+      "98",
+      "1E+2"
+     ],
+     [
+      "1E+2",
+      "1E+2"
+     ]
+    ]
+   },
+   "('D02', 'MA-PD')": {
+    "pre_guardrail": [
+     [
+      "0.66",
+      null
+     ],
+     [
+      "0.41",
+      "0.66"
+     ],
+     [
+      "0.24",
+      "0.41"
+     ],
+     [
+      "0.12",
+      "0.24"
+     ],
+     [
+      null,
+      "0.12"
+     ]
+    ],
+    "final": [
+     [
+      "1.39",
+      null
+     ],
+     [
+      "0.76",
+      "1.39"
+     ],
+     [
+      "0.37",
+      "0.76"
+     ],
+     [
+      "0.12",
+      "0.37"
+     ],
+     [
+      null,
+      "0.12"
+     ]
+    ]
+   },
+   "('D02', 'PDP')": {
+    "pre_guardrail": [
+     [
+      "0.1",
+      null
+     ],
+     [
+      "0.06",
+      "0.1"
+     ],
+     [
+      "0.04",
+      "0.06"
+     ],
+     [
+      "0.02",
+      "0.04"
+     ],
+     [
+      null,
+      "0.02"
+     ]
+    ],
+    "final": [
+     [
+      "0.32",
+      null
+     ],
+     [
+      "0.2",
+      "0.32"
+     ],
+     [
+      "0.11",
+      "0.2"
+     ],
+     [
+      "0.04",
+      "0.11"
+     ],
+     [
+      null,
+      "0.04"
+     ]
+    ]
+   },
+   "('D03', 'MA-PD')": "EQUAL",
+   "('D03', 'PDP')": "EQUAL",
+   "('D04', 'MA-PD')": "EQUAL",
+   "('D04', 'PDP')": "EQUAL",
+   "('D07', 'MA-PD')": {
+    "pre_guardrail": [
+     [
+      null,
+      "97"
+     ],
+     [
+      "97",
+      "98"
+     ],
+     [
+      "98",
+      "99"
+     ],
+     [
+      "99",
+      "1E+2"
+     ],
+     [
+      "1E+2",
+      "1E+2"
+     ]
+    ],
+    "final": [
+     [
+      null,
+      "97"
+     ],
+     [
+      "97",
+      "98"
+     ],
+     [
+      "98",
+      "99"
+     ],
+     [
+      "99",
+      "1E+2"
+     ],
+     [
+      "1E+2",
+      null
+     ]
+    ]
+   },
+   "('D07', 'PDP')": {
+    "pre_guardrail": [
+     [
+      null,
+      "97"
+     ],
+     [
+      "97",
+      "98"
+     ],
+     [
+      "98",
+      "99"
+     ],
+     [
+      "99",
+      "1E+2"
+     ],
+     [
+      "1E+2",
+      "1E+2"
+     ]
+    ],
+    "final": [
+     [
+      null,
+      "97"
+     ],
+     [
+      "97",
+      "98"
+     ],
+     [
+      "98",
+      "99"
+     ],
+     [
+      "99",
+      "1E+2"
+     ],
+     [
+      "1E+2",
+      null
+     ]
+    ]
+   },
+   "('D08', 'MA-PD')": "EQUAL",
+   "('D08', 'PDP')": "EQUAL",
+   "('D09', 'MA-PD')": "EQUAL",
+   "('D09', 'PDP')": "EQUAL",
+   "('D10', 'MA-PD')": "EQUAL",
+   "('D10', 'PDP')": "EQUAL",
+   "('D11', 'MA-PD')": {
+    "pre_guardrail": [
+     [
+      null,
+      "76"
+     ],
+     [
+      "76",
+      "84"
+     ],
+     [
+      "84",
+      "89"
+     ],
+     [
+      "89",
+      "93"
+     ],
+     [
+      "93",
+      null
+     ]
+    ],
+    "final": [
+     [
+      null,
+      "57"
+     ],
+     [
+      "57",
+      "77"
+     ],
+     [
+      "77",
+      "89"
+     ],
+     [
+      "89",
+      "93"
+     ],
+     [
+      "93",
+      null
+     ]
+    ]
+   },
+   "('D11', 'PDP')": "EQUAL",
+   "('D12', 'MA-PD')": "EQUAL",
+   "('D12', 'PDP')": "EQUAL"
+  },
+  "reading": "EQUAL means guardrail did not change that measure's cut points (either exempt or non-binding); a dict means guardrails moved at least one cut point."
+ },
+ "anomalies": [
+  "No first-release wayback Tech Notes available for 2025 in data/raw; single version (Updated 10/03/2024) used. Digit confirmation status: the 2025 PDF text layer is clean (no font garbling); all K-3/K-4 rows pass internal bound-chaining; the rows where guardrails did not bind (24 of 43) are additionally confirmed string-exact against the published final Cut Points CSVs. The pre-guardrail digits of the 19 guardrail-bound rows and all K-5/K-6 Tukey cutoffs rest on the single PDF only.",
+  "Per the 2025 'Note on References to the 2024 Star Ratings': prior-year (guardrail-base) cut points are the RECALCULATED 2024 cut points (July 2024 data tables), not the October 2023 originals."
+ ]
+}

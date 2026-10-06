@@ -1,0 +1,2332 @@
+{
+ "run": "exact_census_2023",
+ "register": "Exact comparison in binary-double arithmetic: Fraction(float) of the replay doubles; the replay matches the published stars with zero mismatches (runs/sas_replay_2023.json); there is no safety cap in the SAS era, so the replayed assignment equals the published assignment.",
+ "peer_groups": {
+  "peer3": {
+   "n": 194,
+   "cms_star_counts": {
+    "1": 22,
+    "2": 40,
+    "3": 73,
+    "4": 37,
+    "5": 22
+   },
+   "dp_star_counts": {
+    "1": 8,
+    "2": 32,
+    "3": 41,
+    "4": 63,
+    "5": 50
+   },
+   "ssq_cms_float": 6.255299066965744,
+   "ssq_optimal_float": 5.490205287380413,
+   "ssq_gap_float": 0.7650937795853305,
+   "ssq_gap_exact": "3810885268110527172140309768237828556678827/4980938768285333813286116449224433965465600",
+   "cms_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "boundary_value_ties": 0,
+   "hospitals_star_differs": 118,
+   "moves": {
+    "2->3": 22,
+    "3->4": 54,
+    "1->2": 14,
+    "4->5": 28
+   }
+  },
+  "peer4": {
+   "n": 462,
+   "cms_star_counts": {
+    "1": 25,
+    "2": 84,
+    "3": 128,
+    "4": 130,
+    "5": 95
+   },
+   "dp_star_counts": {
+    "1": 10,
+    "2": 136,
+    "3": 199,
+    "4": 111,
+    "5": 6
+   },
+   "ssq_cms_float": 20.587696252894496,
+   "ssq_optimal_float": 18.847324473052023,
+   "ssq_gap_float": 1.7403717798424747,
+   "ssq_gap_exact": "62582115590851198348739173306303977337319277/35959049851127589434175270949340612235624448",
+   "cms_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "boundary_value_ties": 0,
+   "hospitals_star_differs": 249,
+   "moves": {
+    "4->3": 108,
+    "3->2": 37,
+    "5->4": 89,
+    "1->2": 15
+   }
+  },
+  "peer5": {
+   "n": 2420,
+   "cms_star_counts": {
+    "1": 203,
+    "2": 544,
+    "3": 671,
+    "4": 636,
+    "5": 366
+   },
+   "dp_star_counts": {
+    "1": 203,
+    "2": 543,
+    "3": 670,
+    "4": 638,
+    "5": 366
+   },
+   "ssq_cms_float": 41.32970875460034,
+   "ssq_optimal_float": 41.32954466414478,
+   "ssq_gap_float": 0.00016409045556480578,
+   "ssq_gap_exact": "5564968790837007157085513442127935119722255807/33914030963483929968580648875734525934194298716160",
+   "cms_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "boundary_value_ties": 0,
+   "hospitals_star_differs": 3,
+   "moves": {
+    "3->4": 2,
+    "2->3": 1
+   }
+  }
+ },
+ "total_rated": 3076,
+ "total_hospitals_star_differs": 370,
+ "moves_total": {
+  "2->3": 23,
+  "3->4": 56,
+  "1->2": 29,
+  "4->5": 28,
+  "4->3": 108,
+  "3->2": 37,
+  "5->4": 89
+ },
+ "moves_up": 136,
+ "moves_down": 234,
+ "star_differs_detail": [
+  {
+   "provider_id": "010034",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "010062",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "040015",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "040047",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "040076",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050070",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "050071",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "050076",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050137",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050138",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050139",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050140",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "050411",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "050510",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050515",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050541",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050561",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050609",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "050686",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050690",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050710",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050723",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "050744",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "050747",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "050758",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050760",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050765",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050777",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050783",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "051304",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "060129",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "100081",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "100106",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "100134",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "100175",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "110092",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "140137",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "140181",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "140210",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "141339",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "141341",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "141347",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "150102",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "151307",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "151311",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "151312",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "151316",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "151324",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "151326",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "151334",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "161355",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "161361",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "171341",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "171379",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "180046",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "181309",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "181319",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "181320",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "190088",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "190116",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "190151",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "190184",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "190317",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "191304",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "191315",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "201310",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "210030",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "230096",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "231318",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "231319",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "250044",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "250067",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "250085",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "250096",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "250124",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "250128",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "251337",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "260034",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "260064",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "260160",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "261318",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "261327",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "320003",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "320065",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "33020F",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "331311",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "331320",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "340159",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "36008F",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "361314",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "361315",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "361316",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "370015",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "370029",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "370030",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "370100",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "370153",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "370158",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "380103",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "381322",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "391306",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "400016",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "400021",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "400022",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "420043",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "431338",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "440016",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "450085",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "450162",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "450400",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "450573",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "450803",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "451356",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "471306",
+   "peer": "peer3",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "480002",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "501327",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "521325",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "531305",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "010045",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "010112",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "010125",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "010168",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "010169",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "030022",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "030105",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "030137",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "03033F",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "031314",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "040001",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "040050",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "040051",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "040072",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "04009F",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "041307",
+   "peer": "peer4",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "050158",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "050357",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050517",
+   "peer": "peer4",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "050738",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050763",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "050782",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "051317",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "051328",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "051329",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "060049",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "06007F",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "060096",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "060103",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "060126",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "061301",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "061322",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "061344",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "090008",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "100284",
+   "peer": "peer4",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "110043",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "110109",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "110132",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "110189",
+   "peer": "peer4",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "110200",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "110233",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "130025",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "130066",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "14008F",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "140100",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "140103",
+   "peer": "peer4",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "141322",
+   "peer": "peer4",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "141343",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "150022",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "150045",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "150072",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "150075",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "150146",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "150181",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "150183",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "151310",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "151315",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "151322",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "151330",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "151331",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "151333",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "160013",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "160040",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "160101",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "160147",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "161339",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "161363",
+   "peer": "peer4",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "161376",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "170009",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "17005F",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "170186",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "171362",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "171363",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "171371",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "171375",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "171383",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "171384",
+   "peer": "peer4",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "180115",
+   "peer": "peer4",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "180138",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "181301",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "181329",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "190255",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "190308",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "200018",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "200037",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "200050",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "201302",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "201314",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "221302",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "230003",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "230108",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "230174",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "230180",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "230208",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "230297",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "230303",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "231305",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "231325",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "231327",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "231332",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "231333",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "231337",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "231338",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "240006",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "240018",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "240019",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "240030",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "240063",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "240076",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "240084",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "240214",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "241359",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "241367",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "250042",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "250043",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "250057",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "25042F",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "260024",
+   "peer": "peer4",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "260162",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "261320",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "261321",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "261329",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "261330",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "261337",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "27003F",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "271317",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "271340",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "271345",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "281334",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "281352",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "29002F",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "291313",
+   "peer": "peer4",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "301309",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "301310",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "301311",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "320090",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "330151",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "330223",
+   "peer": "peer4",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "340087",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "34017F",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "340187",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "340190",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "341318",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "341322",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "341324",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "341325",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "341329",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "35002F",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "351336",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "36007F",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "360092",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "360107",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "360270",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "360352",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "361307",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "361328",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "361329",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "361332",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "361333",
+   "peer": "peer4",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "370019",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "370054",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "370210",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "370235",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "381302",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "381316",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "381323",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "390056",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "39006F",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "390072",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "390112",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "390138",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "39013F",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "391305",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "391313",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "391314",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "391315",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "391316",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "410010",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "420101",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "420102",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "43002F",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "430048",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "430095",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "440175",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "441307",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "450055",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "450082",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "450099",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "450108",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "450465",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "450653",
+   "peer": "peer4",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "450851",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "450864",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "450891",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "450893",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "451379",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "451380",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "451387",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "460006",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "460023",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "460030",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "460044",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "460057",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "460058",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "460060",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "471301",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "471307",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "490002",
+   "peer": "peer4",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "490032",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "490033",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "490088",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "490090",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "491302",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "491304",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "491305",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "501312",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "501323",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "501326",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "501332",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "501336",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "501339",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "51002F",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "51003F",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "51005F",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "510072",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "511316",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "511320",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "520017",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "520044",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "520095",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "520107",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "521315",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "521327",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "521330",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "521337",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "521338",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "521340",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "521341",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "521343",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "521348",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "521355",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "521357",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "521358",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "670004",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "670025",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "670053",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "670061",
+   "peer": "peer4",
+   "shipped": 5,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "670073",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "670260",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "180143",
+   "peer": "peer5",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "390113",
+   "peer": "peer5",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "420105",
+   "peer": "peer5",
+   "shipped": 3,
+   "dp_optimum": 4
+  }
+ ]
+}

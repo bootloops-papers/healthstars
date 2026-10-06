@@ -1,0 +1,770 @@
+contract_id,puerto_rico_only_raw,part_c_fac_raw,part_d_mapd_fac_raw,part_d_pdp_fac_raw,overall_fac_raw
+E3014,No ,N/A ,N/A ,1,N/A
+H0028,No ,4,3,N/A ,4
+H0029,No ,N/A ,N/A ,N/A ,N/A
+H0034,No ,7,5,N/A ,8
+H0062,No ,N/A ,N/A ,N/A ,N/A
+H0074,No ,5,4,N/A ,6
+H0104,No ,2,2,N/A ,2
+H0107,No ,1,1,N/A ,1
+H0111,No ,5,4,N/A ,6
+H0154,No ,5,4,N/A ,6
+H0169,No ,8,6,N/A ,9
+H0174,No ,6,4,N/A ,7
+H0251,No ,8,6,N/A ,9
+H0270,No ,5,4,N/A ,7
+H0292,No ,4,3,N/A ,4
+H0294,No ,3,2,N/A ,3
+H0302,No ,2,2,N/A ,2
+H0321,No ,8,6,N/A ,9
+H0332,No ,2,2,N/A ,2
+H0342,No ,2,2,N/A ,2
+H0351,No ,4,3,N/A ,5
+H0354,No ,3,2,N/A ,3
+H0363,No ,7,5,N/A ,8
+H0413,No ,N/A ,N/A ,N/A ,N/A
+H0421,No ,N/A ,N/A ,N/A ,N/A
+H0423,No ,6,5,N/A ,8
+H0432,No ,5,4,N/A ,7
+H0439,No ,5,3,N/A ,6
+H0473,No ,4,3,N/A ,4
+H0504,No ,2,2,N/A ,2
+H0523,No ,4,3,N/A ,4
+H0524,No ,2,2,N/A ,2
+H0543,No ,4,3,N/A ,4
+H0544,No ,4,3,N/A ,4
+H0562,No ,4,2,N/A ,4
+H0571,No ,4,2,N/A ,4
+H0609,No ,4,3,N/A ,4
+H0624,No ,8,6,N/A ,9
+H0628,No ,5,4,N/A ,6
+H0629,No ,N/A ,N/A ,N/A ,N/A
+H0630,No ,2,2,N/A ,2
+H0672,No ,4,3,N/A ,5
+H0710,No ,7,4,N/A ,8
+H0712,No ,7,5,N/A ,8
+H0724,No ,N/A ,N/A ,N/A ,N/A
+H0738,No ,8,6,N/A ,9
+H0755,No ,3,2,N/A ,3
+H0764,No ,8,6,N/A ,9
+H0777,No ,N/A ,N/A ,N/A ,N/A
+H0783,No ,5,3,N/A ,5
+H0816,No ,N/A ,N/A ,N/A ,N/A
+H0885,No ,3,2,N/A ,2
+H0907,No ,8,6,N/A ,9
+H0908,No ,6,4,N/A ,7
+H0913,No ,6,4,N/A ,7
+H0963,No ,N/A ,N/A ,N/A ,N/A
+H0976,No ,6,5,N/A ,5
+H0978,No ,3,2,N/A ,3
+H0982,No ,6,2,N/A ,5
+H1019,No ,4,3,N/A ,5
+H1032,No ,5,4,N/A ,6
+H1035,No ,3,2,N/A ,3
+H1036,No ,4,3,N/A ,5
+H1045,No ,4,3,N/A ,5
+H1099,No ,2,2,N/A ,2
+H1109,No ,3,2,N/A ,3
+H1112,No ,6,4,N/A ,7
+H1119,No ,7,5,N/A ,8
+H1170,No ,2,2,N/A ,2
+H1181,No ,1,N/A ,N/A ,N/A
+H1189,No ,3,2,N/A ,3
+H1206,No ,3,3,N/A ,4
+H1212,No ,N/A ,N/A ,N/A ,N/A
+H1215,No ,5,4,N/A ,7
+H1224,No ,6,5,N/A ,8
+H1225,No ,4,3,N/A ,4
+H1230,No ,2,2,N/A ,2
+H1248,No ,1,1,N/A ,1
+H1278,No ,3,2,N/A ,2
+H1280,No ,5,3,N/A ,6
+H1285,No ,N/A ,N/A ,N/A ,N/A
+H1290,No ,6,3,N/A ,5
+H1302,No ,1,1,N/A ,1
+H1304,No ,2,2,N/A ,2
+H1339,No ,5,4,N/A ,6
+H1347,No ,2,2,N/A ,2
+H1350,No ,2,2,N/A ,2
+H1360,No ,7,5,N/A ,8
+H1365,No ,2,2,N/A ,2
+H1372,No ,7,4,N/A ,8
+H1395,No ,5,4,N/A ,6
+H1396,No ,N/A ,N/A ,N/A ,N/A
+H1416,No ,6,4,N/A ,7
+H1423,No ,4,3,N/A ,5
+H1468,No ,4,3,N/A ,5
+H1486,No ,N/A ,N/A ,N/A ,N/A
+H1526,No ,4,3,N/A ,4
+H1537,No ,1,1,N/A ,1
+H1587,No ,7,5,N/A ,8
+H1607,No ,3,2,N/A ,2
+H1608,No ,4,3,N/A ,4
+H1609,No ,4,3,N/A ,5
+H1610,No ,8,6,N/A ,9
+H1611,No ,N/A ,N/A ,N/A ,N/A
+H1619,No ,3,2,N/A ,3
+H1644,No ,7,5,N/A ,8
+H1651,No ,2,N/A ,N/A ,N/A
+H1659,No ,4,3,N/A ,4
+H1664,No ,5,4,N/A ,7
+H1666,No ,3,2,N/A ,2
+H1671,No ,N/A ,N/A ,N/A ,N/A
+H1692,No ,6,5,N/A ,7
+H1722,No ,3,2,N/A ,3
+H1787,No ,6,3,N/A ,8
+H1799,No ,7,5,N/A ,8
+H1822,No ,4,3,N/A ,4
+H1846,No ,1,1,N/A ,1
+H1862,No ,5,4,N/A ,6
+H1889,No ,6,5,N/A ,7
+H1894,No ,7,5,N/A ,8
+H1914,No ,4,3,N/A ,5
+H1947,No ,8,6,N/A ,9
+H1951,No ,5,3,N/A ,5
+H1961,No ,5,4,N/A ,6
+H1969,No ,3,2,N/A ,2
+H1993,No ,4,2,N/A ,4
+H1994,No ,3,2,N/A ,2
+H1997,No ,2,2,N/A ,2
+H2001,No ,3,2,N/A ,3
+H2029,Yes ,6,3,N/A ,5
+H2032,No ,1,1,N/A ,1
+H2034,No ,8,6,N/A ,9
+H2035,No ,N/A ,N/A ,N/A ,N/A
+H2041,No ,N/A ,N/A ,N/A ,N/A
+H2056,No ,4,3,N/A ,5
+H2108,No ,5,4,N/A ,6
+H2117,No ,6,5,N/A ,7
+H2126,No ,N/A ,N/A ,N/A ,N/A
+H2162,No ,5,4,N/A ,7
+H2168,No ,6,5,N/A ,8
+H2172,No ,4,2,N/A ,3
+H2174,No ,8,6,N/A ,9
+H2185,No ,8,6,N/A ,9
+H2224,No ,6,5,N/A ,5
+H2225,No ,7,5,N/A ,8
+H2226,No ,6,5,N/A ,5
+H2230,No ,2,2,N/A ,2
+H2235,No ,1,1,N/A ,1
+H2237,No ,8,6,N/A ,9
+H2247,No ,8,6,N/A ,9
+H2256,No ,3,2,N/A ,3
+H2261,No ,3,2,N/A ,2
+H2272,No ,8,6,N/A ,9
+H2292,No ,7,3,N/A ,8
+H2293,No ,4,3,N/A ,5
+H2320,No ,2,2,N/A ,2
+H2322,No ,2,2,N/A ,2
+H2354,No ,2,2,N/A ,2
+H2385,No ,N/A ,N/A ,N/A ,N/A
+H2392,No ,8,6,N/A ,9
+H2400,No ,7,5,N/A ,8
+H2406,No ,4,3,N/A ,4
+H2416,No ,7,5,N/A ,8
+H2417,No ,7,5,N/A ,8
+H2419,No ,7,5,N/A ,8
+H2422,No ,6,5,N/A ,8
+H2425,No ,6,5,N/A ,8
+H2441,No ,N/A ,N/A ,N/A ,N/A
+H2445,No ,N/A ,N/A ,N/A ,N/A
+H2450,No ,1,1,N/A ,1
+H2456,No ,7,5,N/A ,8
+H2458,No ,7,5,N/A ,8
+H2459,No ,1,1,N/A ,1
+H2461,No ,1,1,N/A ,1
+H2462,No ,1,1,N/A ,1
+H2463,No ,4,3,N/A ,4
+H2478,No ,7,4,N/A ,8
+H2486,No ,3,2,N/A ,3
+H2491,No ,6,4,N/A ,7
+H2509,No ,8,6,N/A ,9
+H2526,No ,2,2,N/A ,2
+H2563,No ,5,4,N/A ,6
+H2564,No ,N/A ,N/A ,N/A ,N/A
+H2593,No ,6,4,N/A ,7
+H2610,No ,2,2,N/A ,2
+H2624,No ,2,2,N/A ,2
+H2628,No ,N/A ,N/A ,N/A ,N/A
+H2630,No ,N/A ,N/A ,N/A ,N/A
+H2663,No ,4,3,N/A ,4
+H2686,No ,4,2,N/A ,3
+H2687,No ,N/A ,N/A ,N/A ,N/A
+H2694,No ,4,3,N/A ,5
+H2697,No ,4,3,N/A ,5
+H2704,No ,N/A ,N/A ,N/A ,N/A
+H2715,No ,7,5,N/A ,8
+H2737,No ,3,2,N/A ,3
+H2752,No ,8,6,N/A ,9
+H2775,No ,5,3,N/A ,6
+H2802,No ,4,3,N/A ,4
+H2816,No ,4,3,N/A ,5
+H2819,No ,6,5,N/A ,8
+H2836,No ,4,3,N/A ,5
+H2845,No ,N/A ,N/A ,N/A ,N/A
+H2853,No ,N/A ,N/A ,N/A ,N/A
+H2875,No ,N/A ,N/A ,N/A ,N/A
+H2915,No ,7,5,N/A ,8
+H2923,No ,4,3,N/A ,5
+H2926,No ,8,6,N/A ,9
+H2942,No ,2,2,N/A ,2
+H2960,No ,2,2,N/A ,2
+H2962,No ,4,3,N/A ,4
+H3038,No ,7,5,N/A ,8
+H3041,No ,4,4,N/A ,5
+H3048,No ,N/A ,N/A ,N/A ,N/A
+H3071,No ,6,4,N/A ,7
+H3080,No ,6,5,N/A ,7
+H3093,No ,N/A ,N/A ,N/A ,N/A
+H3113,No ,7,5,N/A ,8
+H3124,No ,N/A ,N/A ,N/A ,N/A
+H3127,No ,N/A ,N/A ,N/A ,N/A
+H3138,No ,2,2,N/A ,2
+H3146,No ,5,4,N/A ,6
+H3152,No ,3,2,N/A ,2
+H3170,No ,3,3,N/A ,4
+H3186,No ,3,2,N/A ,2
+H3192,No ,6,4,N/A ,7
+H3204,No ,4,3,N/A ,5
+H3219,No ,3,2,N/A ,3
+H3239,No ,7,5,N/A ,8
+H3240,No ,7,5,N/A ,8
+H3251,No ,4,3,N/A ,5
+H3256,No ,8,6,N/A ,9
+H3259,No ,8,6,N/A ,9
+H3274,No ,4,2,N/A ,4
+H3276,No ,8,6,N/A ,9
+H3288,No ,4,3,N/A ,5
+H3291,No ,7,5,N/A ,8
+H3305,No ,3,2,N/A ,3
+H3312,No ,6,4,N/A ,7
+H3330,No ,2,2,N/A ,2
+H3335,No ,2,2,N/A ,2
+H3344,No ,1,1,N/A ,1
+H3347,No ,6,3,N/A ,8
+H3351,No ,2,2,N/A ,2
+H3359,No ,6,3,N/A ,8
+H3362,No ,3,2,N/A ,3
+H3379,No ,4,3,N/A ,4
+H3384,No ,3,2,N/A ,2
+H3387,No ,7,5,N/A ,8
+H3388,No ,3,2,N/A ,3
+H3404,No ,2,2,N/A ,2
+H3407,No ,7,5,N/A ,8
+H3418,No ,3,2,N/A ,3
+H3419,No ,6,4,N/A ,7
+H3443,No ,4,3,N/A ,5
+H3447,No ,6,4,N/A ,7
+H3449,No ,2,2,N/A ,2
+H3467,No ,7,5,N/A ,8
+H3499,No ,6,5,N/A ,7
+H3528,No ,4,2,N/A ,3
+H3533,No ,6,4,N/A ,7
+H3536,No ,5,4,N/A ,7
+H3551,No ,4,3,N/A ,5
+H3557,No ,1,1,N/A ,1
+H3561,No ,7,5,N/A ,8
+H3597,No ,4,3,N/A ,4
+H3653,No ,2,2,N/A ,2
+H3655,No ,4,3,N/A ,4
+H3660,No ,2,2,N/A ,2
+H3664,No ,1,1,N/A ,1
+H3668,No ,2,2,N/A ,2
+H3672,No ,5,4,N/A ,6
+H3706,No ,4,3,N/A ,4
+H3708,No ,7,5,N/A ,8
+H3727,No ,7,5,N/A ,8
+H3748,No ,3,2,N/A ,2
+H3755,No ,2,2,N/A ,2
+H3777,No ,1,1,N/A ,1
+H3794,No ,8,6,N/A ,9
+H3800,No ,7,5,N/A ,8
+H3805,No ,3,2,N/A ,2
+H3810,No ,6,4,N/A ,7
+H3811,No ,4,3,N/A ,4
+H3814,No ,7,5,N/A ,8
+H3815,No ,4,3,N/A ,5
+H3817,No ,2,2,N/A ,2
+H3822,No ,3,2,N/A ,3
+H3828,No ,3,2,N/A ,2
+H3832,No ,2,2,N/A ,2
+H3864,No ,4,3,N/A ,4
+H3868,No ,N/A ,N/A ,N/A ,N/A
+H3890,No ,3,2,N/A ,2
+H3907,No ,3,2,N/A ,2
+H3909,No ,2,2,N/A ,2
+H3916,No ,2,2,N/A ,2
+H3923,No ,2,2,N/A ,2
+H3924,No ,3,2,N/A ,3
+H3928,No ,4,3,N/A ,4
+H3931,No ,4,3,N/A ,5
+H3949,No ,6,4,N/A ,6
+H3952,No ,2,2,N/A ,2
+H3954,No ,4,3,N/A ,5
+H3957,No ,3,2,N/A ,2
+H3959,No ,5,4,N/A ,6
+H3962,No ,3,2,N/A ,3
+H3975,No ,5,4,N/A ,7
+H3979,No ,4,3,N/A ,4
+H4003,Yes ,7,5,N/A ,8
+H4004,Yes ,7,5,N/A ,8
+H4005,Yes ,6,3,N/A ,8
+H4026,No ,N/A ,N/A ,N/A ,N/A
+H4032,No ,N/A ,N/A ,N/A ,N/A
+H4036,No ,1,1,N/A ,1
+H4045,No ,6,5,N/A ,8
+H4054,No ,7,5,N/A ,8
+H4057,No ,N/A ,N/A ,N/A ,N/A
+H4073,No ,6,4,N/A ,7
+H4091,No ,7,5,N/A ,8
+H4093,No ,7,4,N/A ,8
+H4140,No ,4,2,N/A ,4
+H4141,No ,5,4,N/A ,6
+H4152,No ,3,2,N/A ,3
+H4158,No ,N/A ,N/A ,N/A ,N/A
+H4161,No ,4,3,N/A ,5
+H4172,No ,7,5,N/A ,8
+H4193,No ,N/A ,N/A ,N/A ,N/A
+H4213,No ,4,4,N/A ,5
+H4227,No ,8,6,N/A ,9
+H4232,No ,7,5,N/A ,8
+H4279,No ,8,6,N/A ,9
+H4286,No ,4,2,N/A ,4
+H4329,No ,N/A ,N/A ,N/A ,N/A
+H4346,No ,4,3,N/A ,5
+H4348,No ,N/A ,N/A ,N/A ,N/A
+H4371,No ,N/A ,N/A ,N/A ,N/A
+H4407,No ,5,3,N/A ,5
+H4439,No ,7,5,N/A ,8
+H4444,No ,N/A ,N/A ,N/A ,N/A
+H4461,No ,4,3,N/A ,4
+H4471,No ,6,5,N/A ,8
+H4473,No ,N/A ,N/A ,N/A ,N/A
+H4490,No ,7,5,N/A ,8
+H4497,No ,1,1,N/A ,1
+H4499,No ,N/A ,N/A ,N/A ,N/A
+H4506,No ,3,2,N/A ,3
+H4513,No ,4,3,N/A ,5
+H4514,No ,6,4,N/A ,7
+H4523,No ,4,3,N/A ,4
+H4527,No ,4,3,N/A ,5
+H4537,No ,5,4,N/A ,7
+H4544,No ,4,4,N/A ,5
+H4604,No ,3,2,N/A ,2
+H4605,No ,1,1,N/A ,1
+H4610,No ,N/A ,N/A ,N/A ,N/A
+H4623,No ,4,3,N/A ,4
+H4624,No ,6,5,N/A ,7
+H4647,No ,N/A ,N/A ,N/A ,N/A
+H4661,No ,7,5,N/A ,8
+H4676,No ,5,4,N/A ,7
+H4694,No ,N/A ,N/A ,N/A ,N/A
+H4704,No ,8,6,N/A ,9
+H4711,No ,7,4,N/A ,8
+H4733,No ,7,5,N/A ,8
+H4739,No ,6,5,N/A ,8
+H4754,No ,2,2,N/A ,2
+H4808,No ,4,3,N/A ,4
+H4835,No ,3,2,N/A ,3
+H4847,No ,6,5,N/A ,7
+H4868,No ,6,3,N/A ,8
+H4869,No ,5,3,N/A ,6
+H4875,No ,2,2,N/A ,2
+H4882,No ,1,1,N/A ,1
+H4909,No ,4,3,N/A ,4
+H4931,No ,7,5,N/A ,8
+H4937,No ,1,1,N/A ,1
+H4939,No ,N/A ,N/A ,N/A ,N/A
+H4961,No ,2,2,N/A ,2
+H4982,No ,4,3,N/A ,4
+H5008,No ,8,6,N/A ,9
+H5009,No ,1,1,N/A ,1
+H5015,No ,7,5,N/A ,8
+H5042,No ,2,2,N/A ,2
+H5050,No ,1,1,N/A ,1
+H5087,No ,4,3,N/A ,4
+H5106,No ,4,3,N/A ,4
+H5117,No ,N/A ,N/A ,N/A ,N/A
+H5119,No ,N/A ,N/A ,N/A ,N/A
+H5141,No ,4,3,N/A ,5
+H5163,No ,4,3,N/A ,5
+H5178,No ,5,4,N/A ,5
+H5190,No ,N/A ,N/A ,N/A ,N/A
+H5209,No ,8,6,N/A ,9
+H5211,No ,2,2,N/A ,2
+H5215,No ,1,1,N/A ,1
+H5216,No ,4,3,N/A ,4
+H5232,No ,2,2,N/A ,2
+H5244,No ,5,3,N/A ,5
+H5253,No ,5,3,N/A ,5
+H5256,No ,1,N/A ,N/A ,N/A
+H5262,No ,1,1,N/A ,1
+H5264,No ,1,N/A ,N/A ,N/A
+H5272,No ,N/A ,N/A ,N/A ,N/A
+H5273,No ,3,2,N/A ,3
+H5294,No ,6,4,N/A ,7
+H5296,No ,4,3,N/A ,4
+H5299,No ,4,3,N/A ,4
+H5302,No ,7,5,N/A ,8
+H5314,No ,N/A ,N/A ,N/A ,N/A
+H5322,No ,7,5,N/A ,8
+H5325,No ,8,6,N/A ,9
+H5361,No ,4,3,N/A ,4
+H5374,No ,7,5,N/A ,8
+H5377,No ,4,3,N/A ,4
+H5386,No ,2,2,N/A ,2
+H5397,No ,N/A ,N/A ,N/A ,N/A
+H5410,No ,4,3,N/A ,5
+H5420,No ,4,2,N/A ,4
+H5422,No ,6,4,N/A ,6
+H5425,No ,3,2,N/A ,3
+H5427,No ,4,3,N/A ,4
+H5431,No ,4,2,N/A ,4
+H5433,No ,6,5,N/A ,8
+H5434,No ,1,1,N/A ,1
+H5435,No ,4,3,N/A ,4
+H5439,No ,4,3,N/A ,4
+H5447,No ,5,4,N/A ,6
+H5453,No ,N/A ,N/A ,N/A ,N/A
+H5454,No ,6,4,N/A ,7
+H5471,No ,6,3,N/A ,5
+H5472,No ,4,3,N/A ,4
+H5475,No ,6,4,N/A ,7
+H5496,No ,4,3,N/A ,5
+H5521,No ,3,2,N/A ,3
+H5522,No ,1,1,N/A ,1
+H5525,No ,5,4,N/A ,5
+H5526,No ,1,1,N/A ,1
+H5528,No ,1,1,N/A ,1
+H5533,No ,4,2,N/A ,4
+H5549,No ,6,5,N/A ,8
+H5577,Yes ,7,5,N/A ,8
+H5580,No ,8,6,N/A ,9
+H5587,No ,7,5,N/A ,8
+H5590,No ,7,5,N/A ,8
+H5591,No ,2,2,N/A ,2
+H5593,No ,8,6,N/A ,9
+H5594,No ,4,3,N/A ,4
+H5599,No ,7,4,N/A ,8
+H5608,No ,7,4,N/A ,8
+H5619,No ,5,4,N/A ,6
+H5628,No ,7,5,N/A ,8
+H5644,No ,N/A ,N/A ,N/A ,N/A
+H5649,No ,4,2,N/A ,4
+H5652,No ,1,1,N/A ,1
+H5692,No ,N/A ,N/A ,N/A ,N/A
+H5703,No ,8,6,N/A ,9
+H5718,No ,N/A ,N/A ,N/A ,N/A
+H5734,No ,N/A ,N/A ,N/A ,N/A
+H5774,Yes ,7,5,N/A ,8
+H5779,No ,6,4,N/A ,7
+H5793,No ,7,4,N/A ,8
+H5810,No ,6,3,N/A ,5
+H5823,No ,6,4,N/A ,7
+H5826,No ,6,4,N/A ,7
+H5828,No ,6,5,N/A ,7
+H5843,No ,4,3,N/A ,4
+H5852,No ,7,5,N/A ,8
+H5854,No ,7,4,N/A ,8
+H5859,No ,8,6,N/A ,9
+H5883,No ,2,2,N/A ,2
+H5900,No ,1,1,N/A ,1
+H5926,No ,7,5,N/A ,8
+H5928,No ,4,3,N/A ,4
+H5932,No ,8,6,N/A ,9
+H5937,No ,8,6,N/A ,9
+H5938,No ,1,1,N/A ,1
+H5943,No ,7,5,N/A ,8
+H5945,No ,3,2,N/A ,3
+H5959,No ,1,1,N/A ,1
+H5965,No ,5,4,N/A ,6
+H5969,No ,7,5,N/A ,8
+H5970,No ,5,4,N/A ,6
+H5989,No ,3,2,N/A ,3
+H5991,No ,7,5,N/A ,8
+H5992,No ,7,5,N/A ,8
+H5995,No ,8,6,N/A ,9
+H6018,No ,5,4,N/A ,6
+H6019,No ,7,5,N/A ,8
+H6078,No ,2,2,N/A ,2
+H6130,No ,2,N/A ,N/A ,N/A
+H6154,No ,2,2,N/A ,2
+H6158,No ,4,3,N/A ,4
+H6170,No ,6,3,N/A ,8
+H6200,No ,2,2,N/A ,2
+H6202,No ,1,1,N/A ,1
+H6224,No ,N/A ,N/A ,N/A ,N/A
+H6237,No ,2,2,N/A ,2
+H6248,No ,4,2,N/A ,4
+H6309,No ,N/A ,N/A ,N/A ,N/A
+H6316,No ,8,6,N/A ,9
+H6322,No ,5,4,N/A ,6
+H6341,No ,N/A ,N/A ,N/A ,N/A
+H6345,No ,7,5,N/A ,8
+H6348,No ,5,4,N/A ,6
+H6351,No ,6,4,N/A ,7
+H6368,No ,N/A ,N/A ,N/A ,N/A
+H6378,No ,8,6,N/A ,9
+H6379,No ,4,3,N/A ,5
+H6396,No ,7,5,N/A ,8
+H6399,No ,8,6,N/A ,9
+H6453,No ,4,3,N/A ,4
+H6474,No ,6,3,N/A ,5
+H6515,No ,N/A ,N/A ,N/A ,N/A
+H6529,No ,2,2,N/A ,2
+H6545,No ,4,3,N/A ,4
+H6550,No ,7,5,N/A ,8
+H6566,No ,N/A ,N/A ,N/A ,N/A
+H6586,No ,4,2,N/A ,4
+H6595,No ,8,6,N/A ,9
+H6622,No ,4,3,N/A ,5
+H6652,No ,N/A ,N/A ,N/A ,N/A
+H6672,No ,5,4,N/A ,6
+H6706,No ,3,2,N/A ,2
+H6723,No ,2,2,N/A ,2
+H6743,No ,3,2,N/A ,3
+H6765,No ,7,5,N/A ,8
+H6776,No ,6,5,N/A ,5
+H6813,No ,4,3,N/A ,4
+H6815,No ,4,3,N/A ,5
+H6824,No ,N/A ,N/A ,N/A ,N/A
+H6832,No ,7,5,N/A ,8
+H6847,No ,2,2,N/A ,2
+H6851,No ,6,5,N/A ,7
+H6852,No ,5,4,N/A ,5
+H6874,No ,1,1,N/A ,1
+H6876,No ,5,4,N/A ,7
+H6891,No ,7,5,N/A ,8
+H6898,No ,1,1,N/A ,1
+H6910,No ,2,2,N/A ,2
+H6959,No ,7,5,N/A ,8
+H6971,No ,N/A ,N/A ,N/A ,N/A
+H6988,No ,7,3,N/A ,8
+H6994,No ,N/A ,N/A ,N/A ,N/A
+H7006,No ,3,2,N/A ,3
+H7020,No ,4,4,N/A ,5
+H7028,No ,4,3,N/A ,4
+H7063,No ,1,1,N/A ,1
+H7074,No ,3,3,N/A ,2
+H7093,No ,3,3,N/A ,4
+H7115,No ,2,2,N/A ,2
+H7123,No ,8,6,N/A ,9
+H7147,No ,4,3,N/A ,5
+H7149,No ,4,3,N/A ,4
+H7151,No ,4,3,N/A ,5
+H7199,No ,4,3,N/A ,4
+H7220,No ,2,2,N/A ,2
+H7239,No ,N/A ,N/A ,N/A ,N/A
+H7275,No ,N/A ,N/A ,N/A ,N/A
+H7284,No ,4,3,N/A ,5
+H7301,No ,4,3,N/A ,5
+H7323,No ,5,4,N/A ,6
+H7326,No ,5,4,N/A ,5
+H7355,No ,N/A ,N/A ,N/A ,N/A
+H7379,No ,1,1,N/A ,1
+H7389,No ,5,4,N/A ,5
+H7397,No ,N/A ,N/A ,N/A ,N/A
+H7435,No ,N/A ,N/A ,N/A ,N/A
+H7464,No ,8,6,N/A ,9
+H7471,No ,N/A ,N/A ,N/A ,N/A
+H7511,No ,7,4,N/A ,8
+H7512,No ,N/A ,N/A ,N/A ,N/A
+H7518,No ,5,4,N/A ,7
+H7522,Yes ,6,3,N/A ,5
+H7524,No ,7,5,N/A ,8
+H7557,No ,7,5,N/A ,8
+H7598,No ,8,6,N/A ,9
+H7605,No ,5,4,N/A ,6
+H7607,No ,4,2,N/A ,4
+H7617,No ,2,1,N/A ,1
+H7620,No ,N/A ,N/A ,N/A ,N/A
+H7635,No ,N/A ,N/A ,N/A ,N/A
+H7670,No ,4,3,N/A ,4
+H7678,No ,7,4,N/A ,8
+H7680,No ,4,3,N/A ,5
+H7710,No ,N/A ,N/A ,N/A ,N/A
+H7766,No ,N/A ,N/A ,N/A ,N/A
+H7779,No ,8,6,N/A ,9
+H7787,No ,1,1,N/A ,1
+H7813,No ,N/A ,N/A ,N/A ,N/A
+H7849,No ,4,2,N/A ,3
+H7917,No ,3,2,N/A ,2
+H7980,No ,N/A ,N/A ,N/A ,N/A
+H7993,No ,4,3,N/A ,4
+H8003,No ,2,2,N/A ,2
+H8010,No ,4,3,N/A ,5
+H8051,No ,N/A ,N/A ,N/A ,N/A
+H8067,No ,7,5,N/A ,8
+H8070,No ,2,2,N/A ,2
+H8093,No ,7,5,N/A ,8
+H8095,No ,2,2,N/A ,2
+H8121,No ,N/A ,N/A ,N/A ,N/A
+H8133,No ,4,3,N/A ,4
+H8142,No ,3,2,N/A ,2
+H8145,No ,4,3,N/A ,5
+H8166,No ,3,2,N/A ,2
+H8173,No ,4,3,N/A ,5
+H8176,No ,7,5,N/A ,8
+H8181,No ,2,2,N/A ,2
+H8189,No ,8,6,N/A ,9
+H8211,No ,5,4,N/A ,5
+H8212,No ,N/A ,N/A ,N/A ,N/A
+H8298,No ,8,6,N/A ,9
+H8320,No ,N/A ,N/A ,N/A ,N/A
+H8330,No ,6,5,N/A ,5
+H8332,No ,4,3,N/A ,4
+H8379,No ,8,6,N/A ,9
+H8385,No ,2,2,N/A ,2
+H8390,No ,8,6,N/A ,9
+H8432,No ,4,3,N/A ,4
+H8457,No ,6,5,N/A ,8
+H8481,No ,N/A ,N/A ,N/A ,N/A
+H8492,No ,7,5,N/A ,8
+H8547,No ,4,3,N/A ,4
+H8552,No ,4,3,N/A ,4
+H8554,No ,4,3,N/A ,4
+H8578,No ,2,2,N/A ,2
+H8597,No ,8,6,N/A ,9
+H8604,No ,3,3,N/A ,2
+H8634,No ,4,2,N/A ,4
+H8649,No ,4,3,N/A ,4
+H8711,No ,5,4,N/A ,5
+H8764,No ,3,2,N/A ,3
+H8768,No ,4,2,N/A ,3
+H8783,No ,1,1,N/A ,1
+H8794,No ,7,5,N/A ,8
+H8797,No ,7,4,N/A ,8
+H8832,No ,N/A ,N/A ,N/A ,N/A
+H8845,No ,7,4,N/A ,8
+H8849,No ,6,3,N/A ,7
+H8854,No ,8,6,N/A ,9
+H8879,No ,N/A ,N/A ,N/A ,N/A
+H8889,No ,1,1,N/A ,1
+H8894,No ,7,5,N/A ,8
+H8902,No ,4,3,N/A ,4
+H8908,No ,6,5,N/A ,7
+H8917,No ,N/A ,N/A ,N/A ,N/A
+H8928,No ,6,5,N/A ,8
+H8947,No ,4,3,N/A ,4
+H8967,No ,7,4,N/A ,8
+H9001,No ,4,3,N/A ,4
+H9003,No ,2,2,N/A ,2
+H9042,No ,2,2,N/A ,2
+H9047,No ,3,2,N/A ,3
+H9065,No ,6,4,N/A ,7
+H9066,No ,7,5,N/A ,8
+H9096,No ,2,1,N/A ,2
+H9147,No ,8,6,N/A ,9
+H9153,No ,7,5,N/A ,8
+H9179,No ,4,2,N/A ,4
+H9191,No ,7,5,N/A ,8
+H9207,No ,7,4,N/A ,8
+H9219,No ,3,N/A ,N/A ,N/A
+H9231,No ,4,3,N/A ,5
+H9306,No ,5,4,N/A ,6
+H9314,No ,N/A ,N/A ,N/A ,N/A
+H9326,No ,N/A ,N/A ,N/A ,N/A
+H9364,No ,6,5,N/A ,7
+H9387,No ,5,4,N/A ,7
+H9412,No ,N/A ,N/A ,N/A ,N/A
+H9431,No ,4,3,N/A ,4
+H9460,No ,4,4,N/A ,5
+H9485,No ,3,2,N/A ,3
+H9489,No ,4,2,N/A ,3
+H9525,No ,5,4,N/A ,7
+H9572,No ,1,1,N/A ,1
+H9589,No ,5,4,N/A ,6
+H9590,No ,7,5,N/A ,8
+H9615,No ,2,2,N/A ,2
+H9623,No ,N/A ,N/A ,N/A ,N/A
+H9630,No ,6,4,N/A ,7
+H9678,No ,3,2,N/A ,3
+H9686,No ,4,3,N/A ,5
+H9690,No ,7,5,N/A ,8
+H9699,No ,4,3,N/A ,4
+H9700,No ,N/A ,N/A ,N/A ,N/A
+H9706,No ,4,3,N/A ,4
+H9725,No ,4,3,N/A ,4
+H9730,No ,6,5,N/A ,7
+H9771,No ,N/A ,N/A ,N/A ,N/A
+H9802,No ,N/A ,N/A ,N/A ,N/A
+H9808,No ,1,1,N/A ,1
+H9811,No ,N/A ,N/A ,N/A ,N/A
+H9826,No ,7,5,N/A ,8
+H9827,No ,4,3,N/A ,4
+H9834,No ,1,1,N/A ,1
+H9884,No ,3,2,N/A ,2
+H9888,No ,4,4,N/A ,5
+H9904,No ,4,3,N/A ,4
+H9907,No ,4,2,N/A ,3
+H9909,No ,8,6,N/A ,9
+H9916,No ,N/A ,N/A ,N/A ,N/A
+H9917,No ,6,3,N/A ,8
+H9942,No ,7,5,N/A ,8
+H9955,No ,7,4,N/A ,8
+H9968,No ,N/A ,N/A ,N/A ,N/A
+H9977,No ,N/A ,N/A ,N/A ,N/A
+H9986,No ,7,5,N/A ,8
+R0110,No ,4,3,N/A ,4
+R0759,No ,3,2,N/A ,3
+R1532,No ,4,3,N/A ,4
+R2604,No ,5,4,N/A ,5
+R3175,No ,8,N/A ,N/A ,N/A
+R3444,No ,5,4,N/A ,5
+R4182,No ,4,3,N/A ,4
+R5342,No ,3,N/A ,N/A ,N/A
+R5361,No ,3,2,N/A ,2
+R5826,No ,3,3,N/A ,4
+R5941,No ,2,2,N/A ,2
+R6694,No ,3,2,N/A ,2
+R6801,No ,5,4,N/A ,6
+R7220,No ,3,3,N/A ,4
+R7444,No ,4,2,N/A ,4
+S0262,No ,N/A ,N/A ,N/A ,N/A
+S0375,No ,N/A ,N/A ,N/A ,N/A
+S0586,No ,N/A ,N/A ,2,N/A
+S1030,No ,N/A ,N/A ,2,N/A
+S1140,No ,N/A ,N/A ,2,N/A
+S1822,No ,N/A ,N/A ,1,N/A
+S2135,No ,N/A ,N/A ,1,N/A
+S2468,No ,N/A ,N/A ,1,N/A
+S2893,No ,N/A ,N/A ,2,N/A
+S3285,No ,N/A ,N/A ,2,N/A
+S3389,No ,N/A ,N/A ,1,N/A
+S3521,No ,N/A ,N/A ,1,N/A
+S3875,No ,N/A ,N/A ,N/A ,N/A
+S3994,No ,N/A ,N/A ,N/A ,N/A
+S4501,No ,N/A ,N/A ,2,N/A
+S4802,No ,N/A ,N/A ,3,N/A
+S4983,No ,N/A ,N/A ,N/A ,N/A
+S5450,No ,N/A ,N/A ,N/A ,N/A
+S5540,No ,N/A ,N/A ,1,N/A
+S5584,No ,N/A ,N/A ,2,N/A
+S5593,No ,N/A ,N/A ,3,N/A
+S5596,No ,N/A ,N/A ,2,N/A
+S5601,No ,N/A ,N/A ,3,N/A
+S5609,No ,N/A ,N/A ,2,N/A
+S5617,No ,N/A ,N/A ,3,N/A
+S5660,No ,N/A ,N/A ,1,N/A
+S5715,No ,N/A ,N/A ,2,N/A
+S5726,No ,N/A ,N/A ,1,N/A
+S5743,No ,N/A ,N/A ,1,N/A
+S5795,No ,N/A ,N/A ,2,N/A
+S5805,No ,N/A ,N/A ,2,N/A
+S5820,No ,N/A ,N/A ,2,N/A
+S5857,No ,N/A ,N/A ,1,N/A
+S5877,No ,N/A ,N/A ,1,N/A
+S5884,No ,N/A ,N/A ,3,N/A
+S5904,No ,N/A ,N/A ,1,N/A
+S5916,No ,N/A ,N/A ,2,N/A
+S5921,No ,N/A ,N/A ,3,N/A
+S5953,No ,N/A ,N/A ,1,N/A
+S5960,No ,N/A ,N/A ,3,N/A
+S5966,No ,N/A ,N/A ,1,N/A
+S5975,No ,N/A ,N/A ,1,N/A
+S5993,No ,N/A ,N/A ,2,N/A
+S6875,No ,N/A ,N/A ,1,N/A
+S6939,No ,N/A ,N/A ,N/A ,N/A
+S8067,No ,N/A ,N/A ,1,N/A
+S8841,No ,N/A ,N/A ,1,N/A
+S9701,No ,N/A ,N/A ,1,N/A

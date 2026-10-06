@@ -1,0 +1,529 @@
+{
+ "register": "Exact flip set over 132 sampled realizations of the documented SURVEYSELECT GROUPS=10 family x input-order conventions: 72 census realizations (all 117 measure-splits; 24 stored + urand4_1..24 assignment Random(4000+i) cid_asc + rperm_1..24 assignment Random(5000+i) x permutation Random(6000+i)) and 60 stress realizations (assignment Random(2000+i) x permutation Random(3000+i), scoped to the 44 flip-driving splits of the 15 contracts exact at K=24; other splits held at published stars there, not re-verified; a documented scope limit). Exact-at-132 = flips in every one of the 132. A sampled rerun, not a proof: a breaker remains possible at realization 133. Docsonly membership basis (cost+d60r); errored splits with fewer than five distinct scores excluded as in the census records.",
+ "sources": {
+  "census72": "runs/enclosure_census_k72.json",
+  "stress60": "runs/stress_exact_docsonly.json"
+ },
+ "k_census": 72,
+ "k_stress": 60,
+ "k_total": 132,
+ "candidate_set_k24_certified": [
+  [
+   "2024",
+   "H3805"
+  ],
+  [
+   "2025",
+   "H3041"
+  ],
+  [
+   "2025",
+   "H4490"
+  ],
+  [
+   "2025",
+   "H5211"
+  ],
+  [
+   "2025",
+   "H5262"
+  ],
+  [
+   "2025",
+   "H8547"
+  ],
+  [
+   "2025",
+   "H9909"
+  ],
+  [
+   "2026",
+   "H1607"
+  ],
+  [
+   "2026",
+   "H1994"
+  ],
+  [
+   "2026",
+   "H2422"
+  ],
+  [
+   "2026",
+   "H4141"
+  ],
+  [
+   "2026",
+   "H5232"
+  ],
+  [
+   "2026",
+   "H6202"
+  ],
+  [
+   "2026",
+   "H8845"
+  ],
+  [
+   "2026",
+   "H8947"
+  ]
+ ],
+ "pre_existing_certified_10": [
+  [
+   "2025",
+   "H3041"
+  ],
+  [
+   "2025",
+   "H5211"
+  ],
+  [
+   "2025",
+   "H5262"
+  ],
+  [
+   "2025",
+   "H9909"
+  ],
+  [
+   "2026",
+   "H1607"
+  ],
+  [
+   "2026",
+   "H1994"
+  ],
+  [
+   "2026",
+   "H4141"
+  ],
+  [
+   "2026",
+   "H5232"
+  ],
+  [
+   "2026",
+   "H6202"
+  ],
+  [
+   "2026",
+   "H8845"
+  ]
+ ],
+ "exact_at_132": [
+  [
+   "2025",
+   "H3041",
+   "DOWN"
+  ],
+  [
+   "2025",
+   "H5262",
+   "DOWN"
+  ],
+  [
+   "2025",
+   "H9909",
+   "DOWN"
+  ],
+  [
+   "2026",
+   "H1607",
+   "UP"
+  ],
+  [
+   "2026",
+   "H4141",
+   "UP"
+  ],
+  [
+   "2026",
+   "H5232",
+   "UP"
+  ],
+  [
+   "2026",
+   "H6202",
+   "UP"
+  ],
+  [
+   "2026",
+   "H8845",
+   "UP"
+  ]
+ ],
+ "survivors_vs_certified10": [
+  [
+   "2025",
+   "H3041"
+  ],
+  [
+   "2025",
+   "H5262"
+  ],
+  [
+   "2025",
+   "H9909"
+  ],
+  [
+   "2026",
+   "H1607"
+  ],
+  [
+   "2026",
+   "H4141"
+  ],
+  [
+   "2026",
+   "H5232"
+  ],
+  [
+   "2026",
+   "H6202"
+  ],
+  [
+   "2026",
+   "H8845"
+  ]
+ ],
+ "demotions_vs_certified10": [
+  [
+   "2025",
+   "H5211"
+  ],
+  [
+   "2026",
+   "H1994"
+  ]
+ ],
+ "gained_vs_certified10": [],
+ "per_contract": [
+  {
+   "year": "2024",
+   "contract_id": "H3805",
+   "org_class": "MA-PD",
+   "qbp_relevant": true,
+   "rating_type": "overall",
+   "direction": "DOWN",
+   "baseline": "4",
+   "n_flip_census72": 72,
+   "n_flip_stress60": 58,
+   "n_flip_132": 130,
+   "exact_at_132": false,
+   "was_certified_10": false,
+   "census_breaker_realizations": [],
+   "stress_breaker_realizations": [
+    "stress_36",
+    "stress_51"
+   ],
+   "counterfactual_set_census72": [
+    "7/2"
+   ]
+  },
+  {
+   "year": "2025",
+   "contract_id": "H3041",
+   "org_class": "MA-PD",
+   "qbp_relevant": true,
+   "rating_type": "overall",
+   "direction": "DOWN",
+   "baseline": "4",
+   "n_flip_census72": 72,
+   "n_flip_stress60": 60,
+   "n_flip_132": 132,
+   "exact_at_132": true,
+   "was_certified_10": true,
+   "census_breaker_realizations": [],
+   "stress_breaker_realizations": [],
+   "counterfactual_set_census72": [
+    "7/2"
+   ]
+  },
+  {
+   "year": "2025",
+   "contract_id": "H4490",
+   "org_class": "MA-PD",
+   "qbp_relevant": true,
+   "rating_type": "overall",
+   "direction": "DOWN",
+   "baseline": "4",
+   "n_flip_census72": 68,
+   "n_flip_stress60": 59,
+   "n_flip_132": 127,
+   "exact_at_132": false,
+   "was_certified_10": false,
+   "census_breaker_realizations": [
+    "rperm_24",
+    "urand4_11",
+    "urand4_18",
+    "urand4_22"
+   ],
+   "stress_breaker_realizations": [
+    "stress_54"
+   ],
+   "counterfactual_set_census72": [
+    "4",
+    "7/2"
+   ]
+  },
+  {
+   "year": "2025",
+   "contract_id": "H5211",
+   "org_class": "MA-PD",
+   "qbp_relevant": true,
+   "rating_type": "overall",
+   "direction": "DOWN",
+   "baseline": "4",
+   "n_flip_census72": 68,
+   "n_flip_stress60": 60,
+   "n_flip_132": 128,
+   "exact_at_132": false,
+   "was_certified_10": true,
+   "census_breaker_realizations": [
+    "rperm_16",
+    "urand4_24",
+    "urand4_5",
+    "urand4_7"
+   ],
+   "stress_breaker_realizations": [],
+   "counterfactual_set_census72": [
+    "4",
+    "7/2"
+   ]
+  },
+  {
+   "year": "2025",
+   "contract_id": "H5262",
+   "org_class": "MA-PD",
+   "qbp_relevant": true,
+   "rating_type": "overall",
+   "direction": "DOWN",
+   "baseline": "4",
+   "n_flip_census72": 72,
+   "n_flip_stress60": 60,
+   "n_flip_132": 132,
+   "exact_at_132": true,
+   "was_certified_10": true,
+   "census_breaker_realizations": [],
+   "stress_breaker_realizations": [],
+   "counterfactual_set_census72": [
+    "7/2"
+   ]
+  },
+  {
+   "year": "2025",
+   "contract_id": "H8547",
+   "org_class": "MA-PD",
+   "qbp_relevant": true,
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline": "7/2",
+   "n_flip_census72": 71,
+   "n_flip_stress60": 57,
+   "n_flip_132": 128,
+   "exact_at_132": false,
+   "was_certified_10": false,
+   "census_breaker_realizations": [
+    "rperm_14"
+   ],
+   "stress_breaker_realizations": [
+    "stress_1",
+    "stress_14",
+    "stress_15"
+   ],
+   "counterfactual_set_census72": [
+    "4",
+    "7/2"
+   ]
+  },
+  {
+   "year": "2025",
+   "contract_id": "H9909",
+   "org_class": "MA-PD",
+   "qbp_relevant": true,
+   "rating_type": "overall",
+   "direction": "DOWN",
+   "baseline": "4",
+   "n_flip_census72": 72,
+   "n_flip_stress60": 60,
+   "n_flip_132": 132,
+   "exact_at_132": true,
+   "was_certified_10": true,
+   "census_breaker_realizations": [],
+   "stress_breaker_realizations": [],
+   "counterfactual_set_census72": [
+    "7/2"
+   ]
+  },
+  {
+   "year": "2026",
+   "contract_id": "H1607",
+   "org_class": "MA-PD",
+   "qbp_relevant": true,
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline": "7/2",
+   "n_flip_census72": 72,
+   "n_flip_stress60": 60,
+   "n_flip_132": 132,
+   "exact_at_132": true,
+   "was_certified_10": true,
+   "census_breaker_realizations": [],
+   "stress_breaker_realizations": [],
+   "counterfactual_set_census72": [
+    "4"
+   ]
+  },
+  {
+   "year": "2026",
+   "contract_id": "H1994",
+   "org_class": "MA-PD",
+   "qbp_relevant": true,
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline": "7/2",
+   "n_flip_census72": 71,
+   "n_flip_stress60": 60,
+   "n_flip_132": 131,
+   "exact_at_132": false,
+   "was_certified_10": true,
+   "census_breaker_realizations": [
+    "rperm_3"
+   ],
+   "stress_breaker_realizations": [],
+   "counterfactual_set_census72": [
+    "4",
+    "7/2"
+   ]
+  },
+  {
+   "year": "2026",
+   "contract_id": "H2422",
+   "org_class": "MA-PD",
+   "qbp_relevant": true,
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline": "7/2",
+   "n_flip_census72": 72,
+   "n_flip_stress60": 57,
+   "n_flip_132": 129,
+   "exact_at_132": false,
+   "was_certified_10": false,
+   "census_breaker_realizations": [],
+   "stress_breaker_realizations": [
+    "stress_31",
+    "stress_53",
+    "stress_59"
+   ],
+   "counterfactual_set_census72": [
+    "4"
+   ]
+  },
+  {
+   "year": "2026",
+   "contract_id": "H4141",
+   "org_class": "MA-PD",
+   "qbp_relevant": true,
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline": "7/2",
+   "n_flip_census72": 72,
+   "n_flip_stress60": 60,
+   "n_flip_132": 132,
+   "exact_at_132": true,
+   "was_certified_10": true,
+   "census_breaker_realizations": [],
+   "stress_breaker_realizations": [],
+   "counterfactual_set_census72": [
+    "4"
+   ]
+  },
+  {
+   "year": "2026",
+   "contract_id": "H5232",
+   "org_class": "MA-PD",
+   "qbp_relevant": true,
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline": "7/2",
+   "n_flip_census72": 72,
+   "n_flip_stress60": 60,
+   "n_flip_132": 132,
+   "exact_at_132": true,
+   "was_certified_10": true,
+   "census_breaker_realizations": [],
+   "stress_breaker_realizations": [],
+   "counterfactual_set_census72": [
+    "4"
+   ]
+  },
+  {
+   "year": "2026",
+   "contract_id": "H6202",
+   "org_class": "MA-PD",
+   "qbp_relevant": true,
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline": "7/2",
+   "n_flip_census72": 72,
+   "n_flip_stress60": 60,
+   "n_flip_132": 132,
+   "exact_at_132": true,
+   "was_certified_10": true,
+   "census_breaker_realizations": [],
+   "stress_breaker_realizations": [],
+   "counterfactual_set_census72": [
+    "4"
+   ]
+  },
+  {
+   "year": "2026",
+   "contract_id": "H8845",
+   "org_class": "MA-PD",
+   "qbp_relevant": true,
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline": "7/2",
+   "n_flip_census72": 72,
+   "n_flip_stress60": 60,
+   "n_flip_132": 132,
+   "exact_at_132": true,
+   "was_certified_10": true,
+   "census_breaker_realizations": [],
+   "stress_breaker_realizations": [],
+   "counterfactual_set_census72": [
+    "4"
+   ]
+  },
+  {
+   "year": "2026",
+   "contract_id": "H8947",
+   "org_class": "MA-PD",
+   "qbp_relevant": true,
+   "rating_type": "overall",
+   "direction": "UP",
+   "baseline": "7/2",
+   "n_flip_census72": 72,
+   "n_flip_stress60": 58,
+   "n_flip_132": 130,
+   "exact_at_132": false,
+   "was_certified_10": false,
+   "census_breaker_realizations": [],
+   "stress_breaker_realizations": [
+    "stress_19",
+    "stress_25"
+   ],
+   "counterfactual_set_census72": [
+    "4"
+   ]
+  }
+ ],
+ "summary": {
+  "n_exact_at_132": 8,
+  "n_certified_10_before": 10,
+  "n_survivors": 8,
+  "n_demotions": 2,
+  "certified_set_changed": true
+ }
+}

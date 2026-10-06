@@ -1,0 +1,26 @@
+{
+ "register": "The cliff-adjacency union split by scenario class. The printed 104 (26/37/41) is the union including the both-measures-together scenarios (CD+-1); the printed sentence says 'a single-star move of an improvement measure', whose count is the single-measure union.",
+ "generator": "src/improvement_cliff_split.py",
+ "union_all_scenarios_mapd": 104,
+ "union_single_measure_mapd": 69,
+ "single_by_year": {
+  "2025": 28,
+  "2024": 18,
+  "2026": 23
+ },
+ "single_with_published_overall": 57,
+ "single_pub_by_year": {
+  "2025": 24,
+  "2024": 15,
+  "2026": 18
+ },
+ "scenario_row_counts": {
+  "C-1": 22,
+  "C+1": 27,
+  "D-1": 29,
+  "D+1": 34,
+  "CD-1": 38,
+  "CD+1": 65
+ },
+ "note": "baseline = the published current/recalc ratings as in the stored record; the July-22 2026 overlay's effect on this program-scale note is not incorporated and is disclosed"
+}

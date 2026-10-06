@@ -1,0 +1,3254 @@
+{
+ "description": "Raw public CMS downloads used by this package, listed by package path, byte count, sha256 and source URL. Files under hospital/data/raw/ and hospital/work/input/ are included in the package (CMS's QualityNet site does not serve them to scripted downloads); the others are not included and are re-fetched from their URLs and verified by hash before use.",
+ "n_pinned": 259,
+ "bytes_pinned": 1234906311,
+ "hosts": {
+  "www.cms.gov": 97,
+  "web.archive.org": 57,
+  "www.ecfr.gov": 2,
+  "None": 22,
+  "litigationtracker.law.georgetown.edu": 2,
+  "storage.courtlistener.com": 1,
+  "data.cms.gov": 35,
+  "qualitynet.cms.gov": 22,
+  "www.govinfo.gov": 5,
+  "www.hcahpsonline.org": 4,
+  "dialysisdata.org": 2,
+  "hcahpsonline.org": 1,
+  "homehealthcahps.org": 3,
+  "www.hospicecahpssurvey.org": 2,
+  "ichcahps.org": 3,
+  "www.medicaid.gov": 1
+ },
+ "pins": [
+  {
+   "path": "data/extracted/sy2023/cpt/2023_Cut_Point_Trend_2022_12_12.pdf",
+   "bytes": 735974,
+   "sha256": "dc45c8c7612c9b3067f5f690c346ccfb253094b54f6dbd76659d93e02f2ed467",
+   "sha256_16": "dc45c8c7612c9b30",
+   "url": "https://www.cms.gov/files/zip/cut-point-trends.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/cut-point-trends.zip",
+     "member": "2023_Cut_Point_Trend_2022_12_12.pdf"
+    }
+   ],
+   "vintage_token": "sy2023"
+  },
+  {
+   "path": "data/extracted/sy2023/oct2022/2023 Star Ratings Data Table - CAI (Oct 04 2022).csv",
+   "bytes": 128801,
+   "sha256": "6946bbfed04587d05798daaf7d3441c8769af9ddef4f19d3aec6ce16b8599986",
+   "sha256_16": "6946bbfed04587d0",
+   "url": "https://www.cms.gov/files/zip/2023-star-ratings-data-table.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2023/2023-star-ratings-data-table.zip",
+     "member": "2023 Star Ratings Data Table - CAI (Oct 04 2022).csv"
+    }
+   ],
+   "vintage_token": "sy2023"
+  },
+  {
+   "path": "data/extracted/sy2023/oct2022/2023 Star Ratings Data Table - Disenrollment Reasons (Oct 04 2022).csv",
+   "bytes": 133645,
+   "sha256": "438c3c57b57a16550f97933463041f85d1855d4d134d16fb04bf28bc10a70dc9",
+   "sha256_16": "438c3c57b57a1655",
+   "url": "https://www.cms.gov/files/zip/2023-star-ratings-data-table.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2023/2023-star-ratings-data-table.zip",
+     "member": "2023 Star Ratings Data Table - Disenrollment Reasons (Oct 04 2022).csv"
+    }
+   ],
+   "vintage_token": "sy2023"
+  },
+  {
+   "path": "data/extracted/sy2023/oct2022/2023 Star Ratings Data Table - Domain Stars (Oct 04 2022).csv",
+   "bytes": 220129,
+   "sha256": "bbd987d5697791d8edacf32256d7f1284a72bd01e8330011c098b5df52283cf0",
+   "sha256_16": "bbd987d5697791d8",
+   "url": "https://www.cms.gov/files/zip/2023-star-ratings-data-table.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2023/2023-star-ratings-data-table.zip",
+     "member": "2023 Star Ratings Data Table - Domain Stars (Oct 04 2022).csv"
+    }
+   ],
+   "vintage_token": "sy2023"
+  },
+  {
+   "path": "data/extracted/sy2023/oct2022/2023 Star Ratings Data Table - High Performing Contracts (Oct 04 2022).csv",
+   "bytes": 10824,
+   "sha256": "1d00f54e43851e1d75f0688e0b0b9d223957406b1736dbafb59ac428d7a6f676",
+   "sha256_16": "1d00f54e43851e1d",
+   "url": "https://www.cms.gov/files/zip/2023-star-ratings-data-table.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2023/2023-star-ratings-data-table.zip",
+     "member": "2023 Star Ratings Data Table - High Performing Contracts (Oct 04 2022).csv"
+    }
+   ],
+   "vintage_token": "sy2023"
+  },
+  {
+   "path": "data/extracted/sy2023/oct2022/2023 Star Ratings Data Table - Low Performing Contracts (Oct 04 2022).csv",
+   "bytes": 565,
+   "sha256": "c0fd56ae2f379c5ffaebfe9fdcd2653e03a189372a99c7449d5c98ab0ff515d0",
+   "sha256_16": "c0fd56ae2f379c5f",
+   "url": "https://www.cms.gov/files/zip/2023-star-ratings-data-table.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2023/2023-star-ratings-data-table.zip",
+     "member": "2023 Star Ratings Data Table - Low Performing Contracts (Oct 04 2022).csv"
+    }
+   ],
+   "vintage_token": "sy2023"
+  },
+  {
+   "path": "data/extracted/sy2023/oct2022/2023 Star Ratings Data Table - Measure Data (Oct 04 2022).csv",
+   "bytes": 646330,
+   "sha256": "3150377758351db6b085292c30ce0f1e378b99f4021d49f5c46eb0874a730042",
+   "sha256_16": "3150377758351db6",
+   "url": "https://www.cms.gov/files/zip/2023-star-ratings-data-table.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2023/2023-star-ratings-data-table.zip",
+     "member": "2023 Star Ratings Data Table - Measure Data (Oct 04 2022).csv"
+    }
+   ],
+   "vintage_token": "sy2023"
+  },
+  {
+   "path": "data/extracted/sy2023/oct2022/2023 Star Ratings Data Table - Measure Stars (Oct 04 2022).csv",
+   "bytes": 566581,
+   "sha256": "8d7b78f41008014ceec534f116df31540cda599c5254e6e4bbc92401bfbdf139",
+   "sha256_16": "8d7b78f41008014c",
+   "url": "https://www.cms.gov/files/zip/2023-star-ratings-data-table.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2023/2023-star-ratings-data-table.zip",
+     "member": "2023 Star Ratings Data Table - Measure Stars (Oct 04 2022).csv"
+    }
+   ],
+   "vintage_token": "sy2023"
+  },
+  {
+   "path": "data/extracted/sy2023/oct2022/2023 Star Ratings Data Table - Part C Cut Points (Oct 04 2022).csv",
+   "bytes": 4225,
+   "sha256": "488a96441867ab9ba411a5cffa3933562de144f93778407527b7f9a75cea1614",
+   "sha256_16": "488a96441867ab9b",
+   "url": "https://www.cms.gov/files/zip/2023-star-ratings-data-table.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2023/2023-star-ratings-data-table.zip",
+     "member": "2023 Star Ratings Data Table - Part C Cut Points (Oct 04 2022).csv"
+    }
+   ],
+   "vintage_token": "sy2023"
+  },
+  {
+   "path": "data/extracted/sy2023/oct2022/2023 Star Ratings Data Table - Part D Cut Points (Oct 04 2022).csv",
+   "bytes": 3298,
+   "sha256": "32d942cb2bebbfb078caaae523d9438c8e5f06ffc8a33ed402e71c82959fa84c",
+   "sha256_16": "32d942cb2bebbfb0",
+   "url": "https://www.cms.gov/files/zip/2023-star-ratings-data-table.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2023/2023-star-ratings-data-table.zip",
+     "member": "2023 Star Ratings Data Table - Part D Cut Points (Oct 04 2022).csv"
+    }
+   ],
+   "vintage_token": "sy2023"
+  },
+  {
+   "path": "data/extracted/sy2023/oct2022/2023 Star Ratings Data Table - Summary Rating (Oct 04 2022).csv",
+   "bytes": 164524,
+   "sha256": "946378ff37b9f92f93cac56277d5e3d9d4382610809a270ad365cb93f6050c86",
+   "sha256_16": "946378ff37b9f92f",
+   "url": "https://www.cms.gov/files/zip/2023-star-ratings-data-table.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2023/2023-star-ratings-data-table.zip",
+     "member": "2023 Star Ratings Data Table - Summary Rating (Oct 04 2022).csv"
+    }
+   ],
+   "vintage_token": "sy2023"
+  },
+  {
+   "path": "data/extracted/sy2023/oct2022/2023_Report_Card_Master_Table_2022_10_04.xlsx",
+   "bytes": 577077,
+   "sha256": "7a735fbd90e88313a5f3f54f614ebae140120a38b4ece7437da37fe98363f25b",
+   "sha256_16": "7a735fbd90e88313",
+   "url": "https://www.cms.gov/files/zip/2023-star-ratings-data-table.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2023/2023-star-ratings-data-table.zip",
+     "member": "2023_Report_Card_Master_Table_2022_10_04.xlsx"
+    }
+   ],
+   "vintage_token": "sy2023"
+  },
+  {
+   "path": "data/extracted/sy2023/oct2022/PQA_Medication_List_ADH_YOS2022_Apr_2022.xlsx",
+   "bytes": 1680455,
+   "sha256": "e4975f46ffb1a9de1ac020759e47eb7a11ef06811c40858bfe8450449e14de32",
+   "sha256_16": "e4975f46ffb1a9de",
+   "url": "https://www.cms.gov/files/zip/2023-star-ratings-data-table.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2023/2023-star-ratings-data-table.zip",
+     "member": "PQA_Medication_List_ADH_YOS2022_Apr_2022.xlsx"
+    }
+   ],
+   "vintage_token": "sy2023"
+  },
+  {
+   "path": "data/extracted/sy2023/oct2022/PQA_Medication_List_SUPD_YOS2022_Apr_2022.xlsx",
+   "bytes": 1142444,
+   "sha256": "0f41db50ded81b1a9c0ad35bb52edd62e6c625f10189eff2ff2e9be29a48da00",
+   "sha256_16": "0f41db50ded81b1a",
+   "url": "https://www.cms.gov/files/zip/2023-star-ratings-data-table.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2023/2023-star-ratings-data-table.zip",
+     "member": "PQA_Medication_List_SUPD_YOS2022_Apr_2022.xlsx"
+    }
+   ],
+   "vintage_token": "sy2023"
+  },
+  {
+   "path": "data/extracted/sy2024/original/2024 Star Ratings Data Table - CAI (Oct 12 2023).csv",
+   "bytes": 126193,
+   "sha256": "9e4ce5664498eec6fc6563d752ec76813156175cd725ad86fb7225e352efa2ec",
+   "sha256_16": "9e4ce5664498eec6",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "2024 Star Ratings Data Table - CAI (Jul 2 2024).csv"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+     "member": "2024 Star Ratings Data Table - CAI (Oct 12 2023).csv"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-original-oct2023-wayback-20240424.zip",
+     "member": "2024 Star Ratings Data Table - CAI (Oct 12 2023).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/original/2024 Star Ratings Data Table - Disenrollment Reasons (Oct 12 2023).csv",
+   "bytes": 126476,
+   "sha256": "4f768a2ad1858e9d616debf0b7cdbe0b22193637ee2149b885477ee1c2ad6273",
+   "sha256_16": "4f768a2ad1858e9d",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "2024 Star Ratings Data Table - Disenrollment Reasons (Jul 2 2024).csv"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+     "member": "2024 Star Ratings Data Table - Disenrollment Reasons (Oct 12 2023).csv"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-original-oct2023-wayback-20240424.zip",
+     "member": "2024 Star Ratings Data Table - Disenrollment Reasons (Oct 12 2023).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/original/2024 Star Ratings Data Table - Domain Stars (Oct 12 2023).csv",
+   "bytes": 207033,
+   "sha256": "7593661d11ee7ea147d16cd29696e01cbcc2f3ee8b42bffcbe583a18c2225793",
+   "sha256_16": "7593661d11ee7ea1",
+   "url": "https://web.archive.org/web/20231014001141id_/https://www.cms.gov/files/zip/2024-star-ratings-data-tables-oct-13-2023.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+     "member": "2024 Star Ratings Data Table - Domain Stars (Oct 12 2023).csv"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-original-oct2023-wayback-20240424.zip",
+     "member": "2024 Star Ratings Data Table - Domain Stars (Oct 12 2023).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/original/2024 Star Ratings Data Table - High Performing Contracts (Oct 12 2023).csv",
+   "bytes": 6206,
+   "sha256": "c52003e9821de4c708470924f192350fea35b42fbfef71b7e2002222ead86681",
+   "sha256_16": "c52003e9821de4c7",
+   "url": "https://web.archive.org/web/20231014001141id_/https://www.cms.gov/files/zip/2024-star-ratings-data-tables-oct-13-2023.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+     "member": "2024 Star Ratings Data Table - High Performing Contracts (Oct 12 2023).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/original/2024 Star Ratings Data Table - Low Performing Contracts (Oct 12 2023).csv",
+   "bytes": 1385,
+   "sha256": "2a78af9f7f8ec2ad7b617e3622d74c0706b3989172fcb7f649a3e317f5e190cc",
+   "sha256_16": "2a78af9f7f8ec2ad",
+   "url": "https://web.archive.org/web/20231014001141id_/https://www.cms.gov/files/zip/2024-star-ratings-data-tables-oct-13-2023.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+     "member": "2024 Star Ratings Data Table - Low Performing Contracts (Oct 12 2023).csv"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-original-oct2023-wayback-20240424.zip",
+     "member": "2024 Star Ratings Data Table - Low Performing Contracts (Oct 12 2023).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/original/2024 Star Ratings Data Table - Measure Data (Oct 12 2023).csv",
+   "bytes": 627005,
+   "sha256": "c717df897974b0a0ae7b74b875fa09be15d40d6ac781fae11aa339ddebcea777",
+   "sha256_16": "c717df897974b0a0",
+   "url": "https://web.archive.org/web/20231014001141id_/https://www.cms.gov/files/zip/2024-star-ratings-data-tables-oct-13-2023.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+     "member": "2024 Star Ratings Data Table - Measure Data (Oct 12 2023).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/original/2024 Star Ratings Data Table - Part C Cut Points (Oct 12 2023).csv",
+   "bytes": 4526,
+   "sha256": "9b0694dfc13f0a08971ce96448cdc3e1ef8aa2d0ebe9aa4c7b5ae58d5323dc71",
+   "sha256_16": "9b0694dfc13f0a08",
+   "url": "https://web.archive.org/web/20231014001141id_/https://www.cms.gov/files/zip/2024-star-ratings-data-tables-oct-13-2023.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+     "member": "2024 Star Ratings Data Table - Part C Cut Points (Oct 12 2023).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/original/2024 Star Ratings Data Table - Part D Cut Points (Oct 12 2023).csv",
+   "bytes": 3301,
+   "sha256": "60123bef9e114001ec169212eaab24b1f969354b2d90eaa978763c9ed1449812",
+   "sha256_16": "60123bef9e114001",
+   "url": "https://web.archive.org/web/20231014001141id_/https://www.cms.gov/files/zip/2024-star-ratings-data-tables-oct-13-2023.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+     "member": "2024 Star Ratings Data Table - Part D Cut Points (Oct 12 2023).csv"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-original-oct2023-wayback-20240424.zip",
+     "member": "2024 Star Ratings Data Table - Part D Cut Points (Oct 12 2023).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/original/2024 Star Ratings Data Table - Summary Rating (Oct 12 2023).csv",
+   "bytes": 157182,
+   "sha256": "646eade36c980a94007864cb0fe7aadd8479e91f13171196583f617405dffb84",
+   "sha256_16": "646eade36c980a94",
+   "url": "https://web.archive.org/web/20231014001141id_/https://www.cms.gov/files/zip/2024-star-ratings-data-tables-oct-13-2023.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+     "member": "2024 Star Ratings Data Table - Summary Rating (Oct 12 2023).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/original/2024_Report_Card_Master_Table_2023_10_12.xlsx",
+   "bytes": 578747,
+   "sha256": "007926c70e2afd595c621f4236d0cc791197283437ef3212d7dcde0a25cf175d",
+   "sha256_16": "007926c70e2afd59",
+   "url": "https://web.archive.org/web/20231014001141id_/https://www.cms.gov/files/zip/2024-star-ratings-data-tables-oct-13-2023.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+     "member": "2024_Report_Card_Master_Table_2023_10_12.xlsx"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/original/PQA_Medication_List_ADH_YOS2022_Mar_2023.xlsx",
+   "bytes": 1409412,
+   "sha256": "10864c69ec4e75eed7448fcbf47e459cfef3164c6e1afce0f5ddf0daf8753d79",
+   "sha256_16": "10864c69ec4e75ee",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "PQA_Medication_List_ADH_YOS2022_Mar_2023.xlsx"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+     "member": "PQA_Medication_List_ADH_YOS2022_Mar_2023.xlsx"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-original-oct2023-wayback-20240424.zip",
+     "member": "PQA_Medication_List_ADH_YOS2022_Mar_2023.xlsx"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/original/PQA_Medication_List_SUPD_YOS2022_Mar_2023.xlsx",
+   "bytes": 847013,
+   "sha256": "4b2a1496a23c819e30d65c2b13738ab2f2c71b4b103bea08bd881003d41df9f0",
+   "sha256_16": "4b2a1496a23c819e",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "PQA_Medication_List_SUPD_YOS2022_Mar_2023.xlsx"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+     "member": "PQA_Medication_List_SUPD_YOS2022_Mar_2023.xlsx"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-original-oct2023-wayback-20240424.zip",
+     "member": "PQA_Medication_List_SUPD_YOS2022_Mar_2023.xlsx"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/original_mar2024/2024 Star Ratings Data Table - Measure Data (Mar 12 2024).csv",
+   "bytes": 627038,
+   "sha256": "2fd2276c09676cf3ad915d7e708c8c9d3a8308d4caf7ee014e45b842ea0870fa",
+   "sha256_16": "2fd2276c09676cf3",
+   "url": "https://web.archive.org/web/20240424171705id_/https://www.cms.gov/files/zip/2024-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-original-oct2023-wayback-20240424.zip",
+     "member": "2024 Star Ratings Data Table - Measure Data (Mar 12 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/original_mar2024/2024 Star Ratings Data Table - Measure Stars (Mar 12 2024).csv",
+   "bytes": 540164,
+   "sha256": "752d10b6187e44a6bd086e24e7aa49462d77df0eee8d96d42c9887b9941aa5be",
+   "sha256_16": "752d10b6187e44a6",
+   "url": "https://web.archive.org/web/20240424171705id_/https://www.cms.gov/files/zip/2024-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-original-oct2023-wayback-20240424.zip",
+     "member": "2024 Star Ratings Data Table - Measure Stars (Mar 12 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/original_mar2024/2024 Star Ratings Data Table - Summary Rating (Mar 12 2024).csv",
+   "bytes": 157178,
+   "sha256": "97b38507b87d43409331039da98a21362b2e2bb7a00784f6b95671fe67c772a7",
+   "sha256_16": "97b38507b87d4340",
+   "url": "https://web.archive.org/web/20240424171705id_/https://www.cms.gov/files/zip/2024-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-original-oct2023-wayback-20240424.zip",
+     "member": "2024 Star Ratings Data Table - Summary Rating (Mar 12 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/recalc/2024 Star Ratings Data Table - CAI (Jul 2 2024).csv",
+   "bytes": 126193,
+   "sha256": "9e4ce5664498eec6fc6563d752ec76813156175cd725ad86fb7225e352efa2ec",
+   "sha256_16": "9e4ce5664498eec6",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "2024 Star Ratings Data Table - CAI (Jul 2 2024).csv"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+     "member": "2024 Star Ratings Data Table - CAI (Oct 12 2023).csv"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-original-oct2023-wayback-20240424.zip",
+     "member": "2024 Star Ratings Data Table - CAI (Oct 12 2023).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/recalc/2024 Star Ratings Data Table - Disenrollment Reasons (Jul 2 2024).csv",
+   "bytes": 126476,
+   "sha256": "4f768a2ad1858e9d616debf0b7cdbe0b22193637ee2149b885477ee1c2ad6273",
+   "sha256_16": "4f768a2ad1858e9d",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "2024 Star Ratings Data Table - Disenrollment Reasons (Jul 2 2024).csv"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+     "member": "2024 Star Ratings Data Table - Disenrollment Reasons (Oct 12 2023).csv"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-original-oct2023-wayback-20240424.zip",
+     "member": "2024 Star Ratings Data Table - Disenrollment Reasons (Oct 12 2023).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/recalc/2024 Star Ratings Data Table - Domain Stars (Jul 2 2024).csv",
+   "bytes": 207208,
+   "sha256": "464702df7f2f0d7e369778d9884af48728a81fa3a80f763b9e617b46bf854058",
+   "sha256_16": "464702df7f2f0d7e",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "2024 Star Ratings Data Table - Domain Stars (Jul 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/recalc/2024 Star Ratings Data Table - High Performing Contracts (Jul 2 2024).csv",
+   "bytes": 7326,
+   "sha256": "90f17381ad28704a7a209008458776b34e858b4e4c919609194699008f32c355",
+   "sha256_16": "90f17381ad28704a",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "2024 Star Ratings Data Table - High Performing Contracts (Jul 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/recalc/2024 Star Ratings Data Table - Low Performing Contracts (Jul 2 2024).csv",
+   "bytes": 1390,
+   "sha256": "ac70bc99cca8ec43a10cf5b3ea910f2ecf146a13b69a33eb6ea67ab43baedd51",
+   "sha256_16": "ac70bc99cca8ec43",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "2024 Star Ratings Data Table - Low Performing Contracts (Jul 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/recalc/2024 Star Ratings Data Table - Measure Data (Jul 2 2024).csv",
+   "bytes": 627148,
+   "sha256": "8e6eb631681f5164fe3133214412db6c56b182e1cc859569347b55163f4d203f",
+   "sha256_16": "8e6eb631681f5164",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "2024 Star Ratings Data Table - Measure Data (Jul 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/recalc/2024 Star Ratings Data Table - Measure Stars (Jul 2 2024).csv",
+   "bytes": 540227,
+   "sha256": "89e34656ebcf389824b9c7f00860ec525559169a86b2588237b9a47e03135bc2",
+   "sha256_16": "89e34656ebcf3898",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "2024 Star Ratings Data Table - Measure Stars (Jul 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/recalc/2024 Star Ratings Data Table - Notes (Jul 2 2024).csv",
+   "bytes": 823,
+   "sha256": "246a851e8b7dfa389aefe15ed934b4f6664c0a05216e9ad504b30cde1529411e",
+   "sha256_16": "246a851e8b7dfa38",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "2024 Star Ratings Data Table - Notes (Jul 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/recalc/2024 Star Ratings Data Table - Part C Cut Points (Jul 2 2024).csv",
+   "bytes": 4523,
+   "sha256": "636bdfe769814be529fde0f80fca3c23e8532337bf58b373938cee5aab553135",
+   "sha256_16": "636bdfe769814be5",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "2024 Star Ratings Data Table - Part C Cut Points (Jul 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/recalc/2024 Star Ratings Data Table - Part D Cut Points (Jul 2 2024).csv",
+   "bytes": 3296,
+   "sha256": "ffb1b0f8b5dee032c5dc6e03b883fc788b06bd79bd451ba10e54d3b7d40fe7cd",
+   "sha256_16": "ffb1b0f8b5dee032",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "2024 Star Ratings Data Table - Part D Cut Points (Jul 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/recalc/2024 Star Ratings Data Table - Summary Rating (Jul 2 2024).csv",
+   "bytes": 157200,
+   "sha256": "c6bd2a6e92e6babe8c6366417a95706f5844d11c99e9ed5093b59c45398607bf",
+   "sha256_16": "c6bd2a6e92e6babe",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "2024 Star Ratings Data Table - Summary Rating (Jul 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/recalc/2024_Report_Card_Master_Table_2024_07_02.xlsx",
+   "bytes": 580661,
+   "sha256": "de6093163ee31f401703340db557fe7b9f31b920e19941537d48d91d14632186",
+   "sha256_16": "de6093163ee31f40",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "2024_Report_Card_Master_Table_2024_07_02.xlsx"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/recalc/PQA_Medication_List_ADH_YOS2022_Mar_2023.xlsx",
+   "bytes": 1409412,
+   "sha256": "10864c69ec4e75eed7448fcbf47e459cfef3164c6e1afce0f5ddf0daf8753d79",
+   "sha256_16": "10864c69ec4e75ee",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "PQA_Medication_List_ADH_YOS2022_Mar_2023.xlsx"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+     "member": "PQA_Medication_List_ADH_YOS2022_Mar_2023.xlsx"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-original-oct2023-wayback-20240424.zip",
+     "member": "PQA_Medication_List_ADH_YOS2022_Mar_2023.xlsx"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2024/recalc/PQA_Medication_List_SUPD_YOS2022_Mar_2023.xlsx",
+   "bytes": 847013,
+   "sha256": "4b2a1496a23c819e30d65c2b13738ab2f2c71b4b103bea08bd881003d41df9f0",
+   "sha256_16": "4b2a1496a23c819e",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+     "member": "PQA_Medication_List_SUPD_YOS2022_Mar_2023.xlsx"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+     "member": "PQA_Medication_List_SUPD_YOS2022_Mar_2023.xlsx"
+    },
+    {
+     "zip": "data/raw/sy2024/2024-star-ratings-data-tables-original-oct2023-wayback-20240424.zip",
+     "member": "PQA_Medication_List_SUPD_YOS2022_Mar_2023.xlsx"
+    }
+   ],
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/extracted/sy2025/current/2025 Star Ratings Data Table - CAI (Dec 2 2024).csv",
+   "bytes": 115994,
+   "sha256": "b93f6e955191de4bb7a292106265811f704733c4ca7e1a8feb8fbdd6fed2fff6",
+   "sha256_16": "b93f6e955191de4b",
+   "url": "https://web.archive.org/web/20241126095534id_/https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables-original-oct2024-wayback-20241126.zip",
+     "member": "2025 Star Ratings Data Table - CAI (Oct 11 2024).csv"
+    },
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "2025 Star Ratings Data Table - CAI (Dec 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/current/2025 Star Ratings Data Table - Disenrollment Reasons (Dec 2 2024).csv",
+   "bytes": 115074,
+   "sha256": "aa8b9ffdcc219e008eae79baf9df3020f4e9cb51b3e7dff55057ffe9bb93a880",
+   "sha256_16": "aa8b9ffdcc219e00",
+   "url": "https://web.archive.org/web/20241126095534id_/https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables-original-oct2024-wayback-20241126.zip",
+     "member": "2025 Star Ratings Data Table - Disenrollment Reasons (Oct 11 2024).csv"
+    },
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "2025 Star Ratings Data Table - Disenrollment Reasons (Dec 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/current/2025 Star Ratings Data Table - Domain Stars (Dec 2 2024).csv",
+   "bytes": 187760,
+   "sha256": "ca30719b8aa0d396dead520cbf3a88e6bb5750c842d92664208a8aae595eed62",
+   "sha256_16": "ca30719b8aa0d396",
+   "url": "https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "2025 Star Ratings Data Table - Domain Stars (Dec 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/current/2025 Star Ratings Data Table - High Performing Contracts (Dec 2 2024).csv",
+   "bytes": 2541,
+   "sha256": "720dbfb00f0a76ce7cca729418b721f7d677fea776a2ffce2fad53932997eb16",
+   "sha256_16": "720dbfb00f0a76ce",
+   "url": "https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "2025 Star Ratings Data Table - High Performing Contracts (Dec 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/current/2025 Star Ratings Data Table - Low Performing Contracts (Dec 2 2024).csv",
+   "bytes": 1468,
+   "sha256": "8fd8ef51ebf49502cf530f6a42270caf83cb3a4215f85e9fdb4d56fa7895769c",
+   "sha256_16": "8fd8ef51ebf49502",
+   "url": "https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "2025 Star Ratings Data Table - Low Performing Contracts (Dec 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/current/2025 Star Ratings Data Table - Measure Data (Dec 2 2024).csv",
+   "bytes": 558221,
+   "sha256": "e3ba1b0b579c643fb9bb3527633a83ac3ba456a26b6396f5879545d198456dd8",
+   "sha256_16": "e3ba1b0b579c643f",
+   "url": "https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "2025 Star Ratings Data Table - Measure Data (Dec 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/current/2025 Star Ratings Data Table - Measure Stars (Dec 2 2024).csv",
+   "bytes": 473188,
+   "sha256": "92de0c56ee33d989c646653803d350ef8127cc8b797a4a4e53b8364bec653a57",
+   "sha256_16": "92de0c56ee33d989",
+   "url": "https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "2025 Star Ratings Data Table - Measure Stars (Dec 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/current/2025 Star Ratings Data Table - Part C Cut Points (Dec 2 2024).csv",
+   "bytes": 4523,
+   "sha256": "85e70c57b3cd4c12bfd42a896f55e4279e8410189b20f5b7c62e5fea0a7a0045",
+   "sha256_16": "85e70c57b3cd4c12",
+   "url": "https://web.archive.org/web/20241126095534id_/https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables-original-oct2024-wayback-20241126.zip",
+     "member": "2025 Star Ratings Data Table - Part C Cut Points (Oct 11 2024).csv"
+    },
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "2025 Star Ratings Data Table - Part C Cut Points (Dec 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/current/2025 Star Ratings Data Table - Part D Cut Points (Dec 2 2024).csv",
+   "bytes": 3290,
+   "sha256": "300115d0585efd94278a398bda98cb3caba8024fccd2e3e6a70ac5bd7fc8777a",
+   "sha256_16": "300115d0585efd94",
+   "url": "https://web.archive.org/web/20241126095534id_/https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables-original-oct2024-wayback-20241126.zip",
+     "member": "2025 Star Ratings Data Table - Part D Cut Points (Oct 11 2024).csv"
+    },
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "2025 Star Ratings Data Table - Part D Cut Points (Dec 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/current/2025 Star Ratings Data Table - Summary Ratings (Dec 2 2024).csv",
+   "bytes": 143356,
+   "sha256": "60df62be3432db2d21d79b5087c98456f3f4b0fc269f1c416e90fa99ced1052c",
+   "sha256_16": "60df62be3432db2d",
+   "url": "https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "2025 Star Ratings Data Table - Summary Ratings (Dec 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/current/2025_Report_Card_Master_Table_2024_12_02.xlsx",
+   "bytes": 534397,
+   "sha256": "b6ded8903a5cfcc5f992798384cd3af732841de64e80c35bd455236c06e4ac65",
+   "sha256_16": "b6ded8903a5cfcc5",
+   "url": "https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "2025_Report_Card_Master_Table_2024_12_02.xlsx"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/current/PQA_Value_Sets_ADH_YOS2023_Mar_2024.xlsx",
+   "bytes": 1357284,
+   "sha256": "46ca2fbe0bb4603ab4312b37f4ee6cde8aa7d23aa825c6be3bbdfd67cfd48e78",
+   "sha256_16": "46ca2fbe0bb4603a",
+   "url": "https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "PQA_Value_Sets_ADH_YOS2023_Mar_2024.xlsx"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/current/PQA_Value_Sets_SUPD_YOS2023_Mar_2024.xlsx",
+   "bytes": 846222,
+   "sha256": "6617f6dbb563672768c3a08e706f952a40ba925a209d0f2e5278343e36c5d163",
+   "sha256_16": "6617f6dbb5636727",
+   "url": "https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "PQA_Value_Sets_SUPD_YOS2023_Mar_2024.xlsx"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/original/2025 Star Ratings Data Table - CAI (Oct 11 2024).csv",
+   "bytes": 115994,
+   "sha256": "b93f6e955191de4bb7a292106265811f704733c4ca7e1a8feb8fbdd6fed2fff6",
+   "sha256_16": "b93f6e955191de4b",
+   "url": "https://web.archive.org/web/20241126095534id_/https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables-original-oct2024-wayback-20241126.zip",
+     "member": "2025 Star Ratings Data Table - CAI (Oct 11 2024).csv"
+    },
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "2025 Star Ratings Data Table - CAI (Dec 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/original/2025 Star Ratings Data Table - Disenrollment Reasons (Oct 11 2024).csv",
+   "bytes": 115074,
+   "sha256": "aa8b9ffdcc219e008eae79baf9df3020f4e9cb51b3e7dff55057ffe9bb93a880",
+   "sha256_16": "aa8b9ffdcc219e00",
+   "url": "https://web.archive.org/web/20241126095534id_/https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables-original-oct2024-wayback-20241126.zip",
+     "member": "2025 Star Ratings Data Table - Disenrollment Reasons (Oct 11 2024).csv"
+    },
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "2025 Star Ratings Data Table - Disenrollment Reasons (Dec 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/original/2025 Star Ratings Data Table - Domain Stars (Oct 11 2024).csv",
+   "bytes": 187760,
+   "sha256": "5289bc0acf2efedb1f88640d9f825e8e5a7751e6a4b1e5bbb7088d814d833a4b",
+   "sha256_16": "5289bc0acf2efedb",
+   "url": "https://web.archive.org/web/20241126095534id_/https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables-original-oct2024-wayback-20241126.zip",
+     "member": "2025 Star Ratings Data Table - Domain Stars (Oct 11 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/original/2025 Star Ratings Data Table - High Performing Contracts (Oct 11 2024).csv",
+   "bytes": 2186,
+   "sha256": "cd779d6f949ded1def0f4234e2c25c75c3172b649342f2addb4299794f04c2d0",
+   "sha256_16": "cd779d6f949ded1d",
+   "url": "https://web.archive.org/web/20241126095534id_/https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables-original-oct2024-wayback-20241126.zip",
+     "member": "2025 Star Ratings Data Table - High Performing Contracts (Oct 11 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/original/2025 Star Ratings Data Table - Low Performing Contracts (Oct 11 2024).csv",
+   "bytes": 1794,
+   "sha256": "135087dfaaa8cd29b93b58d3f342fc02d2fbc8f911e81af72643dc061a19c1d9",
+   "sha256_16": "135087dfaaa8cd29",
+   "url": "https://web.archive.org/web/20241126095534id_/https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables-original-oct2024-wayback-20241126.zip",
+     "member": "2025 Star Ratings Data Table - Low Performing Contracts (Oct 11 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/original/2025 Star Ratings Data Table - Measure Data (Oct 11 2024).csv",
+   "bytes": 558101,
+   "sha256": "d4861a29aeb5ef6780572619cf27458b71062c75a600fe47f69cb5fdeb81d772",
+   "sha256_16": "d4861a29aeb5ef67",
+   "url": "https://web.archive.org/web/20241126095534id_/https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables-original-oct2024-wayback-20241126.zip",
+     "member": "2025 Star Ratings Data Table - Measure Data (Oct 11 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/original/2025 Star Ratings Data Table - Measure Stars (Oct 11 2024).csv",
+   "bytes": 473205,
+   "sha256": "bd31629345d0a2e9a24e99e11158b322451f01d75835ba6af44ebe687ef2b48d",
+   "sha256_16": "bd31629345d0a2e9",
+   "url": "https://web.archive.org/web/20241126095534id_/https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables-original-oct2024-wayback-20241126.zip",
+     "member": "2025 Star Ratings Data Table - Measure Stars (Oct 11 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/original/2025 Star Ratings Data Table - Part C Cut Points (Oct 11 2024).csv",
+   "bytes": 4523,
+   "sha256": "85e70c57b3cd4c12bfd42a896f55e4279e8410189b20f5b7c62e5fea0a7a0045",
+   "sha256_16": "85e70c57b3cd4c12",
+   "url": "https://web.archive.org/web/20241126095534id_/https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables-original-oct2024-wayback-20241126.zip",
+     "member": "2025 Star Ratings Data Table - Part C Cut Points (Oct 11 2024).csv"
+    },
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "2025 Star Ratings Data Table - Part C Cut Points (Dec 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/original/2025 Star Ratings Data Table - Part D Cut Points (Oct 11 2024).csv",
+   "bytes": 3290,
+   "sha256": "300115d0585efd94278a398bda98cb3caba8024fccd2e3e6a70ac5bd7fc8777a",
+   "sha256_16": "300115d0585efd94",
+   "url": "https://web.archive.org/web/20241126095534id_/https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables-original-oct2024-wayback-20241126.zip",
+     "member": "2025 Star Ratings Data Table - Part D Cut Points (Oct 11 2024).csv"
+    },
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+     "member": "2025 Star Ratings Data Table - Part D Cut Points (Dec 2 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/original/2025 Star Ratings Data Table - Summary Rating (Oct 11 2024).csv",
+   "bytes": 143328,
+   "sha256": "e44d4272359bd9638de6badfbe9a082b19d8f20206e043615f7e9580be12590b",
+   "sha256_16": "e44d4272359bd963",
+   "url": "https://web.archive.org/web/20241126095534id_/https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables-original-oct2024-wayback-20241126.zip",
+     "member": "2025 Star Ratings Data Table - Summary Rating (Oct 11 2024).csv"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2025/original/2025_Report_Card_Master_Table_2024_10_11.xlsx",
+   "bytes": 533896,
+   "sha256": "91c8fccd2a38b4ef181732baf8db7f07ece83a95cb29f1620a4bd929e2ca6202",
+   "sha256_16": "91c8fccd2a38b4ef",
+   "url": "https://web.archive.org/web/20241126095534id_/https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2025/2025-star-ratings-data-tables-original-oct2024-wayback-20241126.zip",
+     "member": "2025_Report_Card_Master_Table_2024_10_11.xlsx"
+    }
+   ],
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/extracted/sy2026/current/2026 Star Ratings Data Table - CAI (Oct 8 2025).csv",
+   "bytes": 84864,
+   "sha256": "61aae3a3fc22daca7d86242f189c947585a959dc9e1a64b670f128e40f67a5d7",
+   "sha256_16": "61aae3a3fc22daca",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - CAI (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - CAI (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/current/2026 Star Ratings Data Table - Disenrollment Reasons (Oct 8 2025).csv",
+   "bytes": 120164,
+   "sha256": "12992c619110e2e77f655f0972d3c4d5bda3380eb8675d5057d3ec63d9b6df01",
+   "sha256_16": "12992c619110e2e7",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - Disenrollment Reasons (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - Disenrollment Reasons (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/current/2026 Star Ratings Data Table - Domain Stars (Oct 8 2025).csv",
+   "bytes": 153674,
+   "sha256": "0fb2d6b1cd0933f46a2bbfa22929cb15e22e0b1130580c459f3e354e03c723d8",
+   "sha256_16": "0fb2d6b1cd0933f4",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - Domain Stars (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - Domain Stars (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/current/2026 Star Ratings Data Table - High Performing Contracts (Oct 8 2025).csv",
+   "bytes": 2843,
+   "sha256": "97cafa663239a1be520e070ed3bc9b40a60d2c72fa52de2c027196b4a8a4f6c4",
+   "sha256_16": "97cafa663239a1be",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - High Performing Contracts (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - High Performing Contracts (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/current/2026 Star Ratings Data Table - Low Performing Contracts (Oct 8 2025).csv",
+   "bytes": 973,
+   "sha256": "27537e2746c43aad444da9de4c1660a0ea6cf423fe461c92dc5b750cc1b20370",
+   "sha256_16": "27537e2746c43aad",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - Low Performing Contracts (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - Low Performing Contracts (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/current/2026 Star Ratings Data Table - Measure Data (Oct 8 2025).csv",
+   "bytes": 590523,
+   "sha256": "aae62ac492bd56f7029375462b58aa3afc6beeeda7ae0ce5d18ccd1072737f99",
+   "sha256_16": "aae62ac492bd56f7",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - Measure Data (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - Measure Data (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/current/2026 Star Ratings Data Table - Measure Stars (Oct 8 2025).csv",
+   "bytes": 498605,
+   "sha256": "6fe3cf1d8c7a388a213b9da951b4b5949279e217da678a3c00d04285416a0138",
+   "sha256_16": "6fe3cf1d8c7a388a",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - Measure Stars (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - Measure Stars (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/current/2026 Star Ratings Data Table - Part C Cut Points (Oct 8 2025).csv",
+   "bytes": 4949,
+   "sha256": "168cd1d49d502fd8214de3fa5a8d50f8caad0e056e5beeaf4c74455a3a8d4e0c",
+   "sha256_16": "168cd1d49d502fd8",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - Part C Cut Points (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - Part C Cut Points (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/current/2026 Star Ratings Data Table - Part D Cut Points (Oct 8 2025).csv",
+   "bytes": 2983,
+   "sha256": "a0e2cbc98adf7b3f0b7c4eacb1a41e1f9d70bece2f0735b525d0c9e52650ea17",
+   "sha256_16": "a0e2cbc98adf7b3f",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - Part D Cut Points (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - Part D Cut Points (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/current/2026 Star Ratings Data Table - Summary Ratings (Oct 8 2025).csv",
+   "bytes": 108971,
+   "sha256": "bedbf52e11158c6ca91e7be6d7d3d937202e72a73183041e837f46e838dc98ae",
+   "sha256_16": "bedbf52e11158c6c",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - Summary Ratings (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - Summary Ratings (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/current/2026_Report_Card_Master_Table_2025_10_08.xlsx",
+   "bytes": 541701,
+   "sha256": "cc972811cd09ae07aaf43dacba6037f78e152ebf390354fbe32443ca63fad40e",
+   "sha256_16": "cc972811cd09ae07",
+   "url": "https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026_Report_Card_Master_Table_2025_10_08.xlsx"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/current/PQA_Value_Sets_ADH_YOS2024_Apr_2025.xlsx",
+   "bytes": 1343476,
+   "sha256": "76e99fd143fac7db8a693580c1fd6f800ed1ee2cefa142c5d7c7de03e8e6bc0e",
+   "sha256_16": "76e99fd143fac7db",
+   "url": "https://www.cms.gov/files/zip/2026-display-measures.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-display-measures.zip",
+     "member": "PQA_Value_Sets_ADH_YOS2024_Apr_2025.xlsx"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "PQA_Value_Sets_ADH_YOS2024_Apr_2025.xlsx"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "PQA_Value_Sets_ADH_YOS2024_Apr_2025.xlsx"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/current/PQA_Value_Sets_SUPD_YOS2024_Apr_2025.xlsx",
+   "bytes": 842445,
+   "sha256": "98215957a8bfb96d8ac9075d91cd60545a5dc30ae510c212544032e0f2dab95f",
+   "sha256_16": "98215957a8bfb96d",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "PQA_Value_Sets_SUPD_YOS2024_Apr_2025.xlsx"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "PQA_Value_Sets_SUPD_YOS2024_Apr_2025.xlsx"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/original/2026 Star Ratings Data Table - CAI (Oct 8 2025).csv",
+   "bytes": 84864,
+   "sha256": "61aae3a3fc22daca7d86242f189c947585a959dc9e1a64b670f128e40f67a5d7",
+   "sha256_16": "61aae3a3fc22daca",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - CAI (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - CAI (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/original/2026 Star Ratings Data Table - Disenrollment Reasons (Oct 8 2025).csv",
+   "bytes": 120164,
+   "sha256": "12992c619110e2e77f655f0972d3c4d5bda3380eb8675d5057d3ec63d9b6df01",
+   "sha256_16": "12992c619110e2e7",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - Disenrollment Reasons (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - Disenrollment Reasons (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/original/2026 Star Ratings Data Table - Domain Stars (Oct 8 2025).csv",
+   "bytes": 153674,
+   "sha256": "0fb2d6b1cd0933f46a2bbfa22929cb15e22e0b1130580c459f3e354e03c723d8",
+   "sha256_16": "0fb2d6b1cd0933f4",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - Domain Stars (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - Domain Stars (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/original/2026 Star Ratings Data Table - High Performing Contracts (Oct 8 2025).csv",
+   "bytes": 2843,
+   "sha256": "97cafa663239a1be520e070ed3bc9b40a60d2c72fa52de2c027196b4a8a4f6c4",
+   "sha256_16": "97cafa663239a1be",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - High Performing Contracts (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - High Performing Contracts (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/original/2026 Star Ratings Data Table - Low Performing Contracts (Oct 8 2025).csv",
+   "bytes": 973,
+   "sha256": "27537e2746c43aad444da9de4c1660a0ea6cf423fe461c92dc5b750cc1b20370",
+   "sha256_16": "27537e2746c43aad",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - Low Performing Contracts (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - Low Performing Contracts (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/original/2026 Star Ratings Data Table - Measure Data (Oct 8 2025).csv",
+   "bytes": 590523,
+   "sha256": "aae62ac492bd56f7029375462b58aa3afc6beeeda7ae0ce5d18ccd1072737f99",
+   "sha256_16": "aae62ac492bd56f7",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - Measure Data (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - Measure Data (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/original/2026 Star Ratings Data Table - Measure Stars (Oct 8 2025).csv",
+   "bytes": 498605,
+   "sha256": "6fe3cf1d8c7a388a213b9da951b4b5949279e217da678a3c00d04285416a0138",
+   "sha256_16": "6fe3cf1d8c7a388a",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - Measure Stars (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - Measure Stars (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/original/2026 Star Ratings Data Table - Part C Cut Points (Oct 8 2025).csv",
+   "bytes": 4949,
+   "sha256": "168cd1d49d502fd8214de3fa5a8d50f8caad0e056e5beeaf4c74455a3a8d4e0c",
+   "sha256_16": "168cd1d49d502fd8",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - Part C Cut Points (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - Part C Cut Points (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/original/2026 Star Ratings Data Table - Part D Cut Points (Oct 8 2025).csv",
+   "bytes": 2983,
+   "sha256": "a0e2cbc98adf7b3f0b7c4eacb1a41e1f9d70bece2f0735b525d0c9e52650ea17",
+   "sha256_16": "a0e2cbc98adf7b3f",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - Part D Cut Points (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - Part D Cut Points (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/original/2026 Star Ratings Data Table - Summary Ratings (Oct 8 2025).csv",
+   "bytes": 108971,
+   "sha256": "bedbf52e11158c6ca91e7be6d7d3d937202e72a73183041e837f46e838dc98ae",
+   "sha256_16": "bedbf52e11158c6c",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "2026 Star Ratings Data Table - Summary Ratings (Oct 8 2025).csv"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "2026 Star Ratings Data Table - Summary Ratings (Oct 8 2025).csv"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/original/PQA_Value_Sets_ADH_YOS2024_Apr_2025.xlsx",
+   "bytes": 1343476,
+   "sha256": "76e99fd143fac7db8a693580c1fd6f800ed1ee2cefa142c5d7c7de03e8e6bc0e",
+   "sha256_16": "76e99fd143fac7db",
+   "url": "https://www.cms.gov/files/zip/2026-display-measures.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-display-measures.zip",
+     "member": "PQA_Value_Sets_ADH_YOS2024_Apr_2025.xlsx"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "PQA_Value_Sets_ADH_YOS2024_Apr_2025.xlsx"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "PQA_Value_Sets_ADH_YOS2024_Apr_2025.xlsx"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/extracted/sy2026/original/PQA_Value_Sets_SUPD_YOS2024_Apr_2025.xlsx",
+   "bytes": 842445,
+   "sha256": "98215957a8bfb96d8ac9075d91cd60545a5dc30ae510c212544032e0f2dab95f",
+   "sha256_16": "98215957a8bfb96d",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+     "member": "PQA_Value_Sets_SUPD_YOS2024_Apr_2025.xlsx"
+    },
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+     "member": "PQA_Value_Sets_SUPD_YOS2024_Apr_2025.xlsx"
+    }
+   ],
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/raw/cfr/cfr422166_ecfr_2026-08-20.xml",
+   "bytes": 42084,
+   "sha256": "402727baa3d6af01eff0a783aad696f31ecba3efb286f8a1fe93d3a697b0bfa3",
+   "sha256_16": "402727baa3d6af01",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-20/title-42.xml?chapter=IV&subchapter=B&part=422&subpart=D&section=422.166",
+   "url_kind": "direct",
+   "vintage_token": "2026-08-20"
+  },
+  {
+   "path": "data/raw/cut-point-trends.zip",
+   "bytes": 4490754,
+   "sha256": "e1ad2ba94121ebedae5cb8bf16885d51d5747f2fa975e029408706d3cf695aa8",
+   "sha256_16": "e1ad2ba94121ebed",
+   "url": "https://www.cms.gov/files/zip/cut-point-trends.zip",
+   "url_kind": "direct",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "data/raw/enrollment/Monthly_Report_By_Contract_2024_12/Monthly_Report_By_Contract_2024_12/Monthly_Report_By_Contract_2024_12.csv",
+   "bytes": 167715,
+   "sha256": "c1dbefdeefa27829066e186b4b65ed06215bdfa02557b1a492aa8e5f037b79b5",
+   "sha256_16": "c1dbefdeefa27829",
+   "url": "https://www.cms.gov/files/zip/monthly-enrollment-contract-december-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/enrollment/monthly-enrollment-contract-december-2024.zip",
+     "member": "Monthly_Report_By_Contract_2024_12/Monthly_Report_By_Contract_2024_12.csv"
+    }
+   ],
+   "vintage_token": "_2024_12"
+  },
+  {
+   "path": "data/raw/enrollment/Monthly_Report_By_Contract_2024_12/Monthly_Report_By_Contract_2024_12/Monthly_Report_By_Contract_2024_12.xlsx",
+   "bytes": 100436,
+   "sha256": "19257e6796a5d16fea15fddbf0b995435f021b56168664ec99320375ff974085",
+   "sha256_16": "19257e6796a5d16f",
+   "url": "https://www.cms.gov/files/zip/monthly-enrollment-contract-december-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/enrollment/monthly-enrollment-contract-december-2024.zip",
+     "member": "Monthly_Report_By_Contract_2024_12/Monthly_Report_By_Contract_2024_12.xlsx"
+    }
+   ],
+   "vintage_token": "_2024_12"
+  },
+  {
+   "path": "data/raw/enrollment/Monthly_Report_By_Contract_2024_12/Monthly_Report_By_Contract_2024_12/Read_Me_Monthly_Report_By_Contract_2024.txt",
+   "bytes": 2573,
+   "sha256": "b3d08860ffe46aaa621959732c0d91a822beae08820f8164497e4d341405ab9e",
+   "sha256_16": "b3d08860ffe46aaa",
+   "url": "https://www.cms.gov/files/zip/monthly-enrollment-contract-december-2024.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/enrollment/monthly-enrollment-contract-december-2024.zip",
+     "member": "Monthly_Report_By_Contract_2024_12/Read_Me_Monthly_Report_By_Contract_2024.txt"
+    }
+   ],
+   "vintage_token": "_2024_12"
+  },
+  {
+   "path": "data/raw/enrollment/Monthly_Report_By_Contract_2025_01/Monthly_Report_By_Contract_2025_01/Monthly_Report_By_Contract_2025_01.csv",
+   "bytes": 157140,
+   "sha256": "d6a6cb664be74b78b145821863b56f712d8c03c2b6b0162e886d839bbdccdc3a",
+   "sha256_16": "d6a6cb664be74b78",
+   "url": "https://www.cms.gov/files/zip/monthly-enrollment-contract-january-2025.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/enrollment/monthly-enrollment-contract-january-2025.zip",
+     "member": "Monthly_Report_By_Contract_2025_01/Monthly_Report_By_Contract_2025_01.csv"
+    }
+   ],
+   "vintage_token": "_2025_01"
+  },
+  {
+   "path": "data/raw/enrollment/Monthly_Report_By_Contract_2025_01/Monthly_Report_By_Contract_2025_01/Monthly_Report_By_Contract_2025_01.xlsx",
+   "bytes": 95341,
+   "sha256": "17cdf9726ca2cff9c795ff50cc50888df68665dc51a3924f11bb47b0ae4b49d9",
+   "sha256_16": "17cdf9726ca2cff9",
+   "url": "https://www.cms.gov/files/zip/monthly-enrollment-contract-january-2025.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/enrollment/monthly-enrollment-contract-january-2025.zip",
+     "member": "Monthly_Report_By_Contract_2025_01/Monthly_Report_By_Contract_2025_01.xlsx"
+    }
+   ],
+   "vintage_token": "_2025_01"
+  },
+  {
+   "path": "data/raw/enrollment/Monthly_Report_By_Contract_2025_01/Monthly_Report_By_Contract_2025_01/Read_Me_Monthly_Report_By_Contract_2025.txt",
+   "bytes": 2776,
+   "sha256": "76fd715e56a92c2579cdfcfa4cad7175ce080ed278cc6d6fd8ce51187ffa7a79",
+   "sha256_16": "76fd715e56a92c25",
+   "url": "https://www.cms.gov/files/zip/monthly-enrollment-contract-january-2025.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/enrollment/monthly-enrollment-contract-january-2025.zip",
+     "member": "Monthly_Report_By_Contract_2025_01/Read_Me_Monthly_Report_By_Contract_2025.txt"
+    }
+   ],
+   "vintage_token": "_2025_01"
+  },
+  {
+   "path": "data/raw/enrollment/Monthly_Report_By_Contract_2025_12/Monthly_Report_By_Contract_2025_12.csv",
+   "bytes": 157924,
+   "sha256": "7e3f90138350602e21b3554a0315ffbb39266b920ef2102ec4ad1ba8f6cb7d14",
+   "sha256_16": "7e3f90138350602e",
+   "url": "https://www.cms.gov/files/zip/monthly-enrollment-contract-december-2025.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/enrollment/monthly-enrollment-contract-december-2025.zip",
+     "member": "Monthly_Report_By_Contract_2025_12/Monthly_Report_By_Contract_2025_12.csv"
+    }
+   ],
+   "vintage_token": "_2025_12"
+  },
+  {
+   "path": "data/raw/enrollment/Monthly_Report_By_Contract_2025_12/Monthly_Report_By_Contract_2025_12.xlsx",
+   "bytes": 96166,
+   "sha256": "844ed8ebeb8b290c938d6c492e944393ce903aa40d3fd35bcec0f8f30fdf68e7",
+   "sha256_16": "844ed8ebeb8b290c",
+   "url": "https://www.cms.gov/files/zip/monthly-enrollment-contract-december-2025.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/enrollment/monthly-enrollment-contract-december-2025.zip",
+     "member": "Monthly_Report_By_Contract_2025_12/Monthly_Report_By_Contract_2025_12.xlsx"
+    }
+   ],
+   "vintage_token": "_2025_12"
+  },
+  {
+   "path": "data/raw/enrollment/Monthly_Report_By_Contract_2025_12/Read_Me_Monthly_Report_By_Contract_2025.txt",
+   "bytes": 2535,
+   "sha256": "633584ed3f16bc8a68e5705f929e81ece774888815ebbe2da48006914338a407",
+   "sha256_16": "633584ed3f16bc8a",
+   "url": "https://www.cms.gov/files/zip/monthly-enrollment-contract-december-2025.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/enrollment/monthly-enrollment-contract-december-2025.zip",
+     "member": "Monthly_Report_By_Contract_2025_12/Read_Me_Monthly_Report_By_Contract_2025.txt"
+    },
+    {
+     "zip": "data/raw/enrollment/monthly-enrollment-contract-july-2026.zip",
+     "member": "Monthly_Report_By_Contract_2026_07/Read_Me_Monthly_Report_By_Contract_2026.txt"
+    }
+   ],
+   "vintage_token": "_2025_12"
+  },
+  {
+   "path": "data/raw/enrollment/Monthly_Report_By_Contract_2026_07/Monthly_Report_By_Contract_2026_07.csv",
+   "bytes": 155779,
+   "sha256": "99f13dab02f55f0fa63f008966b8b8830de0d01229b440f713fe118b62e38ea2",
+   "sha256_16": "99f13dab02f55f0f",
+   "url": "https://www.cms.gov/files/zip/monthly-enrollment-contract-july-2026.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/enrollment/monthly-enrollment-contract-july-2026.zip",
+     "member": "Monthly_Report_By_Contract_2026_07/Monthly_Report_By_Contract_2026_07.csv"
+    }
+   ],
+   "vintage_token": "_2026_07"
+  },
+  {
+   "path": "data/raw/enrollment/Monthly_Report_By_Contract_2026_07/Monthly_Report_By_Contract_2026_07.xlsx",
+   "bytes": 95069,
+   "sha256": "e574a7bf54711f059771bacc746be02556aa6ed2c12797e662e7e2105e249657",
+   "sha256_16": "e574a7bf54711f05",
+   "url": "https://www.cms.gov/files/zip/monthly-enrollment-contract-july-2026.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/enrollment/monthly-enrollment-contract-july-2026.zip",
+     "member": "Monthly_Report_By_Contract_2026_07/Monthly_Report_By_Contract_2026_07.xlsx"
+    }
+   ],
+   "vintage_token": "_2026_07"
+  },
+  {
+   "path": "data/raw/enrollment/Monthly_Report_By_Contract_2026_07/Read_Me_Monthly_Report_By_Contract_2026.txt",
+   "bytes": 2535,
+   "sha256": "633584ed3f16bc8a68e5705f929e81ece774888815ebbe2da48006914338a407",
+   "sha256_16": "633584ed3f16bc8a",
+   "url": "https://www.cms.gov/files/zip/monthly-enrollment-contract-december-2025.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/enrollment/monthly-enrollment-contract-december-2025.zip",
+     "member": "Monthly_Report_By_Contract_2025_12/Read_Me_Monthly_Report_By_Contract_2025.txt"
+    },
+    {
+     "zip": "data/raw/enrollment/monthly-enrollment-contract-july-2026.zip",
+     "member": "Monthly_Report_By_Contract_2026_07/Read_Me_Monthly_Report_By_Contract_2026.txt"
+    }
+   ],
+   "vintage_token": "_2026_07"
+  },
+  {
+   "path": "data/raw/enrollment/monthly-enrollment-contract-december-2024.zip",
+   "bytes": 134930,
+   "sha256": "c2c3f3e51a0de8beb34a21c52c5f5f0cecdcaa5902062abc7b05e185497d306c",
+   "sha256_16": "c2c3f3e51a0de8be",
+   "url": "https://www.cms.gov/files/zip/monthly-enrollment-contract-december-2024.zip",
+   "url_kind": "direct",
+   "vintage_token": "december-2024"
+  },
+  {
+   "path": "data/raw/enrollment/monthly-enrollment-contract-december-2025.zip",
+   "bytes": 129459,
+   "sha256": "130752ae0883ef6a681789d5558583c5754b6ebbc72f976d19f37aa55063435d",
+   "sha256_16": "130752ae0883ef6a",
+   "url": "https://www.cms.gov/files/zip/monthly-enrollment-contract-december-2025.zip",
+   "url_kind": "direct",
+   "vintage_token": "december-2025"
+  },
+  {
+   "path": "data/raw/enrollment/monthly-enrollment-contract-january-2025.zip",
+   "bytes": 128201,
+   "sha256": "21b5610770942be0387cecb9d17a39adc2e0249bd8184dcb15e4f946148ba6c2",
+   "sha256_16": "21b5610770942be0",
+   "url": "https://www.cms.gov/files/zip/monthly-enrollment-contract-january-2025.zip",
+   "url_kind": "direct",
+   "vintage_token": "january-2025"
+  },
+  {
+   "path": "data/raw/enrollment/monthly-enrollment-contract-july-2026.zip",
+   "bytes": 127906,
+   "sha256": "c2555d9b4351e14f2f31bbb06489bf72317973b4228ed3e2e18bdbf3c4aa0e17",
+   "sha256_16": "c2555d9b4351e14f",
+   "url": "https://www.cms.gov/files/zip/monthly-enrollment-contract-july-2026.zip",
+   "url_kind": "direct",
+   "vintage_token": "july-2026"
+  },
+  {
+   "path": "data/raw/fr/FR-2018-04-16_2018-07179.pdf",
+   "bytes": 2925021,
+   "sha256": "b4d1370a79e9aad302f087e666809804e653d9e6c8f12ebb07ad42c1eb202f47",
+   "sha256_16": "b4d1370a79e9aad3",
+   "url": "UNKNOWN",
+   "url_kind": "UNKNOWN",
+   "vintage_token": "2018-04-16"
+  },
+  {
+   "path": "data/raw/litigation/Clover_v_HHS_SDGa_2026-05-27_order_doc61.pdf",
+   "bytes": 314624,
+   "sha256": "06ba748ac8edc40c60493648673a8570d8f6b4585b4e191d9cb818ce0c719a04",
+   "sha256_16": "06ba748ac8edc40c",
+   "url": "https://litigationtracker.law.georgetown.edu/wp-content/uploads/2026/01/Clover-Insurance-Company-v.-Department-of-Health-and-Human-Services-et-al_2026.05.27_ORDER-ON-MOTION-FOR-SUMMARY-JUDGMENT.pdf",
+   "url_kind": "direct",
+   "vintage_token": "2026-05-27"
+  },
+  {
+   "path": "data/raw/litigation/SCAN_v_HHS_DDC_2024-06-03_opinion_doc33.pdf",
+   "bytes": 371643,
+   "sha256": "f08b149e1cd1ccc384ec51ea53899f02a64390dea50ada1cf70f9660b811df19",
+   "sha256_16": "f08b149e1cd1ccc3",
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.263337/gov.uscourts.dcd.263337.33.0.pdf",
+   "url_kind": "direct",
+   "vintage_token": "2024-06-03"
+  },
+  {
+   "path": "data/raw/litigation/UHC_Benefits_of_Texas_v_CMS_EDTex_2024-11-22_opinion_doc28.pdf",
+   "bytes": 497410,
+   "sha256": "d84f9938337fd92b8f964d722ee195df2cb88c213927a87d86d06957af7a9a38",
+   "sha256_16": "d84f9938337fd92b",
+   "url": "https://litigationtracker.law.georgetown.edu/wp-content/uploads/2026/01/UnitedHealthcare-Benefits-of-Texas_2024.11.22_OPINION.pdf",
+   "url_kind": "direct",
+   "vintage_token": "2024-11-22"
+  },
+  {
+   "path": "data/raw/star_notices/H0524_kaiser_2024_star_notice.pdf",
+   "bytes": 327740,
+   "sha256": "77ec3534b190fc6917e42c21af4f98c5ceedd9c419beb04cc5c1e40c2629297e",
+   "sha256_16": "77ec3534b190fc69",
+   "url": "UNKNOWN",
+   "url_kind": "UNKNOWN",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "data/raw/star_notices/H2406_uhc_2026_star_notice.pdf",
+   "bytes": 512098,
+   "sha256": "962615f0281819256eb6d6a37a4861091b016de973267e93b933d02622ee6053",
+   "sha256_16": "962615f028181925",
+   "url": "UNKNOWN",
+   "url_kind": "UNKNOWN",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "data/raw/star_notices/H8768_uhc_2024_star_notice.pdf",
+   "bytes": 512236,
+   "sha256": "17e9d1692bcf22f81fab2892227e8986b1ad6ca2bf03b1e16036aa238f710a1e",
+   "sha256_16": "17e9d1692bcf22f8",
+   "url": "UNKNOWN",
+   "url_kind": "UNKNOWN",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "data/raw/sy2022/2022-star-ratings-data-table-oct-06-2021.zip",
+   "bytes": 2802810,
+   "sha256": "8ec36ac7b44608fa65b6b7519b3064d7af87bcdbaa125057e7a3fcbfd6e1b286",
+   "sha256_16": "8ec36ac7b44608fa",
+   "url": "https://www.cms.gov/files/zip/2022-star-ratings-data-table-oct-06-2021.zip",
+   "url_kind": "direct",
+   "vintage_token": "oct-06-2021"
+  },
+  {
+   "path": "data/raw/sy2022/extracted_oct2021/2022 Star Ratings Data Table - CAI (Oct 06 2021).csv",
+   "bytes": 122506,
+   "sha256": "e88fbd3fdba271d3d3faef9cb0a7f4a82cafb0f7355c72674a03115d37ea859e",
+   "sha256_16": "e88fbd3fdba271d3",
+   "url": "https://www.cms.gov/files/zip/2022-star-ratings-data-table-oct-06-2021.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2022/2022-star-ratings-data-table-oct-06-2021.zip",
+     "member": "2022 Star Ratings Data Table - CAI (Oct 06 2021).csv"
+    }
+   ],
+   "vintage_token": "sy2022"
+  },
+  {
+   "path": "data/raw/sy2022/extracted_oct2021/2022 Star Ratings Data Table - Disenrollment Reasons (Oct 06 2021).csv",
+   "bytes": 124472,
+   "sha256": "10116591444440df9a361633ecb2362ebb049b7fb684895b86a48053cff24c05",
+   "sha256_16": "10116591444440df",
+   "url": "https://www.cms.gov/files/zip/2022-star-ratings-data-table-oct-06-2021.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2022/2022-star-ratings-data-table-oct-06-2021.zip",
+     "member": "2022 Star Ratings Data Table - Disenrollment Reasons (Oct 06 2021).csv"
+    }
+   ],
+   "vintage_token": "sy2022"
+  },
+  {
+   "path": "data/raw/sy2022/extracted_oct2021/2022 Star Ratings Data Table - Domain Stars (Oct 06 2021).csv",
+   "bytes": 218686,
+   "sha256": "ac6d82db64b57f884f0108f56717a8f01191cb2d329b366c903dbff4974d7ded",
+   "sha256_16": "ac6d82db64b57f88",
+   "url": "https://www.cms.gov/files/zip/2022-star-ratings-data-table-oct-06-2021.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2022/2022-star-ratings-data-table-oct-06-2021.zip",
+     "member": "2022 Star Ratings Data Table - Domain Stars (Oct 06 2021).csv"
+    }
+   ],
+   "vintage_token": "sy2022"
+  },
+  {
+   "path": "data/raw/sy2022/extracted_oct2021/2022 Star Ratings Data Table - HPI (Oct 06 2021).xlsx",
+   "bytes": 16595,
+   "sha256": "fb9579ef71d574ab1d9b45e9ccad12c1b52349ae4b548e87274ea77b08a48770",
+   "sha256_16": "fb9579ef71d574ab",
+   "url": "https://www.cms.gov/files/zip/2022-star-ratings-data-table-oct-06-2021.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2022/2022-star-ratings-data-table-oct-06-2021.zip",
+     "member": "2022 Star Ratings Data Table - HPI (Oct 06 2021).xlsx"
+    }
+   ],
+   "vintage_token": "sy2022"
+  },
+  {
+   "path": "data/raw/sy2022/extracted_oct2021/2022 Star Ratings Data Table - Measure Data (Oct 06 2021).csv",
+   "bytes": 646215,
+   "sha256": "7edef5414dab1a9a4127701e7715d49d21696656deaeb40f252591049fc46d4e",
+   "sha256_16": "7edef5414dab1a9a",
+   "url": "https://www.cms.gov/files/zip/2022-star-ratings-data-table-oct-06-2021.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2022/2022-star-ratings-data-table-oct-06-2021.zip",
+     "member": "2022 Star Ratings Data Table - Measure Data (Oct 06 2021).csv"
+    }
+   ],
+   "vintage_token": "sy2022"
+  },
+  {
+   "path": "data/raw/sy2022/extracted_oct2021/2022 Star Ratings Data Table - Measure Stars (Oct 06 2021).csv",
+   "bytes": 575674,
+   "sha256": "f146651ccc42e70f78008f469d97ed6b7254c8d46addbcf14eb214707771dea3",
+   "sha256_16": "f146651ccc42e70f",
+   "url": "https://www.cms.gov/files/zip/2022-star-ratings-data-table-oct-06-2021.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2022/2022-star-ratings-data-table-oct-06-2021.zip",
+     "member": "2022 Star Ratings Data Table - Measure Stars (Oct 06 2021).csv"
+    }
+   ],
+   "vintage_token": "sy2022"
+  },
+  {
+   "path": "data/raw/sy2022/extracted_oct2021/2022 Star Ratings Data Table - Measure Stars (Oct 06 2021).xlsx",
+   "bytes": 185993,
+   "sha256": "d22b652bc563b9f965a4765dd2eb8767087dea6bd228e80140f21e40d9a414e6",
+   "sha256_16": "d22b652bc563b9f9",
+   "url": "https://www.cms.gov/files/zip/2022-star-ratings-data-table-oct-06-2021.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2022/2022-star-ratings-data-table-oct-06-2021.zip",
+     "member": "2022 Star Ratings Data Table - Measure Stars (Oct 06 2021).xlsx"
+    }
+   ],
+   "vintage_token": "sy2022"
+  },
+  {
+   "path": "data/raw/sy2022/extracted_oct2021/2022 Star Ratings Data Table - Part C Cutpoints (Oct 06 2021).xlsx",
+   "bytes": 12996,
+   "sha256": "2e5a78fd07c81bae8f35edc37987083434880da972942ae8dcd5f03423cdec52",
+   "sha256_16": "2e5a78fd07c81bae",
+   "url": "https://www.cms.gov/files/zip/2022-star-ratings-data-table-oct-06-2021.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2022/2022-star-ratings-data-table-oct-06-2021.zip",
+     "member": "2022 Star Ratings Data Table - Part C Cutpoints (Oct 06 2021).xlsx"
+    }
+   ],
+   "vintage_token": "sy2022"
+  },
+  {
+   "path": "data/raw/sy2022/extracted_oct2021/2022 Star Ratings Data Table - Part D Cutpoints (Oct 06 2021).csv",
+   "bytes": 3259,
+   "sha256": "14ec4c1591bc377be645fc1b800c2dfab390daeb74e9abd41ab307fe8b2f2b18",
+   "sha256_16": "14ec4c1591bc377b",
+   "url": "https://www.cms.gov/files/zip/2022-star-ratings-data-table-oct-06-2021.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2022/2022-star-ratings-data-table-oct-06-2021.zip",
+     "member": "2022 Star Ratings Data Table - Part D Cutpoints (Oct 06 2021).csv"
+    }
+   ],
+   "vintage_token": "sy2022"
+  },
+  {
+   "path": "data/raw/sy2022/extracted_oct2021/2022 Star Ratings Data Table - Summary Rating (Oct 06 2021).csv",
+   "bytes": 160966,
+   "sha256": "8cbb1da4c3c4c794e4f3775ac7c002a9b001e72e8817bba3622a5d662c2bfb16",
+   "sha256_16": "8cbb1da4c3c4c794",
+   "url": "https://www.cms.gov/files/zip/2022-star-ratings-data-table-oct-06-2021.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2022/2022-star-ratings-data-table-oct-06-2021.zip",
+     "member": "2022 Star Ratings Data Table - Summary Rating (Oct 06 2021).csv"
+    }
+   ],
+   "vintage_token": "sy2022"
+  },
+  {
+   "path": "data/raw/sy2022/extracted_oct2021/2022_Report_Card_Master_Table_2021_10_06.xlsx",
+   "bytes": 558025,
+   "sha256": "99e6499871bd6c4787ccb2e77e5b3765ed55f92bcb8cc4fce2ba29ed8d7a754e",
+   "sha256_16": "99e6499871bd6c47",
+   "url": "https://www.cms.gov/files/zip/2022-star-ratings-data-table-oct-06-2021.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2022/2022-star-ratings-data-table-oct-06-2021.zip",
+     "member": "2022_Report_Card_Master_Table_2021_10_06.xlsx"
+    }
+   ],
+   "vintage_token": "sy2022"
+  },
+  {
+   "path": "data/raw/sy2022/extracted_oct2021/PQA_Medication_List_ADH_YOS2020_Mar_2021.xlsx",
+   "bytes": 1538482,
+   "sha256": "58d599de1345d80e88e7f94605d07459ba33ce53eb104105bbfca4b806ae03ba",
+   "sha256_16": "58d599de1345d80e",
+   "url": "https://www.cms.gov/files/zip/2022-star-ratings-data-table-oct-06-2021.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2022/2022-star-ratings-data-table-oct-06-2021.zip",
+     "member": "PQA_Medication_List_ADH_YOS2020_Mar_2021.xlsx"
+    }
+   ],
+   "vintage_token": "sy2022"
+  },
+  {
+   "path": "data/raw/sy2022/extracted_oct2021/PQA_Medication_List_SUPD_YOS2020_Mar_2021.xlsx",
+   "bytes": 819555,
+   "sha256": "95478416fde82fb1f56a1b0ba5fc926be1863078518cb32f7058b013a582d215",
+   "sha256_16": "95478416fde82fb1",
+   "url": "https://www.cms.gov/files/zip/2022-star-ratings-data-table-oct-06-2021.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2022/2022-star-ratings-data-table-oct-06-2021.zip",
+     "member": "PQA_Medication_List_SUPD_YOS2020_Mar_2021.xlsx"
+    }
+   ],
+   "vintage_token": "sy2022"
+  },
+  {
+   "path": "data/raw/sy2023/2023-star-ratings-data-table.zip",
+   "bytes": 2884089,
+   "sha256": "655de028e80ce983fd2f6c1f9398874b316e8672367db36d6ee1dafc1fe44e28",
+   "sha256_16": "655de028e80ce983",
+   "url": "https://www.cms.gov/files/zip/2023-star-ratings-data-table.zip",
+   "url_kind": "direct",
+   "vintage_token": "sy2023"
+  },
+  {
+   "path": "data/raw/sy2023/2023-star-ratings-technical-notes.pdf",
+   "bytes": 11828035,
+   "sha256": "2c3108d3e376b88e4d44991ed111cd98c5c01a6a7af032083074182d0e0508a2",
+   "sha256_16": "2c3108d3e376b88e",
+   "url": "https://www.cms.gov/files/document/2023-star-ratings-technical-notes.pdf",
+   "url_kind": "direct",
+   "vintage_token": "sy2023"
+  },
+  {
+   "path": "data/raw/sy2023/2023technotes-wayback-20220829.pdf",
+   "bytes": 2719891,
+   "sha256": "36ea4507587313b4c801ff21f642007cfaaa6ba3ab8346c7eca09f46297005e5",
+   "sha256_16": "36ea4507587313b4",
+   "url": "https://web.archive.org/web/20220829175317id_/...",
+   "url_kind": "direct",
+   "vintage_token": "wayback-20220829"
+  },
+  {
+   "path": "data/raw/sy2023/2023technotes-wayback-20221007.pdf",
+   "bytes": 1048576,
+   "sha256": "81b0e60cf2e3ffa8772c1887560e508834ada65579505896d14d95696a4cf4d2",
+   "sha256_16": "81b0e60cf2e3ffa8",
+   "url": "https://web.archive.org/web/20221007022841id_/...",
+   "url_kind": "direct",
+   "vintage_token": "wayback-20221007"
+  },
+  {
+   "path": "data/raw/sy2023/2023technotes-wayback-20221122.pdf",
+   "bytes": 3106128,
+   "sha256": "503cab8ca37781516a68029cbf8a02b36d5019cc289c83a2a2aa3550b86c5c5f",
+   "sha256_16": "503cab8ca3778151",
+   "url": "https://web.archive.org/web/20221122235412id_/https://www.cms.gov/files/document/2023-star-ratings-technical-notes.pdf",
+   "url_kind": "direct",
+   "vintage_token": "wayback-20221122"
+  },
+  {
+   "path": "data/raw/sy2024/101323-fact-sheet-2024-medicare-advantage-and-part-d-ratings.pdf",
+   "bytes": 468786,
+   "sha256": "fa781c79396a8bfc1617ae4006c8c1584582f6b6b8e7637ade7c5a4519f41bbc",
+   "sha256_16": "fa781c79396a8bfc",
+   "url": "https://www.cms.gov/files/document/101323-fact-sheet-2024-medicare-advantage-and-part-d-ratings.pdf",
+   "url_kind": "direct",
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/raw/sy2024/2024-display-measures.zip",
+   "bytes": 6667466,
+   "sha256": "6080caee82a7b46f399859325e01d5bab48e412b628da3e9f1d54c6cd2c01cc8",
+   "sha256_16": "6080caee82a7b46f",
+   "url": "https://www.cms.gov/files/zip/2024-display-measures.zip",
+   "url_kind": "direct",
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/raw/sy2024/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "bytes": 2562553,
+   "sha256": "7783e575333b2cd2033a3525b63ffd348f828d4add67f0dcb529dbf101407ac4",
+   "sha256_16": "7783e575333b2cd2",
+   "url": "https://www.cms.gov/files/zip/2024-star-ratings-data-tables-jul-2-2024.zip",
+   "url_kind": "direct",
+   "vintage_token": "jul-2-2024"
+  },
+  {
+   "path": "data/raw/sy2024/2024-star-ratings-data-tables-oct-13-2023-original-wayback-20231014.zip",
+   "bytes": 2514407,
+   "sha256": "91133a2bec5e4ef7c2db7f65f9c72fcc92bfc9f3ad63b8ae45bac9ee54d006ae",
+   "sha256_16": "91133a2bec5e4ef7",
+   "url": "https://web.archive.org/web/20231014001141id_/https://www.cms.gov/files/zip/2024-star-ratings-data-tables-oct-13-2023.zip",
+   "url_kind": "direct",
+   "vintage_token": "wayback-20231014"
+  },
+  {
+   "path": "data/raw/sy2024/2024-star-ratings-data-tables-original-oct2023-wayback-20240424.zip",
+   "bytes": 2561738,
+   "sha256": "2f2a437de1903dbf9c5883329f3e45a44e53117d8f20f31a72ff52e280c76790",
+   "sha256_16": "2f2a437de1903dbf",
+   "url": "https://web.archive.org/web/20240424171705id_/https://www.cms.gov/files/zip/2024-star-ratings-data-tables.zip",
+   "url_kind": "direct",
+   "vintage_token": "wayback-20240424"
+  },
+  {
+   "path": "data/raw/sy2024/2024-star-ratings-technical-notes.pdf",
+   "bytes": 13999057,
+   "sha256": "5c0034a2588396b681b6c0869ffa48179b7fdea5cf881c3fd94fe67792a1ee40",
+   "sha256_16": "5c0034a2588396b6",
+   "url": "https://www.cms.gov/files/document/2024-star-ratings-technical-notes.pdf",
+   "url_kind": "direct",
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/raw/sy2024/2024technotes20230929-original-wayback-20231016.pdf",
+   "bytes": 3074871,
+   "sha256": "de512ed7da696c1e86877e022545535e8c378c80f76aab57e4fab14b0fb0f70a",
+   "sha256_16": "de512ed7da696c1e",
+   "url": "https://web.archive.org/web/20231016114413id_/https://www.cms.gov/files/document/2024technotes20230929.pdf",
+   "url_kind": "direct",
+   "vintage_token": "wayback-20231016"
+  },
+  {
+   "path": "data/raw/sy2024/updated-2024-star-ratings-cutpoints-and-star-averages.xlsx",
+   "bytes": 24123,
+   "sha256": "14261e0020cc996fcf8bf63c8c4e9dc7657df7ac801743fb4c29db83541fe928",
+   "sha256_16": "14261e0020cc996f",
+   "url": "https://www.cms.gov/files/document/updated-2024-star-ratings-cutpoints-and-star-averages.xlsx",
+   "url_kind": "direct",
+   "vintage_token": "sy2024"
+  },
+  {
+   "path": "data/raw/sy2025/2025-display-measures.zip",
+   "bytes": 7639973,
+   "sha256": "f552376453af83910ae0b7663ec7196cca8e0d69c9761db1de598f417fb965e5",
+   "sha256_16": "f552376453af8391",
+   "url": "https://www.cms.gov/files/zip/2025-display-measures.zip",
+   "url_kind": "direct",
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/raw/sy2025/2025-star-ratings-data-tables-original-oct2024-wayback-20241126.zip",
+   "bytes": 707949,
+   "sha256": "0ac3a6fa2c2abaec8e31cebe42c354baafc29599e72ee130b0d16d9ff6c50804",
+   "sha256_16": "0ac3a6fa2c2abaec",
+   "url": "https://web.archive.org/web/20241126095534id_/https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "direct",
+   "vintage_token": "wayback-20241126"
+  },
+  {
+   "path": "data/raw/sy2025/2025-star-ratings-data-tables.zip",
+   "bytes": 2449297,
+   "sha256": "d604695156a05cc9c52e1775fc9de848c6124f4a9096fb03bdad78790d60750a",
+   "sha256_16": "d604695156a05cc9",
+   "url": "https://www.cms.gov/files/zip/2025-star-ratings-data-tables.zip",
+   "url_kind": "direct",
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/raw/sy2025/2025-star-ratings-technical-notes.pdf",
+   "bytes": 3140750,
+   "sha256": "d74b10e973d7cde40c00aa768327974e7361bcfb5be90fb3f5284b8912776087",
+   "sha256_16": "d74b10e973d7cde4",
+   "url": "https://www.cms.gov/files/document/2025-star-ratings-technical-notes.pdf",
+   "url_kind": "direct",
+   "vintage_token": "sy2025"
+  },
+  {
+   "path": "data/raw/sy2026/2026-display-measures.zip",
+   "bytes": 8025313,
+   "sha256": "dadeddbef9708a64f324341ccd31721d650c6b03aeb2df888cdfa5fd9d1cf7fc",
+   "sha256_16": "dadeddbef9708a64",
+   "url": "https://www.cms.gov/files/zip/2026-display-measures.zip",
+   "url_kind": "direct",
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/raw/sy2026/2026-star-ratings-data-tables-aug17-2026-pulled-20260910.zip",
+   "bytes": 2168534,
+   "sha256": "a72f4f4965239e12b3b264c843a71ea6bbd9c655547be5b1f95b3b0df4d1cde7",
+   "sha256_16": "a72f4f4965239e12",
+   "url": "https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "direct"
+  },
+  {
+   "path": "data/raw/sy2026/2026-star-ratings-data-tables-original-oct2025-wayback-20251014.zip",
+   "bytes": 1592457,
+   "sha256": "d5d25a8f33906fc9f4b137dcc0e02619d547abd5890ec4e1ab95a650f7860c69",
+   "sha256_16": "d5d25a8f33906fc9",
+   "url": "https://web.archive.org/web/20251014182939id_/https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "direct",
+   "vintage_token": "wayback-20251014"
+  },
+  {
+   "path": "data/raw/sy2026/2026-star-ratings-data-tables.zip",
+   "bytes": 2120939,
+   "sha256": "eb1e786163af74d97ec2246dcc4abba764874b453a2f56d0d202d9412a2f09e5",
+   "sha256_16": "eb1e786163af74d9",
+   "url": "https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "direct",
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/raw/sy2026/2026-star-ratings-fact-sheet.pdf",
+   "bytes": 458377,
+   "sha256": "327ac7667ce5a2eb9d48c6c8b36a8cd16238b7a13d97a705284f89273096eaa4",
+   "sha256_16": "327ac7667ce5a2eb",
+   "url": "https://www.cms.gov/files/document/2026-star-ratings-fact-sheet.pdf",
+   "url_kind": "direct",
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/raw/sy2026/2026-star-ratings-technical-notes-original-wayback-20251014.pdf",
+   "bytes": 3236717,
+   "sha256": "1a491c7b7baab98999d02c83ddb784ee6aec7cf8d14993679e049d4711a836c4",
+   "sha256_16": "1a491c7b7baab989",
+   "url": "https://web.archive.org/web/20251014175724id_/https://www.cms.gov/files/document/2026-star-ratings-technical-notes.pdf",
+   "url_kind": "direct",
+   "vintage_token": "wayback-20251014"
+  },
+  {
+   "path": "data/raw/sy2026/2026-star-ratings-technical-notes.pdf",
+   "bytes": 4915069,
+   "sha256": "0ae91dbccbbdc7c657a69746d70425a8174d288093062fad96865f9bdee2a1d0",
+   "sha256_16": "0ae91dbccbbdc7c6",
+   "url": "https://www.cms.gov/files/document/2026-star-ratings-technical-notes.pdf",
+   "url_kind": "direct",
+   "vintage_token": "sy2026"
+  },
+  {
+   "path": "data/raw/sy2026/extracted_aug17_2026/Master Tables Individual Files 8 17 26/2026 Star Ratings Data Table - Summary Ratings (July 22 2026).xlsx",
+   "bytes": 66653,
+   "sha256": "2e18f3faf63ecf8cbbfa7c761a8745f7f0e306f4480b3aade50a384c42c46125",
+   "sha256_16": "2e18f3faf63ecf8c",
+   "url": "https://www.cms.gov/files/zip/2026-star-ratings-data-tables.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "data/raw/sy2026/2026-star-ratings-data-tables-aug17-2026-pulled-20260910.zip",
+     "member": "2026 Star Ratings Data Table - Summary Ratings (July 22 2026).xlsx"
+    }
+   ]
+  },
+  {
+   "path": "data/raw/sy2026_recalc2027qbp/recalculated-2026-cai-values-2027-qbp-ratings.pdf",
+   "bytes": 178544,
+   "sha256": "0d708a74819717740f7f988cd6448c8cd46a761b3fc21d71b9fb54db5dec1995",
+   "sha256_16": "0d708a7481971774",
+   "url": "UNKNOWN",
+   "url_kind": "UNKNOWN",
+   "vintage_token": "2026"
+  },
+  {
+   "path": "hospital/data/raw/2021-04/all_data_2021apr.sas7bdat",
+   "bytes": 2752512,
+   "sha256": "fb833790ea2f6f653e71e6e4c9e4d71118bf3424d51a8ca1393186fc5d40522c",
+   "sha256_16": "fb833790ea2f6f65",
+   "url": null,
+   "url_kind": "official URL not recorded"
+  },
+  {
+   "path": "hospital/data/raw/2021-04/care_compare_snapshots/hospitals_2021-04-28.zip",
+   "bytes": 14625171,
+   "sha256": "1aedd054556e45eb56d8de3e59c5fdc4aa0f96b8780356bb55fbf684edde3fd8",
+   "sha256_16": "1aedd054556e45eb",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2021-04-28.zip",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/2021-04/care_compare_snapshots/hospitals_2021-07-21.zip",
+   "bytes": 14374687,
+   "sha256": "2eae19c287e7a7e9999cae01ec1fdb2e61d4446554f17374fcdbdf66cd0a0810",
+   "sha256_16": "2eae19c287e7a7e9",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2021-07-21.zip",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/2021-04/sas_package_mirror_rush/0 - Data and Measure Standardization_2021Apr_E.sas",
+   "bytes": 11673,
+   "sha256": "e85cea0bb0ee715fd2beca1846c44bcbd74bef225094f12f3225fbd5adff2d97",
+   "sha256_16": "e85cea0bb0ee715f",
+   "url": null,
+   "url_kind": "official zip URL not recorded"
+  },
+  {
+   "path": "hospital/data/raw/2021-04/sas_package_mirror_rush/1 - First stage_Simple Average of Measure Scores_2021Apr_E.sas",
+   "bytes": 4711,
+   "sha256": "eaf895a8c1cff0acd2fcb6863a04127ad6b9623531dfc133f0636b401c05755a",
+   "sha256_16": "eaf895a8c1cff0ac",
+   "url": null,
+   "url_kind": "official zip URL not recorded"
+  },
+  {
+   "path": "hospital/data/raw/2021-04/sas_package_mirror_rush/2 - Second Stage_Weighted Average and Categorize Star_2021Apr_E_peer.sas",
+   "bytes": 8983,
+   "sha256": "02012d5589ae215de49aab7b3e6a7d30a24ce7b94c441d2bca7fce60bffb1229",
+   "sha256_16": "02012d5589ae215d",
+   "url": null,
+   "url_kind": "official zip URL not recorded"
+  },
+  {
+   "path": "hospital/data/raw/2021-04/sas_package_mirror_rush/Star_Macros_E_peer.sas",
+   "bytes": 7452,
+   "sha256": "f72990990d528206f7b7b75c7a01a60534aacd1e12508fefd889fd9f7b8c2251",
+   "sha256_16": "f72990990d528206",
+   "url": null,
+   "url_kind": "official zip URL not recorded"
+  },
+  {
+   "path": "hospital/data/raw/2022-07/all_data_2022jul.sas7bdat",
+   "bytes": 2621440,
+   "sha256": "bca1c012a038e878f7718d18600f0c6131b9050981ac455189a2e5a3fb2fc470",
+   "sha256_16": "bca1c012a038e878",
+   "url": "https://qualitynet.cms.gov/files/62dab18796fd970016ea322b?filename=all_data_2022jul.sas7bdat",
+   "url_kind": "direct (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2022-07/care_compare_snapshots/hospitals_2022-07-06.zip",
+   "bytes": 14788971,
+   "sha256": "4cf34418a3153872406fdf2dbf9eb68871224aa67abc7db52de93c78c4ec8011",
+   "sha256_16": "4cf34418a3153872",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2022-07-06.zip",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/2022-07/care_compare_snapshots/hospitals_2022-10-06.zip",
+   "bytes": 14753205,
+   "sha256": "cd258649ad9b0ae9928321a891a6060c85fe90b87f6e7be5b2ad9d81e0359038",
+   "sha256_16": "cd258649ad9b0ae9",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2022-10-06.zip",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/2022-07/sas_package_mirror_rush/0 - Data and Measure Standardization_2022.sas",
+   "bytes": 11567,
+   "sha256": "15416bee552b826b536d763f85e2726284990aad39f6af997c582513e5156b91",
+   "sha256_16": "15416bee552b826b",
+   "url": null,
+   "url_kind": "official zip URL not recorded"
+  },
+  {
+   "path": "hospital/data/raw/2022-07/sas_package_mirror_rush/1 - First stage_Simple Average of Measure Scores_2022.sas",
+   "bytes": 4686,
+   "sha256": "7a52758a57b5df1beb0c9e4505fc042bf8eacc6885ae02173883cbfe3e9cd012",
+   "sha256_16": "7a52758a57b5df1b",
+   "url": null,
+   "url_kind": "official zip URL not recorded"
+  },
+  {
+   "path": "hospital/data/raw/2022-07/sas_package_mirror_rush/2 - Second Stage_Weighted Average and Categorize Star_2022.sas",
+   "bytes": 8983,
+   "sha256": "495e5a10678953b9b28a0bb29ed1e98b2d127e6476064e9fa6a9a97d3af70c62",
+   "sha256_16": "495e5a10678953b9",
+   "url": null,
+   "url_kind": "official zip URL not recorded"
+  },
+  {
+   "path": "hospital/data/raw/2022-07/sas_package_mirror_rush/Star_Macros.sas",
+   "bytes": 7452,
+   "sha256": "f72990990d528206f7b7b75c7a01a60534aacd1e12508fefd889fd9f7b8c2251",
+   "sha256_16": "f72990990d528206",
+   "url": null,
+   "url_kind": "official zip URL not recorded"
+  },
+  {
+   "path": "hospital/data/raw/2023-07/alldata_2023jul.sas7bdat",
+   "bytes": 2686976,
+   "sha256": "02def0504921bcb925205467b12ada58c3550b5fd25d5b5a1017d62902b67e9a",
+   "sha256_16": "02def0504921bcb9",
+   "url": "https://qualitynet.cms.gov/files/64b6ae41d15911001c695d5d?filename=alldata_2023jul.sas7bdat",
+   "url_kind": "direct (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2023-07/care_compare_snapshots/hospitals_2023-07-06.zip",
+   "bytes": 15880188,
+   "sha256": "a50dafbdc099a874a7580d6bb315e2a4441b062c8b37263e2db4405c6544b157",
+   "sha256_16": "a50dafbdc099a874",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2023-07-06.zip",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/2023-07/care_compare_snapshots/hospitals_2023-10-06.zip",
+   "bytes": 15878693,
+   "sha256": "f7d9326737338189b154a980892d1eb832cbf80982e591fe096547d4cc3b0175",
+   "sha256_16": "f7d9326737338189",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2023-10-06.zip",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/2023-07/sas_package_mirror_rush/0 - Data and Measure Standardization_2023Jul.sas",
+   "bytes": 11556,
+   "sha256": "7e7d42a8d0783c091e1703adaa00a40617dbea8a05a1a7a759b31be3e5fd1eb0",
+   "sha256_16": "7e7d42a8d0783c09",
+   "url": "https://qualitynet.cms.gov/files/64b6ae12749e52001c0e6f22?filename=StarRatings_2023_SASPack.zip",
+   "url_kind": "container-zip (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2023-07/sas_package_mirror_rush/1 - First stage_Simple Average of Measure Scores_2023Jul.sas",
+   "bytes": 4704,
+   "sha256": "63223f0040f300df8ffb864d9a745ba121c06191bfab4ea5205984878f82e81f",
+   "sha256_16": "63223f0040f300df",
+   "url": "https://qualitynet.cms.gov/files/64b6ae12749e52001c0e6f22?filename=StarRatings_2023_SASPack.zip",
+   "url_kind": "container-zip (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2023-07/sas_package_mirror_rush/2 - Second Stage_Weighted Average and Categorize Star_2023Jul.sas",
+   "bytes": 8983,
+   "sha256": "488a75e4ca0ddeba7a5aac553c903ad46be9b62036ac030fe6bdff304c2cce24",
+   "sha256_16": "488a75e4ca0ddeba",
+   "url": "https://qualitynet.cms.gov/files/64b6ae12749e52001c0e6f22?filename=StarRatings_2023_SASPack.zip",
+   "url_kind": "container-zip (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2023-07/sas_package_mirror_rush/Star_Macros.sas",
+   "bytes": 7452,
+   "sha256": "f72990990d528206f7b7b75c7a01a60534aacd1e12508fefd889fd9f7b8c2251",
+   "sha256_16": "f72990990d528206",
+   "url": "https://qualitynet.cms.gov/files/64b6ae12749e52001c0e6f22?filename=StarRatings_2023_SASPack.zip",
+   "url_kind": "container-zip (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2024-07/alldata_2024jul.sas7bdat",
+   "bytes": 2686976,
+   "sha256": "75a77be6c385068363d82ca2864bcefdfbc8a784666d61716edca82b844e4d81",
+   "sha256_16": "75a77be6c3850683",
+   "url": null,
+   "url_kind": "official URL not recorded"
+  },
+  {
+   "path": "hospital/data/raw/2024-07/care_compare_snapshots/hospitals_2024-07-31.zip",
+   "bytes": 14318139,
+   "sha256": "c01d018759f1e1bfee39788a52767239c797d55d0ff92662b4889e1c9f481ffe",
+   "sha256_16": "c01d018759f1e1bf",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2024-07-31.zip",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/2024-07/care_compare_snapshots/hospitals_2024-10-30.zip",
+   "bytes": 15146617,
+   "sha256": "c0bb9ca111aeec16b9220da52b1aa5b33582284ecfd9cf29f1c3c39f1250ae8b",
+   "sha256_16": "c0bb9ca111aeec16",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2024-10-30.zip",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/2024-07/sas_package_mirror_rush/0 - Data and Measure Standardization_2024Jul.sas",
+   "bytes": 11549,
+   "sha256": "5538dde9b3c96e95e55fa73be5741ed60b78d0a29f6f4862c876e32426310caa",
+   "sha256_16": "5538dde9b3c96e95",
+   "url": "https://qualitynet.cms.gov/files/66a16cceead7eeabb7db069f?filename=StarRatings_2024_SASPack.zip",
+   "url_kind": "container-zip (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2024-07/sas_package_mirror_rush/1 - First stage_Simple Average of Measure Scores_2024Jul.sas",
+   "bytes": 4719,
+   "sha256": "70d21cc5e751a0ccebe82283b964db51721445c4df656ff1b253c994d8957b5b",
+   "sha256_16": "70d21cc5e751a0cc",
+   "url": "https://qualitynet.cms.gov/files/66a16cceead7eeabb7db069f?filename=StarRatings_2024_SASPack.zip",
+   "url_kind": "container-zip (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2024-07/sas_package_mirror_rush/2 - Second Stage_Weighted Average and Categorize Star_2024Jul.sas",
+   "bytes": 9049,
+   "sha256": "6923f5a58a6ea5be3d724e0c735f0ecff1c48a912af3175b4a4f1703b123b4a5",
+   "sha256_16": "6923f5a58a6ea5be",
+   "url": "https://qualitynet.cms.gov/files/66a16cceead7eeabb7db069f?filename=StarRatings_2024_SASPack.zip",
+   "url_kind": "container-zip (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2024-07/sas_package_mirror_rush/Star_Macros.sas",
+   "bytes": 7688,
+   "sha256": "ca159c13331fe34424c8be3b17b09fa1c9a8d6d158e0b342e44d20389c5c1c02",
+   "sha256_16": "ca159c13331fe344",
+   "url": "https://qualitynet.cms.gov/files/66a16cceead7eeabb7db069f?filename=StarRatings_2024_SASPack.zip",
+   "url_kind": "container-zip (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2025-07/StarRatings_SASPackDoc_Jul2025.pdf",
+   "bytes": 432569,
+   "sha256": "e1fdad0e4c9dbde43182005e888d044057fc0a7d19e3dca4104fe6562febab42",
+   "sha256_16": "e1fdad0e4c9dbde4",
+   "url": "https://qualitynet.cms.gov/files/688d19c02844d4a92b85f900?filename=StarRatings_SASPackDoc_Jul2025.pdf",
+   "url_kind": "direct (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2025-07/alldata_2025jul.sas7bdat",
+   "bytes": 2621440,
+   "sha256": "875b1ba9d299e611a58909533b8301d2776ea982ca75937b6746290ee837724f",
+   "sha256_16": "875b1ba9d299e611",
+   "url": "https://qualitynet.cms.gov/files/688d1af52844d4a92b85f950?filename=alldata_2025jul.sas7bdat",
+   "url_kind": "direct (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2025-07/alldata_2025jul_kos.sas7bdat",
+   "bytes": 2621440,
+   "sha256": "875b1ba9d299e611a58909533b8301d2776ea982ca75937b6746290ee837724f",
+   "sha256_16": "875b1ba9d299e611",
+   "url": "https://qualitynet.cms.gov/files/688d1af52844d4a92b85f950?filename=alldata_2025jul.sas7bdat",
+   "url_kind": "direct (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2025-07/care_compare_snapshots/hospitals_2025-04-30.zip",
+   "bytes": 15302069,
+   "sha256": "515977986a28c7279579ed639d2792781992e2cb1edf7100795c497c03818618",
+   "sha256_16": "515977986a28c727",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2025-04-30.zip",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/2025-07/care_compare_snapshots/hospitals_2025-08-14.zip",
+   "bytes": 15564973,
+   "sha256": "0e75bec0d6bc52b562114eb619e0b620f272d6883af01614f629503f010f83f3",
+   "sha256_16": "0e75bec0d6bc52b5",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2025-08-14.zip",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/2025-07/sas_package_mirror_kos/0 - Data and Measure Standardization_2025Jul.sas",
+   "bytes": 11689,
+   "sha256": "ec6d18cc4ba394cb88096d7519077c32a0f14de43880a750157c2115f961b216",
+   "sha256_16": "ec6d18cc4ba394cb",
+   "url": "https://qualitynet.cms.gov/files/688d1a002844d4a92b85f912?filename=SAS_Pack_2025Jul.zip",
+   "url_kind": "container-zip (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2025-07/sas_package_mirror_kos/1 - First stage_Simple Average of Measure Scores_2025Jul.sas",
+   "bytes": 4592,
+   "sha256": "68a6880f173ea19f0653ec3245f45cadc4c6801bd0f5d8e46b8c325ddfc53332",
+   "sha256_16": "68a6880f173ea19f",
+   "url": "https://qualitynet.cms.gov/files/688d1a002844d4a92b85f912?filename=SAS_Pack_2025Jul.zip",
+   "url_kind": "container-zip (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2025-07/sas_package_mirror_kos/2 - Second Stage_Weighted Average and Categorize Star_2025Jul.sas",
+   "bytes": 8765,
+   "sha256": "7df4aad8fc0a61c0a571730972fa4190616268c94df844af730d5696e4927115",
+   "sha256_16": "7df4aad8fc0a61c0",
+   "url": "https://qualitynet.cms.gov/files/688d1a002844d4a92b85f912?filename=SAS_Pack_2025Jul.zip",
+   "url_kind": "container-zip (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2025-07/sas_package_mirror_kos/Star_Macros.sas",
+   "bytes": 7391,
+   "sha256": "1f9a62fd4b7a07f5acfa18e51946246bcd354e92cce2fb1136d2ec8a2ee67f2c",
+   "sha256_16": "1f9a62fd4b7a07f5",
+   "url": "https://qualitynet.cms.gov/files/688d1a002844d4a92b85f912?filename=SAS_Pack_2025Jul.zip",
+   "url_kind": "container-zip (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2025-07/sas_package_mirror_rush/0 - Data and Measure Standardization_2025Jul.sas",
+   "bytes": 12067,
+   "sha256": "4325169ec67148121d1e2f5c2da81327ad68ac175301756f0b39a92ba936a2cc",
+   "sha256_16": "4325169ec6714812",
+   "url": "https://qualitynet.cms.gov/files/688d1a002844d4a92b85f912?filename=SAS_Pack_2025Jul.zip",
+   "url_kind": "container-zip (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2025-07/sas_package_mirror_rush/1 - First stage_Simple Average of Measure Scores_2025Jul.sas",
+   "bytes": 4719,
+   "sha256": "d03a176f00225c03282b600567d7ca52a991f5a2e83f71243998947572b568ac",
+   "sha256_16": "d03a176f00225c03",
+   "url": "https://qualitynet.cms.gov/files/688d1a002844d4a92b85f912?filename=SAS_Pack_2025Jul.zip",
+   "url_kind": "container-zip (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2025-07/sas_package_mirror_rush/2 - Second Stage_Weighted Average and Categorize Star_2025Jul.sas",
+   "bytes": 8993,
+   "sha256": "e94c9dcec4a860f5a6e92dd4a1836b2d5de5c63122ae454acd3821d1b516d055",
+   "sha256_16": "e94c9dcec4a860f5",
+   "url": "https://qualitynet.cms.gov/files/688d1a002844d4a92b85f912?filename=SAS_Pack_2025Jul.zip",
+   "url_kind": "container-zip (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2025-07/sas_package_mirror_rush/Star_Macros.sas",
+   "bytes": 7688,
+   "sha256": "ca159c13331fe34424c8be3b17b09fa1c9a8d6d158e0b342e44d20389c5c1c02",
+   "sha256_16": "ca159c13331fe344",
+   "url": "https://qualitynet.cms.gov/files/688d1a002844d4a92b85f912?filename=SAS_Pack_2025Jul.zip",
+   "url_kind": "container-zip (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/data/raw/2026-05/R_Pack_2026Apr.zip",
+   "bytes": 8228,
+   "sha256": "1803cecbf71c488dd887b8e2656d8dd6a26e706ce784caff7e10874a3bff0c56",
+   "sha256_16": "1803cecbf71c488d",
+   "url": null,
+   "url_kind": "official URL not recorded"
+  },
+  {
+   "path": "hospital/data/raw/2026-05/StarRating_RPackDoc_Apr2026.pdf",
+   "bytes": 407856,
+   "sha256": "2dc82247b1b0d2e077c46c62cba8aa3a3d00074a45ffe178d512df96d92c0d09",
+   "sha256_16": "2dc82247b1b0d2e0",
+   "url": null,
+   "url_kind": "official URL not recorded"
+  },
+  {
+   "path": "hospital/data/raw/2026-05/care_compare_snapshots/hospitals_2026-02-25.zip",
+   "bytes": 13806586,
+   "sha256": "0e8e9e1f64872d01102a9cb29223ab0c32eab87a42533b4486627e0ccb45c877",
+   "sha256_16": "0e8e9e1f64872d01",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2026-02-25.zip",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/2026-05/care_compare_snapshots/hospitals_2026-05-13.zip",
+   "bytes": 13830630,
+   "sha256": "a0816ffb0fdd9f1bd4fe1efe37928de71b604f2bd8b75c23925edaf6d9c9f7d0",
+   "sha256_16": "a0816ffb0fdd9f1b",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2026-05-13.zip",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/2026-05/stars_alldata_2026apr.csv",
+   "bytes": 1764580,
+   "sha256": "d813a9a66a5d2f33c056e0c1f62c9d57b71daba61f63ae4fd98975ba6c17f75f",
+   "sha256_16": "d813a9a66a5d2f33",
+   "url": null,
+   "url_kind": "official URL not recorded"
+  },
+  {
+   "path": "hospital/data/raw/methodology/2021_overhaul_federal_register/2020-17086.pdf",
+   "bytes": 8670513,
+   "sha256": "13483e8f225d15b638c0bdc12af25d907297100c7c5166d3e025bf74ac8391c1",
+   "sha256_16": "13483e8f225d15b6",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2020-08-12/pdf/2020-17086.pdf",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/methodology/2021_overhaul_federal_register/2020-26819.pdf",
+   "bytes": 16027256,
+   "sha256": "899ad4f496c004935bd14716378776a7b38474ca352edad6c16c2efdb145aad8",
+   "sha256_16": "899ad4f496c00493",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2020-12-29/pdf/2020-26819.pdf",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/methodology/2021_overhaul_federal_register/2021-03852.pdf",
+   "bytes": 246080,
+   "sha256": "a7e1b33a0e790ab9659ba93459c6d0d532244bacce8c3134d4b1a290f6131fe3",
+   "sha256_16": "a7e1b33a0e790ab9",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2021-02-25/pdf/2021-03852.pdf",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/methodology/2021_overhaul_federal_register/C1-2020-26819.pdf",
+   "bytes": 215669,
+   "sha256": "8758d8ad635d84c7345ac1583c32c2527fe4a33ea597f4b6dfa0f72b152a88ca",
+   "sha256_16": "8758d8ad635d84c7",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2021-06-28/pdf/C1-2020-26819.pdf",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/methodology/2021_overhaul_federal_register/ecfr_42CFR412.190_current.html",
+   "bytes": 88991,
+   "sha256": "c0f1a35a8f63a4a9a9aa08cf1a39dfa9584cbeec1c382e6d1b06cfdd3ed43a79",
+   "sha256_16": "c0f1a35a8f63a4a9",
+   "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-412/subpart-D/section-412.190",
+   "url_kind": "direct"
+  },
+  {
+   "path": "hospital/data/raw/methodology/Star_Rtngs_CompMthdlgy_v5.1.pdf",
+   "bytes": 1062399,
+   "sha256": "7032d56c8472673b4d1d8791b7a836db871696abf791a14e094302af4138ad05",
+   "sha256_16": "7032d56c8472673b",
+   "url": "https://qualitynet.cms.gov/files/69eb9be1f1becb2be7183b08?filename=Star_Rtngs_CompMthdlgy_v5.1.pdf",
+   "url_kind": "direct (official; IP-restricted host)"
+  },
+  {
+   "path": "hospital/work/R pack/0 - Data and Measure Standardization_2026Apr.R",
+   "bytes": 8756,
+   "sha256": "d51ad938d50a47a7702d67ba8b87b37025a3ca7c428d8779aeef7f19ad7f9836",
+   "sha256_16": "d51ad938d50a47a7",
+   "url": null,
+   "url_kind": "member of hospital/data/raw/2026-05/R_Pack_2026Apr.zip (CMS's published R pack, byte-unmodified)"
+  },
+  {
+   "path": "hospital/work/R pack/1 - First stage_Simple Average of Measure Scores_2026Apr.R",
+   "bytes": 3628,
+   "sha256": "10efeaa6c6d6130f8b376165e9cd5b199dfd47509f919d915831c5fc9bfe8faf",
+   "sha256_16": "10efeaa6c6d6130f",
+   "url": null,
+   "url_kind": "member of hospital/data/raw/2026-05/R_Pack_2026Apr.zip (CMS's published R pack, byte-unmodified)"
+  },
+  {
+   "path": "hospital/work/R pack/2 - Second Stage_Weighted Average and Categorize Star_2026Apr.R",
+   "bytes": 12118,
+   "sha256": "c0e2dbd0384b80e3624a40edf30181b0501a48d7b9199e447380e013976ce60e",
+   "sha256_16": "c0e2dbd0384b80e3",
+   "url": null,
+   "url_kind": "member of hospital/data/raw/2026-05/R_Pack_2026Apr.zip (CMS's published R pack, byte-unmodified)"
+  },
+  {
+   "path": "hospital/work/cc_2025_08/Hospital_General_Information.csv",
+   "bytes": 1454116,
+   "sha256": "149f4cd6ec1406c1b54551f1882d9c634d6a4b5a8d4ce09795b7aee924dcb1bc",
+   "sha256_16": "149f4cd6ec1406c1",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2025-08-14.zip",
+   "url_kind": "container-zip member (Hospital_General_Information.csv)"
+  },
+  {
+   "path": "hospital/work/cc_2026_05/Hospital_General_Information.csv",
+   "bytes": 1453884,
+   "sha256": "83c98b2e8687580e0482b13e1e9acd5813534be243e5ccd9f55556a869595d40",
+   "sha256_16": "83c98b2e8687580e",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2026-05-13.zip",
+   "url_kind": "container-zip member (Hospital_General_Information.csv)"
+  },
+  {
+   "path": "hospital/work/input/stars_alldata_2026apr.csv",
+   "bytes": 1764580,
+   "sha256": "d813a9a66a5d2f33c056e0c1f62c9d57b71daba61f63ae4fd98975ba6c17f75f",
+   "sha256_16": "d813a9a66a5d2f33",
+   "url": null,
+   "url_kind": "copy of hospital/data/raw/2026-05/stars_alldata_2026apr.csv"
+  },
+  {
+   "path": "stars_census/legb_hcahps/data/HCAHPS-Hospital.csv",
+   "bytes": 105529630,
+   "sha256": "e9d7d4131a9704fcfe675b66771fb4269b15f0cb7eae22f0f4f6d771de619f78",
+   "sha256_16": "e9d7d4131a9704fc",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/resources/78a50346fbe828ea0ce2837847af6a7c_1777413952/HCAHPS-Hospital.csv",
+   "url_kind": "direct",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "stars_census/legb_hcahps/data/archive/2025-04-30/HCAHPS-Hospital.csv",
+   "bytes": 147492016,
+   "sha256": "823a8556247a9bb0a89f85a6027a70995cc0da1e77d2368fabd89919d2e129e8",
+   "sha256_16": "823a8556247a9bb0",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2025-04-30.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "stars_census/legb_hcahps/data/archive/2025-04-30/hospitals_2025-04-30.zip",
+     "member": "HCAHPS-Hospital.csv"
+    }
+   ],
+   "vintage_token": "2025-04-30"
+  },
+  {
+   "path": "stars_census/legb_hcahps/data/archive/2025-04-30/april_2025_star-ratings_tech_notes.pdf",
+   "bytes": 476817,
+   "sha256": "164833710c72748e96f8b0e1bb3b90927674d1b9a8c0e93ace28c5f5e1b6be40",
+   "sha256_16": "164833710c72748e",
+   "url": "https://www.hcahpsonline.org/globalassets/hcahps/star-ratings/tech-notes/april_2025_star-ratings_tech_notes.pdf",
+   "url_kind": "direct",
+   "vintage_token": "2025-04-30"
+  },
+  {
+   "path": "stars_census/legb_hcahps/data/archive/2025-04-30/hospitals_2025-04-30.zip",
+   "bytes": 15302069,
+   "sha256": "515977986a28c7279579ed639d2792781992e2cb1edf7100795c497c03818618",
+   "sha256_16": "515977986a28c727",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2025-04-30.zip",
+   "url_kind": "direct",
+   "vintage_token": "2025-04-30"
+  },
+  {
+   "path": "stars_census/legb_hcahps/data/archive/2025-08-14/HCAHPS-Hospital.csv",
+   "bytes": 147461998,
+   "sha256": "787148a237747b4955877a6e93b5b0659804dddb12a5798283a4c02329782bc4",
+   "sha256_16": "787148a237747b49",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2025-08-14.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "stars_census/legb_hcahps/data/archive/2025-08-14/hospitals_2025-08-14.zip",
+     "member": "HCAHPS-Hospital.csv"
+    }
+   ],
+   "vintage_token": "2025-08-14"
+  },
+  {
+   "path": "stars_census/legb_hcahps/data/archive/2025-08-14/hospitals_2025-08-14.zip",
+   "bytes": 15564973,
+   "sha256": "0e75bec0d6bc52b562114eb619e0b620f272d6883af01614f629503f010f83f3",
+   "sha256_16": "0e75bec0d6bc52b5",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2025-08-14.zip",
+   "url_kind": "direct",
+   "vintage_token": "2025-08-14"
+  },
+  {
+   "path": "stars_census/legb_hcahps/data/archive/2025-08-14/july_2025_star-ratings_tech_notes.pdf",
+   "bytes": 483601,
+   "sha256": "c9d8ad3bdb0b903bb4eca74cca7c7221fef76e72d833ee4c805622b5eaf4d7fd",
+   "sha256_16": "c9d8ad3bdb0b903b",
+   "url": "https://www.hcahpsonline.org/globalassets/hcahps/star-ratings/tech-notes/july_2025_star-ratings_tech_notes.pdf",
+   "url_kind": "direct",
+   "vintage_token": "2025-08-14"
+  },
+  {
+   "path": "stars_census/legb_hcahps/data/archive/2025-11-26/HCAHPS-Hospital.csv",
+   "bytes": 148707752,
+   "sha256": "c11338a55a9ee674566493fe8abde8748d2809163e86de100bc45aaa382d8751",
+   "sha256_16": "c11338a55a9ee674",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2025-11-26.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "stars_census/legb_hcahps/data/archive/2025-11-26/hospitals_2025-11-26.zip",
+     "member": "HCAHPS-Hospital.csv"
+    }
+   ],
+   "vintage_token": "2025-11-26"
+  },
+  {
+   "path": "stars_census/legb_hcahps/data/archive/2025-11-26/hospitals_2025-11-26.zip",
+   "bytes": 15810924,
+   "sha256": "f3d447ccb50d2ba189c19bbb0d84f72031452bb36ca03b51df9e0d8924b52e72",
+   "sha256_16": "f3d447ccb50d2ba1",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2025-11-26.zip",
+   "url_kind": "direct",
+   "vintage_token": "2025-11-26"
+  },
+  {
+   "path": "stars_census/legb_hcahps/data/archive/2025-11-26/october_2025_star-ratings_tech_notes.pdf",
+   "bytes": 510200,
+   "sha256": "976d7fe83b0c241fb114e799690abde9a4d345eab38b02c927122d3e5e6c1628",
+   "sha256_16": "976d7fe83b0c241f",
+   "url": "https://www.hcahpsonline.org/globalassets/hcahps/star-ratings/tech-notes/october_2025_star-ratings_tech_notes.pdf",
+   "url_kind": "direct",
+   "vintage_token": "2025-11-26"
+  },
+  {
+   "path": "stars_census/legb_hcahps/data/archive/2026-02-25/HCAHPS-Hospital.csv",
+   "bytes": 105412473,
+   "sha256": "2a3650e059d42ed1bc4b1091beba6c6fe812d53d059010b59cdd847d251902d5",
+   "sha256_16": "2a3650e059d42ed1",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2026-02-25.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "stars_census/legb_hcahps/data/archive/2026-02-25/hospitals_2026-02-25.zip",
+     "member": "HCAHPS-Hospital.csv"
+    }
+   ],
+   "vintage_token": "2026-02-25"
+  },
+  {
+   "path": "stars_census/legb_hcahps/data/archive/2026-02-25/hospitals_2026-02-25.zip",
+   "bytes": 13806586,
+   "sha256": "0e8e9e1f64872d01102a9cb29223ab0c32eab87a42533b4486627e0ccb45c877",
+   "sha256_16": "0e8e9e1f64872d01",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2026-02-25.zip",
+   "url_kind": "direct",
+   "vintage_token": "2026-02-25"
+  },
+  {
+   "path": "stars_census/legb_hcahps/data/archive/2026-02-25/january_2026_star-ratings_tech-notesv2.pdf",
+   "bytes": 610711,
+   "sha256": "f46d03f269bf03e9e1fa0b1e04911eda713043577a75769632e9184aeceb6a31",
+   "sha256_16": "f46d03f269bf03e9",
+   "url": "https://www.hcahpsonline.org/globalassets/hcahps/star-ratings/tech-notes/january_2026_star-ratings_tech-notesv2.pdf",
+   "url_kind": "direct",
+   "vintage_token": "2026-02-25"
+  },
+  {
+   "path": "stars_census/legc_hhcahps/data/HHCAHPS_MeasureDateRange_Jul2026.csv",
+   "bytes": 579,
+   "sha256": "9456a7ce2617459b7471afcb5d43e4363737d3445aae91a4c1cf2c75d23482ea",
+   "sha256_16": "9456a7ce2617459b",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/resources/68d2d487ea8db1c3a456aef04a7db503_1782764089/HHCAHPS_MeasureDateRange_Jul2026.csv",
+   "url_kind": "direct",
+   "vintage_token": "Jul2026"
+  },
+  {
+   "path": "stars_census/legc_hhcahps/data/HHCAHPS_National_Jul2026.csv",
+   "bytes": 624,
+   "sha256": "781fab1dc84f7e7dfb5a9c0246026a0593e03ec66f291635e58469fc135147cd",
+   "sha256_16": "781fab1dc84f7e7d",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/resources/c72590ff6d3ffa1b972995d8f06dca25_1782764088/HHCAHPS_National_Jul2026.csv",
+   "url_kind": "direct",
+   "vintage_token": "Jul2026"
+  },
+  {
+   "path": "stars_census/legc_hhcahps/data/HHCAHPS_Provider_Jul2026.csv",
+   "bytes": 1754438,
+   "sha256": "d4660c7f3cbf432193c0f41f5911346e4e4b78c1cd77744dcf4d2353c1ab5d8c",
+   "sha256_16": "d4660c7f3cbf4321",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/resources/706e7ad48548f6f3893109f403dd9fd8_1782764088/HHCAHPS_Provider_Jul2026.csv",
+   "url_kind": "direct",
+   "vintage_token": "Jul2026"
+  },
+  {
+   "path": "stars_census/legc_hospice/data/Provider_CAHPS_Hospice_Survey_Data_Feb2026.csv",
+   "bytes": 38480234,
+   "sha256": "e31c5f89cee79880461631353bcdc45ef50087fc9b3b8585f90178a70cef28c6",
+   "sha256_16": "e31c5f89cee79880",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospice-care/hospice-care_2026-02-18.zip",
+   "url_kind": "container-zip",
+   "extracted_from": [
+    {
+     "zip": "stars_census/legc_hospice/data/hospice-care_2026-02-18.zip",
+     "member": "Provider_CAHPS_Hospice_Survey_Data_Feb2026.csv"
+    }
+   ],
+   "vintage_token": "Feb2026"
+  },
+  {
+   "path": "stars_census/legc_hospice/data/Provider_CAHPS_Hospice_Survey_Data_May2026.csv",
+   "bytes": 33526261,
+   "sha256": "ef5f6d8575c7da41a12ea0049c2e14208fe783cc08405e3cf32500d018332b2b",
+   "sha256_16": "ef5f6d8575c7da41",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/resources/bbf8607529216a6cf0a54c0ba08001c0_1777658741/Provider_CAHPS_Hospice_Survey_Data_May2026.csv",
+   "url_kind": "direct",
+   "vintage_token": "May2026"
+  },
+  {
+   "path": "stars_census/legc_hospice/data/hospice-care_2026-02-18.zip",
+   "bytes": 6602629,
+   "sha256": "b85f342f51fb1ef4a8249b45e5baa14c2d25803ec13eec892d402347c86b6a79",
+   "sha256_16": "b85f342f51fb1ef4",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospice-care/hospice-care_2026-02-18.zip",
+   "url_kind": "direct",
+   "vintage_token": "2026-02-18"
+  },
+  {
+   "path": "stars_census/legc_ich/data/ICH_CAHPS_FACILITY.csv",
+   "bytes": 1716061,
+   "sha256": "cf67c06cb36cfe1517afe513a70aae93794652b78d0513af141330586009f804",
+   "sha256_16": "cf67c06cb36cfe15",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/resources/af4027a6449e63899d56ecec0c718998_1781625943/ICH_CAHPS_FACILITY.csv",
+   "url_kind": "direct",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "stars_census/receipts/dialysis/DFC_FACILITY.csv",
+   "bytes": 7263788,
+   "sha256": "02a7155f9797fe3194f220e765eb8ac511cbc1402e286c3e235a3157ba7cee5f",
+   "sha256_16": "02a7155f9797fe31",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/resources/c04d84bc5c641284494bee4f20f17f9c_1781625941/DFC_FACILITY.csv",
+   "url_kind": "direct",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "stars_census/receipts/dialysis/Dialysis_Facility_Star_Rating_Technical_Notes_FINAL.pdf",
+   "bytes": 705853,
+   "sha256": "40ab03f3b87fe51cbf05bcca66cb03181232b6d35522a612a8ead724bd965eb6",
+   "sha256_16": "40ab03f3b87fe51c",
+   "url": "https://dialysisdata.org/sites/default/files/content/Methodology/Dialysis%20Facility%20Star%20Rating%20Technical%20Notes%20-%20FINAL.pdf",
+   "url_kind": "direct",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "stars_census/receipts/dialysis/Star_Rating_Measure_Scoring_Tables_and_Instructions_July2026.pdf",
+   "bytes": 500516,
+   "sha256": "bb7214f5a6ac1609f9143da194ec3529eda76ec00b7ff1dc29133ded1bf903ca",
+   "sha256_16": "bb7214f5a6ac1609",
+   "url": "https://dialysisdata.org/sites/default/files/content/Methodology/Star_Rating_Measure_Scoring_Tables_and_Instructions_July%202026.pdf",
+   "url_kind": "direct",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "stars_census/receipts/hcahps/july_2026_star-ratings_tech-notes.pdf",
+   "bytes": 843846,
+   "sha256": "ca8939a13aa39d6ce04663e60b564d7ad66fa1eb6debe8f1e94d1b75df48d482",
+   "sha256_16": "ca8939a13aa39d6c",
+   "url": "https://hcahpsonline.org/globalassets/hcahps/star-ratings/tech-notes/july_2026_star-ratings_tech-notes.pdf",
+   "url_kind": "direct",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "stars_census/receipts/hh-qopc/HH_Provider_Jul2026.csv",
+   "bytes": 12768949,
+   "sha256": "b8532b139af24d6ade7873c38e778c0ca7b3dec097d55ca600e379d7c7b3eef9",
+   "sha256_16": "b8532b139af24d6a",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/resources/0260f790d69086d7330c10bcd51b9c3c_1782764087/HH_Provider_Jul2026.csv",
+   "url_kind": "direct",
+   "vintage_token": "Jul2026"
+  },
+  {
+   "path": "stars_census/receipts/hh-qopc/quality-patient-care-star-ratings-faqs-july-2024.pdf",
+   "bytes": 300593,
+   "sha256": "490da9926ab6ac98f34f91679fd11d782e43b5e6893d36a14e0632e7e822d2d5",
+   "sha256_16": "490da9926ab6ac98",
+   "url": "https://www.cms.gov/files/document/quality-patient-care-star-ratings-faqs-july-2024.pdf",
+   "url_kind": "direct",
+   "vintage_token": "july-2024"
+  },
+  {
+   "path": "stars_census/receipts/hh-qopc/quality-patient-care-star-ratings-methodology-july-2024.pdf",
+   "bytes": 281646,
+   "sha256": "f908100ad87bc34fa4542b0be0e99d60758be8f45f19c36fc8a7417f1f4116f6",
+   "sha256_16": "f908100ad87bc34f",
+   "url": "https://www.cms.gov/files/document/quality-patient-care-star-ratings-methodologyjuly-2024.pdf",
+   "url_kind": "direct",
+   "vintage_token": "july-2024"
+  },
+  {
+   "path": "stars_census/receipts/hhcahps/Calculating_PR_Measures.pdf",
+   "bytes": 392644,
+   "sha256": "bc04e171a4180219c908f7da9d32be7c4a5062df6ca1a27a0a04ede7d5f3308d",
+   "sha256_16": "bc04e171a4180219",
+   "url": "https://homehealthcahps.org/LinkClick.aspx?fileticket=u-aVI-v38Z4%3d&tabid=299&portalid=0",
+   "url_kind": "direct",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "stars_census/receipts/hhcahps/HHCAHPS_Provider_Jul2026.csv",
+   "bytes": 1754438,
+   "sha256": "d4660c7f3cbf432193c0f41f5911346e4e4b78c1cd77744dcf4d2353c1ab5d8c",
+   "sha256_16": "d4660c7f3cbf4321",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/resources/706e7ad48548f6f3893109f403dd9fd8_1782764088/HHCAHPS_Provider_Jul2026.csv",
+   "url_kind": "direct",
+   "vintage_token": "Jul2026"
+  },
+  {
+   "path": "stars_census/receipts/hhcahps/HHCAHPS_Stars_FAQs_5_7_15.pdf",
+   "bytes": 151551,
+   "sha256": "72fe00a1698be6f6d64f7ff4eed82f54b1b22d581d0d849dbb25815b516b017e",
+   "sha256_16": "72fe00a1698be6f6",
+   "url": "https://homehealthcahps.org/Portals/0/HHCAHPS_Stars_FAQs_5_7_15.pdf",
+   "url_kind": "direct",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "stars_census/receipts/hhcahps/HHCAHPS_Stars_Tech_Notes.pdf",
+   "bytes": 323049,
+   "sha256": "142c3e11d797dbe4a1aba41e68f298ed6109cea95f06f5d4c7e54a407c073f59",
+   "sha256_16": "142c3e11d797dbe4",
+   "url": "https://homehealthcahps.org/Portals/0/HHCAHPS_Stars_Tech_Notes.pdf",
+   "url_kind": "direct",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "stars_census/receipts/hospice-cahps/Provider_CAHPS_Hospice_Survey_Data_May2026.csv",
+   "bytes": 33526261,
+   "sha256": "ef5f6d8575c7da41a12ea0049c2e14208fe783cc08405e3cf32500d018332b2b",
+   "sha256_16": "ef5f6d8575c7da41",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/resources/bbf8607529216a6cf0a54c0ba08001c0_1777658741/Provider_CAHPS_Hospice_Survey_Data_May2026.csv",
+   "url_kind": "direct",
+   "vintage_token": "May2026"
+  },
+  {
+   "path": "stars_census/receipts/hospice-cahps/cahps-hospice-star-ratings-technical-notes-august-november-2026-final.pdf",
+   "bytes": 360650,
+   "sha256": "448e67fb9b757071b81d572d61e66973b5537f758ee655be5d789cf277e26b6d",
+   "sha256_16": "448e67fb9b757071",
+   "url": "https://www.hospicecahpssurvey.org/globalassets/hospice-cahps4/public-reporting/star-ratings/cahps-hospice-star-ratings-technical-notes-august-november-2026-final.pdf",
+   "url_kind": "direct",
+   "vintage_token": "november-2026"
+  },
+  {
+   "path": "stars_census/receipts/hospice-cahps/cahps-hospice-survey-star-rating-distribution-august-november-2026-reporting-periods-final.pdf",
+   "bytes": 199869,
+   "sha256": "a0033f5bf213ef0826d904935d60588e40ecb4c7c7e7c11bffa5f76298dbc940",
+   "sha256_16": "a0033f5bf213ef08",
+   "url": "https://www.hospicecahpssurvey.org/globalassets/hospice-cahps4/public-reporting/star-ratings/cahps-hospice-survey-star-rating-distribution-august-november-2026-reporting-periods-final.pdf",
+   "url_kind": "direct",
+   "vintage_token": "november-2026"
+  },
+  {
+   "path": "stars_census/receipts/ich-cahps/ICHCAHPS_PublicRptCoeffOct2024.pdf",
+   "bytes": 410714,
+   "sha256": "3b9e28f7aaf9ccb8b8278fe195d1c387d46f65a84fc71b18fde2ef79d3967901",
+   "sha256_16": "3b9e28f7aaf9ccb8",
+   "url": "https://ichcahps.org/Portals/0/PublicReporting/ICHCAHPS_PublicRptCoeffOct2024.pdf",
+   "url_kind": "direct",
+   "vintage_token": "Oct2024"
+  },
+  {
+   "path": "stars_census/receipts/ich-cahps/ICHCAHPS_PublicRptCoeff_Apr2026.docx",
+   "bytes": 90626,
+   "sha256": "516a8ce736b4284b72cc96ae23f20b1b31863bc259ab9e1549fd85563c8ef5fc",
+   "sha256_16": "516a8ce736b4284b",
+   "url": "https://ichcahps.org/Portals/0/PublicReporting/ICHCAHPS_PublicRptCoeff_Apr2026.docx",
+   "url_kind": "direct",
+   "vintage_token": "Apr2026"
+  },
+  {
+   "path": "stars_census/receipts/ich-cahps/ICHCAHPS_Star_Ratings_Methodology_Report_Apr2022.docx",
+   "bytes": 53022,
+   "sha256": "4fa2c7e9b30c5a21e95c23e8b8d47055dc43168bfc20cdd54b2f3a54981129c4",
+   "sha256_16": "4fa2c7e9b30c5a21",
+   "url": "https://ichcahps.org/Portals/0/PublicReporting/ICHCAHPS_Star_Ratings_Methodology_Report_Apr2022.docx",
+   "url_kind": "direct",
+   "vintage_token": "Apr2022"
+  },
+  {
+   "path": "stars_census/receipts/ich-cahps/ICH_CAHPS_FACILITY.csv",
+   "bytes": 1716061,
+   "sha256": "cf67c06cb36cfe1517afe513a70aae93794652b78d0513af141330586009f804",
+   "sha256_16": "cf67c06cb36cfe15",
+   "url": "https://data.cms.gov/provider-data/sites/default/files/resources/af4027a6449e63899d56ecec0c718998_1781625943/ICH_CAHPS_FACILITY.csv",
+   "url_kind": "direct",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "stars_census/receipts/nursing-home/five-star-state-level-cut-point-tables-july-2026.pdf",
+   "bytes": 326748,
+   "sha256": "a7b66876838603c3cb883893af1285249c211fa79fa507ce1535514438e3493a",
+   "sha256_16": "a7b66876838603c3",
+   "url": "https://www.cms.gov/files/document/five-star-state-level-cut-point-tables-july-2026.pdf",
+   "url_kind": "direct",
+   "vintage_token": "july-2026"
+  },
+  {
+   "path": "stars_census/receipts/nursing-home/usersguide.pdf",
+   "bytes": 1031550,
+   "sha256": "a525c31f8948c65f30bdbcca423df02ca4a5fce652280873609e5b16ed17ffbd",
+   "sha256_16": "a525c31f8948c65f",
+   "url": "https://www.cms.gov/medicare/provider-enrollment-and-certification/certificationandcomplianc/downloads/usersguide.pdf",
+   "url_kind": "direct",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "stars_census/receipts/qrs/qrs-and-qhp-enrollee-experience-survey-technical-guidance-2026.pdf",
+   "bytes": 2510538,
+   "sha256": "97c2b448e9d408b3be6ca103b8a01e49bd07b4d57f9ec912bb0cf5dc14f666af",
+   "sha256_16": "97c2b448e9d408b3",
+   "url": "https://www.cms.gov/files/document/qrs-and-qhp-enrollee-experience-survey-technical-guidance-2026.pdf",
+   "url_kind": "direct",
+   "vintage_token": "2026"
+  },
+  {
+   "path": "stars_census/receipts/sweep/dc_star_ratings_cy2023_factsheet.pdf",
+   "bytes": 558969,
+   "sha256": "942b3ce87cbf81fcfe915794a67cd8698db9d83e5d01d4f93fed4aa5bf181d12",
+   "sha256_16": "942b3ce87cbf81fc",
+   "url": "https://www.cms.gov/files/document/2023-doctors-clinicians-star-ratings-fact-sheet-546-kb.pdf",
+   "url_kind": "direct",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "stars_census/receipts/sweep/macqrs_my2026_tech_res_manual.pdf",
+   "bytes": 283110,
+   "sha256": "72adc454c62f003404a4ce34bee8a58c3fa8e795e2dbfabf9dd74bb5ec1275f8",
+   "sha256_16": "72adc454c62f0034",
+   "url": "https://www.medicaid.gov/medicaid/quality-of-care/downloads/my2026-tech-res-manual.pdf",
+   "url_kind": "direct",
+   "vintage_token": "UNKNOWN"
+  },
+  {
+   "path": "stars_census/receipts/sweep/ncap_fr_2008_final_notice.pdf",
+   "bytes": 1119339,
+   "sha256": "708beec445e66bb1226b515754a697f67596f1fde41ef7300fe12fd1c233dee6",
+   "sha256_16": "708beec445e66bb1",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2008-07-11/pdf/E8-15620.pdf",
+   "url_kind": "direct",
+   "vintage_token": "UNKNOWN"
+  }
+ ]
+}

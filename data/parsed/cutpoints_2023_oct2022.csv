@@ -1,0 +1,261 @@
+part,org_type,measure_id,measure_name,star_level,cell_raw,lo,lo_incl,hi,hi_incl
+C,,C01,Breast Cancer Screening,1,< 43 % ,,,43,0
+C,,C02,Colorectal Cancer Screening,1,< 43 % ,,,43,0
+C,,C03,Annual Flu Vaccine,1,< 64 ,,,64,0
+C,,C04,Monitoring Physical Activity,1,< 44 % ,,,44,0
+C,,C05,Special Needs Plan (SNP) Care Management,1,< 46 % ,,,46,0
+C,,C06,Care for Older Adults – Medication Review,1,< 43 % ,,,43,0
+C,,C07,Care for Older Adults – Pain Assessment,1,< 50 % ,,,50,0
+C,,C08,Osteoporosis Management in Women who had a Fracture,1,< 32 % ,,,32,0
+C,,C09,Diabetes Care – Eye Exam,1,< 47 % ,,,47,0
+C,,C10,Diabetes Care – Kidney Disease Monitoring,1,< 80 % ,,,80,0
+C,,C11,Diabetes Care – Blood Sugar Controlled,1,< 39 % ,,,39,0
+C,,C12,Controlling Blood Pressure,1,< 48 % ,,,48,0
+C,,C13,Reducing the Risk of Falling,1,< 46 % ,,,46,0
+C,,C14,Improving Bladder Control,1,< 39 % ,,,39,0
+C,,C15,Medication Reconciliation Post-Discharge,1,< 43 % ,,,43,0
+C,,C16,Statin Therapy for Patients with Cardiovascular Disease,1,< 75 % ,,,75,0
+C,,C17,Getting Needed Care,1,< 78 ,,,78,0
+C,,C18,Getting Appointments and Care Quickly,1,< 73 ,,,73,0
+C,,C19,Customer Service,1,< 88 ,,,88,0
+C,,C20,Rating of Health Care Quality,1,< 84 ,,,84,0
+C,,C21,Rating of Health Plan,1,< 84 ,,,84,0
+C,,C22,Care Coordination,1,< 83 ,,,83,0
+C,,C23,Complaints about the Health Plan,1,> 1.53 ,1.53,0,,
+C,,C24,Members Choosing to Leave the Plan,1,> 39 % ,39,0,,
+C,,C25,Health Plan Quality Improvement,1,< -0.298771 ,,,-0.298771,0
+C,,C26,Plan Makes Timely Decisions about Appeals,1,< 59 % ,,,59,0
+C,,C27,Reviewing Appeals Decisions,1,< 68 % ,,,68,0
+C,,C28,Call Center – Foreign Language Interpreter and TTY Availability,1,< 36 %,,,36,0
+C,,C01,Breast Cancer Screening,2,>= 43 % to < 62 % ,43,1,62,0
+C,,C02,Colorectal Cancer Screening,2,>= 43 % to < 60 % ,43,1,60,0
+C,,C03,Annual Flu Vaccine,2,>= 64 to < 69 ,64,1,69,0
+C,,C04,Monitoring Physical Activity,2,>= 44 % to < 49 % ,44,1,49,0
+C,,C05,Special Needs Plan (SNP) Care Management,2,>= 46 % to < 62 % ,46,1,62,0
+C,,C06,Care for Older Adults – Medication Review,2,>= 43 % to < 70 % ,43,1,70,0
+C,,C07,Care for Older Adults – Pain Assessment,2,>= 50 % to < 71 % ,50,1,71,0
+C,,C08,Osteoporosis Management in Women who had a Fracture,2,>= 32 % to < 45 % ,32,1,45,0
+C,,C09,Diabetes Care – Eye Exam,2,>= 47 % to < 61 % ,47,1,61,0
+C,,C10,Diabetes Care – Kidney Disease Monitoring,2,>= 80 % to < 93 % ,80,1,93,0
+C,,C11,Diabetes Care – Blood Sugar Controlled,2,>= 39 % to < 62 % ,39,1,62,0
+C,,C12,Controlling Blood Pressure,2,>= 48 % to < 63 % ,48,1,63,0
+C,,C13,Reducing the Risk of Falling,2,>= 46 % to < 53 % ,46,1,53,0
+C,,C14,Improving Bladder Control,2,>= 39 % to < 43 % ,39,1,43,0
+C,,C15,Medication Reconciliation Post-Discharge,2,>= 43 % to < 57 % ,43,1,57,0
+C,,C16,Statin Therapy for Patients with Cardiovascular Disease,2,>= 75 % to < 81 % ,75,1,81,0
+C,,C17,Getting Needed Care,2,>= 78 to < 80 ,78,1,80,0
+C,,C18,Getting Appointments and Care Quickly,2,>= 73 to < 76 ,73,1,76,0
+C,,C19,Customer Service,2,>= 88 to < 89 ,88,1,89,0
+C,,C20,Rating of Health Care Quality,2,>= 84 to < 85 ,84,1,85,0
+C,,C21,Rating of Health Plan,2,>= 84 to < 85 ,84,1,85,0
+C,,C22,Care Coordination,2,>= 83 to < 85 ,83,1,85,0
+C,,C23,Complaints about the Health Plan,2,> 0.89 to <= 1.53 ,0.89,0,1.53,1
+C,,C24,Members Choosing to Leave the Plan,2,> 24 % to <= 39 % ,24,0,39,1
+C,,C25,Health Plan Quality Improvement,2,>= -0.298771 to < 0 ,-0.298771,1,0,0
+C,,C26,Plan Makes Timely Decisions about Appeals,2,>= 59 % to < 75 % ,59,1,75,0
+C,,C27,Reviewing Appeals Decisions,2,>= 68 % to < 83 % ,68,1,83,0
+C,,C28,Call Center – Foreign Language Interpreter and TTY Availability,2,>= 36 % to < 59 %,36,1,59,0
+C,,C01,Breast Cancer Screening,3,>= 62 % to < 70 % ,62,1,70,0
+C,,C02,Colorectal Cancer Screening,3,>= 60 % to < 71 % ,60,1,71,0
+C,,C03,Annual Flu Vaccine,3,>= 69 to < 75 ,69,1,75,0
+C,,C04,Monitoring Physical Activity,3,>= 49 % to < 53 % ,49,1,53,0
+C,,C05,Special Needs Plan (SNP) Care Management,3,>= 62 % to < 75 % ,62,1,75,0
+C,,C06,Care for Older Adults – Medication Review,3,>= 70 % to < 82 % ,70,1,82,0
+C,,C07,Care for Older Adults – Pain Assessment,3,>= 71 % to < 85 % ,71,1,85,0
+C,,C08,Osteoporosis Management in Women who had a Fracture,3,>= 45 % to < 55 % ,45,1,55,0
+C,,C09,Diabetes Care – Eye Exam,3,>= 61 % to < 71 % ,61,1,71,0
+C,,C10,Diabetes Care – Kidney Disease Monitoring,3,>= 93 % to < 95 % ,93,1,95,0
+C,,C11,Diabetes Care – Blood Sugar Controlled,3,>= 62 % to < 75 % ,62,1,75,0
+C,,C12,Controlling Blood Pressure,3,>= 63 % to < 73 % ,63,1,73,0
+C,,C13,Reducing the Risk of Falling,3,>= 53 % to < 60 % ,53,1,60,0
+C,,C14,Improving Bladder Control,3,>= 43 % to < 48 % ,43,1,48,0
+C,,C15,Medication Reconciliation Post-Discharge,3,>= 57 % to < 69 % ,57,1,69,0
+C,,C16,Statin Therapy for Patients with Cardiovascular Disease,3,>= 81 % to < 85 % ,81,1,85,0
+C,,C17,Getting Needed Care,3,>= 80 to < 82 ,80,1,82,0
+C,,C18,Getting Appointments and Care Quickly,3,>= 76 to < 78 ,76,1,78,0
+C,,C19,Customer Service,3,>= 89 to < 91 ,89,1,91,0
+C,,C20,Rating of Health Care Quality,3,>= 85 to < 87 ,85,1,87,0
+C,,C21,Rating of Health Plan,3,>= 85 to < 88 ,85,1,88,0
+C,,C22,Care Coordination,3,>= 85 to < 86 ,85,1,86,0
+C,,C23,Complaints about the Health Plan,3,> 0.5 to <= 0.89 ,0.5,0,0.89,1
+C,,C24,Members Choosing to Leave the Plan,3,> 15 % to <= 24 % ,15,0,24,1
+C,,C25,Health Plan Quality Improvement,3,>= 0 to < 0.101745 ,0,1,0.101745,0
+C,,C26,Plan Makes Timely Decisions about Appeals,3,>= 75 % to < 85 % ,75,1,85,0
+C,,C27,Reviewing Appeals Decisions,3,>= 83 % to < 91 % ,83,1,91,0
+C,,C28,Call Center – Foreign Language Interpreter and TTY Availability,3,>= 59 % to < 83 %,59,1,83,0
+C,,C01,Breast Cancer Screening,4,>= 70 % to < 77 % ,70,1,77,0
+C,,C02,Colorectal Cancer Screening,4,>= 71 % to < 79 % ,71,1,79,0
+C,,C03,Annual Flu Vaccine,4,>= 75 to < 79 ,75,1,79,0
+C,,C04,Monitoring Physical Activity,4,>= 53 % to < 57 % ,53,1,57,0
+C,,C05,Special Needs Plan (SNP) Care Management,4,>= 75 % to < 85 % ,75,1,85,0
+C,,C06,Care for Older Adults – Medication Review,4,>= 82 % to < 93 % ,82,1,93,0
+C,,C07,Care for Older Adults – Pain Assessment,4,>= 85 % to < 94 % ,85,1,94,0
+C,,C08,Osteoporosis Management in Women who had a Fracture,4,>= 55 % to < 73 % ,55,1,73,0
+C,,C09,Diabetes Care – Eye Exam,4,>= 71 % to < 79 % ,71,1,79,0
+C,,C10,Diabetes Care – Kidney Disease Monitoring,4,>= 95 % to < 97 % ,95,1,97,0
+C,,C11,Diabetes Care – Blood Sugar Controlled,4,>= 75 % to < 83 % ,75,1,83,0
+C,,C12,Controlling Blood Pressure,4,>= 73 % to < 80 % ,73,1,80,0
+C,,C13,Reducing the Risk of Falling,4,>= 60 % to < 69 % ,60,1,69,0
+C,,C14,Improving Bladder Control,4,>= 48 % to < 53 % ,48,1,53,0
+C,,C15,Medication Reconciliation Post-Discharge,4,>= 69 % to < 82 % ,69,1,82,0
+C,,C16,Statin Therapy for Patients with Cardiovascular Disease,4,>= 85 % to < 89 % ,85,1,89,0
+C,,C17,Getting Needed Care,4,>= 82 to < 84 ,82,1,84,0
+C,,C18,Getting Appointments and Care Quickly,4,>= 78 to < 80 ,78,1,80,0
+C,,C19,Customer Service,4,>= 91 to < 92 ,91,1,92,0
+C,,C20,Rating of Health Care Quality,4,>= 87 to < 88 ,87,1,88,0
+C,,C21,Rating of Health Plan,4,>= 88 to < 89 ,88,1,89,0
+C,,C22,Care Coordination,4,>= 86 to < 87 ,86,1,87,0
+C,,C23,Complaints about the Health Plan,4,> 0.19 to <= 0.5 ,0.19,0,0.5,1
+C,,C24,Members Choosing to Leave the Plan,4,> 7 % to <= 15 % ,7,0,15,1
+C,,C25,Health Plan Quality Improvement,4,>= 0.101745 to < 0.328141 ,0.101745,1,0.328141,0
+C,,C26,Plan Makes Timely Decisions about Appeals,4,>= 85 % to < 97 % ,85,1,97,0
+C,,C27,Reviewing Appeals Decisions,4,>= 91 % to < 97 % ,91,1,97,0
+C,,C28,Call Center – Foreign Language Interpreter and TTY Availability,4,>= 83 % to < 94 %,83,1,94,0
+C,,C01,Breast Cancer Screening,5,>= 77 % ,77,1,,
+C,,C02,Colorectal Cancer Screening,5,>= 79 % ,79,1,,
+C,,C03,Annual Flu Vaccine,5,>= 79 ,79,1,,
+C,,C04,Monitoring Physical Activity,5,>= 57 % ,57,1,,
+C,,C05,Special Needs Plan (SNP) Care Management,5,>= 85 % ,85,1,,
+C,,C06,Care for Older Adults – Medication Review,5,>= 93 % ,93,1,,
+C,,C07,Care for Older Adults – Pain Assessment,5,>= 94 % ,94,1,,
+C,,C08,Osteoporosis Management in Women who had a Fracture,5,>= 73 % ,73,1,,
+C,,C09,Diabetes Care – Eye Exam,5,>= 79 % ,79,1,,
+C,,C10,Diabetes Care – Kidney Disease Monitoring,5,>= 97 % ,97,1,,
+C,,C11,Diabetes Care – Blood Sugar Controlled,5,>= 83 % ,83,1,,
+C,,C12,Controlling Blood Pressure,5,>= 80 % ,80,1,,
+C,,C13,Reducing the Risk of Falling,5,>= 69 % ,69,1,,
+C,,C14,Improving Bladder Control,5,>= 53 % ,53,1,,
+C,,C15,Medication Reconciliation Post-Discharge,5,>= 82 % ,82,1,,
+C,,C16,Statin Therapy for Patients with Cardiovascular Disease,5,>= 89 % ,89,1,,
+C,,C17,Getting Needed Care,5,>= 84 ,84,1,,
+C,,C18,Getting Appointments and Care Quickly,5,>= 80 ,80,1,,
+C,,C19,Customer Service,5,>= 92 ,92,1,,
+C,,C20,Rating of Health Care Quality,5,>= 88 ,88,1,,
+C,,C21,Rating of Health Plan,5,>= 89 ,89,1,,
+C,,C22,Care Coordination,5,>= 87 ,87,1,,
+C,,C23,Complaints about the Health Plan,5,<= 0.19 ,,,0.19,1
+C,,C24,Members Choosing to Leave the Plan,5,<= 7 % ,,,7,1
+C,,C25,Health Plan Quality Improvement,5,>= 0.328141 ,0.328141,1,,
+C,,C26,Plan Makes Timely Decisions about Appeals,5,>= 97 % ,97,1,,
+C,,C27,Reviewing Appeals Decisions,5,>= 97 % ,97,1,,
+C,,C28,Call Center – Foreign Language Interpreter and TTY Availability,5,>= 94 %,94,1,,
+D,MA-PD,D01,Call Center – Foreign Language Interpreter and TTY Availability,1,< 30 % ,,,30,0
+D,MA-PD,D02,Complaints about the Drug Plan,1,> 1.53 ,1.53,0,,
+D,MA-PD,D03,Members Choosing to Leave the Plan,1,> 39 % ,39,0,,
+D,MA-PD,D04,Drug Plan Quality Improvement,1,< -0.325131 ,,,-0.325131,0
+D,MA-PD,D05,Rating of Drug Plan,1,< 83 ,,,83,0
+D,MA-PD,D06,Getting Needed Prescription Drugs,1,< 88 ,,,88,0
+D,MA-PD,D07,MPF Price Accuracy,1,< 72 ,,,72,0
+D,MA-PD,D08,Medication Adherence for Diabetes Medications,1,< 79 % ,,,79,0
+D,MA-PD,D09,Medication Adherence for Hypertension (RAS antagonists),1,< 78 % ,,,78,0
+D,MA-PD,D10,Medication Adherence for Cholesterol (Statins),1,< 81 % ,,,81,0
+D,MA-PD,D11,MTM Program Completion Rate for CMR,1,< 47 % ,,,47,0
+D,MA-PD,D12,Statin Use in Persons with Diabetes (SUPD),1,< 80 %,,,80,0
+D,MA-PD,D01,Call Center – Foreign Language Interpreter and TTY Availability,2,>= 30 % to < 64 % ,30,1,64,0
+D,MA-PD,D02,Complaints about the Drug Plan,2,> 0.89 to <= 1.53 ,0.89,0,1.53,1
+D,MA-PD,D03,Members Choosing to Leave the Plan,2,> 24 % to <= 39 % ,24,0,39,1
+D,MA-PD,D04,Drug Plan Quality Improvement,2,>= -0.325131 to < 0 ,-0.325131,1,0,0
+D,MA-PD,D05,Rating of Drug Plan,2,>= 83 to < 85 ,83,1,85,0
+D,MA-PD,D06,Getting Needed Prescription Drugs,2,>= 88 to < 89 ,88,1,89,0
+D,MA-PD,D07,MPF Price Accuracy,2,>= 72 to < 86 ,72,1,86,0
+D,MA-PD,D08,Medication Adherence for Diabetes Medications,2,>= 79 % to < 85 % ,79,1,85,0
+D,MA-PD,D09,Medication Adherence for Hypertension (RAS antagonists),2,>= 78 % to < 86 % ,78,1,86,0
+D,MA-PD,D10,Medication Adherence for Cholesterol (Statins),2,>= 81 % to < 85 % ,81,1,85,0
+D,MA-PD,D11,MTM Program Completion Rate for CMR,2,>= 47 % to < 67 % ,47,1,67,0
+D,MA-PD,D12,Statin Use in Persons with Diabetes (SUPD),2,>= 80 % to < 84 %,80,1,84,0
+D,MA-PD,D01,Call Center – Foreign Language Interpreter and TTY Availability,3,>= 64 % to < 80 % ,64,1,80,0
+D,MA-PD,D02,Complaints about the Drug Plan,3,> 0.5 to <= 0.89 ,0.5,0,0.89,1
+D,MA-PD,D03,Members Choosing to Leave the Plan,3,> 15 % to <= 24 % ,15,0,24,1
+D,MA-PD,D04,Drug Plan Quality Improvement,3,>= 0 to < 0.159307 ,0,1,0.159307,0
+D,MA-PD,D05,Rating of Drug Plan,3,>= 85 to < 87 ,85,1,87,0
+D,MA-PD,D06,Getting Needed Prescription Drugs,3,>= 89 to < 91 ,89,1,91,0
+D,MA-PD,D07,MPF Price Accuracy,3,>= 86 to < 93 ,86,1,93,0
+D,MA-PD,D08,Medication Adherence for Diabetes Medications,3,>= 85 % to < 88 % ,85,1,88,0
+D,MA-PD,D09,Medication Adherence for Hypertension (RAS antagonists),3,>= 86 % to < 89 % ,86,1,89,0
+D,MA-PD,D10,Medication Adherence for Cholesterol (Statins),3,>= 85 % to < 88 % ,85,1,88,0
+D,MA-PD,D11,MTM Program Completion Rate for CMR,3,>= 67 % to < 82 % ,67,1,82,0
+D,MA-PD,D12,Statin Use in Persons with Diabetes (SUPD),3,>= 84 % to < 86 %,84,1,86,0
+D,MA-PD,D01,Call Center – Foreign Language Interpreter and TTY Availability,4,>= 80 % to < 91 % ,80,1,91,0
+D,MA-PD,D02,Complaints about the Drug Plan,4,> 0.19 to <= 0.5 ,0.19,0,0.5,1
+D,MA-PD,D03,Members Choosing to Leave the Plan,4,> 7 % to <= 15 % ,7,0,15,1
+D,MA-PD,D04,Drug Plan Quality Improvement,4,>= 0.159307 to < 0.391045 ,0.159307,1,0.391045,0
+D,MA-PD,D05,Rating of Drug Plan,4,>= 87 to < 88 ,87,1,88,0
+D,MA-PD,D06,Getting Needed Prescription Drugs,4,>= 91 to < 92 ,91,1,92,0
+D,MA-PD,D07,MPF Price Accuracy,4,>= 93 to < 97 ,93,1,97,0
+D,MA-PD,D08,Medication Adherence for Diabetes Medications,4,>= 88 % to < 92 % ,88,1,92,0
+D,MA-PD,D09,Medication Adherence for Hypertension (RAS antagonists),4,>= 89 % to < 91 % ,89,1,91,0
+D,MA-PD,D10,Medication Adherence for Cholesterol (Statins),4,>= 88 % to < 92 % ,88,1,92,0
+D,MA-PD,D11,MTM Program Completion Rate for CMR,4,>= 82 % to < 89 % ,82,1,89,0
+D,MA-PD,D12,Statin Use in Persons with Diabetes (SUPD),4,>= 86 % to < 90 %,86,1,90,0
+D,MA-PD,D01,Call Center – Foreign Language Interpreter and TTY Availability,5,>= 91 % ,91,1,,
+D,MA-PD,D02,Complaints about the Drug Plan,5,<= 0.19 ,,,0.19,1
+D,MA-PD,D03,Members Choosing to Leave the Plan,5,<= 7 % ,,,7,1
+D,MA-PD,D04,Drug Plan Quality Improvement,5,>= 0.391045 ,0.391045,1,,
+D,MA-PD,D05,Rating of Drug Plan,5,>= 88 ,88,1,,
+D,MA-PD,D06,Getting Needed Prescription Drugs,5,>= 92 ,92,1,,
+D,MA-PD,D07,MPF Price Accuracy,5,>= 97 ,97,1,,
+D,MA-PD,D08,Medication Adherence for Diabetes Medications,5,>= 92 % ,92,1,,
+D,MA-PD,D09,Medication Adherence for Hypertension (RAS antagonists),5,>= 91 % ,91,1,,
+D,MA-PD,D10,Medication Adherence for Cholesterol (Statins),5,>= 92 % ,92,1,,
+D,MA-PD,D11,MTM Program Completion Rate for CMR,5,>= 89 % ,89,1,,
+D,MA-PD,D12,Statin Use in Persons with Diabetes (SUPD),5,>= 90 %,90,1,,
+D,PDP,D01,Call Center – Foreign Language Interpreter and TTY Availability,1,< 60 % ,,,60,0
+D,PDP,D02,Complaints about the Drug Plan,1,> 0.34 ,0.34,0,,
+D,PDP,D03,Members Choosing to Leave the Plan,1,> 23 % ,23,0,,
+D,PDP,D04,Drug Plan Quality Improvement,1,< -0.237362 ,,,-0.237362,0
+D,PDP,D05,Rating of Drug Plan,1,< 79 ,,,79,0
+D,PDP,D06,Getting Needed Prescription Drugs,1,< 87 ,,,87,0
+D,PDP,D07,MPF Price Accuracy,1,< 90 ,,,90,0
+D,PDP,D08,Medication Adherence for Diabetes Medications,1,< 84 % ,,,84,0
+D,PDP,D09,Medication Adherence for Hypertension (RAS antagonists),1,< 86 % ,,,86,0
+D,PDP,D10,Medication Adherence for Cholesterol (Statins),1,< 84 % ,,,84,0
+D,PDP,D11,MTM Program Completion Rate for CMR,1,< 34 % ,,,34,0
+D,PDP,D12,Statin Use in Persons with Diabetes (SUPD),1,< 80 %,,,80,0
+D,PDP,D01,Call Center – Foreign Language Interpreter and TTY Availability,2,>= 60 % to < 75 % ,60,1,75,0
+D,PDP,D02,Complaints about the Drug Plan,2,> 0.22 to <= 0.34 ,0.22,0,0.34,1
+D,PDP,D03,Members Choosing to Leave the Plan,2,> 16 % to <= 23 % ,16,0,23,1
+D,PDP,D04,Drug Plan Quality Improvement,2,>= -0.237362 to < 0 ,-0.237362,1,0,0
+D,PDP,D05,Rating of Drug Plan,2,>= 79 to < 80 ,79,1,80,0
+D,PDP,D06,Getting Needed Prescription Drugs,2,>= 87 to < 88 ,87,1,88,0
+D,PDP,D07,MPF Price Accuracy,2,>= 90 to < 94 ,90,1,94,0
+D,PDP,D08,Medication Adherence for Diabetes Medications,2,>= 84 % to < 86 % ,84,1,86,0
+D,PDP,D09,Medication Adherence for Hypertension (RAS antagonists),2,>= 86 % to < 89 % ,86,1,89,0
+D,PDP,D10,Medication Adherence for Cholesterol (Statins),2,>= 84 % to < 87 % ,84,1,87,0
+D,PDP,D11,MTM Program Completion Rate for CMR,2,>= 34 % to < 49 % ,34,1,49,0
+D,PDP,D12,Statin Use in Persons with Diabetes (SUPD),2,>= 80 % to < 82 %,80,1,82,0
+D,PDP,D01,Call Center – Foreign Language Interpreter and TTY Availability,3,>= 75 % to < 91 % ,75,1,91,0
+D,PDP,D02,Complaints about the Drug Plan,3,> 0.13 to <= 0.22 ,0.13,0,0.22,1
+D,PDP,D03,Members Choosing to Leave the Plan,3,> 11 % to <= 16 % ,11,0,16,1
+D,PDP,D04,Drug Plan Quality Improvement,3,>= 0 to < 0.389234 ,0,1,0.389234,0
+D,PDP,D05,Rating of Drug Plan,3,>= 80 to < 83 ,80,1,83,0
+D,PDP,D06,Getting Needed Prescription Drugs,3,>= 88 to < 90 ,88,1,90,0
+D,PDP,D07,MPF Price Accuracy,3,>= 94 to < 96 ,94,1,96,0
+D,PDP,D08,Medication Adherence for Diabetes Medications,3,>= 86 % to < 88 % ,86,1,88,0
+D,PDP,D09,Medication Adherence for Hypertension (RAS antagonists),3,>= 89 % to < 91 % ,89,1,91,0
+D,PDP,D10,Medication Adherence for Cholesterol (Statins),3,>= 87 % to < 88 % ,87,1,88,0
+D,PDP,D11,MTM Program Completion Rate for CMR,3,>= 49 % to < 62 % ,49,1,62,0
+D,PDP,D12,Statin Use in Persons with Diabetes (SUPD),3,>= 82 % to < 84 %,82,1,84,0
+D,PDP,D01,Call Center – Foreign Language Interpreter and TTY Availability,4,>= 91 % to < 97 % ,91,1,97,0
+D,PDP,D02,Complaints about the Drug Plan,4,> 0.06 to <= 0.13 ,0.06,0,0.13,1
+D,PDP,D03,Members Choosing to Leave the Plan,4,> 7 % to <= 11 % ,7,0,11,1
+D,PDP,D04,Drug Plan Quality Improvement,4,>= 0.389234 to < 0.851667 ,0.389234,1,0.851667,0
+D,PDP,D05,Rating of Drug Plan,4,>= 83 to < 87 ,83,1,87,0
+D,PDP,D06,Getting Needed Prescription Drugs,4,>= 90 to < 92 ,90,1,92,0
+D,PDP,D07,MPF Price Accuracy,4,>= 96 to < 99 ,96,1,99,0
+D,PDP,D08,Medication Adherence for Diabetes Medications,4,>= 88 % to < 90 % ,88,1,90,0
+D,PDP,D09,Medication Adherence for Hypertension (RAS antagonists),4,>= 91 % to < 96 % ,91,1,96,0
+D,PDP,D10,Medication Adherence for Cholesterol (Statins),4,>= 88 % to < 90 % ,88,1,90,0
+D,PDP,D11,MTM Program Completion Rate for CMR,4,>= 62 % to < 78 % ,62,1,78,0
+D,PDP,D12,Statin Use in Persons with Diabetes (SUPD),4,>= 84 % to < 86 %,84,1,86,0
+D,PDP,D01,Call Center – Foreign Language Interpreter and TTY Availability,5,>= 97 % ,97,1,,
+D,PDP,D02,Complaints about the Drug Plan,5,<= 0.06 ,,,0.06,1
+D,PDP,D03,Members Choosing to Leave the Plan,5,<= 7 % ,,,7,1
+D,PDP,D04,Drug Plan Quality Improvement,5,>= 0.851667 ,0.851667,1,,
+D,PDP,D05,Rating of Drug Plan,5,>= 87 ,87,1,,
+D,PDP,D06,Getting Needed Prescription Drugs,5,>= 92 ,92,1,,
+D,PDP,D07,MPF Price Accuracy,5,>= 99 ,99,1,,
+D,PDP,D08,Medication Adherence for Diabetes Medications,5,>= 90 % ,90,1,,
+D,PDP,D09,Medication Adherence for Hypertension (RAS antagonists),5,>= 96 % ,96,1,,
+D,PDP,D10,Medication Adherence for Cholesterol (Statins),5,>= 90 % ,90,1,,
+D,PDP,D11,MTM Program Completion Rate for CMR,5,>= 78 % ,78,1,,
+D,PDP,D12,Statin Use in Persons with Diabetes (SUPD),5,>= 86 %,86,1,,

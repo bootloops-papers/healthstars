@@ -1,0 +1,1297 @@
+{
+ "register": "Rider test: where a refresh's published boundary differs from its exact optimum, does the next edition's printed cut point move toward the optimal value? Movement is computed on the next edition's own newer data: covariation, not causation. The validation section cross-checks the PDF extraction against the data-derived bins on the four period-matched pairs.",
+ "validation": {
+  "2025-04-30": {
+   "H_COMP_1": {
+    "data_derived": [
+     86,
+     90,
+     92,
+     94
+    ],
+    "printed": [
+     86,
+     90,
+     92,
+     94
+    ],
+    "match": true
+   },
+   "H_COMP_2": {
+    "data_derived": [
+     86,
+     89,
+     92,
+     94
+    ],
+    "printed": [
+     86,
+     89,
+     92,
+     94
+    ],
+    "match": true
+   },
+   "H_COMP_5": {
+    "data_derived": [
+     68,
+     74,
+     78,
+     83
+    ],
+    "printed": [
+     68,
+     74,
+     78,
+     83
+    ],
+    "match": true
+   },
+   "H_COMP_6": {
+    "data_derived": [
+     78,
+     83,
+     87,
+     91
+    ],
+    "printed": [
+     78,
+     83,
+     87,
+     91
+    ],
+    "match": true
+   },
+   "H_CLEAN": {
+    "data_derived": [
+     80,
+     85,
+     88,
+     92
+    ],
+    "printed": [
+     80,
+     85,
+     88,
+     92
+    ],
+    "match": true
+   },
+   "H_QUIET": {
+    "data_derived": [
+     74,
+     80,
+     85,
+     89
+    ],
+    "printed": [
+     74,
+     80,
+     85,
+     89
+    ],
+    "match": true
+   },
+   "H_HSP_RATING": {
+    "data_derived": [
+     82,
+     86,
+     89,
+     93
+    ],
+    "printed": [
+     82,
+     86,
+     89,
+     93
+    ],
+    "match": true
+   },
+   "H_RECMND": {
+    "data_derived": [
+     77,
+     83,
+     88,
+     91
+    ],
+    "printed": [
+     77,
+     83,
+     88,
+     91
+    ],
+    "match": true
+   }
+  },
+  "2025-08-14": {
+   "H_COMP_1": {
+    "data_derived": [
+     85,
+     89,
+     92,
+     94
+    ],
+    "printed": [
+     85,
+     89,
+     92,
+     94
+    ],
+    "match": true
+   },
+   "H_COMP_2": {
+    "data_derived": [
+     86,
+     89,
+     92,
+     94
+    ],
+    "printed": [
+     86,
+     89,
+     92,
+     94
+    ],
+    "match": true
+   },
+   "H_COMP_5": {
+    "data_derived": [
+     69,
+     74,
+     79,
+     83
+    ],
+    "printed": [
+     69,
+     74,
+     79,
+     83
+    ],
+    "match": true
+   },
+   "H_COMP_6": {
+    "data_derived": [
+     79,
+     83,
+     87,
+     91
+    ],
+    "printed": [
+     79,
+     83,
+     87,
+     91
+    ],
+    "match": true
+   },
+   "H_CLEAN": {
+    "data_derived": [
+     79,
+     85,
+     88,
+     92
+    ],
+    "printed": [
+     79,
+     85,
+     88,
+     92
+    ],
+    "match": true
+   },
+   "H_QUIET": {
+    "data_derived": [
+     74,
+     81,
+     86,
+     90
+    ],
+    "printed": [
+     74,
+     81,
+     86,
+     90
+    ],
+    "match": true
+   },
+   "H_HSP_RATING": {
+    "data_derived": [
+     82,
+     86,
+     89,
+     93
+    ],
+    "printed": [
+     82,
+     86,
+     89,
+     93
+    ],
+    "match": true
+   },
+   "H_RECMND": {
+    "data_derived": [
+     76,
+     83,
+     88,
+     92
+    ],
+    "printed": [
+     76,
+     83,
+     88,
+     92
+    ],
+    "match": true
+   }
+  },
+  "2025-11-26": {
+   "H_COMP_1": {
+    "data_derived": [
+     86,
+     90,
+     92,
+     94
+    ],
+    "printed": [
+     86,
+     90,
+     92,
+     94
+    ],
+    "match": true
+   },
+   "H_COMP_2": {
+    "data_derived": [
+     87,
+     90,
+     92,
+     95
+    ],
+    "printed": [
+     87,
+     90,
+     92,
+     95
+    ],
+    "match": true
+   },
+   "H_COMP_5": {
+    "data_derived": [
+     71,
+     76,
+     80,
+     85
+    ],
+    "printed": [
+     71,
+     76,
+     80,
+     85
+    ],
+    "match": true
+   },
+   "H_COMP_6": {
+    "data_derived": [
+     79,
+     83,
+     88,
+     91
+    ],
+    "printed": [
+     79,
+     83,
+     88,
+     91
+    ],
+    "match": true
+   },
+   "H_CLEAN": {
+    "data_derived": [
+     79,
+     84,
+     88,
+     92
+    ],
+    "printed": [
+     79,
+     84,
+     88,
+     92
+    ],
+    "match": true
+   },
+   "H_QUIET": {
+    "data_derived": [
+     73,
+     80,
+     85,
+     89
+    ],
+    "printed": [
+     73,
+     80,
+     85,
+     89
+    ],
+    "match": true
+   },
+   "H_HSP_RATING": {
+    "data_derived": [
+     81,
+     85,
+     89,
+     93
+    ],
+    "printed": [
+     81,
+     85,
+     89,
+     93
+    ],
+    "match": true
+   },
+   "H_RECMND": {
+    "data_derived": [
+     77,
+     83,
+     87,
+     91
+    ],
+    "printed": [
+     77,
+     83,
+     87,
+     91
+    ],
+    "match": true
+   }
+  },
+  "2026-02-25": {
+   "H_COMP_1": {
+    "data_derived": [
+     86,
+     90,
+     92,
+     94
+    ],
+    "printed": [
+     86,
+     90,
+     92,
+     94
+    ],
+    "match": true
+   },
+   "H_COMP_2": {
+    "data_derived": [
+     86,
+     90,
+     92,
+     95
+    ],
+    "printed": [
+     86,
+     90,
+     92,
+     95
+    ],
+    "match": true
+   },
+   "H_COMP_5": {
+    "data_derived": [
+     71,
+     77,
+     81,
+     86
+    ],
+    "printed": [
+     71,
+     77,
+     81,
+     86
+    ],
+    "match": true
+   },
+   "H_COMP_6": {
+    "data_derived": [
+     79,
+     83,
+     87,
+     91
+    ],
+    "printed": [
+     79,
+     83,
+     87,
+     91
+    ],
+    "match": true
+   },
+   "H_CLEAN": {
+    "data_derived": [
+     79,
+     84,
+     88,
+     92
+    ],
+    "printed": [
+     79,
+     84,
+     88,
+     92
+    ],
+    "match": true
+   },
+   "H_QUIET": {
+    "data_derived": [
+     72,
+     80,
+     84,
+     89
+    ],
+    "printed": [
+     72,
+     80,
+     84,
+     89
+    ],
+    "match": true
+   },
+   "H_HSP_RATING": {
+    "data_derived": [
+     81,
+     85,
+     89,
+     93
+    ],
+    "printed": [
+     81,
+     85,
+     89,
+     93
+    ],
+    "match": true
+   },
+   "H_RECMND": {
+    "data_derived": [
+     78,
+     84,
+     87,
+     91
+    ],
+    "printed": [
+     78,
+     84,
+     87,
+     91
+    ],
+    "match": true
+   }
+  }
+ },
+ "validation_tally": {
+  "match": 32,
+  "mismatch": 0
+ },
+ "rider_rows": [
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_COMP_1",
+   "boundary": "star2_min",
+   "published_t": 86,
+   "optimal_t": 87,
+   "next_edition_cut": 85,
+   "verdict": "moved-away"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_COMP_2",
+   "boundary": "star2_min",
+   "published_t": 86,
+   "optimal_t": 87,
+   "next_edition_cut": 86,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_COMP_2",
+   "boundary": "star3_min",
+   "published_t": 89,
+   "optimal_t": 90,
+   "next_edition_cut": 89,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_COMP_5",
+   "boundary": "star2_min",
+   "published_t": 68,
+   "optimal_t": 70,
+   "next_edition_cut": 69,
+   "verdict": "moved-toward"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_COMP_6",
+   "boundary": "star2_min",
+   "published_t": 78,
+   "optimal_t": 79,
+   "next_edition_cut": 79,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_COMP_6",
+   "boundary": "star3_min",
+   "published_t": 83,
+   "optimal_t": 84,
+   "next_edition_cut": 83,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_COMP_6",
+   "boundary": "star5_min",
+   "published_t": 91,
+   "optimal_t": 90,
+   "next_edition_cut": 91,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_CLEAN",
+   "boundary": "star3_min",
+   "published_t": 85,
+   "optimal_t": 84,
+   "next_edition_cut": 85,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_CLEAN",
+   "boundary": "star4_min",
+   "published_t": 88,
+   "optimal_t": 87,
+   "next_edition_cut": 88,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_CLEAN",
+   "boundary": "star5_min",
+   "published_t": 92,
+   "optimal_t": 91,
+   "next_edition_cut": 92,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_QUIET",
+   "boundary": "star2_min",
+   "published_t": 74,
+   "optimal_t": 75,
+   "next_edition_cut": 74,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_QUIET",
+   "boundary": "star4_min",
+   "published_t": 85,
+   "optimal_t": 84,
+   "next_edition_cut": 86,
+   "verdict": "moved-away"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_QUIET",
+   "boundary": "star5_min",
+   "published_t": 89,
+   "optimal_t": 88,
+   "next_edition_cut": 90,
+   "verdict": "moved-away"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_HSP_RATING",
+   "boundary": "star2_min",
+   "published_t": 82,
+   "optimal_t": 81,
+   "next_edition_cut": 82,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_HSP_RATING",
+   "boundary": "star5_min",
+   "published_t": 93,
+   "optimal_t": 92,
+   "next_edition_cut": 93,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_RECMND",
+   "boundary": "star2_min",
+   "published_t": 77,
+   "optimal_t": 78,
+   "next_edition_cut": 76,
+   "verdict": "moved-away"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_RECMND",
+   "boundary": "star3_min",
+   "published_t": 83,
+   "optimal_t": 84,
+   "next_edition_cut": 83,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-04-30",
+   "measure": "H_RECMND",
+   "boundary": "star5_min",
+   "published_t": 91,
+   "optimal_t": 92,
+   "next_edition_cut": 92,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_COMP_1",
+   "boundary": "star2_min",
+   "published_t": 85,
+   "optimal_t": 87,
+   "next_edition_cut": 86,
+   "verdict": "moved-toward"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_COMP_1",
+   "boundary": "star3_min",
+   "published_t": 89,
+   "optimal_t": 90,
+   "next_edition_cut": 90,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_COMP_2",
+   "boundary": "star2_min",
+   "published_t": 86,
+   "optimal_t": 87,
+   "next_edition_cut": 87,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_COMP_2",
+   "boundary": "star3_min",
+   "published_t": 89,
+   "optimal_t": 90,
+   "next_edition_cut": 90,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_COMP_5",
+   "boundary": "star2_min",
+   "published_t": 69,
+   "optimal_t": 70,
+   "next_edition_cut": 71,
+   "verdict": "moved-toward"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_COMP_5",
+   "boundary": "star3_min",
+   "published_t": 74,
+   "optimal_t": 75,
+   "next_edition_cut": 76,
+   "verdict": "moved-toward"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_COMP_5",
+   "boundary": "star5_min",
+   "published_t": 83,
+   "optimal_t": 84,
+   "next_edition_cut": 85,
+   "verdict": "moved-toward"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_COMP_6",
+   "boundary": "star3_min",
+   "published_t": 83,
+   "optimal_t": 84,
+   "next_edition_cut": 83,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_COMP_6",
+   "boundary": "star5_min",
+   "published_t": 91,
+   "optimal_t": 90,
+   "next_edition_cut": 91,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_CLEAN",
+   "boundary": "star3_min",
+   "published_t": 85,
+   "optimal_t": 84,
+   "next_edition_cut": 84,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_CLEAN",
+   "boundary": "star4_min",
+   "published_t": 88,
+   "optimal_t": 87,
+   "next_edition_cut": 88,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_CLEAN",
+   "boundary": "star5_min",
+   "published_t": 92,
+   "optimal_t": 91,
+   "next_edition_cut": 92,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_QUIET",
+   "boundary": "star2_min",
+   "published_t": 74,
+   "optimal_t": 75,
+   "next_edition_cut": 73,
+   "verdict": "moved-away"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_QUIET",
+   "boundary": "star3_min",
+   "published_t": 81,
+   "optimal_t": 80,
+   "next_edition_cut": 80,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_QUIET",
+   "boundary": "star4_min",
+   "published_t": 86,
+   "optimal_t": 84,
+   "next_edition_cut": 85,
+   "verdict": "moved-toward"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_QUIET",
+   "boundary": "star5_min",
+   "published_t": 90,
+   "optimal_t": 88,
+   "next_edition_cut": 89,
+   "verdict": "moved-toward"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_HSP_RATING",
+   "boundary": "star5_min",
+   "published_t": 93,
+   "optimal_t": 92,
+   "next_edition_cut": 93,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_RECMND",
+   "boundary": "star2_min",
+   "published_t": 76,
+   "optimal_t": 78,
+   "next_edition_cut": 77,
+   "verdict": "moved-toward"
+  },
+  {
+   "vintage": "2025-08-14",
+   "measure": "H_RECMND",
+   "boundary": "star3_min",
+   "published_t": 83,
+   "optimal_t": 84,
+   "next_edition_cut": 83,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_COMP_1",
+   "boundary": "star2_min",
+   "published_t": 86,
+   "optimal_t": 87,
+   "next_edition_cut": 86,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_COMP_2",
+   "boundary": "star5_min",
+   "published_t": 95,
+   "optimal_t": 94,
+   "next_edition_cut": 95,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_COMP_5",
+   "boundary": "star2_min",
+   "published_t": 71,
+   "optimal_t": 70,
+   "next_edition_cut": 71,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_COMP_5",
+   "boundary": "star3_min",
+   "published_t": 76,
+   "optimal_t": 74,
+   "next_edition_cut": 77,
+   "verdict": "moved-away"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_COMP_5",
+   "boundary": "star4_min",
+   "published_t": 80,
+   "optimal_t": 78,
+   "next_edition_cut": 81,
+   "verdict": "moved-away"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_COMP_5",
+   "boundary": "star5_min",
+   "published_t": 85,
+   "optimal_t": 83,
+   "next_edition_cut": 86,
+   "verdict": "moved-away"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_COMP_6",
+   "boundary": "star3_min",
+   "published_t": 83,
+   "optimal_t": 84,
+   "next_edition_cut": 83,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_COMP_6",
+   "boundary": "star4_min",
+   "published_t": 88,
+   "optimal_t": 87,
+   "next_edition_cut": 87,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_COMP_6",
+   "boundary": "star5_min",
+   "published_t": 91,
+   "optimal_t": 90,
+   "next_edition_cut": 91,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_CLEAN",
+   "boundary": "star2_min",
+   "published_t": 79,
+   "optimal_t": 80,
+   "next_edition_cut": 79,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_QUIET",
+   "boundary": "star2_min",
+   "published_t": 73,
+   "optimal_t": 75,
+   "next_edition_cut": 72,
+   "verdict": "moved-away"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_QUIET",
+   "boundary": "star4_min",
+   "published_t": 85,
+   "optimal_t": 84,
+   "next_edition_cut": 84,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_QUIET",
+   "boundary": "star5_min",
+   "published_t": 89,
+   "optimal_t": 88,
+   "next_edition_cut": 89,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_HSP_RATING",
+   "boundary": "star2_min",
+   "published_t": 81,
+   "optimal_t": 82,
+   "next_edition_cut": 81,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_HSP_RATING",
+   "boundary": "star3_min",
+   "published_t": 85,
+   "optimal_t": 86,
+   "next_edition_cut": 85,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_HSP_RATING",
+   "boundary": "star5_min",
+   "published_t": 93,
+   "optimal_t": 92,
+   "next_edition_cut": 93,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_RECMND",
+   "boundary": "star2_min",
+   "published_t": 77,
+   "optimal_t": 78,
+   "next_edition_cut": 78,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_RECMND",
+   "boundary": "star3_min",
+   "published_t": 83,
+   "optimal_t": 84,
+   "next_edition_cut": 84,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_RECMND",
+   "boundary": "star4_min",
+   "published_t": 87,
+   "optimal_t": 88,
+   "next_edition_cut": 87,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2025-11-26",
+   "measure": "H_RECMND",
+   "boundary": "star5_min",
+   "published_t": 91,
+   "optimal_t": 92,
+   "next_edition_cut": 91,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2026-02-25",
+   "measure": "H_COMP_1",
+   "boundary": "star2_min",
+   "published_t": 86,
+   "optimal_t": 87,
+   "next_edition_cut": 87,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "2026-02-25",
+   "measure": "H_COMP_2",
+   "boundary": "star2_min",
+   "published_t": 86,
+   "optimal_t": 87,
+   "next_edition_cut": 85,
+   "verdict": "moved-away"
+  },
+  {
+   "vintage": "2026-02-25",
+   "measure": "H_COMP_2",
+   "boundary": "star5_min",
+   "published_t": 95,
+   "optimal_t": 94,
+   "next_edition_cut": 95,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2026-02-25",
+   "measure": "H_COMP_5",
+   "boundary": "star3_min",
+   "published_t": 77,
+   "optimal_t": 75,
+   "next_edition_cut": 77,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2026-02-25",
+   "measure": "H_COMP_5",
+   "boundary": "star4_min",
+   "published_t": 81,
+   "optimal_t": 79,
+   "next_edition_cut": 81,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2026-02-25",
+   "measure": "H_COMP_5",
+   "boundary": "star5_min",
+   "published_t": 86,
+   "optimal_t": 84,
+   "next_edition_cut": 86,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2026-02-25",
+   "measure": "H_COMP_6",
+   "boundary": "star3_min",
+   "published_t": 83,
+   "optimal_t": 84,
+   "next_edition_cut": 83,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2026-02-25",
+   "measure": "H_COMP_6",
+   "boundary": "star5_min",
+   "published_t": 91,
+   "optimal_t": 90,
+   "next_edition_cut": 91,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2026-02-25",
+   "measure": "H_QUIET",
+   "boundary": "star2_min",
+   "published_t": 72,
+   "optimal_t": 74,
+   "next_edition_cut": 71,
+   "verdict": "moved-away"
+  },
+  {
+   "vintage": "2026-02-25",
+   "measure": "H_QUIET",
+   "boundary": "star5_min",
+   "published_t": 89,
+   "optimal_t": 88,
+   "next_edition_cut": 88,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "2026-02-25",
+   "measure": "H_HSP_RATING",
+   "boundary": "star2_min",
+   "published_t": 81,
+   "optimal_t": 82,
+   "next_edition_cut": 80,
+   "verdict": "moved-away"
+  },
+  {
+   "vintage": "2026-02-25",
+   "measure": "H_HSP_RATING",
+   "boundary": "star3_min",
+   "published_t": 85,
+   "optimal_t": 86,
+   "next_edition_cut": 86,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "2026-02-25",
+   "measure": "H_HSP_RATING",
+   "boundary": "star5_min",
+   "published_t": 93,
+   "optimal_t": 92,
+   "next_edition_cut": 93,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2026-02-25",
+   "measure": "H_RECMND",
+   "boundary": "star2_min",
+   "published_t": 78,
+   "optimal_t": 79,
+   "next_edition_cut": 77,
+   "verdict": "moved-away"
+  },
+  {
+   "vintage": "2026-02-25",
+   "measure": "H_RECMND",
+   "boundary": "star4_min",
+   "published_t": 87,
+   "optimal_t": 88,
+   "next_edition_cut": 87,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "2026-02-25",
+   "measure": "H_RECMND",
+   "boundary": "star5_min",
+   "published_t": 91,
+   "optimal_t": 92,
+   "next_edition_cut": 91,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "current-2026-05-13",
+   "measure": "H_COMP_1",
+   "boundary": "star2_min",
+   "published_t": 86,
+   "optimal_t": 87,
+   "next_edition_cut": 87,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "current-2026-05-13",
+   "measure": "H_COMP_2",
+   "boundary": "star2_min",
+   "published_t": 84,
+   "optimal_t": 87,
+   "next_edition_cut": 85,
+   "verdict": "moved-toward"
+  },
+  {
+   "vintage": "current-2026-05-13",
+   "measure": "H_COMP_2",
+   "boundary": "star3_min",
+   "published_t": 89,
+   "optimal_t": 90,
+   "next_edition_cut": 90,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "current-2026-05-13",
+   "measure": "H_COMP_2",
+   "boundary": "star5_min",
+   "published_t": 95,
+   "optimal_t": 94,
+   "next_edition_cut": 95,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "current-2026-05-13",
+   "measure": "H_COMP_5",
+   "boundary": "star3_min",
+   "published_t": 77,
+   "optimal_t": 75,
+   "next_edition_cut": 77,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "current-2026-05-13",
+   "measure": "H_COMP_5",
+   "boundary": "star4_min",
+   "published_t": 81,
+   "optimal_t": 79,
+   "next_edition_cut": 81,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "current-2026-05-13",
+   "measure": "H_COMP_5",
+   "boundary": "star5_min",
+   "published_t": 86,
+   "optimal_t": 83,
+   "next_edition_cut": 86,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "current-2026-05-13",
+   "measure": "H_COMP_6",
+   "boundary": "star3_min",
+   "published_t": 83,
+   "optimal_t": 84,
+   "next_edition_cut": 83,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "current-2026-05-13",
+   "measure": "H_CLEAN",
+   "boundary": "star2_min",
+   "published_t": 79,
+   "optimal_t": 80,
+   "next_edition_cut": 79,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "current-2026-05-13",
+   "measure": "H_CLEAN",
+   "boundary": "star3_min",
+   "published_t": 83,
+   "optimal_t": 84,
+   "next_edition_cut": 83,
+   "verdict": "stayed"
+  },
+  {
+   "vintage": "current-2026-05-13",
+   "measure": "H_QUIET",
+   "boundary": "star2_min",
+   "published_t": 72,
+   "optimal_t": 74,
+   "next_edition_cut": 71,
+   "verdict": "moved-away"
+  },
+  {
+   "vintage": "current-2026-05-13",
+   "measure": "H_QUIET",
+   "boundary": "star4_min",
+   "published_t": 84,
+   "optimal_t": 83,
+   "next_edition_cut": 83,
+   "verdict": "MOVED-TO-OPTIMUM-VALUE"
+  },
+  {
+   "vintage": "current-2026-05-13",
+   "measure": "H_QUIET",
+   "boundary": "star5_min",
+   "published_t": 89,
+   "optimal_t": 87,
+   "next_edition_cut": 88,
+   "verdict": "moved-toward"
+  },
+  {
+   "vintage": "current-2026-05-13",
+   "measure": "H_HSP_RATING",
+   "boundary": "star2_min",
+   "published_t": 81,
+   "optimal_t": 82,
+   "next_edition_cut": 80,
+   "verdict": "moved-away"
+  },
+  {
+   "vintage": "current-2026-05-13",
+   "measure": "H_HSP_RATING",
+   "boundary": "star5_min",
+   "published_t": 93,
+   "optimal_t": 92,
+   "next_edition_cut": 93,
+   "verdict": "stayed"
+  }
+ ],
+ "rider_tally": {
+  "moved-away": 15,
+  "stayed": 46,
+  "moved-toward": 10,
+  "MOVED-TO-OPTIMUM-VALUE": 17
+ }
+}

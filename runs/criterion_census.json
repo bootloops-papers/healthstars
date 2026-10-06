@@ -1,0 +1,5491 @@
+{
+ "register": "Criterion flip census (order-free): published stars versus the stars under the stated minimum computed exactly on the full trimmed sample (unique DP optimum per computation, stored in exact_gaps_fullsample_docsonly.json), guardrailed against published prior-year boundaries, display-rounded, aggregated by the stored machinery. No resampling on the criterion side and no input-ordering dependence anywhere in this census; the published computation's order-dependence is the separate replication-gap finding. Conditionality: improvement/CAHPS held at published stars; guardrail priors at published display precision; docsonly score list. Estimate-class dollars: enrollment x $400-600 per enrollee-year, single payment-year month per star year; the three-year total is a sum, never an annual rate; outward rounding on displayed ends; PDP counted, never in the dollar estimate.",
+ "conventions": "Conventions: (1) one operative score vintage per star year on both sides (2024 recalculated, 2025 current, 2026 current; CMS's 2025 cut points are bit-identical across vintages: re-scored, never re-clustered); (2) guardrail priors keyed by measure name and part (the C28/D01 and C24/D03 cross-part twins do not collide) and MPF Price Accuracy guardrail-exempt in 2024; (3) CMS's >=25% disaster measure-star hold-harmless applied on the criterion side (higher of criterion star and prior-year published star; HOS-class keys on the earlier disaster year, call center never adjusted, CAHPS/improvement held at published throughout; the new-measure with/without overall-level provision is not modeled); (4) all 123 published computations enter; (5) star year 2026's operative bonus baseline is the July-22-2026 updated Summary Ratings; (6) dual-baseline condition: a row enters the dollar estimate only if it flips bonus status against both the published operative overall and the re-rated baseline; single-baseline flips are carried beside with named reasons, never in the dollar estimate.",
+ "inputs": {
+  "dp_boundaries": "runs/exact_gaps_criterionvintage.json",
+  "jobs": "enclosure_census_docsonly.build_jobs(cluster_vintage=CRIT_VINTAGE) (docsonly basis; membership layer carried from its fill vintages)",
+  "jul22_overall_overlay": "data/parsed/summary_2026_jul22_overall.csv",
+  "baseline_vintages": {
+   "2024": "recalc",
+   "2025": "current",
+   "2026": "current"
+  },
+  "cluster_vintages": {
+   "2024": "recalc",
+   "2025": "current",
+   "2026": "current"
+  }
+ },
+ "disaster_hold_harmless_applied": {
+  "n_cells": 424,
+  "rows": [
+   {
+    "year": "2024",
+    "mid": "C01",
+    "cid": "H1032",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C01",
+    "cid": "H1035",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C01",
+    "cid": "H1045",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C01",
+    "cid": "H1099",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C01",
+    "cid": "H2029",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C01",
+    "cid": "H2406",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C01",
+    "cid": "H4005",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C01",
+    "cid": "H5434",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C01",
+    "cid": "H7284",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C01",
+    "cid": "R3332",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C04",
+    "cid": "H1248",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C04",
+    "cid": "H2171",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C04",
+    "cid": "H3239",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C04",
+    "cid": "H3312",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C04",
+    "cid": "H3347",
+    "criterion_raw": 3,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C04",
+    "cid": "H3928",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C04",
+    "cid": "H4523",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C04",
+    "cid": "H5294",
+    "criterion_raw": 3,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C04",
+    "cid": "H8554",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C04",
+    "cid": "R6694",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C05",
+    "cid": "H2406",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C06",
+    "cid": "H1035",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C06",
+    "cid": "H1045",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C06",
+    "cid": "H1290",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C06",
+    "cid": "H1889",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C06",
+    "cid": "H5471",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C06",
+    "cid": "H7284",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C06",
+    "cid": "R0759",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C07",
+    "cid": "R0759",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C09",
+    "cid": "H2235",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C09",
+    "cid": "H4007",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C09",
+    "cid": "H5410",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C09",
+    "cid": "H5471",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C09",
+    "cid": "H5594",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C09",
+    "cid": "H7522",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C09",
+    "cid": "H8003",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C09",
+    "cid": "R3332",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C10",
+    "cid": "H1032",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C10",
+    "cid": "H1045",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C10",
+    "cid": "H2029",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C10",
+    "cid": "H4003",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C10",
+    "cid": "H4004",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C10",
+    "cid": "H4005",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C10",
+    "cid": "H4007",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C10",
+    "cid": "H5410",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C10",
+    "cid": "H5471",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C10",
+    "cid": "H7284",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C10",
+    "cid": "R3332",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C12",
+    "cid": "H0473",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2024",
+    "mid": "C12",
+    "cid": "H0755",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2024",
+    "mid": "C12",
+    "cid": "H3379",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C12",
+    "cid": "H4523",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C12",
+    "cid": "H5294",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C12",
+    "cid": "H5970",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C12",
+    "cid": "H6328",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2024",
+    "mid": "C12",
+    "cid": "H6453",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2024",
+    "mid": "C12",
+    "cid": "H7115",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2024",
+    "mid": "C12",
+    "cid": "H8298",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C12",
+    "cid": "R5342",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C13",
+    "cid": "H5322",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C13",
+    "cid": "H7115",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C13",
+    "cid": "H8432",
+    "criterion_raw": 2,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H1019",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H1032",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H1035",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H1036",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H1045",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H1099",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H1290",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H1889",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H2235",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H2406",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H4007",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H5199",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H5410",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H5427",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H5434",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H5471",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H5577",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H5774",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H7284",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "H8003",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C16",
+    "cid": "R5826",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C25",
+    "cid": "H1035",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C25",
+    "cid": "H1045",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C25",
+    "cid": "H4005",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C25",
+    "cid": "H5434",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C26",
+    "cid": "H5427",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C28",
+    "cid": "H5199",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "C29",
+    "cid": "H1099",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "C29",
+    "cid": "H4007",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "C29",
+    "cid": "H5434",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "D02",
+    "cid": "H1035",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "D02",
+    "cid": "H1045",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "D02",
+    "cid": "H4005",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "D02",
+    "cid": "H5434",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "D02",
+    "cid": "S5904",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "D03",
+    "cid": "H5427",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "D07",
+    "cid": "H1019",
+    "criterion_raw": 1,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "D07",
+    "cid": "H1036",
+    "criterion_raw": 1,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "D07",
+    "cid": "H1290",
+    "criterion_raw": 1,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "D07",
+    "cid": "H2029",
+    "criterion_raw": 1,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "D07",
+    "cid": "H2235",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "D07",
+    "cid": "H4007",
+    "criterion_raw": 1,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "D07",
+    "cid": "H5190",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "D07",
+    "cid": "H5434",
+    "criterion_raw": 3,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "D07",
+    "cid": "H5471",
+    "criterion_raw": 1,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "D07",
+    "cid": "H7284",
+    "criterion_raw": 1,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "D07",
+    "cid": "R0759",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "D07",
+    "cid": "R5826",
+    "criterion_raw": 1,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "D08",
+    "cid": "S5904",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "D09",
+    "cid": "H1644",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2024",
+    "mid": "D10",
+    "cid": "H5410",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "D10",
+    "cid": "H5434",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2024",
+    "mid": "D10",
+    "cid": "H7284",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "D11",
+    "cid": "H1019",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "D11",
+    "cid": "H1032",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "D11",
+    "cid": "H2406",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "D11",
+    "cid": "H5199",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "D11",
+    "cid": "H5410",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "D12",
+    "cid": "H1035",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "D12",
+    "cid": "H1036",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2024",
+    "mid": "D12",
+    "cid": "H1045",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "D12",
+    "cid": "H1644",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "D12",
+    "cid": "H5410",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2024",
+    "mid": "D12",
+    "cid": "R5826",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "C01",
+    "cid": "H2406",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "C04",
+    "cid": "H5774",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "C05",
+    "cid": "R0759",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2025",
+    "mid": "C06",
+    "cid": "H2406",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "C06",
+    "cid": "R0759",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "C07",
+    "cid": "H2406",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "C07",
+    "cid": "R0759",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "C08",
+    "cid": "H2406",
+    "criterion_raw": 2,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "C09",
+    "cid": "H2235",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "C09",
+    "cid": "H2962",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "C09",
+    "cid": "H5594",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "C09",
+    "cid": "R0759",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2025",
+    "mid": "C10",
+    "cid": "H1644",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "C10",
+    "cid": "H2406",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "C10",
+    "cid": "H2962",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "C10",
+    "cid": "H5594",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "C10",
+    "cid": "R0759",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "C11",
+    "cid": "H2235",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2025",
+    "mid": "C11",
+    "cid": "H2406",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "C12",
+    "cid": "H2235",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2025",
+    "mid": "C13",
+    "cid": "H1019",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "C13",
+    "cid": "H1290",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "C13",
+    "cid": "H5434",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "C13",
+    "cid": "H5594",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "C14",
+    "cid": "H2962",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "C14",
+    "cid": "H5594",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "C15",
+    "cid": "H2406",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2025",
+    "mid": "C16",
+    "cid": "H2235",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2025",
+    "mid": "C16",
+    "cid": "H2406",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2025",
+    "mid": "C25",
+    "cid": "H2406",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "C25",
+    "cid": "H5594",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "C29",
+    "cid": "H2406",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "C29",
+    "cid": "H2962",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "C29",
+    "cid": "R0759",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "D02",
+    "cid": "H2406",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "D02",
+    "cid": "H5594",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "D07",
+    "cid": "H2235",
+    "criterion_raw": 2,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "D07",
+    "cid": "H2406",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "D07",
+    "cid": "H2962",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "D07",
+    "cid": "R0759",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "D08",
+    "cid": "H9884",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "D09",
+    "cid": "H1644",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2025",
+    "mid": "D09",
+    "cid": "H2235",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "D09",
+    "cid": "R0759",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "D10",
+    "cid": "H5594",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "D10",
+    "cid": "R0759",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "D11",
+    "cid": "H2235",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2025",
+    "mid": "D11",
+    "cid": "H2406",
+    "criterion_raw": 3,
+    "held_to": 5
+   },
+   {
+    "year": "2025",
+    "mid": "D11",
+    "cid": "H5594",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C01",
+    "cid": "H2962",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C01",
+    "cid": "H4073",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C02",
+    "cid": "H0111",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C02",
+    "cid": "H4073",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C02",
+    "cid": "H7115",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C02",
+    "cid": "R0759",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C06",
+    "cid": "H2235",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C06",
+    "cid": "H2406",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C08",
+    "cid": "H5410",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C09",
+    "cid": "H1019",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C09",
+    "cid": "H1609",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C09",
+    "cid": "H2293",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C09",
+    "cid": "H2406",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C09",
+    "cid": "H3146",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C09",
+    "cid": "H5302",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C09",
+    "cid": "H5427",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C09",
+    "cid": "H5471",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C09",
+    "cid": "H9147",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C09",
+    "cid": "H9826",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C09",
+    "cid": "R2604",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C10",
+    "cid": "H0174",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2026",
+    "mid": "C10",
+    "cid": "H2235",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C10",
+    "cid": "H4514",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2026",
+    "mid": "C10",
+    "cid": "R0759",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C11",
+    "cid": "H1032",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C11",
+    "cid": "H1609",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C11",
+    "cid": "H2235",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C11",
+    "cid": "H2962",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C11",
+    "cid": "H3291",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C11",
+    "cid": "H3404",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C11",
+    "cid": "H5410",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C11",
+    "cid": "H5594",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C12",
+    "cid": "H2593",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C12",
+    "cid": "H2962",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C12",
+    "cid": "H4141",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C12",
+    "cid": "H5594",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C12",
+    "cid": "H5938",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C12",
+    "cid": "H7115",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C12",
+    "cid": "H8176",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C12",
+    "cid": "R2604",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C14",
+    "cid": "H7993",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C15",
+    "cid": "H2235",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C15",
+    "cid": "H2406",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C15",
+    "cid": "H5594",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C17",
+    "cid": "H2962",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C17",
+    "cid": "H5594",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H0174",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H0332",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H1019",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H1035",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H1045",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H1951",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H1961",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H2406",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H2593",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H2962",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H3256",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H3291",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H3449",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H4141",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H4514",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H5410",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H5422",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H5427",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H5434",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H7020",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H7115",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H7284",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H7323",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H7678",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H8133",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H8849",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "H9147",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "R0759",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "R2604",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C18",
+    "cid": "R5826",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H0332",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H1036",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H1045",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H1112",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H1961",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H2293",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H2406",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H2962",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H3146",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H3404",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H3449",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H4506",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H5302",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H5410",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H5471",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H5594",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H8176",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "H9884",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C19",
+    "cid": "R5826",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2026",
+    "mid": "C20",
+    "cid": "H2235",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C20",
+    "cid": "H2293",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C20",
+    "cid": "H3146",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C20",
+    "cid": "H4523",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C20",
+    "cid": "H5410",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C20",
+    "cid": "H5427",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C20",
+    "cid": "H5594",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C20",
+    "cid": "H5938",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C20",
+    "cid": "H7020",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C20",
+    "cid": "H8332",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H0111",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H1032",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H1035",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H1045",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H1099",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H1109",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H2293",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H2962",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H3288",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H3404",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H4141",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H4523",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H4847",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H5410",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H5434",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H5471",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H5521",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H5594",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H5938",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H7326",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H8133",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H8332",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H9725",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "H9884",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C21",
+    "cid": "R2604",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C28",
+    "cid": "H7326",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C28",
+    "cid": "H8849",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C29",
+    "cid": "H1035",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C29",
+    "cid": "H1036",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C29",
+    "cid": "H1045",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C29",
+    "cid": "H1644",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C29",
+    "cid": "H1951",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C29",
+    "cid": "H2406",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C29",
+    "cid": "H3467",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C29",
+    "cid": "H4523",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C29",
+    "cid": "H5422",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2026",
+    "mid": "C29",
+    "cid": "H5434",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C29",
+    "cid": "H7028",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C29",
+    "cid": "H7993",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C29",
+    "cid": "H8003",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C29",
+    "cid": "H9986",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C29",
+    "cid": "R0759",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "H1019",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "H1035",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "H2293",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "H2962",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "H3256",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "H3404",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "H3449",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "H4514",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "H5302",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "H5410",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "H5422",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "H5427",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "H5471",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "H5594",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "H7993",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "H8849",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C31",
+    "cid": "R5826",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "C32",
+    "cid": "H2962",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "C32",
+    "cid": "H3404",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "C32",
+    "cid": "H4506",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D02",
+    "cid": "H7326",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D02",
+    "cid": "H8849",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D02",
+    "cid": "S5540",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "D03",
+    "cid": "H1035",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D03",
+    "cid": "H1036",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D03",
+    "cid": "H1045",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D03",
+    "cid": "H1644",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D03",
+    "cid": "H1951",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D03",
+    "cid": "H2406",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D03",
+    "cid": "H3467",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "D03",
+    "cid": "H4523",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D03",
+    "cid": "H5422",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2026",
+    "mid": "D03",
+    "cid": "H5434",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D03",
+    "cid": "H7028",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D03",
+    "cid": "H7993",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D03",
+    "cid": "H8003",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "D03",
+    "cid": "H9986",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D03",
+    "cid": "R0759",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D03",
+    "cid": "S5540",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H0332",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H1032",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H1035",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H1036",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H1961",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H2235",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H3404",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H3467",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H4073",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H4506",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H5422",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H5521",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H6345",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H7284",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H7993",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H8003",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H9725",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2026",
+    "mid": "D08",
+    "cid": "H9884",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "D09",
+    "cid": "H1951",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D09",
+    "cid": "H2235",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D09",
+    "cid": "H4141",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D09",
+    "cid": "H4514",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D09",
+    "cid": "S5904",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H1032",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H1036",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H1045",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H1609",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H2293",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H2406",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H2509",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H3041",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H3146",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H4141",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H4506",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H4514",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H5427",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H5434",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H5521",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H5594",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H5938",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H7020",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H7323",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "H8133",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "R0759",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "S5904",
+    "criterion_raw": 1,
+    "held_to": 2
+   },
+   {
+    "year": "2026",
+    "mid": "D10",
+    "cid": "S5953",
+    "criterion_raw": 2,
+    "held_to": 3
+   },
+   {
+    "year": "2026",
+    "mid": "D11",
+    "cid": "H0332",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "D11",
+    "cid": "H1019",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "D11",
+    "cid": "H1035",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D11",
+    "cid": "H1099",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D11",
+    "cid": "H1644",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "D11",
+    "cid": "H2235",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D11",
+    "cid": "H2962",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D11",
+    "cid": "H4847",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "D11",
+    "cid": "H5594",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "D11",
+    "cid": "H7323",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "D11",
+    "cid": "H7993",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "D11",
+    "cid": "H8093",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D11",
+    "cid": "H8133",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "D12",
+    "cid": "H2235",
+    "criterion_raw": 3,
+    "held_to": 4
+   },
+   {
+    "year": "2026",
+    "mid": "D12",
+    "cid": "H2962",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "D12",
+    "cid": "H5594",
+    "criterion_raw": 4,
+    "held_to": 5
+   },
+   {
+    "year": "2026",
+    "mid": "D12",
+    "cid": "H9884",
+    "criterion_raw": 3,
+    "held_to": 4
+   }
+  ]
+ },
+ "n_splits": 120,
+ "skipped_splits": [],
+ "missing_gap_rows": [],
+ "degenerate_splits_held_at_published": [
+  {
+   "year": "2025",
+   "mid": "D07",
+   "org": "PDP",
+   "k": 4,
+   "n_trimmed": 24,
+   "dp_cutpoints": [
+    "97",
+    "98",
+    "99"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "D07",
+   "org": "MA-PD",
+   "k": 1,
+   "n_trimmed": 336,
+   "dp_cutpoints": []
+  },
+  {
+   "year": "2026",
+   "mid": "D07",
+   "org": "PDP",
+   "k": 1,
+   "n_trimmed": 15,
+   "dp_cutpoints": []
+  }
+ ],
+ "n_star_cells_moved": 5800,
+ "per_split": [
+  {
+   "year": "2024",
+   "mid": "C01",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 167,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C02",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 22,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C04",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 80,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C05",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 13,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C06",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 13,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C07",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 39,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C08",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 8,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C09",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 137,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C10",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 30,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C11",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 52,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2024",
+   "mid": "C12",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 112,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C13",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 43,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C14",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 18,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C15",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2024",
+   "mid": "C16",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 192,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C17",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 61,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2024",
+   "mid": "C18",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 35,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2024",
+   "mid": "C25",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 18,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C26",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 109,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C28",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C29",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 105,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "C30",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "D01",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 9,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "D01",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "D02",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 23,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "D02",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 24,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "D03",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 109,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "D03",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "D07",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 37,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2024",
+   "mid": "D07",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2024",
+   "mid": "D08",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 112,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "D08",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 137,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 22,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "D10",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 120,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "D10",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 1,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "D11",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 30,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "D11",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 4,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 77,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 20,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C01",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 173,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 171,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C04",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 50,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C05",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 74,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C06",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 2,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C07",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 31,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C08",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 16,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C09",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 71,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C10",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 64,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C11",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 43,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2025",
+   "mid": "C12",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 83,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C13",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 2,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C15",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 140,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2025",
+   "mid": "C16",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 1,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C17",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 29,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2025",
+   "mid": "C18",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 6,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2025",
+   "mid": "C25",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 21,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C26",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 186,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C28",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C29",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 62,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "C30",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D01",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D01",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 9,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D02",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 21,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D02",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 23,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D03",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 185,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D03",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 5,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D07",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 3,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D08",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 114,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D08",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 25,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D09",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 50,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D09",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 10,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D10",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 72,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D10",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 11,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D11",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 41,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D11",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 15,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D12",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 120,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2025",
+   "mid": "D12",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 1,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C01",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 105,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C02",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 70,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C04",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 23,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2026",
+   "mid": "C05",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 12,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2026",
+   "mid": "C06",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 34,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C07",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 15,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C08",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 13,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C09",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 48,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C10",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 19,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C11",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 26,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 2,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C13",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 119,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2026",
+   "mid": "C14",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 3,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2026",
+   "mid": "C15",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 113,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C16",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 76,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C17",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 30,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C18",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2026",
+   "mid": "C19",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 126,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C20",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 18,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2026",
+   "mid": "C21",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 170,
+   "guardrail": "exempt-new"
+  },
+  {
+   "year": "2026",
+   "mid": "C28",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 23,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C29",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 111,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C31",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 2,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C32",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 143,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "C33",
+   "org": "ALL",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "D01",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 2,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "D01",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "D02",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 23,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "D02",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 12,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "D03",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 111,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "D03",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "D08",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 83,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "D08",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 16,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "D09",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 143,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "D09",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 19,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "D10",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 62,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "D10",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "D11",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 51,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "D11",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 2,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "D12",
+   "org": "MA-PD",
+   "n_star_deltas_vs_published": 66,
+   "guardrail": "applied"
+  },
+  {
+   "year": "2026",
+   "mid": "D12",
+   "org": "PDP",
+   "n_star_deltas_vs_published": 0,
+   "guardrail": "applied"
+  }
+ ],
+ "flips_criterion": [
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H0321",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 71220,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 28488000,
+    "mid": 35610000,
+    "hi": 42732000
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H0473",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 16927,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 6770800,
+    "mid": 8463500,
+    "hi": 10156200
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H0524",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 1355332,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -542132800,
+    "mid": -677666000,
+    "hi": -813199200
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H1304",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 6775,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 2710000,
+    "mid": 3387500,
+    "hi": 4065000
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H1969",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 691,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 276400,
+    "mid": 345500,
+    "hi": 414600
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H2591",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": null,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "Not enough data available",
+   "published_overall_exists": false,
+   "criterion_rating": "3",
+   "qbp_relevant": true,
+   "qbp_priceable": false,
+   "unpriceable_reason": "NO-PUBLISHED-OVERALL: CMS printed 'Not enough data available'; baseline is the replayed rating; no QBP determination readable from the printed record (no published Part C summary either)",
+   "enrollment": 510,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H2816",
+   "org_class": "MA-PD",
+   "org_type": "PFFS",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 1855,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -742000,
+    "mid": -927500,
+    "hi": -1113000
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H3749",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 0,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 0,
+    "mid": 0,
+    "hi": 0
+   },
+   "note": "not present in payment-year enrollment month; entered in the dollar estimate at $0, enrollees in no total"
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H3805",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 220404,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -88161600,
+    "mid": -110202000,
+    "hi": -132242400
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H5900",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 47487,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -18994800,
+    "mid": -23743500,
+    "hi": -28492200
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H6502",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 0,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 0,
+    "mid": 0,
+    "hi": 0
+   },
+   "note": "not present in payment-year enrollment month; entered in the dollar estimate at $0, enrollees in no total"
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H6988",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 2904,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -1161600,
+    "mid": -1452000,
+    "hi": -1742400
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "R3332",
+   "org_class": "MA-PD",
+   "org_type": "Regional CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 0,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 0,
+    "mid": 0,
+    "hi": 0
+   },
+   "note": "not present in payment-year enrollment month; entered in the dollar estimate at $0, enrollees in no total"
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "S2468",
+   "org_class": "PDP",
+   "org_type": "PDP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": null,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "Not Applicable",
+   "published_overall_exists": false,
+   "criterion_rating": "7/2",
+   "qbp_relevant": false,
+   "qbp_priceable": false,
+   "unpriceable_reason": null,
+   "enrollment": null,
+   "enrollment_data_month": null,
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": "PDP: no QBP rides on Part D stand-alone ratings; counted, not in the dollar estimate"
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "S2893",
+   "org_class": "PDP",
+   "org_type": "PDP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": null,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "Not Applicable",
+   "published_overall_exists": false,
+   "criterion_rating": "7/2",
+   "qbp_relevant": false,
+   "qbp_priceable": false,
+   "unpriceable_reason": null,
+   "enrollment": null,
+   "enrollment_data_month": null,
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": "PDP: no QBP rides on Part D stand-alone ratings; counted, not in the dollar estimate"
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "S5660",
+   "org_class": "PDP",
+   "org_type": "PDP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": null,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "3",
+   "published_overall": "Not Applicable",
+   "published_overall_exists": false,
+   "criterion_rating": "4",
+   "qbp_relevant": false,
+   "qbp_priceable": false,
+   "unpriceable_reason": null,
+   "enrollment": null,
+   "enrollment_data_month": null,
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": "PDP: no QBP rides on Part D stand-alone ratings; counted, not in the dollar estimate"
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "S8841",
+   "org_class": "PDP",
+   "org_type": "PDP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": null,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "Not Applicable",
+   "published_overall_exists": false,
+   "criterion_rating": "4",
+   "qbp_relevant": false,
+   "qbp_priceable": false,
+   "unpriceable_reason": null,
+   "enrollment": null,
+   "enrollment_data_month": null,
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": "PDP: no QBP rides on Part D stand-alone ratings; counted, not in the dollar estimate"
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H2322",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 40309,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -16123600,
+    "mid": -20154500,
+    "hi": -24185400
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H2422",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 5775,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -2310000,
+    "mid": -2887500,
+    "hi": -3465000
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H2816",
+   "org_class": "MA-PD",
+   "org_type": "PFFS",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 1829,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 731600,
+    "mid": 914500,
+    "hi": 1097400
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H3041",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": null,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "Not enough data available",
+   "published_overall_exists": false,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": false,
+   "unpriceable_reason": "NO-PUBLISHED-OVERALL: CMS printed 'Not enough data available'; baseline is the replayed rating; no QBP determination readable from the printed record (no published Part C summary either)",
+   "enrollment": 2267,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H3347",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 26840,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 10736000,
+    "mid": 13420000,
+    "hi": 16104000
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H3653",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 15257,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -6102800,
+    "mid": -7628500,
+    "hi": -9154200
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H4004",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 102368,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -40947200,
+    "mid": -51184000,
+    "hi": -61420800
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H4172",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 1345,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -538000,
+    "mid": -672500,
+    "hi": -807000
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H4227",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 22975,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 9190000,
+    "mid": 11487500,
+    "hi": 13785000
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H4490",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": null,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "Not enough data available",
+   "published_overall_exists": false,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": false,
+   "unpriceable_reason": "NO-PUBLISHED-OVERALL: CMS printed 'Not enough data available'; baseline is the replayed rating; no QBP determination readable from the printed record (no published Part C summary either)",
+   "enrollment": 768,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H4623",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 10953,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 4381200,
+    "mid": 5476500,
+    "hi": 6571800
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H5211",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 79359,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -31743600,
+    "mid": -39679500,
+    "hi": -47615400
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H5262",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 18984,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -7593600,
+    "mid": -9492000,
+    "hi": -11390400
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H5273",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 11065,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 4426000,
+    "mid": 5532500,
+    "hi": 6639000
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H5591",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 62630,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -25052000,
+    "mid": -31315000,
+    "hi": -37578000
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H6852",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": null,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "Not enough data available",
+   "published_overall_exists": false,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": false,
+   "unpriceable_reason": "NO-PUBLISHED-OVERALL: CMS printed 'Not enough data available'; baseline is the replayed rating; no QBP determination readable from the printed record (no published Part C summary either)",
+   "enrollment": 8164,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H6988",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 8077,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 3230800,
+    "mid": 4038500,
+    "hi": 4846200
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H8189",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 12924,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -5169600,
+    "mid": -6462000,
+    "hi": -7754400
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H8547",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 1553,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 621200,
+    "mid": 776500,
+    "hi": 931800
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H9909",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": null,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": false,
+   "baseline": "4",
+   "published_overall": "Not enough data available",
+   "published_overall_exists": false,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": false,
+   "unpriceable_reason": "NO-PUBLISHED-OVERALL: CMS printed 'Not enough data available'; baseline is the replayed rating; no QBP determination readable from the printed record (no published Part C summary either)",
+   "enrollment": 731,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "S4802",
+   "org_class": "PDP",
+   "org_type": "PDP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": null,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "Not Applicable",
+   "published_overall_exists": false,
+   "criterion_rating": "4",
+   "qbp_relevant": false,
+   "qbp_priceable": false,
+   "unpriceable_reason": null,
+   "enrollment": null,
+   "enrollment_data_month": null,
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": "PDP: no QBP rides on Part D stand-alone ratings; counted, not in the dollar estimate"
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "S5660",
+   "org_class": "PDP",
+   "org_type": "PDP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": null,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "Not Applicable",
+   "published_overall_exists": false,
+   "criterion_rating": "4",
+   "qbp_relevant": false,
+   "qbp_priceable": false,
+   "unpriceable_reason": null,
+   "enrollment": null,
+   "enrollment_data_month": null,
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": "PDP: no QBP rides on Part D stand-alone ratings; counted, not in the dollar estimate"
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "S5743",
+   "org_class": "PDP",
+   "org_type": "PDP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": null,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "3",
+   "published_overall": "Not Applicable",
+   "published_overall_exists": false,
+   "criterion_rating": "4",
+   "qbp_relevant": false,
+   "qbp_priceable": false,
+   "unpriceable_reason": null,
+   "enrollment": null,
+   "enrollment_data_month": null,
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": "PDP: no QBP rides on Part D stand-alone ratings; counted, not in the dollar estimate"
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "S5877",
+   "org_class": "PDP",
+   "org_type": "PDP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": null,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "3",
+   "published_overall": "Not Applicable",
+   "published_overall_exists": false,
+   "criterion_rating": "4",
+   "qbp_relevant": false,
+   "qbp_priceable": false,
+   "unpriceable_reason": null,
+   "enrollment": null,
+   "enrollment_data_month": null,
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": "PDP: no QBP rides on Part D stand-alone ratings; counted, not in the dollar estimate"
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "S6875",
+   "org_class": "PDP",
+   "org_type": "PDP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": null,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": false,
+   "baseline": "7/2",
+   "published_overall": "Not Applicable",
+   "published_overall_exists": false,
+   "criterion_rating": "9/2",
+   "qbp_relevant": false,
+   "qbp_priceable": false,
+   "unpriceable_reason": null,
+   "enrollment": null,
+   "enrollment_data_month": null,
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": "PDP: no QBP rides on Part D stand-alone ratings; counted, not in the dollar estimate"
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H0174",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": true,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 54139,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -21655600,
+    "mid": -27069500,
+    "hi": -32483400
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H0354",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": true,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 75390,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 30156000,
+    "mid": 37695000,
+    "hi": 45234000
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H0978",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": true,
+   "baseline": "4",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 5652,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -2260800,
+    "mid": -2826000,
+    "hi": -3391200
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H1608",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": true,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": true,
+   "baseline": "7/2",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": false,
+   "unpriceable_reason": "JUNE17-OVERLAY-UNDECIDABLE: bonus status flips against only one of the two baselines (published operative overall vs re-rated baseline); the June-17 upward-only recalc overlay / baseline-fidelity residue cannot be separated from the optimizer effect on the public record",
+   "enrollment": 118187,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H1619",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": null,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": true,
+   "baseline": "7/2",
+   "published_overall": "Not enough data available",
+   "published_overall_exists": false,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": false,
+   "unpriceable_reason": "NO-PUBLISHED-OVERALL: CMS printed 'Not enough data available'; baseline is the replayed rating; no QBP determination readable from the printed record (no published Part C summary either)",
+   "enrollment": 4126,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H1994",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": true,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": true,
+   "baseline": "7/2",
+   "published_overall": "4.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": false,
+   "unpriceable_reason": "JUNE17-OVERLAY-UNDECIDABLE: bonus status flips against only one of the two baselines (published operative overall vs re-rated baseline); the June-17 upward-only recalc overlay / baseline-fidelity residue cannot be separated from the optimizer effect on the public record",
+   "enrollment": 66738,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H2422",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": true,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 5775,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 2310000,
+    "mid": 2887500,
+    "hi": 3465000
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H2461",
+   "org_class": "MA-PD",
+   "org_type": "1876 Cost",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": true,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": false,
+   "unpriceable_reason": "COST-CONTRACT: 1876 Cost, no QBP attaches (83 FR 16520, stored FR-2018-04-16 PDF)",
+   "enrollment": 47233,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H2462",
+   "org_class": "MA-PD",
+   "org_type": "1876 Cost",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": null,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": true,
+   "baseline": "7/2",
+   "published_overall": "Not enough data available",
+   "published_overall_exists": false,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": false,
+   "unpriceable_reason": "COST-CONTRACT: 1876 Cost, no QBP attaches (83 FR 16520, stored FR-2018-04-16 PDF)",
+   "enrollment": 2762,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H3080",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": true,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 9590,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 3836000,
+    "mid": 4795000,
+    "hi": 5754000
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H3777",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": true,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 1983,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 793200,
+    "mid": 991500,
+    "hi": 1189800
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H4141",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": true,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": true,
+   "baseline": "7/2",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": false,
+   "unpriceable_reason": "JUNE17-OVERLAY-UNDECIDABLE: bonus status flips against only one of the two baselines (published operative overall vs re-rated baseline); the June-17 upward-only recalc overlay / baseline-fidelity residue cannot be separated from the optimizer effect on the public record",
+   "enrollment": 125206,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H6202",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": false,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": true,
+   "baseline": "7/2",
+   "published_overall": "3.5",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 6703,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 2681200,
+    "mid": 3351500,
+    "hi": 4021800
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H7379",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": true,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": true,
+   "baseline": "7/2",
+   "published_overall": "4",
+   "published_overall_exists": true,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": false,
+   "unpriceable_reason": "JUNE17-OVERLAY-UNDECIDABLE: bonus status flips against only one of the two baselines (published operative overall vs re-rated baseline); the June-17 upward-only recalc overlay / baseline-fidelity residue cannot be separated from the optimizer effect on the public record",
+   "enrollment": 46701,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H8010",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": true,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": true,
+   "baseline": "4",
+   "published_overall": "4.5",
+   "published_overall_exists": true,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": true,
+   "unpriceable_reason": null,
+   "enrollment": 3804,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -1521600,
+    "mid": -1902000,
+    "hi": -2282400
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H8095",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "DOWN",
+   "direction_vs_rerated_baseline": "DOWN",
+   "bonus_published": null,
+   "bonus_criterion": false,
+   "bonus_rerated_baseline": true,
+   "jul22_overlaid": true,
+   "baseline": "4",
+   "published_overall": "Not enough data available",
+   "published_overall_exists": false,
+   "criterion_rating": "7/2",
+   "qbp_relevant": true,
+   "qbp_priceable": false,
+   "unpriceable_reason": "NO-PUBLISHED-OVERALL: CMS printed 'Not enough data available'; baseline is the replayed rating; no QBP determination readable from the printed record (no published Part C summary either)",
+   "enrollment": 0,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H8845",
+   "org_class": "MA-PD",
+   "org_type": "Local CCP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": null,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": true,
+   "baseline": "7/2",
+   "published_overall": "Not enough data available",
+   "published_overall_exists": false,
+   "criterion_rating": "4",
+   "qbp_relevant": true,
+   "qbp_priceable": false,
+   "unpriceable_reason": "NO-PUBLISHED-OVERALL: CMS printed 'Not enough data available'; baseline is the replayed rating; no QBP determination readable from the printed record (no published Part C summary either)",
+   "enrollment": 1614,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "S4802",
+   "org_class": "PDP",
+   "org_type": "PDP",
+   "direction": "UP",
+   "direction_vs_rerated_baseline": "UP",
+   "bonus_published": null,
+   "bonus_criterion": true,
+   "bonus_rerated_baseline": false,
+   "jul22_overlaid": true,
+   "baseline": "7/2",
+   "published_overall": "Not Applicable",
+   "published_overall_exists": false,
+   "criterion_rating": "4",
+   "qbp_relevant": false,
+   "qbp_priceable": false,
+   "unpriceable_reason": null,
+   "enrollment": null,
+   "enrollment_data_month": null,
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": "PDP: no QBP rides on Part D stand-alone ratings; counted, not in the dollar estimate"
+  }
+ ],
+ "summary": {
+  "n_flips": 60,
+  "n_qbp_priceable": 36,
+  "n_cost_counted_never_priced": 2,
+  "n_no_published_overall_counted_never_priced": 8,
+  "n_up": 18,
+  "n_down": 18,
+  "total_enrollment": 2308874,
+  "gross_total_3yr_usd": {
+   "lo": 923549600,
+   "mid": 1154437000,
+   "hi": 1385324400
+  },
+  "per_payment_year": {
+   "CY2025": {
+    "enrollment": 1723595,
+    "n_contracts": 12,
+    "gross_lo": 689438000,
+    "gross_mid": 861797500,
+    "gross_hi": 1034157000
+   },
+   "CY2026": {
+    "enrollment": 422243,
+    "n_contracts": 16,
+    "gross_lo": 168897200,
+    "gross_mid": 211121500,
+    "gross_hi": 253345800
+   },
+   "CY2027": {
+    "enrollment": 163036,
+    "n_contracts": 8,
+    "gross_lo": 65214400,
+    "gross_mid": 81518000,
+    "gross_hi": 97821600
+   }
+  }
+ }
+}

@@ -1,0 +1,53 @@
+36e1dfbda7018e04c22cd4f6489c45b1     2752512  2021-04/all_data_2021apr.sas7bdat
+2d4328460021430846999caa220a180f    14625171  2021-04/care_compare_snapshots/hospitals_2021-04-28.zip
+4d021f5d87a8a9193782706ceb02eaf3    14374687  2021-04/care_compare_snapshots/hospitals_2021-07-21.zip
+253b3eb5188fa8d5fde3263fc2d4b7ec       11673  2021-04/sas_package_mirror_rush/0 - Data and Measure Standardization_2021Apr_E.sas
+36f5b1ef94ad30be5128424ca0d14b69        4711  2021-04/sas_package_mirror_rush/1 - First stage_Simple Average of Measure Scores_2021Apr_E.sas
+2b0f0a1de0894266b6be4be194234f05        8983  2021-04/sas_package_mirror_rush/2 - Second Stage_Weighted Average and Categorize Star_2021Apr_E_peer.sas
+d254613aa03ca3510f9280296528741d        7452  2021-04/sas_package_mirror_rush/Star_Macros_E_peer.sas
+e1e3068100f5d3f596d3a443329de9d9     2621440  2022-07/all_data_2022jul.sas7bdat
+afdd5d4837d674409ee9560c2ff945a5    14788971  2022-07/care_compare_snapshots/hospitals_2022-07-06.zip
+dca7a7fbc1bfeb07cae10134a843bf79    14753205  2022-07/care_compare_snapshots/hospitals_2022-10-06.zip
+6fc4a8bf13b134dd248f8cb58d2e5bb9       11567  2022-07/sas_package_mirror_rush/0 - Data and Measure Standardization_2022.sas
+8565552079404b5b1a06f7c8f3c30018        4686  2022-07/sas_package_mirror_rush/1 - First stage_Simple Average of Measure Scores_2022.sas
+de8c105f9f3c390b9a48ab50250b4c4e        8983  2022-07/sas_package_mirror_rush/2 - Second Stage_Weighted Average and Categorize Star_2022.sas
+d254613aa03ca3510f9280296528741d        7452  2022-07/sas_package_mirror_rush/Star_Macros.sas
+1c6361cf66d167fbce4df87698e12eaa     2686976  2023-07/alldata_2023jul.sas7bdat
+b01ef464dcb84db796887e42ac9622d8    15880188  2023-07/care_compare_snapshots/hospitals_2023-07-06.zip
+abf7c3cdee060ecdd70959d8a6046f55    15878693  2023-07/care_compare_snapshots/hospitals_2023-10-06.zip
+2ac14e843720bf5a278026367cfcc328       11556  2023-07/sas_package_mirror_rush/0 - Data and Measure Standardization_2023Jul.sas
+2311e69c551d0f7b22d7907fc5517074        4704  2023-07/sas_package_mirror_rush/1 - First stage_Simple Average of Measure Scores_2023Jul.sas
+cb07741c038fcbd6718045e0098de60b        8983  2023-07/sas_package_mirror_rush/2 - Second Stage_Weighted Average and Categorize Star_2023Jul.sas
+d254613aa03ca3510f9280296528741d        7452  2023-07/sas_package_mirror_rush/Star_Macros.sas
+b29551a0d683250e0579ab814e904095     2686976  2024-07/alldata_2024jul.sas7bdat
+b8ac2166ceeb8d476f9214b59eea1ec3    14318139  2024-07/care_compare_snapshots/hospitals_2024-07-31.zip
+a2889a8871be22c25d22bbebfd8d2733    15146617  2024-07/care_compare_snapshots/hospitals_2024-10-30.zip
+ee817c132c9b12454513e9fbf7c602c5       11549  2024-07/sas_package_mirror_rush/0 - Data and Measure Standardization_2024Jul.sas
+b77bccbc970bf3f06ddd91bc4a26597d        4719  2024-07/sas_package_mirror_rush/1 - First stage_Simple Average of Measure Scores_2024Jul.sas
+9e69da96524c5da9dca7236b9e976e61        9049  2024-07/sas_package_mirror_rush/2 - Second Stage_Weighted Average and Categorize Star_2024Jul.sas
+bba2fa5dcf7717c48c2508855bd7264b        7688  2024-07/sas_package_mirror_rush/Star_Macros.sas
+e97f1d52b3116c09d76d932976940a32      432569  2025-07/StarRatings_SASPackDoc_Jul2025.pdf
+d9bf0fbc9c27db46d7cd8cd5f32574e3     2621440  2025-07/alldata_2025jul.sas7bdat
+d9bf0fbc9c27db46d7cd8cd5f32574e3     2621440  2025-07/alldata_2025jul_kos.sas7bdat
+4c9cbb019a2e9c8f97452074fcb157cf    15302069  2025-07/care_compare_snapshots/hospitals_2025-04-30.zip
+3039635c112276999f202f87608c04e2    15564973  2025-07/care_compare_snapshots/hospitals_2025-08-14.zip
+3ec93ea2ffcaa2ffc8972b95acc0dd57       11689  2025-07/sas_package_mirror_kos/0 - Data and Measure Standardization_2025Jul.sas
+c24f34bc888d049019772b99bdf97c7d        4592  2025-07/sas_package_mirror_kos/1 - First stage_Simple Average of Measure Scores_2025Jul.sas
+10cb4a678ec6f85304269a45dd6eab2c        8765  2025-07/sas_package_mirror_kos/2 - Second Stage_Weighted Average and Categorize Star_2025Jul.sas
+789e388baa8935ff59c346eba1a3d92c        7391  2025-07/sas_package_mirror_kos/Star_Macros.sas
+b1973a74729fc4f715b0438e93f59d68       12067  2025-07/sas_package_mirror_rush/0 - Data and Measure Standardization_2025Jul.sas
+2c852921dffaadbaf46a1f32faed58da        4719  2025-07/sas_package_mirror_rush/1 - First stage_Simple Average of Measure Scores_2025Jul.sas
+372daa8ddc5b98d9eb35712e9a2c0fab        8993  2025-07/sas_package_mirror_rush/2 - Second Stage_Weighted Average and Categorize Star_2025Jul.sas
+bba2fa5dcf7717c48c2508855bd7264b        7688  2025-07/sas_package_mirror_rush/Star_Macros.sas
+7dc04f2b2466ec21805ce775ad11b235        8228  2026-05/R_Pack_2026Apr.zip
+faaff9ea2978851684337fdc26f846c3      407856  2026-05/StarRating_RPackDoc_Apr2026.pdf
+3e1a9529648ce5c2f6ad7b2fa1681457    13806586  2026-05/care_compare_snapshots/hospitals_2026-02-25.zip
+5b92b42785c7ff8bd4b5e559bada4953    13830630  2026-05/care_compare_snapshots/hospitals_2026-05-13.zip
+4bf3b214f85be421a76136aea7811a29     1764580  2026-05/stars_alldata_2026apr.csv
+8e47d5fe023bed39c311636c4d486f59       13351  SOURCES.txt
+27246094485dee4549c09b442255b818     8670513  methodology/2021_overhaul_federal_register/2020-17086.pdf
+c4c0e1dbe8e68aa8f64c3716ea9052c8    16027256  methodology/2021_overhaul_federal_register/2020-26819.pdf
+d989fdd8c32464c3a9f5b54b138b59dc      246080  methodology/2021_overhaul_federal_register/2021-03852.pdf
+bf14a0e70f6cd3f850128828a0f9a9d0      215669  methodology/2021_overhaul_federal_register/C1-2020-26819.pdf
+3a0860aae9313bcab82f9fd01af95962       88991  methodology/2021_overhaul_federal_register/ecfr_42CFR412.190_current.html
+a0de17c7ca20359d6523ba48ce93045e     1062399  methodology/Star_Rtngs_CompMthdlgy_v5.1.pdf

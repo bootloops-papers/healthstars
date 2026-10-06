@@ -1,0 +1,1404 @@
+{
+ "register": "ALT-B delta set: the one forced removal branch of the membership stacker (C04-2025) pinned to removal value 55 (canonical 54); all other machinery canonical (membership_stacker.py, imported unmodified); 2025 only; 2024/2026 unchanged from runs/membership_delta_sets.json",
+ "hypothesis": "cost+d60r+emp",
+ "score_vintage": {
+  "2024": "original",
+  "2025": "original",
+  "2026": "current"
+ },
+ "k_cap": 28,
+ "rem_cap": 8,
+ "alt": {
+  "target": "C04/ALL",
+  "removal_value": "55",
+  "n_removals": 8,
+  "canonical_removal_value": "54",
+  "removed_contracts": [
+   "H0174",
+   "H0543",
+   "H0562",
+   "H1035",
+   "H1290",
+   "H1609",
+   "H1997",
+   "H2256"
+  ],
+  "canonical_removed_contracts": [
+   "H0321",
+   "H0609",
+   "H0885",
+   "H1045",
+   "H1189",
+   "H1666",
+   "H3071",
+   "H3113"
+  ],
+  "overlap_with_canonical": []
+ },
+ "years": {
+  "2025": {
+   "adds": [
+    {
+     "id": "ADD-2025-MAPD-01",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C10/ALL": "0",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C18/ALL": "13",
+      "C25/ALL": "17/50",
+      "C26/ALL": "26",
+      "D01/MA-PD": "11",
+      "D02/MA-PD": "17/50",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-02",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C10/ALL": "0",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C18/ALL": "13",
+      "C25/ALL": "17/50",
+      "C26/ALL": "26",
+      "D01/MA-PD": "11",
+      "D02/MA-PD": "17/50",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-03",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C10/ALL": "0",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C18/ALL": "13",
+      "C25/ALL": "17/50",
+      "C26/ALL": "26",
+      "D01/MA-PD": "11",
+      "D02/MA-PD": "17/50",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-04",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C10/ALL": "0",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C18/ALL": "13",
+      "C25/ALL": "17/50",
+      "C26/ALL": "26",
+      "D02/MA-PD": "17/50",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-05",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C10/ALL": "0",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C18/ALL": "13",
+      "C25/ALL": "17/50",
+      "C26/ALL": "26",
+      "D02/MA-PD": "17/50",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-06",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C18/ALL": "13",
+      "C25/ALL": "17/50",
+      "C26/ALL": "26",
+      "D02/MA-PD": "17/50",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-07",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C25/ALL": "17/50",
+      "C26/ALL": "26",
+      "D02/MA-PD": "17/50",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-08",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C25/ALL": "17/50",
+      "C26/ALL": "26",
+      "D02/MA-PD": "17/50",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-09",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-10",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-11",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "6",
+      "C04/ALL": "46",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-12",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "6",
+      "C04/ALL": "46",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-13",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "6",
+      "C04/ALL": "46",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-14",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "6",
+      "C04/ALL": "46",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-15",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "6",
+      "C04/ALL": "46",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-16",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "6",
+      "C04/ALL": "46",
+      "C13/ALL": "43",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-17",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "6",
+      "C04/ALL": "46",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-18",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "6",
+      "C04/ALL": "46",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-19",
+     "org_class": "MA-PD",
+     "measures": {
+      "C04/ALL": "46",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-PDP-01",
+     "org_class": "PDP",
+     "measures": {
+      "D01/PDP": "90",
+      "D02/PDP": "2/25",
+      "D03/PDP": "15"
+     }
+    },
+    {
+     "id": "ADD-2025-PDP-02",
+     "org_class": "PDP",
+     "measures": {
+      "D01/PDP": "90",
+      "D02/PDP": "2/25"
+     }
+    },
+    {
+     "id": "ADD-2025-PDP-03",
+     "org_class": "PDP",
+     "measures": {
+      "D01/PDP": "90",
+      "D02/PDP": "2/25"
+     }
+    }
+   ],
+   "removals": [
+    {
+     "contract_id": "H0174",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C05/ALL",
+      "C06/ALL",
+      "C07/ALL",
+      "C08/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C29/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    },
+    {
+     "contract_id": "H0543",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C05/ALL",
+      "C06/ALL",
+      "C07/ALL",
+      "C08/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C29/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    },
+    {
+     "contract_id": "H0562",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C05/ALL",
+      "C06/ALL",
+      "C07/ALL",
+      "C08/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C29/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    },
+    {
+     "contract_id": "H1035",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C08/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C29/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    },
+    {
+     "contract_id": "H1290",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C05/ALL",
+      "C06/ALL",
+      "C07/ALL",
+      "C08/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C29/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    },
+    {
+     "contract_id": "H1609",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C05/ALL",
+      "C06/ALL",
+      "C07/ALL",
+      "C08/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C29/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    },
+    {
+     "contract_id": "H1997",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    },
+    {
+     "contract_id": "H2256",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C08/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C29/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    }
+   ],
+   "removal_notes": [
+    {
+     "target": "C04/ALL",
+     "axis": "forced",
+     "contracts": [
+      "H0174",
+      "H0543",
+      "H0562",
+      "H1035",
+      "H1290",
+      "H1609",
+      "H1997",
+      "H2256"
+     ],
+     "values": [
+      "55",
+      "55",
+      "55",
+      "55",
+      "55",
+      "55",
+      "55",
+      "55"
+     ],
+     "k_add_after": 19
+    }
+   ],
+   "coupling": [
+    {
+     "family": "Complaints about",
+     "C": "C25",
+     "D": "D02",
+     "C_multiset": [
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50"
+     ],
+     "D_submultiset": [
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50"
+     ],
+     "status": "coupled (D sub-multiset of C on shared MA-PD adds)"
+    },
+    {
+     "family": "Members Choosing to Leave",
+     "C": "C26",
+     "D": "D03",
+     "C_multiset": [
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26"
+     ],
+     "D_submultiset": [
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26"
+     ],
+     "status": "coupled (D sub-multiset of C on shared MA-PD adds)"
+    },
+    {
+     "family": "Call Center",
+     "status": "data not value-coupled; left free"
+    }
+   ],
+   "unsolved": [],
+   "battery": [
+    {
+     "mid": "C01",
+     "org": "ALL",
+     "pub_lo": "31",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "35",
+      "100"
+     ],
+     "after": [
+      "31",
+      "100"
+     ]
+    },
+    {
+     "mid": "C02",
+     "org": "ALL",
+     "pub_lo": "24",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "28",
+      "100"
+     ],
+     "after": [
+      "24",
+      "100"
+     ]
+    },
+    {
+     "mid": "C04",
+     "org": "ALL",
+     "pub_lo": "21",
+     "pub_hi": "77",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "22",
+      "78"
+     ],
+     "after": [
+      "21",
+      "77"
+     ]
+    },
+    {
+     "mid": "C05",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "C06",
+     "org": "ALL",
+     "pub_lo": "71",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "71",
+      "100"
+     ],
+     "after": [
+      "71",
+      "100"
+     ]
+    },
+    {
+     "mid": "C07",
+     "org": "ALL",
+     "pub_lo": "66",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "66",
+      "100"
+     ],
+     "after": [
+      "66",
+      "100"
+     ]
+    },
+    {
+     "mid": "C08",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "C09",
+     "org": "ALL",
+     "pub_lo": "29",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "37",
+      "100"
+     ],
+     "after": [
+      "29",
+      "100"
+     ]
+    },
+    {
+     "mid": "C10",
+     "org": "ALL",
+     "pub_lo": "52",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "56",
+      "100"
+     ],
+     "after": [
+      "52",
+      "100"
+     ]
+    },
+    {
+     "mid": "C11",
+     "org": "ALL",
+     "pub_lo": "48",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "48",
+      "100"
+     ],
+     "after": [
+      "48",
+      "100"
+     ]
+    },
+    {
+     "mid": "C12",
+     "org": "ALL",
+     "pub_lo": "17",
+     "pub_hi": "94",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "21",
+      "91"
+     ],
+     "after": [
+      "17",
+      "94"
+     ]
+    },
+    {
+     "mid": "C13",
+     "org": "ALL",
+     "pub_lo": "24",
+     "pub_hi": "66",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "21",
+      "70"
+     ],
+     "after": [
+      "24",
+      "66"
+     ]
+    },
+    {
+     "mid": "C14",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "C15",
+     "org": "ALL",
+     "pub_lo": "4",
+     "pub_hi": "18",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "4",
+      "18"
+     ],
+     "after": [
+      "4",
+      "18"
+     ]
+    },
+    {
+     "mid": "C16",
+     "org": "ALL",
+     "pub_lo": "72",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "72",
+      "100"
+     ],
+     "after": [
+      "72",
+      "100"
+     ]
+    },
+    {
+     "mid": "C17",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "C18",
+     "org": "ALL",
+     "pub_lo": "22",
+     "pub_hi": "92",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "26",
+      "89"
+     ],
+     "after": [
+      "22",
+      "92"
+     ]
+    },
+    {
+     "mid": "C25",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "1.08",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "23/25"
+     ],
+     "after": [
+      "0",
+      "27/25"
+     ]
+    },
+    {
+     "mid": "C26",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "79",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "75"
+     ],
+     "after": [
+      "0",
+      "79"
+     ]
+    },
+    {
+     "mid": "C27",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "1",
+     "status": "no_data"
+    },
+    {
+     "mid": "C28",
+     "org": "ALL",
+     "pub_lo": "80",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "80",
+      "100"
+     ],
+     "after": [
+      "80",
+      "100"
+     ]
+    },
+    {
+     "mid": "C29",
+     "org": "ALL",
+     "pub_lo": "82",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "82",
+      "100"
+     ],
+     "after": [
+      "82",
+      "100"
+     ]
+    },
+    {
+     "mid": "C30",
+     "org": "ALL",
+     "pub_lo": "82",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "82",
+      "100"
+     ],
+     "after": [
+      "82",
+      "100"
+     ]
+    },
+    {
+     "mid": "D01",
+     "org": "MA-PD",
+     "pub_lo": "74",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "82",
+      "100"
+     ],
+     "after": [
+      "74",
+      "100"
+     ]
+    },
+    {
+     "mid": "D02",
+     "org": "MA-PD",
+     "pub_lo": "0",
+     "pub_hi": "1.08",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "23/25"
+     ],
+     "after": [
+      "0",
+      "27/25"
+     ]
+    },
+    {
+     "mid": "D03",
+     "org": "MA-PD",
+     "pub_lo": "0",
+     "pub_hi": "79",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "75"
+     ],
+     "after": [
+      "0",
+      "79"
+     ]
+    },
+    {
+     "mid": "D04",
+     "org": "MA-PD",
+     "pub_lo": "0",
+     "pub_hi": "1",
+     "status": "no_data"
+    },
+    {
+     "mid": "D07",
+     "org": "MA-PD",
+     "pub_lo": "95",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "95",
+      "100"
+     ],
+     "after": [
+      "95",
+      "100"
+     ]
+    },
+    {
+     "mid": "D08",
+     "org": "MA-PD",
+     "pub_lo": "72",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "72",
+      "100"
+     ],
+     "after": [
+      "72",
+      "100"
+     ]
+    },
+    {
+     "mid": "D09",
+     "org": "MA-PD",
+     "pub_lo": "75",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "75",
+      "100"
+     ],
+     "after": [
+      "75",
+      "100"
+     ]
+    },
+    {
+     "mid": "D10",
+     "org": "MA-PD",
+     "pub_lo": "74",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "74",
+      "100"
+     ],
+     "after": [
+      "74",
+      "100"
+     ]
+    },
+    {
+     "mid": "D11",
+     "org": "MA-PD",
+     "pub_lo": "61",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "61",
+      "100"
+     ],
+     "after": [
+      "61",
+      "100"
+     ]
+    },
+    {
+     "mid": "D12",
+     "org": "MA-PD",
+     "pub_lo": "68",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "68",
+      "100"
+     ],
+     "after": [
+      "68",
+      "100"
+     ]
+    },
+    {
+     "mid": "D01",
+     "org": "PDP",
+     "pub_lo": "86",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "94",
+      "100"
+     ],
+     "after": [
+      "86",
+      "100"
+     ]
+    },
+    {
+     "mid": "D02",
+     "org": "PDP",
+     "pub_lo": "0",
+     "pub_hi": "0.22",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "9/50"
+     ],
+     "after": [
+      "0",
+      "11/50"
+     ]
+    },
+    {
+     "mid": "D03",
+     "org": "PDP",
+     "pub_lo": "0",
+     "pub_hi": "45",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "41"
+     ],
+     "after": [
+      "0",
+      "45"
+     ]
+    },
+    {
+     "mid": "D04",
+     "org": "PDP",
+     "pub_lo": "0",
+     "pub_hi": "1",
+     "status": "no_data"
+    },
+    {
+     "mid": "D07",
+     "org": "PDP",
+     "pub_lo": "95",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "95",
+      "100"
+     ],
+     "after": [
+      "95",
+      "100"
+     ]
+    },
+    {
+     "mid": "D08",
+     "org": "PDP",
+     "pub_lo": "76",
+     "pub_hi": "97",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "76",
+      "97"
+     ],
+     "after": [
+      "76",
+      "97"
+     ]
+    },
+    {
+     "mid": "D09",
+     "org": "PDP",
+     "pub_lo": "82",
+     "pub_hi": "96",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "82",
+      "96"
+     ],
+     "after": [
+      "82",
+      "96"
+     ]
+    },
+    {
+     "mid": "D10",
+     "org": "PDP",
+     "pub_lo": "81",
+     "pub_hi": "95",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "81",
+      "95"
+     ],
+     "after": [
+      "81",
+      "95"
+     ]
+    },
+    {
+     "mid": "D11",
+     "org": "PDP",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "D12",
+     "org": "PDP",
+     "pub_lo": "76",
+     "pub_hi": "90",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "76",
+      "90"
+     ],
+     "after": [
+      "76",
+      "90"
+     ]
+    }
+   ],
+   "exact_before": 24,
+   "exact_after": 40,
+   "evaluable": 40
+  }
+ }
+}

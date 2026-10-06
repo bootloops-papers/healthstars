@@ -1,0 +1,488 @@
+{
+ "run": "mechanism_direction_census",
+ "register": "skew from the stored replay score outputs (SAS era: work/sas_replay_out/star_*.csv summary_score doubles, replays that reproduce the published stars with zero mismatches; 2026: work/R_output/fullprec_2026apr.csv %.17g doubles of the byte-unmodified R replay); direction from the stored censuses (exact binary-double register; the 2026 CMS side is pre-cap; after the safety cap the census is 208 of 3,203, still all upward, runs/safety_cap_check_2026.json). Skewness estimator: adjusted Fisher-Pearson G1 = g1*sqrt(n(n-1))/(n-2); the quoted 'moment skew' values are g1 (both stored per group-year).",
+ "table": [
+  {
+   "year": "2021",
+   "peer": "peer3",
+   "n": 337,
+   "skew_g1_moment": -0.314518,
+   "skew_G1_adjusted_fisher_pearson": -0.315926,
+   "left_skewed": true,
+   "differs": 67,
+   "up": 8,
+   "down": 59,
+   "direction": "mixed",
+   "moves": {
+    "4->3": 29,
+    "5->4": 25,
+    "1->2": 8,
+    "3->2": 5
+   }
+  },
+  {
+   "year": "2021",
+   "peer": "peer4",
+   "n": 553,
+   "skew_g1_moment": -0.81861,
+   "skew_G1_adjusted_fisher_pearson": -0.820839,
+   "left_skewed": true,
+   "differs": 26,
+   "up": 26,
+   "down": 0,
+   "direction": "all-up",
+   "moves": {
+    "2->3": 15,
+    "1->2": 10,
+    "3->4": 1
+   }
+  },
+  {
+   "year": "2021",
+   "peer": "peer5",
+   "n": 2465,
+   "skew_g1_moment": -0.37865,
+   "skew_G1_adjusted_fisher_pearson": -0.37888,
+   "left_skewed": true,
+   "differs": 6,
+   "up": 6,
+   "down": 0,
+   "direction": "all-up",
+   "moves": {
+    "1->2": 2,
+    "3->4": 4
+   }
+  },
+  {
+   "year": "2022",
+   "peer": "peer3",
+   "n": 228,
+   "skew_g1_moment": -0.110623,
+   "skew_G1_adjusted_fisher_pearson": -0.111357,
+   "left_skewed": true,
+   "differs": 46,
+   "up": 0,
+   "down": 46,
+   "direction": "all-down",
+   "moves": {
+    "5->4": 15,
+    "4->3": 23,
+    "3->2": 8
+   }
+  },
+  {
+   "year": "2022",
+   "peer": "peer4",
+   "n": 490,
+   "skew_g1_moment": -0.794064,
+   "skew_G1_adjusted_fisher_pearson": -0.796504,
+   "left_skewed": true,
+   "differs": 74,
+   "up": 74,
+   "down": 0,
+   "direction": "all-up",
+   "moves": {
+    "3->4": 34,
+    "2->3": 29,
+    "4->5": 8,
+    "1->2": 3
+   }
+  },
+  {
+   "year": "2022",
+   "peer": "peer5",
+   "n": 2403,
+   "skew_g1_moment": -0.370724,
+   "skew_G1_adjusted_fisher_pearson": -0.370956,
+   "left_skewed": true,
+   "differs": 33,
+   "up": 33,
+   "down": 0,
+   "direction": "all-up",
+   "moves": {
+    "2->3": 15,
+    "3->4": 17,
+    "1->2": 1
+   }
+  },
+  {
+   "year": "2023",
+   "peer": "peer3",
+   "n": 194,
+   "skew_g1_moment": -0.402895,
+   "skew_G1_adjusted_fisher_pearson": -0.406041,
+   "left_skewed": true,
+   "differs": 118,
+   "up": 118,
+   "down": 0,
+   "direction": "all-up",
+   "moves": {
+    "2->3": 22,
+    "3->4": 54,
+    "1->2": 14,
+    "4->5": 28
+   }
+  },
+  {
+   "year": "2023",
+   "peer": "peer4",
+   "n": 462,
+   "skew_g1_moment": -0.298125,
+   "skew_G1_adjusted_fisher_pearson": -0.299097,
+   "left_skewed": true,
+   "differs": 249,
+   "up": 15,
+   "down": 234,
+   "direction": "mixed",
+   "moves": {
+    "4->3": 108,
+    "3->2": 37,
+    "5->4": 89,
+    "1->2": 15
+   }
+  },
+  {
+   "year": "2023",
+   "peer": "peer5",
+   "n": 2420,
+   "skew_g1_moment": -0.277087,
+   "skew_G1_adjusted_fisher_pearson": -0.277259,
+   "left_skewed": true,
+   "differs": 3,
+   "up": 3,
+   "down": 0,
+   "direction": "all-up",
+   "moves": {
+    "3->4": 2,
+    "2->3": 1
+   }
+  },
+  {
+   "year": "2024",
+   "peer": "peer3",
+   "n": 115,
+   "skew_g1_moment": -1.861519,
+   "skew_G1_adjusted_fisher_pearson": -1.886212,
+   "left_skewed": true,
+   "differs": 7,
+   "up": 7,
+   "down": 0,
+   "direction": "all-up",
+   "moves": {
+    "3->4": 5,
+    "1->2": 1,
+    "2->3": 1
+   }
+  },
+  {
+   "year": "2024",
+   "peer": "peer4",
+   "n": 465,
+   "skew_g1_moment": -0.128771,
+   "skew_G1_adjusted_fisher_pearson": -0.129189,
+   "left_skewed": true,
+   "differs": 258,
+   "up": 0,
+   "down": 258,
+   "direction": "all-down",
+   "moves": {
+    "4->3": 108,
+    "3->2": 68,
+    "5->4": 71,
+    "2->1": 11
+   }
+  },
+  {
+   "year": "2024",
+   "peer": "peer5",
+   "n": 2267,
+   "skew_g1_moment": -0.157723,
+   "skew_G1_adjusted_fisher_pearson": -0.157827,
+   "left_skewed": true,
+   "differs": 8,
+   "up": 8,
+   "down": 0,
+   "direction": "all-up",
+   "moves": {
+    "2->3": 6,
+    "1->2": 1,
+    "3->4": 1
+   }
+  },
+  {
+   "year": "2025",
+   "peer": "peer3",
+   "n": 141,
+   "skew_g1_moment": -1.209066,
+   "skew_G1_adjusted_fisher_pearson": -1.222105,
+   "left_skewed": true,
+   "differs": 11,
+   "up": 11,
+   "down": 0,
+   "direction": "all-up",
+   "moves": {
+    "2->3": 5,
+    "3->4": 2,
+    "1->2": 4
+   }
+  },
+  {
+   "year": "2025",
+   "peer": "peer4",
+   "n": 515,
+   "skew_g1_moment": -0.084077,
+   "skew_G1_adjusted_fisher_pearson": -0.084323,
+   "left_skewed": true,
+   "differs": 5,
+   "up": 0,
+   "down": 5,
+   "direction": "all-down",
+   "moves": {
+    "4->3": 1,
+    "3->2": 4
+   }
+  },
+  {
+   "year": "2025",
+   "peer": "peer5",
+   "n": 2235,
+   "skew_g1_moment": -0.090468,
+   "skew_G1_adjusted_fisher_pearson": -0.090529,
+   "left_skewed": true,
+   "differs": 22,
+   "up": 22,
+   "down": 0,
+   "direction": "all-up",
+   "moves": {
+    "4->5": 4,
+    "3->4": 9,
+    "1->2": 4,
+    "2->3": 5
+   }
+  },
+  {
+   "year": "2026",
+   "peer": "peer3",
+   "n": 177,
+   "skew_g1_moment": -0.798332,
+   "skew_G1_adjusted_fisher_pearson": -0.805171,
+   "left_skewed": true,
+   "differs": 55,
+   "up": 55,
+   "down": 0,
+   "direction": "all-up",
+   "moves": {
+    "3->4": 22,
+    "4->5": 5,
+    "1->2": 9,
+    "2->3": 19
+   }
+  },
+  {
+   "year": "2026",
+   "peer": "peer4",
+   "n": 749,
+   "skew_g1_moment": -0.684515,
+   "skew_G1_adjusted_fisher_pearson": -0.685889,
+   "left_skewed": true,
+   "differs": 68,
+   "up": 68,
+   "down": 0,
+   "direction": "all-up",
+   "moves": {
+    "3->4": 27,
+    "2->3": 28,
+    "1->2": 10,
+    "4->5": 3
+   }
+  },
+  {
+   "year": "2026",
+   "peer": "peer5",
+   "n": 2277,
+   "skew_g1_moment": -0.311581,
+   "skew_G1_adjusted_fisher_pearson": -0.311786,
+   "left_skewed": true,
+   "differs": 90,
+   "up": 90,
+   "down": 0,
+   "direction": "all-up",
+   "moves": {
+    "2->3": 21,
+    "3->4": 43,
+    "4->5": 25,
+    "1->2": 1
+   }
+  }
+ ],
+ "postcap_2026_rows_second_register": [
+  {
+   "year": "2026",
+   "peer": "peer3",
+   "register": "post-cap",
+   "differs": 55,
+   "up": 55,
+   "down": 0,
+   "direction": "all-up"
+  },
+  {
+   "year": "2026",
+   "peer": "peer4",
+   "register": "post-cap",
+   "differs": 68,
+   "up": 68,
+   "down": 0,
+   "direction": "all-up"
+  },
+  {
+   "year": "2026",
+   "peer": "peer5",
+   "register": "post-cap",
+   "differs": 85,
+   "up": 85,
+   "down": 0,
+   "direction": "all-up"
+  }
+ ],
+ "direction_structure": {
+  "sas_era_15_group_years": {
+   "group_years": 15,
+   "all-up": 10,
+   "all-down": 3,
+   "mixed": 2,
+   "one_signed": 13,
+   "one_signed_over_total": "13/15"
+  },
+  "canonical_18_group_years_one_census_per_year_2026_precap": {
+   "group_years": 18,
+   "all-up": 13,
+   "all-down": 3,
+   "mixed": 2,
+   "one_signed": 16,
+   "one_signed_over_total": "16/18"
+  },
+  "with_2026_postcap_register_also_counted_21": {
+   "group_years": 21,
+   "all-up": 16,
+   "all-down": 3,
+   "mixed": 2,
+   "one_signed": 19,
+   "one_signed_over_total": "19/21"
+  },
+  "mixed_group_years_named": [
+   {
+    "year": "2021",
+    "peer": "peer3",
+    "up": 8,
+    "down": 59
+   },
+   {
+    "year": "2023",
+    "peer": "peer4",
+    "up": 15,
+    "down": 234
+   }
+  ],
+  "universe_note": "21 group-year instances arise only when the 2026 census is counted at two registers (pre-cap and post-cap); the one-census-per-year count is 16/18 one-signed with the same two mixed group-years. Both tallies are stored."
+ },
+ "supported_register_checks": {
+  "one_signed_within_group_year_is_the_norm": "16/18",
+  "side_is_year_and_group_dependent": {
+   "all_up_group_years": 13,
+   "all_down_group_years": 3,
+   "all_down_named": [
+    {
+     "year": "2022",
+     "peer": "peer3",
+     "down": 46
+    },
+    {
+     "year": "2024",
+     "peer": "peer4",
+     "down": 258
+    },
+    {
+     "year": "2025",
+     "peer": "peer4",
+     "down": 5
+    }
+   ]
+  },
+  "skew_sign_does_NOT_pick_the_side_across_years": {
+   "claim": "three left-skewed group-years move all-down",
+   "computed": [
+    {
+     "year": "2022",
+     "peer": "peer3",
+     "skew_g1": -0.110623,
+     "left_skewed": true,
+     "down": 46
+    },
+    {
+     "year": "2024",
+     "peer": "peer4",
+     "skew_g1": -0.128771,
+     "left_skewed": true,
+     "down": 258
+    },
+    {
+     "year": "2025",
+     "peer": "peer4",
+     "skew_g1": -0.084077,
+     "left_skewed": true,
+     "down": 5
+    }
+   ],
+   "holds": true,
+   "reading": "every group-year in the study is left-skewed (g1 < 0 in 18/18) yet three of them move all-down, so the skew sign cannot be the cross-year side-selector"
+  },
+  "all_left_skewed_18_of_18": true
+ },
+ "cross_check_vs_stored_mechanism_record": {
+  "2026_peer3": {
+   "stored_mechanism_record_g1": -0.798331848151868,
+   "recomputed_g1": -0.798332,
+   "agrees_4dp": true
+  },
+  "2025_peer3": {
+   "stored_mechanism_record_g1": -1.209065618864276,
+   "recomputed_g1": -1.209066,
+   "agrees_4dp": true
+  },
+  "2026_peer4": {
+   "stored_mechanism_record_g1": -0.6845146732002659,
+   "recomputed_g1": -0.684515,
+   "agrees_4dp": true
+  },
+  "2025_peer4": {
+   "stored_mechanism_record_g1": -0.08407682892268271,
+   "recomputed_g1": -0.084077,
+   "agrees_4dp": true
+  },
+  "2026_peer5": {
+   "stored_mechanism_record_g1": -0.31158074793023377,
+   "recomputed_g1": -0.311581,
+   "agrees_4dp": true
+  },
+  "2025_peer5": {
+   "stored_mechanism_record_g1": -0.09046780972550902,
+   "recomputed_g1": -0.090468,
+   "agrees_4dp": true
+  }
+ },
+ "inputs": {
+  "scores": [
+   "work/sas_replay_out/star_{2021-04,2022-07,2023-07,2024-07,2025-07}.csv",
+   "work/R_output/fullprec_2026apr.csv"
+  ],
+  "censuses": [
+   "runs/exact_census_2021.json",
+   "runs/exact_census_2022.json",
+   "runs/exact_census_2023.json",
+   "runs/exact_census_2024.json",
+   "runs/exact_census_2025.json",
+   "runs/exact_census_2026.json"
+  ],
+  "cap": "runs/safety_cap_check_2026.json"
+ }
+}

@@ -1,0 +1,994 @@
+{
+ "register": "Fill-family sweep: the criterion flip census is invariant over all 33 enumerated alternative side-profile classes of the score-list reconstruction, each verified by a constructive witness, alone or in combination. This is not every feasible resolution: the family enumeration is at side-profile-class granularity, minimal-feasible-k only, one constructive witness per class under a 4,000-candidate search cap; value-level alternatives within a class were not swept, and a feasible class whose witness search exhausted the cap would be silently omitted (the canonical coupled solution itself sits outside the per-split grids on 6 of 7 targets). Method: one-at-a-time on the true pre-witness base (exact multiset reconciliation guard) + per-target calibration check reproducing the stored dp_cutpoints, rerun through trim, exact DP, guardrail, rounding, and the stored independent application loop.",
+ "generator": "src/fill_family_sweep.py",
+ "mode": "full",
+ "n_multi_profile_targets": 7,
+ "n_variants_run": 33,
+ "targets": [
+  {
+   "year": "2024",
+   "mid": "C25",
+   "org": "ALL",
+   "n_profiles": 4,
+   "canonical_index": null,
+   "canonical_in_family": false,
+   "canonical_adds": [
+    "43/100",
+    "43/100"
+   ],
+   "canonical_rems": [
+    "9/100",
+    "1/2"
+   ],
+   "common_base_consistent": true,
+   "calibration_dp_reproduced": true,
+   "variants": [
+    {
+     "variant": 0,
+     "k": 5,
+     "fences_recomputed": [
+      "0",
+      "141/100"
+     ],
+     "fences_published": [
+      "0",
+      "1.41"
+     ],
+     "final_boundaries": [
+      "3/20",
+      "11/25",
+      "83/100",
+      "147/100"
+     ],
+     "n_deltas_canonical": 22,
+     "n_deltas_variant": 22,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 1,
+     "k": 5,
+     "fences_recomputed": [
+      "0",
+      "141/100"
+     ],
+     "fences_published": [
+      "0",
+      "1.41"
+     ],
+     "final_boundaries": [
+      "3/20",
+      "11/25",
+      "83/100",
+      "147/100"
+     ],
+     "n_deltas_canonical": 22,
+     "n_deltas_variant": 22,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 2,
+     "k": 5,
+     "fences_recomputed": [
+      "0",
+      "141/100"
+     ],
+     "fences_published": [
+      "0",
+      "1.41"
+     ],
+     "final_boundaries": [
+      "3/20",
+      "11/25",
+      "83/100",
+      "147/100"
+     ],
+     "n_deltas_canonical": 22,
+     "n_deltas_variant": 22,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 3,
+     "k": 5,
+     "fences_recomputed": [
+      "0",
+      "141/100"
+     ],
+     "fences_published": [
+      "0",
+      "1.41"
+     ],
+     "final_boundaries": [
+      "3/20",
+      "11/25",
+      "83/100",
+      "147/100"
+     ],
+     "n_deltas_canonical": 22,
+     "n_deltas_variant": 22,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    }
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D03",
+   "org": "MA-PD",
+   "n_profiles": 6,
+   "canonical_index": null,
+   "canonical_in_family": false,
+   "canonical_adds": [
+    "0",
+    "0",
+    "9",
+    "29"
+   ],
+   "canonical_rems": [
+    "5",
+    "37"
+   ],
+   "common_base_consistent": true,
+   "calibration_dp_reproduced": true,
+   "variants": [
+    {
+     "variant": 0,
+     "k": 5,
+     "fences_recomputed": [
+      "0",
+      "175/2"
+     ],
+     "fences_published": [
+      "0",
+      "87.5"
+     ],
+     "final_boundaries": [
+      "8",
+      "16",
+      "26",
+      "40"
+     ],
+     "n_deltas_canonical": 110,
+     "n_deltas_variant": 110,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 1,
+     "k": 5,
+     "fences_recomputed": [
+      "0",
+      "175/2"
+     ],
+     "fences_published": [
+      "0",
+      "87.5"
+     ],
+     "final_boundaries": [
+      "8",
+      "16",
+      "26",
+      "40"
+     ],
+     "n_deltas_canonical": 110,
+     "n_deltas_variant": 110,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 2,
+     "k": 5,
+     "fences_recomputed": [
+      "0",
+      "175/2"
+     ],
+     "fences_published": [
+      "0",
+      "87.5"
+     ],
+     "final_boundaries": [
+      "8",
+      "16",
+      "26",
+      "40"
+     ],
+     "n_deltas_canonical": 110,
+     "n_deltas_variant": 110,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 3,
+     "k": 5,
+     "fences_recomputed": [
+      "0",
+      "175/2"
+     ],
+     "fences_published": [
+      "0",
+      "87.5"
+     ],
+     "final_boundaries": [
+      "8",
+      "16",
+      "26",
+      "40"
+     ],
+     "n_deltas_canonical": 110,
+     "n_deltas_variant": 110,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 4,
+     "k": 5,
+     "fences_recomputed": [
+      "0",
+      "175/2"
+     ],
+     "fences_published": [
+      "0",
+      "87.5"
+     ],
+     "final_boundaries": [
+      "8",
+      "16",
+      "26",
+      "40"
+     ],
+     "n_deltas_canonical": 110,
+     "n_deltas_variant": 110,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 5,
+     "k": 5,
+     "fences_recomputed": [
+      "0",
+      "175/2"
+     ],
+     "fences_published": [
+      "0",
+      "87.5"
+     ],
+     "final_boundaries": [
+      "8",
+      "16",
+      "26",
+      "40"
+     ],
+     "n_deltas_canonical": 110,
+     "n_deltas_variant": 110,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    }
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D03",
+   "org": "PDP",
+   "n_profiles": 2,
+   "canonical_index": null,
+   "canonical_in_family": false,
+   "canonical_adds": [
+    "21",
+    "21",
+    "21"
+   ],
+   "canonical_rems": [],
+   "common_base_consistent": true,
+   "calibration_dp_reproduced": true,
+   "variants": [
+    {
+     "variant": 0,
+     "k": 5,
+     "fences_recomputed": [
+      "0",
+      "62"
+     ],
+     "fences_published": [
+      "0",
+      "62"
+     ],
+     "final_boundaries": [
+      "8",
+      "15",
+      "20",
+      "34"
+     ],
+     "n_deltas_canonical": 0,
+     "n_deltas_variant": 8,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 1,
+     "k": 5,
+     "fences_recomputed": [
+      "0",
+      "62"
+     ],
+     "fences_published": [
+      "0",
+      "62"
+     ],
+     "final_boundaries": [
+      "8",
+      "16",
+      "20",
+      "34"
+     ],
+     "n_deltas_canonical": 0,
+     "n_deltas_variant": 9,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    }
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C06",
+   "org": "ALL",
+   "n_profiles": 11,
+   "canonical_index": null,
+   "canonical_in_family": false,
+   "canonical_adds": [
+    "47",
+    "47"
+   ],
+   "canonical_rems": [],
+   "common_base_consistent": true,
+   "calibration_dp_reproduced": true,
+   "variants": [
+    {
+     "variant": 0,
+     "k": 5,
+     "fences_recomputed": [
+      "41/2",
+      "80"
+     ],
+     "fences_published": [
+      "20.5",
+      "80"
+     ],
+     "final_boundaries": [
+      "42",
+      "48",
+      "53",
+      "60"
+     ],
+     "n_deltas_canonical": 34,
+     "n_deltas_variant": 34,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 1,
+     "k": 5,
+     "fences_recomputed": [
+      "41/2",
+      "80"
+     ],
+     "fences_published": [
+      "20.5",
+      "80"
+     ],
+     "final_boundaries": [
+      "42",
+      "48",
+      "53",
+      "60"
+     ],
+     "n_deltas_canonical": 34,
+     "n_deltas_variant": 34,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 2,
+     "k": 5,
+     "fences_recomputed": [
+      "41/2",
+      "80"
+     ],
+     "fences_published": [
+      "20.5",
+      "80"
+     ],
+     "final_boundaries": [
+      "42",
+      "48",
+      "53",
+      "60"
+     ],
+     "n_deltas_canonical": 34,
+     "n_deltas_variant": 34,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 3,
+     "k": 5,
+     "fences_recomputed": [
+      "41/2",
+      "80"
+     ],
+     "fences_published": [
+      "20.5",
+      "80"
+     ],
+     "final_boundaries": [
+      "42",
+      "48",
+      "53",
+      "60"
+     ],
+     "n_deltas_canonical": 34,
+     "n_deltas_variant": 34,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 4,
+     "k": 5,
+     "fences_recomputed": [
+      "41/2",
+      "80"
+     ],
+     "fences_published": [
+      "20.5",
+      "80"
+     ],
+     "final_boundaries": [
+      "42",
+      "48",
+      "53",
+      "60"
+     ],
+     "n_deltas_canonical": 34,
+     "n_deltas_variant": 34,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 5,
+     "k": 5,
+     "fences_recomputed": [
+      "41/2",
+      "80"
+     ],
+     "fences_published": [
+      "20.5",
+      "80"
+     ],
+     "final_boundaries": [
+      "42",
+      "48",
+      "53",
+      "60"
+     ],
+     "n_deltas_canonical": 34,
+     "n_deltas_variant": 34,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 6,
+     "k": 5,
+     "fences_recomputed": [
+      "41/2",
+      "80"
+     ],
+     "fences_published": [
+      "20.5",
+      "80"
+     ],
+     "final_boundaries": [
+      "42",
+      "48",
+      "53",
+      "60"
+     ],
+     "n_deltas_canonical": 34,
+     "n_deltas_variant": 34,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 7,
+     "k": 5,
+     "fences_recomputed": [
+      "41/2",
+      "80"
+     ],
+     "fences_published": [
+      "20.5",
+      "80"
+     ],
+     "final_boundaries": [
+      "42",
+      "48",
+      "53",
+      "60"
+     ],
+     "n_deltas_canonical": 34,
+     "n_deltas_variant": 34,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 8,
+     "k": 5,
+     "fences_recomputed": [
+      "41/2",
+      "80"
+     ],
+     "fences_published": [
+      "20.5",
+      "80"
+     ],
+     "final_boundaries": [
+      "42",
+      "48",
+      "53",
+      "60"
+     ],
+     "n_deltas_canonical": 34,
+     "n_deltas_variant": 34,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 9,
+     "k": 5,
+     "fences_recomputed": [
+      "41/2",
+      "80"
+     ],
+     "fences_published": [
+      "20.5",
+      "80"
+     ],
+     "final_boundaries": [
+      "42",
+      "48",
+      "53",
+      "60"
+     ],
+     "n_deltas_canonical": 34,
+     "n_deltas_variant": 34,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 10,
+     "k": 5,
+     "fences_recomputed": [
+      "41/2",
+      "80"
+     ],
+     "fences_published": [
+      "20.5",
+      "80"
+     ],
+     "final_boundaries": [
+      "42",
+      "48",
+      "53",
+      "60"
+     ],
+     "n_deltas_canonical": 34,
+     "n_deltas_variant": 34,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    }
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C13",
+   "org": "ALL",
+   "n_profiles": 4,
+   "canonical_index": 3,
+   "canonical_in_family": true,
+   "canonical_adds": [
+    "0",
+    "0",
+    "0",
+    "0"
+   ],
+   "canonical_rems": [],
+   "common_base_consistent": true,
+   "calibration_dp_reproduced": true,
+   "variants": [
+    {
+     "variant": 0,
+     "k": 5,
+     "fences_recomputed": [
+      "9",
+      "100"
+     ],
+     "fences_published": [
+      "9",
+      "100"
+     ],
+     "final_boundaries": [
+      "37",
+      "54",
+      "65",
+      "76"
+     ],
+     "n_deltas_canonical": 119,
+     "n_deltas_variant": 119,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 1,
+     "k": 5,
+     "fences_recomputed": [
+      "9",
+      "100"
+     ],
+     "fences_published": [
+      "9",
+      "100"
+     ],
+     "final_boundaries": [
+      "37",
+      "54",
+      "65",
+      "76"
+     ],
+     "n_deltas_canonical": 119,
+     "n_deltas_variant": 119,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 2,
+     "k": 5,
+     "fences_recomputed": [
+      "9",
+      "100"
+     ],
+     "fences_published": [
+      "9",
+      "100"
+     ],
+     "final_boundaries": [
+      "37",
+      "54",
+      "65",
+      "76"
+     ],
+     "n_deltas_canonical": 119,
+     "n_deltas_variant": 119,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    }
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "D02",
+   "org": "PDP",
+   "n_profiles": 3,
+   "canonical_index": null,
+   "canonical_in_family": false,
+   "canonical_adds": [],
+   "canonical_rems": [],
+   "common_base_consistent": true,
+   "calibration_dp_reproduced": true,
+   "variants": [
+    {
+     "variant": 0,
+     "k": 5,
+     "fences_recomputed": [
+      "0",
+      "17/100"
+     ],
+     "fences_published": [
+      "0",
+      "0.19"
+     ],
+     "final_boundaries": [
+      "1/100",
+      "7/100",
+      "4/25",
+      "7/25"
+     ],
+     "n_deltas_canonical": 13,
+     "n_deltas_variant": 13,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 1,
+     "k": 5,
+     "fences_recomputed": [
+      "0",
+      "17/100"
+     ],
+     "fences_published": [
+      "0",
+      "0.19"
+     ],
+     "final_boundaries": [
+      "1/100",
+      "7/100",
+      "4/25",
+      "7/25"
+     ],
+     "n_deltas_canonical": 13,
+     "n_deltas_variant": 13,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 2,
+     "k": 5,
+     "fences_recomputed": [
+      "0",
+      "17/100"
+     ],
+     "fences_published": [
+      "0",
+      "0.19"
+     ],
+     "final_boundaries": [
+      "1/100",
+      "7/100",
+      "4/25",
+      "7/25"
+     ],
+     "n_deltas_canonical": 13,
+     "n_deltas_variant": 13,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    }
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "D10",
+   "org": "PDP",
+   "n_profiles": 4,
+   "canonical_index": null,
+   "canonical_in_family": false,
+   "canonical_adds": [],
+   "canonical_rems": [],
+   "common_base_consistent": true,
+   "calibration_dp_reproduced": true,
+   "variants": [
+    {
+     "variant": 0,
+     "k": 5,
+     "fences_recomputed": [
+      "81",
+      "95"
+     ],
+     "fences_published": [
+      "81",
+      "95"
+     ],
+     "final_boundaries": [
+      "87",
+      "89",
+      "90",
+      "92"
+     ],
+     "n_deltas_canonical": 2,
+     "n_deltas_variant": 2,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 1,
+     "k": 5,
+     "fences_recomputed": [
+      "81",
+      "95"
+     ],
+     "fences_published": [
+      "81",
+      "95"
+     ],
+     "final_boundaries": [
+      "87",
+      "89",
+      "90",
+      "92"
+     ],
+     "n_deltas_canonical": 2,
+     "n_deltas_variant": 2,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 2,
+     "k": 5,
+     "fences_recomputed": [
+      "81",
+      "95"
+     ],
+     "fences_published": [
+      "81",
+      "95"
+     ],
+     "final_boundaries": [
+      "87",
+      "89",
+      "90",
+      "92"
+     ],
+     "n_deltas_canonical": 2,
+     "n_deltas_variant": 2,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    },
+    {
+     "variant": 3,
+     "k": 5,
+     "fences_recomputed": [
+      "81",
+      "95"
+     ],
+     "fences_published": [
+      "81",
+      "95"
+     ],
+     "final_boundaries": [
+      "87",
+      "89",
+      "90",
+      "92"
+     ],
+     "n_deltas_canonical": 2,
+     "n_deltas_variant": 2,
+     "flip_set_identical": true,
+     "flips_gained": [],
+     "flips_lost": [],
+     "flips_of_record_lost": []
+    }
+   ]
+  }
+ ],
+ "interacting_contracts_across_multi_targets": [
+  [
+   "2024",
+   "H1045"
+  ],
+  [
+   "2024",
+   "H1608"
+  ],
+  [
+   "2024",
+   "H2593"
+  ],
+  [
+   "2024",
+   "H3379"
+  ],
+  [
+   "2024",
+   "H3418"
+  ],
+  [
+   "2024",
+   "H3554"
+  ],
+  [
+   "2026",
+   "H0432"
+  ],
+  [
+   "2026",
+   "H0624"
+  ],
+  [
+   "2026",
+   "H2406"
+  ],
+  [
+   "2026",
+   "H4407"
+  ],
+  [
+   "2026",
+   "H5410"
+  ],
+  [
+   "2026",
+   "H6847"
+  ],
+  [
+   "2026",
+   "H8070"
+  ],
+  [
+   "2026",
+   "H8889"
+  ]
+ ],
+ "closure_analysis": {
+  "boundary_identical_variants": 31,
+  "combination_closure": "Complete where at most one boundary-differing variant can be active per combination: variants reproducing the canonical boundaries byte-for-byte are inert; the boundary-differing variants (see per-variant rows) all belong to single targets, and each was tested alone."
+ },
+ "summary": {
+  "all_calibrations_ok": true,
+  "all_bases_consistent": true,
+  "n_variants_flip_identical": 33,
+  "n_variants_flip_changed": 0,
+  "changed_detail": []
+ }
+}

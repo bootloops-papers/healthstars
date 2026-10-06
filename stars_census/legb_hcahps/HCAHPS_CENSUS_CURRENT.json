@@ -1,0 +1,472 @@
+{
+ "register": "HCAHPS: all 8 starred measures, Provider Data Catalog refresh covering discharges 07/2024-06/2025; published star partition vs the exact SSQ optimum on the published integer linear mean scores (the Technical Notes' prescribed inputs), with all optimal interval partitions enumerated per measure.",
+ "measures": {
+  "H_COMP_1": {
+   "n": 3176,
+   "published_intervals": [
+    [
+     74,
+     85
+    ],
+    [
+     86,
+     89
+    ],
+    [
+     90,
+     91
+    ],
+    [
+     92,
+     93
+    ],
+    [
+     94,
+     100
+    ]
+   ],
+   "optimal_intervals": [
+    [
+     74,
+     86
+    ],
+    [
+     87,
+     89
+    ],
+    [
+     90,
+     91
+    ],
+    [
+     92,
+     93
+    ],
+    [
+     94,
+     100
+    ]
+   ],
+   "published_ssq": "99012603384592/52012732275",
+   "optimal_ssq": "26322494527171/14019682950",
+   "gap": "9403375399/360504690",
+   "gap_float": 26.08391973763226,
+   "published_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "migration": {
+    "2->1": 47
+   },
+   "n_migrating": 47
+  },
+  "H_COMP_2": {
+   "n": 3176,
+   "published_intervals": [
+    [
+     74,
+     83
+    ],
+    [
+     84,
+     88
+    ],
+    [
+     89,
+     91
+    ],
+    [
+     92,
+     94
+    ],
+    [
+     95,
+     100
+    ]
+   ],
+   "optimal_intervals": [
+    [
+     74,
+     86
+    ],
+    [
+     87,
+     89
+    ],
+    [
+     90,
+     91
+    ],
+    [
+     92,
+     93
+    ],
+    [
+     94,
+     100
+    ]
+   ],
+   "published_ssq": "3108411217773367/1176526013364",
+   "optimal_ssq": "2241346067130665/1066981004544",
+   "gap": "229289396337835309603567/423525947237270002944",
+   "gap_float": 541.3821699320386,
+   "published_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "migration": {
+    "2->1": 151,
+    "3->2": 406,
+    "4->5": 210
+   },
+   "n_migrating": 767
+  },
+  "H_COMP_5": {
+   "n": 3176,
+   "published_intervals": [
+    [
+     57,
+     70
+    ],
+    [
+     71,
+     76
+    ],
+    [
+     77,
+     80
+    ],
+    [
+     81,
+     85
+    ],
+    [
+     86,
+     95
+    ]
+   ],
+   "optimal_intervals": [
+    [
+     57,
+     70
+    ],
+    [
+     71,
+     74
+    ],
+    [
+     75,
+     78
+    ],
+    [
+     79,
+     82
+    ],
+    [
+     83,
+     95
+    ]
+   ],
+   "published_ssq": "1860276765808093/252407859000",
+   "optimal_ssq": "11700628777/1894200",
+   "gap": "654735527131923/548795875250",
+   "gap_float": 1193.0401751537636,
+   "published_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "migration": {
+    "2->3": 564,
+    "3->4": 409,
+    "4->5": 225
+   },
+   "n_migrating": 1198
+  },
+  "H_COMP_6": {
+   "n": 3176,
+   "published_intervals": [
+    [
+     65,
+     78
+    ],
+    [
+     79,
+     82
+    ],
+    [
+     83,
+     86
+    ],
+    [
+     87,
+     89
+    ],
+    [
+     90,
+     99
+    ]
+   ],
+   "optimal_intervals": [
+    [
+     65,
+     78
+    ],
+    [
+     79,
+     83
+    ],
+    [
+     84,
+     86
+    ],
+    [
+     87,
+     89
+    ],
+    [
+     90,
+     99
+    ]
+   ],
+   "published_ssq": "388136262951/84894656",
+   "optimal_ssq": "154214950093/34672960",
+   "gap": "24117901504/194069645",
+   "gap_float": 124.2744660248129,
+   "published_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "migration": {
+    "3->2": 232
+   },
+   "n_migrating": 232
+  },
+  "H_CLEAN": {
+   "n": 3176,
+   "published_intervals": [
+    [
+     69,
+     78
+    ],
+    [
+     79,
+     82
+    ],
+    [
+     83,
+     87
+    ],
+    [
+     88,
+     91
+    ],
+    [
+     92,
+     98
+    ]
+   ],
+   "optimal_intervals": [
+    [
+     69,
+     79
+    ],
+    [
+     80,
+     83
+    ],
+    [
+     84,
+     87
+    ],
+    [
+     88,
+     91
+    ],
+    [
+     92,
+     98
+    ]
+   ],
+   "published_ssq": "10399558203347/1951449720",
+   "optimal_ssq": "11370821714849948/2382406757745",
+   "gap": "236493588899927/425107227160",
+   "gap_float": 556.3151454278066,
+   "published_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "migration": {
+    "2->1": 57,
+    "3->2": 180
+   },
+   "n_migrating": 237
+  },
+  "H_QUIET": {
+   "n": 3176,
+   "published_intervals": [
+    [
+     55,
+     71
+    ],
+    [
+     72,
+     78
+    ],
+    [
+     79,
+     83
+    ],
+    [
+     84,
+     88
+    ],
+    [
+     89,
+     97
+    ]
+   ],
+   "optimal_intervals": [
+    [
+     55,
+     73
+    ],
+    [
+     74,
+     78
+    ],
+    [
+     79,
+     82
+    ],
+    [
+     83,
+     86
+    ],
+    [
+     87,
+     97
+    ]
+   ],
+   "published_ssq": "255297346340620447/29932396547760",
+   "optimal_ssq": "1385627590205919/173088908450",
+   "gap": "271398451071893720386288571/518096584574432669257200",
+   "gap_float": 523.837560702744,
+   "published_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "migration": {
+    "2->1": 129,
+    "3->4": 245,
+    "4->5": 276
+   },
+   "n_migrating": 650
+  },
+  "H_HSP_RATING": {
+   "n": 3176,
+   "published_intervals": [
+    [
+     66,
+     80
+    ],
+    [
+     81,
+     85
+    ],
+    [
+     86,
+     88
+    ],
+    [
+     89,
+     92
+    ],
+    [
+     93,
+     97
+    ]
+   ],
+   "optimal_intervals": [
+    [
+     66,
+     81
+    ],
+    [
+     82,
+     85
+    ],
+    [
+     86,
+     88
+    ],
+    [
+     89,
+     91
+    ],
+    [
+     92,
+     97
+    ]
+   ],
+   "published_ssq": "2609608892772506/652001045507",
+   "optimal_ssq": "2351737899328639/649164889660",
+   "gap": "4367172334690358607/11500170231678820",
+   "gap_float": 379.7484947362235,
+   "published_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "migration": {
+    "2->1": 43,
+    "4->5": 189
+   },
+   "n_migrating": 232
+  },
+  "H_RECMND": {
+   "n": 3176,
+   "published_intervals": [
+    [
+     60,
+     76
+    ],
+    [
+     77,
+     82
+    ],
+    [
+     83,
+     86
+    ],
+    [
+     87,
+     90
+    ],
+    [
+     91,
+     98
+    ]
+   ],
+   "optimal_intervals": [
+    [
+     60,
+     76
+    ],
+    [
+     77,
+     82
+    ],
+    [
+     83,
+     86
+    ],
+    [
+     87,
+     90
+    ],
+    [
+     91,
+     98
+    ]
+   ],
+   "published_ssq": "1663044873705414/272837646865",
+   "optimal_ssq": "1663044873705414/272837646865",
+   "gap": "0",
+   "gap_float": 0.0,
+   "published_is_optimal": true,
+   "n_optimal_partitions": 1,
+   "migration": {},
+   "n_migrating": 0
+  }
+ },
+ "headline": {
+  "n_measures": 8,
+  "off_optimum": 7,
+  "total_migrating_hospitals": 3363
+ }
+}

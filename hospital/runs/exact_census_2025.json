@@ -1,0 +1,338 @@
+{
+ "run": "exact_census_2025",
+ "register": "Exact comparison in binary-double arithmetic: Fraction(float) of the replay doubles; the replay matches the published stars with zero mismatches (runs/sas_replay_2025.json); there is no safety cap in the SAS era, so the replayed assignment equals the published assignment.",
+ "peer_groups": {
+  "peer3": {
+   "n": 141,
+   "cms_star_counts": {
+    "1": 7,
+    "2": 23,
+    "3": 40,
+    "4": 50,
+    "5": 21
+   },
+   "dp_star_counts": {
+    "1": 3,
+    "2": 22,
+    "3": 43,
+    "4": 52,
+    "5": 21
+   },
+   "ssq_cms_float": 5.846984474908041,
+   "ssq_optimal_float": 5.688103208613779,
+   "ssq_gap_float": 0.15888126629426208,
+   "ssq_gap_exact": "35001430213518711544663414500475594915513/220299290343601520106054751305783155097600",
+   "cms_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "boundary_value_ties": 0,
+   "hospitals_star_differs": 11,
+   "moves": {
+    "2->3": 5,
+    "3->4": 2,
+    "1->2": 4
+   }
+  },
+  "peer4": {
+   "n": 515,
+   "cms_star_counts": {
+    "1": 45,
+    "2": 118,
+    "3": 191,
+    "4": 125,
+    "5": 36
+   },
+   "dp_star_counts": {
+    "1": 45,
+    "2": 122,
+    "3": 188,
+    "4": 124,
+    "5": 36
+   },
+   "ssq_cms_float": 13.1032973038116,
+   "ssq_optimal_float": 13.099248438474369,
+   "ssq_gap_float": 0.004048865337230297,
+   "ssq_gap_exact": "673779186188393552653816649358308886057453327/166411853709440722974811442203483283428212736000",
+   "cms_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "boundary_value_ties": 0,
+   "hospitals_star_differs": 5,
+   "moves": {
+    "4->3": 1,
+    "3->2": 4
+   }
+  },
+  "peer5": {
+   "n": 2235,
+   "cms_star_counts": {
+    "1": 181,
+    "2": 520,
+    "3": 708,
+    "4": 592,
+    "5": 234
+   },
+   "dp_star_counts": {
+    "1": 177,
+    "2": 519,
+    "3": 704,
+    "4": 597,
+    "5": 238
+   },
+   "ssq_cms_float": 39.31111696439616,
+   "ssq_optimal_float": 39.30500688614179,
+   "ssq_gap_float": 0.006110078254376435,
+   "ssq_gap_exact": "5414436053291043753637077705636088175365078169762663/886148397430568460483309277534528651270214981422940160",
+   "cms_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "boundary_value_ties": 0,
+   "hospitals_star_differs": 22,
+   "moves": {
+    "4->5": 4,
+    "3->4": 9,
+    "1->2": 4,
+    "2->3": 5
+   }
+  }
+ },
+ "total_rated": 2891,
+ "total_hospitals_star_differs": 38,
+ "moves_total": {
+  "2->3": 10,
+  "3->4": 11,
+  "1->2": 8,
+  "4->3": 1,
+  "3->2": 4,
+  "4->5": 4
+ },
+ "moves_up": 33,
+ "moves_down": 5,
+ "star_differs_detail": [
+  {
+   "provider_id": "050723",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "050760",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050778",
+   "peer": "peer3",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "101308",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "140181",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "370100",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "371342",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "400109",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "420043",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "471306",
+   "peer": "peer3",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "480002",
+   "peer": "peer3",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "150045",
+   "peer": "peer4",
+   "shipped": 4,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "250006",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "360013",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "360156",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "460011",
+   "peer": "peer4",
+   "shipped": 3,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "03013F",
+   "peer": "peer5",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "040029",
+   "peer": "peer5",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "050305",
+   "peer": "peer5",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "060116",
+   "peer": "peer5",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "100252",
+   "peer": "peer5",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "10063F",
+   "peer": "peer5",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "110064",
+   "peer": "peer5",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "110082",
+   "peer": "peer5",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "120019",
+   "peer": "peer5",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "160016",
+   "peer": "peer5",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "160083",
+   "peer": "peer5",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "160112",
+   "peer": "peer5",
+   "shipped": 4,
+   "dp_optimum": 5
+  },
+  {
+   "provider_id": "180001",
+   "peer": "peer5",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "260005",
+   "peer": "peer5",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "260193",
+   "peer": "peer5",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "310012",
+   "peer": "peer5",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "330065",
+   "peer": "peer5",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "360161",
+   "peer": "peer5",
+   "shipped": 2,
+   "dp_optimum": 3
+  },
+  {
+   "provider_id": "390101",
+   "peer": "peer5",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "440156",
+   "peer": "peer5",
+   "shipped": 3,
+   "dp_optimum": 4
+  },
+  {
+   "provider_id": "450107",
+   "peer": "peer5",
+   "shipped": 1,
+   "dp_optimum": 2
+  },
+  {
+   "provider_id": "490118",
+   "peer": "peer5",
+   "shipped": 3,
+   "dp_optimum": 4
+  }
+ ]
+}

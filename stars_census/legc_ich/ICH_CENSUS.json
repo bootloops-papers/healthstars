@@ -1,0 +1,365 @@
+{
+ "register": "ICH CAHPS six-measure census, Provider Data Catalog facility file (surveys Fall 2024 and Spring 2025, April 2026 reporting): published stars vs the unique exact SSQ optimum on the published linearized scores (the methodology document's own clustered inputs), with all optimal interval partitions enumerated per measure.",
+ "measures": {
+  "nephrologists' communication and caring": {
+   "n": 2594,
+   "published_intervals": [
+    [
+     "46",
+     "70"
+    ],
+    [
+     "71",
+     "78"
+    ],
+    [
+     "79",
+     "84"
+    ],
+    [
+     "85",
+     "88"
+    ],
+    [
+     "89",
+     "99"
+    ]
+   ],
+   "optimal_intervals": [
+    [
+     "46",
+     "69"
+    ],
+    [
+     "70",
+     "76"
+    ],
+    [
+     "77",
+     "81"
+    ],
+    [
+     "82",
+     "86"
+    ],
+    [
+     "87",
+     "99"
+    ]
+   ],
+   "published_ssq": "7703764384984331/745839073356",
+   "optimal_ssq": "4528888089411102/496777196495",
+   "gap": "449232777691142237264321533/370515843898222331087220",
+   "gap_float": 1212.4522745498107,
+   "published_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "migration": {
+    "1->2": 25,
+    "2->3": 253,
+    "3->4": 511,
+    "4->5": 253
+   },
+   "n_migrating": 1042
+  },
+  "quality of dialysis center care and operations": {
+   "n": 2594,
+   "published_intervals": [
+    [
+     "55",
+     "74"
+    ],
+    [
+     "75",
+     "78"
+    ],
+    [
+     "79",
+     "82"
+    ],
+    [
+     "83",
+     "86"
+    ],
+    [
+     "87",
+     "96"
+    ]
+   ],
+   "optimal_intervals": [
+    [
+     "55",
+     "73"
+    ],
+    [
+     "74",
+     "78"
+    ],
+    [
+     "79",
+     "82"
+    ],
+    [
+     "83",
+     "86"
+    ],
+    [
+     "87",
+     "96"
+    ]
+   ],
+   "published_ssq": "36761138506329863/6496917947961",
+   "optimal_ssq": "3367325702282509/602893448024",
+   "gap": "65286721747/894734616",
+   "gap_float": 72.96769408438759,
+   "published_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "migration": {
+    "1->2": 83
+   },
+   "n_migrating": 83
+  },
+  "providing information to patients": {
+   "n": 2594,
+   "published_intervals": [
+    [
+     "55",
+     "72"
+    ],
+    [
+     "73",
+     "76"
+    ],
+    [
+     "77",
+     "80"
+    ],
+    [
+     "81",
+     "86"
+    ],
+    [
+     "87",
+     "96"
+    ]
+   ],
+   "optimal_intervals": [
+    [
+     "55",
+     "70"
+    ],
+    [
+     "71",
+     "76"
+    ],
+    [
+     "77",
+     "80"
+    ],
+    [
+     "81",
+     "85"
+    ],
+    [
+     "86",
+     "96"
+    ]
+   ],
+   "published_ssq": "389586378481031/50269229010",
+   "optimal_ssq": "22131305752063/3117698892",
+   "gap": "442778518643159/679739527740",
+   "gap_float": 651.3943953139085,
+   "published_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "migration": {
+    "1->2": 133,
+    "4->5": 107
+   },
+   "n_migrating": 240
+  },
+  "rating of the nephrologist": {
+   "n": 2594,
+   "published_intervals": [
+    [
+     "57",
+     "75"
+    ],
+    [
+     "76",
+     "79"
+    ],
+    [
+     "80",
+     "83"
+    ],
+    [
+     "84",
+     "87"
+    ],
+    [
+     "88",
+     "98"
+    ]
+   ],
+   "optimal_intervals": [
+    [
+     "57",
+     "75"
+    ],
+    [
+     "76",
+     "81"
+    ],
+    [
+     "82",
+     "85"
+    ],
+    [
+     "86",
+     "89"
+    ],
+    [
+     "90",
+     "98"
+    ]
+   ],
+   "published_ssq": "8968427126945807/1257881804865",
+   "optimal_ssq": "766788837733939/123184094600",
+   "gap": "1082040418655111242433/1195563683855629800",
+   "gap_float": 905.0462415900657,
+   "published_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "migration": {
+    "3->2": 269,
+    "4->3": 425,
+    "5->4": 348
+   },
+   "n_migrating": 1042
+  },
+  "rating of the dialysis center staff": {
+   "n": 2594,
+   "published_intervals": [
+    [
+     "64",
+     "81"
+    ],
+    [
+     "82",
+     "85"
+    ],
+    [
+     "86",
+     "88"
+    ],
+    [
+     "89",
+     "92"
+    ],
+    [
+     "93",
+     "100"
+    ]
+   ],
+   "optimal_intervals": [
+    [
+     "64",
+     "78"
+    ],
+    [
+     "79",
+     "83"
+    ],
+    [
+     "84",
+     "87"
+    ],
+    [
+     "88",
+     "91"
+    ],
+    [
+     "92",
+     "100"
+    ]
+   ],
+   "published_ssq": "18670304845519/3317446143",
+   "optimal_ssq": "9021331860559912/1881869429341",
+   "gap": "473390303611077618741233/567545498181537407433",
+   "gap_float": 834.1010634880537,
+   "published_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "migration": {
+    "1->2": 190,
+    "2->3": 309,
+    "3->4": 231,
+    "4->5": 174
+   },
+   "n_migrating": 904
+  },
+  "rating of the dialysis facility": {
+   "n": 2594,
+   "published_intervals": [
+    [
+     "64",
+     "80"
+    ],
+    [
+     "81",
+     "86"
+    ],
+    [
+     "87",
+     "89"
+    ],
+    [
+     "90",
+     "93"
+    ],
+    [
+     "94",
+     "100"
+    ]
+   ],
+   "optimal_intervals": [
+    [
+     "64",
+     "78"
+    ],
+    [
+     "79",
+     "84"
+    ],
+    [
+     "85",
+     "88"
+    ],
+    [
+     "89",
+     "92"
+    ],
+    [
+     "93",
+     "100"
+    ]
+   ],
+   "published_ssq": "1285543010398879/242759772180",
+   "optimal_ssq": "15524739178419043/3246503174640",
+   "gap": "42425295418165194438533/82612198224030728880",
+   "gap_float": 513.5475913994535,
+   "published_is_optimal": false,
+   "n_optimal_partitions": 1,
+   "migration": {
+    "1->2": 74,
+    "2->3": 290,
+    "3->4": 228,
+    "4->5": 158
+   },
+   "n_migrating": 750
+  }
+ },
+ "headline": {
+  "n_measures": 6,
+  "off_optimum": 6,
+  "total_migrating": 4061
+ },
+ "data_sha256_16": "cf67c06cb36cfe15"
+}

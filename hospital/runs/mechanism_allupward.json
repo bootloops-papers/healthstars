@@ -1,0 +1,1005 @@
+{
+ "run": "mechanism_allupward",
+ "question": "why do all 213 star differences move upward when the exact 1-D k-means optimum replaces CMS's two-stage Hartigan-Wong k-means (2026 release): necessity, seeding artifact, or data-shape coincidence?",
+ "verdict": {
+  "one_line": "Not a necessity of the algorithm and not a coincidence: CMS's seeded local optimizer displaces every cut coherently to one side of the exact optimum, and in 2026 all three score distributions are left-skewed enough that the displaced side is the HIGH side in every group - so correcting to the optimum can only lower cuts and raise stars. Mirror/right-skew data provably reverses the direction, and the weakly-skewed 2025 groups show the contingency live: per-group one-directional deltas but not globally upward (33 up, 5 down).",
+  "mechanism_class": "seeding-selected local optimum x one-signed skew of the score distribution (deterministic given the data; no RNG)",
+  "necessity": false,
+  "coincidence": false,
+  "per_group_coherence": "in all 6 group-years examined (3x2026, 3x2025) the cut displacements are one-signed within the group (never mixed), so corrections within a group all move the same way; the sign follows the skew when |skew| is large (2026: -0.80/-0.69/-0.31 all up; 2025 peer3: -1.21 all up) and is small and either-signed near symmetry (2025 peer4 -0.08: down; peer5 -0.09: up)",
+  "evidence_keys": [
+   "stage1_boundary_dissection",
+   "stage2a_necessity_tests",
+   "stage2b_2025_cross_year",
+   "stage3_skew_and_worked_example"
+  ]
+ },
+ "shipped_algorithm_characterization": {
+  "source": "R pack '2 - Second Stage_Weighted Average and Categorize Star_2026Apr.R', fn_kmeans (lines 136-179)",
+  "procedure": [
+   "stage-1 seeds: medians of the five quintile groups of summary_score (quantile() default type 7; groups cut at P20/P40/P60/P80 with <=)",
+   "stage 1: kmeans(x, seeds, iter.max=1000), Hartigan-Wong default",
+   "stage 2: kmeans(x, stage1 centers, iter.max=1000)",
+   "clusters ordered by center -> stars 1..5; safety cap applied later (outside this comparison)"
+  ],
+  "note_2025_variant": "the strict=1-exclusion-then-abs()-re-inclusion detail belongs to the 2025 SAS-pack variant (CMS Star_Macros.sas %kmeans, PROC FASTCLUS STRICT= option; per-group counts in hospital/runs/sas_replay_2025.json peer_groups.*.strict_excluded_reincluded), not the 2026 R code; the 2026 pack dropped STRICT",
+  "replica_validation": {
+   "peer3": 0,
+   "peer4": 0,
+   "peer5": 0
+  },
+  "two_stage_is_inert_2026": "stage 2 changes nothing in any peer group: identical centers, 0 label changes (replica logs); stage 1 already converges after 2 Hartigan-Wong iterations, so the published partition is the Hartigan-Wong fixed point nearest the quintile-median seeds",
+  "replica_logs": {
+   "peer3": [
+    "seeds(quintile medians): -1.096703,-0.465683,-0.026281,0.237373,0.582199",
+    "stage1 centers: -1.753639,-0.763598,-0.150126,0.324427,0.990928 | iter=2 ifault=0 tot.withinss=8.0613495444",
+    "stage2 centers: -1.753639,-0.763598,-0.150126,0.324427,0.990928 | iter=1 ifault=0 tot.withinss=8.0613495444",
+    "stage2 vs stage1 label changes: 0"
+   ],
+   "peer4": [
+    "seeds(quintile medians): -0.532995,-0.106129,0.154092,0.391835,0.727712",
+    "stage1 centers: -1.106726,-0.370192,0.045790,0.446100,0.944923 | iter=2 ifault=0 tot.withinss=24.0548019315",
+    "stage2 centers: -1.106726,-0.370192,0.045790,0.446100,0.944923 | iter=1 ifault=0 tot.withinss=24.0548019315",
+    "stage2 vs stage1 label changes: 0"
+   ],
+   "peer5": [
+    "seeds(quintile medians): -0.578003,-0.242372,-0.027019,0.181178,0.487983",
+    "stage1 centers: -0.933485,-0.452268,-0.100181,0.225675,0.622349 | iter=2 ifault=0 tot.withinss=39.3213863770",
+    "stage2 centers: -0.933485,-0.452268,-0.100181,0.225675,0.622349 | iter=1 ifault=0 tot.withinss=39.3213863770",
+    "stage2 vs stage1 label changes: 0"
+   ]
+  }
+ },
+ "stage1_boundary_dissection": {
+  "register": "decimal-string scores of R write.csv (same as dp_taste_2026); cut = open interval (max of lower block, min of upper block), shift = published midpoint - DP midpoint",
+  "summary": {
+   "boundaries_total": 12,
+   "shipped_above_dp": 12,
+   "shipped_below_dp": 0,
+   "equal": 0
+  },
+  "all_12_boundaries_shifted": "up (published above DP), 12 of 12; crossing counts reconcile exactly with the 213 (55+68+90)",
+  "per_group": {
+   "peer3": {
+    "boundaries": [
+     {
+      "cut": "1|2",
+      "shipped_cut_interval": [
+       -1.27564706496018,
+       -1.20064084548144
+      ],
+      "dp_cut_interval": [
+       -1.81129060347851,
+       -1.59009305629404
+      ],
+      "shift_shipped_minus_dp": 0.462547874665465,
+      "shipped_minus_dp_index": 9,
+      "hospitals_crossing": 9,
+      "direction": "CMS ABOVE dp"
+     },
+     {
+      "cut": "2|3",
+      "shipped_cut_interval": [
+       -0.465682713013009,
+       -0.438516457651275
+      ],
+      "dp_cut_interval": [
+       -0.752869646241967,
+       -0.731600008760745
+      ],
+      "shift_shipped_minus_dp": 0.290135242169214,
+      "shipped_minus_dp_index": 19,
+      "hospitals_crossing": 19,
+      "direction": "CMS ABOVE dp"
+     },
+     {
+      "cut": "3|4",
+      "shipped_cut_interval": [
+       0.0845621716287874,
+       0.103659269873593
+      ],
+      "dp_cut_interval": [
+       -0.10695024445009,
+       -0.0870062315442256
+      ],
+      "shift_shipped_minus_dp": 0.191088958748348,
+      "shipped_minus_dp_index": 22,
+      "hospitals_crossing": 22,
+      "direction": "CMS ABOVE dp"
+     },
+     {
+      "cut": "4|5",
+      "shipped_cut_interval": [
+       0.645155605429298,
+       0.678139323933962
+      ],
+      "dp_cut_interval": [
+       0.535381744334701,
+       0.579007698435862
+      ],
+      "shift_shipped_minus_dp": 0.1044527432963485,
+      "shipped_minus_dp_index": 5,
+      "hospitals_crossing": 5,
+      "direction": "CMS ABOVE dp"
+     }
+    ],
+    "shipped_block_sizes": [
+     15,
+     39,
+     49,
+     60,
+     14
+    ],
+    "dp_block_sizes": [
+     6,
+     29,
+     46,
+     77,
+     19
+    ],
+    "dp_centers": [
+     -2.2395515989640034,
+     -1.0895859248696331,
+     -0.39954728591117045,
+     0.21298571369914934,
+     0.8901116987564819
+    ]
+   },
+   "peer4": {
+    "boundaries": [
+     {
+      "cut": "1|2",
+      "shipped_cut_interval": [
+       -0.744790738801717,
+       -0.729712803625513
+      ],
+      "dp_cut_interval": [
+       -0.823368445887094,
+       -0.804474759897216
+      ],
+      "shift_shipped_minus_dp": 0.07666983167854,
+      "shipped_minus_dp_index": 10,
+      "hospitals_crossing": 10,
+      "direction": "CMS ABOVE dp"
+     },
+     {
+      "cut": "2|3",
+      "shipped_cut_interval": [
+       -0.163876665538361,
+       -0.159975468807863
+      ],
+      "dp_cut_interval": [
+       -0.229902731014462,
+       -0.219706284680438
+      ],
+      "shift_shipped_minus_dp": 0.062878440674338,
+      "shipped_minus_dp_index": 28,
+      "hospitals_crossing": 28,
+      "direction": "CMS ABOVE dp"
+     },
+     {
+      "cut": "3|4",
+      "shipped_cut_interval": [
+       0.243593779214583,
+       0.246958519322608
+      ],
+      "dp_cut_interval": [
+       0.20449105389565,
+       0.210013202918251
+      ],
+      "shift_shipped_minus_dp": 0.038024020861645,
+      "shipped_minus_dp_index": 27,
+      "hospitals_crossing": 27,
+      "direction": "CMS ABOVE dp"
+     },
+     {
+      "cut": "4|5",
+      "shipped_cut_interval": [
+       0.686865013292426,
+       0.703475124917355
+      ],
+      "dp_cut_interval": [
+       0.673110021784544,
+       0.686530131297805
+      ],
+      "shift_shipped_minus_dp": 0.015349992563716,
+      "shipped_minus_dp_index": 3,
+      "hospitals_crossing": 3,
+      "direction": "CMS ABOVE dp"
+     }
+    ],
+    "shipped_block_sizes": [
+     49,
+     147,
+     232,
+     235,
+     86
+    ],
+    "dp_block_sizes": [
+     39,
+     129,
+     233,
+     259,
+     89
+    ],
+    "dp_centers": [
+     -1.1902528729284183,
+     -0.4414001158280898,
+     -0.003600810673618513,
+     0.42064921970341124,
+     0.936219945686836
+    ]
+   },
+   "peer5": {
+    "boundaries": [
+     {
+      "cut": "1|2",
+      "shipped_cut_interval": [
+       -0.693538790576757,
+       -0.6905396554683
+      ],
+      "dp_cut_interval": [
+       -0.699108659555996,
+       -0.693538790576757
+      ],
+      "shift_shipped_minus_dp": 0.004284502043848,
+      "shipped_minus_dp_index": 1,
+      "hospitals_crossing": 1,
+      "direction": "CMS ABOVE dp"
+     },
+     {
+      "cut": "2|3",
+      "shipped_cut_interval": [
+       -0.276615270573803,
+       -0.275527864605351
+      ],
+      "dp_cut_interval": [
+       -0.288382984763709,
+       -0.287174300027937
+      ],
+      "shift_shipped_minus_dp": 0.011707074806246,
+      "shipped_minus_dp_index": 21,
+      "hospitals_crossing": 21,
+      "direction": "CMS ABOVE dp"
+     },
+     {
+      "cut": "3|4",
+      "shipped_cut_interval": [
+       0.0625785325754898,
+       0.0633698863758295
+      ],
+      "dp_cut_interval": [
+       0.0453274219856468,
+       0.0461584217257478
+      ],
+      "shift_shipped_minus_dp": 0.01723128761996235,
+      "shipped_minus_dp_index": 43,
+      "hospitals_crossing": 43,
+      "direction": "CMS ABOVE dp"
+     },
+     {
+      "cut": "4|5",
+      "shipped_cut_interval": [
+       0.423401666471539,
+       0.42500916465925
+      ],
+      "dp_cut_interval": [
+       0.406602781011309,
+       0.408209410090835
+      ],
+      "shift_shipped_minus_dp": 0.0167993200143225,
+      "shipped_minus_dp_index": 25,
+      "hospitals_crossing": 25,
+      "direction": "CMS ABOVE dp"
+     }
+    ],
+    "shipped_block_sizes": [
+     140,
+     484,
+     710,
+     643,
+     300
+    ],
+    "dp_block_sizes": [
+     139,
+     464,
+     688,
+     661,
+     325
+    ],
+    "dp_centers": [
+     -0.9352110917570469,
+     -0.4605102613757236,
+     -0.11540076116991119,
+     0.2073793452898953,
+     0.6064277758558303
+    ]
+   }
+  },
+  "centers_reading": "all 15 converged published centers sit above the corresponding DP-optimal centers; the quintile-median seeds start the bottom centers far above the optimal bottom centers (peer3 seed1 is +1.14 above DP center1) because equal-mass seeding places centers proportional to data density while the SSQ optimum pushes centers out into the sparse low tail"
+ },
+ "stage2a_necessity_tests": {
+  "mirror_test": {
+   "design": "negate the real 2026 peer3/peer4 scores (exact sign flip), run the same CMS procedure (R replica) and the same DP",
+   "peer3": {
+    "moment_skewness": 0.7983,
+    "moves": {
+     "3->2": 22,
+     "2->1": 5,
+     "5->4": 9,
+     "4->3": 19
+    },
+    "moves_up": 0,
+    "moves_down": 55
+   },
+   "peer4": {
+    "moment_skewness": 0.6845,
+    "moves": {
+     "3->2": 27,
+     "4->3": 28,
+     "5->4": 10,
+     "2->1": 3
+    },
+    "moves_up": 0,
+    "moves_down": 68
+   },
+   "reading": "all 55 (peer3) and 68 (peer4) corrections now move down, the exact mirror of the real data's all-up. Constructive disproof of necessity: the procedure is equivariant under x -> -x, so 'all corrections upward' cannot be a property of the seeding alone; it is a property of the seeding together with the skew direction of the data."
+  },
+  "fresh_counterexamples": [
+   {
+    "note": "gamma(shape=1.92) right-skewed, n=80, seed trial 1",
+    "n": 80,
+    "moment_skewness": 1.5656,
+    "moves": {
+     "2->1": 5,
+     "3->2": 3
+    },
+    "moves_up": 0,
+    "moves_down": 8,
+    "shipped_ssq": 8.016169222865388,
+    "optimal_ssq": 7.751782933383885,
+    "values": [
+     "3.490313",
+     "1.578539",
+     "0.669040",
+     "0.678555",
+     "1.035961",
+     "4.119972",
+     "0.758889",
+     "2.499664",
+     "1.662770",
+     "1.940327",
+     "0.602722",
+     "2.221376",
+     "1.309546",
+     "2.148314",
+     "1.120899",
+     "0.347929",
+     "1.553732",
+     "0.775212",
+     "2.294964",
+     "0.959138",
+     "2.103174",
+     "0.601257",
+     "1.533593",
+     "1.070886",
+     "0.830600",
+     "1.940637",
+     "1.961545",
+     "1.569650",
+     "1.714040",
+     "1.699532",
+     "0.863914",
+     "2.960287",
+     "0.281873",
+     "1.323973",
+     "0.937996",
+     "2.532248",
+     "2.943621",
+     "0.688997",
+     "0.698943",
+     "1.060241",
+     "0.518222",
+     "1.191453",
+     "1.410292",
+     "1.526617",
+     "0.097189",
+     "2.789615",
+     "0.318888",
+     "0.591226",
+     "1.775481",
+     "2.495573",
+     "2.347934",
+     "3.497376",
+     "0.591691",
+     "0.665724",
+     "3.399100",
+     "0.047901",
+     "2.737302",
+     "7.832713",
+     "3.408302",
+     "0.599015",
+     "2.180843",
+     "1.706396",
+     "4.006393",
+     "2.099011",
+     "2.618828",
+     "2.384793",
+     "6.036727",
+     "3.982235",
+     "0.466481",
+     "4.456107",
+     "2.547857",
+     "0.828756",
+     "1.083338",
+     "0.834760",
+     "2.255011",
+     "3.319875",
+     "1.882853",
+     "0.515824",
+     "3.278867",
+     "3.280452"
+    ]
+   },
+   {
+    "note": "gamma(shape=1.25) right-skewed, n=100, seed trial 2",
+    "n": 100,
+    "moment_skewness": 1.0695,
+    "moves": {
+     "4->3": 5,
+     "3->2": 2,
+     "5->4": 1
+    },
+    "moves_up": 0,
+    "moves_down": 8,
+    "shipped_ssq": 5.8826345761462004,
+    "optimal_ssq": 5.76204142568267,
+    "values": [
+     "2.335486",
+     "0.106356",
+     "1.562189",
+     "1.801232",
+     "0.998257",
+     "1.506577",
+     "1.743632",
+     "0.069386",
+     "0.379421",
+     "2.407659",
+     "0.397151",
+     "1.856470",
+     "0.494548",
+     "2.017148",
+     "0.443271",
+     "0.348931",
+     "1.047467",
+     "0.607600",
+     "0.124289",
+     "0.739500",
+     "2.504848",
+     "2.200413",
+     "2.120893",
+     "4.130819",
+     "2.610733",
+     "1.188929",
+     "2.510693",
+     "1.396707",
+     "0.278013",
+     "0.662080",
+     "0.642075",
+     "0.199429",
+     "0.649807",
+     "0.766341",
+     "0.196578",
+     "0.763154",
+     "0.417179",
+     "2.012116",
+     "0.418311",
+     "0.621333",
+     "1.230937",
+     "1.675422",
+     "1.775168",
+     "0.020068",
+     "3.438040",
+     "2.546082",
+     "1.106475",
+     "0.682405",
+     "0.523008",
+     "0.976366",
+     "0.355871",
+     "0.579333",
+     "3.248825",
+     "3.134594",
+     "0.351702",
+     "0.569341",
+     "1.392855",
+     "1.518084",
+     "1.537568",
+     "4.531130",
+     "2.803265",
+     "0.560711",
+     "2.618441",
+     "2.294013",
+     "2.590681",
+     "0.630630",
+     "2.895616",
+     "1.013038",
+     "0.811213",
+     "5.009144",
+     "0.337544",
+     "2.478413",
+     "2.109855",
+     "1.753494",
+     "0.335257",
+     "0.357661",
+     "1.062716",
+     "1.680825",
+     "0.793690",
+     "2.198833",
+     "1.392754",
+     "0.023125",
+     "0.254408",
+     "0.306777",
+     "1.405336",
+     "0.681518",
+     "0.598877",
+     "2.266650",
+     "2.189639",
+     "0.892132",
+     "0.888828",
+     "0.601904",
+     "1.573510",
+     "2.084975",
+     "0.938316",
+     "0.443412",
+     "2.407602",
+     "0.880838",
+     "0.016458",
+     "0.420487"
+    ]
+   }
+  ],
+  "skew_direction_batch": {
+   "design": "40 gamma(1.8) samples n=120, alternating sign; left_skew = negated (mass at high values, like the 2026 scores)",
+   "left_skew": {
+    "datasets": 20,
+    "nonoptimal": 16,
+    "moves_up": 627,
+    "moves_down": 0,
+    "mixed_direction_datasets": 0
+   },
+   "right_skew": {
+    "datasets": 20,
+    "nonoptimal": 17,
+    "moves_up": 0,
+    "moves_down": 989,
+    "mixed_direction_datasets": 0
+   }
+  },
+  "skew_batch_reading": "direction of all corrections followed the skew sign in 33/33 non-optimal synthetic datasets (0 mixed-direction datasets); left-skew (mass high, like CMS scores): 627 moves all up; right-skew: 989 moves all down. 4/20 and 3/20 datasets landed exactly optimal.",
+  "dp_center_check": {
+   "group": "peer3",
+   "labels_match_dp_optimum": true,
+   "seeded_run_is_optimal": true,
+   "reading": "Hartigan-Wong holds the exact optimum when seeded there: the published result is a seeding-selected local optimum, not an algorithmic ceiling."
+  }
+ },
+ "stage2b_2025_cross_year": {
+  "run": "mech_2025_dp_vs_published",
+  "register": "ported summary scores (pandas float64, SAS semantics: n-1 std, missing-skip sums, weight redistribution); DP on exact binary doubles of the port; published stars = Care Compare 2025-08-14 snapshot; FASTCLUS not replayed",
+  "volume_filter_excluded": [],
+  "n_hospitals_with_any_measure": 4566,
+  "n_report_indicator_1": 2891,
+  "validation_group_measure_counts": {
+   "checked": 18965,
+   "mismatched": 0
+  },
+  "peer3": {
+   "n_clustered": 141,
+   "n_jointly_published_rated": 140,
+   "published_contiguity_violations_in_ported_score_order": 0,
+   "n_optimal_partitions": 1,
+   "boundary_value_ties": 0,
+   "moment_skewness": -1.209065618864276,
+   "mean_minus_median": -0.13240831574620598,
+   "stars_differ_published_vs_dp": 11,
+   "moves": {
+    "2->3": 5,
+    "3->4": 2,
+    "1->2": 4
+   },
+   "boundary_shifts": [
+    {
+     "cut": "1|2",
+     "published_minus_dp_index": 4,
+     "hospitals_crossing": 4,
+     "direction": "published ABOVE dp"
+    },
+    {
+     "cut": "2|3",
+     "published_minus_dp_index": 5,
+     "hospitals_crossing": 5,
+     "direction": "published ABOVE dp"
+    },
+    {
+     "cut": "3|4",
+     "published_minus_dp_index": 2,
+     "hospitals_crossing": 2,
+     "direction": "published ABOVE dp"
+    },
+    {
+     "cut": "4|5",
+     "published_minus_dp_index": 0,
+     "hospitals_crossing": 0,
+     "direction": "equal"
+    }
+   ]
+  },
+  "peer4": {
+   "n_clustered": 515,
+   "n_jointly_published_rated": 504,
+   "published_contiguity_violations_in_ported_score_order": 0,
+   "n_optimal_partitions": 1,
+   "boundary_value_ties": 0,
+   "moment_skewness": -0.08407682892268271,
+   "mean_minus_median": -0.008386282654524402,
+   "stars_differ_published_vs_dp": 5,
+   "moves": {
+    "4->3": 1,
+    "3->2": 4
+   },
+   "boundary_shifts": [
+    {
+     "cut": "1|2",
+     "published_minus_dp_index": 0,
+     "hospitals_crossing": 0,
+     "direction": "equal"
+    },
+    {
+     "cut": "2|3",
+     "published_minus_dp_index": -4,
+     "hospitals_crossing": 4,
+     "direction": "published BELOW dp"
+    },
+    {
+     "cut": "3|4",
+     "published_minus_dp_index": -1,
+     "hospitals_crossing": 1,
+     "direction": "published BELOW dp"
+    },
+    {
+     "cut": "4|5",
+     "published_minus_dp_index": 0,
+     "hospitals_crossing": 0,
+     "direction": "equal"
+    }
+   ]
+  },
+  "peer5": {
+   "n_clustered": 2235,
+   "n_jointly_published_rated": 2228,
+   "published_contiguity_violations_in_ported_score_order": 0,
+   "n_optimal_partitions": 1,
+   "boundary_value_ties": 0,
+   "moment_skewness": -0.09046780972550902,
+   "mean_minus_median": -0.008435714893399601,
+   "stars_differ_published_vs_dp": 22,
+   "moves": {
+    "4->5": 4,
+    "3->4": 9,
+    "1->2": 4,
+    "2->3": 5
+   },
+   "boundary_shifts": [
+    {
+     "cut": "1|2",
+     "published_minus_dp_index": 4,
+     "hospitals_crossing": 4,
+     "direction": "published ABOVE dp"
+    },
+    {
+     "cut": "2|3",
+     "published_minus_dp_index": 5,
+     "hospitals_crossing": 5,
+     "direction": "published ABOVE dp"
+    },
+    {
+     "cut": "3|4",
+     "published_minus_dp_index": 9,
+     "hospitals_crossing": 9,
+     "direction": "published ABOVE dp"
+    },
+    {
+     "cut": "4|5",
+     "published_minus_dp_index": 4,
+     "hospitals_crossing": 4,
+     "direction": "published ABOVE dp"
+    }
+   ]
+  },
+  "moves_total": {
+   "2->3": 10,
+   "3->4": 11,
+   "1->2": 8,
+   "4->3": 1,
+   "3->2": 4,
+   "4->5": 4
+  },
+  "total_stars_differ": 38,
+  "moves_up_total": 33,
+  "moves_down_total": 5,
+  "validation_national_averages_table7": {
+   "source": "StarRatings_SASPackDoc_Jul2025.pdf Table 7 (Jul 2025 datasheet)",
+   "all_match_at_printed_precision": true,
+   "detail": {
+    "Summary_Score_Nat": {
+     "published_table7": -0.0344,
+     "ported": -0.034354,
+     "match_at_printed_precision": true
+    },
+    "Summary_Score_Nat_peer3": {
+     "published_table7": -0.1684,
+     "ported": -0.168412,
+     "match_at_printed_precision": true
+    },
+    "Summary_Score_Nat_peer4": {
+     "published_table7": 0.1728,
+     "ported": 0.172802,
+     "match_at_printed_precision": true
+    },
+    "Summary_Score_Nat_peer5": {
+     "published_table7": -0.0736,
+     "ported": -0.07363,
+     "match_at_printed_precision": true
+    },
+    "Out_Mrt_Grp_Score_Nat": {
+     "published_table7": 0.10144,
+     "ported": 0.101445,
+     "match_at_printed_precision": true
+    },
+    "Out_Sft_Grp_Score_Nat": {
+     "published_table7": 0.027,
+     "ported": 0.027003,
+     "match_at_printed_precision": true
+    },
+    "Out_Readm_grp_Score_Nat": {
+     "published_table7": 0.00159,
+     "ported": 0.001594,
+     "match_at_printed_precision": true
+    },
+    "Pt_Exp_Grp_Score_Nat": {
+     "published_table7": 0.0,
+     "ported": -0.0,
+     "match_at_printed_precision": true
+    },
+    "Prc_of_Care_Grp_Score_Nat": {
+     "published_table7": -0.0097,
+     "ported": -0.009652,
+     "match_at_printed_precision": true
+    }
+   }
+  }
+ },
+ "stage3_skew_and_worked_example": {
+  "skew_per_peer_group_2026": {
+   "peer3": {
+    "n": 177,
+    "moment_skewness": -0.798331848151868,
+    "mean": -0.17007036347858512,
+    "median": -0.0262813514339862,
+    "mean_minus_median": -0.14378901204459893,
+    "low_tail_span_P0_P20": 2.0762063568937146,
+    "high_tail_span_P80_P100": 0.9586062003933689
+   },
+   "peer4": {
+    "n": 749,
+    "moment_skewness": -0.6845146732002659,
+    "mean": 0.11758645820604392,
+    "median": 0.154091884687093,
+    "mean_minus_median": -0.03650542648104908,
+    "low_tail_span_P0_P20": 2.680763200703467,
+    "high_tail_span_P80_P100": 1.492127969964367
+   },
+   "peer5": {
+    "n": 2277,
+    "moment_skewness": -0.31158074793023377,
+    "mean": -0.039042622893148235,
+    "median": -0.0270191782927809,
+    "mean_minus_median": -0.012023444600367333,
+    "low_tail_span_P0_P20": 2.265072357424161,
+    "high_tail_span_P80_P100": 1.338052306044686
+   }
+  },
+  "skew_per_peer_group_2025": {
+   "peer3": {
+    "moment_skewness": -1.209065618864276,
+    "mean_minus_median": -0.13240831574620598
+   },
+   "peer4": {
+    "moment_skewness": -0.08407682892268271,
+    "mean_minus_median": -0.008386282654524402
+   },
+   "peer5": {
+    "moment_skewness": -0.09046780972550902,
+    "mean_minus_median": -0.008435714893399601
+   }
+  },
+  "mechanism_statement": [
+   "1. The summary-score distributions are left-skewed in every peer group and both years (2026 moment skew -0.80/-0.69/-0.31; 2025 similar): a long sparse tail of low scores under a dense mass of high scores (low-tail span P0-P20 is 1.7-2.2x the high-tail span P80-P100).",
+   "2. Quintile-median seeding places the 5 initial centers at equal-count positions - center density proportional to the data density f. The SSQ optimum instead spreads centers toward sparse regions (1-D quantization: optimal center density ~ f^(1/3), flatter than f), so the optimal bottom centers/cuts sit far deeper in the low tail than any equal-mass position.",
+   "3. Hartigan-Wong is a descent method: it stops at the first fixed point downhill from its seeds. Seeded on the dense side of the optimum it converges (in 2 iterations here) to a local optimum whose centers and cuts all remain on the dense side; with one-signed skew, all cuts are displaced the same way (12/12 above the optimum).",
+   "4. Star direction is the mirror of cut displacement: every hospital between a published cut and the lower optimal cut gains a star when the optimum replaces the published partition. Left-skew => dense side is the high-score side => published cuts too high => corrections all up. On right-skewed data the same procedure errs low and corrections all go down (mirror test + 2 explicit counterexamples + 17/17 batch).",
+   "5. The 2025 release confirms the contingency on real data: its peer4 and peer5 scores are nearly symmetric (skew -0.08/-0.09), the published-vs-optimum deltas shrink to 1.3% (38/2,872 vs 6.7% in 2026), and the direction is no longer globally pinned: peer4's 5 deltas all move down while peer3 (-1.21) and peer5 move up. Within-group one-directionality persists in all six group-years."
+  ],
+  "worked_example": {
+   "note": "n=15, all values distinct, deep left tail (6.237 under dense mass 9.0-9.8); the CMS procedure (R kmeans, replica script) converges in 1 iteration to SSQ 1.4979 vs optimum 0.1322: equal-mass seeding forces the bottom cluster to span tail+shoulder (3 points) while the optimum spends a whole cluster on the lone tail point; 9 of 15 points move, all up; the negated dataset moves the same 9 all down.",
+   "n": 15,
+   "search_trial": 2,
+   "values_sorted": [
+    "6.237",
+    "7.627",
+    "7.774",
+    "8.561",
+    "8.758",
+    "9.023",
+    "9.150",
+    "9.174",
+    "9.194",
+    "9.208",
+    "9.285",
+    "9.335",
+    "9.376",
+    "9.649",
+    "9.814"
+   ],
+   "shipped_stars": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    5,
+    5
+   ],
+   "dp_stars": [
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    5,
+    5
+   ],
+   "shipped_ssq": 1.4978684666666666,
+   "optimal_ssq": 0.132224375,
+   "shipped_partition_sorted": [
+    [
+     6.237,
+     7.627,
+     7.774
+    ],
+    [
+     8.561,
+     8.758
+    ],
+    [
+     9.023,
+     9.15,
+     9.174,
+     9.194,
+     9.208
+    ],
+    [
+     9.285,
+     9.335,
+     9.376
+    ],
+    [
+     9.649,
+     9.814
+    ]
+   ],
+   "optimal_partition_sorted": [
+    [
+     "6.237"
+    ],
+    [
+     "7.627",
+     "7.774"
+    ],
+    [
+     "8.561",
+     "8.758"
+    ],
+    [
+     "9.023",
+     "9.15",
+     "9.174",
+     "9.194",
+     "9.208",
+     "9.285",
+     "9.335",
+     "9.376"
+    ],
+    [
+     "9.649",
+     "9.814"
+    ]
+   ],
+   "dp_centers": [
+    6.237,
+    7.7005,
+    8.6595,
+    9.218125,
+    9.7315
+   ],
+   "moves": {
+    "1->2": 2,
+    "2->3": 2,
+    "3->4": 5
+   },
+   "moves_up": 9,
+   "moves_down": 0,
+   "replica_log": [
+    "seeds(quintile medians): 7.627000,8.758000,9.174000,9.285000,9.649000",
+    "stage1 centers: 7.212667,8.659500,9.149800,9.332000,9.731500 | iter=1 ifault=0 tot.withinss=1.4978684667",
+    "stage2 centers: 7.212667,8.659500,9.149800,9.332000,9.731500 | iter=1 ifault=0 tot.withinss=1.4978684667",
+    "stage2 vs stage1 label changes: 0"
+   ]
+  },
+  "worked_example_mirror_moves": {
+   "moves": {
+    "5->4": 2,
+    "4->3": 2,
+    "3->2": 5
+   },
+   "moves_up": 0,
+   "moves_down": 9
+  },
+  "small_n_tie_caveat": {
+   "note": "the skew law is a density-level regularity, not a per-instance theorem: a 1-decimal n=15 instance with tied values (work/mech_stage3_worked.json) has a mirror whose quintile groups shift on the ties (the <= group cuts are not negation-equivariant on ties), landing a different local optimum whose correction moves UP on right-skewed data. On tie-free data with pronounced skew (|skew| >= 0.3) the direction followed the skew sign in every observed case: 3 real 2026 groups + 2025 peer3 (up under left skew), 2 real-data mirrors (down), 2 explicit counterexamples (down under right skew), 33/33 synthetic batch, clean worked example + its mirror = 42/42. Near-symmetric groups (2025 peer4/peer5, |skew| < 0.1) have small either-signed displacement: one-signed within the group, direction not pinned by skew.",
+   "tied_instance_moves": {
+    "2->3": 2
+   },
+   "tied_instance_mirror_moves": {
+    "2->3": 2,
+    "1->2": 3
+   }
+  }
+ },
+ "registers_and_limits": [
+  "2026 comparisons on the decimal-string register of R write.csv (same as dp_taste_2026); the binary-double register is in runs/exact_census_2026.json",
+  "2025 summary scores are a pandas float64 port of SAS stages 0-2 (SAS accumulation order not reproduced); FASTCLUS itself is not replayed here: the 2025 comparison is the DP optimum vs the published Care Compare stars (2025-08-14 snapshot); the port is validated three ways: all 9 published national averages of Table 7 match at printed precision, 18,965 published per-group measure counts match with 0 mismatches, and published stars are contiguous in ported-score order (0 violations in all 3 peer groups); published-vs-optimum deltas in 2025 therefore combine FASTCLUS-vs-optimum with any strict=1 corner semantics (the FASTCLUS replay of the SAS years is in runs/sas_replay_2021..2025.json)",
+  "synthetic/necessity runs use R 4.3.3 stats::kmeans itself (not a Python imitation) via a replica script that reproduces the published stars on all three real peer groups with zero mismatches",
+  "no error attribution: the procedure is CMS's published choice; this record only addresses why exact optimization moves stars one way on this data"
+ ],
+ "inputs": {
+  "stage1": "work/mech_stage1_boundaries.json",
+  "stage2a": "work/mech_stage2a_synthetic.json",
+  "stage2b": "work/mech_stage2b_2025.json",
+  "stage3": "work/mech_stage3_worked.json",
+  "scripts": [
+   "work/mech_boundaries.py",
+   "work/mech_fn_kmeans.R",
+   "work/mech_synthetic.py",
+   "work/mech_2025.py",
+   "work/mech_worked_example.py",
+   "work/mech_assemble.py"
+  ]
+ }
+}

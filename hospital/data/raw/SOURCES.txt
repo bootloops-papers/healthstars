@@ -1,0 +1,195 @@
+# SOURCES — Hospital / Overall Hospital Quality Star Ratings raw data
+# Hospital star ratings raw data. Acquired 2026-07-18.
+# Integrity checks at acquisition: unzip -t, file magic, PDF page counts,
+# sas7bdat parse (row/column counts), and CSV header/row tallies (used to pin
+# snapshot vintages).
+#
+# ============================================================================
+# ACCESS CONSTRAINT
+# ----------------------------------------------------------------------------
+# qualitynet.cms.gov returned HTTP 403 (server: awselb/2.0) to every automated
+#   request at acquisition time: on /, on the resources page, and on every
+#   /files/<id>?filename=... endpoint; the same 403 with bare curl, with a full
+#   browser User-Agent, and with a real Chrome session.
+# No Wayback fallback exists for the qualitynet binaries: every wayback capture
+# of the qualitynet /files/ URLs (CDX-enumerated, 1,121 urlkeys on
+# qualitynet.cms.gov/files/*) is the ~1.2 KB Angular application shell
+# (text/html), not the file; the archive.org crawler was served the shell too.
+# Examples:
+#   20260130042835 SAS_Pack_2025Jul.zip -> SPA shell (verified by download)
+#   20260518232312 Star_Rtngs_CompMthdlgy_v5.1.pdf -> text/html 1135B
+#   20251007023742 Star_Rtngs_CompMthdlgy_v4.1.pdf -> text/html 1549B
+# Consequence: qualitynet-hosted artifacts were acquired from two independent
+# third-party GitHub mirrors (below), cross-checked against each other where
+# both carry the same file. data.cms.gov artifacts were acquired DIRECTLY from
+# CMS (no block on that domain).
+#
+# MIRRORS USED (pinned commits):
+#   [RUSH] https://github.com/klocey/stars-data-builder
+#          commit f27704d47a0f19b6dcd6e78fb7d1a11d77cddf8e (2026-05-17)
+#          (Rush Univ. Center for Quality, Safety & Value Analytics; maintains
+#          unpacked copies of the CMS Stars SAS/R packages and inputs)
+#   [KOS]  https://github.com/Kentucky-Open-Science/CMS-Star-Rankings
+#          commit ad0db1f6eceae463674cd7d7c6930bbdf0e6bb66 (2026-01-16)
+# Cross-check: alldata_2025jul.sas7bdat is md5-identical from both
+# mirrors (d9bf0fbc9c27db46d7cd8cd5f32574e3); the four 2025 .sas programs are
+# byte-identical after CRLF/LF normalization (only line endings differ between
+# the two mirrors' checkouts). Strong evidence both mirror the unmodified CMS
+# originals. Releases 2021-2024 exist only in [RUSH] (single mirror, no second
+# copy to cross-check; flagged as such).
+#
+# All md5s + byte counts for every stored file: MANIFEST_MD5.txt (this dir).
+# ============================================================================
+
+# ---------------------------------------------------------------------------
+# 2025-07/  — July 2025 release (SAS package era, current SAS release)
+# ---------------------------------------------------------------------------
+# sas_package_mirror_rush/*.sas, sas_package_mirror_kos/*.sas
+#   Official: https://qualitynet.cms.gov/files/688d1a002844d4a92b85f912?filename=SAS_Pack_2025Jul.zip  [BLOCKED 403]
+#   Wayback: SPA shell only (20260130042835). Acquired from [RUSH] path
+#   "2025/2025-07 Stars Release/SAS_pack_2025/" and [KOS] path
+#   "SAS/SAS_Pack_2025Jul/SAS pack/". Content identical mod line endings.
+# alldata_2025jul.sas7bdat (input file; 4,566 rows x 93 cols, parses clean)
+#   Official: https://qualitynet.cms.gov/files/688d1af52844d4a92b85f950?filename=alldata_2025jul.sas7bdat  [BLOCKED 403]
+#   Acquired from [RUSH]; duplicate copy alldata_2025jul_kos.sas7bdat from [KOS]
+#   kept as the cross-check copy (md5 identical).
+# StarRatings_SASPackDoc_Jul2025.pdf (official SAS-package documentation)
+#   Official: https://qualitynet.cms.gov/files/688d19c02844d4a92b85f900?filename=StarRatings_SASPackDoc_Jul2025.pdf  [BLOCKED 403]
+#   Acquired from [KOS] repo root. PDF magic verified.
+# care_compare_snapshots/hospitals_2025-04-30.zip (pre-release bracket)
+# care_compare_snapshots/hospitals_2025-08-14.zip (POST-release; the match)
+#   Official + retrieved directly (2026-07-18):
+#   https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2025-04-30.zip
+#   https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2025-08-14.zip
+#   Vintage check (2025-08-14): internal CSV file-date 2025-07-25;
+#   5,381 hospitals, 2,872 rated, five-star=290 -> July 2025 stars present.
+#   Wayback fallback: https://web.archive.org/web/*/https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/*
+#   Snapshot index API:
+#   https://data.cms.gov/provider-data/api/1/archive/aggregate/theme/Hospitals/relative
+
+# ---------------------------------------------------------------------------
+# 2024-07/  — July 2024 release
+# ---------------------------------------------------------------------------
+# sas_package_mirror_rush/*.sas
+#   Official: https://qualitynet.cms.gov/files/66a16cceead7eeabb7db069f?filename=StarRatings_2024_SASPack.zip  [BLOCKED 403]
+#   Wayback: SPA shell only (20260223140254). Acquired from [RUSH]
+#   "2024/2024-07 Stars Release/SAS_pack_2024/". Single mirror.
+# alldata_2024jul.sas7bdat (4,658 x 95, parses clean) — from [RUSH].
+# care_compare_snapshots/hospitals_2024-07-31.zip (go-live-day, ambiguous vintage)
+# care_compare_snapshots/hospitals_2024-10-30.zip (POST-release; the match)
+#   Retrieved directly from data.cms.gov 2026-07-18 (same URL pattern).
+#   Vintage check (2024-10-30): internal CSV date 2024-10-15; 5,394 hospitals,
+#   2,826 rated, five-star=381 -> July 2024 stars present.
+# NOT acquired: StarRatings_SASPackDocs_July2024.pdf (qualitynet id
+#   66a16cb8df50d5628e69a214) — blocked + shell-only in wayback + no mirror found.
+
+# ---------------------------------------------------------------------------
+# 2023-07/  — July 2023 release
+# ---------------------------------------------------------------------------
+# sas_package_mirror_rush/*.sas
+#   Official: https://qualitynet.cms.gov/files/64b6ae12749e52001c0e6f22?filename=StarRatings_2023_SASPack.zip  [BLOCKED 403]
+#   Wayback: SPA shell only (20260222174417). Acquired from [RUSH]
+#   "2023/2023-07 Stars Release/SAS_pack_2023/". Single mirror.
+# alldata_2023jul.sas7bdat (4,654 x 95, parses clean) — from [RUSH].
+#   Official: https://qualitynet.cms.gov/files/64b6ae41d15911001c695d5d?filename=alldata_2023jul.sas7bdat  [BLOCKED 403]
+# care_compare_snapshots/hospitals_2023-07-06.zip (pre-release bracket)
+# care_compare_snapshots/hospitals_2023-10-06.zip (POST-release; the match)
+#   Retrieved directly from data.cms.gov 2026-07-18.
+#   Vintage check (2023-10-06): 5,446 hospitals, 3,061 rated, five-star=483
+#   -> July 2023 stars present. NOTE: the zip members carry file-date 2024-02-13
+#   (PQDC repackaged the archive zips in Feb 2024); CSV content is the snapshot
+#   vintage — the star distribution pins it.
+# NOT acquired: StarRatings_SASPackDocs_July2023.pdf (id 64b6ae01d15911001c695d5a) — same block.
+
+# ---------------------------------------------------------------------------
+# 2022-07/  — July 2022 release
+# ---------------------------------------------------------------------------
+# sas_package_mirror_rush/*.sas
+#   Official zip URL not recoverable from CDX (only the instructions PDF and
+#   all_data file appear); qualitynet blocked regardless. Acquired from [RUSH]
+#   "2022/2022-07 Stars Release/SAS_pack_2022/". Single mirror.
+# all_data_2022jul.sas7bdat (4,489 x 95, parses clean) — from [RUSH].
+#   Official: https://qualitynet.cms.gov/files/62dab18796fd970016ea322b?filename=all_data_2022jul.sas7bdat  [BLOCKED 403]
+# care_compare_snapshots/hospitals_2022-07-06.zip (pre-release bracket)
+# care_compare_snapshots/hospitals_2022-10-06.zip (POST-release; the match)
+#   Retrieved directly from data.cms.gov 2026-07-18.
+#   Vintage check (2022-10-06): 5,307 hospitals, 3,096 rated, five-star=430
+#   -> July 2022 stars present. Same Feb-2024 repackaging note as 2023.
+# NOT acquired: StarRating_Jul2022SASPack_Instrctns.pdf (id 62dab13196fd970016ea3225) — same block.
+
+# ---------------------------------------------------------------------------
+# 2021-04/  — April 2021 release (FIRST release under the overhauled methodology)
+# ---------------------------------------------------------------------------
+# sas_package_mirror_rush/*.sas  ("_E" / "_E_peer" suffixed programs, as
+#   distributed in the April 2021 package per the [RUSH] mirror)
+#   Official qualitynet URL not recoverable from CDX; blocked regardless.
+#   Acquired from [RUSH] "2021/2021-04 Stars Release/SAS_pack_2021/". Single mirror.
+# all_data_2021apr.sas7bdat (4,536 x 99, parses clean) — from [RUSH].
+# care_compare_snapshots/hospitals_2021-04-28.zip (snapshot dated go-live day)
+# care_compare_snapshots/hospitals_2021-07-21.zip (POST-release; the match)
+#   Retrieved directly from data.cms.gov 2026-07-18.
+#   Vintage check (2021-07-21): internal CSV date 2021-06-17; 5,336 hospitals,
+#   3,330 rated, five-star=455 -> April 2021 stars present.
+
+# ---------------------------------------------------------------------------
+# 2026-05/  — 2026 release (R package era: CMS's SAS-to-R transition pack)
+# ---------------------------------------------------------------------------
+# R_Pack_2026Apr.zip — CMS ORIGINAL ZIP (mirrored intact by [RUSH]; unzip -t
+#   clean; contains 3 R programs: "0 - Data and Measure Standardization_2026Apr.R",
+#   "1 - First stage_...", "2 - Second Stage_...").
+#   Official qualitynet URL unknown (never captured by wayback); blocked regardless.
+#   From [RUSH] "2026/2026-05_Stars_Release/R_pack_2026/R_Pack_2026Apr.zip".
+# StarRating_RPackDoc_Apr2026.pdf (official R-package documentation) — from [RUSH].
+# stars_alldata_2026apr.csv (the R pack's input; the R code reads exactly
+#   "stars_alldata_2026apr.csv" — filename verified against the code in the zip).
+# care_compare_snapshots/hospitals_2026-02-25.zip (pre-release bracket)
+# care_compare_snapshots/hospitals_2026-05-13.zip (release-vintage; the match)
+#   Retrieved directly from data.cms.gov 2026-07-18.
+#   Vintage check (2026-05-13): internal CSV date 2026-04-28; 5,432 hospitals,
+#   3,182 rated, five-star=384 -> 2026 stars present.
+
+# ---------------------------------------------------------------------------
+# methodology/
+# ---------------------------------------------------------------------------
+# Star_Rtngs_CompMthdlgy_v5.1.pdf — CURRENT Comprehensive Methodology Report.
+#   Official: https://qualitynet.cms.gov/files/69eb9be1f1becb2be7183b08?filename=Star_Rtngs_CompMthdlgy_v5.1.pdf  [BLOCKED 403]
+#   Wayback: SPA shell only (20260518232312). Acquired from [RUSH]
+#   "2026/2026-05_Stars_Release/". PDF magic verified; contains the k-means
+#   star-assignment step (Step 8) — see note below.
+# 2021_overhaul_federal_register/ — the authoritative 2021-overhaul documents,
+#   ALL retrieved DIRECTLY from official sources 2026-07-18:
+#   2020-17086.pdf  CY2021 OPPS/ASC PROPOSED rule, 85 FR 48772 (2020-08-12),
+#     311 pp — proposes the star-ratings methodology overhaul.
+#     https://www.govinfo.gov/content/pkg/FR-2020-08-12/pdf/2020-17086.pdf
+#   2020-26819.pdf  CY2021 OPPS/ASC FINAL rule, 85 FR 85866 (2020-12-29),
+#     440 pp — finalizes the overhaul; section "XVI. Overall Hospital Quality
+#     Star Rating" (verified present in text layer); codified at 42 CFR 412.190.
+#     https://www.govinfo.gov/content/pkg/FR-2020-12-29/pdf/2020-26819.pdf
+#   2021-03852.pdf  Correction, 86 FR 11428 (2021-02-25), 5 pp.
+#     https://www.govinfo.gov/content/pkg/FR-2021-02-25/pdf/2021-03852.pdf
+#   C1-2020-26819.pdf  Correction C1, 86 FR 33902 (2021-06-28), 1 p.
+#     https://www.govinfo.gov/content/pkg/FR-2021-06-28/pdf/C1-2020-26819.pdf
+#   ecfr_42CFR412.190_current.html  Current codified text (eCFR, retrieved
+#     2026-07-18): https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-412/subpart-D/section-412.190
+#   Wayback fallback for all of the above: govinfo/ecfr URLs are stable and
+#   archived (standard web.archive.org/web/*/<url>).
+# NOTE: both the 2020 final rule (44 k-means mentions, including "Use of
+#   k-means clustering to assign") and the current v5.1 report (Step 8:
+#   Application of K-Means Clustering) retain k-means for star assignment. The
+#   2021 overhaul replaced the latent variable model with simple averages /
+#   explicit measure-group weights and added peer grouping, documented in the
+#   FR pair above.
+
+# ---------------------------------------------------------------------------
+# NOT ACQUIRED (blocked at every channel tried)
+# ---------------------------------------------------------------------------
+# 1. Star_Rtngs_CompMthdlgy_v4.1.pdf (prior Comprehensive Methodology Report;
+#    id 603966dda413b400224ddf50) — qualitynet 403; wayback shell-only; no
+#    indexed public mirror found. Also applies to v4.0/v4.5/v5.0
+#    intermediates and the pre-overhaul v3.0-era report
+#    (Star_Rtngs_CompMthdlgy_010518.pdf).
+# 2. The official SAS package ZIPs as distributed (2021-2025) — only unpacked
+#    mirrors were obtainable; the CMS zip container (with its file timestamps)
+#    exists only behind qualitynet. Contents stored; containers not.
+# 3. SAS package documentation PDFs for 2021, 2022, 2023, 2024 (see per-release
+#    notes; only the July 2025 SASPackDoc was mirrored anywhere reachable).

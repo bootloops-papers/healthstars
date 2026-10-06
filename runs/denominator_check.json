@@ -1,0 +1,37 @@
+{
+ "register": "Printed-denominator record, all organization classes: the printed 1,724 counts every published numeric headline rating (overall for MA-PD, Part C summary for MA-only, Part D summary for PDP; cost contracts included, since CMS issues them ratings) at the baseline vintages; n_rated = the replay aggregation produces the headline (raw condition), all classes. The numerator counts flips in the dollar estimate (QBP-relevant) while the 1,724 denominator counts all issued ratings, which is what the phrase 'of the 1,724 ratings CMS issued' states.",
+ "generator": "src/denominator_check.py",
+ "per_year": {
+  "2024": {
+   "n_published_headline": 597,
+   "n_rated": 781
+  },
+  "2025": {
+   "n_published_headline": 566,
+   "n_rated": 715
+  },
+  "2026": {
+   "n_published_headline": 561,
+   "n_rated": 684
+  }
+ },
+ "totals": {
+  "n_published_headline": 1724,
+  "n_rated": 2180
+ },
+ "ratio_of_record": {
+  "numerator": 34,
+  "denominator": 1724,
+  "pct": 2.0,
+  "beside_all_rated": {
+   "numerator": 34,
+   "denominator": 2180,
+   "pct": 1.6
+  }
+ },
+ "printed_targets": {
+  "published": "597/566/561=1724",
+  "rated": "781/715/684=2180",
+  "ratio": "2.8%"
+ }
+}

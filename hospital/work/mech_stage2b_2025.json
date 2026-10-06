@@ -1,0 +1,196 @@
+{
+  "run": "mech_2025_dp_vs_published",
+  "register": "ported summary scores (pandas float64, SAS semantics: n-1 std, missing-skip sums, weight redistribution); DP on exact binary doubles of the port; published stars = Care Compare 2025-08-14 snapshot; FASTCLUS NOT replayed",
+  "volume_filter_excluded": [],
+  "n_hospitals_with_any_measure": 4566,
+  "n_report_indicator_1": 2891,
+  "validation_group_measure_counts": {
+    "checked": 18965,
+    "mismatched": 0
+  },
+  "peer3": {
+    "n_clustered": 141,
+    "n_jointly_published_rated": 140,
+    "published_contiguity_violations_in_ported_score_order": 0,
+    "n_optimal_partitions": 1,
+    "boundary_value_ties": 0,
+    "moment_skewness": -1.209065618864276,
+    "mean_minus_median": -0.13240831574620598,
+    "stars_differ_published_vs_dp": 11,
+    "moves": {
+      "2->3": 5,
+      "3->4": 2,
+      "1->2": 4
+    },
+    "boundary_shifts": [
+      {
+        "cut": "1|2",
+        "published_minus_dp_index": 4,
+        "hospitals_crossing": 4,
+        "direction": "published ABOVE dp"
+      },
+      {
+        "cut": "2|3",
+        "published_minus_dp_index": 5,
+        "hospitals_crossing": 5,
+        "direction": "published ABOVE dp"
+      },
+      {
+        "cut": "3|4",
+        "published_minus_dp_index": 2,
+        "hospitals_crossing": 2,
+        "direction": "published ABOVE dp"
+      },
+      {
+        "cut": "4|5",
+        "published_minus_dp_index": 0,
+        "hospitals_crossing": 0,
+        "direction": "equal"
+      }
+    ]
+  },
+  "peer4": {
+    "n_clustered": 515,
+    "n_jointly_published_rated": 504,
+    "published_contiguity_violations_in_ported_score_order": 0,
+    "n_optimal_partitions": 1,
+    "boundary_value_ties": 0,
+    "moment_skewness": -0.08407682892268271,
+    "mean_minus_median": -0.008386282654524402,
+    "stars_differ_published_vs_dp": 5,
+    "moves": {
+      "4->3": 1,
+      "3->2": 4
+    },
+    "boundary_shifts": [
+      {
+        "cut": "1|2",
+        "published_minus_dp_index": 0,
+        "hospitals_crossing": 0,
+        "direction": "equal"
+      },
+      {
+        "cut": "2|3",
+        "published_minus_dp_index": -4,
+        "hospitals_crossing": 4,
+        "direction": "published BELOW dp"
+      },
+      {
+        "cut": "3|4",
+        "published_minus_dp_index": -1,
+        "hospitals_crossing": 1,
+        "direction": "published BELOW dp"
+      },
+      {
+        "cut": "4|5",
+        "published_minus_dp_index": 0,
+        "hospitals_crossing": 0,
+        "direction": "equal"
+      }
+    ]
+  },
+  "peer5": {
+    "n_clustered": 2235,
+    "n_jointly_published_rated": 2228,
+    "published_contiguity_violations_in_ported_score_order": 0,
+    "n_optimal_partitions": 1,
+    "boundary_value_ties": 0,
+    "moment_skewness": -0.09046780972550902,
+    "mean_minus_median": -0.008435714893399601,
+    "stars_differ_published_vs_dp": 22,
+    "moves": {
+      "4->5": 4,
+      "3->4": 9,
+      "1->2": 4,
+      "2->3": 5
+    },
+    "boundary_shifts": [
+      {
+        "cut": "1|2",
+        "published_minus_dp_index": 4,
+        "hospitals_crossing": 4,
+        "direction": "published ABOVE dp"
+      },
+      {
+        "cut": "2|3",
+        "published_minus_dp_index": 5,
+        "hospitals_crossing": 5,
+        "direction": "published ABOVE dp"
+      },
+      {
+        "cut": "3|4",
+        "published_minus_dp_index": 9,
+        "hospitals_crossing": 9,
+        "direction": "published ABOVE dp"
+      },
+      {
+        "cut": "4|5",
+        "published_minus_dp_index": 4,
+        "hospitals_crossing": 4,
+        "direction": "published ABOVE dp"
+      }
+    ]
+  },
+  "moves_total": {
+    "2->3": 10,
+    "3->4": 11,
+    "1->2": 8,
+    "4->3": 1,
+    "3->2": 4,
+    "4->5": 4
+  },
+  "total_stars_differ": 38,
+  "moves_up_total": 33,
+  "moves_down_total": 5,
+  "validation_national_averages_table7": {
+    "source": "StarRatings_SASPackDoc_Jul2025.pdf Table 7 (Jul 2025 datasheet)",
+    "all_match_at_printed_precision": true,
+    "detail": {
+      "Summary_Score_Nat": {
+        "published_table7": -0.0344,
+        "ported": -0.034354,
+        "match_at_printed_precision": true
+      },
+      "Summary_Score_Nat_peer3": {
+        "published_table7": -0.1684,
+        "ported": -0.168412,
+        "match_at_printed_precision": true
+      },
+      "Summary_Score_Nat_peer4": {
+        "published_table7": 0.1728,
+        "ported": 0.172802,
+        "match_at_printed_precision": true
+      },
+      "Summary_Score_Nat_peer5": {
+        "published_table7": -0.0736,
+        "ported": -0.07363,
+        "match_at_printed_precision": true
+      },
+      "Out_Mrt_Grp_Score_Nat": {
+        "published_table7": 0.10144,
+        "ported": 0.101445,
+        "match_at_printed_precision": true
+      },
+      "Out_Sft_Grp_Score_Nat": {
+        "published_table7": 0.027,
+        "ported": 0.027003,
+        "match_at_printed_precision": true
+      },
+      "Out_Readm_grp_Score_Nat": {
+        "published_table7": 0.00159,
+        "ported": 0.001594,
+        "match_at_printed_precision": true
+      },
+      "Pt_Exp_Grp_Score_Nat": {
+        "published_table7": 0.0,
+        "ported": -0.0,
+        "match_at_printed_precision": true
+      },
+      "Prc_of_Care_Grp_Score_Nat": {
+        "published_table7": -0.0097,
+        "ported": -0.009652,
+        "match_at_printed_precision": true
+      }
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+ "run": "sas_replay_2021-04",
+ "code": "Python replay of the year's SAS pack (programs 0/1/2 + Star_Macros %kmeans) with src/hospital_kmeans.py for the PROC FASTCLUS step (independent implementation of the procedure as documented in the SAS/STAT User's Guide); IEEE-double arithmetic; open points of the documentation carried as counters (Notes 1-7 in src/hospital_kmeans.py)",
+ "pack": {
+  "dir": "data/raw/2021-04/sas_package_mirror_rush",
+  "prog0": "0 - Data and Measure Standardization_2021Apr_E.sas",
+  "year": "2021",
+  "quarter": "Apr"
+ },
+ "input": {
+  "file": "data/raw/2021-04/all_data_2021apr.sas7bdat",
+  "md5": "36e1dfbda7018e04c22cd4f6489c45b1"
+ },
+ "measures": {
+  "listed": 49,
+  "included_gt100": 48,
+  "excluded_le100": [
+   "OP_2"
+  ]
+ },
+ "hospitals_kept": 4536,
+ "star_distribution_replay": {
+  "1": 204,
+  "2": 690,
+  "3": 1018,
+  "4": 988,
+  "5": 455,
+  "NA": 1181
+ },
+ "peer_groups": {
+  "peer3": {
+   "n": 337,
+   "stage1_iters": 10,
+   "stage1_converged": true,
+   "stage2_iters": 5,
+   "stage2_converged": true,
+   "strict_excluded_reincluded": 4,
+   "tie_events_total": 0,
+   "mean_sort_ties": 0,
+   "empty_cluster_events_stage2": 0,
+   "duplicate_seed_values": 0,
+   "seeds1": [
+    -0.5973795448901329,
+    -0.18002069985449937,
+    0.09286870118904308,
+    0.35181400021643144,
+    0.7319107128472166
+   ],
+   "seeds2": [
+    -1.2089396814742288,
+    -0.43407880216904426,
+    0.027009139106614666,
+    0.4813586742186889,
+    1.0977707040952207
+   ],
+   "star_counts": {
+    "2": 72,
+    "5": 35,
+    "4": 93,
+    "3": 111,
+    "1": 26
+   }
+  },
+  "peer4": {
+   "n": 553,
+   "stage1_iters": 10,
+   "stage1_converged": true,
+   "stage2_iters": 8,
+   "stage2_converged": true,
+   "strict_excluded_reincluded": 2,
+   "tie_events_total": 0,
+   "mean_sort_ties": 0,
+   "empty_cluster_events_stage2": 0,
+   "duplicate_seed_values": 0,
+   "seeds1": [
+    -0.46590656579116796,
+    -0.05022464575132035,
+    0.22247653152828595,
+    0.4948328854441621,
+    0.8061321336653855
+   ],
+   "seeds2": [
+    -1.2691364805698349,
+    -0.2886985657767733,
+    0.2055466080708286,
+    0.6451613539770903,
+    1.1602318083582104
+   ],
+   "star_counts": {
+    "2": 144,
+    "4": 143,
+    "3": 194,
+    "5": 39,
+    "1": 33
+   }
+  },
+  "peer5": {
+   "n": 2465,
+   "stage1_iters": 38,
+   "stage1_converged": true,
+   "stage2_iters": 4,
+   "stage2_converged": true,
+   "strict_excluded_reincluded": 1,
+   "tie_events_total": 0,
+   "mean_sort_ties": 0,
+   "empty_cluster_events_stage2": 0,
+   "duplicate_seed_values": 0,
+   "seeds1": [
+    -0.7049628394306517,
+    -0.33330387209849516,
+    -0.0953771784091119,
+    0.13823336661242852,
+    0.46274766330546535
+   ],
+   "seeds2": [
+    -1.1612363652570683,
+    -0.5962376995275495,
+    -0.21948934741392784,
+    0.13272310807455392,
+    0.5597506019517289
+   ],
+   "star_counts": {
+    "3": 713,
+    "2": 474,
+    "4": 752,
+    "5": 381,
+    "1": 145
+   }
+  }
+ },
+ "fastclus_residue_rollup": {
+  "tie_events_total": 0,
+  "mean_sort_ties": 0,
+  "duplicate_seed_values": 0,
+  "note": "all zero => the points the FASTCLUS documentation leaves open (equidistant ties, duplicate seeds, star-order mean ties; Notes in src/hospital_kmeans.py) were never exercised on this year's data"
+ },
+ "comparisons": {
+  "hospitals_2021-04-28.zip": {
+   "ids_in_both": 4518,
+   "matched_exactly": 3339,
+   "mismatched": 0,
+   "both_unrated": 1173,
+   "replay_rated_published_NotAvailable": 6,
+   "published_rated_replay_unrated": 0,
+   "ids_only_in_replay_input": 18,
+   "ids_only_in_published": 864,
+   "ids_only_in_published_that_are_rated": 0,
+   "match_rate_of_jointly_rated": 1.0,
+   "snapshot_hospitals": 5382,
+   "zip_md5": "2d4328460021430846999caa220a180f"
+  },
+  "hospitals_2021-07-21.zip": {
+   "ids_in_both": 4503,
+   "matched_exactly": 3330,
+   "mismatched": 0,
+   "both_unrated": 1166,
+   "replay_rated_published_NotAvailable": 7,
+   "published_rated_replay_unrated": 0,
+   "ids_only_in_replay_input": 33,
+   "ids_only_in_published": 833,
+   "ids_only_in_published_that_are_rated": 0,
+   "match_rate_of_jointly_rated": 1.0,
+   "snapshot_hospitals": 5336,
+   "zip_md5": "4d021f5d87a8a9193782706ceb02eaf3"
+  }
+ },
+ "primary_snapshot": "hospitals_2021-04-28.zip",
+ "mismatch_detail_primary": [],
+ "replay_rated_pub_na_footnotes_primary": {
+  "5": 6
+ },
+ "pub_rated_replay_na_primary": [],
+ "output_csv": "work/sas_replay_out/star_2021-04.csv"
+}

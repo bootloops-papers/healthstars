@@ -1,0 +1,68 @@
+{
+  "run": "replay_2026_pilot",
+  "code": "CMS R_Pack_2026Apr.zip, 3 programs byte-unmodified; a thin driver (work/driver.R) remaps the two hardcoded Windows paths via an attached file.path shim environment",
+  "r_version": "R 4.3.3; packages readr, psych, dplyr",
+  "input": {
+    "file": "data/raw/2026-05/stars_alldata_2026apr.csv",
+    "md5": "4bf3b214f85be421a76136aea7811a29",
+    "rows_incl_header": 4570
+  },
+  "published_reference": {
+    "file": "data/raw/2026-05/care_compare_snapshots/hospitals_2026-05-13.zip :: Hospital_General_Information.csv",
+    "zip_md5": "5b92b42785c7ff8bd4b5e559bada4953",
+    "column": "Hospital overall rating",
+    "hospitals": 5432
+  },
+  "star_distribution": {
+    "replay_post_cap": {
+      "1": 204,
+      "2": 670,
+      "3": 991,
+      "4": 953,
+      "5": 385,
+      "NA": 1366
+    },
+    "published": {
+      "1": 199,
+      "2": 662,
+      "3": 987,
+      "4": 950,
+      "5": 384,
+      "Not Available": 2250
+    }
+  },
+  "comparison": {
+    "ids_in_both": 4550,
+    "matched_exactly": 3182,
+    "mismatched": 0,
+    "both_unrated": 1354,
+    "replay_rated_published_NotAvailable": 14,
+    "published_rated_replay_unrated": 0,
+    "ids_only_in_replay_input": 19,
+    "ids_only_in_published": 882,
+    "ids_only_in_published_that_are_rated": 0,
+    "match_rate_of_jointly_rated": 1.0
+  },
+  "cross_checks": {
+    "peer_group_sizes_replay": {
+      "3-group": 177,
+      "4-group": 749,
+      "5-group": 2277
+    },
+    "peer_group_sizes_methodology_report_v51_fig5": {
+      "3-group": 177,
+      "4-group": 749,
+      "5-group": 2277
+    },
+    "peer_groups_match": true,
+    "input_hospitals_replay": 4569,
+    "input_hospitals_v51": 4569,
+    "safety_cap_hospitals_5to4": 15
+  },
+  "mismatch_detail": [],
+  "replay_rated_pub_na_footnotes": {
+    "11": 1,
+    "5": 13
+  },
+  "pub_rated_replay_na_detail": []
+}

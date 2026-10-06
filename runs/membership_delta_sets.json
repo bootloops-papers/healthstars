@@ -1,0 +1,3340 @@
+{
+ "hypothesis": "cost+d60r+emp",
+ "score_vintage": {
+  "2024": "original",
+  "2025": "original",
+  "2026": "current"
+ },
+ "k_cap": 28,
+ "rem_cap": 8,
+ "years": {
+  "2024": {
+   "adds": [
+    {
+     "id": "ADD-2024-MAPD-01",
+     "org_class": "MA-PD",
+     "measures": {
+      "C07/ALL": "3",
+      "C12/ALL": "52",
+      "C25/ALL": "43/100",
+      "C26/ALL": "0",
+      "C28/ALL": "47",
+      "D01/MA-PD": "10",
+      "D02/MA-PD": "43/100",
+      "D03/MA-PD": "0"
+     }
+    },
+    {
+     "id": "ADD-2024-MAPD-02",
+     "org_class": "MA-PD",
+     "measures": {
+      "C07/ALL": "3",
+      "C12/ALL": "52",
+      "C25/ALL": "43/100",
+      "C26/ALL": "0",
+      "C28/ALL": "47",
+      "D01/MA-PD": "10",
+      "D02/MA-PD": "43/100",
+      "D03/MA-PD": "0"
+     }
+    },
+    {
+     "id": "ADD-2024-MAPD-03",
+     "org_class": "MA-PD",
+     "measures": {
+      "C07/ALL": "88",
+      "C12/ALL": "52",
+      "C26/ALL": "9",
+      "C28/ALL": "47",
+      "D01/MA-PD": "10",
+      "D03/MA-PD": "9"
+     }
+    },
+    {
+     "id": "ADD-2024-MAPD-04",
+     "org_class": "MA-PD",
+     "measures": {
+      "C12/ALL": "52",
+      "C26/ALL": "29",
+      "C28/ALL": "94",
+      "D01/MA-PD": "10",
+      "D03/MA-PD": "29"
+     }
+    },
+    {
+     "id": "ADD-2024-MAPD-05",
+     "org_class": "MA-PD",
+     "measures": {
+      "C12/ALL": "52",
+      "D01/MA-PD": "10"
+     }
+    },
+    {
+     "id": "ADD-2024-MAPD-06",
+     "org_class": "MA-PD",
+     "measures": {
+      "C12/ALL": "52",
+      "D01/MA-PD": "10"
+     }
+    },
+    {
+     "id": "ADD-2024-MAPD-07",
+     "org_class": "MA-PD",
+     "measures": {
+      "C12/ALL": "52",
+      "D01/MA-PD": "10"
+     }
+    },
+    {
+     "id": "ADD-2024-MAPD-08",
+     "org_class": "MA-PD",
+     "measures": {
+      "C12/ALL": "52",
+      "D01/MA-PD": "10"
+     }
+    },
+    {
+     "id": "ADD-2024-MAPD-09",
+     "org_class": "MA-PD",
+     "measures": {
+      "D01/MA-PD": "10"
+     }
+    },
+    {
+     "id": "ADD-2024-MAONLY-01",
+     "org_class": "MA-only",
+     "measures": {
+      "C26/ALL": "0"
+     }
+    },
+    {
+     "id": "ADD-2024-MAONLY-02",
+     "org_class": "MA-only",
+     "measures": {
+      "C26/ALL": "9"
+     }
+    },
+    {
+     "id": "ADD-2024-MAONLY-03",
+     "org_class": "MA-only",
+     "measures": {
+      "C26/ALL": "29"
+     }
+    },
+    {
+     "id": "ADD-2024-PDP-01",
+     "org_class": "PDP",
+     "measures": {
+      "D02/PDP": "9/100",
+      "D03/PDP": "21"
+     }
+    },
+    {
+     "id": "ADD-2024-PDP-02",
+     "org_class": "PDP",
+     "measures": {
+      "D03/PDP": "21"
+     }
+    },
+    {
+     "id": "ADD-2024-PDP-03",
+     "org_class": "PDP",
+     "measures": {
+      "D03/PDP": "21"
+     }
+    }
+   ],
+   "removals": [
+    {
+     "contract_id": "H0332",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C08/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C29/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    },
+    {
+     "contract_id": "H1894",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C05/ALL",
+      "C06/ALL",
+      "C07/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    }
+   ],
+   "removal_notes": [
+    {
+     "target": "C12/ALL",
+     "axis": "cost",
+     "contracts": [
+      "H0332",
+      "H1894"
+     ],
+     "values": [
+      "61",
+      "61"
+     ],
+     "k_add_after": 8
+    }
+   ],
+   "coupling": [
+    {
+     "family": "Complaints about",
+     "C": "C25",
+     "D": "D02",
+     "C_multiset": [
+      "43/100",
+      "43/100"
+     ],
+     "D_submultiset": [
+      "43/100",
+      "43/100"
+     ],
+     "status": "coupled (D sub-multiset of C on shared MA-PD adds)"
+    },
+    {
+     "family": "Members Choosing to Leave",
+     "C": "C26",
+     "D": "D03",
+     "C_multiset": [
+      "0",
+      "0",
+      "0",
+      "9",
+      "9",
+      "29",
+      "29"
+     ],
+     "D_submultiset": [
+      "0",
+      "0",
+      "9",
+      "29"
+     ],
+     "status": "coupled (D sub-multiset of C on shared MA-PD adds)"
+    },
+    {
+     "family": "Call Center",
+     "status": "data not value-coupled; left free"
+    }
+   ],
+   "unsolved": [],
+   "battery": [
+    {
+     "mid": "C01",
+     "org": "ALL",
+     "pub_lo": "30",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "30",
+      "100"
+     ],
+     "after": [
+      "30",
+      "100"
+     ]
+    },
+    {
+     "mid": "C02",
+     "org": "ALL",
+     "pub_lo": "26",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "26",
+      "100"
+     ],
+     "after": [
+      "26",
+      "100"
+     ]
+    },
+    {
+     "mid": "C04",
+     "org": "ALL",
+     "pub_lo": "25",
+     "pub_hi": "74",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "25",
+      "74"
+     ],
+     "after": [
+      "25",
+      "74"
+     ]
+    },
+    {
+     "mid": "C05",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "C06",
+     "org": "ALL",
+     "pub_lo": "59",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "59",
+      "100"
+     ],
+     "after": [
+      "59",
+      "100"
+     ]
+    },
+    {
+     "mid": "C07",
+     "org": "ALL",
+     "pub_lo": "57",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "54",
+      "100"
+     ],
+     "after": [
+      "57",
+      "100"
+     ]
+    },
+    {
+     "mid": "C08",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "C09",
+     "org": "ALL",
+     "pub_lo": "27",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "27",
+      "100"
+     ],
+     "after": [
+      "27",
+      "100"
+     ]
+    },
+    {
+     "mid": "C10",
+     "org": "ALL",
+     "pub_lo": "38",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "38",
+      "100"
+     ],
+     "after": [
+      "38",
+      "100"
+     ]
+    },
+    {
+     "mid": "C11",
+     "org": "ALL",
+     "pub_lo": "38",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "38",
+      "100"
+     ],
+     "after": [
+      "38",
+      "100"
+     ]
+    },
+    {
+     "mid": "C12",
+     "org": "ALL",
+     "pub_lo": "27",
+     "pub_hi": "83",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "24",
+      "87"
+     ],
+     "after": [
+      "27",
+      "83"
+     ]
+    },
+    {
+     "mid": "C13",
+     "org": "ALL",
+     "pub_lo": "24",
+     "pub_hi": "66",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "24",
+      "66"
+     ],
+     "after": [
+      "24",
+      "66"
+     ]
+    },
+    {
+     "mid": "C14",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "C15",
+     "org": "ALL",
+     "pub_lo": "4",
+     "pub_hi": "18",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "4",
+      "18"
+     ],
+     "after": [
+      "4",
+      "18"
+     ]
+    },
+    {
+     "mid": "C16",
+     "org": "ALL",
+     "pub_lo": "71",
+     "pub_hi": "99",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "71",
+      "99"
+     ],
+     "after": [
+      "71",
+      "99"
+     ]
+    },
+    {
+     "mid": "C17",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "C18",
+     "org": "ALL",
+     "pub_lo": "28",
+     "pub_hi": "84",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "28",
+      "84"
+     ],
+     "after": [
+      "28",
+      "84"
+     ]
+    },
+    {
+     "mid": "C25",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "1.41",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "137/100"
+     ],
+     "after": [
+      "0",
+      "141/100"
+     ]
+    },
+    {
+     "mid": "C26",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "87.5",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "88"
+     ],
+     "after": [
+      "0",
+      "175/2"
+     ]
+    },
+    {
+     "mid": "C27",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "0.807245",
+     "status": "no_data"
+    },
+    {
+     "mid": "C28",
+     "org": "ALL",
+     "pub_lo": "70",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "72",
+      "100"
+     ],
+     "after": [
+      "70",
+      "100"
+     ]
+    },
+    {
+     "mid": "C29",
+     "org": "ALL",
+     "pub_lo": "78",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "78",
+      "100"
+     ],
+     "after": [
+      "78",
+      "100"
+     ]
+    },
+    {
+     "mid": "C30",
+     "org": "ALL",
+     "pub_lo": "82",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "82",
+      "100"
+     ],
+     "after": [
+      "82",
+      "100"
+     ]
+    },
+    {
+     "mid": "D01",
+     "org": "MA-PD",
+     "pub_lo": "74",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "78",
+      "100"
+     ],
+     "after": [
+      "74",
+      "100"
+     ]
+    },
+    {
+     "mid": "D02",
+     "org": "MA-PD",
+     "pub_lo": "0",
+     "pub_hi": "1.41",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "137/100"
+     ],
+     "after": [
+      "0",
+      "141/100"
+     ]
+    },
+    {
+     "mid": "D03",
+     "org": "MA-PD",
+     "pub_lo": "0",
+     "pub_hi": "87.5",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "88"
+     ],
+     "after": [
+      "0",
+      "175/2"
+     ]
+    },
+    {
+     "mid": "D04",
+     "org": "MA-PD",
+     "pub_lo": "0",
+     "pub_hi": "1.297044",
+     "status": "no_data"
+    },
+    {
+     "mid": "D07",
+     "org": "MA-PD",
+     "pub_lo": "91",
+     "pub_hi": "105",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "91",
+      "105"
+     ],
+     "after": [
+      "91",
+      "105"
+     ]
+    },
+    {
+     "mid": "D08",
+     "org": "MA-PD",
+     "pub_lo": "72",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "72",
+      "100"
+     ],
+     "after": [
+      "72",
+      "100"
+     ]
+    },
+    {
+     "mid": "D09",
+     "org": "MA-PD",
+     "pub_lo": "74",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "74",
+      "100"
+     ],
+     "after": [
+      "74",
+      "100"
+     ]
+    },
+    {
+     "mid": "D10",
+     "org": "MA-PD",
+     "pub_lo": "73",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "73",
+      "100"
+     ],
+     "after": [
+      "73",
+      "100"
+     ]
+    },
+    {
+     "mid": "D11",
+     "org": "MA-PD",
+     "pub_lo": "53",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "53",
+      "100"
+     ],
+     "after": [
+      "53",
+      "100"
+     ]
+    },
+    {
+     "mid": "D12",
+     "org": "MA-PD",
+     "pub_lo": "68",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "68",
+      "100"
+     ],
+     "after": [
+      "68",
+      "100"
+     ]
+    },
+    {
+     "mid": "D01",
+     "org": "PDP",
+     "pub_lo": "86",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "86",
+      "100"
+     ],
+     "after": [
+      "86",
+      "100"
+     ]
+    },
+    {
+     "mid": "D02",
+     "org": "PDP",
+     "pub_lo": "0",
+     "pub_hi": "0.26",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "11/50"
+     ],
+     "after": [
+      "0",
+      "13/50"
+     ]
+    },
+    {
+     "mid": "D03",
+     "org": "PDP",
+     "pub_lo": "0",
+     "pub_hi": "62",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "45"
+     ],
+     "after": [
+      "0",
+      "62"
+     ]
+    },
+    {
+     "mid": "D04",
+     "org": "PDP",
+     "pub_lo": "0",
+     "pub_hi": "0.96875",
+     "status": "no_data"
+    },
+    {
+     "mid": "D07",
+     "org": "PDP",
+     "pub_lo": "94",
+     "pub_hi": "101",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "94",
+      "101"
+     ],
+     "after": [
+      "94",
+      "101"
+     ]
+    },
+    {
+     "mid": "D08",
+     "org": "PDP",
+     "pub_lo": "76",
+     "pub_hi": "97",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "76",
+      "97"
+     ],
+     "after": [
+      "76",
+      "97"
+     ]
+    },
+    {
+     "mid": "D09",
+     "org": "PDP",
+     "pub_lo": "80",
+     "pub_hi": "97.5",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "80",
+      "195/2"
+     ],
+     "after": [
+      "80",
+      "195/2"
+     ]
+    },
+    {
+     "mid": "D10",
+     "org": "PDP",
+     "pub_lo": "77",
+     "pub_hi": "98",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "77",
+      "98"
+     ],
+     "after": [
+      "77",
+      "98"
+     ]
+    },
+    {
+     "mid": "D11",
+     "org": "PDP",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "D12",
+     "org": "PDP",
+     "pub_lo": "72",
+     "pub_hi": "93",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "72",
+      "93"
+     ],
+     "after": [
+      "72",
+      "93"
+     ]
+    }
+   ],
+   "exact_before": 30,
+   "exact_after": 40,
+   "evaluable": 40
+  },
+  "2025": {
+   "adds": [
+    {
+     "id": "ADD-2025-MAPD-01",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C10/ALL": "0",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C18/ALL": "13",
+      "C25/ALL": "17/50",
+      "C26/ALL": "26",
+      "D01/MA-PD": "11",
+      "D02/MA-PD": "17/50",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-02",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C10/ALL": "0",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C18/ALL": "13",
+      "C25/ALL": "17/50",
+      "C26/ALL": "26",
+      "D01/MA-PD": "11",
+      "D02/MA-PD": "17/50",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-03",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C10/ALL": "0",
+      "C12/ALL": "37",
+      "C13/ALL": "43",
+      "C18/ALL": "13",
+      "C25/ALL": "17/50",
+      "C26/ALL": "26",
+      "D01/MA-PD": "11",
+      "D02/MA-PD": "17/50",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-04",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C10/ALL": "0",
+      "C12/ALL": "37",
+      "C18/ALL": "13",
+      "C25/ALL": "17/50",
+      "C26/ALL": "26",
+      "D02/MA-PD": "17/50",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-05",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C18/ALL": "13",
+      "C25/ALL": "17/50",
+      "C26/ALL": "26",
+      "D02/MA-PD": "17/50",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-06",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C18/ALL": "13",
+      "C25/ALL": "17/50",
+      "C26/ALL": "26",
+      "D02/MA-PD": "17/50",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-07",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C25/ALL": "17/50",
+      "C26/ALL": "26",
+      "D02/MA-PD": "17/50",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-08",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-09",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-10",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "30",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-11",
+     "org_class": "MA-PD",
+     "measures": {
+      "C01/ALL": "11",
+      "C02/ALL": "6",
+      "C04/ALL": "46",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-12",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "6",
+      "C04/ALL": "46",
+      "C09/ALL": "16",
+      "C12/ALL": "37",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-13",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "6",
+      "C04/ALL": "46",
+      "C09/ALL": "16",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-14",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "6",
+      "C04/ALL": "46",
+      "C09/ALL": "16",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-15",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "6",
+      "C04/ALL": "46",
+      "C09/ALL": "16",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-16",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "6",
+      "C04/ALL": "46",
+      "C09/ALL": "16",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-17",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "6",
+      "C04/ALL": "46",
+      "C09/ALL": "16",
+      "C25/ALL": "17/50",
+      "D02/MA-PD": "17/50"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-18",
+     "org_class": "MA-PD",
+     "measures": {
+      "C04/ALL": "46",
+      "C09/ALL": "16"
+     }
+    },
+    {
+     "id": "ADD-2025-MAPD-19",
+     "org_class": "MA-PD",
+     "measures": {
+      "C04/ALL": "46",
+      "C09/ALL": "16"
+     }
+    },
+    {
+     "id": "ADD-2025-PDP-01",
+     "org_class": "PDP",
+     "measures": {
+      "D01/PDP": "90",
+      "D02/PDP": "2/25",
+      "D03/PDP": "15"
+     }
+    },
+    {
+     "id": "ADD-2025-PDP-02",
+     "org_class": "PDP",
+     "measures": {
+      "D01/PDP": "90",
+      "D02/PDP": "2/25"
+     }
+    },
+    {
+     "id": "ADD-2025-PDP-03",
+     "org_class": "PDP",
+     "measures": {
+      "D01/PDP": "90",
+      "D02/PDP": "2/25"
+     }
+    }
+   ],
+   "removals": [
+    {
+     "contract_id": "H0321",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C05/ALL",
+      "C06/ALL",
+      "C07/ALL",
+      "C08/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C29/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    },
+    {
+     "contract_id": "H0609",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C05/ALL",
+      "C06/ALL",
+      "C07/ALL",
+      "C08/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C29/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    },
+    {
+     "contract_id": "H0885",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C08/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C29/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    },
+    {
+     "contract_id": "H1045",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C05/ALL",
+      "C06/ALL",
+      "C07/ALL",
+      "C08/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C29/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    },
+    {
+     "contract_id": "H1189",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C29/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    },
+    {
+     "contract_id": "H1666",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C08/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C29/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    },
+    {
+     "contract_id": "H3071",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C29/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    },
+    {
+     "contract_id": "H3113",
+     "org_type": "Local CCP",
+     "reported_targets": [
+      "C01/ALL",
+      "C02/ALL",
+      "C04/ALL",
+      "C05/ALL",
+      "C06/ALL",
+      "C07/ALL",
+      "C08/ALL",
+      "C09/ALL",
+      "C10/ALL",
+      "C11/ALL",
+      "C12/ALL",
+      "C13/ALL",
+      "C14/ALL",
+      "C15/ALL",
+      "C16/ALL",
+      "C17/ALL",
+      "C18/ALL",
+      "C25/ALL",
+      "C26/ALL",
+      "C28/ALL",
+      "C29/ALL",
+      "C30/ALL",
+      "D01/MA-PD",
+      "D02/MA-PD",
+      "D03/MA-PD",
+      "D07/MA-PD",
+      "D08/MA-PD",
+      "D09/MA-PD",
+      "D10/MA-PD",
+      "D11/MA-PD",
+      "D12/MA-PD"
+     ]
+    }
+   ],
+   "removal_notes": [
+    {
+     "target": "C04/ALL",
+     "axis": "forced",
+     "contracts": [
+      "H0321",
+      "H0609",
+      "H0885",
+      "H1045",
+      "H1189",
+      "H1666",
+      "H3071",
+      "H3113"
+     ],
+     "values": [
+      "54",
+      "54",
+      "54",
+      "54",
+      "54",
+      "54",
+      "54",
+      "54"
+     ],
+     "k_add_after": 19
+    }
+   ],
+   "coupling": [
+    {
+     "family": "Complaints about",
+     "C": "C25",
+     "D": "D02",
+     "C_multiset": [
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50"
+     ],
+     "D_submultiset": [
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50",
+      "17/50"
+     ],
+     "status": "coupled (D sub-multiset of C on shared MA-PD adds)"
+    },
+    {
+     "family": "Members Choosing to Leave",
+     "C": "C26",
+     "D": "D03",
+     "C_multiset": [
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26"
+     ],
+     "D_submultiset": [
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26"
+     ],
+     "status": "coupled (D sub-multiset of C on shared MA-PD adds)"
+    },
+    {
+     "family": "Call Center",
+     "status": "data not value-coupled; left free"
+    }
+   ],
+   "unsolved": [],
+   "battery": [
+    {
+     "mid": "C01",
+     "org": "ALL",
+     "pub_lo": "31",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "35",
+      "100"
+     ],
+     "after": [
+      "31",
+      "100"
+     ]
+    },
+    {
+     "mid": "C02",
+     "org": "ALL",
+     "pub_lo": "24",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "28",
+      "100"
+     ],
+     "after": [
+      "24",
+      "100"
+     ]
+    },
+    {
+     "mid": "C04",
+     "org": "ALL",
+     "pub_lo": "21",
+     "pub_hi": "77",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "22",
+      "78"
+     ],
+     "after": [
+      "21",
+      "77"
+     ]
+    },
+    {
+     "mid": "C05",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "C06",
+     "org": "ALL",
+     "pub_lo": "71",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "71",
+      "100"
+     ],
+     "after": [
+      "71",
+      "100"
+     ]
+    },
+    {
+     "mid": "C07",
+     "org": "ALL",
+     "pub_lo": "66",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "66",
+      "100"
+     ],
+     "after": [
+      "66",
+      "100"
+     ]
+    },
+    {
+     "mid": "C08",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "C09",
+     "org": "ALL",
+     "pub_lo": "29",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "37",
+      "100"
+     ],
+     "after": [
+      "29",
+      "100"
+     ]
+    },
+    {
+     "mid": "C10",
+     "org": "ALL",
+     "pub_lo": "52",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "56",
+      "100"
+     ],
+     "after": [
+      "52",
+      "100"
+     ]
+    },
+    {
+     "mid": "C11",
+     "org": "ALL",
+     "pub_lo": "48",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "48",
+      "100"
+     ],
+     "after": [
+      "48",
+      "100"
+     ]
+    },
+    {
+     "mid": "C12",
+     "org": "ALL",
+     "pub_lo": "17",
+     "pub_hi": "94",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "21",
+      "91"
+     ],
+     "after": [
+      "17",
+      "94"
+     ]
+    },
+    {
+     "mid": "C13",
+     "org": "ALL",
+     "pub_lo": "24",
+     "pub_hi": "66",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "21",
+      "70"
+     ],
+     "after": [
+      "24",
+      "66"
+     ]
+    },
+    {
+     "mid": "C14",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "C15",
+     "org": "ALL",
+     "pub_lo": "4",
+     "pub_hi": "18",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "4",
+      "18"
+     ],
+     "after": [
+      "4",
+      "18"
+     ]
+    },
+    {
+     "mid": "C16",
+     "org": "ALL",
+     "pub_lo": "72",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "72",
+      "100"
+     ],
+     "after": [
+      "72",
+      "100"
+     ]
+    },
+    {
+     "mid": "C17",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "C18",
+     "org": "ALL",
+     "pub_lo": "22",
+     "pub_hi": "92",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "26",
+      "89"
+     ],
+     "after": [
+      "22",
+      "92"
+     ]
+    },
+    {
+     "mid": "C25",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "1.08",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "23/25"
+     ],
+     "after": [
+      "0",
+      "27/25"
+     ]
+    },
+    {
+     "mid": "C26",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "79",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "75"
+     ],
+     "after": [
+      "0",
+      "79"
+     ]
+    },
+    {
+     "mid": "C27",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "1",
+     "status": "no_data"
+    },
+    {
+     "mid": "C28",
+     "org": "ALL",
+     "pub_lo": "80",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "80",
+      "100"
+     ],
+     "after": [
+      "80",
+      "100"
+     ]
+    },
+    {
+     "mid": "C29",
+     "org": "ALL",
+     "pub_lo": "82",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "82",
+      "100"
+     ],
+     "after": [
+      "82",
+      "100"
+     ]
+    },
+    {
+     "mid": "C30",
+     "org": "ALL",
+     "pub_lo": "82",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "82",
+      "100"
+     ],
+     "after": [
+      "82",
+      "100"
+     ]
+    },
+    {
+     "mid": "D01",
+     "org": "MA-PD",
+     "pub_lo": "74",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "82",
+      "100"
+     ],
+     "after": [
+      "74",
+      "100"
+     ]
+    },
+    {
+     "mid": "D02",
+     "org": "MA-PD",
+     "pub_lo": "0",
+     "pub_hi": "1.08",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "23/25"
+     ],
+     "after": [
+      "0",
+      "27/25"
+     ]
+    },
+    {
+     "mid": "D03",
+     "org": "MA-PD",
+     "pub_lo": "0",
+     "pub_hi": "79",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "75"
+     ],
+     "after": [
+      "0",
+      "79"
+     ]
+    },
+    {
+     "mid": "D04",
+     "org": "MA-PD",
+     "pub_lo": "0",
+     "pub_hi": "1",
+     "status": "no_data"
+    },
+    {
+     "mid": "D07",
+     "org": "MA-PD",
+     "pub_lo": "95",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "95",
+      "100"
+     ],
+     "after": [
+      "95",
+      "100"
+     ]
+    },
+    {
+     "mid": "D08",
+     "org": "MA-PD",
+     "pub_lo": "72",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "72",
+      "100"
+     ],
+     "after": [
+      "72",
+      "100"
+     ]
+    },
+    {
+     "mid": "D09",
+     "org": "MA-PD",
+     "pub_lo": "75",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "75",
+      "100"
+     ],
+     "after": [
+      "75",
+      "100"
+     ]
+    },
+    {
+     "mid": "D10",
+     "org": "MA-PD",
+     "pub_lo": "74",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "74",
+      "100"
+     ],
+     "after": [
+      "74",
+      "100"
+     ]
+    },
+    {
+     "mid": "D11",
+     "org": "MA-PD",
+     "pub_lo": "61",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "61",
+      "100"
+     ],
+     "after": [
+      "61",
+      "100"
+     ]
+    },
+    {
+     "mid": "D12",
+     "org": "MA-PD",
+     "pub_lo": "68",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "68",
+      "100"
+     ],
+     "after": [
+      "68",
+      "100"
+     ]
+    },
+    {
+     "mid": "D01",
+     "org": "PDP",
+     "pub_lo": "86",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "94",
+      "100"
+     ],
+     "after": [
+      "86",
+      "100"
+     ]
+    },
+    {
+     "mid": "D02",
+     "org": "PDP",
+     "pub_lo": "0",
+     "pub_hi": "0.22",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "9/50"
+     ],
+     "after": [
+      "0",
+      "11/50"
+     ]
+    },
+    {
+     "mid": "D03",
+     "org": "PDP",
+     "pub_lo": "0",
+     "pub_hi": "45",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "41"
+     ],
+     "after": [
+      "0",
+      "45"
+     ]
+    },
+    {
+     "mid": "D04",
+     "org": "PDP",
+     "pub_lo": "0",
+     "pub_hi": "1",
+     "status": "no_data"
+    },
+    {
+     "mid": "D07",
+     "org": "PDP",
+     "pub_lo": "95",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "95",
+      "100"
+     ],
+     "after": [
+      "95",
+      "100"
+     ]
+    },
+    {
+     "mid": "D08",
+     "org": "PDP",
+     "pub_lo": "76",
+     "pub_hi": "97",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "76",
+      "97"
+     ],
+     "after": [
+      "76",
+      "97"
+     ]
+    },
+    {
+     "mid": "D09",
+     "org": "PDP",
+     "pub_lo": "82",
+     "pub_hi": "96",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "82",
+      "96"
+     ],
+     "after": [
+      "82",
+      "96"
+     ]
+    },
+    {
+     "mid": "D10",
+     "org": "PDP",
+     "pub_lo": "81",
+     "pub_hi": "95",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "81",
+      "95"
+     ],
+     "after": [
+      "81",
+      "95"
+     ]
+    },
+    {
+     "mid": "D11",
+     "org": "PDP",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "D12",
+     "org": "PDP",
+     "pub_lo": "76",
+     "pub_hi": "90",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "76",
+      "90"
+     ],
+     "after": [
+      "76",
+      "90"
+     ]
+    }
+   ],
+   "exact_before": 24,
+   "exact_after": 40,
+   "evaluable": 40
+  },
+  "2026": {
+   "adds": [
+    {
+     "id": "ADD-2026-MAPD-01",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "9",
+      "C06/ALL": "47",
+      "C08/ALL": "2",
+      "C09/ALL": "1",
+      "C11/ALL": "33",
+      "C13/ALL": "0",
+      "C15/ALL": "53",
+      "C17/ALL": "7",
+      "C21/ALL": "25",
+      "C28/ALL": "33/100",
+      "C29/ALL": "1",
+      "C33/ALL": "59",
+      "D02/MA-PD": "33/100",
+      "D03/MA-PD": "1"
+     }
+    },
+    {
+     "id": "ADD-2026-MAPD-02",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "9",
+      "C06/ALL": "47",
+      "C08/ALL": "2",
+      "C09/ALL": "1",
+      "C11/ALL": "33",
+      "C13/ALL": "0",
+      "C15/ALL": "53",
+      "C17/ALL": "7",
+      "C21/ALL": "25",
+      "C28/ALL": "33/100",
+      "C29/ALL": "1",
+      "C33/ALL": "59",
+      "D02/MA-PD": "33/100",
+      "D03/MA-PD": "1"
+     }
+    },
+    {
+     "id": "ADD-2026-MAPD-03",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "9",
+      "C08/ALL": "2",
+      "C09/ALL": "1",
+      "C11/ALL": "33",
+      "C13/ALL": "0",
+      "C15/ALL": "53",
+      "C17/ALL": "7",
+      "C21/ALL": "25",
+      "C28/ALL": "33/100",
+      "C29/ALL": "1",
+      "C33/ALL": "59",
+      "D02/MA-PD": "33/100",
+      "D03/MA-PD": "1"
+     }
+    },
+    {
+     "id": "ADD-2026-MAPD-04",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "9",
+      "C08/ALL": "2",
+      "C09/ALL": "1",
+      "C11/ALL": "33",
+      "C13/ALL": "0",
+      "C15/ALL": "53",
+      "C17/ALL": "7",
+      "C21/ALL": "25",
+      "C28/ALL": "33/100",
+      "C29/ALL": "26",
+      "C33/ALL": "59",
+      "D02/MA-PD": "33/100",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2026-MAPD-05",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "9",
+      "C08/ALL": "2",
+      "C11/ALL": "33",
+      "C15/ALL": "53",
+      "C21/ALL": "25",
+      "C28/ALL": "33/100",
+      "C29/ALL": "26",
+      "C33/ALL": "59",
+      "D02/MA-PD": "33/100",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2026-MAPD-06",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "9",
+      "C08/ALL": "2",
+      "C11/ALL": "33",
+      "C15/ALL": "53",
+      "C21/ALL": "25",
+      "C28/ALL": "33/100",
+      "C29/ALL": "26",
+      "C33/ALL": "59",
+      "D02/MA-PD": "33/100",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2026-MAPD-07",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "9",
+      "C08/ALL": "2",
+      "C11/ALL": "33",
+      "C15/ALL": "53",
+      "C28/ALL": "33/100",
+      "C29/ALL": "26",
+      "C33/ALL": "59",
+      "D02/MA-PD": "33/100",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2026-MAPD-08",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "9",
+      "C08/ALL": "2",
+      "C11/ALL": "33",
+      "C15/ALL": "53",
+      "C28/ALL": "33/100",
+      "C29/ALL": "26",
+      "C33/ALL": "59",
+      "D02/MA-PD": "33/100",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2026-MAPD-09",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "9",
+      "C08/ALL": "2",
+      "C15/ALL": "53",
+      "C28/ALL": "33/100",
+      "C29/ALL": "26",
+      "C33/ALL": "59",
+      "D02/MA-PD": "33/100",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2026-MAPD-10",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "9",
+      "C08/ALL": "2",
+      "C15/ALL": "53",
+      "C28/ALL": "33/100",
+      "C29/ALL": "26",
+      "C33/ALL": "59",
+      "D02/MA-PD": "33/100",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2026-MAPD-11",
+     "org_class": "MA-PD",
+     "measures": {
+      "C02/ALL": "9",
+      "C08/ALL": "2",
+      "C15/ALL": "53",
+      "C28/ALL": "33/100",
+      "C29/ALL": "26",
+      "D02/MA-PD": "33/100",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2026-MAPD-12",
+     "org_class": "MA-PD",
+     "measures": {
+      "C08/ALL": "2",
+      "C15/ALL": "53",
+      "C28/ALL": "33/100",
+      "C29/ALL": "26",
+      "D02/MA-PD": "33/100",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2026-MAPD-13",
+     "org_class": "MA-PD",
+     "measures": {
+      "C08/ALL": "2",
+      "C15/ALL": "53",
+      "C28/ALL": "33/100",
+      "C29/ALL": "26",
+      "D02/MA-PD": "33/100",
+      "D03/MA-PD": "26"
+     }
+    },
+    {
+     "id": "ADD-2026-MAPD-14",
+     "org_class": "MA-PD",
+     "measures": {
+      "C08/ALL": "2",
+      "C15/ALL": "53",
+      "C28/ALL": "33/100",
+      "D02/MA-PD": "33/100"
+     }
+    },
+    {
+     "id": "ADD-2026-MAPD-15",
+     "org_class": "MA-PD",
+     "measures": {
+      "C08/ALL": "2",
+      "C15/ALL": "53",
+      "C28/ALL": "33/100",
+      "D02/MA-PD": "33/100"
+     }
+    },
+    {
+     "id": "ADD-2026-MAPD-16",
+     "org_class": "MA-PD",
+     "measures": {
+      "C15/ALL": "53",
+      "C28/ALL": "33/100",
+      "D02/MA-PD": "33/100"
+     }
+    },
+    {
+     "id": "ADD-2026-MAPD-17",
+     "org_class": "MA-PD",
+     "measures": {
+      "C15/ALL": "53"
+     }
+    },
+    {
+     "id": "ADD-2026-MAONLY-01",
+     "org_class": "MA-only",
+     "measures": {
+      "C29/ALL": "26"
+     }
+    },
+    {
+     "id": "ADD-2026-PDP-01",
+     "org_class": "PDP",
+     "measures": {
+      "D02/PDP": "1/50",
+      "D10/PDP": "88"
+     }
+    }
+   ],
+   "removals": [],
+   "removal_notes": [],
+   "coupling": [
+    {
+     "family": "Complaints about",
+     "C": "C28",
+     "D": "D02",
+     "C_multiset": [
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100"
+     ],
+     "D_submultiset": [
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100",
+      "33/100"
+     ],
+     "status": "coupled (D sub-multiset of C on shared MA-PD adds)"
+    },
+    {
+     "family": "Members Choosing to Leave",
+     "C": "C29",
+     "D": "D03",
+     "C_multiset": [
+      "1",
+      "1",
+      "1",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26"
+     ],
+     "D_submultiset": [
+      "1",
+      "1",
+      "1",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26",
+      "26"
+     ],
+     "status": "coupled (D sub-multiset of C on shared MA-PD adds)"
+    },
+    {
+     "family": "Call Center",
+     "status": "data not value-coupled; left free"
+    }
+   ],
+   "unsolved": [],
+   "battery": [
+    {
+     "mid": "C01",
+     "org": "ALL",
+     "pub_lo": "36",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "36",
+      "100"
+     ],
+     "after": [
+      "36",
+      "100"
+     ]
+    },
+    {
+     "mid": "C02",
+     "org": "ALL",
+     "pub_lo": "26",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "30",
+      "100"
+     ],
+     "after": [
+      "26",
+      "100"
+     ]
+    },
+    {
+     "mid": "C04",
+     "org": "ALL",
+     "pub_lo": "57",
+     "pub_hi": "85",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "57",
+      "85"
+     ],
+     "after": [
+      "57",
+      "85"
+     ]
+    },
+    {
+     "mid": "C05",
+     "org": "ALL",
+     "pub_lo": "70",
+     "pub_hi": "98",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "70",
+      "98"
+     ],
+     "after": [
+      "70",
+      "98"
+     ]
+    },
+    {
+     "mid": "C06",
+     "org": "ALL",
+     "pub_lo": "20.5",
+     "pub_hi": "80",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "19",
+      "82"
+     ],
+     "after": [
+      "41/2",
+      "80"
+     ]
+    },
+    {
+     "mid": "C07",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "C08",
+     "org": "ALL",
+     "pub_lo": "68",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "72",
+      "100"
+     ],
+     "after": [
+      "68",
+      "100"
+     ]
+    },
+    {
+     "mid": "C09",
+     "org": "ALL",
+     "pub_lo": "71",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "75",
+      "100"
+     ],
+     "after": [
+      "71",
+      "100"
+     ]
+    },
+    {
+     "mid": "C10",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "C11",
+     "org": "ALL",
+     "pub_lo": "36",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "40",
+      "100"
+     ],
+     "after": [
+      "36",
+      "100"
+     ]
+    },
+    {
+     "mid": "C12",
+     "org": "ALL",
+     "pub_lo": "58",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "58",
+      "100"
+     ],
+     "after": [
+      "58",
+      "100"
+     ]
+    },
+    {
+     "mid": "C13",
+     "org": "ALL",
+     "pub_lo": "9",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "13",
+      "100"
+     ],
+     "after": [
+      "9",
+      "100"
+     ]
+    },
+    {
+     "mid": "C14",
+     "org": "ALL",
+     "pub_lo": "51",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "51",
+      "100"
+     ],
+     "after": [
+      "51",
+      "100"
+     ]
+    },
+    {
+     "mid": "C15",
+     "org": "ALL",
+     "pub_lo": "20.5",
+     "pub_hi": "94",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "19",
+      "96"
+     ],
+     "after": [
+      "41/2",
+      "94"
+     ]
+    },
+    {
+     "mid": "C16",
+     "org": "ALL",
+     "pub_lo": "24",
+     "pub_hi": "66",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "24",
+      "66"
+     ],
+     "after": [
+      "24",
+      "66"
+     ]
+    },
+    {
+     "mid": "C17",
+     "org": "ALL",
+     "pub_lo": "1",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "5",
+      "100"
+     ],
+     "after": [
+      "1",
+      "100"
+     ]
+    },
+    {
+     "mid": "C18",
+     "org": "ALL",
+     "pub_lo": "3",
+     "pub_hi": "17",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "3",
+      "17"
+     ],
+     "after": [
+      "3",
+      "17"
+     ]
+    },
+    {
+     "mid": "C19",
+     "org": "ALL",
+     "pub_lo": "73",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "73",
+      "100"
+     ],
+     "after": [
+      "73",
+      "100"
+     ]
+    },
+    {
+     "mid": "C20",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "C21",
+     "org": "ALL",
+     "pub_lo": "21",
+     "pub_hi": "98",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "25",
+      "95"
+     ],
+     "after": [
+      "21",
+      "98"
+     ]
+    },
+    {
+     "mid": "C28",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "1.04",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "24/25"
+     ],
+     "after": [
+      "0",
+      "26/25"
+     ]
+    },
+    {
+     "mid": "C29",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "82",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "78"
+     ],
+     "after": [
+      "0",
+      "82"
+     ]
+    },
+    {
+     "mid": "C30",
+     "org": "ALL",
+     "pub_lo": "0",
+     "pub_hi": "1",
+     "status": "no_data"
+    },
+    {
+     "mid": "C31",
+     "org": "ALL",
+     "pub_lo": "92",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "92",
+      "100"
+     ],
+     "after": [
+      "92",
+      "100"
+     ]
+    },
+    {
+     "mid": "C32",
+     "org": "ALL",
+     "pub_lo": "84",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "84",
+      "100"
+     ],
+     "after": [
+      "84",
+      "100"
+     ]
+    },
+    {
+     "mid": "C33",
+     "org": "ALL",
+     "pub_lo": "80",
+     "pub_hi": "100",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "88",
+      "100"
+     ],
+     "after": [
+      "80",
+      "100"
+     ]
+    },
+    {
+     "mid": "D01",
+     "org": "MA-PD",
+     "pub_lo": "88",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "88",
+      "100"
+     ],
+     "after": [
+      "88",
+      "100"
+     ]
+    },
+    {
+     "mid": "D02",
+     "org": "MA-PD",
+     "pub_lo": "0",
+     "pub_hi": "1.04",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "24/25"
+     ],
+     "after": [
+      "0",
+      "26/25"
+     ]
+    },
+    {
+     "mid": "D03",
+     "org": "MA-PD",
+     "pub_lo": "0",
+     "pub_hi": "82",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "78"
+     ],
+     "after": [
+      "0",
+      "82"
+     ]
+    },
+    {
+     "mid": "D04",
+     "org": "MA-PD",
+     "pub_lo": "0",
+     "pub_hi": "1",
+     "status": "no_data"
+    },
+    {
+     "mid": "D07",
+     "org": "MA-PD",
+     "pub_lo": "99",
+     "pub_hi": "99",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "99",
+      "99"
+     ],
+     "after": [
+      "99",
+      "99"
+     ]
+    },
+    {
+     "mid": "D08",
+     "org": "MA-PD",
+     "pub_lo": "73",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "73",
+      "100"
+     ],
+     "after": [
+      "73",
+      "100"
+     ]
+    },
+    {
+     "mid": "D09",
+     "org": "MA-PD",
+     "pub_lo": "79",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "79",
+      "100"
+     ],
+     "after": [
+      "79",
+      "100"
+     ]
+    },
+    {
+     "mid": "D10",
+     "org": "MA-PD",
+     "pub_lo": "75",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "75",
+      "100"
+     ],
+     "after": [
+      "75",
+      "100"
+     ]
+    },
+    {
+     "mid": "D11",
+     "org": "MA-PD",
+     "pub_lo": "71",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "71",
+      "100"
+     ],
+     "after": [
+      "71",
+      "100"
+     ]
+    },
+    {
+     "mid": "D12",
+     "org": "MA-PD",
+     "pub_lo": "70",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "70",
+      "100"
+     ],
+     "after": [
+      "70",
+      "100"
+     ]
+    },
+    {
+     "mid": "D01",
+     "org": "PDP",
+     "pub_lo": "88",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "88",
+      "100"
+     ],
+     "after": [
+      "88",
+      "100"
+     ]
+    },
+    {
+     "mid": "D02",
+     "org": "PDP",
+     "pub_lo": "0",
+     "pub_hi": "0.19",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "0",
+      "21/100"
+     ],
+     "after": [
+      "0",
+      "19/100"
+     ]
+    },
+    {
+     "mid": "D03",
+     "org": "PDP",
+     "pub_lo": "0",
+     "pub_hi": "28",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "28"
+     ],
+     "after": [
+      "0",
+      "28"
+     ]
+    },
+    {
+     "mid": "D04",
+     "org": "PDP",
+     "pub_lo": "0",
+     "pub_hi": "1",
+     "status": "no_data"
+    },
+    {
+     "mid": "D07",
+     "org": "PDP",
+     "pub_lo": "99",
+     "pub_hi": "99",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "99",
+      "99"
+     ],
+     "after": [
+      "99",
+      "99"
+     ]
+    },
+    {
+     "mid": "D08",
+     "org": "PDP",
+     "pub_lo": "76",
+     "pub_hi": "97",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "76",
+      "97"
+     ],
+     "after": [
+      "76",
+      "97"
+     ]
+    },
+    {
+     "mid": "D09",
+     "org": "PDP",
+     "pub_lo": "82",
+     "pub_hi": "96",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "82",
+      "96"
+     ],
+     "after": [
+      "82",
+      "96"
+     ]
+    },
+    {
+     "mid": "D10",
+     "org": "PDP",
+     "pub_lo": "81",
+     "pub_hi": "95",
+     "before_exact": false,
+     "after_exact": true,
+     "before": [
+      "159/2",
+      "97"
+     ],
+     "after": [
+      "81",
+      "95"
+     ]
+    },
+    {
+     "mid": "D11",
+     "org": "PDP",
+     "pub_lo": "0",
+     "pub_hi": "100",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "0",
+      "100"
+     ],
+     "after": [
+      "0",
+      "100"
+     ]
+    },
+    {
+     "mid": "D12",
+     "org": "PDP",
+     "pub_lo": "80",
+     "pub_hi": "87",
+     "before_exact": true,
+     "after_exact": true,
+     "before": [
+      "80",
+      "87"
+     ],
+     "after": [
+      "80",
+      "87"
+     ]
+    }
+   ],
+   "exact_before": 27,
+   "exact_after": 43,
+   "evaluable": 43
+  }
+ }
+}

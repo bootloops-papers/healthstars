@@ -1,0 +1,24 @@
+healthstars replication package, version 1.0
+Copyright (c) 2026 Anthropic, PBC
+
+Created by Matthew D. Schwartz. Code written by Claude (Anthropic) under his
+supervision. This is not an officially supported Anthropic product; it is
+maintained by Matthew D. Schwartz (https://www.bootloops.ai).
+
+These are research instruments. Validate outputs before relying on them;
+nothing here is intended or fit for clinical, actuarial, payment, regulatory
+or public-safety decisions.
+
+Code in this package is released under the MIT License (LICENSE beside this
+file); data, text and figures under CC BY 4.0. Third-party components, where
+present, keep their own licenses and notices, listed below.
+
+This package is the replication record for the article "Stars Misaligned:
+Medicare Star Ratings And Exact Clustering" (Matthew D. Schwartz, 2026) and
+its online appendix: the code, the verification records and the parsed
+public inputs behind every number in both documents.
+
+Third-party components: CMS's published 2026 Overall Hospital Quality Star
+Rating R program is run by hospital/work/driver.R but is not included; the
+pin list CMS_RAW_PINS.json gives its source URL and hash. No other
+third-party code is included.

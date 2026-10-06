@@ -1,0 +1,6613 @@
+{
+ "register": "Replay-based attribution on a sampled family: the Tukey-introduction component of each 2023->2024 published boundary move is the median over 16 same-realization pairs of (2024 ward_tie mean cut point with Tukey trimming on minus off), display-rounded at the 2024 published register; on side = stored census of resampled reruns (docsonly membership), off side = fresh recompute identical except pipeline tukey=False (integrity: 2 splits x 16 realizations recomputed with trimming on reproduce the stored Fraction-strings exactly). The residual (published move minus Tukey component) is tested against the stored 2023-based same-year cross-realization null (240 ordered pairs, recomputed exactly and cross-checked against sampled_realizations_2023_2024.json verdicts row by row). Not an attribution on CMS's record: CMS never computed a Tukey-off 2024; the replay family carries the documented family-choice bias, the 16 realizations sample the undocumented GROUPS= family, and the same-realization pairing cancels the group-assignment lottery inside the Tukey estimate but not the family bias. 2023 membership is hypothesis-grade throughout (no outlier-bound check in 2023). Movement register: pre-guardrail where the guardrail bound in either year, published final otherwise (as stored).",
+ "sources": {
+  "pairs_and_null": "runs/sampled_realizations_2023_2024.json",
+  "tukey_on_2024": "runs/enclosure_census_docsonly.json",
+  "bank_2023": "runs/sampled_realizations_2023.json",
+  "tukey_off_2024": "runs/tukey_off_2024.ckpt.jsonl"
+ },
+ "realizations": [
+  "seq_quota_last",
+  "seq_quota_first",
+  "sort_blocks_last",
+  "sort_blocks_first",
+  "sort_deal",
+  "floyd_last",
+  "floyd_first",
+  "fy_down_blocks",
+  "fy_up_blocks",
+  "fy_down_deal",
+  "fy_up_deal",
+  "urand_0",
+  "urand_1",
+  "urand_2",
+  "urand_3",
+  "urand_4"
+ ],
+ "seed": 8675309,
+ "arm": "ward_tie",
+ "n_identities": 35,
+ "n_boundaries": 140,
+ "pilot_record": {
+  "mode": "pilot",
+  "splits": [
+   [
+    "C01",
+    "ALL"
+   ],
+   [
+    "D08",
+    "MA-PD"
+   ]
+  ],
+  "n_rows": 32,
+  "n_errors": 0,
+  "integrity_tukey_on_vs_bank": {
+   "checked": 32,
+   "expected": 32,
+   "mismatches": [],
+   "pass": true
+  }
+ },
+ "checkpoint_rows": {
+  "n_off_rows": 560,
+  "n_errors": 0
+ },
+ "summary": {
+  "n_nonzero_published_moves": 120,
+  "published_within_null_full": 35,
+  "published_within_null_q95": 29,
+  "published_frac_within_null_full": 0.292,
+  "residual_within_null_full": 46,
+  "residual_within_null_q95": 40,
+  "residual_frac_within_null_full": 0.383,
+  "residual_frac_within_null_q95": 0.333,
+  "n_entered_null_after_tukey_removal": 16,
+  "n_left_null_after_tukey_removal": 5,
+  "left_null_rows": [
+   {
+    "measure": "Complaints about the Drug Plan",
+    "org": "MA-PD",
+    "boundary_stars": "4|5",
+    "published_move_used": -0.05,
+    "tukey_effect_median_rounded": -0.13,
+    "residual_move": 0.08
+   },
+   {
+    "measure": "Complaints about the Health Plan",
+    "org": "ALL",
+    "boundary_stars": "4|5",
+    "published_move_used": -0.05,
+    "tukey_effect_median_rounded": -0.145,
+    "residual_move": 0.095
+   },
+   {
+    "measure": "Medication Adherence for Hypertension (RAS antagonists)",
+    "org": "MA-PD",
+    "boundary_stars": "1|2",
+    "published_move_used": -1.0,
+    "tukey_effect_median_rounded": 7.0,
+    "residual_move": -8.0
+   },
+   {
+    "measure": "Reducing the Risk of Falling",
+    "org": "ALL",
+    "boundary_stars": "1|2",
+    "published_move_used": 1.0,
+    "tukey_effect_median_rounded": -1.0,
+    "residual_move": 2.0
+   },
+   {
+    "measure": "Statin Therapy for Patients with Cardiovascular Disease",
+    "org": "ALL",
+    "boundary_stars": "3|4",
+    "published_move_used": 1.0,
+    "tukey_effect_median_rounded": -2.0,
+    "residual_move": 3.0
+   }
+  ],
+  "tukey_effect_magnitude_distribution_rounded_140": {
+   "zero": 69,
+   "0_to_1": 19,
+   "1_to_2": 9,
+   "over_2": 43,
+   "max": 59.0,
+   "median": 0.1375
+  },
+  "tukey_share_capped_quartiles_nonzero_moves": [
+   0.0,
+   0.0,
+   0.0,
+   0.8421052631578947,
+   1.0
+  ],
+  "n_share_ge_half": 47,
+  "n_share_full": 26,
+  "big_movers_ge_20_units": [
+   {
+    "measure": "Plan Makes Timely Decisions about Appeals",
+    "org": "ALL",
+    "boundary_stars": "1|2",
+    "published_move_used": 46.0,
+    "tukey_effect_median_rounded": 18.0,
+    "residual_move": 28.0,
+    "null_max_abs_rounded_2023": 4.0,
+    "tukey_share_capped": 0.391304347826087,
+    "residual_within_null": false
+   },
+   {
+    "measure": "Care for Older Adults \u2013 Pain Assessment",
+    "org": "ALL",
+    "boundary_stars": "1|2",
+    "published_move_used": 45.0,
+    "tukey_effect_median_rounded": 22.0,
+    "residual_move": 23.0,
+    "null_max_abs_rounded_2023": 6.0,
+    "tukey_share_capped": 0.4888888888888889,
+    "residual_within_null": false
+   },
+   {
+    "measure": "Call Center \u2013 Foreign Language Interpreter and TTY Availability",
+    "org": "ALL",
+    "boundary_stars": "1|2",
+    "published_move_used": 40.0,
+    "tukey_effect_median_rounded": 32.0,
+    "residual_move": 8.0,
+    "null_max_abs_rounded_2023": 1.0,
+    "tukey_share_capped": 0.8,
+    "residual_within_null": false
+   },
+   {
+    "measure": "Care for Older Adults \u2013 Medication Review",
+    "org": "ALL",
+    "boundary_stars": "1|2",
+    "published_move_used": 36.0,
+    "tukey_effect_median_rounded": 34.0,
+    "residual_move": 2.0,
+    "null_max_abs_rounded_2023": 2.0,
+    "tukey_share_capped": 0.9444444444444444,
+    "residual_within_null": true
+   },
+   {
+    "measure": "Call Center \u2013 Foreign Language Interpreter and TTY Availability",
+    "org": "MA-PD",
+    "boundary_stars": "1|2",
+    "published_move_used": 28.0,
+    "tukey_effect_median_rounded": 59.0,
+    "residual_move": -31.0,
+    "null_max_abs_rounded_2023": 0.0,
+    "tukey_share_capped": 1.0,
+    "residual_within_null": false
+   },
+   {
+    "measure": "Plan Makes Timely Decisions about Appeals",
+    "org": "ALL",
+    "boundary_stars": "2|3",
+    "published_move_used": 27.0,
+    "tukey_effect_median_rounded": 14.0,
+    "residual_move": 13.0,
+    "null_max_abs_rounded_2023": 6.0,
+    "tukey_share_capped": 0.5185185185185185,
+    "residual_within_null": false
+   },
+   {
+    "measure": "MTM Program Completion Rate for CMR",
+    "org": "MA-PD",
+    "boundary_stars": "1|2",
+    "published_move_used": 26.0,
+    "tukey_effect_median_rounded": 11.0,
+    "residual_move": 15.0,
+    "null_max_abs_rounded_2023": 0.0,
+    "tukey_share_capped": 0.4230769230769231,
+    "residual_within_null": false
+   },
+   {
+    "measure": "Care for Older Adults \u2013 Pain Assessment",
+    "org": "ALL",
+    "boundary_stars": "2|3",
+    "published_move_used": 25.0,
+    "tukey_effect_median_rounded": 8.0,
+    "residual_move": 17.0,
+    "null_max_abs_rounded_2023": 5.0,
+    "tukey_share_capped": 0.32,
+    "residual_within_null": false
+   },
+   {
+    "measure": "Call Center \u2013 Foreign Language Interpreter and TTY Availability",
+    "org": "MA-PD",
+    "boundary_stars": "2|3",
+    "published_move_used": 23.0,
+    "tukey_effect_median_rounded": 27.0,
+    "residual_move": -4.0,
+    "null_max_abs_rounded_2023": 2.0,
+    "tukey_share_capped": 1.0,
+    "residual_within_null": false
+   },
+   {
+    "measure": "MPF Price Accuracy",
+    "org": "MA-PD",
+    "boundary_stars": "1|2",
+    "published_move_used": 22.0,
+    "tukey_effect_median_rounded": 9.0,
+    "residual_move": 13.0,
+    "null_max_abs_rounded_2023": 1.0,
+    "tukey_share_capped": 0.4090909090909091,
+    "residual_within_null": false
+   }
+  ]
+ },
+ "family_table": [
+  {
+   "measure": "Call Center \u2013 Foreign Language Interpreter and TTY Availability",
+   "side": "D",
+   "org": "MA-PD",
+   "max_abs_tukey_effect_rounded": 59.0,
+   "median_abs_tukey_effect_rounded": 17.5,
+   "max_abs_published_move": 28.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 0
+  },
+  {
+   "measure": "Care for Older Adults \u2013 Medication Review",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 34.0,
+   "median_abs_tukey_effect_rounded": 11.5,
+   "max_abs_published_move": 36.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 4
+  },
+  {
+   "measure": "Call Center \u2013 Foreign Language Interpreter and TTY Availability",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 32.0,
+   "median_abs_tukey_effect_rounded": 11.5,
+   "max_abs_published_move": 40.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 2
+  },
+  {
+   "measure": "Care for Older Adults \u2013 Pain Assessment",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 22.0,
+   "median_abs_tukey_effect_rounded": 6.0,
+   "max_abs_published_move": 45.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 2
+  },
+  {
+   "measure": "Diabetes Care \u2013 Blood Sugar Controlled",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 22.0,
+   "median_abs_tukey_effect_rounded": 10.0,
+   "max_abs_published_move": 18.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 4
+  },
+  {
+   "measure": "Plan Makes Timely Decisions about Appeals",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 18.0,
+   "median_abs_tukey_effect_rounded": 11.0,
+   "max_abs_published_move": 46.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 1
+  },
+  {
+   "measure": "Controlling Blood Pressure",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 17.0,
+   "median_abs_tukey_effect_rounded": 2.5,
+   "max_abs_published_move": 10.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 2
+  },
+  {
+   "measure": "Diabetes Care \u2013 Eye Exam",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 16.0,
+   "median_abs_tukey_effect_rounded": 6.0,
+   "max_abs_published_move": 6.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 2
+  },
+  {
+   "measure": "Reviewing Appeals Decisions",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 16.0,
+   "median_abs_tukey_effect_rounded": 4.5,
+   "max_abs_published_move": 19.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 2
+  },
+  {
+   "measure": "MTM Program Completion Rate for CMR",
+   "side": "D",
+   "org": "MA-PD",
+   "max_abs_tukey_effect_rounded": 11.0,
+   "median_abs_tukey_effect_rounded": 3.75,
+   "max_abs_published_move": 26.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 1
+  },
+  {
+   "measure": "MPF Price Accuracy",
+   "side": "D",
+   "org": "MA-PD",
+   "max_abs_tukey_effect_rounded": 9.0,
+   "median_abs_tukey_effect_rounded": 4.0,
+   "max_abs_published_move": 22.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 0
+  },
+  {
+   "measure": "Medication Adherence for Hypertension (RAS antagonists)",
+   "side": "D",
+   "org": "MA-PD",
+   "max_abs_tukey_effect_rounded": 7.0,
+   "median_abs_tukey_effect_rounded": 2.5,
+   "max_abs_published_move": 1.0,
+   "n_nonzero_moves": 1,
+   "n_residual_within_null": 0
+  },
+  {
+   "measure": "Breast Cancer Screening",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 5.0,
+   "median_abs_tukey_effect_rounded": 1.75,
+   "max_abs_published_move": 8.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 4
+  },
+  {
+   "measure": "Colorectal Cancer Screening",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 4.0,
+   "median_abs_tukey_effect_rounded": 1.0,
+   "max_abs_published_move": 10.0,
+   "n_nonzero_moves": 2,
+   "n_residual_within_null": 2
+  },
+  {
+   "measure": "Reducing the Risk of Falling",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 4.0,
+   "median_abs_tukey_effect_rounded": 2.0,
+   "max_abs_published_move": 1.0,
+   "n_nonzero_moves": 2,
+   "n_residual_within_null": 1
+  },
+  {
+   "measure": "Statin Therapy for Patients with Cardiovascular Disease",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 2.0,
+   "median_abs_tukey_effect_rounded": 1.5,
+   "max_abs_published_move": 4.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 0
+  },
+  {
+   "measure": "Complaints about the Health Plan",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 1.48,
+   "median_abs_tukey_effect_rounded": 0.6125,
+   "max_abs_published_move": 0.59,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 0
+  },
+  {
+   "measure": "Complaints about the Drug Plan",
+   "side": "D",
+   "org": "MA-PD",
+   "max_abs_tukey_effect_rounded": 1.45,
+   "median_abs_tukey_effect_rounded": 0.59,
+   "max_abs_published_move": 0.59,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 0
+  },
+  {
+   "measure": "Monitoring Physical Activity",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 0.5,
+   "median_abs_tukey_effect_rounded": 0.25,
+   "max_abs_published_move": 2.0,
+   "n_nonzero_moves": 3,
+   "n_residual_within_null": 3
+  },
+  {
+   "measure": "Complaints about the Drug Plan",
+   "side": "D",
+   "org": "PDP",
+   "max_abs_tukey_effect_rounded": 0.0,
+   "median_abs_tukey_effect_rounded": 0.0,
+   "max_abs_published_move": 0.29,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 0
+  },
+  {
+   "measure": "Improving Bladder Control",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 0.0,
+   "median_abs_tukey_effect_rounded": 0.0,
+   "max_abs_published_move": 2.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 3
+  },
+  {
+   "measure": "MTM Program Completion Rate for CMR",
+   "side": "D",
+   "org": "PDP",
+   "max_abs_tukey_effect_rounded": 0.0,
+   "median_abs_tukey_effect_rounded": 0.0,
+   "max_abs_published_move": 3.0,
+   "n_nonzero_moves": 3,
+   "n_residual_within_null": 1
+  },
+  {
+   "measure": "Medication Adherence for Cholesterol (Statins)",
+   "side": "D",
+   "org": "MA-PD",
+   "max_abs_tukey_effect_rounded": 0.0,
+   "median_abs_tukey_effect_rounded": 0.0,
+   "max_abs_published_move": 1.0,
+   "n_nonzero_moves": 3,
+   "n_residual_within_null": 3
+  },
+  {
+   "measure": "Medication Adherence for Cholesterol (Statins)",
+   "side": "D",
+   "org": "PDP",
+   "max_abs_tukey_effect_rounded": 0.0,
+   "median_abs_tukey_effect_rounded": 0.0,
+   "max_abs_published_move": 3.0,
+   "n_nonzero_moves": 2,
+   "n_residual_within_null": 0
+  },
+  {
+   "measure": "Medication Adherence for Diabetes Medications",
+   "side": "D",
+   "org": "MA-PD",
+   "max_abs_tukey_effect_rounded": 0.0,
+   "median_abs_tukey_effect_rounded": 0.0,
+   "max_abs_published_move": 2.0,
+   "n_nonzero_moves": 3,
+   "n_residual_within_null": 3
+  },
+  {
+   "measure": "Medication Adherence for Diabetes Medications",
+   "side": "D",
+   "org": "PDP",
+   "max_abs_tukey_effect_rounded": 0.0,
+   "median_abs_tukey_effect_rounded": 0.0,
+   "max_abs_published_move": 3.0,
+   "n_nonzero_moves": 3,
+   "n_residual_within_null": 0
+  },
+  {
+   "measure": "Medication Adherence for Hypertension (RAS antagonists)",
+   "side": "D",
+   "org": "PDP",
+   "max_abs_tukey_effect_rounded": 0.0,
+   "median_abs_tukey_effect_rounded": 0.0,
+   "max_abs_published_move": 2.0,
+   "n_nonzero_moves": 2,
+   "n_residual_within_null": 1
+  },
+  {
+   "measure": "Medication Reconciliation Post-Discharge",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 0.0,
+   "median_abs_tukey_effect_rounded": 0.0,
+   "max_abs_published_move": 12.0,
+   "n_nonzero_moves": 3,
+   "n_residual_within_null": 1
+  },
+  {
+   "measure": "Members Choosing to Leave the Plan",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 0.0,
+   "median_abs_tukey_effect_rounded": 0.0,
+   "max_abs_published_move": 5.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 0
+  },
+  {
+   "measure": "Members Choosing to Leave the Plan",
+   "side": "D",
+   "org": "MA-PD",
+   "max_abs_tukey_effect_rounded": 0.0,
+   "median_abs_tukey_effect_rounded": 0.0,
+   "max_abs_published_move": 5.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 1
+  },
+  {
+   "measure": "Members Choosing to Leave the Plan",
+   "side": "D",
+   "org": "PDP",
+   "max_abs_tukey_effect_rounded": 0.0,
+   "median_abs_tukey_effect_rounded": 0.0,
+   "max_abs_published_move": 2.0,
+   "n_nonzero_moves": 2,
+   "n_residual_within_null": 0
+  },
+  {
+   "measure": "Osteoporosis Management in Women who had a Fracture",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 0.0,
+   "median_abs_tukey_effect_rounded": 0.0,
+   "max_abs_published_move": 16.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 0
+  },
+  {
+   "measure": "Special Needs Plan (SNP) Care Management",
+   "side": "C",
+   "org": "ALL",
+   "max_abs_tukey_effect_rounded": 0.0,
+   "median_abs_tukey_effect_rounded": 0.0,
+   "max_abs_published_move": 7.0,
+   "n_nonzero_moves": 3,
+   "n_residual_within_null": 2
+  },
+  {
+   "measure": "Statin Use in Persons with Diabetes (SUPD)",
+   "side": "D",
+   "org": "MA-PD",
+   "max_abs_tukey_effect_rounded": 0.0,
+   "median_abs_tukey_effect_rounded": 0.0,
+   "max_abs_published_move": 2.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 1
+  },
+  {
+   "measure": "Statin Use in Persons with Diabetes (SUPD)",
+   "side": "D",
+   "org": "PDP",
+   "max_abs_tukey_effect_rounded": 0.0,
+   "median_abs_tukey_effect_rounded": 0.0,
+   "max_abs_published_move": 1.0,
+   "n_nonzero_moves": 4,
+   "n_residual_within_null": 0
+  }
+ ],
+ "rows": [
+  {
+   "measure": "Breast Cancer Screening",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C01",
+    "C01"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    false
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 8.0,
+   "published_move_used_exact": "8",
+   "tukey_effect_median_rounded": 5.0,
+   "tukey_effect_median_rounded_exact": "5",
+   "tukey_effect_median_raw": 5.3,
+   "tukey_effect_range_rounded": [
+    1.0,
+    9.0
+   ],
+   "tukey_effect_range_raw": [
+    1.4,
+    8.2
+   ],
+   "residual_move": 3.0,
+   "residual_move_exact": "3",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 3.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.625,
+   "tukey_share_capped": 0.625
+  },
+  {
+   "measure": "Breast Cancer Screening",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C01",
+    "C01"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 2.5,
+   "tukey_effect_median_rounded_exact": "5/2",
+   "tukey_effect_median_raw": 2.3,
+   "tukey_effect_range_rounded": [
+    0.0,
+    6.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    6.0
+   ],
+   "residual_move": -1.5,
+   "residual_move_exact": "-3/2",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 2.5,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Breast Cancer Screening",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C01",
+    "C01"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 1.0,
+   "tukey_effect_median_rounded_exact": "1",
+   "tukey_effect_median_raw": 1.1,
+   "tukey_effect_range_rounded": [
+    0.0,
+    4.0
+   ],
+   "tukey_effect_range_raw": [
+    -0.1,
+    4.3
+   ],
+   "residual_move": 0.0,
+   "residual_move_exact": "0",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 1.0,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Breast Cancer Screening",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C01",
+    "C01"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 2.0,
+   "published_move_used_exact": "2",
+   "tukey_effect_median_rounded": 1.0,
+   "tukey_effect_median_rounded_exact": "1",
+   "tukey_effect_median_raw": 1.05,
+   "tukey_effect_range_rounded": [
+    -1.0,
+    2.0
+   ],
+   "tukey_effect_range_raw": [
+    -1.5,
+    2.8
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.5,
+   "tukey_share_capped": 0.5
+  },
+  {
+   "measure": "Call Center \u2013 Foreign Language Interpreter and TTY Availability",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C28",
+    "C30"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 40.0,
+   "published_move_used_exact": "40",
+   "tukey_effect_median_rounded": 32.0,
+   "tukey_effect_median_rounded_exact": "32",
+   "tukey_effect_median_raw": 32.05,
+   "tukey_effect_range_rounded": [
+    25.0,
+    34.0
+   ],
+   "tukey_effect_range_raw": [
+    24.9,
+    34.1
+   ],
+   "residual_move": 8.0,
+   "residual_move_exact": "8",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.8,
+   "tukey_share_capped": 0.8
+  },
+  {
+   "measure": "Call Center \u2013 Foreign Language Interpreter and TTY Availability",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C28",
+    "C30"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 13.0,
+   "published_move_used_exact": "13",
+   "tukey_effect_median_rounded": 16.0,
+   "tukey_effect_median_rounded_exact": "16",
+   "tukey_effect_median_raw": 16.15,
+   "tukey_effect_range_rounded": [
+    12.0,
+    18.0
+   ],
+   "tukey_effect_range_raw": [
+    11.8,
+    17.9
+   ],
+   "residual_move": -3.0,
+   "residual_move_exact": "-3",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 1.2307692307692308,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Call Center \u2013 Foreign Language Interpreter and TTY Availability",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C28",
+    "C30"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 7.0,
+   "published_move_used_exact": "7",
+   "tukey_effect_median_rounded": 7.0,
+   "tukey_effect_median_rounded_exact": "7",
+   "tukey_effect_median_raw": 6.8,
+   "tukey_effect_range_rounded": [
+    6.0,
+    8.0
+   ],
+   "tukey_effect_range_raw": [
+    6.0,
+    7.8
+   ],
+   "residual_move": 0.0,
+   "residual_move_exact": "0",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 1.0,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Call Center \u2013 Foreign Language Interpreter and TTY Availability",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C28",
+    "C30"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 3.0,
+   "published_move_used_exact": "3",
+   "tukey_effect_median_rounded": 2.5,
+   "tukey_effect_median_rounded_exact": "5/2",
+   "tukey_effect_median_raw": 2.65,
+   "tukey_effect_range_rounded": [
+    2.0,
+    3.0
+   ],
+   "tukey_effect_range_raw": [
+    2.0,
+    3.3
+   ],
+   "residual_move": 0.5,
+   "residual_move_exact": "1/2",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.8333333333333334,
+   "tukey_share_capped": 0.8333333333333334
+  },
+  {
+   "measure": "Call Center \u2013 Foreign Language Interpreter and TTY Availability",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D01",
+    "D01"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 28.0,
+   "published_move_used_exact": "28",
+   "tukey_effect_median_rounded": 59.0,
+   "tukey_effect_median_rounded_exact": "59",
+   "tukey_effect_median_raw": 59.4,
+   "tukey_effect_range_rounded": [
+    56.0,
+    61.0
+   ],
+   "tukey_effect_range_raw": [
+    56.1,
+    60.9
+   ],
+   "residual_move": -31.0,
+   "residual_move_exact": "-31",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 2.107142857142857,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Call Center \u2013 Foreign Language Interpreter and TTY Availability",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D01",
+    "D01"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 23.0,
+   "published_move_used_exact": "23",
+   "tukey_effect_median_rounded": 27.0,
+   "tukey_effect_median_rounded_exact": "27",
+   "tukey_effect_median_raw": 27.1,
+   "tukey_effect_range_rounded": [
+    25.0,
+    28.0
+   ],
+   "tukey_effect_range_raw": [
+    24.9,
+    28.6
+   ],
+   "residual_move": -4.0,
+   "residual_move_exact": "-4",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 1.173913043478261,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Call Center \u2013 Foreign Language Interpreter and TTY Availability",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D01",
+    "D01"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 16.0,
+   "published_move_used_exact": "16",
+   "tukey_effect_median_rounded": 8.0,
+   "tukey_effect_median_rounded_exact": "8",
+   "tukey_effect_median_raw": 8.6,
+   "tukey_effect_range_rounded": [
+    8.0,
+    9.0
+   ],
+   "tukey_effect_range_raw": [
+    7.6,
+    9.4
+   ],
+   "residual_move": 8.0,
+   "residual_move_exact": "8",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.5,
+   "tukey_share_capped": 0.5
+  },
+  {
+   "measure": "Call Center \u2013 Foreign Language Interpreter and TTY Availability",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D01",
+    "D01"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 8.0,
+   "published_move_used_exact": "8",
+   "tukey_effect_median_rounded": 2.5,
+   "tukey_effect_median_rounded_exact": "5/2",
+   "tukey_effect_median_raw": 2.7,
+   "tukey_effect_range_rounded": [
+    2.0,
+    4.0
+   ],
+   "tukey_effect_range_raw": [
+    1.8,
+    3.9
+   ],
+   "residual_move": 5.5,
+   "residual_move_exact": "11/2",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.3125,
+   "tukey_share_capped": 0.3125
+  },
+  {
+   "measure": "Care for Older Adults \u2013 Medication Review",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C06",
+    "C06"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    false
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 36.0,
+   "published_move_used_exact": "36",
+   "tukey_effect_median_rounded": 34.0,
+   "tukey_effect_median_rounded_exact": "34",
+   "tukey_effect_median_raw": 33.8,
+   "tukey_effect_range_rounded": [
+    32.0,
+    36.0
+   ],
+   "tukey_effect_range_raw": [
+    32.4,
+    35.7
+   ],
+   "residual_move": 2.0,
+   "residual_move_exact": "2",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.9444444444444444,
+   "tukey_share_capped": 0.9444444444444444
+  },
+  {
+   "measure": "Care for Older Adults \u2013 Medication Review",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C06",
+    "C06"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 14.0,
+   "published_move_used_exact": "14",
+   "tukey_effect_median_rounded": 13.0,
+   "tukey_effect_median_rounded_exact": "13",
+   "tukey_effect_median_raw": 12.75,
+   "tukey_effect_range_rounded": [
+    11.0,
+    14.0
+   ],
+   "tukey_effect_range_raw": [
+    11.1,
+    14.4
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 4.0,
+   "null_q95_abs_rounded_2023": 3.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.9285714285714286,
+   "tukey_share_capped": 0.9285714285714286
+  },
+  {
+   "measure": "Care for Older Adults \u2013 Medication Review",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C06",
+    "C06"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 11.0,
+   "published_move_used_exact": "11",
+   "tukey_effect_median_rounded": 10.0,
+   "tukey_effect_median_rounded_exact": "10",
+   "tukey_effect_median_raw": 10.1,
+   "tukey_effect_range_rounded": [
+    9.0,
+    11.0
+   ],
+   "tukey_effect_range_raw": [
+    8.7,
+    11.0
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 4.0,
+   "null_q95_abs_rounded_2023": 3.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.9090909090909091,
+   "tukey_share_capped": 0.9090909090909091
+  },
+  {
+   "measure": "Care for Older Adults \u2013 Medication Review",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C06",
+    "C06"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 5.0,
+   "published_move_used_exact": "5",
+   "tukey_effect_median_rounded": 5.0,
+   "tukey_effect_median_rounded_exact": "5",
+   "tukey_effect_median_raw": 5.3,
+   "tukey_effect_range_rounded": [
+    5.0,
+    6.0
+   ],
+   "tukey_effect_range_raw": [
+    4.8,
+    6.3
+   ],
+   "residual_move": 0.0,
+   "residual_move_exact": "0",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 1.0,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Care for Older Adults \u2013 Pain Assessment",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C07",
+    "C07"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    false
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 45.0,
+   "published_move_used_exact": "45",
+   "tukey_effect_median_rounded": 22.0,
+   "tukey_effect_median_rounded_exact": "22",
+   "tukey_effect_median_raw": 21.95,
+   "tukey_effect_range_rounded": [
+    21.0,
+    23.0
+   ],
+   "tukey_effect_range_raw": [
+    20.9,
+    23.3
+   ],
+   "residual_move": 23.0,
+   "residual_move_exact": "23",
+   "null_max_abs_rounded_2023": 6.0,
+   "null_q95_abs_rounded_2023": 6.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.4888888888888889,
+   "tukey_share_capped": 0.4888888888888889
+  },
+  {
+   "measure": "Care for Older Adults \u2013 Pain Assessment",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C07",
+    "C07"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    false
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 25.0,
+   "published_move_used_exact": "25",
+   "tukey_effect_median_rounded": 8.0,
+   "tukey_effect_median_rounded_exact": "8",
+   "tukey_effect_median_raw": 7.95,
+   "tukey_effect_range_rounded": [
+    7.0,
+    11.0
+   ],
+   "tukey_effect_range_raw": [
+    6.6,
+    10.7
+   ],
+   "residual_move": 17.0,
+   "residual_move_exact": "17",
+   "null_max_abs_rounded_2023": 5.0,
+   "null_q95_abs_rounded_2023": 5.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.32,
+   "tukey_share_capped": 0.32
+  },
+  {
+   "measure": "Care for Older Adults \u2013 Pain Assessment",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C07",
+    "C07"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 6.0,
+   "published_move_used_exact": "6",
+   "tukey_effect_median_rounded": 4.0,
+   "tukey_effect_median_rounded_exact": "4",
+   "tukey_effect_median_raw": 4.05,
+   "tukey_effect_range_rounded": [
+    2.0,
+    7.0
+   ],
+   "tukey_effect_range_raw": [
+    2.4,
+    6.5
+   ],
+   "residual_move": 2.0,
+   "residual_move_exact": "2",
+   "null_max_abs_rounded_2023": 5.0,
+   "null_q95_abs_rounded_2023": 4.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.6666666666666666,
+   "tukey_share_capped": 0.6666666666666666
+  },
+  {
+   "measure": "Care for Older Adults \u2013 Pain Assessment",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C07",
+    "C07"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 2.0,
+   "published_move_used_exact": "2",
+   "tukey_effect_median_rounded": 1.0,
+   "tukey_effect_median_rounded_exact": "1",
+   "tukey_effect_median_raw": 1.15,
+   "tukey_effect_range_rounded": [
+    0.0,
+    3.0
+   ],
+   "tukey_effect_range_raw": [
+    0.3,
+    2.3
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.5,
+   "tukey_share_capped": 0.5
+  },
+  {
+   "measure": "Colorectal Cancer Screening",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C02",
+    "C02"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 10.0,
+   "published_move_used_exact": "10",
+   "tukey_effect_median_rounded": 4.0,
+   "tukey_effect_median_rounded_exact": "4",
+   "tukey_effect_median_raw": 4.15,
+   "tukey_effect_range_rounded": [
+    2.0,
+    7.0
+   ],
+   "tukey_effect_range_raw": [
+    2.1,
+    7.7
+   ],
+   "residual_move": 6.0,
+   "residual_move_exact": "6",
+   "null_max_abs_rounded_2023": 6.0,
+   "null_q95_abs_rounded_2023": 5.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.4,
+   "tukey_share_capped": 0.4
+  },
+  {
+   "measure": "Colorectal Cancer Screening",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C02",
+    "C02"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 1.0,
+   "tukey_effect_median_rounded_exact": "1",
+   "tukey_effect_median_raw": 1.65,
+   "tukey_effect_range_rounded": [
+    0.0,
+    4.0
+   ],
+   "tukey_effect_range_raw": [
+    -0.5,
+    4.6
+   ],
+   "residual_move": -1.0,
+   "residual_move_exact": "-1",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 3.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Colorectal Cancer Screening",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C02",
+    "C02"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 1.0,
+   "tukey_effect_median_rounded_exact": "1",
+   "tukey_effect_median_raw": 1.25,
+   "tukey_effect_range_rounded": [
+    0.0,
+    3.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    2.8
+   ],
+   "residual_move": -1.0,
+   "residual_move_exact": "-1",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Colorectal Cancer Screening",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C02",
+    "C02"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.5,
+   "tukey_effect_range_rounded": [
+    -1.0,
+    2.0
+   ],
+   "tukey_effect_range_raw": [
+    -0.2,
+    1.8
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Complaints about the Drug Plan",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D02",
+    "D02"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    2,
+    2
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -0.05,
+   "published_move_used_exact": "-1/20",
+   "tukey_effect_median_rounded": -0.13,
+   "tukey_effect_median_rounded_exact": "-13/100",
+   "tukey_effect_median_raw": -0.1295,
+   "tukey_effect_range_rounded": [
+    -0.19,
+    -0.08
+   ],
+   "tukey_effect_range_raw": [
+    -0.192,
+    -0.078
+   ],
+   "residual_move": 0.08,
+   "residual_move_exact": "2/25",
+   "null_max_abs_rounded_2023": 0.05,
+   "null_q95_abs_rounded_2023": 0.04,
+   "published_within_null": true,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 2.6,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Complaints about the Drug Plan",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D02",
+    "D02"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    2,
+    2
+   ],
+   "guardrail_bound": [
+    false,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -0.17,
+   "published_move_used_exact": "-17/100",
+   "tukey_effect_median_rounded": -0.43,
+   "tukey_effect_median_rounded_exact": "-43/100",
+   "tukey_effect_median_raw": -0.4345,
+   "tukey_effect_range_rounded": [
+    -0.48,
+    -0.37
+   ],
+   "tukey_effect_range_raw": [
+    -0.481,
+    -0.366
+   ],
+   "residual_move": 0.26,
+   "residual_move_exact": "13/50",
+   "null_max_abs_rounded_2023": 0.14,
+   "null_q95_abs_rounded_2023": 0.1,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 2.5294117647058822,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Complaints about the Drug Plan",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D02",
+    "D02"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    2,
+    2
+   ],
+   "guardrail_bound": [
+    false,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -0.29,
+   "published_move_used_exact": "-29/100",
+   "tukey_effect_median_rounded": -0.75,
+   "tukey_effect_median_rounded_exact": "-3/4",
+   "tukey_effect_median_raw": -0.754,
+   "tukey_effect_range_rounded": [
+    -0.83,
+    -0.61
+   ],
+   "tukey_effect_range_raw": [
+    -0.83,
+    -0.61
+   ],
+   "residual_move": 0.46,
+   "residual_move_exact": "23/50",
+   "null_max_abs_rounded_2023": 0.19,
+   "null_q95_abs_rounded_2023": 0.14,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 2.586206896551724,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Complaints about the Drug Plan",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D02",
+    "D02"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    2,
+    2
+   ],
+   "guardrail_bound": [
+    true,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -0.59,
+   "published_move_used_exact": "-59/100",
+   "tukey_effect_median_rounded": -1.45,
+   "tukey_effect_median_rounded_exact": "-29/20",
+   "tukey_effect_median_raw": -1.451,
+   "tukey_effect_range_rounded": [
+    -1.52,
+    -1.27
+   ],
+   "tukey_effect_range_raw": [
+    -1.524,
+    -1.261
+   ],
+   "residual_move": 0.86,
+   "residual_move_exact": "43/50",
+   "null_max_abs_rounded_2023": 0.31,
+   "null_q95_abs_rounded_2023": 0.25,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 2.457627118644068,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Complaints about the Drug Plan",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D02",
+    "D02"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    2,
+    2
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -0.04,
+   "published_move_used_exact": "-1/25",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -0.04,
+   "residual_move_exact": "-1/25",
+   "null_max_abs_rounded_2023": 0.02,
+   "null_q95_abs_rounded_2023": 0.01,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Complaints about the Drug Plan",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D02",
+    "D02"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    2,
+    2
+   ],
+   "guardrail_bound": [
+    false,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -0.08,
+   "published_move_used_exact": "-2/25",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -0.08,
+   "residual_move_exact": "-2/25",
+   "null_max_abs_rounded_2023": 0.02,
+   "null_q95_abs_rounded_2023": 0.01,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Complaints about the Drug Plan",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D02",
+    "D02"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    2,
+    2
+   ],
+   "guardrail_bound": [
+    true,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -0.18,
+   "published_move_used_exact": "-9/50",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -0.18,
+   "residual_move_exact": "-9/50",
+   "null_max_abs_rounded_2023": 0.02,
+   "null_q95_abs_rounded_2023": 0.02,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Complaints about the Drug Plan",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D02",
+    "D02"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    2,
+    2
+   ],
+   "guardrail_bound": [
+    true,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -0.29,
+   "published_move_used_exact": "-29/100",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -0.29,
+   "residual_move_exact": "-29/100",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Complaints about the Health Plan",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C23",
+    "C25"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    2,
+    2
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -0.05,
+   "published_move_used_exact": "-1/20",
+   "tukey_effect_median_rounded": -0.145,
+   "tukey_effect_median_rounded_exact": "-29/200",
+   "tukey_effect_median_raw": -0.1475,
+   "tukey_effect_range_rounded": [
+    -0.18,
+    -0.09
+   ],
+   "tukey_effect_range_raw": [
+    -0.18,
+    -0.096
+   ],
+   "residual_move": 0.095,
+   "residual_move_exact": "19/200",
+   "null_max_abs_rounded_2023": 0.06,
+   "null_q95_abs_rounded_2023": 0.04,
+   "published_within_null": true,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 2.9,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Complaints about the Health Plan",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C23",
+    "C25"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    2,
+    2
+   ],
+   "guardrail_bound": [
+    false,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -0.17,
+   "published_move_used_exact": "-17/100",
+   "tukey_effect_median_rounded": -0.445,
+   "tukey_effect_median_rounded_exact": "-89/200",
+   "tukey_effect_median_raw": -0.445,
+   "tukey_effect_range_rounded": [
+    -0.52,
+    -0.34
+   ],
+   "tukey_effect_range_raw": [
+    -0.523,
+    -0.347
+   ],
+   "residual_move": 0.275,
+   "residual_move_exact": "11/40",
+   "null_max_abs_rounded_2023": 0.11,
+   "null_q95_abs_rounded_2023": 0.08,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 2.6176470588235294,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Complaints about the Health Plan",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C23",
+    "C25"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    2,
+    2
+   ],
+   "guardrail_bound": [
+    false,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -0.29,
+   "published_move_used_exact": "-29/100",
+   "tukey_effect_median_rounded": -0.78,
+   "tukey_effect_median_rounded_exact": "-39/50",
+   "tukey_effect_median_raw": -0.779,
+   "tukey_effect_range_rounded": [
+    -0.86,
+    -0.6
+   ],
+   "tukey_effect_range_raw": [
+    -0.86,
+    -0.599
+   ],
+   "residual_move": 0.49,
+   "residual_move_exact": "49/100",
+   "null_max_abs_rounded_2023": 0.16,
+   "null_q95_abs_rounded_2023": 0.12,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 2.689655172413793,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Complaints about the Health Plan",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C23",
+    "C25"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    2,
+    2
+   ],
+   "guardrail_bound": [
+    true,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -0.59,
+   "published_move_used_exact": "-59/100",
+   "tukey_effect_median_rounded": -1.48,
+   "tukey_effect_median_rounded_exact": "-37/25",
+   "tukey_effect_median_raw": -1.479,
+   "tukey_effect_range_rounded": [
+    -1.52,
+    -1.35
+   ],
+   "tukey_effect_range_raw": [
+    -1.524,
+    -1.352
+   ],
+   "residual_move": 0.89,
+   "residual_move_exact": "89/100",
+   "null_max_abs_rounded_2023": 0.23,
+   "null_q95_abs_rounded_2023": 0.18,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 2.5084745762711864,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Controlling Blood Pressure",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C12",
+    "C11"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 10.0,
+   "published_move_used_exact": "10",
+   "tukey_effect_median_rounded": 17.0,
+   "tukey_effect_median_rounded_exact": "17",
+   "tukey_effect_median_raw": 16.9,
+   "tukey_effect_range_rounded": [
+    15.0,
+    19.0
+   ],
+   "tukey_effect_range_raw": [
+    14.8,
+    19.0
+   ],
+   "residual_move": -7.0,
+   "residual_move_exact": "-7",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 1.7,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Controlling Blood Pressure",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C12",
+    "C11"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 5.0,
+   "published_move_used_exact": "5",
+   "tukey_effect_median_rounded": 3.0,
+   "tukey_effect_median_rounded_exact": "3",
+   "tukey_effect_median_raw": 2.7,
+   "tukey_effect_range_rounded": [
+    2.0,
+    4.0
+   ],
+   "tukey_effect_range_raw": [
+    1.6,
+    4.0
+   ],
+   "residual_move": 2.0,
+   "residual_move_exact": "2",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.6,
+   "tukey_share_capped": 0.6
+  },
+  {
+   "measure": "Controlling Blood Pressure",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C12",
+    "C11"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 2.0,
+   "tukey_effect_median_rounded_exact": "2",
+   "tukey_effect_median_raw": 1.9,
+   "tukey_effect_range_rounded": [
+    1.0,
+    3.0
+   ],
+   "tukey_effect_range_raw": [
+    1.0,
+    3.3
+   ],
+   "residual_move": -1.0,
+   "residual_move_exact": "-1",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 2.0,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Controlling Blood Pressure",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C12",
+    "C11"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 2.0,
+   "published_move_used_exact": "2",
+   "tukey_effect_median_rounded": 1.0,
+   "tukey_effect_median_rounded_exact": "1",
+   "tukey_effect_median_raw": 0.95,
+   "tukey_effect_range_rounded": [
+    0.0,
+    2.0
+   ],
+   "tukey_effect_range_raw": [
+    0.3,
+    2.0
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.5,
+   "tukey_share_capped": 0.5
+  },
+  {
+   "measure": "Diabetes Care \u2013 Blood Sugar Controlled",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C11",
+    "C10"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 18.0,
+   "published_move_used_exact": "18",
+   "tukey_effect_median_rounded": 22.0,
+   "tukey_effect_median_rounded_exact": "22",
+   "tukey_effect_median_raw": 21.7,
+   "tukey_effect_range_rounded": [
+    19.0,
+    26.0
+   ],
+   "tukey_effect_range_raw": [
+    19.6,
+    25.4
+   ],
+   "residual_move": -4.0,
+   "residual_move_exact": "-4",
+   "null_max_abs_rounded_2023": 7.0,
+   "null_q95_abs_rounded_2023": 5.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 1.2222222222222223,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Diabetes Care \u2013 Blood Sugar Controlled",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C11",
+    "C10"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 10.0,
+   "published_move_used_exact": "10",
+   "tukey_effect_median_rounded": 13.0,
+   "tukey_effect_median_rounded_exact": "13",
+   "tukey_effect_median_raw": 13.5,
+   "tukey_effect_range_rounded": [
+    11.0,
+    15.0
+   ],
+   "tukey_effect_range_raw": [
+    10.9,
+    15.1
+   ],
+   "residual_move": -3.0,
+   "residual_move_exact": "-3",
+   "null_max_abs_rounded_2023": 6.0,
+   "null_q95_abs_rounded_2023": 4.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 1.3,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Diabetes Care \u2013 Blood Sugar Controlled",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C11",
+    "C10"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 5.0,
+   "published_move_used_exact": "5",
+   "tukey_effect_median_rounded": 7.0,
+   "tukey_effect_median_rounded_exact": "7",
+   "tukey_effect_median_raw": 6.85,
+   "tukey_effect_range_rounded": [
+    4.0,
+    8.0
+   ],
+   "tukey_effect_range_raw": [
+    4.7,
+    8.0
+   ],
+   "residual_move": -2.0,
+   "residual_move_exact": "-2",
+   "null_max_abs_rounded_2023": 5.0,
+   "null_q95_abs_rounded_2023": 3.0,
+   "published_within_null": true,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 1.4,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Diabetes Care \u2013 Blood Sugar Controlled",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C11",
+    "C10"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 4.0,
+   "published_move_used_exact": "4",
+   "tukey_effect_median_rounded": 4.5,
+   "tukey_effect_median_rounded_exact": "9/2",
+   "tukey_effect_median_raw": 4.5,
+   "tukey_effect_range_rounded": [
+    2.0,
+    6.0
+   ],
+   "tukey_effect_range_raw": [
+    2.3,
+    5.8
+   ],
+   "residual_move": -0.5,
+   "residual_move_exact": "-1/2",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 1.125,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Diabetes Care \u2013 Eye Exam",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C09",
+    "C09"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 6.0,
+   "published_move_used_exact": "6",
+   "tukey_effect_median_rounded": 16.0,
+   "tukey_effect_median_rounded_exact": "16",
+   "tukey_effect_median_raw": 15.95,
+   "tukey_effect_range_rounded": [
+    11.0,
+    19.0
+   ],
+   "tukey_effect_range_raw": [
+    11.1,
+    18.8
+   ],
+   "residual_move": -10.0,
+   "residual_move_exact": "-10",
+   "null_max_abs_rounded_2023": 4.0,
+   "null_q95_abs_rounded_2023": 3.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 2.6666666666666665,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Diabetes Care \u2013 Eye Exam",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C09",
+    "C09"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 4.0,
+   "published_move_used_exact": "4",
+   "tukey_effect_median_rounded": 8.0,
+   "tukey_effect_median_rounded_exact": "8",
+   "tukey_effect_median_raw": 7.5,
+   "tukey_effect_range_rounded": [
+    5.0,
+    10.0
+   ],
+   "tukey_effect_range_raw": [
+    5.1,
+    9.9
+   ],
+   "residual_move": -4.0,
+   "residual_move_exact": "-4",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 2.0,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Diabetes Care \u2013 Eye Exam",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C09",
+    "C09"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 2.0,
+   "published_move_used_exact": "2",
+   "tukey_effect_median_rounded": 4.0,
+   "tukey_effect_median_rounded_exact": "4",
+   "tukey_effect_median_raw": 4.15,
+   "tukey_effect_range_rounded": [
+    2.0,
+    7.0
+   ],
+   "tukey_effect_range_raw": [
+    2.3,
+    6.6
+   ],
+   "residual_move": -2.0,
+   "residual_move_exact": "-2",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 2.0,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Diabetes Care \u2013 Eye Exam",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C09",
+    "C09"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 2.0,
+   "published_move_used_exact": "2",
+   "tukey_effect_median_rounded": 3.0,
+   "tukey_effect_median_rounded_exact": "3",
+   "tukey_effect_median_raw": 2.75,
+   "tukey_effect_range_rounded": [
+    0.0,
+    5.0
+   ],
+   "tukey_effect_range_raw": [
+    0.4,
+    4.7
+   ],
+   "residual_move": -1.0,
+   "residual_move_exact": "-1",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 1.5,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Improving Bladder Control",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C14",
+    "C13"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -1.0,
+   "published_move_used_exact": "-1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -1.0,
+   "residual_move_exact": "-1",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Improving Bladder Control",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C14",
+    "C13"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -1.0,
+   "published_move_used_exact": "-1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -1.0,
+   "residual_move_exact": "-1",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Improving Bladder Control",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C14",
+    "C13"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -1.0,
+   "published_move_used_exact": "-1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -1.0,
+   "residual_move_exact": "-1",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Improving Bladder Control",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C14",
+    "C13"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -2.0,
+   "published_move_used_exact": "-2",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -2.0,
+   "residual_move_exact": "-2",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "MPF Price Accuracy",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D07",
+    "D07"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 22.0,
+   "published_move_used_exact": "22",
+   "tukey_effect_median_rounded": 9.0,
+   "tukey_effect_median_rounded_exact": "9",
+   "tukey_effect_median_raw": 8.9,
+   "tukey_effect_range_rounded": [
+    9.0,
+    9.0
+   ],
+   "tukey_effect_range_raw": [
+    8.9,
+    8.9
+   ],
+   "residual_move": 13.0,
+   "residual_move_exact": "13",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.4090909090909091,
+   "tukey_share_capped": 0.4090909090909091
+  },
+  {
+   "measure": "MPF Price Accuracy",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D07",
+    "D07"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 10.0,
+   "published_move_used_exact": "10",
+   "tukey_effect_median_rounded": 6.0,
+   "tukey_effect_median_rounded_exact": "6",
+   "tukey_effect_median_raw": 5.9,
+   "tukey_effect_range_rounded": [
+    6.0,
+    6.0
+   ],
+   "tukey_effect_range_raw": [
+    5.7,
+    5.9
+   ],
+   "residual_move": 4.0,
+   "residual_move_exact": "4",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.6,
+   "tukey_share_capped": 0.6
+  },
+  {
+   "measure": "MPF Price Accuracy",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D07",
+    "D07"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 5.0,
+   "published_move_used_exact": "5",
+   "tukey_effect_median_rounded": 2.0,
+   "tukey_effect_median_rounded_exact": "2",
+   "tukey_effect_median_raw": 2.0,
+   "tukey_effect_range_rounded": [
+    2.0,
+    2.0
+   ],
+   "tukey_effect_range_raw": [
+    2.0,
+    2.0
+   ],
+   "residual_move": 3.0,
+   "residual_move_exact": "3",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.4,
+   "tukey_share_capped": 0.4
+  },
+  {
+   "measure": "MPF Price Accuracy",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D07",
+    "D07"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 2.0,
+   "published_move_used_exact": "2",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 2.0,
+   "residual_move_exact": "2",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "MTM Program Completion Rate for CMR",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D11",
+    "D11"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    false
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 26.0,
+   "published_move_used_exact": "26",
+   "tukey_effect_median_rounded": 11.0,
+   "tukey_effect_median_rounded_exact": "11",
+   "tukey_effect_median_raw": 11.25,
+   "tukey_effect_range_rounded": [
+    9.0,
+    13.0
+   ],
+   "tukey_effect_range_raw": [
+    9.0,
+    13.0
+   ],
+   "residual_move": 15.0,
+   "residual_move_exact": "15",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.4230769230769231,
+   "tukey_share_capped": 0.4230769230769231
+  },
+  {
+   "measure": "MTM Program Completion Rate for CMR",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D11",
+    "D11"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 10.0,
+   "published_move_used_exact": "10",
+   "tukey_effect_median_rounded": 5.0,
+   "tukey_effect_median_rounded_exact": "5",
+   "tukey_effect_median_raw": 4.55,
+   "tukey_effect_range_rounded": [
+    1.0,
+    8.0
+   ],
+   "tukey_effect_range_raw": [
+    1.6,
+    7.6
+   ],
+   "residual_move": 5.0,
+   "residual_move_exact": "5",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 3.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.5,
+   "tukey_share_capped": 0.5
+  },
+  {
+   "measure": "MTM Program Completion Rate for CMR",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D11",
+    "D11"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 3.0,
+   "published_move_used_exact": "3",
+   "tukey_effect_median_rounded": 2.5,
+   "tukey_effect_median_rounded_exact": "5/2",
+   "tukey_effect_median_raw": 2.55,
+   "tukey_effect_range_rounded": [
+    0.0,
+    4.0
+   ],
+   "tukey_effect_range_raw": [
+    0.2,
+    3.3
+   ],
+   "residual_move": 0.5,
+   "residual_move_exact": "1/2",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.8333333333333334,
+   "tukey_share_capped": 0.8333333333333334
+  },
+  {
+   "measure": "MTM Program Completion Rate for CMR",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D11",
+    "D11"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 3.0,
+   "published_move_used_exact": "3",
+   "tukey_effect_median_rounded": 1.0,
+   "tukey_effect_median_rounded_exact": "1",
+   "tukey_effect_median_raw": 0.8,
+   "tukey_effect_range_rounded": [
+    0.0,
+    2.0
+   ],
+   "tukey_effect_range_raw": [
+    -0.3,
+    1.4
+   ],
+   "residual_move": 2.0,
+   "residual_move_exact": "2",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.3333333333333333,
+   "tukey_share_capped": 0.3333333333333333
+  },
+  {
+   "measure": "MTM Program Completion Rate for CMR",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D11",
+    "D11"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 0.0,
+   "residual_move_exact": "0",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "MTM Program Completion Rate for CMR",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D11",
+    "D11"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 3.0,
+   "published_move_used_exact": "3",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 3.0,
+   "residual_move_exact": "3",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "MTM Program Completion Rate for CMR",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D11",
+    "D11"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "MTM Program Completion Rate for CMR",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D11",
+    "D11"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -1.0,
+   "published_move_used_exact": "-1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -1.0,
+   "residual_move_exact": "-1",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Adherence for Cholesterol (Statins)",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D10",
+    "D10"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Adherence for Cholesterol (Statins)",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D10",
+    "D10"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Adherence for Cholesterol (Statins)",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D10",
+    "D10"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 0.0,
+   "residual_move_exact": "0",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Medication Adherence for Cholesterol (Statins)",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D10",
+    "D10"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -1.0,
+   "published_move_used_exact": "-1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -1.0,
+   "residual_move_exact": "-1",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Adherence for Cholesterol (Statins)",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D10",
+    "D10"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 0.0,
+   "residual_move_exact": "0",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Medication Adherence for Cholesterol (Statins)",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D10",
+    "D10"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 0.0,
+   "residual_move_exact": "0",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Medication Adherence for Cholesterol (Statins)",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D10",
+    "D10"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Adherence for Cholesterol (Statins)",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D10",
+    "D10"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 3.0,
+   "published_move_used_exact": "3",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 3.0,
+   "residual_move_exact": "3",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Adherence for Diabetes Medications",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D08",
+    "D08"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Adherence for Diabetes Medications",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D08",
+    "D08"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -1.0,
+   "published_move_used_exact": "-1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -1.0,
+   "residual_move_exact": "-1",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Adherence for Diabetes Medications",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D08",
+    "D08"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 0.0,
+   "residual_move_exact": "0",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Medication Adherence for Diabetes Medications",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D08",
+    "D08"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -2.0,
+   "published_move_used_exact": "-2",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -2.0,
+   "residual_move_exact": "-2",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 3.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Adherence for Diabetes Medications",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D08",
+    "D08"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 0.0,
+   "residual_move_exact": "0",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Medication Adherence for Diabetes Medications",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D08",
+    "D08"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Adherence for Diabetes Medications",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D08",
+    "D08"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Adherence for Diabetes Medications",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D08",
+    "D08"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 3.0,
+   "published_move_used_exact": "3",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 3.0,
+   "residual_move_exact": "3",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Adherence for Hypertension (RAS antagonists)",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D09",
+    "D09"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    false
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -1.0,
+   "published_move_used_exact": "-1",
+   "tukey_effect_median_rounded": 7.0,
+   "tukey_effect_median_rounded_exact": "7",
+   "tukey_effect_median_raw": 6.8,
+   "tukey_effect_range_rounded": [
+    6.0,
+    8.0
+   ],
+   "tukey_effect_range_raw": [
+    5.9,
+    7.7
+   ],
+   "residual_move": -8.0,
+   "residual_move_exact": "-8",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": -7.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Adherence for Hypertension (RAS antagonists)",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D09",
+    "D09"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 3.0,
+   "tukey_effect_median_rounded_exact": "3",
+   "tukey_effect_median_raw": 3.0,
+   "tukey_effect_range_rounded": [
+    2.0,
+    4.0
+   ],
+   "tukey_effect_range_raw": [
+    2.3,
+    3.6
+   ],
+   "residual_move": -3.0,
+   "residual_move_exact": "-3",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Medication Adherence for Hypertension (RAS antagonists)",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D09",
+    "D09"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 2.0,
+   "tukey_effect_median_rounded_exact": "2",
+   "tukey_effect_median_raw": 2.0,
+   "tukey_effect_range_rounded": [
+    2.0,
+    3.0
+   ],
+   "tukey_effect_range_raw": [
+    1.7,
+    2.3
+   ],
+   "residual_move": -2.0,
+   "residual_move_exact": "-2",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Medication Adherence for Hypertension (RAS antagonists)",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D09",
+    "D09"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 1.0,
+   "tukey_effect_median_rounded_exact": "1",
+   "tukey_effect_median_raw": 0.95,
+   "tukey_effect_range_rounded": [
+    1.0,
+    1.0
+   ],
+   "tukey_effect_range_raw": [
+    0.7,
+    1.3
+   ],
+   "residual_move": -1.0,
+   "residual_move_exact": "-1",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Medication Adherence for Hypertension (RAS antagonists)",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D09",
+    "D09"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Adherence for Hypertension (RAS antagonists)",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D09",
+    "D09"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 0.0,
+   "residual_move_exact": "0",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Medication Adherence for Hypertension (RAS antagonists)",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D09",
+    "D09"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 0.0,
+   "residual_move_exact": "0",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Medication Adherence for Hypertension (RAS antagonists)",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D09",
+    "D09"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -2.0,
+   "published_move_used_exact": "-2",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -2.0,
+   "residual_move_exact": "-2",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Reconciliation Post-Discharge",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C15",
+    "C14"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -12.0,
+   "published_move_used_exact": "-12",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -12.0,
+   "residual_move_exact": "-12",
+   "null_max_abs_rounded_2023": 8.0,
+   "null_q95_abs_rounded_2023": 5.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Reconciliation Post-Discharge",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C15",
+    "C14"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -6.0,
+   "published_move_used_exact": "-6",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -6.0,
+   "residual_move_exact": "-6",
+   "null_max_abs_rounded_2023": 5.0,
+   "null_q95_abs_rounded_2023": 4.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Reconciliation Post-Discharge",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C15",
+    "C14"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -1.0,
+   "published_move_used_exact": "-1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -1.0,
+   "residual_move_exact": "-1",
+   "null_max_abs_rounded_2023": 5.0,
+   "null_q95_abs_rounded_2023": 4.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Medication Reconciliation Post-Discharge",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C15",
+    "C14"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 0.0,
+   "residual_move_exact": "0",
+   "null_max_abs_rounded_2023": 4.0,
+   "null_q95_abs_rounded_2023": 3.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Members Choosing to Leave the Plan",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C24",
+    "C26"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 3.0,
+   "published_move_used_exact": "3",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 3.0,
+   "residual_move_exact": "3",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Members Choosing to Leave the Plan",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C24",
+    "C26"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 3.0,
+   "published_move_used_exact": "3",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 3.0,
+   "residual_move_exact": "3",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Members Choosing to Leave the Plan",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C24",
+    "C26"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 5.0,
+   "published_move_used_exact": "5",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 5.0,
+   "residual_move_exact": "5",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Members Choosing to Leave the Plan",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C24",
+    "C26"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    false
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 4.0,
+   "published_move_used_exact": "4",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 4.0,
+   "residual_move_exact": "4",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 3.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Members Choosing to Leave the Plan",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D03",
+    "D03"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 3.0,
+   "published_move_used_exact": "3",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 3.0,
+   "residual_move_exact": "3",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Members Choosing to Leave the Plan",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D03",
+    "D03"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 3.0,
+   "published_move_used_exact": "3",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 3.0,
+   "residual_move_exact": "3",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Members Choosing to Leave the Plan",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D03",
+    "D03"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 5.0,
+   "published_move_used_exact": "5",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 5.0,
+   "residual_move_exact": "5",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Members Choosing to Leave the Plan",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D03",
+    "D03"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    false
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 4.0,
+   "published_move_used_exact": "4",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 4.0,
+   "residual_move_exact": "4",
+   "null_max_abs_rounded_2023": 4.0,
+   "null_q95_abs_rounded_2023": 3.0,
+   "published_within_null": true,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Members Choosing to Leave the Plan",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D03",
+    "D03"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 0.0,
+   "residual_move_exact": "0",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Members Choosing to Leave the Plan",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D03",
+    "D03"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 0.0,
+   "residual_move_exact": "0",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Members Choosing to Leave the Plan",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D03",
+    "D03"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Members Choosing to Leave the Plan",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D03",
+    "D03"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 2.0,
+   "published_move_used_exact": "2",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 2.0,
+   "residual_move_exact": "2",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Monitoring Physical Activity",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C04",
+    "C04"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -2.0,
+   "published_move_used_exact": "-2",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": -0.15,
+   "tukey_effect_range_rounded": [
+    -2.0,
+    1.0
+   ],
+   "tukey_effect_range_raw": [
+    -2.4,
+    1.0
+   ],
+   "residual_move": -2.0,
+   "residual_move_exact": "-2",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Monitoring Physical Activity",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C04",
+    "C04"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -1.0,
+   "published_move_used_exact": "-1",
+   "tukey_effect_median_rounded": -0.5,
+   "tukey_effect_median_rounded_exact": "-1/2",
+   "tukey_effect_median_raw": -0.3,
+   "tukey_effect_range_rounded": [
+    -2.0,
+    1.0
+   ],
+   "tukey_effect_range_raw": [
+    -1.5,
+    0.4
+   ],
+   "residual_move": -0.5,
+   "residual_move_exact": "-1/2",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.5,
+   "tukey_share_capped": 0.5
+  },
+  {
+   "measure": "Monitoring Physical Activity",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C04",
+    "C04"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": -0.5,
+   "tukey_effect_median_rounded_exact": "-1/2",
+   "tukey_effect_median_raw": -0.4,
+   "tukey_effect_range_rounded": [
+    -2.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    -1.7,
+    0.5
+   ],
+   "residual_move": 0.5,
+   "residual_move_exact": "1/2",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Monitoring Physical Activity",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C04",
+    "C04"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": -0.35,
+   "tukey_effect_range_rounded": [
+    -1.0,
+    1.0
+   ],
+   "tukey_effect_range_raw": [
+    -1.2,
+    1.2
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Osteoporosis Management in Women who had a Fracture",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C08",
+    "C08"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -6.0,
+   "published_move_used_exact": "-6",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -6.0,
+   "residual_move_exact": "-6",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Osteoporosis Management in Women who had a Fracture",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C08",
+    "C08"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -8.0,
+   "published_move_used_exact": "-8",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -8.0,
+   "residual_move_exact": "-8",
+   "null_max_abs_rounded_2023": 4.0,
+   "null_q95_abs_rounded_2023": 3.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Osteoporosis Management in Women who had a Fracture",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C08",
+    "C08"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -10.0,
+   "published_move_used_exact": "-10",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -10.0,
+   "residual_move_exact": "-10",
+   "null_max_abs_rounded_2023": 5.0,
+   "null_q95_abs_rounded_2023": 4.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Osteoporosis Management in Women who had a Fracture",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C08",
+    "C08"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -16.0,
+   "published_move_used_exact": "-16",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -16.0,
+   "residual_move_exact": "-16",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Plan Makes Timely Decisions about Appeals",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C26",
+    "C28"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 46.0,
+   "published_move_used_exact": "46",
+   "tukey_effect_median_rounded": 18.0,
+   "tukey_effect_median_rounded_exact": "18",
+   "tukey_effect_median_raw": 18.1,
+   "tukey_effect_range_rounded": [
+    17.0,
+    19.0
+   ],
+   "tukey_effect_range_raw": [
+    16.6,
+    19.0
+   ],
+   "residual_move": 28.0,
+   "residual_move_exact": "28",
+   "null_max_abs_rounded_2023": 4.0,
+   "null_q95_abs_rounded_2023": 3.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.391304347826087,
+   "tukey_share_capped": 0.391304347826087
+  },
+  {
+   "measure": "Plan Makes Timely Decisions about Appeals",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C26",
+    "C28"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 27.0,
+   "published_move_used_exact": "27",
+   "tukey_effect_median_rounded": 14.0,
+   "tukey_effect_median_rounded_exact": "14",
+   "tukey_effect_median_raw": 13.8,
+   "tukey_effect_range_rounded": [
+    11.0,
+    16.0
+   ],
+   "tukey_effect_range_raw": [
+    11.6,
+    15.7
+   ],
+   "residual_move": 13.0,
+   "residual_move_exact": "13",
+   "null_max_abs_rounded_2023": 6.0,
+   "null_q95_abs_rounded_2023": 4.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.5185185185185185,
+   "tukey_share_capped": 0.5185185185185185
+  },
+  {
+   "measure": "Plan Makes Timely Decisions about Appeals",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C26",
+    "C28"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    true,
+    false
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": 12.0,
+   "published_move_used_exact": "12",
+   "tukey_effect_median_rounded": 8.0,
+   "tukey_effect_median_rounded_exact": "8",
+   "tukey_effect_median_raw": 8.15,
+   "tukey_effect_range_rounded": [
+    6.0,
+    8.0
+   ],
+   "tukey_effect_range_raw": [
+    6.2,
+    8.6
+   ],
+   "residual_move": 4.0,
+   "residual_move_exact": "4",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 3.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.6666666666666666,
+   "tukey_share_capped": 0.6666666666666666
+  },
+  {
+   "measure": "Plan Makes Timely Decisions about Appeals",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C26",
+    "C28"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 3.0,
+   "tukey_effect_median_rounded_exact": "3",
+   "tukey_effect_median_raw": 2.95,
+   "tukey_effect_range_rounded": [
+    2.0,
+    4.0
+   ],
+   "tukey_effect_range_raw": [
+    2.0,
+    3.4
+   ],
+   "residual_move": -2.0,
+   "residual_move_exact": "-2",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 3.0,
+   "tukey_share_capped": 1.0
+  },
+  {
+   "measure": "Reducing the Risk of Falling",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C13",
+    "C12"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": -1.0,
+   "tukey_effect_median_rounded_exact": "-1",
+   "tukey_effect_median_raw": -0.95,
+   "tukey_effect_range_rounded": [
+    -2.0,
+    1.0
+   ],
+   "tukey_effect_range_raw": [
+    -2.2,
+    0.5
+   ],
+   "residual_move": 2.0,
+   "residual_move_exact": "2",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": -1.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Reducing the Risk of Falling",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C13",
+    "C12"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": -2.0,
+   "tukey_effect_median_rounded_exact": "-2",
+   "tukey_effect_median_raw": -1.85,
+   "tukey_effect_range_rounded": [
+    -4.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    -3.1,
+    -0.2
+   ],
+   "residual_move": 2.0,
+   "residual_move_exact": "2",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Reducing the Risk of Falling",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C13",
+    "C12"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": -2.0,
+   "tukey_effect_median_rounded_exact": "-2",
+   "tukey_effect_median_raw": -2.15,
+   "tukey_effect_range_rounded": [
+    -4.0,
+    -1.0
+   ],
+   "tukey_effect_range_raw": [
+    -3.8,
+    -0.7
+   ],
+   "residual_move": 2.0,
+   "residual_move_exact": "2",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Reducing the Risk of Falling",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C13",
+    "C12"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": -4.0,
+   "tukey_effect_median_rounded_exact": "-4",
+   "tukey_effect_median_raw": -3.3,
+   "tukey_effect_range_rounded": [
+    -6.0,
+    -2.0
+   ],
+   "tukey_effect_range_raw": [
+    -6.0,
+    -2.0
+   ],
+   "residual_move": 5.0,
+   "residual_move_exact": "5",
+   "null_max_abs_rounded_2023": 5.0,
+   "null_q95_abs_rounded_2023": 4.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": -4.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Reviewing Appeals Decisions",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C27",
+    "C29"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 19.0,
+   "published_move_used_exact": "19",
+   "tukey_effect_median_rounded": 16.0,
+   "tukey_effect_median_rounded_exact": "16",
+   "tukey_effect_median_raw": 15.8,
+   "tukey_effect_range_rounded": [
+    12.0,
+    18.0
+   ],
+   "tukey_effect_range_raw": [
+    12.1,
+    17.2
+   ],
+   "residual_move": 3.0,
+   "residual_move_exact": "3",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.8421052631578947,
+   "tukey_share_capped": 0.8421052631578947
+  },
+  {
+   "measure": "Reviewing Appeals Decisions",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C27",
+    "C29"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 9.0,
+   "published_move_used_exact": "9",
+   "tukey_effect_median_rounded": 6.0,
+   "tukey_effect_median_rounded_exact": "6",
+   "tukey_effect_median_raw": 5.6,
+   "tukey_effect_range_rounded": [
+    4.0,
+    8.0
+   ],
+   "tukey_effect_range_raw": [
+    3.8,
+    7.8
+   ],
+   "residual_move": 3.0,
+   "residual_move_exact": "3",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.6666666666666666,
+   "tukey_share_capped": 0.6666666666666666
+  },
+  {
+   "measure": "Reviewing Appeals Decisions",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C27",
+    "C29"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 5.0,
+   "published_move_used_exact": "5",
+   "tukey_effect_median_rounded": 3.0,
+   "tukey_effect_median_rounded_exact": "3",
+   "tukey_effect_median_raw": 2.95,
+   "tukey_effect_range_rounded": [
+    2.0,
+    4.0
+   ],
+   "tukey_effect_range_raw": [
+    2.1,
+    4.1
+   ],
+   "residual_move": 2.0,
+   "residual_move_exact": "2",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.6,
+   "tukey_share_capped": 0.6
+  },
+  {
+   "measure": "Reviewing Appeals Decisions",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C27",
+    "C29"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 3.0,
+   "published_move_used_exact": "3",
+   "tukey_effect_median_rounded": 1.0,
+   "tukey_effect_median_rounded_exact": "1",
+   "tukey_effect_median_raw": 0.8,
+   "tukey_effect_range_rounded": [
+    0.0,
+    1.0
+   ],
+   "tukey_effect_range_raw": [
+    0.3,
+    1.2
+   ],
+   "residual_move": 2.0,
+   "residual_move_exact": "2",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.3333333333333333,
+   "tukey_share_capped": 0.3333333333333333
+  },
+  {
+   "measure": "Special Needs Plan (SNP) Care Management",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C05",
+    "C05"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -4.0,
+   "published_move_used_exact": "-4",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -4.0,
+   "residual_move_exact": "-4",
+   "null_max_abs_rounded_2023": 5.0,
+   "null_q95_abs_rounded_2023": 4.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Special Needs Plan (SNP) Care Management",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C05",
+    "C05"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    true
+   ],
+   "move_register_used": "pre-guardrail",
+   "published_move_used": -7.0,
+   "published_move_used_exact": "-7",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -7.0,
+   "residual_move_exact": "-7",
+   "null_max_abs_rounded_2023": 3.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Special Needs Plan (SNP) Care Management",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C05",
+    "C05"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": -1.0,
+   "published_move_used_exact": "-1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": -1.0,
+   "residual_move_exact": "-1",
+   "null_max_abs_rounded_2023": 4.0,
+   "null_q95_abs_rounded_2023": 3.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Special Needs Plan (SNP) Care Management",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C05",
+    "C05"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 0.0,
+   "published_move_used_exact": "0",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 0.0,
+   "residual_move_exact": "0",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": null,
+   "tukey_share_capped": null
+  },
+  {
+   "measure": "Statin Therapy for Patients with Cardiovascular Disease",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C16",
+    "C16"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 4.0,
+   "published_move_used_exact": "4",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": -0.45,
+   "tukey_effect_range_rounded": [
+    -1.0,
+    1.0
+   ],
+   "tukey_effect_range_raw": [
+    -1.1,
+    0.2
+   ],
+   "residual_move": 4.0,
+   "residual_move_exact": "4",
+   "null_max_abs_rounded_2023": 2.0,
+   "null_q95_abs_rounded_2023": 2.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Statin Therapy for Patients with Cardiovascular Disease",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C16",
+    "C16"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 3.0,
+   "published_move_used_exact": "3",
+   "tukey_effect_median_rounded": -1.0,
+   "tukey_effect_median_rounded_exact": "-1",
+   "tukey_effect_median_raw": -1.05,
+   "tukey_effect_range_rounded": [
+    -2.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    -1.5,
+    -0.4
+   ],
+   "residual_move": 4.0,
+   "residual_move_exact": "4",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": -0.3333333333333333,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Statin Therapy for Patients with Cardiovascular Disease",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C16",
+    "C16"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": -2.0,
+   "tukey_effect_median_rounded_exact": "-2",
+   "tukey_effect_median_raw": -2.1,
+   "tukey_effect_range_rounded": [
+    -3.0,
+    -1.0
+   ],
+   "tukey_effect_range_raw": [
+    -2.8,
+    -0.9
+   ],
+   "residual_move": 3.0,
+   "residual_move_exact": "3",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": -2.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Statin Therapy for Patients with Cardiovascular Disease",
+   "side": "C",
+   "org": "ALL",
+   "mids": [
+    "C16",
+    "C16"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": -2.0,
+   "tukey_effect_median_rounded_exact": "-2",
+   "tukey_effect_median_raw": -2.3,
+   "tukey_effect_range_rounded": [
+    -3.0,
+    -1.0
+   ],
+   "tukey_effect_range_raw": [
+    -3.0,
+    -0.8
+   ],
+   "residual_move": 3.0,
+   "residual_move_exact": "3",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": -2.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Statin Use in Persons with Diabetes (SUPD)",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D12",
+    "D12"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": true,
+   "published_within_null_q95": true,
+   "residual_within_null": true,
+   "residual_within_null_q95": true,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Statin Use in Persons with Diabetes (SUPD)",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D12",
+    "D12"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 2.0,
+   "published_move_used_exact": "2",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 2.0,
+   "residual_move_exact": "2",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Statin Use in Persons with Diabetes (SUPD)",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D12",
+    "D12"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 2.0,
+   "published_move_used_exact": "2",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 2.0,
+   "residual_move_exact": "2",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Statin Use in Persons with Diabetes (SUPD)",
+   "side": "D",
+   "org": "MA-PD",
+   "mids": [
+    "D12",
+    "D12"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 2.0,
+   "published_move_used_exact": "2",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 2.0,
+   "residual_move_exact": "2",
+   "null_max_abs_rounded_2023": 1.0,
+   "null_q95_abs_rounded_2023": 1.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Statin Use in Persons with Diabetes (SUPD)",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D12",
+    "D12"
+   ],
+   "boundary_index": 0,
+   "boundary_stars": "1|2",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Statin Use in Persons with Diabetes (SUPD)",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D12",
+    "D12"
+   ],
+   "boundary_index": 1,
+   "boundary_stars": "2|3",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Statin Use in Persons with Diabetes (SUPD)",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D12",
+    "D12"
+   ],
+   "boundary_index": 2,
+   "boundary_stars": "3|4",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  },
+  {
+   "measure": "Statin Use in Persons with Diabetes (SUPD)",
+   "side": "D",
+   "org": "PDP",
+   "mids": [
+    "D12",
+    "D12"
+   ],
+   "boundary_index": 3,
+   "boundary_stars": "4|5",
+   "display_decimals": [
+    0,
+    0
+   ],
+   "guardrail_bound": [
+    false,
+    false
+   ],
+   "move_register_used": "final",
+   "published_move_used": 1.0,
+   "published_move_used_exact": "1",
+   "tukey_effect_median_rounded": 0.0,
+   "tukey_effect_median_rounded_exact": "0",
+   "tukey_effect_median_raw": 0.0,
+   "tukey_effect_range_rounded": [
+    0.0,
+    0.0
+   ],
+   "tukey_effect_range_raw": [
+    0.0,
+    0.0
+   ],
+   "residual_move": 1.0,
+   "residual_move_exact": "1",
+   "null_max_abs_rounded_2023": 0.0,
+   "null_q95_abs_rounded_2023": 0.0,
+   "published_within_null": false,
+   "published_within_null_q95": false,
+   "residual_within_null": false,
+   "residual_within_null_q95": false,
+   "tukey_share_signed": 0.0,
+   "tukey_share_capped": 0.0
+  }
+ ]
+}

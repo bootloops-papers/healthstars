@@ -1,0 +1,31 @@
+{
+ "register": "Decomposition record: published -> plain Ward on the whole sample -> exact DP, all three through the identical pipeline. 'Shared' = flips in the dollar estimate that already occur with plain whole-sample Ward cut points against the published baseline; 'dp_only' = flips requiring the exact-optimum step.",
+ "generator": "src/ward_dp_decomposition.py",
+ "n_ward_full_candidates": 59,
+ "in_dollar_estimate_34_decomposition": {
+  "already_flip_under_plain_ward": 17,
+  "enrollment": 1610561,
+  "require_the_optimal_step": 17,
+  "enrollment_dp": 680473,
+  "dp_only_rows": [
+   "2024-H0321",
+   "2024-H2816",
+   "2024-H3805",
+   "2024-H6502",
+   "2024-R3332",
+   "2025-H2816",
+   "2025-H4004",
+   "2025-H4172",
+   "2025-H4227",
+   "2025-H4623",
+   "2025-H5211",
+   "2025-H5591",
+   "2025-H6988",
+   "2026-H0354",
+   "2026-H2422",
+   "2026-H3080",
+   "2026-H6202"
+  ],
+  "dollars_mid_dp_only_usd": 340236500
+ }
+}

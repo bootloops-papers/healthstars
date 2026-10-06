@@ -1,0 +1,32 @@
+CMS "Monthly Enrollment by Contract" — sources for the dollar estimate
+Retrieved 2026-07-18 (January 2025 and December 2024 files: 2026-08-02).
+Series landing (cms.gov research-statistics data): Medicare Advantage/Part D Contract and Enrollment Data > Monthly Enrollment by Contract.
+Direct file URLs follow the stable cms.gov/files/zip/monthly-enrollment-contract-<month>-<year>.zip pattern
+(the HTML landing pages under the old research-statistics-data-and-systems paths now 404; the /files/zip/ endpoints are live).
+July 2026 was the latest month posted at retrieval (august-2026 returns 404).
+
+Format: md5 | bytes | local path | exact source URL
+
+6805dd90af538bb5baa036eba530386b | 127906 | monthly-enrollment-contract-july-2026.zip | https://www.cms.gov/files/zip/monthly-enrollment-contract-july-2026.zip
+  (Enrollment data month 2026-07. Used for: star year 2025 -> payment year CY2026 [in-payment-year month];
+   star year 2026 -> payment year CY2027 [PROXY: CY2027 months do not exist yet; latest available month used].)
+e6c1e4e456798527ce854b9da6c4fee5 | 129459 | monthly-enrollment-contract-december-2025.zip | https://www.cms.gov/files/zip/monthly-enrollment-contract-december-2025.zip
+  (Enrollment data month 2025-12. Used for: star year 2024 -> payment year CY2025 [in-payment-year month];
+   one contract that loses bonus status needs this mapping.)
+222750968ab6ee5e7de8b8be63ebecd3 | 128201 | monthly-enrollment-contract-january-2025.zip | https://www.cms.gov/files/zip/monthly-enrollment-contract-january-2025.zip
+  (Data month 2025-01, payload CSV md5 4c88069e2f30a4787911aad59fd811ae. Used to check that R3332 has no
+   CY2025 enrollment: absent.)
+6567b44068ddef751836e4c7812f060e | 134930 | monthly-enrollment-contract-december-2024.zip | https://www.cms.gov/files/zip/monthly-enrollment-contract-december-2024.zip
+  (Data month 2024-12, payload Monthly_Report_By_Contract_2024_12.csv md5 caf746d1fb10e8dfbb9d5f49a4753c9d.
+   R3332 present with enrollment 18,119 (BCBS Florida Regional PPO, contract effective 01/01/2010); the
+   contract was not renewed for 2025, so its CY2025 in-payment-year enrollment is zero.)
+
+Extracted payload CSVs (md5 of the CSV joined):
+0b28c6c82a70aaf3130699e995a311aa | Monthly_Report_By_Contract_2026_07/Monthly_Report_By_Contract_2026_07.csv
+e6334460a402da1dbc58f70e33a61306 | Monthly_Report_By_Contract_2025_12/Monthly_Report_By_Contract_2025_12.csv
+
+Content verification: both zips PK magic + unzip -t clean. CSV columns: Contract Number, Organization Type,
+Plan Type, Organization Name, Organization Marketing Name, Parent Organization, Contract Effective Date,
+Offers Part D, MAOnly, PartD, Enrollment. CMS suppresses cells of 10 or fewer as "*"; the total Enrollment
+column is populated (non-suppressed) for all 22 contracts joined. Enrollment counts are contract-level
+totals across all plans under the contract.

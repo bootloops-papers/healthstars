@@ -1,0 +1,6743 @@
+{
+ "register": "On-record flip census: the published side of every counted computation is CMS's own published boundary values, reproduced bit-for-bit by the documented method at an exhibited input ordering (record-reproducing realizations named per split); the exact side is the stated criterion's result at the same reproducing ordering(s); a star-delta counts only if identical at every reproducing ordering of its split. Splits with no reproducing ordering contribute nothing (one-sided undercount). Estimate-class dollars: enrollment x $400-600 per enrollee-year, single payment-year month per star year, per-year figures are annual, the three-year total is a sum, not a rate; outward rounding on displayed ends; PDP contracts counted, never in the dollar estimate. Sampled: the reproducing set can only grow with more sampled orderings (4/4 reproduction is monotone evidence); deltas could be re-classed ambiguous by a new reproducing ordering.",
+ "inputs": {
+  "conventions": "runs/enclosure_collapse_frontswap.json",
+  "rperm": "runs/enclosure_collapse_frontswap_rperm.json"
+ },
+ "n_realizations_sampled": 28,
+ "n_splits_total_ok": 114,
+ "n_splits_reproduced": 50,
+ "errored_splits_excluded": [
+  [
+   "2024",
+   "D01",
+   "PDP"
+  ],
+  [
+   "2024",
+   "D07",
+   "PDP"
+  ],
+  [
+   "2026",
+   "D07",
+   "MA-PD"
+  ]
+ ],
+ "reproduced_splits": [
+  {
+   "year": "2024",
+   "mid": "C04",
+   "org": "ALL",
+   "n_stable_deltas": 71,
+   "reproducing_realizations": [
+    "frontswap@rperm_23"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "C05",
+   "org": "ALL",
+   "n_stable_deltas": 14,
+   "reproducing_realizations": [
+    "frontswap@rperm_18"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "C09",
+   "org": "ALL",
+   "n_stable_deltas": 142,
+   "reproducing_realizations": [
+    "frontswap@rperm_17"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "C15",
+   "org": "ALL",
+   "n_stable_deltas": 0,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@cid_desc",
+    "frontswap@rperm_1",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_13",
+    "frontswap@rperm_14",
+    "frontswap@rperm_15",
+    "frontswap@rperm_16",
+    "frontswap@rperm_2",
+    "frontswap@rperm_20",
+    "frontswap@rperm_21",
+    "frontswap@rperm_23",
+    "frontswap@rperm_24",
+    "frontswap@rperm_3",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9",
+    "frontswap@score_asc",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "C16",
+   "org": "ALL",
+   "n_stable_deltas": 202,
+   "reproducing_realizations": [
+    "frontswap@rperm_8"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "C17",
+   "org": "ALL",
+   "n_stable_deltas": 52,
+   "reproducing_realizations": [
+    "frontswap@score_asc"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "C18",
+   "org": "ALL",
+   "n_stable_deltas": 35,
+   "reproducing_realizations": [
+    "frontswap@rperm_10",
+    "frontswap@rperm_13",
+    "frontswap@rperm_17",
+    "frontswap@rperm_7"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D08",
+   "org": "MA-PD",
+   "n_stable_deltas": 112,
+   "reproducing_realizations": [
+    "frontswap@rperm_19"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D08",
+   "org": "PDP",
+   "n_stable_deltas": 0,
+   "reproducing_realizations": [
+    "frontswap@cid_desc",
+    "frontswap@rperm_14",
+    "frontswap@rperm_17",
+    "frontswap@rperm_2",
+    "frontswap@rperm_3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "n_stable_deltas": 0,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@cid_desc",
+    "frontswap@rperm_1",
+    "frontswap@rperm_10",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_13",
+    "frontswap@rperm_14",
+    "frontswap@rperm_15",
+    "frontswap@rperm_16",
+    "frontswap@rperm_17",
+    "frontswap@rperm_18",
+    "frontswap@rperm_19",
+    "frontswap@rperm_2",
+    "frontswap@rperm_20",
+    "frontswap@rperm_21",
+    "frontswap@rperm_22",
+    "frontswap@rperm_23",
+    "frontswap@rperm_24",
+    "frontswap@rperm_3",
+    "frontswap@rperm_4",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9",
+    "frontswap@score_asc",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D10",
+   "org": "MA-PD",
+   "n_stable_deltas": 122,
+   "reproducing_realizations": [
+    "frontswap@rperm_1",
+    "frontswap@rperm_14",
+    "frontswap@rperm_18",
+    "frontswap@rperm_22",
+    "frontswap@rperm_8",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D10",
+   "org": "PDP",
+   "n_stable_deltas": 1,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@cid_desc",
+    "frontswap@rperm_1",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_13",
+    "frontswap@rperm_14",
+    "frontswap@rperm_15",
+    "frontswap@rperm_16",
+    "frontswap@rperm_17",
+    "frontswap@rperm_18",
+    "frontswap@rperm_19",
+    "frontswap@rperm_2",
+    "frontswap@rperm_20",
+    "frontswap@rperm_21",
+    "frontswap@rperm_22",
+    "frontswap@rperm_23",
+    "frontswap@rperm_24",
+    "frontswap@rperm_3",
+    "frontswap@rperm_4",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9",
+    "frontswap@score_asc",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "n_stable_deltas": 78,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@rperm_13",
+    "frontswap@rperm_2",
+    "frontswap@rperm_24"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "PDP",
+   "n_stable_deltas": 20,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@rperm_1",
+    "frontswap@rperm_10",
+    "frontswap@rperm_15",
+    "frontswap@rperm_16",
+    "frontswap@rperm_17",
+    "frontswap@rperm_20",
+    "frontswap@rperm_24",
+    "frontswap@rperm_3",
+    "frontswap@rperm_4",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C01",
+   "org": "ALL",
+   "n_stable_deltas": 171,
+   "reproducing_realizations": [
+    "frontswap@rperm_2"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "n_stable_deltas": 88,
+   "reproducing_realizations": [
+    "frontswap@cid_desc",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_15",
+    "frontswap@rperm_17",
+    "frontswap@rperm_19",
+    "frontswap@rperm_20",
+    "frontswap@rperm_24",
+    "frontswap@rperm_4",
+    "frontswap@rperm_5",
+    "frontswap@rperm_7",
+    "frontswap@rperm_9"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C06",
+   "org": "ALL",
+   "n_stable_deltas": 0,
+   "reproducing_realizations": [
+    "frontswap@rperm_11",
+    "frontswap@rperm_15",
+    "frontswap@rperm_2",
+    "frontswap@rperm_20",
+    "frontswap@rperm_22",
+    "frontswap@rperm_8"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C09",
+   "org": "ALL",
+   "n_stable_deltas": 71,
+   "reproducing_realizations": [
+    "frontswap@rperm_13",
+    "frontswap@rperm_15",
+    "frontswap@rperm_3"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C11",
+   "org": "ALL",
+   "n_stable_deltas": 43,
+   "reproducing_realizations": [
+    "frontswap"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C13",
+   "org": "ALL",
+   "n_stable_deltas": 0,
+   "reproducing_realizations": [
+    "frontswap@rperm_14",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "n_stable_deltas": 14,
+   "reproducing_realizations": [
+    "frontswap@rperm_14",
+    "frontswap@rperm_19"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C16",
+   "org": "ALL",
+   "n_stable_deltas": 0,
+   "reproducing_realizations": [
+    "frontswap@rperm_12",
+    "frontswap@rperm_17"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C18",
+   "org": "ALL",
+   "n_stable_deltas": 0,
+   "reproducing_realizations": [
+    "frontswap@rperm_1",
+    "frontswap@rperm_10",
+    "frontswap@rperm_11"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C26",
+   "org": "ALL",
+   "n_stable_deltas": 154,
+   "reproducing_realizations": [
+    "frontswap@rperm_9"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C28",
+   "org": "ALL",
+   "n_stable_deltas": 0,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@cid_desc",
+    "frontswap@rperm_1",
+    "frontswap@rperm_10",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_13",
+    "frontswap@rperm_14",
+    "frontswap@rperm_15",
+    "frontswap@rperm_16",
+    "frontswap@rperm_17",
+    "frontswap@rperm_18",
+    "frontswap@rperm_19",
+    "frontswap@rperm_2",
+    "frontswap@rperm_20",
+    "frontswap@rperm_21",
+    "frontswap@rperm_22",
+    "frontswap@rperm_23",
+    "frontswap@rperm_24",
+    "frontswap@rperm_3",
+    "frontswap@rperm_4",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9",
+    "frontswap@score_asc",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C30",
+   "org": "ALL",
+   "n_stable_deltas": 0,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@cid_desc",
+    "frontswap@rperm_1",
+    "frontswap@rperm_10",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_13",
+    "frontswap@rperm_14",
+    "frontswap@rperm_15",
+    "frontswap@rperm_16",
+    "frontswap@rperm_17",
+    "frontswap@rperm_18",
+    "frontswap@rperm_19",
+    "frontswap@rperm_2",
+    "frontswap@rperm_20",
+    "frontswap@rperm_21",
+    "frontswap@rperm_22",
+    "frontswap@rperm_23",
+    "frontswap@rperm_24",
+    "frontswap@rperm_3",
+    "frontswap@rperm_4",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9",
+    "frontswap@score_asc",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "D07",
+   "org": "MA-PD",
+   "n_stable_deltas": 0,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@cid_desc",
+    "frontswap@rperm_1",
+    "frontswap@rperm_10",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_13",
+    "frontswap@rperm_14",
+    "frontswap@rperm_15",
+    "frontswap@rperm_16",
+    "frontswap@rperm_17",
+    "frontswap@rperm_18",
+    "frontswap@rperm_19",
+    "frontswap@rperm_2",
+    "frontswap@rperm_20",
+    "frontswap@rperm_21",
+    "frontswap@rperm_22",
+    "frontswap@rperm_23",
+    "frontswap@rperm_24",
+    "frontswap@rperm_3",
+    "frontswap@rperm_4",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9",
+    "frontswap@score_asc",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "D08",
+   "org": "MA-PD",
+   "n_stable_deltas": 114,
+   "reproducing_realizations": [
+    "frontswap@rperm_2",
+    "frontswap@rperm_3",
+    "frontswap@rperm_6",
+    "frontswap@rperm_8"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "D11",
+   "org": "MA-PD",
+   "n_stable_deltas": 40,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@cid_desc",
+    "frontswap@rperm_1",
+    "frontswap@rperm_10",
+    "frontswap@rperm_15",
+    "frontswap@rperm_20",
+    "frontswap@rperm_21",
+    "frontswap@rperm_3",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "D12",
+   "org": "PDP",
+   "n_stable_deltas": 1,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@rperm_10",
+    "frontswap@rperm_12",
+    "frontswap@rperm_2",
+    "frontswap@rperm_3",
+    "frontswap@rperm_4",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C02",
+   "org": "ALL",
+   "n_stable_deltas": 72,
+   "reproducing_realizations": [
+    "frontswap@score_asc"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C04",
+   "org": "ALL",
+   "n_stable_deltas": 23,
+   "reproducing_realizations": [
+    "frontswap@rperm_1",
+    "frontswap@rperm_8",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C05",
+   "org": "ALL",
+   "n_stable_deltas": 12,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@cid_desc",
+    "frontswap@rperm_1",
+    "frontswap@rperm_10",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_13",
+    "frontswap@rperm_14",
+    "frontswap@rperm_15",
+    "frontswap@rperm_16",
+    "frontswap@rperm_17",
+    "frontswap@rperm_18",
+    "frontswap@rperm_19",
+    "frontswap@rperm_2",
+    "frontswap@rperm_20",
+    "frontswap@rperm_21",
+    "frontswap@rperm_22",
+    "frontswap@rperm_23",
+    "frontswap@rperm_24",
+    "frontswap@rperm_3",
+    "frontswap@rperm_4",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9",
+    "frontswap@score_asc",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C06",
+   "org": "ALL",
+   "n_stable_deltas": 33,
+   "reproducing_realizations": [
+    "frontswap@rperm_11",
+    "frontswap@rperm_13",
+    "frontswap@rperm_14",
+    "frontswap@rperm_16",
+    "frontswap@rperm_18",
+    "frontswap@rperm_23",
+    "frontswap@rperm_3",
+    "frontswap@score_asc"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C08",
+   "org": "ALL",
+   "n_stable_deltas": 14,
+   "reproducing_realizations": [
+    "frontswap@cid_desc",
+    "frontswap@rperm_11",
+    "frontswap@rperm_13",
+    "frontswap@rperm_16",
+    "frontswap@rperm_18",
+    "frontswap@rperm_2",
+    "frontswap@rperm_24",
+    "frontswap@rperm_3",
+    "frontswap@rperm_4",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@rperm_7",
+    "frontswap@rperm_9",
+    "frontswap@score_asc"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C09",
+   "org": "ALL",
+   "n_stable_deltas": 53,
+   "reproducing_realizations": [
+    "frontswap@cid_desc",
+    "frontswap@rperm_1",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_13",
+    "frontswap@rperm_14",
+    "frontswap@rperm_15",
+    "frontswap@rperm_16",
+    "frontswap@rperm_17",
+    "frontswap@rperm_19",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "n_stable_deltas": 0,
+   "reproducing_realizations": [
+    "frontswap@cid_desc",
+    "frontswap@rperm_1",
+    "frontswap@rperm_10",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_13",
+    "frontswap@rperm_14",
+    "frontswap@rperm_16",
+    "frontswap@rperm_18",
+    "frontswap@rperm_19",
+    "frontswap@rperm_2",
+    "frontswap@rperm_23",
+    "frontswap@rperm_3",
+    "frontswap@rperm_6",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9",
+    "frontswap@score_asc",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C14",
+   "org": "ALL",
+   "n_stable_deltas": 3,
+   "reproducing_realizations": [
+    "frontswap@rperm_18",
+    "frontswap@rperm_24",
+    "frontswap@rperm_7"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C16",
+   "org": "ALL",
+   "n_stable_deltas": 79,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@cid_desc",
+    "frontswap@rperm_1",
+    "frontswap@rperm_10",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_13",
+    "frontswap@rperm_14",
+    "frontswap@rperm_16",
+    "frontswap@rperm_18",
+    "frontswap@rperm_19",
+    "frontswap@rperm_2",
+    "frontswap@rperm_20",
+    "frontswap@rperm_21",
+    "frontswap@rperm_22",
+    "frontswap@rperm_23",
+    "frontswap@rperm_24",
+    "frontswap@rperm_4",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9",
+    "frontswap@score_asc",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C18",
+   "org": "ALL",
+   "n_stable_deltas": 0,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@cid_desc",
+    "frontswap@rperm_10",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_13",
+    "frontswap@rperm_15",
+    "frontswap@rperm_16",
+    "frontswap@rperm_17",
+    "frontswap@rperm_2",
+    "frontswap@rperm_20",
+    "frontswap@rperm_21",
+    "frontswap@rperm_22",
+    "frontswap@rperm_23",
+    "frontswap@rperm_24",
+    "frontswap@rperm_3",
+    "frontswap@rperm_6",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C20",
+   "org": "ALL",
+   "n_stable_deltas": 18,
+   "reproducing_realizations": [
+    "frontswap@rperm_20"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C31",
+   "org": "ALL",
+   "n_stable_deltas": 0,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@cid_desc",
+    "frontswap@rperm_1",
+    "frontswap@rperm_10",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_13",
+    "frontswap@rperm_14",
+    "frontswap@rperm_15",
+    "frontswap@rperm_16",
+    "frontswap@rperm_17",
+    "frontswap@rperm_18",
+    "frontswap@rperm_19",
+    "frontswap@rperm_2",
+    "frontswap@rperm_20",
+    "frontswap@rperm_21",
+    "frontswap@rperm_22",
+    "frontswap@rperm_23",
+    "frontswap@rperm_24",
+    "frontswap@rperm_3",
+    "frontswap@rperm_4",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9",
+    "frontswap@score_asc",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C32",
+   "org": "ALL",
+   "n_stable_deltas": 150,
+   "reproducing_realizations": [
+    "frontswap@rperm_1",
+    "frontswap@rperm_14",
+    "frontswap@rperm_15",
+    "frontswap@rperm_18",
+    "frontswap@rperm_20",
+    "frontswap@rperm_21",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C33",
+   "org": "ALL",
+   "n_stable_deltas": 0,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@cid_desc",
+    "frontswap@rperm_1",
+    "frontswap@rperm_10",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_13",
+    "frontswap@rperm_14",
+    "frontswap@rperm_15",
+    "frontswap@rperm_16",
+    "frontswap@rperm_17",
+    "frontswap@rperm_18",
+    "frontswap@rperm_19",
+    "frontswap@rperm_2",
+    "frontswap@rperm_20",
+    "frontswap@rperm_21",
+    "frontswap@rperm_22",
+    "frontswap@rperm_23",
+    "frontswap@rperm_24",
+    "frontswap@rperm_3",
+    "frontswap@rperm_4",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9",
+    "frontswap@score_asc",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "D08",
+   "org": "PDP",
+   "n_stable_deltas": 16,
+   "reproducing_realizations": [
+    "frontswap@rperm_1",
+    "frontswap@rperm_10",
+    "frontswap@rperm_11",
+    "frontswap@rperm_14",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@rperm_8",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "D09",
+   "org": "MA-PD",
+   "n_stable_deltas": 155,
+   "reproducing_realizations": [
+    "frontswap@rperm_15",
+    "frontswap@rperm_18",
+    "frontswap@rperm_3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "D09",
+   "org": "PDP",
+   "n_stable_deltas": 20,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@cid_desc",
+    "frontswap@rperm_10",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_13",
+    "frontswap@rperm_14",
+    "frontswap@rperm_15",
+    "frontswap@rperm_16",
+    "frontswap@rperm_17",
+    "frontswap@rperm_18",
+    "frontswap@rperm_19",
+    "frontswap@rperm_2",
+    "frontswap@rperm_20",
+    "frontswap@rperm_21",
+    "frontswap@rperm_22",
+    "frontswap@rperm_23",
+    "frontswap@rperm_24",
+    "frontswap@rperm_3",
+    "frontswap@rperm_4",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8",
+    "frontswap@score_asc"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "D10",
+   "org": "PDP",
+   "n_stable_deltas": 0,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@cid_desc",
+    "frontswap@rperm_1",
+    "frontswap@rperm_10",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_14",
+    "frontswap@rperm_15",
+    "frontswap@rperm_16",
+    "frontswap@rperm_17",
+    "frontswap@rperm_18",
+    "frontswap@rperm_19",
+    "frontswap@rperm_21",
+    "frontswap@rperm_22",
+    "frontswap@rperm_23",
+    "frontswap@rperm_24",
+    "frontswap@rperm_3",
+    "frontswap@rperm_4",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9",
+    "frontswap@score_desc"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "D12",
+   "org": "MA-PD",
+   "n_stable_deltas": 62,
+   "reproducing_realizations": [
+    "frontswap@rperm_18",
+    "frontswap@rperm_22",
+    "frontswap@rperm_7"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "D12",
+   "org": "PDP",
+   "n_stable_deltas": 0,
+   "reproducing_realizations": [
+    "frontswap",
+    "frontswap@cid_desc",
+    "frontswap@rperm_1",
+    "frontswap@rperm_10",
+    "frontswap@rperm_11",
+    "frontswap@rperm_12",
+    "frontswap@rperm_13",
+    "frontswap@rperm_14",
+    "frontswap@rperm_15",
+    "frontswap@rperm_16",
+    "frontswap@rperm_17",
+    "frontswap@rperm_18",
+    "frontswap@rperm_19",
+    "frontswap@rperm_2",
+    "frontswap@rperm_20",
+    "frontswap@rperm_21",
+    "frontswap@rperm_22",
+    "frontswap@rperm_23",
+    "frontswap@rperm_24",
+    "frontswap@rperm_3",
+    "frontswap@rperm_4",
+    "frontswap@rperm_5",
+    "frontswap@rperm_6",
+    "frontswap@rperm_7",
+    "frontswap@rperm_8",
+    "frontswap@rperm_9",
+    "frontswap@score_asc",
+    "frontswap@score_desc"
+   ]
+  }
+ ],
+ "reproduced_but_ambiguous_deltas": [
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H0034",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H0062",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H0104",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H0107",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H0154",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H0169",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H0174",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H0321",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H0482",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H0523",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H0562",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H0571",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H0624",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H0628",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H0907",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H0982",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H1109",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H1225",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H1350",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H1360",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H1610",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H1664",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H1666",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H1914",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H1993",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H2029",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H2034",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H2117",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H2134",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H2185",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H2247",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H2486",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H2577",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H2737",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H2765",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H2775",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H2879",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H2962",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3071",
+   "n_reproducing": 28,
+   "n_present": 18,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3206",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3239",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3251",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3256",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3288",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3307",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3359",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3536",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3554",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3655",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3672",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3708",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3749",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3755",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3777",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3794",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3810",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3814",
+   "n_reproducing": 28,
+   "n_present": 18,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3822",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3864",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3931",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H3949",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H4007",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H4073",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H4093",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H4094",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H4346",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H4490",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H4523",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H4537",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H4624",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H4754",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H4868",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H4982",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5008",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5010",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5015",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5087",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5141",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5199",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5294",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5302",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5398",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5434",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5435",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5525",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5590",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5649",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5852",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5859",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5926",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5932",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5969",
+   "n_reproducing": 28,
+   "n_present": 18,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H5995",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H6154",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H6193",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H6322",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H6328",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H6396",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H6399",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H6529",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H6595",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H6605",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H6815",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H7115",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H7389",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H7399",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H7464",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H7621",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H7670",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H7678",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H7680",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H7849",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H7925",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H8003",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H8133",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H8142",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H8211",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H8225",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H8330",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H8332",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H8649",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H8849",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H8908",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H9147",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H9207",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H9808",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H9917",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "H9976",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "R0865",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "R0923",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "R3332",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "R3392",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "R3444",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "R4845",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "R5495",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "R5826",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D09",
+   "org": "MA-PD",
+   "contract_id": "R7315",
+   "n_reproducing": 28,
+   "n_present": 17,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H0062",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H0107",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H0294",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H0302",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H0351",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H0423",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H0482",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H0524",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H0724",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H0755",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H1045",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H1230",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H1278",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H1352",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H1360",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H1365",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H1537",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H1644",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H1659",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H1692",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H1732",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H1862",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H1894",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H1947",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H1997",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2001",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2032",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2108",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2117",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2128",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2162",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2171",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2172",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2224",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2225",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2322",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2406",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2425",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2450",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2486",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2577",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2593",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2765",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2775",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2782",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2853",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2915",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2944",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H2960",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3015",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3047",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3170",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3219",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3240",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3251",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3344",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3359",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3362",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3404",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3447",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3597",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3655",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3664",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3727",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3748",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3777",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3794",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3813",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3814",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3815",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3890",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3923",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3928",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3931",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H3979",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H4005",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H4036",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H4094",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H4140",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H4346",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H4623",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H4624",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H4847",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H4931",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H4937",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5015",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5106",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5209",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5216",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5273",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5294",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5322",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5398",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5434",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5475",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5521",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5525",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5590",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5793",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5810",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5854",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5938",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5945",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5970",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5989",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H5995",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H6237",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H6306",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H6328",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H6446",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H6605",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H6622",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H6815",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H6830",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H6910",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H7006",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H7123",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H7163",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H7220",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H7245",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H7284",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H7323",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H7326",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H7360",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H7399",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H7617",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H7678",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8010",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8019",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8095",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8142",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8145",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8173",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8181",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8189",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8457",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8552",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8554",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8649",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8711",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8764",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8768",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8783",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8849",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H8908",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H9065",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H9096",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H9191",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H9306",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H9357",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H9364",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H9387",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H9525",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H9706",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H9761",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H9808",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H9827",
+   "n_reproducing": 4,
+   "n_present": 1,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H9900",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H9942",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "H9976",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "R2604",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "R4845",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "R5941",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "MA-PD",
+   "contract_id": "R7444",
+   "n_reproducing": 4,
+   "n_present": 2,
+   "variants": [
+    "2->3"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "PDP",
+   "contract_id": "S1822",
+   "n_reproducing": 12,
+   "n_present": 8,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2024",
+   "mid": "D12",
+   "org": "PDP",
+   "contract_id": "S5975",
+   "n_reproducing": 12,
+   "n_present": 8,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H0154",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H0332",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H1248",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H1607",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H1737",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H1951",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H1994",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H1997",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H2029",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H2117",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H2168",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H2225",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H2246",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H2256",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H2406",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H2486",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H3146",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H3276",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H3561",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H3748",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H3954",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H4093",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H4161",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H4213",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H4513",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H4875",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H5009",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H5253",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H5386",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H5521",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H5526",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H5533",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H5619",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H5932",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H5989",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H6078",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H6622",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H6898",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H7149",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H7284",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H7849",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H7993",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H8330",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H8908",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H9001",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H9364",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H9884",
+   "n_reproducing": 12,
+   "n_present": 4,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "H9904",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "R0110",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "R4487",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C02",
+   "org": "ALL",
+   "contract_id": "R5342",
+   "n_reproducing": 12,
+   "n_present": 9,
+   "variants": [
+    "3->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H0028",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H0473",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H1036",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H2225",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H2246",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H2486",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H2836",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H3359",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H3949",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H4461",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H5299",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H5431",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H5525",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H5619",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H5810",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H6529",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H7559",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H8121",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H8166",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H8553",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H8889",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "H9525",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "4->5"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C14",
+   "org": "ALL",
+   "contract_id": "R3175",
+   "n_reproducing": 2,
+   "n_present": 1,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C18",
+   "org": "ALL",
+   "contract_id": "H2168",
+   "n_reproducing": 3,
+   "n_present": 2,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C18",
+   "org": "ALL",
+   "contract_id": "H2225",
+   "n_reproducing": 3,
+   "n_present": 2,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C18",
+   "org": "ALL",
+   "contract_id": "H3660",
+   "n_reproducing": 3,
+   "n_present": 2,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C18",
+   "org": "ALL",
+   "contract_id": "H5594",
+   "n_reproducing": 3,
+   "n_present": 2,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C18",
+   "org": "ALL",
+   "contract_id": "H5937",
+   "n_reproducing": 3,
+   "n_present": 2,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2025",
+   "mid": "C18",
+   "org": "ALL",
+   "contract_id": "H8385",
+   "n_reproducing": 3,
+   "n_present": 2,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C04",
+   "org": "ALL",
+   "contract_id": "H0624",
+   "n_reproducing": 3,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C04",
+   "org": "ALL",
+   "contract_id": "H3979",
+   "n_reproducing": 3,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C04",
+   "org": "ALL",
+   "contract_id": "H6078",
+   "n_reproducing": 3,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C04",
+   "org": "ALL",
+   "contract_id": "H6158",
+   "n_reproducing": 3,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C04",
+   "org": "ALL",
+   "contract_id": "H6815",
+   "n_reproducing": 3,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C04",
+   "org": "ALL",
+   "contract_id": "H9699",
+   "n_reproducing": 3,
+   "n_present": 2,
+   "variants": [
+    "1->2"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H0154",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H0321",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H0354",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H0504",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H0624",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H1032",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H1035",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H1350",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H1468",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H1651",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H1969",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H1994",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H2230",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H2235",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H2320",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H2354",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H2406",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H2461",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H2462",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H2463",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H2610",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H2960",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H3041",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H3071",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H3219",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H3256",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H3447",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H3557",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H3561",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H3664",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H3794",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H3822",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H3832",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H3954",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H3957",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H3962",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H4004",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H4461",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H4497",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H4514",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H4604",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H4835",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H4882",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H5042",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H5087",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H5253",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H5256",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H5302",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H5521",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H5522",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H5591",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H5793",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H5945",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H6545",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H6586",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H6765",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H7149",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H7680",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H7787",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H7993",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H8142",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H8166",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H8173",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H8332",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H8385",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H8604",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H8768",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H8783",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H9231",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H9699",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "4->3"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H9808",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  },
+  {
+   "year": "2026",
+   "mid": "C12",
+   "org": "ALL",
+   "contract_id": "H9884",
+   "n_reproducing": 18,
+   "n_present": 3,
+   "variants": [
+    "5->4"
+   ]
+  }
+ ],
+ "flips_onrecord": [
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H0524",
+   "org_class": "MA-PD",
+   "direction": "DOWN",
+   "baseline": "4",
+   "onrecord_rating": "7/2",
+   "qbp_relevant": true,
+   "enrollment": 1355332,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -542132800,
+    "mid": -677666000,
+    "hi": -813199200
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H1609",
+   "org_class": "MA-PD",
+   "direction": "DOWN",
+   "baseline": "4",
+   "onrecord_rating": "7/2",
+   "qbp_relevant": true,
+   "enrollment": 130230,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -52092000,
+    "mid": -65115000,
+    "hi": -78138000
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H1969",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 691,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 276400,
+    "mid": 345500,
+    "hi": 414600
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H2185",
+   "org_class": "MA-PD",
+   "direction": "DOWN",
+   "baseline": "4",
+   "onrecord_rating": "7/2",
+   "qbp_relevant": true,
+   "enrollment": 242,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -96800,
+    "mid": -121000,
+    "hi": -145200
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H2591",
+   "org_class": "MA-PD",
+   "direction": "DOWN",
+   "baseline": "4",
+   "onrecord_rating": "3",
+   "qbp_relevant": true,
+   "enrollment": 510,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -204000,
+    "mid": -255000,
+    "hi": -306000
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H2816",
+   "org_class": "MA-PD",
+   "direction": "DOWN",
+   "baseline": "4",
+   "onrecord_rating": "7/2",
+   "qbp_relevant": true,
+   "enrollment": 1855,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -742000,
+    "mid": -927500,
+    "hi": -1113000
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H3805",
+   "org_class": "MA-PD",
+   "direction": "DOWN",
+   "baseline": "4",
+   "onrecord_rating": "7/2",
+   "qbp_relevant": true,
+   "enrollment": 220404,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -88161600,
+    "mid": -110202000,
+    "hi": -132242400
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H5900",
+   "org_class": "MA-PD",
+   "direction": "DOWN",
+   "baseline": "4",
+   "onrecord_rating": "7/2",
+   "qbp_relevant": true,
+   "enrollment": 47487,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -18994800,
+    "mid": -23743500,
+    "hi": -28492200
+   },
+   "note": null
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "H6502",
+   "org_class": "MA-PD",
+   "direction": "DOWN",
+   "baseline": "4",
+   "onrecord_rating": "7/2",
+   "qbp_relevant": true,
+   "enrollment": 0,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 0,
+    "mid": 0,
+    "hi": 0
+   },
+   "note": "not present in payment-year enrollment month; entered in the dollar estimate at $0, enrollees in no total"
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "R5495",
+   "org_class": "MA-PD",
+   "direction": "DOWN",
+   "baseline": "4",
+   "onrecord_rating": "7/2",
+   "qbp_relevant": true,
+   "enrollment": 0,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 0,
+    "mid": 0,
+    "hi": 0
+   },
+   "note": "not present in payment-year enrollment month; entered in the dollar estimate at $0, enrollees in no total"
+  },
+  {
+   "year": "2024",
+   "payment_year": "CY2025",
+   "contract_id": "S5660",
+   "org_class": "PDP",
+   "direction": "UP",
+   "baseline": "3",
+   "onrecord_rating": "4",
+   "qbp_relevant": false,
+   "enrollment": null,
+   "enrollment_data_month": null,
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H0907",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 4254,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 1701600,
+    "mid": 2127000,
+    "hi": 2552400
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H2422",
+   "org_class": "MA-PD",
+   "direction": "DOWN",
+   "baseline": "4",
+   "onrecord_rating": "7/2",
+   "qbp_relevant": true,
+   "enrollment": 5775,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -2310000,
+    "mid": -2887500,
+    "hi": -3465000
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H2816",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 1829,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 731600,
+    "mid": 914500,
+    "hi": 1097400
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H3192",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 28103,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 11241200,
+    "mid": 14051500,
+    "hi": 16861800
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H3347",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 26840,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 10736000,
+    "mid": 13420000,
+    "hi": 16104000
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H3655",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 145319,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 58127600,
+    "mid": 72659500,
+    "hi": 87191400
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H4227",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 22975,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 9190000,
+    "mid": 11487500,
+    "hi": 13785000
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H4623",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 10953,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 4381200,
+    "mid": 5476500,
+    "hi": 6571800
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H5211",
+   "org_class": "MA-PD",
+   "direction": "DOWN",
+   "baseline": "4",
+   "onrecord_rating": "7/2",
+   "qbp_relevant": true,
+   "enrollment": 79359,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -31743600,
+    "mid": -39679500,
+    "hi": -47615400
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H5262",
+   "org_class": "MA-PD",
+   "direction": "DOWN",
+   "baseline": "4",
+   "onrecord_rating": "7/2",
+   "qbp_relevant": true,
+   "enrollment": 18984,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -7593600,
+    "mid": -9492000,
+    "hi": -11390400
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H5273",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 11065,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 4426000,
+    "mid": 5532500,
+    "hi": 6639000
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H6453",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 36153,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 14461200,
+    "mid": 18076500,
+    "hi": 21691800
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H6852",
+   "org_class": "MA-PD",
+   "direction": "DOWN",
+   "baseline": "4",
+   "onrecord_rating": "7/2",
+   "qbp_relevant": true,
+   "enrollment": 8164,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -3265600,
+    "mid": -4082000,
+    "hi": -4898400
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H6988",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 8077,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 3230800,
+    "mid": 4038500,
+    "hi": 4846200
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H8547",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 1553,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 621200,
+    "mid": 776500,
+    "hi": 931800
+   },
+   "note": null
+  },
+  {
+   "year": "2025",
+   "payment_year": "CY2026",
+   "contract_id": "H8889",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 112262,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 44904800,
+    "mid": 56131000,
+    "hi": 67357200
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H0354",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 75390,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 30156000,
+    "mid": 37695000,
+    "hi": 45234000
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H0978",
+   "org_class": "MA-PD",
+   "direction": "DOWN",
+   "baseline": "4",
+   "onrecord_rating": "7/2",
+   "qbp_relevant": true,
+   "enrollment": 5652,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -2260800,
+    "mid": -2826000,
+    "hi": -3391200
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H1608",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 118187,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 47274800,
+    "mid": 59093500,
+    "hi": 70912200
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H1619",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 4126,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 1650400,
+    "mid": 2063000,
+    "hi": 2475600
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H1994",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 66738,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 26695200,
+    "mid": 33369000,
+    "hi": 40042800
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H2461",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 47233,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 18893200,
+    "mid": 23616500,
+    "hi": 28339800
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H5496",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 52238,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 20895200,
+    "mid": 26119000,
+    "hi": 31342800
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H6202",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 6703,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 2681200,
+    "mid": 3351500,
+    "hi": 4021800
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "H7379",
+   "org_class": "MA-PD",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": true,
+   "enrollment": 46701,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 18680400,
+    "mid": 23350500,
+    "hi": 28020600
+   },
+   "note": null
+  },
+  {
+   "year": "2026",
+   "payment_year": "CY2027",
+   "contract_id": "S4802",
+   "org_class": "PDP",
+   "direction": "UP",
+   "baseline": "7/2",
+   "onrecord_rating": "4",
+   "qbp_relevant": false,
+   "enrollment": null,
+   "enrollment_data_month": null,
+   "est_annual_qbp_revenue_delta_usd": null,
+   "note": null
+  }
+ ],
+ "summary": {
+  "n_flips_onrecord": 37,
+  "n_qbp_relevant": 35,
+  "n_up": 21,
+  "n_down": 14,
+  "total_enrollment": 2701384,
+  "gross_total_3yr_usd": {
+   "lo": 1080553600,
+   "mid": 1350692000,
+   "hi": 1620830400
+  },
+  "per_payment_year": {
+   "CY2025": {
+    "enrollment": 1756751,
+    "gross_lo": 702700400,
+    "gross_mid": 878375500,
+    "gross_hi": 1054050600
+   },
+   "CY2026": {
+    "enrollment": 521665,
+    "gross_lo": 208666000,
+    "gross_mid": 260832500,
+    "gross_hi": 312999000
+   },
+   "CY2027": {
+    "enrollment": 422968,
+    "gross_lo": 169187200,
+    "gross_mid": 211484000,
+    "gross_hi": 253780800
+   }
+  },
+  "n_ambiguous_dropped": 461
+ }
+}

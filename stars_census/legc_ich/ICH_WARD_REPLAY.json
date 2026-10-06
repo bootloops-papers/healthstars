@@ -1,0 +1,43 @@
+{
+ "register": "ICH CAHPS Ward's-method replay: per-facility Ward's method (k=5, documented tie rule) on the published April 2026 linearized scores vs the published star assignments. Five of six measures reproduce the published bins. The sixth (nephrologists' communication and caring) is sensitive to the tie rule: 2,594 facilities over 46 distinct integer scores; this tie rule lands different bins ([46-64],[65-73],[74-77],[78-84],[85-99] vs the published [46-70],[71-78],[79-84],[85-88],[89-99]), so the difference is the tie rule, not the objective. Control: Ward's method on the distinct values reproduces 0 of 6; the per-facility weighted family is the published one.",
+ "n_measures": 6,
+ "n_reproduced": 5,
+ "measures": {
+  "nephrologists' communication and caring": {
+   "n": 2594,
+   "ward_reproduces_published": false,
+   "n_mismatched_facilities": 2114
+  },
+  "quality of dialysis center care and operations": {
+   "n": 2594,
+   "ward_reproduces_published": true,
+   "n_mismatched_facilities": 0
+  },
+  "providing information to patients": {
+   "n": 2594,
+   "ward_reproduces_published": true,
+   "n_mismatched_facilities": 0
+  },
+  "rating of the nephrologist": {
+   "n": 2594,
+   "ward_reproduces_published": true,
+   "n_mismatched_facilities": 0
+  },
+  "rating of the dialysis center staff": {
+   "n": 2594,
+   "ward_reproduces_published": true,
+   "n_mismatched_facilities": 0
+  },
+  "rating of the dialysis facility": {
+   "n": 2594,
+   "ward_reproduces_published": true,
+   "n_mismatched_facilities": 0
+  }
+ },
+ "control_distinct_value_ward": "0 of 6 measures",
+ "sixth_measure_diagnosis": {
+  "distinct_values": 46,
+  "n": 2594,
+  "tie_rule_sensitive": true
+ }
+}

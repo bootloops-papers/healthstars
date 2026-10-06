@@ -1,0 +1,2306 @@
+{
+ "register": "HCAHPS 8-measure published-vs-exact-optimum census across five refreshes (four archived plus the current one): per cell the exact SSQ optimum on the published integer linear mean scores, with all optimal interval partitions enumerated; same method as HCAHPS_CENSUS_CURRENT.json.",
+ "vintages": {
+  "2025-04-30": {
+   "period": [
+    "07/01/2023",
+    "06/30/2024"
+   ],
+   "measures": {
+    "H_COMP_1": {
+     "n": 3174,
+     "published_intervals": [
+      [
+       76,
+       85
+      ],
+      [
+       86,
+       89
+      ],
+      [
+       90,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       76,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "gap_float": 20.640379452949286,
+     "gap": "5689727/275660",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 71
+     },
+     "n_migrating": 71
+    },
+    "H_COMP_2": {
+     "n": 3174,
+     "published_intervals": [
+      [
+       74,
+       85
+      ],
+      [
+       86,
+       88
+      ],
+      [
+       89,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       74,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "gap_float": 187.04811759389094,
+     "gap": "729086455110407/3897855078624",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 78,
+      "3->2": 391
+     },
+     "n_migrating": 469
+    },
+    "H_COMP_5": {
+     "n": 3174,
+     "published_intervals": [
+      [
+       52,
+       67
+      ],
+      [
+       68,
+       73
+      ],
+      [
+       74,
+       77
+      ],
+      [
+       78,
+       82
+      ],
+      [
+       83,
+       98
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       52,
+       69
+      ],
+      [
+       70,
+       73
+      ],
+      [
+       74,
+       77
+      ],
+      [
+       78,
+       82
+      ],
+      [
+       83,
+       98
+      ]
+     ],
+     "gap_float": 259.99568216762765,
+     "gap": "81020702063/311623260",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 154
+     },
+     "n_migrating": 154
+    },
+    "H_COMP_6": {
+     "n": 3174,
+     "published_intervals": [
+      [
+       63,
+       77
+      ],
+      [
+       78,
+       82
+      ],
+      [
+       83,
+       86
+      ],
+      [
+       87,
+       90
+      ],
+      [
+       91,
+       99
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       63,
+       78
+      ],
+      [
+       79,
+       83
+      ],
+      [
+       84,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       99
+      ]
+     ],
+     "gap_float": 254.09236056651994,
+     "gap": "55808480736790260811/219638562184083900",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 45,
+      "3->2": 205,
+      "4->5": 214
+     },
+     "n_migrating": 464
+    },
+    "H_CLEAN": {
+     "n": 3174,
+     "published_intervals": [
+      [
+       68,
+       79
+      ],
+      [
+       80,
+       84
+      ],
+      [
+       85,
+       87
+      ],
+      [
+       88,
+       91
+      ],
+      [
+       92,
+       99
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       68,
+       79
+      ],
+      [
+       80,
+       83
+      ],
+      [
+       84,
+       86
+      ],
+      [
+       87,
+       90
+      ],
+      [
+       91,
+       99
+      ]
+     ],
+     "gap_float": 52.11371949912505,
+     "gap": "859060881071842346203/16484351708694778740",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->3": 231,
+      "3->4": 305,
+      "4->5": 201
+     },
+     "n_migrating": 737
+    },
+    "H_QUIET": {
+     "n": 3174,
+     "published_intervals": [
+      [
+       53,
+       73
+      ],
+      [
+       74,
+       79
+      ],
+      [
+       80,
+       84
+      ],
+      [
+       85,
+       88
+      ],
+      [
+       89,
+       98
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       53,
+       74
+      ],
+      [
+       75,
+       79
+      ],
+      [
+       80,
+       83
+      ],
+      [
+       84,
+       87
+      ],
+      [
+       88,
+       98
+      ]
+     ],
+     "gap_float": 284.909771455572,
+     "gap": "2381031043530133297/8357140688315860",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 81,
+      "3->4": 258,
+      "4->5": 130
+     },
+     "n_migrating": 469
+    },
+    "H_HSP_RATING": {
+     "n": 3174,
+     "published_intervals": [
+      [
+       63,
+       81
+      ],
+      [
+       82,
+       85
+      ],
+      [
+       86,
+       88
+      ],
+      [
+       89,
+       92
+      ],
+      [
+       93,
+       98
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       63,
+       80
+      ],
+      [
+       81,
+       85
+      ],
+      [
+       86,
+       88
+      ],
+      [
+       89,
+       91
+      ],
+      [
+       92,
+       98
+      ]
+     ],
+     "gap_float": 282.616406868757,
+     "gap": "501262802454274434964/1773650751589427985",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "1->2": 52,
+      "4->5": 208
+     },
+     "n_migrating": 260
+    },
+    "H_RECMND": {
+     "n": 3174,
+     "published_intervals": [
+      [
+       58,
+       76
+      ],
+      [
+       77,
+       82
+      ],
+      [
+       83,
+       87
+      ],
+      [
+       88,
+       90
+      ],
+      [
+       91,
+       100
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       58,
+       77
+      ],
+      [
+       78,
+       83
+      ],
+      [
+       84,
+       87
+      ],
+      [
+       88,
+       91
+      ],
+      [
+       92,
+       100
+      ]
+     ],
+     "gap_float": 325.9777953351977,
+     "gap": "66271659053026400429645227/203301145051552752232140",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 33,
+      "3->2": 163,
+      "5->4": 195
+     },
+     "n_migrating": 391
+    }
+   },
+   "off_optimum": 8,
+   "total_migrating": 3015,
+   "file_sha256_16": "823a8556247a9bb0"
+  },
+  "2025-08-14": {
+   "period": [
+    "10/01/2023",
+    "09/30/2024"
+   ],
+   "measures": {
+    "H_COMP_1": {
+     "n": 3176,
+     "published_intervals": [
+      [
+       76,
+       84
+      ],
+      [
+       85,
+       88
+      ],
+      [
+       89,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       76,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "gap_float": 232.71664592580987,
+     "gap": "4224403396755353/18152562228411",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 108,
+      "3->2": 311
+     },
+     "n_migrating": 419
+    },
+    "H_COMP_2": {
+     "n": 3176,
+     "published_intervals": [
+      [
+       75,
+       85
+      ],
+      [
+       86,
+       88
+      ],
+      [
+       89,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       75,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "gap_float": 161.76111015690793,
+     "gap": "51316798142767/317238167400",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 78,
+      "3->2": 391
+     },
+     "n_migrating": 469
+    },
+    "H_COMP_5": {
+     "n": 3176,
+     "published_intervals": [
+      [
+       51,
+       68
+      ],
+      [
+       69,
+       73
+      ],
+      [
+       74,
+       78
+      ],
+      [
+       79,
+       82
+      ],
+      [
+       83,
+       97
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       51,
+       69
+      ],
+      [
+       70,
+       74
+      ],
+      [
+       75,
+       78
+      ],
+      [
+       79,
+       83
+      ],
+      [
+       84,
+       97
+      ]
+     ],
+     "gap_float": 449.2655567324981,
+     "gap": "46885914372771987562397/104361248420138333910",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 78,
+      "3->2": 259,
+      "5->4": 90
+     },
+     "n_migrating": 427
+    },
+    "H_COMP_6": {
+     "n": 3176,
+     "published_intervals": [
+      [
+       65,
+       78
+      ],
+      [
+       79,
+       82
+      ],
+      [
+       83,
+       86
+      ],
+      [
+       87,
+       90
+      ],
+      [
+       91,
+       99
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       65,
+       78
+      ],
+      [
+       79,
+       83
+      ],
+      [
+       84,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       99
+      ]
+     ],
+     "gap_float": 304.9450857949592,
+     "gap": "619875486975582141/2032744634528650",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "3->2": 171,
+      "4->5": 216
+     },
+     "n_migrating": 387
+    },
+    "H_CLEAN": {
+     "n": 3176,
+     "published_intervals": [
+      [
+       68,
+       78
+      ],
+      [
+       79,
+       84
+      ],
+      [
+       85,
+       87
+      ],
+      [
+       88,
+       91
+      ],
+      [
+       92,
+       99
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       68,
+       78
+      ],
+      [
+       79,
+       83
+      ],
+      [
+       84,
+       86
+      ],
+      [
+       87,
+       90
+      ],
+      [
+       91,
+       99
+      ]
+     ],
+     "gap_float": 344.87207944484686,
+     "gap": "579997783353993645920/1681776571439581737",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->3": 227,
+      "3->4": 285,
+      "4->5": 204
+     },
+     "n_migrating": 716
+    },
+    "H_QUIET": {
+     "n": 3176,
+     "published_intervals": [
+      [
+       57,
+       73
+      ],
+      [
+       74,
+       80
+      ],
+      [
+       81,
+       85
+      ],
+      [
+       86,
+       89
+      ],
+      [
+       90,
+       98
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       57,
+       74
+      ],
+      [
+       75,
+       79
+      ],
+      [
+       80,
+       83
+      ],
+      [
+       84,
+       87
+      ],
+      [
+       88,
+       98
+      ]
+     ],
+     "gap_float": 1049.4685557032308,
+     "gap": "258607160987263947643237/246417255268763845500",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 74,
+      "2->3": 206,
+      "3->4": 527,
+      "4->5": 220
+     },
+     "n_migrating": 1027
+    },
+    "H_HSP_RATING": {
+     "n": 3176,
+     "published_intervals": [
+      [
+       63,
+       81
+      ],
+      [
+       82,
+       85
+      ],
+      [
+       86,
+       88
+      ],
+      [
+       89,
+       92
+      ],
+      [
+       93,
+       98
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       63,
+       81
+      ],
+      [
+       82,
+       85
+      ],
+      [
+       86,
+       88
+      ],
+      [
+       89,
+       91
+      ],
+      [
+       92,
+       98
+      ]
+     ],
+     "gap_float": 244.1945844990903,
+     "gap": "1748759440896/7161335885",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "4->5": 208
+     },
+     "n_migrating": 208
+    },
+    "H_RECMND": {
+     "n": 3176,
+     "published_intervals": [
+      [
+       58,
+       75
+      ],
+      [
+       76,
+       82
+      ],
+      [
+       83,
+       87
+      ],
+      [
+       88,
+       91
+      ],
+      [
+       92,
+       99
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       58,
+       77
+      ],
+      [
+       78,
+       83
+      ],
+      [
+       84,
+       87
+      ],
+      [
+       88,
+       91
+      ],
+      [
+       92,
+       99
+      ]
+     ],
+     "gap_float": 368.79373472862153,
+     "gap": "405348171181661/1099118919360",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 56,
+      "3->2": 162
+     },
+     "n_migrating": 218
+    }
+   },
+   "off_optimum": 8,
+   "total_migrating": 3871,
+   "file_sha256_16": "787148a237747b49"
+  },
+  "2025-11-26": {
+   "period": [
+    "01/01/2024",
+    "12/31/2024"
+   ],
+   "measures": {
+    "H_COMP_1": {
+     "n": 3166,
+     "published_intervals": [
+      [
+       78,
+       85
+      ],
+      [
+       86,
+       89
+      ],
+      [
+       90,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       78,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "gap_float": 73.30906343661304,
+     "gap": "9336923093/127363830",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 61
+     },
+     "n_migrating": 61
+    },
+    "H_COMP_2": {
+     "n": 3166,
+     "published_intervals": [
+      [
+       76,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       91
+      ],
+      [
+       92,
+       94
+      ],
+      [
+       95,
+       100
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       76,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "gap_float": 121.3063346542323,
+     "gap": "664986188757/5481875210",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "4->5": 203
+     },
+     "n_migrating": 203
+    },
+    "H_COMP_5": {
+     "n": 3166,
+     "published_intervals": [
+      [
+       53,
+       70
+      ],
+      [
+       71,
+       75
+      ],
+      [
+       76,
+       79
+      ],
+      [
+       80,
+       84
+      ],
+      [
+       85,
+       94
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       53,
+       69
+      ],
+      [
+       70,
+       73
+      ],
+      [
+       74,
+       77
+      ],
+      [
+       78,
+       82
+      ],
+      [
+       83,
+       94
+      ]
+     ],
+     "gap_float": 263.4394355572873,
+     "gap": "1141591979628587233392814351/4333413398087613643443360",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "1->2": 106,
+      "2->3": 587,
+      "3->4": 445,
+      "4->5": 150
+     },
+     "n_migrating": 1288
+    },
+    "H_COMP_6": {
+     "n": 3166,
+     "published_intervals": [
+      [
+       66,
+       78
+      ],
+      [
+       79,
+       82
+      ],
+      [
+       83,
+       87
+      ],
+      [
+       88,
+       90
+      ],
+      [
+       91,
+       99
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       66,
+       78
+      ],
+      [
+       79,
+       83
+      ],
+      [
+       84,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       99
+      ]
+     ],
+     "gap_float": 742.3853451597704,
+     "gap": "19778753904584937907/26642166407970120",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "3->2": 177,
+      "3->4": 376,
+      "4->5": 257
+     },
+     "n_migrating": 810
+    },
+    "H_CLEAN": {
+     "n": 3166,
+     "published_intervals": [
+      [
+       69,
+       78
+      ],
+      [
+       79,
+       83
+      ],
+      [
+       84,
+       87
+      ],
+      [
+       88,
+       91
+      ],
+      [
+       92,
+       98
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       69,
+       79
+      ],
+      [
+       80,
+       83
+      ],
+      [
+       84,
+       87
+      ],
+      [
+       88,
+       91
+      ],
+      [
+       92,
+       98
+      ]
+     ],
+     "gap_float": 27.439411630471092,
+     "gap": "348464997/12699434",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 57
+     },
+     "n_migrating": 57
+    },
+    "H_QUIET": {
+     "n": 3166,
+     "published_intervals": [
+      [
+       56,
+       72
+      ],
+      [
+       73,
+       79
+      ],
+      [
+       80,
+       84
+      ],
+      [
+       85,
+       88
+      ],
+      [
+       89,
+       98
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       56,
+       74
+      ],
+      [
+       75,
+       79
+      ],
+      [
+       80,
+       83
+      ],
+      [
+       84,
+       87
+      ],
+      [
+       88,
+       98
+      ]
+     ],
+     "gap_float": 554.0378036450363,
+     "gap": "5008684978793389417/9040330724439840",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 135,
+      "3->4": 244,
+      "4->5": 130
+     },
+     "n_migrating": 509
+    },
+    "H_HSP_RATING": {
+     "n": 3166,
+     "published_intervals": [
+      [
+       70,
+       80
+      ],
+      [
+       81,
+       84
+      ],
+      [
+       85,
+       88
+      ],
+      [
+       89,
+       92
+      ],
+      [
+       93,
+       98
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       70,
+       81
+      ],
+      [
+       82,
+       85
+      ],
+      [
+       86,
+       88
+      ],
+      [
+       89,
+       91
+      ],
+      [
+       92,
+       98
+      ]
+     ],
+     "gap_float": 610.5426445313167,
+     "gap": "42992054264625469/70416136611765",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 45,
+      "3->2": 213,
+      "4->5": 216
+     },
+     "n_migrating": 474
+    },
+    "H_RECMND": {
+     "n": 3166,
+     "published_intervals": [
+      [
+       64,
+       76
+      ],
+      [
+       77,
+       82
+      ],
+      [
+       83,
+       86
+      ],
+      [
+       87,
+       90
+      ],
+      [
+       91,
+       99
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       64,
+       77
+      ],
+      [
+       78,
+       83
+      ],
+      [
+       84,
+       87
+      ],
+      [
+       88,
+       91
+      ],
+      [
+       92,
+       99
+      ]
+     ],
+     "gap_float": 285.11161421792895,
+     "gap": "17161183178366940515467/60191105246416081080",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 25,
+      "3->2": 148,
+      "4->3": 291,
+      "5->4": 230
+     },
+     "n_migrating": 694
+    }
+   },
+   "off_optimum": 8,
+   "total_migrating": 4096,
+   "file_sha256_16": "c11338a55a9ee674"
+  },
+  "2026-02-25": {
+   "period": [
+    "04/01/2024",
+    "03/31/2025"
+   ],
+   "measures": {
+    "H_COMP_1": {
+     "n": 3183,
+     "published_intervals": [
+      [
+       76,
+       85
+      ],
+      [
+       86,
+       89
+      ],
+      [
+       90,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       76,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "gap_float": 44.13475220649978,
+     "gap": "7674922145/173897479",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 55
+     },
+     "n_migrating": 55
+    },
+    "H_COMP_2": {
+     "n": 3183,
+     "published_intervals": [
+      [
+       73,
+       85
+      ],
+      [
+       86,
+       89
+      ],
+      [
+       90,
+       91
+      ],
+      [
+       92,
+       94
+      ],
+      [
+       95,
+       100
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       73,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "gap_float": 250.23985026345886,
+     "gap": "9362332099872036173/37413433911565785",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 84,
+      "4->5": 196
+     },
+     "n_migrating": 280
+    },
+    "H_COMP_5": {
+     "n": 3183,
+     "published_intervals": [
+      [
+       54,
+       70
+      ],
+      [
+       71,
+       76
+      ],
+      [
+       77,
+       80
+      ],
+      [
+       81,
+       85
+      ],
+      [
+       86,
+       95
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       54,
+       70
+      ],
+      [
+       71,
+       74
+      ],
+      [
+       75,
+       78
+      ],
+      [
+       79,
+       83
+      ],
+      [
+       84,
+       95
+      ]
+     ],
+     "gap_float": 1121.0286653752478,
+     "gap": "745974353515190857/665437358165580",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->3": 594,
+      "3->4": 385,
+      "4->5": 127
+     },
+     "n_migrating": 1106
+    },
+    "H_COMP_6": {
+     "n": 3183,
+     "published_intervals": [
+      [
+       66,
+       78
+      ],
+      [
+       79,
+       82
+      ],
+      [
+       83,
+       86
+      ],
+      [
+       87,
+       90
+      ],
+      [
+       91,
+       99
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       66,
+       78
+      ],
+      [
+       79,
+       83
+      ],
+      [
+       84,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       99
+      ]
+     ],
+     "gap_float": 434.48088050820917,
+     "gap": "231160088461325459083/532037424042547416",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "3->2": 217,
+      "4->5": 200
+     },
+     "n_migrating": 417
+    },
+    "H_CLEAN": {
+     "n": 3183,
+     "published_intervals": [
+      [
+       70,
+       78
+      ],
+      [
+       79,
+       83
+      ],
+      [
+       84,
+       87
+      ],
+      [
+       88,
+       91
+      ],
+      [
+       92,
+       98
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       70,
+       78
+      ],
+      [
+       79,
+       83
+      ],
+      [
+       84,
+       87
+      ],
+      [
+       88,
+       91
+      ],
+      [
+       92,
+       98
+      ]
+     ],
+     "gap_float": 0.0,
+     "gap": "0",
+     "published_is_optimal": true,
+     "n_optimal_partitions": 1,
+     "migration": {},
+     "n_migrating": 0
+    },
+    "H_QUIET": {
+     "n": 3183,
+     "published_intervals": [
+      [
+       54,
+       71
+      ],
+      [
+       72,
+       79
+      ],
+      [
+       80,
+       83
+      ],
+      [
+       84,
+       88
+      ],
+      [
+       89,
+       97
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       54,
+       73
+      ],
+      [
+       74,
+       79
+      ],
+      [
+       80,
+       83
+      ],
+      [
+       84,
+       87
+      ],
+      [
+       88,
+       97
+      ]
+     ],
+     "gap_float": 1004.1892217427277,
+     "gap": "174414475231866990443/173686862451260025",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 132,
+      "4->5": 123
+     },
+     "n_migrating": 255
+    },
+    "H_HSP_RATING": {
+     "n": 3183,
+     "published_intervals": [
+      [
+       66,
+       80
+      ],
+      [
+       81,
+       84
+      ],
+      [
+       85,
+       88
+      ],
+      [
+       89,
+       92
+      ],
+      [
+       93,
+       97
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       66,
+       81
+      ],
+      [
+       82,
+       85
+      ],
+      [
+       86,
+       88
+      ],
+      [
+       89,
+       91
+      ],
+      [
+       92,
+       97
+      ]
+     ],
+     "gap_float": 510.14273612026886,
+     "gap": "59708875146024901488954761/117043468265611487316300",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 43,
+      "3->2": 203,
+      "4->5": 205
+     },
+     "n_migrating": 451
+    },
+    "H_RECMND": {
+     "n": 3183,
+     "published_intervals": [
+      [
+       57,
+       77
+      ],
+      [
+       78,
+       83
+      ],
+      [
+       84,
+       86
+      ],
+      [
+       87,
+       90
+      ],
+      [
+       91,
+       98
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       57,
+       78
+      ],
+      [
+       79,
+       83
+      ],
+      [
+       84,
+       87
+      ],
+      [
+       88,
+       91
+      ],
+      [
+       92,
+       98
+      ]
+     ],
+     "gap_float": 324.2373588745012,
+     "gap": "1391593099005259353222973/4291896232549461902850",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 43,
+      "4->3": 294,
+      "5->4": 238
+     },
+     "n_migrating": 575
+    }
+   },
+   "off_optimum": 7,
+   "total_migrating": 3139,
+   "file_sha256_16": "2a3650e059d42ed1"
+  },
+  "current-2026-05-13": {
+   "period": [
+    "07/01/2024",
+    "06/30/2025"
+   ],
+   "measures": {
+    "H_COMP_1": {
+     "n": 3176,
+     "published_intervals": [
+      [
+       74,
+       85
+      ],
+      [
+       86,
+       89
+      ],
+      [
+       90,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       74,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "gap_float": 26.08391973763226,
+     "gap": "9403375399/360504690",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 47
+     },
+     "n_migrating": 47
+    },
+    "H_COMP_2": {
+     "n": 3176,
+     "published_intervals": [
+      [
+       74,
+       83
+      ],
+      [
+       84,
+       88
+      ],
+      [
+       89,
+       91
+      ],
+      [
+       92,
+       94
+      ],
+      [
+       95,
+       100
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       74,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       91
+      ],
+      [
+       92,
+       93
+      ],
+      [
+       94,
+       100
+      ]
+     ],
+     "gap_float": 541.3821699320386,
+     "gap": "229289396337835309603567/423525947237270002944",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 151,
+      "3->2": 406,
+      "4->5": 210
+     },
+     "n_migrating": 767
+    },
+    "H_COMP_5": {
+     "n": 3176,
+     "published_intervals": [
+      [
+       57,
+       70
+      ],
+      [
+       71,
+       76
+      ],
+      [
+       77,
+       80
+      ],
+      [
+       81,
+       85
+      ],
+      [
+       86,
+       95
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       57,
+       70
+      ],
+      [
+       71,
+       74
+      ],
+      [
+       75,
+       78
+      ],
+      [
+       79,
+       82
+      ],
+      [
+       83,
+       95
+      ]
+     ],
+     "gap_float": 1193.0401751537636,
+     "gap": "654735527131923/548795875250",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->3": 564,
+      "3->4": 409,
+      "4->5": 225
+     },
+     "n_migrating": 1198
+    },
+    "H_COMP_6": {
+     "n": 3176,
+     "published_intervals": [
+      [
+       65,
+       78
+      ],
+      [
+       79,
+       82
+      ],
+      [
+       83,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       99
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       65,
+       78
+      ],
+      [
+       79,
+       83
+      ],
+      [
+       84,
+       86
+      ],
+      [
+       87,
+       89
+      ],
+      [
+       90,
+       99
+      ]
+     ],
+     "gap_float": 124.2744660248129,
+     "gap": "24117901504/194069645",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "3->2": 232
+     },
+     "n_migrating": 232
+    },
+    "H_CLEAN": {
+     "n": 3176,
+     "published_intervals": [
+      [
+       69,
+       78
+      ],
+      [
+       79,
+       82
+      ],
+      [
+       83,
+       87
+      ],
+      [
+       88,
+       91
+      ],
+      [
+       92,
+       98
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       69,
+       79
+      ],
+      [
+       80,
+       83
+      ],
+      [
+       84,
+       87
+      ],
+      [
+       88,
+       91
+      ],
+      [
+       92,
+       98
+      ]
+     ],
+     "gap_float": 556.3151454278066,
+     "gap": "236493588899927/425107227160",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 57,
+      "3->2": 180
+     },
+     "n_migrating": 237
+    },
+    "H_QUIET": {
+     "n": 3176,
+     "published_intervals": [
+      [
+       55,
+       71
+      ],
+      [
+       72,
+       78
+      ],
+      [
+       79,
+       83
+      ],
+      [
+       84,
+       88
+      ],
+      [
+       89,
+       97
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       55,
+       73
+      ],
+      [
+       74,
+       78
+      ],
+      [
+       79,
+       82
+      ],
+      [
+       83,
+       86
+      ],
+      [
+       87,
+       97
+      ]
+     ],
+     "gap_float": 523.837560702744,
+     "gap": "271398451071893720386288571/518096584574432669257200",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 129,
+      "3->4": 245,
+      "4->5": 276
+     },
+     "n_migrating": 650
+    },
+    "H_HSP_RATING": {
+     "n": 3176,
+     "published_intervals": [
+      [
+       66,
+       80
+      ],
+      [
+       81,
+       85
+      ],
+      [
+       86,
+       88
+      ],
+      [
+       89,
+       92
+      ],
+      [
+       93,
+       97
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       66,
+       81
+      ],
+      [
+       82,
+       85
+      ],
+      [
+       86,
+       88
+      ],
+      [
+       89,
+       91
+      ],
+      [
+       92,
+       97
+      ]
+     ],
+     "gap_float": 379.7484947362235,
+     "gap": "4367172334690358607/11500170231678820",
+     "published_is_optimal": false,
+     "n_optimal_partitions": 1,
+     "migration": {
+      "2->1": 43,
+      "4->5": 189
+     },
+     "n_migrating": 232
+    },
+    "H_RECMND": {
+     "n": 3176,
+     "published_intervals": [
+      [
+       60,
+       76
+      ],
+      [
+       77,
+       82
+      ],
+      [
+       83,
+       86
+      ],
+      [
+       87,
+       90
+      ],
+      [
+       91,
+       98
+      ]
+     ],
+     "optimal_intervals": [
+      [
+       60,
+       76
+      ],
+      [
+       77,
+       82
+      ],
+      [
+       83,
+       86
+      ],
+      [
+       87,
+       90
+      ],
+      [
+       91,
+       98
+      ]
+     ],
+     "gap_float": 0.0,
+     "gap": "0",
+     "published_is_optimal": true,
+     "n_optimal_partitions": 1,
+     "migration": {},
+     "n_migrating": 0
+    }
+   },
+   "off_optimum": 7,
+   "total_migrating": 3363,
+   "file_sha256_16": "e9d7d4131a9704fc"
+  }
+ }
+}

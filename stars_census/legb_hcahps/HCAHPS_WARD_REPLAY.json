@@ -1,0 +1,47 @@
+{
+ "register": "HCAHPS Ward's-method replay on the public file, current refresh: per-hospital Ward's method (k=5, documented tie rule) on the public file's linear mean values vs the published star assignments, per starred measure. CMS's own tables give a clustering N different from the public file's starred set, so a failed replay indicates an input-set difference and/or a tie-rule difference, not optimizer suboptimality alone.",
+ "n_measures": 8,
+ "n_reproduced": 1,
+ "measures": {
+  "H_COMP_1": {
+   "n": 3176,
+   "ward_reproduces_published": true,
+   "n_mismatched": 0
+  },
+  "H_COMP_2": {
+   "n": 3176,
+   "ward_reproduces_published": false,
+   "n_mismatched": 1197
+  },
+  "H_COMP_5": {
+   "n": 3176,
+   "ward_reproduces_published": false,
+   "n_mismatched": 880
+  },
+  "H_COMP_6": {
+   "n": 3176,
+   "ward_reproduces_published": false,
+   "n_mismatched": 481
+  },
+  "H_CLEAN": {
+   "n": 3176,
+   "ward_reproduces_published": false,
+   "n_mismatched": 542
+  },
+  "H_QUIET": {
+   "n": 3176,
+   "ward_reproduces_published": false,
+   "n_mismatched": 593
+  },
+  "H_HSP_RATING": {
+   "n": 3176,
+   "ward_reproduces_published": false,
+   "n_mismatched": 867
+  },
+  "H_RECMND": {
+   "n": 3176,
+   "ward_reproduces_published": false,
+   "n_mismatched": 1855
+  }
+ }
+}

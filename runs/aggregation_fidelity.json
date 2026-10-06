@@ -1,0 +1,114 @@
+{
+ "register": "Aggregation-fidelity record: replayed rating cells against CMS's published numeric summary and overall cells, per star year at the baseline vintages (raw condition, documented conventions); the printed residue is confined to Puerto Rico contracts, and the mismatch lists here allow that to be checked. DP self-test inventory appended (assert-based, passes iff exit 0): 200 DP-vs-brute-force exact, 200 non-contiguous dominance, 100 tied-optima enumeration; the paper's '300 random instances + 100' groups the first and third.",
+ "generator": "src/aggregation_fidelity.py",
+ "per_year": {
+  "2024/original": {
+   "cells": 1763,
+   "match": 1754,
+   "mismatch_contracts": [
+    "H2029",
+    "H4003",
+    "H4004",
+    "H4005",
+    "H4007",
+    "H5577",
+    "H5774",
+    "H7522"
+   ]
+  },
+  "2024/recalc": {
+   "cells": 1763,
+   "match": 1705,
+   "mismatch_contracts": [
+    "H0885",
+    "H1352",
+    "H1463",
+    "H1608",
+    "H1609",
+    "H1659",
+    "H1774",
+    "H1944",
+    "H2029",
+    "H2320",
+    "H2322",
+    "H2802",
+    "H2962",
+    "H3146",
+    "H3152",
+    "H3305",
+    "H3351",
+    "H3384",
+    "H3416",
+    "H3653",
+    "H3832",
+    "H3924",
+    "H3928",
+    "H3931",
+    "H3954",
+    "H3962",
+    "H4003",
+    "H4004",
+    "H4005",
+    "H4007",
+    "H4513",
+    "H5015",
+    "H5386",
+    "H5471",
+    "H5521",
+    "H5577",
+    "H5883",
+    "H6776",
+    "H7063",
+    "H7115",
+    "H7220",
+    "H7245",
+    "H7522",
+    "H8173",
+    "H8181",
+    "H8385",
+    "H9001",
+    "H9042",
+    "H9572",
+    "H9725",
+    "H9986",
+    "S2874",
+    "S4802"
+   ]
+  },
+  "2025/current": {
+   "cells": 1681,
+   "match": 1673,
+   "mismatch_contracts": [
+    "H2029",
+    "H4003",
+    "H4004",
+    "H5577",
+    "H5774",
+    "H7522"
+   ]
+  },
+  "2026/current": {
+   "cells": 1653,
+   "match": 1645,
+   "mismatch_contracts": [
+    "H2029",
+    "H4003",
+    "H4004",
+    "H4005",
+    "H5577",
+    "H5774"
+   ]
+  }
+ },
+ "printed_targets": {
+  "2024": "1,754/1,763",
+  "2025": "1,673/1,681",
+  "2026": "1,645/1,653"
+ },
+ "vintage_finding": "The printed 2024 figure (1,754/1,763; residue confined to the Puerto Rico-class contracts) reproduces on the original 2024 vintage. On the recalculated vintage, the criterion census's 2024 baseline, fidelity is 1,705/1,763 (58 mismatch cells, 53 contracts): CMS's June-2024 recalculated summary ratings are not reproducible from the recalculated measure stars under the documented aggregation rules, consistent with the recalculation applying adjustments outside the published pipeline. The fidelity figure therefore carries its vintage label (original); the recalculated-vintage irreproducibility is stated here with no error attributed.",
+ "dp_selftest": {
+  "exit_code": 0,
+  "stdout": "dp_kmeans: all self-tests passed (incl. tie enumeration vs brute force)",
+  "inventory": "200 brute-force + 200 dominance + 100 tie-enumeration"
+ }
+}

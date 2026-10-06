@@ -1,0 +1,239 @@
+{
+ "generator": "scripts/star_migrations.py",
+ "sources": {
+  "ma": "runs/enclosure_collapse_frontswap.json (sha256 in PINS_XREF.json)",
+  "hospital": "hospital/runs/exact_census_2021..2026.json (sha256 in PINS_XREF.json)"
+ },
+ "ma_stars": {
+  "register": "Contracts whose overall rating differs under the exact optimum, with the rating under the frontswap@cid_asc contract order; ratings on the half-star ladder as fractions (7/2 = 3.5); the change holds under all four contract orders, and the value depends on the order only where flagged.",
+  "cases": {
+   "2024-UP": {
+    "n": 1,
+    "migrations": {
+     "7/2->4": 1
+    },
+    "before_bins": {
+     "7/2": 1
+    },
+    "after_bins": {
+     "4": 1
+    }
+   },
+   "2024-DOWN": {
+    "n": 3,
+    "migrations": {
+     "4->3": 1,
+     "4->7/2": 2
+    },
+    "before_bins": {
+     "4": 3
+    },
+    "after_bins": {
+     "7/2": 2,
+     "3": 1
+    }
+   },
+   "2025-UP": {
+    "n": 2,
+    "migrations": {
+     "7/2->4": 2
+    },
+    "before_bins": {
+     "7/2": 2
+    },
+    "after_bins": {
+     "4": 2
+    }
+   },
+   "2025-DOWN": {
+    "n": 6,
+    "migrations": {
+     "4->7/2": 6
+    },
+    "before_bins": {
+     "4": 6
+    },
+    "after_bins": {
+     "7/2": 6
+    }
+   },
+   "2026-UP": {
+    "n": 11,
+    "migrations": {
+     "7/2->4": 11
+    },
+    "before_bins": {
+     "7/2": 11
+    },
+    "after_bins": {
+     "4": 11
+    }
+   },
+   "2026-DOWN": {
+    "n": 0,
+    "migrations": {},
+    "before_bins": {},
+    "after_bins": {}
+   }
+  },
+  "order_sensitive_values": [
+   {
+    "contract_id": "H2591",
+    "year": "2024",
+    "values_by_order": {
+     "frontswap": "3",
+     "frontswap@cid_desc": "7/2",
+     "frontswap@score_asc": "7/2",
+     "frontswap@score_desc": "3"
+    }
+   }
+  ]
+ },
+ "hospital_stars": {
+  "register": "Published star -> star at the exact optimum, integer 1-5 groups; the 2026 row compares stars before the safety cap (the CY2026 4-star safety cap modifies 5 of the 213 on the optimum side; see runs/safety_cap_check_2026.json).",
+  "years": {
+   "2021": {
+    "n_flips": 99,
+    "migrations": {
+     "1->2": 20,
+     "2->3": 15,
+     "3->2": 5,
+     "3->4": 5,
+     "4->3": 29,
+     "5->4": 25
+    },
+    "before_bins": {
+     "1": 20,
+     "2": 15,
+     "3": 10,
+     "4": 29,
+     "5": 25
+    },
+    "after_bins": {
+     "2": 25,
+     "3": 44,
+     "4": 30
+    }
+   },
+   "2022": {
+    "n_flips": 153,
+    "migrations": {
+     "1->2": 4,
+     "2->3": 44,
+     "3->2": 8,
+     "3->4": 51,
+     "4->3": 23,
+     "4->5": 8,
+     "5->4": 15
+    },
+    "before_bins": {
+     "1": 4,
+     "2": 44,
+     "3": 59,
+     "4": 31,
+     "5": 15
+    },
+    "after_bins": {
+     "2": 12,
+     "3": 67,
+     "4": 66,
+     "5": 8
+    }
+   },
+   "2023": {
+    "n_flips": 370,
+    "migrations": {
+     "1->2": 29,
+     "2->3": 23,
+     "3->2": 37,
+     "3->4": 56,
+     "4->3": 108,
+     "4->5": 28,
+     "5->4": 89
+    },
+    "before_bins": {
+     "1": 29,
+     "2": 23,
+     "3": 93,
+     "4": 136,
+     "5": 89
+    },
+    "after_bins": {
+     "2": 66,
+     "3": 131,
+     "4": 145,
+     "5": 28
+    }
+   },
+   "2024": {
+    "n_flips": 273,
+    "migrations": {
+     "1->2": 2,
+     "2->1": 11,
+     "2->3": 7,
+     "3->2": 68,
+     "3->4": 6,
+     "4->3": 108,
+     "5->4": 71
+    },
+    "before_bins": {
+     "1": 2,
+     "2": 18,
+     "3": 74,
+     "4": 108,
+     "5": 71
+    },
+    "after_bins": {
+     "1": 11,
+     "2": 70,
+     "3": 115,
+     "4": 77
+    }
+   },
+   "2025": {
+    "n_flips": 38,
+    "migrations": {
+     "1->2": 8,
+     "2->3": 10,
+     "3->2": 4,
+     "3->4": 11,
+     "4->3": 1,
+     "4->5": 4
+    },
+    "before_bins": {
+     "1": 8,
+     "2": 10,
+     "3": 15,
+     "4": 5
+    },
+    "after_bins": {
+     "2": 12,
+     "3": 11,
+     "4": 11,
+     "5": 4
+    }
+   },
+   "2026": {
+    "n_flips": 213,
+    "migrations": {
+     "1->2": 20,
+     "2->3": 68,
+     "3->4": 92,
+     "4->5": 33
+    },
+    "before_bins": {
+     "1": 20,
+     "2": 68,
+     "3": 92,
+     "4": 33
+    },
+    "after_bins": {
+     "2": 20,
+     "3": 68,
+     "4": 92,
+     "5": 33
+    }
+   }
+  }
+ }
+}

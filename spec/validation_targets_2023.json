@@ -1,0 +1,7666 @@
+{
+ "star_year": "2023",
+ "source_pdf": "data/raw/sy2023/2023-star-ratings-technical-notes.pdf (Updated 01/19/2023)",
+ "cross_checked_against": "first release 09/28/2022 (wayback 20221122); 2023 Cut Point Trend (Updated 10/31/2022); parsed data-table CSVs (Oct 04 2022, only published vintage)",
+ "precision_law": "all numbers verbatim decimal strings; comparisons exact via fractions.Fraction",
+ "tukey_cutoffs": {
+  "titles": [],
+  "rows": [],
+  "absent_note": "NO Tukey outlier deletion exists in the 2023 methodology: zero occurrences of Tukey/outlier/outer fence in either Tech Notes version; no K-5/K-6 equivalent tables. Tukey deletion first appears in the 2024 Star Ratings (confirmed both from the 2023 primary source and the 2024 Tech Notes change list). No published outlier bounds exist for 2023, so the 2024-2026 membership check is unavailable."
+ },
+ "pre_guardrail_thresholds": {
+  "titles": [
+   "Table J-3: 2023 Star Ratings Part C non-CAHPS Measure Mean Resampling Estimated Thresholds",
+   "Table J-4: 2023 Star Ratings Part D non-CAHPS Measure Mean Resampling Estimated Thresholds"
+  ],
+  "pdf_pages_printed": {
+   "J-3": [
+    138
+   ],
+   "J-4": [
+    139
+   ]
+  },
+  "note_verbatim": "Notes: These are not the final thresholds for the 2023 Star Ratings. See the Measure Details section for final thresholds after guardrails have been applied.",
+  "semantics": "Mean resampling estimated thresholds with NO Tukey deletion (2023 has none), BEFORE guardrails. Display-rounded values, dependent on the random group assignment (unlike the 2024-2026 outlier bounds).",
+  "first_release_diffs": [
+   {
+    "key": [
+     "C23",
+     "ALL",
+     5
+    ],
+    "first_release": ">= 0.19",
+    "final": "<= 0.19"
+   },
+   {
+    "key": [
+     "C24",
+     "ALL",
+     5
+    ],
+    "first_release": ">=7%",
+    "final": "<= 7 %"
+   }
+  ],
+  "rows": [
+   {
+    "measure_id": "C01",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 44 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "44",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C01",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 44 % to < 62 %",
+    "table": "J-3",
+    "lo": "44",
+    "hi": "62",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C01",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 62 % to < 70 %",
+    "table": "J-3",
+    "lo": "62",
+    "hi": "70",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C01",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 70 % to < 77 %",
+    "table": "J-3",
+    "lo": "70",
+    "hi": "77",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C01",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 77 %",
+    "table": "J-3",
+    "lo": "77",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C02",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 38 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "38",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C02",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 38 % to < 60 %",
+    "table": "J-3",
+    "lo": "38",
+    "hi": "60",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C02",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 60 % to < 71 %",
+    "table": "J-3",
+    "lo": "60",
+    "hi": "71",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C02",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 71 % to < 79 %",
+    "table": "J-3",
+    "lo": "71",
+    "hi": "79",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C02",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 79 %",
+    "table": "J-3",
+    "lo": "79",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C04",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 44 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "44",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C04",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 44 % to < 49 %",
+    "table": "J-3",
+    "lo": "44",
+    "hi": "49",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C04",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 49 % to < 53 %",
+    "table": "J-3",
+    "lo": "49",
+    "hi": "53",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C04",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 53 % to < 57 %",
+    "table": "J-3",
+    "lo": "53",
+    "hi": "57",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C04",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 57 %",
+    "table": "J-3",
+    "lo": "57",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C05",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 46 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "46",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C05",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 46 % to < 62 %",
+    "table": "J-3",
+    "lo": "46",
+    "hi": "62",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C05",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 62 % to < 75 %",
+    "table": "J-3",
+    "lo": "62",
+    "hi": "75",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C05",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 75 % to < 85 %",
+    "table": "J-3",
+    "lo": "75",
+    "hi": "85",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C05",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 85 %",
+    "table": "J-3",
+    "lo": "85",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C06",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 36 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "36",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C06",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 36 % to < 70 %",
+    "table": "J-3",
+    "lo": "36",
+    "hi": "70",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C06",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 70 % to < 82 %",
+    "table": "J-3",
+    "lo": "70",
+    "hi": "82",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C06",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 82 % to < 93 %",
+    "table": "J-3",
+    "lo": "82",
+    "hi": "93",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C06",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 93 %",
+    "table": "J-3",
+    "lo": "93",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C07",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 29 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "29",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C07",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 29 % to < 58 %",
+    "table": "J-3",
+    "lo": "29",
+    "hi": "58",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C07",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 58 % to < 85 %",
+    "table": "J-3",
+    "lo": "58",
+    "hi": "85",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C07",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 85 % to < 94 %",
+    "table": "J-3",
+    "lo": "85",
+    "hi": "94",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C07",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 94 %",
+    "table": "J-3",
+    "lo": "94",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C08",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 34 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "34",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C08",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 34 % to < 47 %",
+    "table": "J-3",
+    "lo": "34",
+    "hi": "47",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C08",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 47 % to < 60 %",
+    "table": "J-3",
+    "lo": "47",
+    "hi": "60",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C08",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 60 % to < 76 %",
+    "table": "J-3",
+    "lo": "60",
+    "hi": "76",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C08",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 76 %",
+    "table": "J-3",
+    "lo": "76",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C09",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 47 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "47",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C09",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 47 % to < 61 %",
+    "table": "J-3",
+    "lo": "47",
+    "hi": "61",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C09",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 61 % to < 71 %",
+    "table": "J-3",
+    "lo": "61",
+    "hi": "71",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C09",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 71 % to < 79 %",
+    "table": "J-3",
+    "lo": "71",
+    "hi": "79",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C09",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 79 %",
+    "table": "J-3",
+    "lo": "79",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C10",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 86 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "86",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C10",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 86 % to < 93 %",
+    "table": "J-3",
+    "lo": "86",
+    "hi": "93",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C10",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 93 % to < 95 %",
+    "table": "J-3",
+    "lo": "93",
+    "hi": "95",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C10",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 95 % to < 97 %",
+    "table": "J-3",
+    "lo": "95",
+    "hi": "97",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C10",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 97 %",
+    "table": "J-3",
+    "lo": "97",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C11",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 39 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "39",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C11",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 39 % to < 62 %",
+    "table": "J-3",
+    "lo": "39",
+    "hi": "62",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C11",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 62 % to < 75 %",
+    "table": "J-3",
+    "lo": "62",
+    "hi": "75",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C11",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 75 % to < 83 %",
+    "table": "J-3",
+    "lo": "75",
+    "hi": "83",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C11",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 83 %",
+    "table": "J-3",
+    "lo": "83",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C12",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 48 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "48",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C12",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 48 % to < 63 %",
+    "table": "J-3",
+    "lo": "48",
+    "hi": "63",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C12",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 63 % to < 73 %",
+    "table": "J-3",
+    "lo": "63",
+    "hi": "73",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C12",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 73 % to < 80 %",
+    "table": "J-3",
+    "lo": "73",
+    "hi": "80",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C12",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 80 %",
+    "table": "J-3",
+    "lo": "80",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C13",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 46 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "46",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C13",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 46 % to < 53 %",
+    "table": "J-3",
+    "lo": "46",
+    "hi": "53",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C13",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 53 % to < 60 %",
+    "table": "J-3",
+    "lo": "53",
+    "hi": "60",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C13",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 60 % to < 69 %",
+    "table": "J-3",
+    "lo": "60",
+    "hi": "69",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C13",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 69 %",
+    "table": "J-3",
+    "lo": "69",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C14",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 39 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "39",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C14",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 39 % to < 43 %",
+    "table": "J-3",
+    "lo": "39",
+    "hi": "43",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C14",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 43 % to < 48 %",
+    "table": "J-3",
+    "lo": "43",
+    "hi": "48",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C14",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 48 % to < 53 %",
+    "table": "J-3",
+    "lo": "48",
+    "hi": "53",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C14",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 53 %",
+    "table": "J-3",
+    "lo": "53",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C15",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 43 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "43",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C15",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 43 % to < 57 %",
+    "table": "J-3",
+    "lo": "43",
+    "hi": "57",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C15",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 57 % to < 69 %",
+    "table": "J-3",
+    "lo": "57",
+    "hi": "69",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C15",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 69 % to < 82 %",
+    "table": "J-3",
+    "lo": "69",
+    "hi": "82",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C15",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 82 %",
+    "table": "J-3",
+    "lo": "82",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C16",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 75 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "75",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C16",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 75 % to < 81 %",
+    "table": "J-3",
+    "lo": "75",
+    "hi": "81",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C16",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 81 % to < 85 %",
+    "table": "J-3",
+    "lo": "81",
+    "hi": "85",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C16",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 85 % to < 89 %",
+    "table": "J-3",
+    "lo": "85",
+    "hi": "89",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C16",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 89 %",
+    "table": "J-3",
+    "lo": "89",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C23",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "> 1.59",
+    "table": "J-3",
+    "lo": "1.59",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C23",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": "> 0.89 to <= 1.59",
+    "table": "J-3",
+    "lo": "0.89",
+    "hi": "1.59",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "C23",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": "> 0.5 to <= 0.89",
+    "table": "J-3",
+    "lo": "0.5",
+    "hi": "0.89",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "C23",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": "> 0.19 to <= 0.5",
+    "table": "J-3",
+    "lo": "0.19",
+    "hi": "0.5",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "C23",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": "<= 0.19",
+    "table": "J-3",
+    "lo": null,
+    "hi": "0.19",
+    "lo_inclusive": null,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "C24",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "> 37 %",
+    "table": "J-3",
+    "lo": "37",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C24",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": "> 24 % to <= 37 %",
+    "table": "J-3",
+    "lo": "24",
+    "hi": "37",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "C24",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": "> 15 % to <= 24 %",
+    "table": "J-3",
+    "lo": "15",
+    "hi": "24",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "C24",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": "> 7 % to <= 15 %",
+    "table": "J-3",
+    "lo": "7",
+    "hi": "15",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "C24",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": "<= 7 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "7",
+    "lo_inclusive": null,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "C25",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< -0.298771",
+    "table": "J-3",
+    "lo": null,
+    "hi": "-0.298771",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C25",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= -0.298771 to < 0",
+    "table": "J-3",
+    "lo": "-0.298771",
+    "hi": "0",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C25",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 0 to < 0.101745",
+    "table": "J-3",
+    "lo": "0",
+    "hi": "0.101745",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C25",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 0.101745 to < 0.328141",
+    "table": "J-3",
+    "lo": "0.101745",
+    "hi": "0.328141",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C25",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 0.328141",
+    "table": "J-3",
+    "lo": "0.328141",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C26",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 31 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "31",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C26",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 31 % to < 59 %",
+    "table": "J-3",
+    "lo": "31",
+    "hi": "59",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C26",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 59 % to < 82 %",
+    "table": "J-3",
+    "lo": "59",
+    "hi": "82",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C26",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 82 % to < 97 %",
+    "table": "J-3",
+    "lo": "82",
+    "hi": "97",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C26",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 97 %",
+    "table": "J-3",
+    "lo": "97",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C27",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 68 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "68",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C27",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 68 % to < 83 %",
+    "table": "J-3",
+    "lo": "68",
+    "hi": "83",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C27",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 83 % to < 91 %",
+    "table": "J-3",
+    "lo": "83",
+    "hi": "91",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C27",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 91 % to < 97 %",
+    "table": "J-3",
+    "lo": "91",
+    "hi": "97",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C27",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 97 %",
+    "table": "J-3",
+    "lo": "97",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C28",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 47 %",
+    "table": "J-3",
+    "lo": null,
+    "hi": "47",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C28",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 47 % to < 77 %",
+    "table": "J-3",
+    "lo": "47",
+    "hi": "77",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C28",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 77 % to < 87 %",
+    "table": "J-3",
+    "lo": "77",
+    "hi": "87",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C28",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 87 % to < 94 %",
+    "table": "J-3",
+    "lo": "87",
+    "hi": "94",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C28",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 94 %",
+    "table": "J-3",
+    "lo": "94",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< 57 %",
+    "table": "J-4",
+    "lo": null,
+    "hi": "57",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= 57 % to < 68 %",
+    "table": "J-4",
+    "lo": "57",
+    "hi": "68",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 68 % to < 80 %",
+    "table": "J-4",
+    "lo": "68",
+    "hi": "80",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 80 % to < 91 %",
+    "table": "J-4",
+    "lo": "80",
+    "hi": "91",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 91 %",
+    "table": "J-4",
+    "lo": "91",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< 60 %",
+    "table": "J-4",
+    "lo": null,
+    "hi": "60",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= 60 % to < 75 %",
+    "table": "J-4",
+    "lo": "60",
+    "hi": "75",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 75 % to < 91 %",
+    "table": "J-4",
+    "lo": "75",
+    "hi": "91",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 91 % to < 97 %",
+    "table": "J-4",
+    "lo": "91",
+    "hi": "97",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 97 %",
+    "table": "J-4",
+    "lo": "97",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "> 1.59",
+    "table": "J-4",
+    "lo": "1.59",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": "> 0.89 to <= 1.59",
+    "table": "J-4",
+    "lo": "0.89",
+    "hi": "1.59",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": "> 0.5 to <= 0.89",
+    "table": "J-4",
+    "lo": "0.5",
+    "hi": "0.89",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": "> 0.19 to <= 0.5",
+    "table": "J-4",
+    "lo": "0.19",
+    "hi": "0.5",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": "<= 0.19",
+    "table": "J-4",
+    "lo": null,
+    "hi": "0.19",
+    "lo_inclusive": null,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "> 0.41",
+    "table": "J-4",
+    "lo": "0.41",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": "> 0.26 to <= 0.41",
+    "table": "J-4",
+    "lo": "0.26",
+    "hi": "0.41",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": "> 0.13 to <= 0.26",
+    "table": "J-4",
+    "lo": "0.13",
+    "hi": "0.26",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": "> 0.06 to <= 0.13",
+    "table": "J-4",
+    "lo": "0.06",
+    "hi": "0.13",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": "<= 0.06",
+    "table": "J-4",
+    "lo": null,
+    "hi": "0.06",
+    "lo_inclusive": null,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "> 37 %",
+    "table": "J-4",
+    "lo": "37",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": "> 24 % to <= 37 %",
+    "table": "J-4",
+    "lo": "24",
+    "hi": "37",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": "> 15 % to <= 24 %",
+    "table": "J-4",
+    "lo": "15",
+    "hi": "24",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": "> 7 % to <= 15 %",
+    "table": "J-4",
+    "lo": "7",
+    "hi": "15",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": "<= 7 %",
+    "table": "J-4",
+    "lo": null,
+    "hi": "7",
+    "lo_inclusive": null,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "> 23 %",
+    "table": "J-4",
+    "lo": "23",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": "> 16 % to <= 23 %",
+    "table": "J-4",
+    "lo": "16",
+    "hi": "23",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": "> 11 % to <= 16 %",
+    "table": "J-4",
+    "lo": "11",
+    "hi": "16",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": "> 7 % to <= 11 %",
+    "table": "J-4",
+    "lo": "7",
+    "hi": "11",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": "<= 7 %",
+    "table": "J-4",
+    "lo": null,
+    "hi": "7",
+    "lo_inclusive": null,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D04",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< -0.325131",
+    "table": "J-4",
+    "lo": null,
+    "hi": "-0.325131",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D04",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= -0.325131 to < 0",
+    "table": "J-4",
+    "lo": "-0.325131",
+    "hi": "0",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D04",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 0 to < 0.159307",
+    "table": "J-4",
+    "lo": "0",
+    "hi": "0.159307",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D04",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 0.159307 to < 0.391045",
+    "table": "J-4",
+    "lo": "0.159307",
+    "hi": "0.391045",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D04",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 0.391045",
+    "table": "J-4",
+    "lo": "0.391045",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D04",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< -0.237362",
+    "table": "J-4",
+    "lo": null,
+    "hi": "-0.237362",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D04",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= -0.237362 to < 0",
+    "table": "J-4",
+    "lo": "-0.237362",
+    "hi": "0",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D04",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 0 to < 0.389234",
+    "table": "J-4",
+    "lo": "0",
+    "hi": "0.389234",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D04",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 0.389234 to < 0.851667",
+    "table": "J-4",
+    "lo": "0.389234",
+    "hi": "0.851667",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D04",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 0.851667",
+    "table": "J-4",
+    "lo": "0.851667",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< 72",
+    "table": "J-4",
+    "lo": null,
+    "hi": "72",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= 72 to < 86",
+    "table": "J-4",
+    "lo": "72",
+    "hi": "86",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 86 to < 93",
+    "table": "J-4",
+    "lo": "86",
+    "hi": "93",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 93 to < 97",
+    "table": "J-4",
+    "lo": "93",
+    "hi": "97",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 97",
+    "table": "J-4",
+    "lo": "97",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< 90",
+    "table": "J-4",
+    "lo": null,
+    "hi": "90",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= 90 to < 94",
+    "table": "J-4",
+    "lo": "90",
+    "hi": "94",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 94 to < 96",
+    "table": "J-4",
+    "lo": "94",
+    "hi": "96",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 96 to < 99",
+    "table": "J-4",
+    "lo": "96",
+    "hi": "99",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 99",
+    "table": "J-4",
+    "lo": "99",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< 79 %",
+    "table": "J-4",
+    "lo": null,
+    "hi": "79",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= 79 % to < 85 %",
+    "table": "J-4",
+    "lo": "79",
+    "hi": "85",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 85 % to < 88 %",
+    "table": "J-4",
+    "lo": "85",
+    "hi": "88",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 88 % to < 92 %",
+    "table": "J-4",
+    "lo": "88",
+    "hi": "92",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 92 %",
+    "table": "J-4",
+    "lo": "92",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< 84 %",
+    "table": "J-4",
+    "lo": null,
+    "hi": "84",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= 84 % to < 86 %",
+    "table": "J-4",
+    "lo": "84",
+    "hi": "86",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 86 % to < 88 %",
+    "table": "J-4",
+    "lo": "86",
+    "hi": "88",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 88 % to < 90 %",
+    "table": "J-4",
+    "lo": "88",
+    "hi": "90",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 90 %",
+    "table": "J-4",
+    "lo": "90",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< 83 %",
+    "table": "J-4",
+    "lo": null,
+    "hi": "83",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= 83 % to < 86 %",
+    "table": "J-4",
+    "lo": "83",
+    "hi": "86",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 86 % to < 89 %",
+    "table": "J-4",
+    "lo": "86",
+    "hi": "89",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 89 % to < 91 %",
+    "table": "J-4",
+    "lo": "89",
+    "hi": "91",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 91 %",
+    "table": "J-4",
+    "lo": "91",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< 86 %",
+    "table": "J-4",
+    "lo": null,
+    "hi": "86",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= 86 % to < 89 %",
+    "table": "J-4",
+    "lo": "86",
+    "hi": "89",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 89 % to < 91 %",
+    "table": "J-4",
+    "lo": "89",
+    "hi": "91",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 91 % to < 96 %",
+    "table": "J-4",
+    "lo": "91",
+    "hi": "96",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 96 %",
+    "table": "J-4",
+    "lo": "96",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< 81 %",
+    "table": "J-4",
+    "lo": null,
+    "hi": "81",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= 81 % to < 85 %",
+    "table": "J-4",
+    "lo": "81",
+    "hi": "85",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 85 % to < 88 %",
+    "table": "J-4",
+    "lo": "85",
+    "hi": "88",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 88 % to < 92 %",
+    "table": "J-4",
+    "lo": "88",
+    "hi": "92",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 92 %",
+    "table": "J-4",
+    "lo": "92",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< 84 %",
+    "table": "J-4",
+    "lo": null,
+    "hi": "84",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= 84 % to < 87 %",
+    "table": "J-4",
+    "lo": "84",
+    "hi": "87",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 87 % to < 88 %",
+    "table": "J-4",
+    "lo": "87",
+    "hi": "88",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 88 % to < 90 %",
+    "table": "J-4",
+    "lo": "88",
+    "hi": "90",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 90 %",
+    "table": "J-4",
+    "lo": "90",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< 41 %",
+    "table": "J-4",
+    "lo": null,
+    "hi": "41",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= 41 % to < 67 %",
+    "table": "J-4",
+    "lo": "41",
+    "hi": "67",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 67 % to < 82 %",
+    "table": "J-4",
+    "lo": "67",
+    "hi": "82",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 82 % to < 89 %",
+    "table": "J-4",
+    "lo": "82",
+    "hi": "89",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 89 %",
+    "table": "J-4",
+    "lo": "89",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< 34 %",
+    "table": "J-4",
+    "lo": null,
+    "hi": "34",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= 34 % to < 49 %",
+    "table": "J-4",
+    "lo": "34",
+    "hi": "49",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 49 % to < 62 %",
+    "table": "J-4",
+    "lo": "49",
+    "hi": "62",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 62 % to < 78 %",
+    "table": "J-4",
+    "lo": "62",
+    "hi": "78",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 78 %",
+    "table": "J-4",
+    "lo": "78",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< 80 %",
+    "table": "J-4",
+    "lo": null,
+    "hi": "80",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= 80 % to < 84 %",
+    "table": "J-4",
+    "lo": "80",
+    "hi": "84",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 84 % to < 86 %",
+    "table": "J-4",
+    "lo": "84",
+    "hi": "86",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 86 % to < 90 %",
+    "table": "J-4",
+    "lo": "86",
+    "hi": "90",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 90 %",
+    "table": "J-4",
+    "lo": "90",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< 80 %",
+    "table": "J-4",
+    "lo": null,
+    "hi": "80",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= 80 % to < 82 %",
+    "table": "J-4",
+    "lo": "80",
+    "hi": "82",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 82 % to < 84 %",
+    "table": "J-4",
+    "lo": "82",
+    "hi": "84",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 84 % to < 86 %",
+    "table": "J-4",
+    "lo": "84",
+    "hi": "86",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 86 %",
+    "table": "J-4",
+    "lo": "86",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   }
+  ]
+ },
+ "final_thresholds_source": {
+  "primary": "data/parsed/cutpoints_2023_oct2022.csv (published data tables, Oct 04 2022 - the operative record)",
+  "technotes_cross_check": "Measure Details cut-point rows of both Tech Notes versions extracted and compared; see anomalies",
+  "tn_final_vs_csv_mismatches": [
+   [
+    "C23",
+    "ALL",
+    1,
+    "TN",
+    "> 1.52",
+    "CSV",
+    "> 1.53"
+   ],
+   [
+    "C23",
+    "ALL",
+    2,
+    "TN",
+    "> 0.89 to <= 1.52",
+    "CSV",
+    "> 0.89 to <= 1.53"
+   ],
+   [
+    "D02",
+    "MA-PD",
+    1,
+    "TN",
+    "> 1.52",
+    "CSV",
+    "> 1.53"
+   ],
+   [
+    "D02",
+    "MA-PD",
+    2,
+    "TN",
+    "> 0.89 to <= 1.52",
+    "CSV",
+    "> 0.89 to <= 1.53"
+   ]
+  ],
+  "trend_2023_vs_csv_mismatches": [
+   [
+    "D12",
+    "PDP",
+    4,
+    "hi",
+    "84",
+    "86"
+   ]
+  ]
+ },
+ "guardrail_basis_thresholds": {
+  "semantics": "2023 is the FIRST guardrail year. The Tech Notes publish NO basis table (no 2024 K-7/K-8 equivalent) and say only 'compared to the prior year's value'. Basis = published 2022 Star Ratings final cut points, pinned from the 2023 Cut Point Trend document 2022 rows and verified by exact cap arithmetic (guardrail_checks).",
+  "source": "cut-point-trends.zip :: 2023_Cut_Point_Trend_2022_12_12.pdf (Updated 10/31/2022), 2022 rows",
+  "rows": [
+   {
+    "measure_id": "C01",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 42 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "42",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C01",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 42 % to < 61 %",
+    "table": "trend-2022",
+    "lo": "42",
+    "hi": "61",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C01",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 61 % to < 69 %",
+    "table": "trend-2022",
+    "lo": "61",
+    "hi": "69",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C01",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 69 % to < 76 %",
+    "table": "trend-2022",
+    "lo": "69",
+    "hi": "76",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C01",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 76 %",
+    "table": "trend-2022",
+    "lo": "76",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C02",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 49 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "49",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C02",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 49 % to < 62 %",
+    "table": "trend-2022",
+    "lo": "49",
+    "hi": "62",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C02",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 62 % to < 71 %",
+    "table": "trend-2022",
+    "lo": "62",
+    "hi": "71",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C02",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 71 % to < 80 %",
+    "table": "trend-2022",
+    "lo": "71",
+    "hi": "80",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C02",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 80 %",
+    "table": "trend-2022",
+    "lo": "80",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C03",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 65",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "65",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C03",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 65 to < 70",
+    "table": "trend-2022",
+    "lo": "65",
+    "hi": "70",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C03",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 70 to < 76",
+    "table": "trend-2022",
+    "lo": "70",
+    "hi": "76",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C03",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 76 to < 80",
+    "table": "trend-2022",
+    "lo": "76",
+    "hi": "80",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C03",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 80",
+    "table": "trend-2022",
+    "lo": "80",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C04",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 42 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "42",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C04",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 42 % to < 47 %",
+    "table": "trend-2022",
+    "lo": "42",
+    "hi": "47",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C04",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 47 % to < 52 %",
+    "table": "trend-2022",
+    "lo": "47",
+    "hi": "52",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C04",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 52 % to < 57 %",
+    "table": "trend-2022",
+    "lo": "52",
+    "hi": "57",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C04",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 57 %",
+    "table": "trend-2022",
+    "lo": "57",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C05",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 45 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "45",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C05",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 45 % to < 59 %",
+    "table": "trend-2022",
+    "lo": "45",
+    "hi": "59",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C05",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 59 % to < 73 %",
+    "table": "trend-2022",
+    "lo": "59",
+    "hi": "73",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C05",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 73 % to < 87 %",
+    "table": "trend-2022",
+    "lo": "73",
+    "hi": "87",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C05",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 87 %",
+    "table": "trend-2022",
+    "lo": "87",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C06",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 48 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "48",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C06",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 48 % to < 71 %",
+    "table": "trend-2022",
+    "lo": "48",
+    "hi": "71",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C06",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 71 % to < 84 %",
+    "table": "trend-2022",
+    "lo": "71",
+    "hi": "84",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C06",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 84 % to < 95 %",
+    "table": "trend-2022",
+    "lo": "84",
+    "hi": "95",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C06",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 95 %",
+    "table": "trend-2022",
+    "lo": "95",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C07",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 55 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "55",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C07",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 55 % to < 76 %",
+    "table": "trend-2022",
+    "lo": "55",
+    "hi": "76",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C07",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 76 % to < 87 %",
+    "table": "trend-2022",
+    "lo": "76",
+    "hi": "87",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C07",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 87 % to < 96 %",
+    "table": "trend-2022",
+    "lo": "87",
+    "hi": "96",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C07",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 96 %",
+    "table": "trend-2022",
+    "lo": "96",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C08",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 27 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "27",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C08",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 27 % to < 40 %",
+    "table": "trend-2022",
+    "lo": "27",
+    "hi": "40",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C08",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 40 % to < 50 %",
+    "table": "trend-2022",
+    "lo": "40",
+    "hi": "50",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C08",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 50 % to < 68 %",
+    "table": "trend-2022",
+    "lo": "50",
+    "hi": "68",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C08",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 68 %",
+    "table": "trend-2022",
+    "lo": "68",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C09",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 52 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "52",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C09",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 52 % to < 62 %",
+    "table": "trend-2022",
+    "lo": "52",
+    "hi": "62",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C09",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 62 % to < 71 %",
+    "table": "trend-2022",
+    "lo": "62",
+    "hi": "71",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C09",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 71 % to < 79 %",
+    "table": "trend-2022",
+    "lo": "71",
+    "hi": "79",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C09",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 79 %",
+    "table": "trend-2022",
+    "lo": "79",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C10",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 82 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "82",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C10",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 82 % to < 88 %",
+    "table": "trend-2022",
+    "lo": "82",
+    "hi": "88",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C10",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 88 % to < 94 %",
+    "table": "trend-2022",
+    "lo": "88",
+    "hi": "94",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C10",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 94 % to < 97 %",
+    "table": "trend-2022",
+    "lo": "94",
+    "hi": "97",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C10",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 97 %",
+    "table": "trend-2022",
+    "lo": "97",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C11",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 41 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "41",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C11",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 41 % to < 60 %",
+    "table": "trend-2022",
+    "lo": "41",
+    "hi": "60",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C11",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 60 % to < 72 %",
+    "table": "trend-2022",
+    "lo": "60",
+    "hi": "72",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C11",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 72 % to < 81 %",
+    "table": "trend-2022",
+    "lo": "72",
+    "hi": "81",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C11",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 81 %",
+    "table": "trend-2022",
+    "lo": "81",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C13",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 48 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "48",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C13",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 48 % to < 55 %",
+    "table": "trend-2022",
+    "lo": "48",
+    "hi": "55",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C13",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 55 % to < 64 %",
+    "table": "trend-2022",
+    "lo": "55",
+    "hi": "64",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C13",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 64 % to < 72 %",
+    "table": "trend-2022",
+    "lo": "64",
+    "hi": "72",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C13",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 72 %",
+    "table": "trend-2022",
+    "lo": "72",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C14",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 42 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "42",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C14",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 42 % to < 45 %",
+    "table": "trend-2022",
+    "lo": "42",
+    "hi": "45",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C14",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 45 % to < 49 %",
+    "table": "trend-2022",
+    "lo": "45",
+    "hi": "49",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C14",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 49 % to < 53 %",
+    "table": "trend-2022",
+    "lo": "49",
+    "hi": "53",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C14",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 53 %",
+    "table": "trend-2022",
+    "lo": "53",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C15",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 39 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "39",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C15",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 39 % to < 56 %",
+    "table": "trend-2022",
+    "lo": "39",
+    "hi": "56",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C15",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 56 % to < 69 %",
+    "table": "trend-2022",
+    "lo": "56",
+    "hi": "69",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C15",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 69 % to < 82 %",
+    "table": "trend-2022",
+    "lo": "69",
+    "hi": "82",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C15",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 82 %",
+    "table": "trend-2022",
+    "lo": "82",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C16",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 76 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "76",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C16",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 76 % to < 81 %",
+    "table": "trend-2022",
+    "lo": "76",
+    "hi": "81",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C16",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 81 % to < 84 %",
+    "table": "trend-2022",
+    "lo": "81",
+    "hi": "84",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C16",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 84 % to < 89 %",
+    "table": "trend-2022",
+    "lo": "84",
+    "hi": "89",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C16",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 89 %",
+    "table": "trend-2022",
+    "lo": "89",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C17",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 79",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "79",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C17",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 79 to < 82",
+    "table": "trend-2022",
+    "lo": "79",
+    "hi": "82",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C17",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 82 to < 84",
+    "table": "trend-2022",
+    "lo": "82",
+    "hi": "84",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C17",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 84 to < 85",
+    "table": "trend-2022",
+    "lo": "84",
+    "hi": "85",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C17",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 85",
+    "table": "trend-2022",
+    "lo": "85",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C18",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 75",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "75",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C18",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 75 to < 77",
+    "table": "trend-2022",
+    "lo": "75",
+    "hi": "77",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C18",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 77 to < 80",
+    "table": "trend-2022",
+    "lo": "77",
+    "hi": "80",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C18",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 80 to < 82",
+    "table": "trend-2022",
+    "lo": "80",
+    "hi": "82",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C18",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 82",
+    "table": "trend-2022",
+    "lo": "82",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C19",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 88",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "88",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C19",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 88 to < 90",
+    "table": "trend-2022",
+    "lo": "88",
+    "hi": "90",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C19",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 90 to < 91",
+    "table": "trend-2022",
+    "lo": "90",
+    "hi": "91",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C19",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 91 to < 92",
+    "table": "trend-2022",
+    "lo": "91",
+    "hi": "92",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C19",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 92",
+    "table": "trend-2022",
+    "lo": "92",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C20",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 85",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "85",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C20",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 85 to < 86",
+    "table": "trend-2022",
+    "lo": "85",
+    "hi": "86",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C20",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 86 to < 88",
+    "table": "trend-2022",
+    "lo": "86",
+    "hi": "88",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C20",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 88 to < 89",
+    "table": "trend-2022",
+    "lo": "88",
+    "hi": "89",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C20",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 89",
+    "table": "trend-2022",
+    "lo": "89",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C21",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 85",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "85",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C21",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 85 to < 86",
+    "table": "trend-2022",
+    "lo": "85",
+    "hi": "86",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C21",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 86 to < 88",
+    "table": "trend-2022",
+    "lo": "86",
+    "hi": "88",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C21",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 88 to < 90",
+    "table": "trend-2022",
+    "lo": "88",
+    "hi": "90",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C21",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 90",
+    "table": "trend-2022",
+    "lo": "90",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C22",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 84",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "84",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C22",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 84 to < 85",
+    "table": "trend-2022",
+    "lo": "84",
+    "hi": "85",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C22",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 85 to < 87",
+    "table": "trend-2022",
+    "lo": "85",
+    "hi": "87",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C22",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 87 to < 88",
+    "table": "trend-2022",
+    "lo": "87",
+    "hi": "88",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C22",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 88",
+    "table": "trend-2022",
+    "lo": "88",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C23",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "> 1.14",
+    "table": "trend-2022",
+    "lo": "1.14",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C23",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": "> 0.79 to <= 1.14",
+    "table": "trend-2022",
+    "lo": "0.79",
+    "hi": "1.14",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "C23",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": "> 0.37 to <= 0.79",
+    "table": "trend-2022",
+    "lo": "0.37",
+    "hi": "0.79",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "C23",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": "> 0.17 to <= 0.37",
+    "table": "trend-2022",
+    "lo": "0.17",
+    "hi": "0.37",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "C23",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": "<= 0.17",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "0.17",
+    "lo_inclusive": null,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "C24",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "> 44 %",
+    "table": "trend-2022",
+    "lo": "44",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C24",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": "> 29 % to <= 44 %",
+    "table": "trend-2022",
+    "lo": "29",
+    "hi": "44",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "C24",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": "> 16 % to <= 29 %",
+    "table": "trend-2022",
+    "lo": "16",
+    "hi": "29",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "C24",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": "> 9 % to <= 16 %",
+    "table": "trend-2022",
+    "lo": "9",
+    "hi": "16",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "C24",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": "<= 9 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "9",
+    "lo_inclusive": null,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "C26",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 64 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "64",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C26",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 64 % to < 80 %",
+    "table": "trend-2022",
+    "lo": "64",
+    "hi": "80",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C26",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 80 % to < 90 %",
+    "table": "trend-2022",
+    "lo": "80",
+    "hi": "90",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C26",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 90 % to < 97 %",
+    "table": "trend-2022",
+    "lo": "90",
+    "hi": "97",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C26",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 97 %",
+    "table": "trend-2022",
+    "lo": "97",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C27",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 69 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "69",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C27",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 69 % to < 84 %",
+    "table": "trend-2022",
+    "lo": "69",
+    "hi": "84",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C27",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 84 % to < 91 %",
+    "table": "trend-2022",
+    "lo": "84",
+    "hi": "91",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C27",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 91 % to < 96 %",
+    "table": "trend-2022",
+    "lo": "91",
+    "hi": "96",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C27",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 96 %",
+    "table": "trend-2022",
+    "lo": "96",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "C28",
+    "org_type": null,
+    "star_level": 1,
+    "verbatim": "< 32 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "32",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C28",
+    "org_type": null,
+    "star_level": 2,
+    "verbatim": ">= 32 % to < 61 %",
+    "table": "trend-2022",
+    "lo": "32",
+    "hi": "61",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C28",
+    "org_type": null,
+    "star_level": 3,
+    "verbatim": ">= 61 % to < 78 %",
+    "table": "trend-2022",
+    "lo": "61",
+    "hi": "78",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C28",
+    "org_type": null,
+    "star_level": 4,
+    "verbatim": ">= 78 % to < 94 %",
+    "table": "trend-2022",
+    "lo": "78",
+    "hi": "94",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "C28",
+    "org_type": null,
+    "star_level": 5,
+    "verbatim": ">= 94 %",
+    "table": "trend-2022",
+    "lo": "94",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< 25 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "25",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= 25 % to < 59 %",
+    "table": "trend-2022",
+    "lo": "25",
+    "hi": "59",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 59 % to < 84 %",
+    "table": "trend-2022",
+    "lo": "59",
+    "hi": "84",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 84 % to < 94 %",
+    "table": "trend-2022",
+    "lo": "84",
+    "hi": "94",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 94 %",
+    "table": "trend-2022",
+    "lo": "94",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< 63 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "63",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= 63 % to < 80 %",
+    "table": "trend-2022",
+    "lo": "63",
+    "hi": "80",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 80 % to < 89 %",
+    "table": "trend-2022",
+    "lo": "80",
+    "hi": "89",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 89 % to < 97 %",
+    "table": "trend-2022",
+    "lo": "89",
+    "hi": "97",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D01",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 97 %",
+    "table": "trend-2022",
+    "lo": "97",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "> 1.14",
+    "table": "trend-2022",
+    "lo": "1.14",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": "> 0.79 to <= 1.14",
+    "table": "trend-2022",
+    "lo": "0.79",
+    "hi": "1.14",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": "> 0.37 to <= 0.79",
+    "table": "trend-2022",
+    "lo": "0.37",
+    "hi": "0.79",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": "> 0.17 to <= 0.37",
+    "table": "trend-2022",
+    "lo": "0.17",
+    "hi": "0.37",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": "<= 0.17",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "0.17",
+    "lo_inclusive": null,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "> 0.21",
+    "table": "trend-2022",
+    "lo": "0.21",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": "> 0.15 to <= 0.21",
+    "table": "trend-2022",
+    "lo": "0.15",
+    "hi": "0.21",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": "> 0.1 to <= 0.15",
+    "table": "trend-2022",
+    "lo": "0.1",
+    "hi": "0.15",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": "> 0.03 to <= 0.1",
+    "table": "trend-2022",
+    "lo": "0.03",
+    "hi": "0.1",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D02",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": "<= 0.03",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "0.03",
+    "lo_inclusive": null,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "> 44 %",
+    "table": "trend-2022",
+    "lo": "44",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": "> 29 % to <= 44 %",
+    "table": "trend-2022",
+    "lo": "29",
+    "hi": "44",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": "> 16 % to <= 29 %",
+    "table": "trend-2022",
+    "lo": "16",
+    "hi": "29",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": "> 9 % to <= 16 %",
+    "table": "trend-2022",
+    "lo": "9",
+    "hi": "16",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": "<= 9 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "9",
+    "lo_inclusive": null,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "> 20 %",
+    "table": "trend-2022",
+    "lo": "20",
+    "hi": null,
+    "lo_inclusive": false,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": "> 13 % to <= 20 %",
+    "table": "trend-2022",
+    "lo": "13",
+    "hi": "20",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": "> 9 % to <= 13 %",
+    "table": "trend-2022",
+    "lo": "9",
+    "hi": "13",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": "> 6 % to <= 9 %",
+    "table": "trend-2022",
+    "lo": "6",
+    "hi": "9",
+    "lo_inclusive": false,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D03",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": "<= 6 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "6",
+    "lo_inclusive": null,
+    "hi_inclusive": true
+   },
+   {
+    "measure_id": "D05",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< 84",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "84",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D05",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= 84 to < 85",
+    "table": "trend-2022",
+    "lo": "84",
+    "hi": "85",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D05",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 85 to < 87",
+    "table": "trend-2022",
+    "lo": "85",
+    "hi": "87",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D05",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 87 to < 88",
+    "table": "trend-2022",
+    "lo": "87",
+    "hi": "88",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D05",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 88",
+    "table": "trend-2022",
+    "lo": "88",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D05",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< 80",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "80",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D05",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= 80 to < 82",
+    "table": "trend-2022",
+    "lo": "80",
+    "hi": "82",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D05",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 82 to < 84",
+    "table": "trend-2022",
+    "lo": "82",
+    "hi": "84",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D05",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 84 to < 87",
+    "table": "trend-2022",
+    "lo": "84",
+    "hi": "87",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D05",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 87",
+    "table": "trend-2022",
+    "lo": "87",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D06",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< 89",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "89",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D06",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= 89 to < 90",
+    "table": "trend-2022",
+    "lo": "89",
+    "hi": "90",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D06",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 90 to < 91",
+    "table": "trend-2022",
+    "lo": "90",
+    "hi": "91",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D06",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 91 to < 92",
+    "table": "trend-2022",
+    "lo": "91",
+    "hi": "92",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D06",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 92",
+    "table": "trend-2022",
+    "lo": "92",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D06",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< 89",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "89",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D06",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= 89 to < 90",
+    "table": "trend-2022",
+    "lo": "89",
+    "hi": "90",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D06",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 90 to < 91",
+    "table": "trend-2022",
+    "lo": "90",
+    "hi": "91",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D06",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 91 to < 92",
+    "table": "trend-2022",
+    "lo": "91",
+    "hi": "92",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D06",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 92",
+    "table": "trend-2022",
+    "lo": "92",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< 73 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "73",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= 73 % to < 83 %",
+    "table": "trend-2022",
+    "lo": "73",
+    "hi": "83",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 83 % to < 91 %",
+    "table": "trend-2022",
+    "lo": "83",
+    "hi": "91",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 91 % to < 96 %",
+    "table": "trend-2022",
+    "lo": "91",
+    "hi": "96",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 96 %",
+    "table": "trend-2022",
+    "lo": "96",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< 84 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "84",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= 84 % to < 88 %",
+    "table": "trend-2022",
+    "lo": "84",
+    "hi": "88",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 88 % to < 94 %",
+    "table": "trend-2022",
+    "lo": "88",
+    "hi": "94",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 94 % to < 97 %",
+    "table": "trend-2022",
+    "lo": "94",
+    "hi": "97",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D07",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 97 %",
+    "table": "trend-2022",
+    "lo": "97",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< 80 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "80",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= 80 % to < 85 %",
+    "table": "trend-2022",
+    "lo": "80",
+    "hi": "85",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 85 % to < 87 %",
+    "table": "trend-2022",
+    "lo": "85",
+    "hi": "87",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 87 % to < 91 %",
+    "table": "trend-2022",
+    "lo": "87",
+    "hi": "91",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 91 %",
+    "table": "trend-2022",
+    "lo": "91",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< 84 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "84",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= 84 % to < 86 %",
+    "table": "trend-2022",
+    "lo": "84",
+    "hi": "86",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 86 % to < 88 %",
+    "table": "trend-2022",
+    "lo": "86",
+    "hi": "88",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 88 % to < 90 %",
+    "table": "trend-2022",
+    "lo": "88",
+    "hi": "90",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D08",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 90 %",
+    "table": "trend-2022",
+    "lo": "90",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< 74 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "74",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= 74 % to < 82 %",
+    "table": "trend-2022",
+    "lo": "74",
+    "hi": "82",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 82 % to < 87 %",
+    "table": "trend-2022",
+    "lo": "82",
+    "hi": "87",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 87 % to < 90 %",
+    "table": "trend-2022",
+    "lo": "87",
+    "hi": "90",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 90 %",
+    "table": "trend-2022",
+    "lo": "90",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< 85 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "85",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= 85 % to < 88 %",
+    "table": "trend-2022",
+    "lo": "85",
+    "hi": "88",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 88 % to < 89 %",
+    "table": "trend-2022",
+    "lo": "88",
+    "hi": "89",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 89 % to < 91 %",
+    "table": "trend-2022",
+    "lo": "89",
+    "hi": "91",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D09",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 91 %",
+    "table": "trend-2022",
+    "lo": "91",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< 78 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "78",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= 78 % to < 83 %",
+    "table": "trend-2022",
+    "lo": "78",
+    "hi": "83",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 83 % to < 87 %",
+    "table": "trend-2022",
+    "lo": "83",
+    "hi": "87",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 87 % to < 91 %",
+    "table": "trend-2022",
+    "lo": "87",
+    "hi": "91",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 91 %",
+    "table": "trend-2022",
+    "lo": "91",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< 82 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "82",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= 82 % to < 86 %",
+    "table": "trend-2022",
+    "lo": "82",
+    "hi": "86",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 86 % to < 88 %",
+    "table": "trend-2022",
+    "lo": "86",
+    "hi": "88",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 88 % to < 90 %",
+    "table": "trend-2022",
+    "lo": "88",
+    "hi": "90",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D10",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 90 %",
+    "table": "trend-2022",
+    "lo": "90",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< 54 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "54",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= 54 % to < 72 %",
+    "table": "trend-2022",
+    "lo": "54",
+    "hi": "72",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 72 % to < 82 %",
+    "table": "trend-2022",
+    "lo": "72",
+    "hi": "82",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 82 % to < 89 %",
+    "table": "trend-2022",
+    "lo": "82",
+    "hi": "89",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 89 %",
+    "table": "trend-2022",
+    "lo": "89",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< 31 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "31",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= 31 % to < 47 %",
+    "table": "trend-2022",
+    "lo": "31",
+    "hi": "47",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 47 % to < 61 %",
+    "table": "trend-2022",
+    "lo": "47",
+    "hi": "61",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 61 % to < 74 %",
+    "table": "trend-2022",
+    "lo": "61",
+    "hi": "74",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D11",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 74 %",
+    "table": "trend-2022",
+    "lo": "74",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "MA-PD",
+    "star_level": 1,
+    "verbatim": "< 76 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "76",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "MA-PD",
+    "star_level": 2,
+    "verbatim": ">= 76 % to < 80 %",
+    "table": "trend-2022",
+    "lo": "76",
+    "hi": "80",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "MA-PD",
+    "star_level": 3,
+    "verbatim": ">= 80 % to < 84 %",
+    "table": "trend-2022",
+    "lo": "80",
+    "hi": "84",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "MA-PD",
+    "star_level": 4,
+    "verbatim": ">= 84 % to < 88 %",
+    "table": "trend-2022",
+    "lo": "84",
+    "hi": "88",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "MA-PD",
+    "star_level": 5,
+    "verbatim": ">= 88 %",
+    "table": "trend-2022",
+    "lo": "88",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "PDP",
+    "star_level": 1,
+    "verbatim": "< 77 %",
+    "table": "trend-2022",
+    "lo": null,
+    "hi": "77",
+    "lo_inclusive": null,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "PDP",
+    "star_level": 2,
+    "verbatim": ">= 77 % to < 79 %",
+    "table": "trend-2022",
+    "lo": "77",
+    "hi": "79",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "PDP",
+    "star_level": 3,
+    "verbatim": ">= 79 % to < 82 %",
+    "table": "trend-2022",
+    "lo": "79",
+    "hi": "82",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "PDP",
+    "star_level": 4,
+    "verbatim": ">= 82 % to < 84 %",
+    "table": "trend-2022",
+    "lo": "82",
+    "hi": "84",
+    "lo_inclusive": true,
+    "hi_inclusive": false
+   },
+   {
+    "measure_id": "D12",
+    "org_type": "PDP",
+    "star_level": 5,
+    "verbatim": ">= 84 %",
+    "table": "trend-2022",
+    "lo": "84",
+    "hi": null,
+    "lo_inclusive": true,
+    "hi_inclusive": null
+   }
+  ]
+ },
+ "final_vs_pre_guardrail_check": {
+  "semantics": "guarded = non-CAHPS, non-improvement, non-new (new 2023: C12 CBP; D07 MPF treated as new through 2024 per the 2025 Tech Notes change note, and empirically exempt here). cap5_consistent tests final == clip(pre, base2022 +/- 5) at display precision (percent and 0-100 numeric measures). Restricted-range measures (complaints C23/D02) in restricted_range_test.",
+  "findings": {
+   "arithmetic": "exact (display-string arithmetic on published numbers)",
+   "published_base_model": "clip vs the PUBLISHED 2022 cut points reproduces every boundary on 26 of 32 cap-tested guarded splits (35 guarded splits total; the 3 restricted-range complaints splits are tested in restricted_range_test, where all 3 are falsified). The consistent splits include clip-bound boundaries on 7 splits (C06/ALL on 1, C07/ALL on 2, C08/ALL on 4, C24/ALL on 1, C26/ALL on 3, D01/MA-PD on 2, D03/MA-PD on 1). It is FALSIFIED on 9 splits (C01/ALL, C02/ALL, C10/ALL, C23/ALL, C28/ALL, D02/MA-PD, D02/PDP, D09/MA-PD, D11/MA-PD): 11 boundaries, 9 of them at the 1|2-star boundary. 2 cells (C10/ALL 1|2-star: pre 86 base 82 final 80; C28/ALL 2|3-star: pre 77 base 61 final 59) are inconsistent with ANY clip against the published base (final strictly on the far side of the base from pre).",
+   "one_sidedness": "every falsifying cell is MORE GENEROUS than the published-base model (lower boundary where higher is better, higher where lower is better), concentrated at the lowest star boundaries (star_label_census in tallies).",
+   "inference": "consistent with an UNPUBLISHED recomputed 2022 base (the rerun convention the 2024 Tech Notes later made explicit and published as K-7/K-8; 2023 published no basis table). Status: inference, not documented. Supporting evidence: a replay of the PUBLISHED 2022 scores (1 realization, ward_tie, all-numeric membership) lands exactly on the implied base for C01 (38) and within 1 for D09/MA-PD (72 vs implied 73), but far from it for C10/D11; the mechanism is not determined."
+  },
+  "tallies": {
+   "counting_rule": "Counting rule for the guardrail-basis findings.\n\n    guarded rows = status startswith 'guarded'. Of these, cap-tested rows\n    carry all_cap5_consistent (non-restricted, 2022 base present);\n    restricted-range rows (complaints) are tested in rr_test instead.\n    A cap-tested split is falsified when any boundary has\n    cap5_consistent == False. A restricted split is falsified on a boundary\n    when the published final mismatches the clip expectation under BOTH\n    range variants (prior-year and current-year published scores).",
+   "n_guarded_rows": 35,
+   "n_cap_tested_splits": 32,
+   "n_cap_consistent_splits": 26,
+   "n_cap_falsified_splits": 6,
+   "n_cap_falsified_boundaries": 7,
+   "n_restricted_splits": 3,
+   "n_restricted_falsified_splits": 3,
+   "n_restricted_falsified_cells": 4,
+   "n_falsified_splits_total": 9,
+   "n_falsified_boundaries_total": 11,
+   "falsified_split_keys": [
+    "C01/ALL",
+    "C02/ALL",
+    "C10/ALL",
+    "C23/ALL",
+    "C28/ALL",
+    "D02/MA-PD",
+    "D02/PDP",
+    "D09/MA-PD",
+    "D11/MA-PD"
+   ],
+   "cap_falsified_cells": [
+    {
+     "key": "C01/ALL",
+     "boundary_index": 0,
+     "star_label": "1|2",
+     "pre": "44",
+     "base": "42",
+     "final": "43",
+     "expected": "44",
+     "far_side_of_base": false,
+     "more_generous": true
+    },
+    {
+     "key": "C02/ALL",
+     "boundary_index": 0,
+     "star_label": "1|2",
+     "pre": "38",
+     "base": "49",
+     "final": "43",
+     "expected": "44",
+     "far_side_of_base": false,
+     "more_generous": true
+    },
+    {
+     "key": "C10/ALL",
+     "boundary_index": 0,
+     "star_label": "1|2",
+     "pre": "86",
+     "base": "82",
+     "final": "80",
+     "expected": "86",
+     "far_side_of_base": true,
+     "more_generous": true
+    },
+    {
+     "key": "C28/ALL",
+     "boundary_index": 0,
+     "star_label": "1|2",
+     "pre": "47",
+     "base": "32",
+     "final": "36",
+     "expected": "37",
+     "far_side_of_base": false,
+     "more_generous": true
+    },
+    {
+     "key": "C28/ALL",
+     "boundary_index": 1,
+     "star_label": "2|3",
+     "pre": "77",
+     "base": "61",
+     "final": "59",
+     "expected": "66",
+     "far_side_of_base": true,
+     "more_generous": true
+    },
+    {
+     "key": "D09/MA-PD",
+     "boundary_index": 0,
+     "star_label": "1|2",
+     "pre": "83",
+     "base": "74",
+     "final": "78",
+     "expected": "79",
+     "far_side_of_base": false,
+     "more_generous": true
+    },
+    {
+     "key": "D11/MA-PD",
+     "boundary_index": 0,
+     "star_label": "1|2",
+     "pre": "41",
+     "base": "54",
+     "final": "47",
+     "expected": "49",
+     "far_side_of_base": false,
+     "more_generous": true
+    }
+   ],
+   "restricted_falsified_cells": [
+    {
+     "key": "C23/ALL",
+     "boundary_index": 3,
+     "star_label": "1|2",
+     "published_final": "1.53",
+     "expected_under_variants": {
+      "prior_year_2022_split": "2533/2000",
+      "current_year_2023_split": "321/250"
+     },
+     "more_generous": true
+    },
+    {
+     "key": "D02/MA-PD",
+     "boundary_index": 3,
+     "star_label": "1|2",
+     "published_final": "1.53",
+     "expected_under_variants": {
+      "prior_year_2022_split": "2533/2000",
+      "current_year_2023_split": "321/250"
+     },
+     "more_generous": true
+    },
+    {
+     "key": "D02/PDP",
+     "boundary_index": 2,
+     "star_label": "2|3",
+     "published_final": "0.22",
+     "expected_under_variants": {
+      "prior_year_2022_split": "363/2000",
+      "current_year_2023_split": "183/1000"
+     },
+     "more_generous": true
+    },
+    {
+     "key": "D02/PDP",
+     "boundary_index": 3,
+     "star_label": "1|2",
+     "published_final": "0.34",
+     "expected_under_variants": {
+      "prior_year_2022_split": "483/2000",
+      "current_year_2023_split": "243/1000"
+     },
+     "more_generous": true
+    }
+   ],
+   "n_far_side_cells": 2,
+   "n_more_generous": 11,
+   "star_label_census": {
+    "1|2": 9,
+    "2|3": 2
+   },
+   "bound_boundary_profile_consistent_splits": {
+    "C06/ALL": 1,
+    "C07/ALL": 2,
+    "C08/ALL": 4,
+    "C24/ALL": 1,
+    "C26/ALL": 3,
+    "D01/MA-PD": 2,
+    "D03/MA-PD": 1
+   }
+  },
+  "rows": [
+   {
+    "key": "C01/ALL",
+    "status": "guarded",
+    "pre": [
+     "44",
+     "62",
+     "70",
+     "77"
+    ],
+    "final": [
+     "43",
+     "62",
+     "70",
+     "77"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "44",
+      "final": "43",
+      "guardrail_moved": true,
+      "base": "42",
+      "expected_final_cap5": "44",
+      "cap5_consistent": false
+     },
+     {
+      "i": 1,
+      "pre": "62",
+      "final": "62",
+      "guardrail_moved": false,
+      "base": "61",
+      "expected_final_cap5": "62",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "70",
+      "final": "70",
+      "guardrail_moved": false,
+      "base": "69",
+      "expected_final_cap5": "70",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "77",
+      "final": "77",
+      "guardrail_moved": false,
+      "base": "76",
+      "expected_final_cap5": "77",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "42",
+     "61",
+     "69",
+     "76"
+    ],
+    "all_cap5_consistent": false
+   },
+   {
+    "key": "C02/ALL",
+    "status": "guarded",
+    "pre": [
+     "38",
+     "60",
+     "71",
+     "79"
+    ],
+    "final": [
+     "43",
+     "60",
+     "71",
+     "79"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "38",
+      "final": "43",
+      "guardrail_moved": true,
+      "base": "49",
+      "expected_final_cap5": "44",
+      "cap5_consistent": false
+     },
+     {
+      "i": 1,
+      "pre": "60",
+      "final": "60",
+      "guardrail_moved": false,
+      "base": "62",
+      "expected_final_cap5": "60",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "71",
+      "final": "71",
+      "guardrail_moved": false,
+      "base": "71",
+      "expected_final_cap5": "71",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "79",
+      "final": "79",
+      "guardrail_moved": false,
+      "base": "80",
+      "expected_final_cap5": "79",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "49",
+     "62",
+     "71",
+     "80"
+    ],
+    "all_cap5_consistent": false
+   },
+   {
+    "key": "C04/ALL",
+    "status": "guarded",
+    "pre": [
+     "44",
+     "49",
+     "53",
+     "57"
+    ],
+    "final": [
+     "44",
+     "49",
+     "53",
+     "57"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "44",
+      "final": "44",
+      "guardrail_moved": false,
+      "base": "42",
+      "expected_final_cap5": "44",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "49",
+      "final": "49",
+      "guardrail_moved": false,
+      "base": "47",
+      "expected_final_cap5": "49",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "53",
+      "final": "53",
+      "guardrail_moved": false,
+      "base": "52",
+      "expected_final_cap5": "53",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "57",
+      "final": "57",
+      "guardrail_moved": false,
+      "base": "57",
+      "expected_final_cap5": "57",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "42",
+     "47",
+     "52",
+     "57"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "C05/ALL",
+    "status": "guarded",
+    "pre": [
+     "46",
+     "62",
+     "75",
+     "85"
+    ],
+    "final": [
+     "46",
+     "62",
+     "75",
+     "85"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "46",
+      "final": "46",
+      "guardrail_moved": false,
+      "base": "45",
+      "expected_final_cap5": "46",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "62",
+      "final": "62",
+      "guardrail_moved": false,
+      "base": "59",
+      "expected_final_cap5": "62",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "75",
+      "final": "75",
+      "guardrail_moved": false,
+      "base": "73",
+      "expected_final_cap5": "75",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "85",
+      "final": "85",
+      "guardrail_moved": false,
+      "base": "87",
+      "expected_final_cap5": "85",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "45",
+     "59",
+     "73",
+     "87"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "C06/ALL",
+    "status": "guarded",
+    "pre": [
+     "36",
+     "70",
+     "82",
+     "93"
+    ],
+    "final": [
+     "43",
+     "70",
+     "82",
+     "93"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "36",
+      "final": "43",
+      "guardrail_moved": true,
+      "base": "48",
+      "expected_final_cap5": "43",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "70",
+      "final": "70",
+      "guardrail_moved": false,
+      "base": "71",
+      "expected_final_cap5": "70",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "82",
+      "final": "82",
+      "guardrail_moved": false,
+      "base": "84",
+      "expected_final_cap5": "82",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "93",
+      "final": "93",
+      "guardrail_moved": false,
+      "base": "95",
+      "expected_final_cap5": "93",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "48",
+     "71",
+     "84",
+     "95"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "C07/ALL",
+    "status": "guarded",
+    "pre": [
+     "29",
+     "58",
+     "85",
+     "94"
+    ],
+    "final": [
+     "50",
+     "71",
+     "85",
+     "94"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "29",
+      "final": "50",
+      "guardrail_moved": true,
+      "base": "55",
+      "expected_final_cap5": "50",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "58",
+      "final": "71",
+      "guardrail_moved": true,
+      "base": "76",
+      "expected_final_cap5": "71",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "85",
+      "final": "85",
+      "guardrail_moved": false,
+      "base": "87",
+      "expected_final_cap5": "85",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "94",
+      "final": "94",
+      "guardrail_moved": false,
+      "base": "96",
+      "expected_final_cap5": "94",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "55",
+     "76",
+     "87",
+     "96"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "C08/ALL",
+    "status": "guarded",
+    "pre": [
+     "34",
+     "47",
+     "60",
+     "76"
+    ],
+    "final": [
+     "32",
+     "45",
+     "55",
+     "73"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "34",
+      "final": "32",
+      "guardrail_moved": true,
+      "base": "27",
+      "expected_final_cap5": "32",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "47",
+      "final": "45",
+      "guardrail_moved": true,
+      "base": "40",
+      "expected_final_cap5": "45",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "60",
+      "final": "55",
+      "guardrail_moved": true,
+      "base": "50",
+      "expected_final_cap5": "55",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "76",
+      "final": "73",
+      "guardrail_moved": true,
+      "base": "68",
+      "expected_final_cap5": "73",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "27",
+     "40",
+     "50",
+     "68"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "C09/ALL",
+    "status": "guarded",
+    "pre": [
+     "47",
+     "61",
+     "71",
+     "79"
+    ],
+    "final": [
+     "47",
+     "61",
+     "71",
+     "79"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "47",
+      "final": "47",
+      "guardrail_moved": false,
+      "base": "52",
+      "expected_final_cap5": "47",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "61",
+      "final": "61",
+      "guardrail_moved": false,
+      "base": "62",
+      "expected_final_cap5": "61",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "71",
+      "final": "71",
+      "guardrail_moved": false,
+      "base": "71",
+      "expected_final_cap5": "71",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "79",
+      "final": "79",
+      "guardrail_moved": false,
+      "base": "79",
+      "expected_final_cap5": "79",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "52",
+     "62",
+     "71",
+     "79"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "C10/ALL",
+    "status": "guarded",
+    "pre": [
+     "86",
+     "93",
+     "95",
+     "97"
+    ],
+    "final": [
+     "80",
+     "93",
+     "95",
+     "97"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "86",
+      "final": "80",
+      "guardrail_moved": true,
+      "base": "82",
+      "expected_final_cap5": "86",
+      "cap5_consistent": false
+     },
+     {
+      "i": 1,
+      "pre": "93",
+      "final": "93",
+      "guardrail_moved": false,
+      "base": "88",
+      "expected_final_cap5": "93",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "95",
+      "final": "95",
+      "guardrail_moved": false,
+      "base": "94",
+      "expected_final_cap5": "95",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "97",
+      "final": "97",
+      "guardrail_moved": false,
+      "base": "97",
+      "expected_final_cap5": "97",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "82",
+     "88",
+     "94",
+     "97"
+    ],
+    "all_cap5_consistent": false
+   },
+   {
+    "key": "C11/ALL",
+    "status": "guarded",
+    "pre": [
+     "39",
+     "62",
+     "75",
+     "83"
+    ],
+    "final": [
+     "39",
+     "62",
+     "75",
+     "83"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "39",
+      "final": "39",
+      "guardrail_moved": false,
+      "base": "41",
+      "expected_final_cap5": "39",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "62",
+      "final": "62",
+      "guardrail_moved": false,
+      "base": "60",
+      "expected_final_cap5": "62",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "75",
+      "final": "75",
+      "guardrail_moved": false,
+      "base": "72",
+      "expected_final_cap5": "75",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "83",
+      "final": "83",
+      "guardrail_moved": false,
+      "base": "81",
+      "expected_final_cap5": "83",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "41",
+     "60",
+     "72",
+     "81"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "C12/ALL",
+    "status": "new-exempt",
+    "pre_equals_final": true,
+    "pre": [
+     "48",
+     "63",
+     "73",
+     "80"
+    ],
+    "final": [
+     "48",
+     "63",
+     "73",
+     "80"
+    ]
+   },
+   {
+    "key": "C13/ALL",
+    "status": "guarded",
+    "pre": [
+     "46",
+     "53",
+     "60",
+     "69"
+    ],
+    "final": [
+     "46",
+     "53",
+     "60",
+     "69"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "46",
+      "final": "46",
+      "guardrail_moved": false,
+      "base": "48",
+      "expected_final_cap5": "46",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "53",
+      "final": "53",
+      "guardrail_moved": false,
+      "base": "55",
+      "expected_final_cap5": "53",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "60",
+      "final": "60",
+      "guardrail_moved": false,
+      "base": "64",
+      "expected_final_cap5": "60",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "69",
+      "final": "69",
+      "guardrail_moved": false,
+      "base": "72",
+      "expected_final_cap5": "69",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "48",
+     "55",
+     "64",
+     "72"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "C14/ALL",
+    "status": "guarded",
+    "pre": [
+     "39",
+     "43",
+     "48",
+     "53"
+    ],
+    "final": [
+     "39",
+     "43",
+     "48",
+     "53"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "39",
+      "final": "39",
+      "guardrail_moved": false,
+      "base": "42",
+      "expected_final_cap5": "39",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "43",
+      "final": "43",
+      "guardrail_moved": false,
+      "base": "45",
+      "expected_final_cap5": "43",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "48",
+      "final": "48",
+      "guardrail_moved": false,
+      "base": "49",
+      "expected_final_cap5": "48",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "53",
+      "final": "53",
+      "guardrail_moved": false,
+      "base": "53",
+      "expected_final_cap5": "53",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "42",
+     "45",
+     "49",
+     "53"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "C15/ALL",
+    "status": "guarded",
+    "pre": [
+     "43",
+     "57",
+     "69",
+     "82"
+    ],
+    "final": [
+     "43",
+     "57",
+     "69",
+     "82"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "43",
+      "final": "43",
+      "guardrail_moved": false,
+      "base": "39",
+      "expected_final_cap5": "43",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "57",
+      "final": "57",
+      "guardrail_moved": false,
+      "base": "56",
+      "expected_final_cap5": "57",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "69",
+      "final": "69",
+      "guardrail_moved": false,
+      "base": "69",
+      "expected_final_cap5": "69",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "82",
+      "final": "82",
+      "guardrail_moved": false,
+      "base": "82",
+      "expected_final_cap5": "82",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "39",
+     "56",
+     "69",
+     "82"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "C16/ALL",
+    "status": "guarded",
+    "pre": [
+     "75",
+     "81",
+     "85",
+     "89"
+    ],
+    "final": [
+     "75",
+     "81",
+     "85",
+     "89"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "75",
+      "final": "75",
+      "guardrail_moved": false,
+      "base": "76",
+      "expected_final_cap5": "75",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "81",
+      "final": "81",
+      "guardrail_moved": false,
+      "base": "81",
+      "expected_final_cap5": "81",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "85",
+      "final": "85",
+      "guardrail_moved": false,
+      "base": "84",
+      "expected_final_cap5": "85",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "89",
+      "final": "89",
+      "guardrail_moved": false,
+      "base": "89",
+      "expected_final_cap5": "89",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "76",
+     "81",
+     "84",
+     "89"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "C23/ALL",
+    "status": "guarded",
+    "pre": [
+     "0.19",
+     "0.5",
+     "0.89",
+     "1.59"
+    ],
+    "final": [
+     "0.19",
+     "0.5",
+     "0.89",
+     "1.53"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "0.19",
+      "final": "0.19",
+      "guardrail_moved": false,
+      "base": "0.17"
+     },
+     {
+      "i": 1,
+      "pre": "0.5",
+      "final": "0.5",
+      "guardrail_moved": false,
+      "base": "0.37"
+     },
+     {
+      "i": 2,
+      "pre": "0.89",
+      "final": "0.89",
+      "guardrail_moved": false,
+      "base": "0.79"
+     },
+     {
+      "i": 3,
+      "pre": "1.59",
+      "final": "1.53",
+      "guardrail_moved": true,
+      "base": "1.14"
+     }
+    ],
+    "base_2022": [
+     "0.17",
+     "0.37",
+     "0.79",
+     "1.14"
+    ]
+   },
+   {
+    "key": "C24/ALL",
+    "status": "guarded",
+    "pre": [
+     "7",
+     "15",
+     "24",
+     "37"
+    ],
+    "final": [
+     "7",
+     "15",
+     "24",
+     "39"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "7",
+      "final": "7",
+      "guardrail_moved": false,
+      "base": "9",
+      "expected_final_cap5": "7",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "15",
+      "final": "15",
+      "guardrail_moved": false,
+      "base": "16",
+      "expected_final_cap5": "15",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "24",
+      "final": "24",
+      "guardrail_moved": false,
+      "base": "29",
+      "expected_final_cap5": "24",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "37",
+      "final": "39",
+      "guardrail_moved": true,
+      "base": "44",
+      "expected_final_cap5": "39",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "9",
+     "16",
+     "29",
+     "44"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "C25/ALL",
+    "status": "improvement-exempt",
+    "pre_equals_final": true,
+    "pre": [
+     "-0.298771",
+     "0",
+     "0.101745",
+     "0.328141"
+    ],
+    "final": [
+     "-0.298771",
+     "0",
+     "0.101745",
+     "0.328141"
+    ]
+   },
+   {
+    "key": "C26/ALL",
+    "status": "guarded",
+    "pre": [
+     "31",
+     "59",
+     "82",
+     "97"
+    ],
+    "final": [
+     "59",
+     "75",
+     "85",
+     "97"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "31",
+      "final": "59",
+      "guardrail_moved": true,
+      "base": "64",
+      "expected_final_cap5": "59",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "59",
+      "final": "75",
+      "guardrail_moved": true,
+      "base": "80",
+      "expected_final_cap5": "75",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "82",
+      "final": "85",
+      "guardrail_moved": true,
+      "base": "90",
+      "expected_final_cap5": "85",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "97",
+      "final": "97",
+      "guardrail_moved": false,
+      "base": "97",
+      "expected_final_cap5": "97",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "64",
+     "80",
+     "90",
+     "97"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "C27/ALL",
+    "status": "guarded",
+    "pre": [
+     "68",
+     "83",
+     "91",
+     "97"
+    ],
+    "final": [
+     "68",
+     "83",
+     "91",
+     "97"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "68",
+      "final": "68",
+      "guardrail_moved": false,
+      "base": "69",
+      "expected_final_cap5": "68",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "83",
+      "final": "83",
+      "guardrail_moved": false,
+      "base": "84",
+      "expected_final_cap5": "83",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "91",
+      "final": "91",
+      "guardrail_moved": false,
+      "base": "91",
+      "expected_final_cap5": "91",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "97",
+      "final": "97",
+      "guardrail_moved": false,
+      "base": "96",
+      "expected_final_cap5": "97",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "69",
+     "84",
+     "91",
+     "96"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "C28/ALL",
+    "status": "guarded",
+    "pre": [
+     "47",
+     "77",
+     "87",
+     "94"
+    ],
+    "final": [
+     "36",
+     "59",
+     "83",
+     "94"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "47",
+      "final": "36",
+      "guardrail_moved": true,
+      "base": "32",
+      "expected_final_cap5": "37",
+      "cap5_consistent": false
+     },
+     {
+      "i": 1,
+      "pre": "77",
+      "final": "59",
+      "guardrail_moved": true,
+      "base": "61",
+      "expected_final_cap5": "66",
+      "cap5_consistent": false
+     },
+     {
+      "i": 2,
+      "pre": "87",
+      "final": "83",
+      "guardrail_moved": true,
+      "base": "78",
+      "expected_final_cap5": "83",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "94",
+      "final": "94",
+      "guardrail_moved": false,
+      "base": "94",
+      "expected_final_cap5": "94",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "32",
+     "61",
+     "78",
+     "94"
+    ],
+    "all_cap5_consistent": false
+   },
+   {
+    "key": "D01/MA-PD",
+    "status": "guarded",
+    "pre": [
+     "57",
+     "68",
+     "80",
+     "91"
+    ],
+    "final": [
+     "30",
+     "64",
+     "80",
+     "91"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "57",
+      "final": "30",
+      "guardrail_moved": true,
+      "base": "25",
+      "expected_final_cap5": "30",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "68",
+      "final": "64",
+      "guardrail_moved": true,
+      "base": "59",
+      "expected_final_cap5": "64",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "80",
+      "final": "80",
+      "guardrail_moved": false,
+      "base": "84",
+      "expected_final_cap5": "80",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "91",
+      "final": "91",
+      "guardrail_moved": false,
+      "base": "94",
+      "expected_final_cap5": "91",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "25",
+     "59",
+     "84",
+     "94"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "D01/PDP",
+    "status": "guarded",
+    "pre": [
+     "60",
+     "75",
+     "91",
+     "97"
+    ],
+    "final": [
+     "60",
+     "75",
+     "91",
+     "97"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "60",
+      "final": "60",
+      "guardrail_moved": false,
+      "base": "63",
+      "expected_final_cap5": "60",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "75",
+      "final": "75",
+      "guardrail_moved": false,
+      "base": "80",
+      "expected_final_cap5": "75",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "91",
+      "final": "91",
+      "guardrail_moved": false,
+      "base": "89",
+      "expected_final_cap5": "91",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "97",
+      "final": "97",
+      "guardrail_moved": false,
+      "base": "97",
+      "expected_final_cap5": "97",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "63",
+     "80",
+     "89",
+     "97"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "D02/MA-PD",
+    "status": "guarded",
+    "pre": [
+     "0.19",
+     "0.5",
+     "0.89",
+     "1.59"
+    ],
+    "final": [
+     "0.19",
+     "0.5",
+     "0.89",
+     "1.53"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "0.19",
+      "final": "0.19",
+      "guardrail_moved": false,
+      "base": "0.17"
+     },
+     {
+      "i": 1,
+      "pre": "0.5",
+      "final": "0.5",
+      "guardrail_moved": false,
+      "base": "0.37"
+     },
+     {
+      "i": 2,
+      "pre": "0.89",
+      "final": "0.89",
+      "guardrail_moved": false,
+      "base": "0.79"
+     },
+     {
+      "i": 3,
+      "pre": "1.59",
+      "final": "1.53",
+      "guardrail_moved": true,
+      "base": "1.14"
+     }
+    ],
+    "base_2022": [
+     "0.17",
+     "0.37",
+     "0.79",
+     "1.14"
+    ]
+   },
+   {
+    "key": "D02/PDP",
+    "status": "guarded",
+    "pre": [
+     "0.06",
+     "0.13",
+     "0.26",
+     "0.41"
+    ],
+    "final": [
+     "0.06",
+     "0.13",
+     "0.22",
+     "0.34"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "0.06",
+      "final": "0.06",
+      "guardrail_moved": false,
+      "base": "0.03"
+     },
+     {
+      "i": 1,
+      "pre": "0.13",
+      "final": "0.13",
+      "guardrail_moved": false,
+      "base": "0.1"
+     },
+     {
+      "i": 2,
+      "pre": "0.26",
+      "final": "0.22",
+      "guardrail_moved": true,
+      "base": "0.15"
+     },
+     {
+      "i": 3,
+      "pre": "0.41",
+      "final": "0.34",
+      "guardrail_moved": true,
+      "base": "0.21"
+     }
+    ],
+    "base_2022": [
+     "0.03",
+     "0.1",
+     "0.15",
+     "0.21"
+    ]
+   },
+   {
+    "key": "D03/MA-PD",
+    "status": "guarded",
+    "pre": [
+     "7",
+     "15",
+     "24",
+     "37"
+    ],
+    "final": [
+     "7",
+     "15",
+     "24",
+     "39"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "7",
+      "final": "7",
+      "guardrail_moved": false,
+      "base": "9",
+      "expected_final_cap5": "7",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "15",
+      "final": "15",
+      "guardrail_moved": false,
+      "base": "16",
+      "expected_final_cap5": "15",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "24",
+      "final": "24",
+      "guardrail_moved": false,
+      "base": "29",
+      "expected_final_cap5": "24",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "37",
+      "final": "39",
+      "guardrail_moved": true,
+      "base": "44",
+      "expected_final_cap5": "39",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "9",
+     "16",
+     "29",
+     "44"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "D03/PDP",
+    "status": "guarded",
+    "pre": [
+     "7",
+     "11",
+     "16",
+     "23"
+    ],
+    "final": [
+     "7",
+     "11",
+     "16",
+     "23"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "7",
+      "final": "7",
+      "guardrail_moved": false,
+      "base": "6",
+      "expected_final_cap5": "7",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "11",
+      "final": "11",
+      "guardrail_moved": false,
+      "base": "9",
+      "expected_final_cap5": "11",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "16",
+      "final": "16",
+      "guardrail_moved": false,
+      "base": "13",
+      "expected_final_cap5": "16",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "23",
+      "final": "23",
+      "guardrail_moved": false,
+      "base": "20",
+      "expected_final_cap5": "23",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "6",
+     "9",
+     "13",
+     "20"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "D04/MA-PD",
+    "status": "improvement-exempt",
+    "pre_equals_final": true,
+    "pre": [
+     "-0.325131",
+     "0",
+     "0.159307",
+     "0.391045"
+    ],
+    "final": [
+     "-0.325131",
+     "0",
+     "0.159307",
+     "0.391045"
+    ]
+   },
+   {
+    "key": "D04/PDP",
+    "status": "improvement-exempt",
+    "pre_equals_final": true,
+    "pre": [
+     "-0.237362",
+     "0",
+     "0.389234",
+     "0.851667"
+    ],
+    "final": [
+     "-0.237362",
+     "0",
+     "0.389234",
+     "0.851667"
+    ]
+   },
+   {
+    "key": "D07/MA-PD",
+    "status": "new-exempt",
+    "pre_equals_final": true,
+    "pre": [
+     "72",
+     "86",
+     "93",
+     "97"
+    ],
+    "final": [
+     "72",
+     "86",
+     "93",
+     "97"
+    ]
+   },
+   {
+    "key": "D07/PDP",
+    "status": "new-exempt",
+    "pre_equals_final": true,
+    "pre": [
+     "90",
+     "94",
+     "96",
+     "99"
+    ],
+    "final": [
+     "90",
+     "94",
+     "96",
+     "99"
+    ]
+   },
+   {
+    "key": "D08/MA-PD",
+    "status": "guarded",
+    "pre": [
+     "79",
+     "85",
+     "88",
+     "92"
+    ],
+    "final": [
+     "79",
+     "85",
+     "88",
+     "92"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "79",
+      "final": "79",
+      "guardrail_moved": false,
+      "base": "80",
+      "expected_final_cap5": "79",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "85",
+      "final": "85",
+      "guardrail_moved": false,
+      "base": "85",
+      "expected_final_cap5": "85",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "88",
+      "final": "88",
+      "guardrail_moved": false,
+      "base": "87",
+      "expected_final_cap5": "88",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "92",
+      "final": "92",
+      "guardrail_moved": false,
+      "base": "91",
+      "expected_final_cap5": "92",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "80",
+     "85",
+     "87",
+     "91"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "D08/PDP",
+    "status": "guarded",
+    "pre": [
+     "84",
+     "86",
+     "88",
+     "90"
+    ],
+    "final": [
+     "84",
+     "86",
+     "88",
+     "90"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "84",
+      "final": "84",
+      "guardrail_moved": false,
+      "base": "84",
+      "expected_final_cap5": "84",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "86",
+      "final": "86",
+      "guardrail_moved": false,
+      "base": "86",
+      "expected_final_cap5": "86",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "88",
+      "final": "88",
+      "guardrail_moved": false,
+      "base": "88",
+      "expected_final_cap5": "88",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "90",
+      "final": "90",
+      "guardrail_moved": false,
+      "base": "90",
+      "expected_final_cap5": "90",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "84",
+     "86",
+     "88",
+     "90"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "D09/MA-PD",
+    "status": "guarded",
+    "pre": [
+     "83",
+     "86",
+     "89",
+     "91"
+    ],
+    "final": [
+     "78",
+     "86",
+     "89",
+     "91"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "83",
+      "final": "78",
+      "guardrail_moved": true,
+      "base": "74",
+      "expected_final_cap5": "79",
+      "cap5_consistent": false
+     },
+     {
+      "i": 1,
+      "pre": "86",
+      "final": "86",
+      "guardrail_moved": false,
+      "base": "82",
+      "expected_final_cap5": "86",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "89",
+      "final": "89",
+      "guardrail_moved": false,
+      "base": "87",
+      "expected_final_cap5": "89",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "91",
+      "final": "91",
+      "guardrail_moved": false,
+      "base": "90",
+      "expected_final_cap5": "91",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "74",
+     "82",
+     "87",
+     "90"
+    ],
+    "all_cap5_consistent": false
+   },
+   {
+    "key": "D09/PDP",
+    "status": "guarded",
+    "pre": [
+     "86",
+     "89",
+     "91",
+     "96"
+    ],
+    "final": [
+     "86",
+     "89",
+     "91",
+     "96"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "86",
+      "final": "86",
+      "guardrail_moved": false,
+      "base": "85",
+      "expected_final_cap5": "86",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "89",
+      "final": "89",
+      "guardrail_moved": false,
+      "base": "88",
+      "expected_final_cap5": "89",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "91",
+      "final": "91",
+      "guardrail_moved": false,
+      "base": "89",
+      "expected_final_cap5": "91",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "96",
+      "final": "96",
+      "guardrail_moved": false,
+      "base": "91",
+      "expected_final_cap5": "96",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "85",
+     "88",
+     "89",
+     "91"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "D10/MA-PD",
+    "status": "guarded",
+    "pre": [
+     "81",
+     "85",
+     "88",
+     "92"
+    ],
+    "final": [
+     "81",
+     "85",
+     "88",
+     "92"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "81",
+      "final": "81",
+      "guardrail_moved": false,
+      "base": "78",
+      "expected_final_cap5": "81",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "85",
+      "final": "85",
+      "guardrail_moved": false,
+      "base": "83",
+      "expected_final_cap5": "85",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "88",
+      "final": "88",
+      "guardrail_moved": false,
+      "base": "87",
+      "expected_final_cap5": "88",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "92",
+      "final": "92",
+      "guardrail_moved": false,
+      "base": "91",
+      "expected_final_cap5": "92",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "78",
+     "83",
+     "87",
+     "91"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "D10/PDP",
+    "status": "guarded",
+    "pre": [
+     "84",
+     "87",
+     "88",
+     "90"
+    ],
+    "final": [
+     "84",
+     "87",
+     "88",
+     "90"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "84",
+      "final": "84",
+      "guardrail_moved": false,
+      "base": "82",
+      "expected_final_cap5": "84",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "87",
+      "final": "87",
+      "guardrail_moved": false,
+      "base": "86",
+      "expected_final_cap5": "87",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "88",
+      "final": "88",
+      "guardrail_moved": false,
+      "base": "88",
+      "expected_final_cap5": "88",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "90",
+      "final": "90",
+      "guardrail_moved": false,
+      "base": "90",
+      "expected_final_cap5": "90",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "82",
+     "86",
+     "88",
+     "90"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "D11/MA-PD",
+    "status": "guarded",
+    "pre": [
+     "41",
+     "67",
+     "82",
+     "89"
+    ],
+    "final": [
+     "47",
+     "67",
+     "82",
+     "89"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "41",
+      "final": "47",
+      "guardrail_moved": true,
+      "base": "54",
+      "expected_final_cap5": "49",
+      "cap5_consistent": false
+     },
+     {
+      "i": 1,
+      "pre": "67",
+      "final": "67",
+      "guardrail_moved": false,
+      "base": "72",
+      "expected_final_cap5": "67",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "82",
+      "final": "82",
+      "guardrail_moved": false,
+      "base": "82",
+      "expected_final_cap5": "82",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "89",
+      "final": "89",
+      "guardrail_moved": false,
+      "base": "89",
+      "expected_final_cap5": "89",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "54",
+     "72",
+     "82",
+     "89"
+    ],
+    "all_cap5_consistent": false
+   },
+   {
+    "key": "D11/PDP",
+    "status": "guarded",
+    "pre": [
+     "34",
+     "49",
+     "62",
+     "78"
+    ],
+    "final": [
+     "34",
+     "49",
+     "62",
+     "78"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "34",
+      "final": "34",
+      "guardrail_moved": false,
+      "base": "31",
+      "expected_final_cap5": "34",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "49",
+      "final": "49",
+      "guardrail_moved": false,
+      "base": "47",
+      "expected_final_cap5": "49",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "62",
+      "final": "62",
+      "guardrail_moved": false,
+      "base": "61",
+      "expected_final_cap5": "62",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "78",
+      "final": "78",
+      "guardrail_moved": false,
+      "base": "74",
+      "expected_final_cap5": "78",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "31",
+     "47",
+     "61",
+     "74"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "D12/MA-PD",
+    "status": "guarded",
+    "pre": [
+     "80",
+     "84",
+     "86",
+     "90"
+    ],
+    "final": [
+     "80",
+     "84",
+     "86",
+     "90"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "80",
+      "final": "80",
+      "guardrail_moved": false,
+      "base": "76",
+      "expected_final_cap5": "80",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "84",
+      "final": "84",
+      "guardrail_moved": false,
+      "base": "80",
+      "expected_final_cap5": "84",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "86",
+      "final": "86",
+      "guardrail_moved": false,
+      "base": "84",
+      "expected_final_cap5": "86",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "90",
+      "final": "90",
+      "guardrail_moved": false,
+      "base": "88",
+      "expected_final_cap5": "90",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "76",
+     "80",
+     "84",
+     "88"
+    ],
+    "all_cap5_consistent": true
+   },
+   {
+    "key": "D12/PDP",
+    "status": "guarded",
+    "pre": [
+     "80",
+     "82",
+     "84",
+     "86"
+    ],
+    "final": [
+     "80",
+     "82",
+     "84",
+     "86"
+    ],
+    "boundaries": [
+     {
+      "i": 0,
+      "pre": "80",
+      "final": "80",
+      "guardrail_moved": false,
+      "base": "77",
+      "expected_final_cap5": "80",
+      "cap5_consistent": true
+     },
+     {
+      "i": 1,
+      "pre": "82",
+      "final": "82",
+      "guardrail_moved": false,
+      "base": "79",
+      "expected_final_cap5": "82",
+      "cap5_consistent": true
+     },
+     {
+      "i": 2,
+      "pre": "84",
+      "final": "84",
+      "guardrail_moved": false,
+      "base": "82",
+      "expected_final_cap5": "84",
+      "cap5_consistent": true
+     },
+     {
+      "i": 3,
+      "pre": "86",
+      "final": "86",
+      "guardrail_moved": false,
+      "base": "84",
+      "expected_final_cap5": "86",
+      "cap5_consistent": true
+     }
+    ],
+    "base_2022": [
+     "77",
+     "79",
+     "82",
+     "84"
+    ],
+    "all_cap5_consistent": true
+   }
+  ]
+ },
+ "restricted_range_test": {
+  "semantics": "cap = five percent of the score range; variants prior-year vs current-year published scores, org-split. RESULT: with the published base (1.14) and either variant's cap the clip lands at 1.27-1.28 on the MA-side complaints splits, far from both published finals (1.53 published in the data tables / 1.52 in the final Tech Notes) - the complaints splits are part of the falsified-published-base set; the operative base and range inputs are unpublished. All boundaries not listed in tallies.restricted_falsified_cells match pre exactly.",
+  "tn_final_value": "1.52",
+  "rows": {
+   "C23/ALL": {
+    "prior_year_2022_split": {
+     "range": "253/100",
+     "cap_exact": "253/2000",
+     "cap_float": 0.1265,
+     "boundaries": [
+      {
+       "i": 0,
+       "pre": "19/100",
+       "base": "17/100",
+       "expected_final_exact": "19/100",
+       "expected_final_float": 0.19,
+       "published_final": "0.19",
+       "match_at_2dp": true
+      },
+      {
+       "i": 1,
+       "pre": "1/2",
+       "base": "37/100",
+       "expected_final_exact": "993/2000",
+       "expected_final_float": 0.4965,
+       "published_final": "0.5",
+       "match_at_2dp": true
+      },
+      {
+       "i": 2,
+       "pre": "89/100",
+       "base": "79/100",
+       "expected_final_exact": "89/100",
+       "expected_final_float": 0.89,
+       "published_final": "0.89",
+       "match_at_2dp": true
+      },
+      {
+       "i": 3,
+       "pre": "159/100",
+       "base": "57/50",
+       "expected_final_exact": "2533/2000",
+       "expected_final_float": 1.2665,
+       "published_final": "1.53",
+       "match_at_2dp": false
+      }
+     ]
+    },
+    "current_year_2023_split": {
+     "range": "72/25",
+     "cap_exact": "18/125",
+     "cap_float": 0.144,
+     "boundaries": [
+      {
+       "i": 0,
+       "pre": "19/100",
+       "base": "17/100",
+       "expected_final_exact": "19/100",
+       "expected_final_float": 0.19,
+       "published_final": "0.19",
+       "match_at_2dp": true
+      },
+      {
+       "i": 1,
+       "pre": "1/2",
+       "base": "37/100",
+       "expected_final_exact": "1/2",
+       "expected_final_float": 0.5,
+       "published_final": "0.5",
+       "match_at_2dp": true
+      },
+      {
+       "i": 2,
+       "pre": "89/100",
+       "base": "79/100",
+       "expected_final_exact": "89/100",
+       "expected_final_float": 0.89,
+       "published_final": "0.89",
+       "match_at_2dp": true
+      },
+      {
+       "i": 3,
+       "pre": "159/100",
+       "base": "57/50",
+       "expected_final_exact": "321/250",
+       "expected_final_float": 1.284,
+       "published_final": "1.53",
+       "match_at_2dp": false
+      }
+     ]
+    }
+   },
+   "D02/MA-PD": {
+    "prior_year_2022_split": {
+     "range": "253/100",
+     "cap_exact": "253/2000",
+     "cap_float": 0.1265,
+     "boundaries": [
+      {
+       "i": 0,
+       "pre": "19/100",
+       "base": "17/100",
+       "expected_final_exact": "19/100",
+       "expected_final_float": 0.19,
+       "published_final": "0.19",
+       "match_at_2dp": true
+      },
+      {
+       "i": 1,
+       "pre": "1/2",
+       "base": "37/100",
+       "expected_final_exact": "993/2000",
+       "expected_final_float": 0.4965,
+       "published_final": "0.5",
+       "match_at_2dp": true
+      },
+      {
+       "i": 2,
+       "pre": "89/100",
+       "base": "79/100",
+       "expected_final_exact": "89/100",
+       "expected_final_float": 0.89,
+       "published_final": "0.89",
+       "match_at_2dp": true
+      },
+      {
+       "i": 3,
+       "pre": "159/100",
+       "base": "57/50",
+       "expected_final_exact": "2533/2000",
+       "expected_final_float": 1.2665,
+       "published_final": "1.53",
+       "match_at_2dp": false
+      }
+     ]
+    },
+    "current_year_2023_split": {
+     "range": "72/25",
+     "cap_exact": "18/125",
+     "cap_float": 0.144,
+     "boundaries": [
+      {
+       "i": 0,
+       "pre": "19/100",
+       "base": "17/100",
+       "expected_final_exact": "19/100",
+       "expected_final_float": 0.19,
+       "published_final": "0.19",
+       "match_at_2dp": true
+      },
+      {
+       "i": 1,
+       "pre": "1/2",
+       "base": "37/100",
+       "expected_final_exact": "1/2",
+       "expected_final_float": 0.5,
+       "published_final": "0.5",
+       "match_at_2dp": true
+      },
+      {
+       "i": 2,
+       "pre": "89/100",
+       "base": "79/100",
+       "expected_final_exact": "89/100",
+       "expected_final_float": 0.89,
+       "published_final": "0.89",
+       "match_at_2dp": true
+      },
+      {
+       "i": 3,
+       "pre": "159/100",
+       "base": "57/50",
+       "expected_final_exact": "321/250",
+       "expected_final_float": 1.284,
+       "published_final": "1.53",
+       "match_at_2dp": false
+      }
+     ]
+    }
+   },
+   "D02/PDP": {
+    "prior_year_2022_split": {
+     "range": "63/100",
+     "cap_exact": "63/2000",
+     "cap_float": 0.0315,
+     "boundaries": [
+      {
+       "i": 0,
+       "pre": "3/50",
+       "base": "3/100",
+       "expected_final_exact": "3/50",
+       "expected_final_float": 0.06,
+       "published_final": "0.06",
+       "match_at_2dp": true
+      },
+      {
+       "i": 1,
+       "pre": "13/100",
+       "base": "1/10",
+       "expected_final_exact": "13/100",
+       "expected_final_float": 0.13,
+       "published_final": "0.13",
+       "match_at_2dp": true
+      },
+      {
+       "i": 2,
+       "pre": "13/50",
+       "base": "3/20",
+       "expected_final_exact": "363/2000",
+       "expected_final_float": 0.1815,
+       "published_final": "0.22",
+       "match_at_2dp": false
+      },
+      {
+       "i": 3,
+       "pre": "41/100",
+       "base": "21/100",
+       "expected_final_exact": "483/2000",
+       "expected_final_float": 0.2415,
+       "published_final": "0.34",
+       "match_at_2dp": false
+      }
+     ]
+    },
+    "current_year_2023_split": {
+     "range": "33/50",
+     "cap_exact": "33/1000",
+     "cap_float": 0.033,
+     "boundaries": [
+      {
+       "i": 0,
+       "pre": "3/50",
+       "base": "3/100",
+       "expected_final_exact": "3/50",
+       "expected_final_float": 0.06,
+       "published_final": "0.06",
+       "match_at_2dp": true
+      },
+      {
+       "i": 1,
+       "pre": "13/100",
+       "base": "1/10",
+       "expected_final_exact": "13/100",
+       "expected_final_float": 0.13,
+       "published_final": "0.13",
+       "match_at_2dp": true
+      },
+      {
+       "i": 2,
+       "pre": "13/50",
+       "base": "3/20",
+       "expected_final_exact": "183/1000",
+       "expected_final_float": 0.183,
+       "published_final": "0.22",
+       "match_at_2dp": false
+      },
+      {
+       "i": 3,
+       "pre": "41/100",
+       "base": "21/100",
+       "expected_final_exact": "243/1000",
+       "expected_final_float": 0.243,
+       "published_final": "0.34",
+       "match_at_2dp": false
+      }
+     ]
+    }
+   }
+  }
+ },
+ "anomalies": [
+  "C23 and D02(MA-PD) 1-2 star FINAL cut points: the first-release Tech Notes (09/28/2022) and the published data tables (Oct 04 2022, the only vintage ever posted) read 1.53; the final Tech Notes (01/19/2023) read 1.52. The published data tables carry 1.53.",
+  "The final version's Document Change Log entry reads (normalized): '9/28/2022 Fixed a typo in the 1- and 2- star cut points for measure C24 and D02 (MAPD cut points only) and fixed a typo in the 1/19/2023 description of the restricted range cap under Methodology for Assigning Stars to the Part C and Part D Measures'. In the release diff record (runs/tn2023_release_diff.json, catalog item c23_d02_1_2_star_cutpoint_cells), the cut-point cells that change numerically between releases are C23's and D02(MA-PD)'s; C24's cut-point cells are identical after whitespace normalization.",
+  "Impact check [exact]: no MA-side contract has a published C23/D02 score in (1.52, 1.53] (nearest is 1.50 -> 2 stars under both readings), so the 1.52-vs-1.53 discrepancy flips no published measure star in the 2023 data tables.",
+  "The first release defines the restricted-range cap on the CURRENT year's score range (Methodology body + Attachment J); the 01/19/2023 version reads PRIOR year's in both passages (release-diff catalog item restricted_range_cap_redefinition, located on both passages).",
+  "First-release Table J-3 5-star cells for C23 and C24 read '>= 0.19' and '>= 7 %'; the final version reads '<= 0.19' and '<= 7 %' (both measures are lower-is-better per their General Trend fields; release-diff catalog item j3_direction_symbol_cells).",
+  "2023 Cut Point Trend document (10/31/2022) D12/PDP 2023 4-star cell reads '>= 84 % to < 84 %' - an empty interval as printed; both Tech Notes versions and the data table read '< 86 %'.",
+  "Table 4: Minimum Number of Measure Scores Required for an Improvement Measure Rating by Contract Type, Part D row: 4 columns read '6 of 11' in the first release and '5 of 11' in the final version (one the starred variant; release-diff catalog item table4_part_d_row). The Document Change Log entry does not describe this change."
+ ]
+}

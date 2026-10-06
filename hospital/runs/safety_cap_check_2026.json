@@ -1,0 +1,152 @@
+{
+ "run": "safety_cap_check_2026",
+ "cap_rule": {
+  "source_code": "work/R pack/2 - Second Stage_Weighted Average and Categorize Star_2026Apr.R, lines 254-280 (Safe_q = ntile(Std_Outcomes_Safety_score, 4); star_p3 = ifelse(Outcomes_Safety_cnt >= 3 & Safe_q == 1 & star > 4, 4, star))",
+  "methodology": "Star_Rtngs_CompMthdlgy_v5.1.pdf Step 9: 4-star cap, lowest Safety-of-Care quartile with >=3 safety measures; finalized CY2026 OPPS/ASC Final Rule (CMS-1834-FC); CY2027 anticipated replacement: blanket 1-star reduction (same trigger)",
+  "safe_q_provenance": "R's own ntile output, dumped from the post-program-2 global qq by work/dump_fullprec_2026.R (no reimplementation)"
+ },
+ "cap_replay_validation": {
+  "starred_rows_checked": 3203,
+  "python_replay_mismatches_vs_R_star_p3": 0,
+  "shipped_capped_5_to_4": 15
+ },
+ "dp_corrected_hospitals": 213,
+ "survive_cap_unchanged": 208,
+ "modified_by_cap": 5,
+ "modified_detail": [
+  {
+   "provider_id": "060027",
+   "peer": "peer5",
+   "shipped_precap": 4,
+   "shipped_postcap": 4,
+   "dp_precap": 5,
+   "dp_postcap": 4,
+   "safe_q": 1,
+   "safety_cnt": 7,
+   "cap_touches_shipped": false,
+   "cap_touches_dp": true
+  },
+  {
+   "provider_id": "170186",
+   "peer": "peer5",
+   "shipped_precap": 4,
+   "shipped_postcap": 4,
+   "dp_precap": 5,
+   "dp_postcap": 4,
+   "safe_q": 1,
+   "safety_cnt": 4,
+   "cap_touches_shipped": false,
+   "cap_touches_dp": true
+  },
+  {
+   "provider_id": "240052",
+   "peer": "peer5",
+   "shipped_precap": 4,
+   "shipped_postcap": 4,
+   "dp_precap": 5,
+   "dp_postcap": 4,
+   "safe_q": 1,
+   "safety_cnt": 3,
+   "cap_touches_shipped": false,
+   "cap_touches_dp": true
+  },
+  {
+   "provider_id": "450372",
+   "peer": "peer5",
+   "shipped_precap": 4,
+   "shipped_postcap": 4,
+   "dp_precap": 5,
+   "dp_postcap": 4,
+   "safe_q": 1,
+   "safety_cnt": 4,
+   "cap_touches_shipped": false,
+   "cap_touches_dp": true
+  },
+  {
+   "provider_id": "490009",
+   "peer": "peer5",
+   "shipped_precap": 4,
+   "shipped_postcap": 4,
+   "dp_precap": 5,
+   "dp_postcap": 4,
+   "safe_q": 1,
+   "safety_cnt": 8,
+   "cap_touches_shipped": false,
+   "cap_touches_dp": true
+  }
+ ],
+ "dp5_capped_detail": [
+  {
+   "provider_id": "060027",
+   "peer": "peer5",
+   "shipped_precap": 4,
+   "shipped_postcap": 4,
+   "dp_precap": 5,
+   "dp_postcap": 4,
+   "safe_q": 1,
+   "safety_cnt": 7,
+   "cap_touches_shipped": false,
+   "cap_touches_dp": true
+  },
+  {
+   "provider_id": "170186",
+   "peer": "peer5",
+   "shipped_precap": 4,
+   "shipped_postcap": 4,
+   "dp_precap": 5,
+   "dp_postcap": 4,
+   "safe_q": 1,
+   "safety_cnt": 4,
+   "cap_touches_shipped": false,
+   "cap_touches_dp": true
+  },
+  {
+   "provider_id": "240052",
+   "peer": "peer5",
+   "shipped_precap": 4,
+   "shipped_postcap": 4,
+   "dp_precap": 5,
+   "dp_postcap": 4,
+   "safe_q": 1,
+   "safety_cnt": 3,
+   "cap_touches_shipped": false,
+   "cap_touches_dp": true
+  },
+  {
+   "provider_id": "450372",
+   "peer": "peer5",
+   "shipped_precap": 4,
+   "shipped_postcap": 4,
+   "dp_precap": 5,
+   "dp_postcap": 4,
+   "safe_q": 1,
+   "safety_cnt": 4,
+   "cap_touches_shipped": false,
+   "cap_touches_dp": true
+  },
+  {
+   "provider_id": "490009",
+   "peer": "peer5",
+   "shipped_precap": 4,
+   "shipped_postcap": 4,
+   "dp_precap": 5,
+   "dp_postcap": 4,
+   "safe_q": 1,
+   "safety_cnt": 8,
+   "cap_touches_shipped": false,
+   "cap_touches_dp": true
+  }
+ ],
+ "postcap_differ_census": {
+  "dp_postcap_vs_shipped_postcap_differs": 208,
+  "new_differs_created_by_cap": [],
+  "differs_erased_by_cap": [
+   "060027",
+   "170186",
+   "240052",
+   "450372",
+   "490009"
+  ]
+ },
+ "shipped_capped_hospitals_in_dp_differ_set": []
+}

@@ -1,0 +1,1450 @@
+{
+ "star_year": "2024",
+ "scope": "Aggregation-side specification: measure-level stars -> domain stars, Part C summary, Part D summary, overall rating, icons.",
+ "source": {
+  "file": "data/raw/sy2024/2024-star-ratings-technical-notes.pdf",
+  "document": "Medicare 2024 Part C & D Star Ratings Technical Notes",
+  "last_updated_printed": "03/13/2024",
+  "extraction": "pdftotext -layout (poppler 24.02.0); all numeric strings cross-verified against pdfplumber extraction of the same PDF",
+  "page_citation_convention": "Printed page numbers as shown in the PDF footers ('(Last Updated ...) Page N'), not physical PDF page indices.",
+  "precision_law": "All numbers in this file are decimal strings copied verbatim from the PDF; no float round-trips."
+ },
+ "summary_rating_rule": {
+  "method": "Weighted mean of measure-level stars (not of domain stars). Part C summary uses Part C measure stars; Part D summary uses Part D measure stars.",
+  "formula": "summary = sum_i(weight_i * star_i) / sum_i(weight_i), over the contract's rated measures for the relevant Part; measures without a rating are excluded from both sums.",
+  "verbatim_weighting": "The summary and overall ratings are calculated as weighted averages of the measure stars. For the 2024 Star Ratings, CMS assigns the highest weight to the improvement measures, followed by patient experience/complaints and access measures, then by outcome and intermediate outcome measures, and finally process measures. New measures included in the Star Ratings are given a weight of 1 for their first year of inclusion in the ratings; in subsequent years the weight associated with the measure weighting category is used. The weights assigned to each measure and their weighting category are shown in Attachment G.",
+  "verbatim_computation": "In calculating the summary and overall ratings, a measure given a weight of 3 counts three times as much as a measure given a weight of 1. For any given contract, any measure without a rating is not included in the calculation. The first step in the calculation is to multiply each measure\u2019s weight by the measure\u2019s rating and sum these results. The second step is to divide this sum by the sum of the weights of the contract\u2019s rated measures. For the summary and overall ratings, half stars are assigned to allow for more variation across contracts.",
+  "cite": "2024 Star Ratings Technical Notes, p. 19, \u201cSummary and Overall Ratings: Weighting of Measures\u201d",
+  "weights_table_reference": "Attachment G, Tables G-1 (Part C) and G-2 (Part D), pp. 127-129 \u2014 reproduced in measure_weights_2024 below.",
+  "org_type_applicability": {
+   "MA-PD": "Receives Part C summary, Part D summary, and overall rating. Highest rating = overall rating.",
+   "MA-only": "Receives Part C summary only (includes 1876 Cost and PFFS without drug benefits, MSA). Highest rating = Part C summary rating.",
+   "PDP": "Receives Part D summary only. Highest rating = Part D summary rating.",
+   "cite": "2024 Star Ratings Technical Notes, p. 12, \u201cTable 3: Relation of Organization Types to Contract Types and Highest Rating\u201d"
+  },
+  "minimum_rated_measures": {
+   "verbatim": "To receive a Part C and/or Part D summary rating, a contract must meet the minimum number of rated measures. The Parts C and D improvement measures are not included in the count of the minimum number of rated measures. The minimum number of rated measures required is determined as follows: If the total number of measures required for the organization type is odd, divide the number by two and round it to a whole number. If the total number of measures required for the organization type is even, divide the number of measures by two.",
+   "note": "The Parts C and D improvement measures are not included in the count of the minimum number of rated measures.",
+   "table_6": {
+    "part_c_summary": {
+     "1876 Cost": "11 of 22",
+     "CCP w/o SNP": "13 of 26",
+     "CCP with SNP": "15 of 29",
+     "CCP with Only I-SNP": "9 of 17",
+     "MSA": "13 of 25",
+     "PDP": "N/A",
+     "PFFS": "13 of 26"
+    },
+    "part_d_summary": {
+     "1876 Cost": "5 of 10*",
+     "CCP w/o SNP": "6 of 11",
+     "CCP with SNP": "6 of 11",
+     "CCP with Only I-SNP": "5 of 9",
+     "MSA": "N/A",
+     "PDP": "6 of 11",
+     "PFFS": "6 of 11*"
+    }
+   },
+   "table_6_footnotes": [
+    "* Note: Does not apply to MA-Only, 1876 Cost, and PFFS contracts which do not offer drug benefits.",
+    "\u2020 Note: 1876 Cost contracts which do not submit data for the MPF measure must have ratings in 5 out of 9measures to receive a Part D rating. [sic \u2014 '9measures' printed without space in source]"
+   ],
+   "cite": "2024 Star Ratings Technical Notes, p. 19-20, \u201cMethodology for Calculating Part C and Part D Summary Ratings, Table 6\u201d"
+  },
+  "adjustments_order": {
+   "verbatim": "There are two adjustments made to the results of the summary and overall calculations described above. First, to reward consistently high performance, CMS utilizes both the mean and the variance of the measure stars to differentiate contracts for the summary and overall ratings. If a contract has both high and stable relative performance, a reward factor is added to the contract\u2019s ratings. Details about the reward factor can be found in the section entitled \u201cApplying the Reward Factor.\u201d Second, the summary and overall ratings include a Categorical Adjustment Index (CAI) factor, which is added to or subtracted from a contract\u2019s summary and overall ratings. Details about the CAI can be found in the section entitled \u201cCategorical Adjustment Index (CAI).\u201d The summary and overall rating calculations are run twice, once including the improvement measures and once without including the improvement measures. Based on a comparison of the results of these two calculations a decision is made as to whether the improvement measures are to be included in calculating a contract\u2019s final summary and overall ratings. Details about the application of the improvement measures can be found in the section entitled \u201cApplying the Improvement Measure(s).\u201d Lastly, standard rounding rules are applied to convert the results of the final summary and overall ratings calculations into the publicly reported Star Ratings. Details about the rounding rules are presented in the section \u201cRounding Rules for Summary and Overall Ratings.\u201d",
+   "order": [
+    "1. Compute raw weighted mean of measure stars (with >= 6 decimal digits of precision), twice: with and without the improvement measure(s).",
+    "2. Add reward factor (r-Factor) where earned; computed both with and without improvement measures (see reward_factor).",
+    "3. Add or subtract CAI; applied both with and without improvement measures (see cai).",
+    "4. Choose with- vs without-improvement result per the hold-harmless rules (see improvement_hold_harmless).",
+    "5. Round the final value to the nearest half star per Table 22 (see rounding). Rounding happens LAST; no half-star rounding occurs mid-pipeline."
+   ],
+   "cite": "2024 Star Ratings Technical Notes, p. 21, \u201cCompleting the Summary and Overall Rating Calculations\u201d"
+  },
+  "rounding": {
+   "verbatim": "The results of the summary and overall calculations are rounded to the nearest half star (i.e., 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0).",
+   "tie_convention_verbatim": "For example, a summary or overall rating of 3.749999 rounds down to a rating of 3.5, and a rating of 3.750000 rounds up to rating of 4. That is, a score would need to be at least halfway between 3.5 and 4 (having a minimum value of 3.750000) in order to obtain the higher rating of 4.",
+   "tie_convention": "Band lower bounds are inclusive: a raw value exactly at X.X50000/X.750000/X.250000 boundary belongs to the HIGHER half-star band (e.g., exactly 3.750000 -> 4.0; 3.749999 -> 3.5).",
+   "table_22_bands": [
+    {
+     "raw_ge": "0.000000",
+     "raw_lt": "0.250000",
+     "final": "0"
+    },
+    {
+     "raw_ge": "0.250000",
+     "raw_lt": "0.750000",
+     "final": "0.5"
+    },
+    {
+     "raw_ge": "0.750000",
+     "raw_lt": "1.250000",
+     "final": "1.0"
+    },
+    {
+     "raw_ge": "1.250000",
+     "raw_lt": "1.750000",
+     "final": "1.5"
+    },
+    {
+     "raw_ge": "1.750000",
+     "raw_lt": "2.250000",
+     "final": "2.0"
+    },
+    {
+     "raw_ge": "2.250000",
+     "raw_lt": "2.750000",
+     "final": "2.5"
+    },
+    {
+     "raw_ge": "2.750000",
+     "raw_lt": "3.250000",
+     "final": "3.0"
+    },
+    {
+     "raw_ge": "3.250000",
+     "raw_lt": "3.750000",
+     "final": "3.5"
+    },
+    {
+     "raw_ge": "3.750000",
+     "raw_lt": "4.250000",
+     "final": "4.0"
+    },
+    {
+     "raw_ge": "4.250000",
+     "raw_lt": "4.750000",
+     "final": "4.5"
+    },
+    {
+     "raw_ge": "4.750000",
+     "raw_le": "5.000000",
+     "final": "5.0"
+    }
+   ],
+   "clamps": "Displayed scale is 0 to 5.0; Table 22 maps raw [0.000000, 5.000000] onto {0, 0.5, ..., 5.0}. Raw values cannot exceed 5 (measure stars are 1-5; reward factor and CAI additions are applied to the raw score before rounding, and the top band '4.750000 to 5.000000 -> 5.0' is the published cap).",
+   "cite": "2024 Star Ratings Technical Notes, p. 30, \u201cRounding Rules for Summary and Overall Ratings, Table 22\u201d"
+  }
+ },
+ "improvement_hold_harmless": {
+  "improvement_measure_ids": {
+   "part_c": "C27",
+   "part_d": "D04"
+  },
+  "preamble_verbatim": "Since high performing contracts have less room for improvement and consequently may have lower ratings on these measure(s), CMS has developed the following rules to not penalize contracts receiving 4 or more stars for their highest rating.",
+  "ma_pd_steps_verbatim": [
+   "There are separate Part C and Part D improvement measures (C27 & D04) for MA-PD contracts. a. C27 is used in calculating the Part C summary rating of an MA-PD contract. b. D04 is used in calculating the Part D summary rating for an MA-PD contract. c. Both improvement measures will be used when calculating the overall rating in step 3.",
+   "Calculate the overall rating for MA-PD contracts without including either improvement measure.",
+   "Calculate the overall rating for MA-PD contracts with both improvement measures included.",
+   "If an MA-PD contract in step 2 has 4 or more stars, compare the two overall ratings. If the rating in step 3 is less than the value in step 2, use the overall rating from step 2; otherwise use the result from step 3.",
+   "For all other MA-PD contracts, use the overall rating from step 3."
+  ],
+  "ma_only_steps_verbatim": [
+   "Only the Part C improvement measure (C27) is used for MA-Only contracts.",
+   "Calculate the Part C summary rating for MA-Only contracts without including the improvement measure.",
+   "Calculate the Part C summary rating for MA-Only contracts with the Part C improvement measure.",
+   "If an MA-Only contract in step 2 has 4 or more stars, compare the two Part C summary ratings. If the rating in step 3 is less than the value in step 2, use the Part C summary rating from step 2; otherwise use the result from step 3.",
+   "For all other MA-Only contracts, use the Part C summary rating from step 3."
+  ],
+  "pdp_steps_verbatim": [
+   "Only the Part D improvement measure (D04) is used for PDP contracts.",
+   "Calculate the Part D summary rating for PDP contracts without including the improvement measure.",
+   "Calculate the Part D summary rating for PDP contracts with the Part D improvement measure.",
+   "If a PDP contract in step 2 has 4 or more stars, compare the two Part D summary ratings. If the rating in step 3 is less than the value in step 2, use the Part D summary rating from step 2; otherwise use the result from step 3.",
+   "For all other PDP contracts, use the Part D summary rating from step 3."
+  ],
+  "highest_rating_rule": "The hold harmless applies to the contract's HIGHEST rating: overall for MA-PD, Part C summary for MA-Only, Part D summary for PDP (Table 3). For an MA-PD, the Part C and Part D SUMMARY ratings always include the respective improvement measure (steps 1a/1b); only the overall rating is computed with/without.",
+  "condition": "The 'has 4 or more stars' condition is evaluated on the step-2 (without-improvement) rating; contracts below 4 stars always use the with-improvement result (step 3).",
+  "cite": "2024 Star Ratings Technical Notes, p. 21-22, \u201cApplying the Improvement Measure(s)\u201d",
+  "improvement_measure_rating_minimums": {
+   "eligibility_verbatim": "Further, to receive a Star Rating in the improvement measures, a contract must have measure scores for both years in at least half of the required measures used to calculate the Part C improvement or Part D improvement measures. Improvement scores are not calculated for reconfigured regional contracts until data is available for the reconfigured structure from both years. Improvement scores are not calculated for consolidated contracts in their first year.",
+   "table_4_minimum_measure_scores": {
+    "part_c": {
+     "1876 Cost": "11 of 21",
+     "CCP w/o SNP": "12 of 23",
+     "CCP with SNP": "13 of 26",
+     "CCP with Only I-SNP": "7 of 14",
+     "MSA": "11 of 22",
+     "PDP": "N/A",
+     "PFFS": "12 of 23"
+    },
+    "part_d": {
+     "1876 Cost": "5 of 10*",
+     "CCP w/o SNP": "6 of 11",
+     "CCP with SNP": "6 of 11",
+     "CCP with Only I-SNP": "5 of 9",
+     "MSA": "N/A",
+     "PDP": "6 of 11",
+     "PFFS": "6 of 11*"
+    }
+   },
+   "footnote": "* Note: Does not apply to MA-Only, 1876 Cost, and PFFS contracts which do not offer drug benefits.",
+   "cite": "2024 Star Ratings Technical Notes, p. 14, \u201cImprovement Measures, Table 4\u201d",
+   "extraction_note": "Printed layout artifact: 2024 Table 4 Part D 'CCP w/o SNP' cell renders as '6of 11' in pdftotext (missing space); digits are unambiguous."
+  }
+ },
+ "cai": {
+  "applied_to": "Overall rating, Part C summary rating, Part D summary rating (separate CAI value per rating type; MA-PD Part D and PDP Part D have distinct tables).",
+  "verbatim": "CMS has implemented an analytical adjustment called the Categorical Adjustment Index (CAI). The CAI is a factor that is added to or subtracted from a contract\u2019s Overall and/or Summary Star Ratings to adjust for the average within-contract disparity in performance for Low Income Subsidy/Dual Eligible (LIS/DE) beneficiaries and disabled beneficiaries. The CAI value (factor) depends on the contract\u2019s percentage of beneficiaries with LIS/DE and the contract\u2019s percentage of beneficiaries with disabled status. These adjustments are performed both with and without the improvement measures included.",
+  "derivation_verbatim": "The CAI values use data collected for the 2023 Star Ratings. ... Adjusted measure scores are then converted to measure stars using the 2023 rating year measure cutoffs and used to calculate Adjusted Overall and Summary Star Ratings. ... The CAI values are the mean differences between the Adjusted Overall or Summary Star Rating and the corresponding Unadjusted Star Rating for contracts within each final adjustment group. ... Categories were chosen to enforce monotonicity and to yield a minimum number of 30 contracts per each final MA adjustment category and 5 contracts per each final PDP adjustment category.",
+  "measures_used_in_cai": [
+   "Breast Cancer Screening (Part C)",
+   "Colorectal Cancer Screening (Part C)",
+   "Annual Flu Vaccine (Part C)",
+   "Monitoring Physical Activity (Part C)",
+   "Osteoporosis Management in Women who had a Fracture (Part C)",
+   "Diabetes Care \u2013 Eye Exam (Part C)",
+   "Diabetes Care \u2013 Blood Sugar Controlled (Part C)",
+   "Controlling Blood Pressure (Part C)",
+   "Reducing the Risk of Falling (Part C)",
+   "Improving Bladder Control (Part C)",
+   "Medication Reconciliation Post-Discharge (Part C)",
+   "Statin Therapy for Patients with Cardiovascular Disease (Part C)",
+   "Medication Adherence for Diabetes Medication (Part D)",
+   "Medication Adherence for Hypertension (RAS antagonists) (Part D)",
+   "Medication Adherence for Cholesterol (Statins) (Part D)",
+   "MTM Program Completion Rate for CMR (Part D)",
+   "Statin Use in Patients with Diabetes (SUPD) (Part D)"
+  ],
+  "initial_groups": {
+   "overall_lisde_table10": [
+    {
+     "group": "1",
+     "ge": "0.000000",
+     "lt": "6.301653"
+    },
+    {
+     "group": "2",
+     "ge": "6.301653",
+     "lt": "8.983864"
+    },
+    {
+     "group": "3",
+     "ge": "8.983864",
+     "lt": "12.272291"
+    },
+    {
+     "group": "4",
+     "ge": "12.272291",
+     "lt": "17.623062"
+    },
+    {
+     "group": "5",
+     "ge": "17.623062",
+     "lt": "23.811644"
+    },
+    {
+     "group": "6",
+     "ge": "23.811644",
+     "lt": "32.478787"
+    },
+    {
+     "group": "7",
+     "ge": "32.478787",
+     "lt": "48.171334"
+    },
+    {
+     "group": "8",
+     "ge": "48.171334",
+     "lt": "76.744186"
+    },
+    {
+     "group": "9",
+     "ge": "76.744186",
+     "lt": "100.000000"
+    },
+    {
+     "group": "10",
+     "exactly": "100.000000"
+    }
+   ],
+   "overall_disability_table11": [
+    {
+     "group": "1",
+     "ge": "0.000000",
+     "lt": "15.246926"
+    },
+    {
+     "group": "2",
+     "ge": "15.246926",
+     "lt": "22.226124"
+    },
+    {
+     "group": "3",
+     "ge": "22.226124",
+     "lt": "29.541446"
+    },
+    {
+     "group": "4",
+     "ge": "29.541446",
+     "lt": "43.095797"
+    },
+    {
+     "group": "5",
+     "ge": "43.095797",
+     "le": "100.000000"
+    }
+   ],
+   "part_c_lisde_table13": [
+    {
+     "group": "1",
+     "ge": "0.000000",
+     "lt": "5.758017"
+    },
+    {
+     "group": "2",
+     "ge": "5.758017",
+     "lt": "8.524590"
+    },
+    {
+     "group": "3",
+     "ge": "8.524590",
+     "lt": "11.765670"
+    },
+    {
+     "group": "4",
+     "ge": "11.765670",
+     "lt": "17.215998"
+    },
+    {
+     "group": "5",
+     "ge": "17.215998",
+     "lt": "23.365002"
+    },
+    {
+     "group": "6",
+     "ge": "23.365002",
+     "lt": "31.600120"
+    },
+    {
+     "group": "7",
+     "ge": "31.600120",
+     "lt": "46.717818"
+    },
+    {
+     "group": "8",
+     "ge": "46.717818",
+     "lt": "74.752781"
+    },
+    {
+     "group": "9",
+     "ge": "74.752781",
+     "lt": "100.000000"
+    },
+    {
+     "group": "10",
+     "exactly": "100.000000"
+    }
+   ],
+   "part_c_disability_table14": [
+    {
+     "group": "1",
+     "ge": "0.000000",
+     "lt": "14.974530"
+    },
+    {
+     "group": "2",
+     "ge": "14.974530",
+     "lt": "21.948529"
+    },
+    {
+     "group": "3",
+     "ge": "21.948529",
+     "lt": "29.414572"
+    },
+    {
+     "group": "4",
+     "ge": "29.414572",
+     "lt": "42.395693"
+    },
+    {
+     "group": "5",
+     "ge": "42.395693",
+     "le": "100.000000"
+    }
+   ],
+   "mapd_part_d_lisde_table16": [
+    {
+     "group": "1",
+     "ge": "0.000000",
+     "lt": "6.507512"
+    },
+    {
+     "group": "2",
+     "ge": "6.507512",
+     "lt": "9.702347"
+    },
+    {
+     "group": "3",
+     "ge": "9.702347",
+     "lt": "13.812027"
+    },
+    {
+     "group": "4",
+     "ge": "13.812027",
+     "lt": "19.485294"
+    },
+    {
+     "group": "5",
+     "ge": "19.485294",
+     "lt": "26.769231"
+    },
+    {
+     "group": "6",
+     "ge": "26.769231",
+     "lt": "38.003026"
+    },
+    {
+     "group": "7",
+     "ge": "38.003026",
+     "lt": "58.059701"
+    },
+    {
+     "group": "8",
+     "ge": "58.059701",
+     "lt": "93.000000"
+    },
+    {
+     "group": "9",
+     "ge": "93.000000",
+     "lt": "100.000000"
+    },
+    {
+     "group": "10",
+     "exactly": "100.000000"
+    }
+   ],
+   "mapd_part_d_disability_table17": [
+    {
+     "group": "1",
+     "ge": "0.000000",
+     "lt": "15.588308"
+    },
+    {
+     "group": "2",
+     "ge": "15.588308",
+     "lt": "23.253251"
+    },
+    {
+     "group": "3",
+     "ge": "23.253251",
+     "lt": "32.385819"
+    },
+    {
+     "group": "4",
+     "ge": "32.385819",
+     "lt": "46.047270"
+    },
+    {
+     "group": "5",
+     "ge": "46.047270",
+     "le": "100.000000"
+    }
+   ],
+   "pdp_part_d_lisde_table19": [
+    {
+     "group": "1",
+     "ge": "0.000000",
+     "lt": "1.243781"
+    },
+    {
+     "group": "2",
+     "ge": "1.243781",
+     "lt": "2.398356"
+    },
+    {
+     "group": "3",
+     "ge": "2.398356",
+     "lt": "4.421104"
+    },
+    {
+     "group": "4",
+     "ge": "4.421104",
+     "lt": "10.174281"
+    },
+    {
+     "group": "5",
+     "ge": "10.174281",
+     "le": "100.000000"
+    }
+   ],
+   "pdp_part_d_disability_table20": [
+    {
+     "group": "1",
+     "ge": "0.000000",
+     "lt": "6.154784"
+    },
+    {
+     "group": "2",
+     "ge": "6.154784",
+     "lt": "8.398344"
+    },
+    {
+     "group": "3",
+     "ge": "8.398344",
+     "lt": "11.264808"
+    },
+    {
+     "group": "4",
+     "ge": "11.264808",
+     "lt": "15.616311"
+    },
+    {
+     "group": "5",
+     "ge": "15.616311",
+     "le": "100.000000"
+    }
+   ],
+   "interval_convention": "Each row is [lower, upper): lower bound inclusive, upper bound exclusive, except the highest group where the upper limit (100.000000) is inclusive; the L10 LIS/DE group is exactly 100.000000.",
+   "pdp_grouping": "2024: PDP initial groups use QUINTILES for both LIS/DE and disability (Tables 19-20)."
+  },
+  "final_adjustment_categories": {
+   "overall_table12": [
+    {
+     "final_adjustment_category": "1",
+     "cells": [
+      {
+       "lisde": "L1-L3",
+       "disability": "D1"
+      }
+     ],
+     "cai_value": "-0.024917"
+    },
+    {
+     "final_adjustment_category": "2",
+     "cells": [
+      {
+       "lisde": "L4-L10",
+       "disability": "D1"
+      },
+      {
+       "lisde": "L1-L10",
+       "disability": "D2"
+      },
+      {
+       "lisde": "L1-L4",
+       "disability": "D3"
+      }
+     ],
+     "cai_value": "-0.001531"
+    },
+    {
+     "final_adjustment_category": "3",
+     "cells": [
+      {
+       "lisde": "L5-L6",
+       "disability": "D3"
+      },
+      {
+       "lisde": "L1-L6",
+       "disability": "D4-D5"
+      }
+     ],
+     "cai_value": "0.016703"
+    },
+    {
+     "final_adjustment_category": "4",
+     "cells": [
+      {
+       "lisde": "L7-L9",
+       "disability": "D3"
+      },
+      {
+       "lisde": "L7-L8",
+       "disability": "D4"
+      },
+      {
+       "lisde": "L7",
+       "disability": "D5"
+      }
+     ],
+     "cai_value": "0.036199"
+    },
+    {
+     "final_adjustment_category": "5",
+     "cells": [
+      {
+       "lisde": "L8",
+       "disability": "D5"
+      }
+     ],
+     "cai_value": "0.067616"
+    },
+    {
+     "final_adjustment_category": "6",
+     "cells": [
+      {
+       "lisde": "L10",
+       "disability": "D3"
+      },
+      {
+       "lisde": "L9-L10",
+       "disability": "D4"
+      },
+      {
+       "lisde": "L9",
+       "disability": "D5"
+      }
+     ],
+     "cai_value": "0.087672"
+    },
+    {
+     "final_adjustment_category": "7",
+     "cells": [
+      {
+       "lisde": "L10",
+       "disability": "D5"
+      }
+     ],
+     "cai_value": "0.133273"
+    }
+   ],
+   "part_c_table15": [
+    {
+     "final_adjustment_category": "1",
+     "cells": [
+      {
+       "lisde": "L1-L7",
+       "disability": "D1"
+      },
+      {
+       "lisde": "L1-L6",
+       "disability": "D2"
+      },
+      {
+       "lisde": "L1-L5",
+       "disability": "D3"
+      },
+      {
+       "lisde": "L1-L4",
+       "disability": "D4"
+      }
+     ],
+     "cai_value": "-0.003487"
+    },
+    {
+     "final_adjustment_category": "2",
+     "cells": [
+      {
+       "lisde": "L8-L10",
+       "disability": "D1"
+      },
+      {
+       "lisde": "L7-L10",
+       "disability": "D2"
+      },
+      {
+       "lisde": "L6-L7",
+       "disability": "D3"
+      },
+      {
+       "lisde": "L5-L6",
+       "disability": "D4"
+      },
+      {
+       "lisde": "L1-L5",
+       "disability": "D5"
+      }
+     ],
+     "cai_value": "0.006987"
+    },
+    {
+     "final_adjustment_category": "3",
+     "cells": [
+      {
+       "lisde": "L8-L10",
+       "disability": "D3"
+      },
+      {
+       "lisde": "L7-L8",
+       "disability": "D4"
+      },
+      {
+       "lisde": "L6-L7",
+       "disability": "D5"
+      }
+     ],
+     "cai_value": "0.022797"
+    },
+    {
+     "final_adjustment_category": "4",
+     "cells": [
+      {
+       "lisde": "L8",
+       "disability": "D5"
+      }
+     ],
+     "cai_value": "0.044588"
+    },
+    {
+     "final_adjustment_category": "5",
+     "cells": [
+      {
+       "lisde": "L9-L10",
+       "disability": "D4-D5"
+      }
+     ],
+     "cai_value": "0.066880"
+    }
+   ],
+   "mapd_part_d_table18": [
+    {
+     "final_adjustment_category": "1",
+     "cells": [
+      {
+       "lisde": "L1-L3",
+       "disability": "D1"
+      }
+     ],
+     "cai_value": "-0.035219"
+    },
+    {
+     "final_adjustment_category": "2",
+     "cells": [
+      {
+       "lisde": "L4-L8",
+       "disability": "D1"
+      }
+     ],
+     "cai_value": "-0.018599"
+    },
+    {
+     "final_adjustment_category": "3",
+     "cells": [
+      {
+       "lisde": "L1-L7",
+       "disability": "D2"
+      },
+      {
+       "lisde": "L1-L6",
+       "disability": "D3"
+      },
+      {
+       "lisde": "L1-L5",
+       "disability": "D4-D5"
+      }
+     ],
+     "cai_value": "0.009901"
+    },
+    {
+     "final_adjustment_category": "4",
+     "cells": [
+      {
+       "lisde": "L9",
+       "disability": "D1"
+      },
+      {
+       "lisde": "L8-L9",
+       "disability": "D2"
+      },
+      {
+       "lisde": "L7-L8",
+       "disability": "D3"
+      },
+      {
+       "lisde": "L6-L7",
+       "disability": "D4"
+      },
+      {
+       "lisde": "L6",
+       "disability": "D5"
+      }
+     ],
+     "cai_value": "0.034454"
+    },
+    {
+     "final_adjustment_category": "5",
+     "cells": [
+      {
+       "lisde": "L8",
+       "disability": "D4"
+      },
+      {
+       "lisde": "L7-L8",
+       "disability": "D5"
+      }
+     ],
+     "cai_value": "0.079744"
+    },
+    {
+     "final_adjustment_category": "6",
+     "cells": [
+      {
+       "lisde": "L10",
+       "disability": "D1-D4"
+      },
+      {
+       "lisde": "L9",
+       "disability": "D3-D5"
+      }
+     ],
+     "cai_value": "0.110538"
+    },
+    {
+     "final_adjustment_category": "7",
+     "cells": [
+      {
+       "lisde": "L10",
+       "disability": "D5"
+      }
+     ],
+     "cai_value": "0.124667"
+    }
+   ],
+   "pdp_part_d_table21": [
+    {
+     "final_adjustment_category": "1",
+     "cells": [
+      {
+       "lisde": "L1",
+       "disability": "D1"
+      }
+     ],
+     "cai_value": "-0.317950"
+    },
+    {
+     "final_adjustment_category": "2",
+     "cells": [
+      {
+       "lisde": "L2",
+       "disability": "D1"
+      },
+      {
+       "lisde": "L1-L2",
+       "disability": "D2"
+      }
+     ],
+     "cai_value": "-0.172794"
+    },
+    {
+     "final_adjustment_category": "3",
+     "cells": [
+      {
+       "lisde": "L3-L5",
+       "disability": "D1-D2"
+      },
+      {
+       "lisde": "L1-L3",
+       "disability": "D3"
+      },
+      {
+       "lisde": "L1",
+       "disability": "D4"
+      }
+     ],
+     "cai_value": "-0.139296"
+    },
+    {
+     "final_adjustment_category": "4",
+     "cells": [
+      {
+       "lisde": "L4-L5",
+       "disability": "D3"
+      },
+      {
+       "lisde": "L2-L5",
+       "disability": "D4"
+      },
+      {
+       "lisde": "L1-L4",
+       "disability": "D5"
+      }
+     ],
+     "cai_value": "-0.067530"
+    },
+    {
+     "final_adjustment_category": "5",
+     "cells": [
+      {
+       "lisde": "L5",
+       "disability": "D5"
+      }
+     ],
+     "cai_value": "0.043919"
+    }
+   ]
+  },
+  "per_contract_source": "Per-contract final adjustment categories are published in '2024 Star Ratings Data Table - CAI (Jul 2 2024).csv' (columns: Contract Number, ..., Puerto Rico Only, Part C FAC, Part D MA-PD FAC, Part D PDP FAC, Overall FAC); map FAC -> CAI value via Tables 12/15/18/21. Contract LIS/DE and disability percentages themselves are not published.",
+  "puerto_rico": "Contracts solely serving Puerto Rico get a modified LIS/DE percentage (PR beneficiaries are not LIS-eligible) before categorization; methodology in Attachment O. The published CAI data table flags 'Puerto Rico Only' contracts.",
+  "cite": "2024 Star Ratings Technical Notes, p. 23-29, \u201cCategorical Adjustment Index (CAI), Tables 10-21\u201d"
+ },
+ "reward_factor": {
+  "eligibility": "Computed for every summary/overall rating of every rated contract; a contract earns r-Factor > 0 only if its mean and variance fall in the qualifying cells below. Calculations are performed both with and without the improvement measures included, AND both with and without the new measures (2024 Tables 8-9 carry an additional 'New Measures' With/Without dimension because of the disaster new-measure hold harmless: new measures for 2024 are Transitions of Care, Follow-up after ED Visit, and respecified Plan All-Cause Readmissions).",
+  "mean_verbatim": "The mean is equal to the summary or overall rating before the reward factor is applied, which is calculated as described in the section entitled \u201cWeighting of Measures.\u201d",
+  "mean_note": "The 'mean' is the raw weighted mean per Weighting of Measures \u2014 i.e., BEFORE the reward factor and before CAI.",
+  "weighted_variance_steps_verbatim": [
+   "Subtract the summary or overall star from each performance measure\u2019s star; square the results; and multiply each squared result by the corresponding individual performance measure weight.",
+   "Sum these results; call this \u2018SUMWX.\u2019",
+   "Set n equal to the number of individual performance measures available for the given contract.",
+   "Set W equal to the sum of the weights assigned to the n individual performance measures available for the given contract.",
+   "The weighted variance for the given contract is calculated as: n * SUMWX / (W * (n-1))."
+  ],
+  "weighted_variance_formula": "s_j^2 = n_j / ((n_j - 1) * sum_i(w_ij)) * sum_i(w_ij * (x_ij - xbar_j)^2)  [Attachment H]",
+  "variance_categories_verbatim": "Categorize the variance into three categories: low (0 to less than 30th percentile), medium (greater than or equal to 30th to less than 70th percentile) and high (greater than or equal to 70th percentile)",
+  "r_factor_map": [
+   {
+    "r_factor": "0.4",
+    "condition": "low variance & high mean (mean greater than or equal to 85th percentile)"
+   },
+   {
+    "r_factor": "0.3",
+    "condition": "medium variance & high mean (mean greater than or equal to 85th percentile)"
+   },
+   {
+    "r_factor": "0.2",
+    "condition": "low variance & relatively high mean (mean greater than or equal to 65th & less than 85th percentile)"
+   },
+   {
+    "r_factor": "0.1",
+    "condition": "medium variance & relatively high mean (mean greater than or equal to 65th & less than 85th percentile)"
+   },
+   {
+    "r_factor": "0.0",
+    "condition": "all other contracts"
+   }
+  ],
+  "thresholds_note": "Final threshold values (65th/85th percentile of means; 30th/70th percentile of weighted variances) are PUBLISHED in Tables 8-9 \u2014 no recomputation from unpublished distributions is needed. Disaster rule: 'Affected contracts with 60% or more of their enrollees impacted by a 2022 disaster are excluded from the determination of the performance summary and variance thresholds for the Reward Factor.' (p. 17)",
+  "table_8_performance_summary_thresholds": [
+   {
+    "improvement": "With",
+    "new_measures": "With",
+    "percentile": "65th",
+    "part_c": "3.783333",
+    "part_d_mapd": "3.702703",
+    "part_d_pdp": "3.500000",
+    "overall": "3.700515"
+   },
+   {
+    "improvement": "With",
+    "new_measures": "With",
+    "percentile": "85th",
+    "part_c": "4.121212",
+    "part_d_mapd": "4.000000",
+    "part_d_pdp": "3.857143",
+    "overall": "3.989691"
+   },
+   {
+    "improvement": "With",
+    "new_measures": "Without",
+    "percentile": "65th",
+    "part_c": "3.810345",
+    "part_d_mapd": "3.702703",
+    "part_d_pdp": "3.500000",
+    "overall": "3.724138"
+   },
+   {
+    "improvement": "With",
+    "new_measures": "Without",
+    "percentile": "85th",
+    "part_c": "4.169231",
+    "part_d_mapd": "4.000000",
+    "part_d_pdp": "3.857143",
+    "overall": "4.030928"
+   },
+   {
+    "improvement": "Without",
+    "new_measures": "With",
+    "percentile": "65th",
+    "part_c": "3.848485",
+    "part_d_mapd": "3.71875",
+    "part_d_pdp": "3.631579",
+    "overall": "3.741573"
+   },
+   {
+    "improvement": "Without",
+    "new_measures": "With",
+    "percentile": "85th",
+    "part_c": "4.169231",
+    "part_d_mapd": "4.09375",
+    "part_d_pdp": "3.937500",
+    "overall": "4.061111"
+   },
+   {
+    "improvement": "Without",
+    "new_measures": "Without",
+    "percentile": "65th",
+    "part_c": "3.873016",
+    "part_d_mapd": "3.71875",
+    "part_d_pdp": "3.631579",
+    "overall": "3.759036"
+   },
+   {
+    "improvement": "Without",
+    "new_measures": "Without",
+    "percentile": "85th",
+    "part_c": "4.225806",
+    "part_d_mapd": "4.09375",
+    "part_d_pdp": "3.937500",
+    "overall": "4.102564"
+   }
+  ],
+  "table_9_variance_thresholds": [
+   {
+    "improvement": "With",
+    "new_measures": "With",
+    "percentile": "30th",
+    "part_c": "0.924375",
+    "part_d_mapd": "0.860382",
+    "part_d_pdp": "0.965801",
+    "overall": "0.972245"
+   },
+   {
+    "improvement": "With",
+    "new_measures": "With",
+    "percentile": "70th",
+    "part_c": "1.482292",
+    "part_d_mapd": "1.536357",
+    "part_d_pdp": "1.548310",
+    "overall": "1.460744"
+   },
+   {
+    "improvement": "With",
+    "new_measures": "Without",
+    "percentile": "30th",
+    "part_c": "0.894302",
+    "part_d_mapd": "0.860382",
+    "part_d_pdp": "0.965801",
+    "overall": "0.952953"
+   },
+   {
+    "improvement": "With",
+    "new_measures": "Without",
+    "percentile": "70th",
+    "part_c": "1.486442",
+    "part_d_mapd": "1.536357",
+    "part_d_pdp": "1.548310",
+    "overall": "1.454437"
+   },
+   {
+    "improvement": "Without",
+    "new_measures": "With",
+    "percentile": "30th",
+    "part_c": "0.876231",
+    "part_d_mapd": "0.806738",
+    "part_d_pdp": "0.751953",
+    "overall": "0.917753"
+   },
+   {
+    "improvement": "Without",
+    "new_measures": "With",
+    "percentile": "70th",
+    "part_c": "1.485714",
+    "part_d_mapd": "1.557540",
+    "part_d_pdp": "1.419580",
+    "overall": "1.489974"
+   },
+   {
+    "improvement": "Without",
+    "new_measures": "Without",
+    "percentile": "30th",
+    "part_c": "0.845782",
+    "part_d_mapd": "0.806738",
+    "part_d_pdp": "0.751953",
+    "overall": "0.893483"
+   },
+   {
+    "improvement": "Without",
+    "new_measures": "Without",
+    "percentile": "70th",
+    "part_c": "1.496943",
+    "part_d_mapd": "1.557540",
+    "part_d_pdp": "1.419580",
+    "overall": "1.479720"
+   }
+  ],
+  "cite": "2024 Star Ratings Technical Notes, p. 22-23, \u201cApplying the Reward Factor, Tables 8-9\u201d; Attachment H, p. 130",
+  "formula_extraction_note": "2024 PDF renders the Attachment H formulas as images (blank in text extraction); the inline variance formula text on p. 22 is also an image. Formula recovered verbatim from the 2025 Technical Notes (identical wording): n * SUMWX / (W * (n-1))."
+ },
+ "overall_rating_rule": {
+  "method_verbatim": "The overall rating for a MA-PD contract is calculated using a weighted average of the Part C and Part D measure stars. The weights assigned to each measure are shown in Attachment G.",
+  "rule": "The overall rating is the weighted mean over ALL rated Part C + Part D MEASURE stars (one pooled weighted average) \u2014 it is NOT a mean of the Part C and Part D summary ratings.",
+  "requires_both_summaries_verbatim": "For MA-PDs to receive an overall rating, the contract must have stars assigned to both the Part C and Part D summary ratings. If an MA-PD contract has only one of the two required summary ratings, the overall rating will show as \u201cNot enough data available.\u201d",
+  "duplicated_measures": "Complaints about the Health/Drug Plan (CTM) and Members Choosing to Leave the Plan (MCLP) appear in both Part C and Part D; only ONE instance of each is used in the overall rating.",
+  "measure_counts_verbatim": "There are a total of 42 measures (30 in Part C, 12 in Part D) in the 2024 Star Ratings. ... These measures share the same data source, so CMS includes only one instance of each of these two measures in the calculation of the overall rating. In addition, the Part C and D improvement measures are not included in the count for the minimum number of measures. Therefore, a total of 38 distinct measures are used in the calculation of the overall rating.",
+  "minimum_rated_measures_table_7": {
+   "overall_rating": {
+    "1876 Cost": "15 of 30*",
+    "CCP w/o SNP": "18 of 35",
+    "CCP with SNP": "19 of 38",
+    "CCP with Only I-SNP": "12 of 24",
+    "MSA": "N/A",
+    "PDP": "N/A",
+    "PFFS": "18 of 35*"
+   }
+  },
+  "table_7_footnotes": [
+   "* Note: Does not apply to MA-Only, 1876 Cost, and PFFS contracts which do not offer drug benefits.",
+   "\u2020 Note: 1876 Cost contracts which do not submit data for the MPF measure must have ratings in 15 out of 29 measures to receive an overall rating."
+  ],
+  "org_type_applicability": "Overall rating exists only for MA-PD contracts (incl. 1876 Cost / PFFS offering drugs). MSA and PDP: N/A. MA-Only: N/A (highest rating is the Part C summary).",
+  "rounding": "Same Table 22 half-star rounding as the summary ratings, applied after reward factor + CAI + improvement hold-harmless selection.",
+  "cite": "2024 Star Ratings Technical Notes, p. 20-21, \u201cMethodology for Calculating the Overall MA-PD Rating, Table 7\u201d"
+ },
+ "integer_domain_rule": {
+  "verbatim": "A domain rating is the average, unweighted mean, of the domain\u2019s measure stars. To receive a domain rating, a contract must meet or exceed the minimum number of rated measures required for the domain.",
+  "rounding_verbatim": "The domain ratings are the unweighted average of the star measures and are rounded to the nearest integer.",
+  "rounding_note": "Rounded to the nearest integer; the Technical Notes state no explicit tie rule for domain ratings, but the document-wide 'traditional rounding rules' (5 rounds up) govern all rounding (see precision_rule).",
+  "minimum_measures_rule_verbatim": "If the total number of measures that comprise the domain for a contract type is odd, divide the number of measures in the domain by two and round the quotient to the next whole number. If the total number of measures that comprise the domain for a contract type is even, divide the number of measures in the domain by two and add one to the quotient.",
+  "table_5": {
+   "HD1 Staying Healthy: Screenings, Tests and Vaccines (C)": {
+    "1876 Cost": "3 of 4",
+    "CCP w/o SNP": "3 of 4",
+    "CCP with SNP": "3 of 4",
+    "CCP with Only I-SNP": "2 of 2",
+    "MSA": "3 of 4",
+    "PDP": "N/A",
+    "PFFS": "3 of 4"
+   },
+   "HD2 Managing Chronic (Long Term) Conditions (C)": {
+    "1876 Cost": "5 of 8",
+    "CCP w/o SNP": "6 of 11",
+    "CCP with SNP": "8 of 14",
+    "CCP with Only I-SNP": "6 of 10",
+    "MSA": "6 of 11",
+    "PDP": "N/A",
+    "PFFS": "6 of 11"
+   },
+   "HD3 Member Experience with Health Plan (C)": {
+    "1876 Cost": "4 of 6",
+    "CCP w/o SNP": "4 of 6",
+    "CCP with SNP": "4 of 6",
+    "CCP with Only I-SNP": "N/A",
+    "MSA": "4 of 6",
+    "PDP": "N/A",
+    "PFFS": "4 of 6"
+   },
+   "HD4 Member Complaints and Changes in the Health Plan's Performance (C)": {
+    "1876 Cost": "2 of 3",
+    "CCP w/o SNP": "2 of 3",
+    "CCP with SNP": "2 of 3",
+    "CCP with Only I-SNP": "2 of 3",
+    "MSA": "2 of 3",
+    "PDP": "N/A",
+    "PFFS": "2 of 3"
+   },
+   "HD5 Health Plan Customer Service (C)": {
+    "1876 Cost": "2 of 2",
+    "CCP w/o SNP": "2 of 3",
+    "CCP with SNP": "2 of 3",
+    "CCP with Only I-SNP": "2 of 3",
+    "MSA": "2 of 2",
+    "PDP": "N/A",
+    "PFFS": "2 of 3"
+   },
+   "DD1 Drug Plan Customer Service (D)": {
+    "1876 Cost": "N/A*",
+    "CCP w/o SNP": "1 of 1",
+    "CCP with SNP": "1 of 1",
+    "CCP with Only I-SNP": "1 of 1",
+    "MSA": "N/A",
+    "PDP": "1 of 1",
+    "PFFS": "1 of 1*"
+   },
+   "DD2 Member Complaints and Changes in the Drug Plan's Performance (D)": {
+    "1876 Cost": "2 of 3*",
+    "CCP w/o SNP": "2 of 3",
+    "CCP with SNP": "2 of 3",
+    "CCP with Only I-SNP": "2 of 3",
+    "MSA": "N/A",
+    "PDP": "2 of 3",
+    "PFFS": "2 of 3*"
+   },
+   "DD3 Member Experience with the Drug Plan (D)": {
+    "1876 Cost": "2 of 2*",
+    "CCP w/o SNP": "2 of 2",
+    "CCP with SNP": "2 of 2",
+    "CCP with Only I-SNP": "N/A",
+    "MSA": "N/A",
+    "PDP": "2 of 2",
+    "PFFS": "2 of 2*"
+   },
+   "DD4 Drug Safety and Accuracy of Drug Pricing (D)": {
+    "1876 Cost": "4 of 6*",
+    "CCP w/o SNP": "4 of 6",
+    "CCP with SNP": "4 of 6",
+    "CCP with Only I-SNP": "4 of 6",
+    "MSA": "N/A",
+    "PDP": "4 of 6",
+    "PFFS": "4 of 6*"
+   }
+  },
+  "table_5_footnotes": [
+   "* Note: Does not apply to MA-Only, 1876 Cost, and PFFS contracts which do not offer drug benefits.",
+   "\u2020 Note: 1876 Cost contracts that offer drug benefits and which do not submit data for the MPF measure must have a rating in 3 out of 5 Drug Safety and Accuracy of Drug Pricing (DD4) measures to receive a rating in that domain."
+  ],
+  "domains_do_not_feed_overall": "CONFIRMED: summary and overall ratings are weighted means of MEASURE stars directly; domain stars are display-only and are not an input to any summary/overall calculation.",
+  "framework_verbatim": [
+   "Summary: Part C measures are grouped to calculate a Part C Rating; Part D measures are grouped to calculate a Part D Rating. Summary ratings are calculated from the weighted average Star Ratings of the included measures.",
+   "Overall: For MA-PDs, all unique Part C and Part D measures are grouped to create an overall rating. The overall rating is calculated from the weighted average Star Ratings of the included measures."
+  ],
+  "cite": "2024 Star Ratings Technical Notes, p. 18-19, \u201cMethodology for Calculating Stars at the Domain Level, Table 5\u201d; rounding sentence from Calculation Precision, p. 29"
+ },
+ "measure_weights_2024": {
+  "cite": "2024 Star Ratings Technical Notes, p. 127-129, \u201cAttachment G: Weights Assigned to Individual Performance Measures, Tables G-1 and G-2\u201d",
+  "weighting_hierarchy_verbatim": "The summary and overall ratings are calculated as weighted averages of the measure stars. For the 2024 Star Ratings, CMS assigns the highest weight to the improvement measures, followed by patient experience/complaints and access measures, then by outcome and intermediate outcome measures, and finally process measures. New measures included in the Star Ratings are given a weight of 1 for their first year of inclusion in the ratings; in subsequent years the weight associated with the measure weighting category is used. The weights assigned to each measure and their weighting category are shown in Attachment G.",
+  "footnotes": [
+   "*Plan All-Cause Readmissions has a weight of 1 for the 2024 Star Ratings because it is considered a new measure.",
+   "*For contracts whose service area only covers Puerto Rico, the weight for each adherence measure is set to zero (0) when calculating the summary and overall rating."
+  ],
+  "part_c": {
+   "C01": {
+    "name": "Breast Cancer Screening",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "C02": {
+    "name": "Colorectal Cancer Screening",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "C03": {
+    "name": "Annual Flu Vaccine",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "C04": {
+    "name": "Monitoring Physical Activity",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "C05": {
+    "name": "Special Needs Plan (SNP) Care Management",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "C06": {
+    "name": "Care for Older Adults \u2013 Medication Review",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "C07": {
+    "name": "Care for Older Adults \u2013 Pain Assessment",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "C08": {
+    "name": "Osteoporosis Management in Women who had a Fracture",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "C09": {
+    "name": "Diabetes Care \u2013 Eye Exam",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "C10": {
+    "name": "Diabetes Care \u2013 Blood Sugar Controlled",
+    "weighting_category": "Intermediate Outcome Measure",
+    "weight": "3"
+   },
+   "C11": {
+    "name": "Controlling Blood Pressure",
+    "weighting_category": "Intermediate Outcome Measure",
+    "weight": "3"
+   },
+   "C12": {
+    "name": "Reducing the Risk of Falling",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "C13": {
+    "name": "Improving Bladder Control",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "C14": {
+    "name": "Medication Reconciliation Post-Discharge",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "C15": {
+    "name": "Plan All-Cause Readmissions",
+    "weighting_category": "Outcome Measure",
+    "weight": "1",
+    "note": "Printed as '1*': weight of 1 for the 2024 Star Ratings because it is considered a new measure."
+   },
+   "C16": {
+    "name": "Statin Therapy for Patients with Cardiovascular Disease",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "C17": {
+    "name": "Transitions of Care",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "C18": {
+    "name": "Follow-up after Emergency Department Visit for People with Multiple High-Risk Chronic Conditions",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "C19": {
+    "name": "Getting Needed Care",
+    "weighting_category": "Patients\u2019 Experience and Complaints Measure",
+    "weight": "4"
+   },
+   "C20": {
+    "name": "Getting Appointments and Care Quickly",
+    "weighting_category": "Patients\u2019 Experience and Complaints Measure",
+    "weight": "4"
+   },
+   "C21": {
+    "name": "Customer Service",
+    "weighting_category": "Patients\u2019 Experience and Complaints Measure",
+    "weight": "4"
+   },
+   "C22": {
+    "name": "Rating of Health Care Quality",
+    "weighting_category": "Patients\u2019 Experience and Complaints Measure",
+    "weight": "4"
+   },
+   "C23": {
+    "name": "Rating of Health Plan",
+    "weighting_category": "Patients\u2019 Experience and Complaints Measure",
+    "weight": "4"
+   },
+   "C24": {
+    "name": "Care Coordination",
+    "weighting_category": "Patients\u2019 Experience and Complaints Measure",
+    "weight": "4"
+   },
+   "C25": {
+    "name": "Complaints about the Health Plan",
+    "weighting_category": "Patients\u2019 Experience and Complaints Measure",
+    "weight": "4"
+   },
+   "C26": {
+    "name": "Members Choosing to Leave the Plan",
+    "weighting_category": "Patients\u2019 Experience and Complaints Measure",
+    "weight": "4"
+   },
+   "C27": {
+    "name": "Health Plan Quality Improvement",
+    "weighting_category": "Improvement Measure",
+    "weight": "5"
+   },
+   "C28": {
+    "name": "Plan Makes Timely Decisions about Appeals",
+    "weighting_category": "Measures Capturing Access",
+    "weight": "4"
+   },
+   "C29": {
+    "name": "Reviewing Appeals Decisions",
+    "weighting_category": "Measures Capturing Access",
+    "weight": "4"
+   },
+   "C30": {
+    "name": "Call Center \u2013 Foreign Language Interpreter and TTY Availability",
+    "weighting_category": "Measures Capturing Access",
+    "weight": "4"
+   }
+  },
+  "part_d": {
+   "D01": {
+    "name": "Call Center \u2013 Foreign Language Interpreter and TTY Availability",
+    "weighting_category": "Measures Capturing Access",
+    "weight": "4"
+   },
+   "D02": {
+    "name": "Complaints about the Drug Plan",
+    "weighting_category": "Patients\u2019 Experience and Complaints Measure",
+    "weight": "4"
+   },
+   "D03": {
+    "name": "Members Choosing to Leave the Plan",
+    "weighting_category": "Patients\u2019 Experience and Complaints Measure",
+    "weight": "4"
+   },
+   "D04": {
+    "name": "Drug Plan Quality Improvement",
+    "weighting_category": "Improvement Measure",
+    "weight": "5"
+   },
+   "D05": {
+    "name": "Rating of Drug Plan",
+    "weighting_category": "Patients\u2019 Experience and Complaints Measure",
+    "weight": "4"
+   },
+   "D06": {
+    "name": "Getting Needed Prescription Drugs",
+    "weighting_category": "Patients\u2019 Experience and Complaints Measure",
+    "weight": "4"
+   },
+   "D07": {
+    "name": "MPF Price Accuracy",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "D08": {
+    "name": "Medication Adherence for Diabetes Medications",
+    "weighting_category": "Intermediate Outcome Measure",
+    "weight": "3",
+    "note": "Puerto Rico-only contracts: weight 0."
+   },
+   "D09": {
+    "name": "Medication Adherence for Hypertension (RAS antagonists)",
+    "weighting_category": "Intermediate Outcome Measure",
+    "weight": "3",
+    "note": "Puerto Rico-only contracts: weight 0."
+   },
+   "D10": {
+    "name": "Medication Adherence for Cholesterol (Statins)",
+    "weighting_category": "Intermediate Outcome Measure",
+    "weight": "3",
+    "note": "Puerto Rico-only contracts: weight 0."
+   },
+   "D11": {
+    "name": "MTM Program Completion Rate for CMR",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   },
+   "D12": {
+    "name": "Statin Use in Persons with Diabetes (SUPD)",
+    "weighting_category": "Process Measure",
+    "weight": "1"
+   }
+  }
+ },
+ "precision_rule": {
+  "verbatim": "The improvement measures, summary, and overall ratings are calculated with at least six digits of precision after the decimal whenever the data allow it. The HEDIS measure scores have two digits of precision after the decimal. All other measures have at least six digits of precision when used in the improvement calculation.",
+  "sas_verbatim": "CMS and its contractors have always used software called SAS (an integrated system of software products provided by SAS Institute Inc.) to perform the calculations used in producing the Star Ratings. For all measures, except the improvement measures, the precision used in scoring the measure is indicated next to the label \u201cData Display\u201d within the detailed description of each measure.",
+  "no_replication_verbatim": "It is not possible to replicate CMS\u2019s calculations exactly due to factors including, but not limited to: using published measure data from sources other than CMS\u2019s Star Rating program which use different rounding rules, and exclusion of some contracts\u2019 ratings from publicly-posted data (e.g., terminated contracts).",
+  "where_rounding_occurs": [
+   "Measure SCORES: rounded to the 'Data Display' precision with traditional (5-up) rounding BEFORE cut point analysis (measure-star assignment).",
+   "Measure STARS: integers 1-5; no further rounding.",
+   "Improvement measure scores, summary and overall ratings: carried at >= 6 decimal digits; NOT rounded mid-pipeline.",
+   "Domain ratings: unweighted mean of measure stars, rounded to nearest integer (display only).",
+   "Summary/overall: single terminal rounding to nearest half star per Table 22 after all adjustments."
+  ],
+  "measure_score_rounding_verbatim": "Measure scores are rounded to the precision indicated next to the label \u201cData Display\u201d within the detailed description of each measure. Measure scores are rounded using traditional rounding rules. These are standard \u201cround to nearest\u201d rules prior to cut point analysis. ... For example, a measure listed with a Data Display of \u201cPercentage with no decimal point\u201d that has a value of 83.499999 rounds down to 83, while a value of 83.500000 rounds up to 84.",
+  "cite": "2024 Star Ratings Technical Notes, p. 29, \u201cCalculation Precision\u201d; Rounding Rules for Measure Scores, p. 30"
+ },
+ "special_rules": {
+  "disaster_provisions": {
+   "cite": "2024 Star Ratings Technical Notes, pp. 15-17, \u201cData Handling of Measures for Contracts Affected by a Major Disaster\u201d",
+   "thresholds": "Two thresholds: 25%-or-more and 60%-or-more of the contract's membership at the time of the disaster resided in a FEMA-designated Individual Assistance area.",
+   "new_measure_hold_harmless_overall_verbatim": "Contracts with 25% or more affected members have a hold harmless provision applied which compares the result of a contract\u2019s overall rating \u201cwith\u201d and \u201cwithout\u201d including the new Transitions of Care and Follow-up After Emergency Department Visit for People with Multiple High-Risk Chronic Conditions measures and respecified Plan All-Cause Readmissions measure. If the \u201cwith\u201d result is lower than the \u201cwithout\u201d result, then we use the \u201cwithout\u201d result as the final highest level rating.",
+   "new_measure_hold_harmless_summary_verbatim": "A similar hold harmless provision is applied for the Part C summary ratings. If a contract has 25% or more affected members, the Part C summary rating is calculated \u201cwith\u201d and \u201cwithout\u201d the new Transitions of Care and Follow-up After Emergency Department Visit for People with Multiple High-Risk Chronic Conditions measures and respecified Plan All-Cause Readmissions measure, and if the \u201cwith\u201d result is lower than the \u201cwithout\u201d result, then we use the \u201cwithout\u201d result for the final summary rating.",
+   "best_of_measure_stars": "Contracts with 25%+ affected members receive the higher of the 2023 or 2024 measure stars (and corresponding scores) for CAHPS, HEDIS, HEDIS-HOS, and all other measures (Call Center excluded: no adjustment). If equal, the most recent year's star and score are used.",
+   "improvement_interaction_verbatim": "For affected contracts that reverted back to the data underlying the previous year\u2019s Star Rating for a particular measure for either 2023 or 2024 Star Ratings, that measure is excluded from both the count of measures (used to determine whether the contract has at least half of the measures needed to calculate the relevant improvement measure) and the improvement measures calculation. Affected contracts do not have the option of reverting to the prior year\u2019s improvement rating.",
+   "sixty_percent_rules": [
+    "Reward factor: Affected contracts with 60% or more of their enrollees impacted by a 2022 disaster are excluded from the determination of the performance summary and variance thresholds for the Reward Factor.",
+    "Cut points: For all measures that use the clustering methodology for cut point generation, the measure scores for contracts with 60% or more of their enrollment affected by a disaster are excluded from creating those cut points."
+   ]
+  },
+  "high_performing_icon": {
+   "verbatim": "A contract may receive a high performing icon as a result of its performance on the Parts C and/or D measures. The high performing icon is assigned to an MA-Only contract for achieving a 5-star Part C summary rating, a PDP contract for a 5-star Part D summary rating, and an MA-PD contract for a 5-star overall rating.",
+   "cite": "2024 Star Ratings Technical Notes, p. 30-31, \u201cMethodology for Calculating the High Performing Icon\u201d"
+  },
+  "low_performing_icon": {
+   "verbatim": "A contract can receive a low performing icon as a result of its performance on the Part C and/or Part D summary ratings. The low performing icon is calculated by evaluating the Part C and Part D summary ratings for the current year and the past two years (i.e., the 2022, 2023, and 2024 Star Ratings). If the contract had any combination of Part C and/or Part D summary ratings of 2.5 or lower in all three years of data, it is marked with a low performing icon (LPI). A contract must have a rating in either Part C and/or Part D for all three years to be considered for this icon.",
+   "cite": "2024 Star Ratings Technical Notes, p. 31, \u201cMethodology for Calculating the Low Performing Icon\u201d"
+  },
+  "consolidations": {
+   "verbatim": "In the first year following a consolidation, the measure values used in calculating the Star Ratings of the surviving contract will be based on the enrollment-weighted mean of all contracts in the consolidation (see Attachment B).",
+   "cite": "2024 Star Ratings Technical Notes, p. 31-32, \u201cMergers, Novations, and Consolidations\u201d"
+  },
+  "displayed_vs_computed": "No adjustment alters the displayed overall relative to the computed one beyond the pipeline above; icons are separate flags. Improvement measure NUMERIC scores are not published (only their stars): \u201cThe numeric results of these calculations are not publicly posted; only the measure ratings are reported publicly.\u201d (Improvement Measures, p. 13)"
+ }
+}

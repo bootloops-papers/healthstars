@@ -1,0 +1,134 @@
+{
+ "register": "Six-row dollar record within the resampling groups: the determinate core of the their-procedure register that is eligible for the dollar estimate, i.e. contract-years whose rating from the exact optimizer within the resampling groups differs from the published rating under every one of the 28 sampled orderings (sampled: a 29th could demote), estimated at enrollment x $400-600, single payment-year months, estimate-class, never exact; five further all-orderings-stable rows have no published overall and are counted, never in the dollar estimate. This is the printed '$0.15-0.23 billion' their-procedure-certain register; the conditionality notes of the census apply. Conditional on the assumed group-assignment rule of the paper's Appendix C (see README, 'Assumed readout').",
+ "generator": "src/within_groups_core_dollar.py",
+ "in_dollar_estimate_rows": [
+  {
+   "year": "2024",
+   "contract_id": "H3805",
+   "direction": "DOWN",
+   "enrollment": 220404,
+   "enrollment_data_month": "2025-12",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -88161600,
+    "mid": -110202000,
+    "hi": -132242400
+   }
+  },
+  {
+   "year": "2025",
+   "contract_id": "H5262",
+   "direction": "DOWN",
+   "enrollment": 18984,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": -7593600,
+    "mid": -9492000,
+    "hi": -11390400
+   }
+  },
+  {
+   "year": "2025",
+   "contract_id": "H8547",
+   "direction": "UP",
+   "enrollment": 1553,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 621200,
+    "mid": 776500,
+    "hi": 931800
+   }
+  },
+  {
+   "year": "2026",
+   "contract_id": "H1607",
+   "direction": "UP",
+   "enrollment": 8153,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 3261200,
+    "mid": 4076500,
+    "hi": 4891800
+   }
+  },
+  {
+   "year": "2026",
+   "contract_id": "H4141",
+   "direction": "UP",
+   "enrollment": 125206,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 50082400,
+    "mid": 62603000,
+    "hi": 75123600
+   }
+  },
+  {
+   "year": "2026",
+   "contract_id": "H6202",
+   "direction": "UP",
+   "enrollment": 6703,
+   "enrollment_data_month": "2026-07",
+   "est_annual_qbp_revenue_delta_usd": {
+    "lo": 2681200,
+    "mid": 3351500,
+    "hi": 4021800
+   }
+  }
+ ],
+ "counted_not_in_dollar_estimate": [
+  {
+   "year": "2024",
+   "contract_id": "H2591",
+   "direction": "DOWN",
+   "enrollment": 510,
+   "enrollment_data_month": "2025-12",
+   "reason": "NO-PUBLISHED-OVERALL: counted, never in the dollar estimate (same register as the criterion census)"
+  },
+  {
+   "year": "2025",
+   "contract_id": "H3041",
+   "direction": "DOWN",
+   "enrollment": 2267,
+   "enrollment_data_month": "2026-07",
+   "reason": "NO-PUBLISHED-OVERALL: counted, never in the dollar estimate (same register as the criterion census)"
+  },
+  {
+   "year": "2025",
+   "contract_id": "H9909",
+   "direction": "DOWN",
+   "enrollment": 731,
+   "enrollment_data_month": "2026-07",
+   "reason": "NO-PUBLISHED-OVERALL: counted, never in the dollar estimate (same register as the criterion census)"
+  },
+  {
+   "year": "2026",
+   "contract_id": "H5232",
+   "direction": "UP",
+   "enrollment": 2124,
+   "enrollment_data_month": "2026-07",
+   "reason": "NO-PUBLISHED-OVERALL: counted, never in the dollar estimate (same register as the criterion census)"
+  },
+  {
+   "year": "2026",
+   "contract_id": "H8845",
+   "direction": "UP",
+   "enrollment": 1614,
+   "enrollment_data_month": "2026-07",
+   "reason": "NO-PUBLISHED-OVERALL: counted, never in the dollar estimate (same register as the criterion census)"
+  }
+ ],
+ "summary": {
+  "n_in_dollar_estimate": 6,
+  "n_counted": 5,
+  "n_up": 4,
+  "n_down": 2,
+  "enrollment": 381003,
+  "up_enrollment": 141615,
+  "down_enrollment": 239388,
+  "gross_usd": {
+   "lo": 152401200,
+   "mid": 190501500,
+   "hi": 228601800
+  }
+ }
+}

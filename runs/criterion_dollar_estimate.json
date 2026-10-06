@@ -1,0 +1,401 @@
+{
+ "generator": "src/criterion_dollar_estimate_build.py",
+ "register": "Estimate-class dollar attachment to the verified criterion flip census (order-free: published stars versus the stars under the stated minimum computed exactly on the full trimmed sample; runs/criterion_census.json, independently recounted in runs/criterion_recount_stored.json). The headline basis is the criterion census at the order-free exact optimum; the earlier basis, the 23 flips exact at the four-order collapse envelope, is kept as the prior-basis record. Everything dollar-denominated is an estimate, not exact: single-month enrollment snapshots joined by contract ID; $500/enrollee/yr midpoint with a $400-$600 band from public actuarial and policy commentary. Misallocation framing: gross, two-directional, payments to the wrong insurers; never a net-cost-to-taxpayer claim; net fields are record-side only and never print.",
+ "inputs": {
+  "flip_set": "runs/criterion_census.json flips_criterion (qbp_priceable rows), verified by the stored recount runs/criterion_recount_stored.json",
+  "prior_basis": "runs/dollar_estimate_collapse23.json (the 23 flips exact at the collapse envelope; prior basis)",
+  "enrollment_files": [
+   {
+    "file": "data/raw/enrollment/Monthly_Report_By_Contract_2025_12/Monthly_Report_By_Contract_2025_12.csv",
+    "md5": "e6334460a402da1dbc58f70e33a61306",
+    "data_month": "2025-12"
+   },
+   {
+    "file": "data/raw/enrollment/Monthly_Report_By_Contract_2026_07/Monthly_Report_By_Contract_2026_07.csv",
+    "md5": "0b28c6c82a70aaf3130699e995a311aa",
+    "data_month": "2026-07"
+   }
+  ],
+  "enrollment_provenance": "data/raw/enrollment/SOURCES_enrollment.txt"
+ },
+ "estimate_basis": {
+  "per_enrollee_annual_qbp_value_usd": {
+   "mid": 500.0,
+   "lo": 400.0,
+   "hi": 600.0
+  },
+  "what_it_represents": "Approximate annual MA revenue difference per enrollee between QBP bonus status (>=4.0 stars: 5% benchmark bonus, 10% in double-bonus counties) and non-bonus status (<4.0), the boundary every contract in this set crosses.",
+  "public_reference_figures": [
+   {
+    "source": "KFF, 'Medicare Will Spend More Than $13 Billion on the Medicare Advantage Quality Bonus Program in 2026' (Biniek, Ochieng, Freed; July 1, 2026)",
+    "url": "https://www.kff.org/medicare/medicare-will-spend-more-than-13-billion-on-the-medicare-advantage-quality-bonus-program-in-2026/",
+    "figures": "QBP spending $13.4B in 2026 across ~24M bonus-plan enrollees (~$560/enrollee average); segment averages ~$318 (SNP) to ~$466 (employer/union), up to ~$577 for the highest parent org"
+   },
+   {
+    "source": "MedPAC, March 2025 Report to the Congress, Ch. 11 (MA status report)",
+    "url": "https://www.medpac.gov/wp-content/uploads/2025/03/Mar25_Ch11_MedPAC_Report_To_Congress_SEC.pdf",
+    "figures": "'quality bonuses will account for about 3 percent (an estimated $15 billion) of MA payments in 2025'; against ~26M bonus-plan enrollees in 2025 that is ~$575/enrollee"
+   }
+  ]
+ },
+ "reference_figure_notes": [
+  "the ~$560 and ~$575 per-enrollee figures in estimate_basis are DERIVED ratios (neither source prints an overall per-enrollee average)",
+  "$600 is not a ceiling: MedPAC's $15B over its own 69%-of-MA bonus-enrollee count (~24M) implies ~$620/enrollee",
+  "KFF's segment averages ($318 SNP / $381 individual / $466 employer) are diluted over ALL enrollees of each plan type, not per-bonus-enrollee \u2014 conservative but not apples-to-apples",
+  "ACA benchmark growth caps can shrink the realized bonus below 5% (to $0) in capped counties \u2014 one more reason $400 is not a floor"
+ ],
+ "framing": {
+  "unit": "counts are the machine fields n_flips_of_record_priced, priced_distinct_contracts, priced_multi_year_contracts and n_rows_counted_never_priced; enrollment totals are enrollee-payment-years; H8547 flips down in CY2025 (1,792) and up in CY2026 (1,553)",
+  "time_scope": "gross/net totals sum three payment years (CY2025+CY2026+CY2027); they are not an annual rate; print totals as 'summed over payment years 2025 through 2027' with the per-year split",
+  "direction_convention": "UP = the criterion's answer gains bonus status versus published (denied money); DOWN = loses it (payments above the criterion's answer); both are misallocation, neither prints as a taxpayer cost",
+  "temporal_blend": "CY2025 is a completed payment year; CY2027 is prospective (estimated on the 2026-07 proxy month); the 6/17/2026 upward-only 2027-QBP recalculation is not decidable at the contract level from the public record (stored check, data/raw/sy2026_recalc2027qbp/)",
+  "full_set_split": "18 UP / 62 DOWN QBP-relevant (printed grain; 2 endpoint-conditional UP candidates demoted, listed); 8 PDP counted",
+  "conditionality": "improvement/CAHPS held at published stars; guardrail against published prior-year boundaries (this-year-corrected, history as published); docsonly score list; 2026 D07 MA-PD, with fewer than five distinct scores (all trimmed scores identical), held at published"
+ },
+ "aggregates_per_payment_year": {
+  "CY2025": {
+   "n_contract_years": 11,
+   "total_enrollment": 1716820,
+   "up_direction": {
+    "n": 5,
+    "enrollment": 88838,
+    "gross_annual_usd": {
+     "lo": 35535200.0,
+     "mid": 44419000.0,
+     "hi": 53302800.0
+    }
+   },
+   "down_direction": {
+    "n": 6,
+    "enrollment": 1627982,
+    "gross_annual_usd": {
+     "lo": 651192800.0,
+     "mid": 813991000.0,
+     "hi": 976789200.0
+    }
+   },
+   "gross_total_usd": {
+    "note": "gross magnitude, both directions; misallocation register (payments to the wrong insurers in both directions), never a net-cost claim",
+    "lo": 686728000.0,
+    "mid": 858410000.0,
+    "hi": 1030092000.0
+   },
+   "net_usd_common_value": {
+    "note": "net = (up_enrollment - down_enrollment) x v, v swept over the band; never prints",
+    "mid": -769572000.0,
+    "lo": -923486400.0,
+    "hi": -615657600.0
+   }
+  },
+  "CY2026": {
+   "n_contract_years": 15,
+   "total_enrollment": 411178,
+   "up_direction": {
+    "n": 6,
+    "enrollment": 72227,
+    "gross_annual_usd": {
+     "lo": 28890800.0,
+     "mid": 36113500.0,
+     "hi": 43336200.0
+    }
+   },
+   "down_direction": {
+    "n": 9,
+    "enrollment": 338951,
+    "gross_annual_usd": {
+     "lo": 135580400.0,
+     "mid": 169475500.0,
+     "hi": 203370600.0
+    }
+   },
+   "gross_total_usd": {
+    "note": "gross magnitude, both directions; misallocation register (payments to the wrong insurers in both directions), never a net-cost claim",
+    "lo": 164471200.0,
+    "mid": 205589000.0,
+    "hi": 246706800.0
+   },
+   "net_usd_common_value": {
+    "note": "net = (up_enrollment - down_enrollment) x v, v swept over the band; never prints",
+    "mid": -133362000.0,
+    "lo": -160034400.0,
+    "hi": -106689600.0
+   }
+  },
+  "CY2027": {
+   "n_contract_years": 8,
+   "total_enrollment": 163036,
+   "up_direction": {
+    "n": 5,
+    "enrollment": 99441,
+    "gross_annual_usd": {
+     "lo": 39776400.0,
+     "mid": 49720500.0,
+     "hi": 59664600.0
+    }
+   },
+   "down_direction": {
+    "n": 3,
+    "enrollment": 63595,
+    "gross_annual_usd": {
+     "lo": 25438000.0,
+     "mid": 31797500.0,
+     "hi": 38157000.0
+    }
+   },
+   "gross_total_usd": {
+    "note": "gross magnitude, both directions; misallocation register (payments to the wrong insurers in both directions), never a net-cost claim",
+    "lo": 65214400.0,
+    "mid": 81518000.0,
+    "hi": 97821600.0
+   },
+   "net_usd_common_value": {
+    "note": "net = (up_enrollment - down_enrollment) x v, v swept over the band; never prints",
+    "mid": 17923000.0,
+    "lo": 14338400.0,
+    "hi": 21507600.0
+   }
+  }
+ },
+ "aggregates": {
+  "priced_of_record": {
+   "n_contract_years": 34,
+   "total_enrollment": 2291034,
+   "up_direction": {
+    "n": 16,
+    "enrollment": 260506,
+    "gross_annual_usd": {
+     "lo": 104202400.0,
+     "mid": 130253000.0,
+     "hi": 156303600.0
+    }
+   },
+   "down_direction": {
+    "n": 18,
+    "enrollment": 2030528,
+    "gross_annual_usd": {
+     "lo": 812211200.0,
+     "mid": 1015264000.0,
+     "hi": 1218316800.0
+    }
+   },
+   "gross_total_usd": {
+    "note": "gross magnitude, both directions; misallocation register (payments to the wrong insurers in both directions), never a net-cost claim",
+    "lo": 916413600.0,
+    "mid": 1145517000.0,
+    "hi": 1374620400.0
+   },
+   "net_usd_common_value": {
+    "note": "net = (up_enrollment - down_enrollment) x v, v swept over the band; never prints",
+    "mid": -885011000.0,
+    "lo": -1062013200.0,
+    "hi": -708008800.0
+   }
+  },
+  "largest_single_contract_band": {
+   "contract_id": "H0524",
+   "star_year": "2024",
+   "direction": "DOWN",
+   "enrollment": 1355332,
+   "share_of_total_enrollment": 0.5916,
+   "est_qbp_revenue_delta_usd": {
+    "lo": -542132800.0,
+    "mid": -677666000.0,
+    "hi": -813199200.0
+   },
+   "thin_margin_note": "published rating sits ~0.030 above the 3.75 rounding edge; prints with the largest-row disclosure"
+  }
+ },
+ "n_flips_of_record_priced": 34,
+ "n_rows_counted_never_priced": {
+  "pdp": 10,
+  "cost_contracts": 2,
+  "no_published_overall": 8
+ },
+ "counted_never_priced_cost": [
+  {
+   "year": "2026",
+   "contract_id": "H2461",
+   "direction": "UP",
+   "enrollment": 47233,
+   "reason": "COST-CONTRACT: 1876 Cost, no QBP attaches (83 FR 16520, stored FR-2018-04-16 PDF)"
+  },
+  {
+   "year": "2026",
+   "contract_id": "H2462",
+   "direction": "UP",
+   "enrollment": 2762,
+   "reason": "COST-CONTRACT: 1876 Cost, no QBP attaches (83 FR 16520, stored FR-2018-04-16 PDF)"
+  }
+ ],
+ "counted_never_priced_no_published_overall": [
+  {
+   "year": "2024",
+   "contract_id": "H2591",
+   "direction": "DOWN",
+   "enrollment": 510,
+   "published": "Not enough data available"
+  },
+  {
+   "year": "2025",
+   "contract_id": "H3041",
+   "direction": "DOWN",
+   "enrollment": 2267,
+   "published": "Not enough data available"
+  },
+  {
+   "year": "2025",
+   "contract_id": "H4490",
+   "direction": "DOWN",
+   "enrollment": 768,
+   "published": "Not enough data available"
+  },
+  {
+   "year": "2025",
+   "contract_id": "H6852",
+   "direction": "DOWN",
+   "enrollment": 8164,
+   "published": "Not enough data available"
+  },
+  {
+   "year": "2025",
+   "contract_id": "H9909",
+   "direction": "DOWN",
+   "enrollment": 731,
+   "published": "Not enough data available"
+  },
+  {
+   "year": "2026",
+   "contract_id": "H1619",
+   "direction": "UP",
+   "enrollment": 4126,
+   "published": "Not enough data available"
+  },
+  {
+   "year": "2026",
+   "contract_id": "H8095",
+   "direction": "DOWN",
+   "enrollment": 0,
+   "published": "Not enough data available",
+   "note": "enrollment cell also CMS-SUPPRESSED ('*' in the raw monthly CSV; contract present); the row is out of the dollar-estimate set for the no-overall reason"
+  },
+  {
+   "year": "2026",
+   "contract_id": "H8845",
+   "direction": "UP",
+   "enrollment": 1614,
+   "published": "Not enough data available"
+  }
+ ],
+ "ex_CY2027_subtotal": {
+  "note": "the CY2025+CY2026 legs alone (the completed and current payment years). The CY2027 leg is estimated against the July-22-2026 updated determinations (posted by cms.gov inside the replaced data-tables zip); the four 2026 rows whose bonus status flips against only one baseline are carried as june17-overlay-undecidable and are not in the dollar estimate.",
+  "n_contract_years": 26,
+  "total_enrollment": 2127998,
+  "lo": 851199200.0,
+  "mid": 1063999000.0,
+  "hi": 1276798800.0
+ },
+ "endpoint_convention_note": "lo/hi in per-row and gross blocks are the $400/$600 sweep ends (DOWN rows therefore carry lo numerically greater than hi); lo/hi in net_usd_common_value blocks are numerically ordered. Both labeled; net never prints.",
+ "priced_distinct_contracts": 31,
+ "priced_multi_year_contracts": [
+  "H2422",
+  "H2816",
+  "H6988"
+ ],
+ "demoted_endpoint_conditional": [
+  {
+   "year": "2024",
+   "contract_id": "H1304",
+   "direction": "UP",
+   "enrollment": 6775,
+   "mid_usd": 3387500
+  },
+  {
+   "year": "2025",
+   "contract_id": "H5273",
+   "direction": "UP",
+   "enrollment": 11065,
+   "mid_usd": 5532500
+  }
+ ],
+ "zero_priced_rows": [
+  {
+   "year": "2024",
+   "contract_id": "H3749",
+   "direction": "UP",
+   "reason": "absent from the payment-year enrollment month"
+  },
+  {
+   "year": "2024",
+   "contract_id": "H6502",
+   "direction": "DOWN",
+   "reason": "absent from the payment-year enrollment month"
+  },
+  {
+   "year": "2024",
+   "contract_id": "R3332",
+   "direction": "UP",
+   "reason": "absent from the payment-year enrollment month"
+  }
+ ],
+ "pdp_counted_never_priced": [
+  {
+   "year": "2024",
+   "contract_id": "S2468",
+   "direction": "DOWN"
+  },
+  {
+   "year": "2024",
+   "contract_id": "S2893",
+   "direction": "DOWN"
+  },
+  {
+   "year": "2024",
+   "contract_id": "S5660",
+   "direction": "UP"
+  },
+  {
+   "year": "2024",
+   "contract_id": "S8841",
+   "direction": "UP"
+  },
+  {
+   "year": "2025",
+   "contract_id": "S4802",
+   "direction": "UP"
+  },
+  {
+   "year": "2025",
+   "contract_id": "S5660",
+   "direction": "UP"
+  },
+  {
+   "year": "2025",
+   "contract_id": "S5743",
+   "direction": "UP"
+  },
+  {
+   "year": "2025",
+   "contract_id": "S5877",
+   "direction": "UP"
+  },
+  {
+   "year": "2025",
+   "contract_id": "S6875",
+   "direction": "UP"
+  },
+  {
+   "year": "2026",
+   "contract_id": "S4802",
+   "direction": "UP"
+  }
+ ],
+ "prior_basis_bands_for_comparison": {
+  "certified_23_gross_total": {
+   "note": "gross magnitude, both directions",
+   "mid": 437655500.0,
+   "lo": 350124400.0,
+   "hi": 525186600.0
+  },
+  "certified_23_enrollment": 875311
+ }
+}
